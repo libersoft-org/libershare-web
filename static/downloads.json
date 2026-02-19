@@ -1,0 +1,32 @@
+[
+	{
+		"platform": "Windows",
+		"icon": "/icons/windows.svg",
+		"items": [
+			{ "label": "EXE installer", "filename": "download/LiberShare_0.0.1_win_x86_64_setup.exe" },
+			{ "label": "MSI installer", "filename": "download/LiberShare_0.0.1_win_x86_64.msi" },
+			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_win_x86_64.zip" },
+			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
+		]
+	},
+	{
+		"platform": "macOS",
+		"icon": "/icons/macos.svg",
+		"items": [
+			{ "label": "DMG installer", "filename": "download/LiberShare_0.0.1_macos_aarch64.dmg" },
+			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_macos_aarch64.zip" },
+			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
+		]
+	},
+	{
+		"platform": "Linux",
+		"icon": "/icons/linux.svg",
+		"items": [
+			{ "label": "DEB package", "filename": "download/LiberShare_0.0.1_linux_x86_64.deb" },
+			{ "label": "RPM package", "filename": "download/LiberShare_0.0.1_linux_x86_64.rpm" },
+			{ "label": "AppImage", "filename": "download/LiberShare_0.0.1_linux_x86_64.AppImage" },
+			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_linux_x86_64.zip" },
+			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
+		]
+	}
+]
