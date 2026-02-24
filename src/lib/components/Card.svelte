@@ -11,7 +11,7 @@
 
 <style>
 	.card {
-		background: var(--surface);
+		background: var(--background);
 		border: 1px solid var(--border-hover);
 		border-radius: 12px;
 		overflow: hidden;

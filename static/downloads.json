@@ -2,31 +2,93 @@
 	{
 		"platform": "Windows",
 		"icon": "/icons/windows.svg",
-		"items": [
-			{ "label": "EXE installer", "filename": "download/LiberShare_0.0.1_win_x86_64_setup.exe" },
-			{ "label": "MSI installer", "filename": "download/LiberShare_0.0.1_win_x86_64.msi" },
-			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_win_x86_64.zip" },
-			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
-		]
-	},
-	{
-		"platform": "macOS",
-		"icon": "/icons/macos.svg",
-		"items": [
-			{ "label": "DMG installer", "filename": "download/LiberShare_0.0.1_macos_aarch64.dmg" },
-			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_macos_aarch64.zip" },
-			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
+		"architectures": [
+			{
+				"arch": "x86_64",
+				"label": "Intel/AMD 64-bit",
+				"items": [
+					{ "label": "EXE installer", "filename": "download/LiberShare_0.0.1_windows_x86_64_setup.exe" },
+					{ "label": "MSI installer", "filename": "download/LiberShare_0.0.1_windows_x86_64.msi" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_windows_x86_64.zip" }
+				]
+			},
+			{
+				"arch": "aarch64",
+				"label": "ARM 64-bit",
+				"items": [
+					{ "label": "EXE installer", "filename": "download/LiberShare_0.0.1_windows_aarch64_setup.exe" },
+					{ "label": "MSI installer", "filename": "download/LiberShare_0.0.1_windows_aarch64.msi" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_windows_aarch64.zip" }
+				]
+			}
 		]
 	},
 	{
 		"platform": "Linux",
 		"icon": "/icons/linux.svg",
-		"items": [
-			{ "label": "DEB package", "filename": "download/LiberShare_0.0.1_linux_x86_64.deb" },
-			{ "label": "RPM package", "filename": "download/LiberShare_0.0.1_linux_x86_64.rpm" },
-			{ "label": "AppImage", "filename": "download/LiberShare_0.0.1_linux_x86_64.AppImage" },
-			{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_linux_x86_64.zip" },
-			{ "label": "Source code", "href": "https://github.com/libersoft-org/libershare" }
+		"architectures": [
+			{
+				"arch": "x86_64",
+				"label": "Intel/AMD 64-bit",
+				"items": [
+					{ "label": "DEB package", "filename": "download/libershare_0.0.1_amd64.deb" },
+					{ "label": "RPM package", "filename": "download/libershare-0.0.1-1.x86_64.rpm" },
+					{ "label": "Arch package", "filename": "download/libershare-0.0.1-1-x86_64.pkg.tar.xz" },
+					{ "label": "AppImage", "filename": "download/LiberShare_0.0.1_linux_x86_64.AppImage" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_linux_x86_64.zip" }
+				]
+			},
+			{
+				"arch": "aarch64",
+				"label": "ARM 64-bit",
+				"items": [
+					{ "label": "DEB package", "filename": "download/libershare_0.0.1_arm64.deb" },
+					{ "label": "RPM package", "filename": "download/libershare-0.0.1-1.aarch64.rpm" },
+					{ "label": "Arch package", "filename": "download/libershare-0.0.1-1-aarch64.pkg.tar.xz" },
+					{ "label": "AppImage", "filename": "download/LiberShare_0.0.1_linux_aarch64.AppImage" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_linux_aarch64.zip" }
+				]
+			}
+		]
+	},
+	{
+		"platform": "macOS",
+		"icon": "/icons/macos.svg",
+		"architectures": [
+			{
+				"arch": "universal",
+				"label": "Universal (Apple Silicon + Intel)",
+				"items": [
+					{ "label": "DMG installer", "filename": "download/LiberShare_0.0.1_macos_universal.dmg" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_macos_universal.zip" }
+				]
+			},
+			{
+				"arch": "aarch64",
+				"label": "ARM 64-bit (Apple Silicon)",
+				"items": [
+					{ "label": "DMG installer", "filename": "download/LiberShare_0.0.1_macos_aarch64.dmg" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_macos_aarch64.zip" }
+				]
+			},
+			{
+				"arch": "x86_64",
+				"label": "Intel 64-bit",
+				"items": [
+					{ "label": "DMG installer", "filename": "download/LiberShare_0.0.1_macos_x86_64.dmg" },
+					{ "label": "Portable ZIP", "filename": "download/LiberShare_0.0.1_macos_x86_64.zip" }
+				]
+			}
+		]
+	},
+	{
+		"platform": "Source code",
+		"icon": "/icons/github.svg",
+		"architectures": [
+			{
+				"arch": "all",
+				"items": [{ "label": "View on GitHub", "href": "https://github.com/libersoft-org/libershare" }]
+			}
 		]
 	}
 ]

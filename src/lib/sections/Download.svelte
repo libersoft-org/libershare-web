@@ -9,10 +9,16 @@
 		href?: string;
 	}
 
+	interface Architecture {
+		arch: string;
+		label: string;
+		items: DownloadItem[];
+	}
+
 	interface PlatformGroup {
 		platform: string;
 		icon: string;
-		items: DownloadItem[];
+		architectures: Architecture[];
 	}
 
 	import { onMount } from 'svelte';
@@ -57,12 +63,28 @@
 		margin: 0;
 	}
 
-	.download-list {
-		list-style: none;
-		padding: 0;
+	.archs {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
 	}
 
-	.download-list li {
+	.arch .header {
+		padding: 5px 10px;
+		font-size: 1rem;
+		font-weight: bold;
+		color: var(--background);
+		background: var(--foreground);
+		/*border-bottom: 1px solid var(--border-hover);*/
+	}
+
+	.arch .downloads {
+		list-style: none;
+		padding: 0;
+		background-color: var(--background-light);
+	}
+
+	.arch .downloads li {
 		border-bottom: 1px solid var(--border-hover);
 	}
 
@@ -72,7 +94,7 @@
 		gap: 0.75rem;
 		padding: 0.85rem 1.5rem;
 		color: var(--text);
-		transition: background 0.2s;
+		transition: background 0.3s;
 	}
 
 	.download-link:hover {
@@ -106,10 +128,10 @@
 
 	.macos .code {
 		font-family: 'Ubuntu Mono', monospace;
-		background: var(--surface);
-		padding: 0.15em 0.45em;
-		border-radius: 4px;
-		font-size: 0.88rem;
+		background: var(--background-light);
+		padding: 5px;
+		border-radius: 10px;
+		font-size: 1.2rem;
 		color: var(--foreground);
 	}
 </style>
@@ -124,16 +146,23 @@
 						<img class="platform-icon" src={group.icon} alt={group.platform} />
 						<h3>{group.platform}</h3>
 					</div>
-					<ul class="download-list">
-						{#each group.items as item}
-							<li>
-								<a href={item.href ?? `/${item.filename}`} class="download-link" target="_blank" rel="noopener noreferrer">
-									<span class="dl-label">{item.label}</span>
-									<img class="dl-arrow" src="/icons/download.svg" alt="Download" />
-								</a>
-							</li>
+					<div class="archs">
+						{#each group.architectures as arch}
+							<div class="arch">
+								{#if arch.label}<div class="header">{arch.label}</div>{/if}
+								<ul class="downloads">
+									{#each arch.items as item}
+										<li>
+											<a href={item.href ?? `/${item.filename}`} class="download-link" target="_blank" rel="noopener noreferrer">
+												<span class="dl-label">{item.label}</span>
+												<img class="dl-arrow" src="/icons/download.svg" alt="Download" />
+											</a>
+										</li>
+									{/each}
+								</ul>
+							</div>
 						{/each}
-					</ul>
+					</div>
 				</Card>
 			{/each}
 		</Cards>
