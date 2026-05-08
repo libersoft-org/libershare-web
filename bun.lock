@@ -7,6 +7,7 @@
       "dependencies": {
         "@csstools/postcss-global-data": "^3.0.0",
         "@prettier/plugin-xml": "^3.4.2",
+        "country-flags": "github:hampusborgos/country-flags",
         "postcss-custom-media": "^11.0.5",
         "prettier": "^3.8.3",
         "prettier-plugin-svelte": "^3.5.1",
@@ -122,6 +123,8 @@
     "clsx": ["clsx@2.1.1", "", {}, "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA=="],
 
     "cookie": ["cookie@0.6.0", "", {}, "sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw=="],
+
+    "country-flags": ["svg-country-flags@github:hampusborgos/country-flags#c09927e", {}, "hampusborgos-country-flags-c09927e", "sha512-51SWbykTXbgITXA9j6PlvDKCH+MqWwnOflYwlJ1V62yJF97D22S2UFyAoZm5m4htFH76SqWDRx5O+est7SvaLg=="],
 
     "deepmerge": ["deepmerge@4.3.1", "", {}, "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="],
 

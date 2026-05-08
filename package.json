@@ -19,6 +19,7 @@
 	"dependencies": {
 		"@csstools/postcss-global-data": "^3.0.0",
 		"@prettier/plugin-xml": "^3.4.2",
+		"country-flags": "github:hampusborgos/country-flags",
 		"postcss-custom-media": "^11.0.5",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^3.5.1"
