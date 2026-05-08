@@ -80,3 +80,6 @@
 		{/each}
 	</div>
 </Section>
+{#if galleryOpen}
+	<Gallery images={images} index={galleryIndex} onClose={closeGallery} onPrev={prevImage} onNext={nextImage} />
+{/if}
