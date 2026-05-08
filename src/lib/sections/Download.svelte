@@ -1,34 +1,63 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { t } from '$lib/scripts/language.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 
 	interface DownloadItem {
-		label: string;
+		labelKey: string;
+		labelVars?: Record<string, string>;
 		filename?: string;
 		href?: string;
 	}
 
 	interface Architecture {
 		arch: string;
-		label: string;
+		labelKey: string;
 		items: DownloadItem[];
 	}
 
 	interface PlatformGroup {
-		platform: string;
+		name?: string;
+		nameKey?: string;
 		icon: string;
 		architectures: Architecture[];
 	}
 
-	import { onMount } from 'svelte';
+	interface DownloadsData {
+		version: string;
+		platforms: PlatformGroup[];
+	}
 
+	function platformLabel(group: PlatformGroup): string {
+		return group.name ?? (group.nameKey ? $t(group.nameKey) : '');
+	}
+
+	function resolveFilename(filename: string | undefined, version: string): string {
+		if (!filename) return '';
+		return filename.replace(/\{version\}/g, version);
+	}
+
+	let version: string = $state('');
 	let downloads: PlatformGroup[] = $state([]);
 
 	onMount(async () => {
 		const res = await fetch('/downloads.json');
-		downloads = await res.json();
+		const data: DownloadsData = await res.json();
+		version = data.version;
+		downloads = data.platforms;
+	});
+
+	let macosIntroParts = $derived.by(() => {
+		const parts = $t('download.macos.intro').split('{error}');
+		return { before: parts[0] ?? '', after: parts[1] ?? '' };
+	});
+
+	let versionParts = $derived.by(() => {
+		const parts = $t('download.version').split('{version}');
+		return { before: parts[0] ?? '', after: parts[1] ?? '' };
 	});
 </script>
 
@@ -38,6 +67,17 @@
 		color: var(--text-muted);
 		margin-bottom: 3rem;
 		font-size: 1.05rem;
+	}
+
+	.version {
+		text-align: center;
+		font-weight: bold;
+		margin-bottom: 1rem;
+		font-size: 2rem;
+	}
+
+	.version-value {
+		color: var(--foreground);
 	}
 
 	.cards-block {
@@ -71,7 +111,6 @@
 		font-weight: bold;
 		color: var(--background);
 		background: var(--foreground);
-		/*border-bottom: 1px solid var(--border-hover);*/
 	}
 
 	.arch .downloads {
@@ -124,28 +163,33 @@
 		font-size: 1.2rem;
 		color: var(--foreground);
 	}
+
+	.bold {
+		font-weight: bold;
+	}
 </style>
 
-<Section id="download" title="Download">
-	<div class="section-desc">Get LiberShare for your platform. All downloads are free and open source.</div>
+<Section id="download" title={$t('download.title')}>
+	{#if version}<div class="version">{versionParts.before}<span class="version-value">{version}</span>{versionParts.after}</div>{/if}
+	<div class="section-desc">{$t('download.description')}</div>
 	<div class="cards-block">
 		<Cards minWidth="300px">
 			{#each downloads as group}
 				<Card noPadding>
 					<div class="platform-header">
-						<Icon img={group.icon} alt={group.platform} size="28px" colorVariable="--foreground" />
-						<h3>{group.platform}</h3>
+						<Icon img={group.icon} alt={platformLabel(group)} size="28px" colorVariable="--foreground" />
+						<h3>{platformLabel(group)}</h3>
 					</div>
 					<div class="archs">
 						{#each group.architectures as arch}
 							<div class="arch">
-								{#if arch.label}<div class="header">{arch.label}</div>{/if}
+								{#if arch.labelKey}<div class="header">{$t(arch.labelKey)}</div>{/if}
 								<ul class="downloads">
 									{#each arch.items as item}
 										<li>
-											<a href={item.href ?? `/${item.filename}`} class="download-link" target="_blank" rel="noopener noreferrer">
-												<span class="dl-label">{item.label}</span>
-											<Icon img="/icons/download.svg" alt="Download" size="20px" colorVariable="--text" />
+											<a href={item.href ?? `/${resolveFilename(item.filename, version)}`} class="download-link" target="_blank" rel="noopener noreferrer">
+												<span class="dl-label">{$t(item.labelKey, item.labelVars)}</span>
+												<Icon img="/icons/download.svg" alt={$t('download.linkAlt')} size="20px" colorVariable="--text" />
 											</a>
 										</li>
 									{/each}
@@ -159,15 +203,15 @@
 		<Cards>
 			<Card>
 				<div class="macos">
-					<div class="label">Important note for macOS users:</div>
-					<div>macOS Gatekeeper blocks unsigned / non-notarized apps downloaded from the internet with a <span class="bold">"is damaged and can't be opened"</span> error.</div>
-					<div>After downloading the DMG or ZIP, run this command in Terminal before opening the app:</div>
+					<div class="label">{$t('download.macos.title')}</div>
+					<div>{macosIntroParts.before}<span class="bold">{$t('download.macos.error')}</span>{macosIntroParts.after}</div>
+					<div>{$t('download.macos.runCommand')}</div>
 					<div class="code">xattr -cr /path/to/LiberShare.app</div>
-					<div>For example, after installing from DMG:</div>
+					<div>{$t('download.macos.exampleDmg')}</div>
 					<div class="code">xattr -cr /Applications/LiberShare.app</div>
-					<div>Or after extracting the ZIP:</div>
+					<div>{$t('download.macos.exampleZip')}</div>
 					<div class="code">xattr -cr ~/Downloads/LiberShare.app</div>
-					<div>This removes the quarantine attribute and allows the app to run.</div>
+					<div>{$t('download.macos.explanation')}</div>
 				</div>
 			</Card>
 		</Cards>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '$lib/scripts/language.ts';
 	import Hero from '$lib/sections/Hero.svelte';
 	import About from '$lib/sections/About.svelte';
 	import Screenshots from '$lib/sections/Screenshots.svelte';
@@ -8,19 +9,19 @@
 </script>
 
 <svelte:head>
-	<title>LiberShare — Decentralized File Sharing</title>
-	<meta name="description" content="LiberShare is a peer-to-peer file sharing software built on modern decentralized technologies." />
+	<title>{$t('site.title')}</title>
+	<meta name="description" content={$t('site.description')} />
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="LiberShare — Decentralized file sharing software" />
-	<meta property="og:description" content="Peer-to-peer file sharing built on modern decentralized technologies. No central servers. No single point of failure." />
+	<meta property="og:title" content={$t('site.ogTitle')} />
+	<meta property="og:description" content={$t('site.ogDescription')} />
 	<meta property="og:image" content="https://libershare.org/favicon.svg" />
 	<meta property="og:url" content="https://libershare.org" />
 	<meta property="og:site_name" content="LiberShare" />
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="LiberShare — decentralized file sharing sofware" />
-	<meta name="twitter:description" content="Peer-to-peer file sharing built on modern decentralized technologies. No central servers. No single point of failure." />
+	<meta name="twitter:title" content={$t('site.ogTitle')} />
+	<meta name="twitter:description" content={$t('site.ogDescription')} />
 	<meta name="twitter:image" content="https://libershare.org/favicon.svg" />
 </svelte:head>
 <!-- Toplist -->

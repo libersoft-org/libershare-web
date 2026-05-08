@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '$lib/scripts/language.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Gallery from '$lib/components/Gallery.svelte';
 
@@ -80,24 +81,20 @@
 	}
 </style>
 
-<Section id="screenshots" title="Screenshots">
+<Section id="screenshots" title={$t('screenshots.title')}>
 	<div class="grid">
 		{#each images as src, i}
 			<div
 				class="thumb"
 				role="button"
 				tabindex="0"
-				aria-label="Open screenshot {i + 1}"
+				aria-label={$t('screenshots.open', { index: String(i + 1) })}
 				data-index={i}
 				onclick={handleThumbClick}
 				onkeydown={handleThumbKey}
 			>
-				<img {src} alt="Screenshot {i + 1}" loading="lazy" />
+				<img {src} alt={$t('screenshots.alt', { index: String(i + 1) })} loading="lazy" />
 			</div>
 		{/each}
 	</div>
 </Section>
-
-{#if galleryOpen}
-	<Gallery {images} index={galleryIndex} onClose={closeGallery} onPrev={prevImage} onNext={nextImage} />
-{/if}

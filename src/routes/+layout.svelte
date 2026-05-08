@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import { syncLanguageFromStorage } from '$lib/scripts/language.ts';
 
 	interface Props {
 		children: import('svelte').Snippet;
@@ -13,22 +14,25 @@
 	let activeSection = $state('');
 
 	const navItems = [
-		{ label: 'About', href: '/#about', id: 'about' },
-		{ label: 'Download', href: '/#download', id: 'download' },
-		{ label: 'Screenshots', href: '/#screenshots', id: 'screenshots' },
-		{ label: 'Comparison', href: '/#comparison', id: 'comparison' },
-		{ label: 'Contact', href: '/#contact', id: 'contact' },
+		{ labelKey: 'menu.about', href: '/#about', id: 'about' },
+		{ labelKey: 'menu.download', href: '/#download', id: 'download' },
+		{ labelKey: 'menu.screenshots', href: '/#screenshots', id: 'screenshots' },
+		{ labelKey: 'menu.comparison', href: '/#comparison', id: 'comparison' },
+		{ labelKey: 'menu.contact', href: '/#contact', id: 'contact' },
 	];
 
-	function toggleMenu() {
+	function toggleMenu(): void {
 		menuOpen = !menuOpen;
 	}
 
-	function closeMenu() {
+	function closeMenu(): void {
 		menuOpen = false;
 	}
 
 	onMount(() => {
+		// Apply persisted language after hydration (SSR snapshot is in default language).
+		syncLanguageFromStorage();
+
 		const sections = navItems.map(item => document.getElementById(item.id)).filter(Boolean) as HTMLElement[];
 		const observer = new IntersectionObserver(
 			entries => {

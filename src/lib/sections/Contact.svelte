@@ -1,22 +1,29 @@
 <script lang="ts">
+	import { t } from '$lib/scripts/language.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Icon from '$lib/components/Icon.svelte';
+
 	interface ContactLink {
+		labelKey: string | null; // null = use raw label (e.g. email)
 		label: string;
 		href: string;
 		icon: string;
 	}
 
 	const contactLinks: ContactLink[] = [
-		{ label: 'info@libersoft.org', href: 'mailto:info@libersoft.org', icon: '/icons/email.svg' },
-		{ label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
-		{ label: 'Telegram Chat Group', href: 'https://t.me/libersoft', icon: '/icons/telegram.svg' },
-		{ label: 'Telegram Announcements', href: 'https://t.me/libersoft_ann', icon: '/icons/telegram.svg' },
-		{ label: 'LinkedIn', href: 'https://www.linkedin.com/company/libersoft-org/', icon: '/icons/linkedin.svg' },
-		{ label: 'Facebook Group', href: 'https://www.facebook.com/groups/libersoft', icon: '/icons/facebook.svg' },
+		{ labelKey: null, label: 'info@libersoft.org', href: 'mailto:info@libersoft.org', icon: '/icons/email.svg' },
+		{ labelKey: 'contact.links.github', label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
+		{ labelKey: 'contact.links.telegramChat', label: 'Telegram Chat Group', href: 'https://t.me/libersoft', icon: '/icons/telegram.svg' },
+		{ labelKey: 'contact.links.telegramAnnouncements', label: 'Telegram Announcements', href: 'https://t.me/libersoft_ann', icon: '/icons/telegram.svg' },
+		{ labelKey: 'contact.links.linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/libersoft-org/', icon: '/icons/linkedin.svg' },
+		{ labelKey: 'contact.links.facebook', label: 'Facebook Group', href: 'https://www.facebook.com/groups/libersoft', icon: '/icons/facebook.svg' },
 	];
+
+	function linkLabel(link: ContactLink, translate: (key: string) => string): string {
+		return link.labelKey ? translate(link.labelKey) : link.label;
+	}
 </script>
 
 <style>
@@ -63,7 +70,7 @@
 	}
 </style>
 
-<Section id="contact" title="Contact">
+<Section id="contact" title={$t('contact.title')}>
 	<Cards gap="2rem" maxWidth="800px">
 		<Card>
 			<h3>LiberSoft</h3>
@@ -71,18 +78,18 @@
 				<p>Liberty Street 1</p>
 				<p>Liberty City</p>
 				<p>LL-00001 Liberland</p>
-				<p class="org-id">Organization ID: LLC230002</p>
+				<p class="org-id">ID: LLC230002</p>
 			</div>
 		</Card>
 
 		<Card>
-			<h3>Get in Touch</h3>
+			<h3>{$t('contact.getInTouch')}</h3>
 			<ul class="contact-list">
 				{#each contactLinks as link}
 					<li>
 						<a href={link.href} target="_blank" rel="noopener noreferrer" class="contact-link">
-							<Icon img={link.icon} alt={link.label} size="20px" colorVariable="--foreground" />
-							<span>{link.label}</span>
+							<Icon img={link.icon} alt={linkLabel(link, $t)} size="20px" colorVariable="--foreground" />
+							<span>{linkLabel(link, $t)}</span>
 						</a>
 					</li>
 				{/each}

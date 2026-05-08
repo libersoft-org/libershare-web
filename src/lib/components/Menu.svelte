@@ -1,6 +1,8 @@
 <script lang="ts">
+	import { t } from '$lib/scripts/language.ts';
+
 	interface NavItem {
-		label: string;
+		labelKey: string;
 		href: string;
 		id: string;
 	}
@@ -71,6 +73,6 @@
 
 <nav class:open>
 	{#each navItems as item}
-		<a href={item.href} class="nav-link" class:active={activeSection === item.id} onclick={onClose}>{item.label}</a>
+		<a href={item.href} class="nav-link" class:active={activeSection === item.id} onclick={onClose}>{$t(item.labelKey)}</a>
 	{/each}
 </nav>

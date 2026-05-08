@@ -1,9 +1,13 @@
 <script lang="ts">
 	import Icon from '$lib/components/Icon.svelte';
+	import { t } from '$lib/scripts/language.ts';
+
 	type Cell = boolean | string;
+
 	interface Props {
 		value: Cell;
 	}
+
 	let { value }: Props = $props();
 
 	function isText(v: Cell): v is string {
@@ -19,7 +23,7 @@
 	}
 
 	function markAlt(v: boolean): string {
-		return v ? 'yes' : 'no';
+		return v ? $t('comparison.yes') : $t('comparison.no');
 	}
 </script>
 

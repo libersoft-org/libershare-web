@@ -1,0 +1,129 @@
+{
+	"site": {
+		"title": "LiberShare — Decentralizované sdílení souborů",
+		"description": "LiberShare je software pro peer-to-peer sdílení souborů postavený na moderních decentralizovaných technologiích.",
+		"ogTitle": "LiberShare — Decentralizovaný software pro sdílení souborů",
+		"ogDescription": "Peer-to-peer sdílení souborů postavené na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání."
+	},
+	"menu": {
+		"about": "O projektu",
+		"download": "Ke stažení",
+		"screenshots": "Snímky obrazovky",
+		"comparison": "Srovnání",
+		"contact": "Kontakt",
+		"toggle": "Přepnout menu",
+		"close": "Zavřít menu",
+		"selectLanguage": "Vybrat jazyk"
+	},
+	"hero": {
+		"title": "LiberShare",
+		"subtitle": "Nová generace peer-to-peer sdílení souborů",
+		"description": "Postaveno na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání.",
+		"download": "Stáhnout"
+	},
+	"about": {
+		"title": "O projektu",
+		"intro": "LiberShare je peer-to-peer platforma nové generace pro sdílení souborů, postavená na moderních decentralizovaných technologiích. Kombinuje intuitivní uživatelské rozhraní s plně decentralizovanou architekturou a poskytuje bezpečné a spolehlivé řešení pro sdílení dat nezávislé na jakékoliv centrální autoritě. Projekt je open source a je distribuován pod licencí {license}.",
+		"license": "Unlicense",
+		"features": {
+			"decentralized": {
+				"title": "Plně decentralizovaná síť",
+				"description": "Žádné centrální servery, žádný jediný bod selhání. Každá síť spravuje vlastní decentralizovanou databázi sdíleného obsahu. Uživatelé automaticky stahují a uchovávají nejnovější verzi a replikují ji mezi sebou. Procházejte a objevujte obsah ve své síti bez závislosti na centralizovaných indexerech nebo trackerech."
+			},
+			"accessControl": {
+				"title": "Detailní řízení přístupu",
+				"description": "Každý si může vytvořit vlastní síť s vlastními pravidly. V každé síti definujte uživatelské role: vlastníky, administrátory, publishery, moderátory a stahovače. Přesně určete, kdo může publikovat, moderovat a stahovat obsah."
+			},
+			"ui": {
+				"title": "Špičkové uživatelské rozhraní",
+				"description": "Úchvatné rozhraní mediálního centra navržené pro desktop, TV i mobilní platformy. Bezproblémově ovládejte klávesnicí, myší, gamepadem nebo dálkovým ovladačem. Pokročilí uživatelé mohou využít rozhraní příkazové řádky a software provozovat jako bezhlavý souborový server."
+			},
+			"dataFormat": {
+				"title": "Datový formát čitelný pro člověka",
+				"description": "Datový formát LISH je založen na JSON, takže je snadné jej vytvářet, číst a porozumět mu. Sdílejte svůj obsah s jasnými, transparentními metadaty, která si může každý snadno prohlédnout."
+			},
+			"security": {
+				"title": "Soukromí a bezpečnost",
+				"description": "Veškerá peer-to-peer komunikace je šifrovaná, takže vaše data zůstávají při přenosu soukromá. Uživatelé se mohou skrýt za VPN pro dodatečnou vrstvu anonymity. LiberShare respektuje vaše soukromí již ze své podstaty."
+			},
+			"crossPlatform": {
+				"title": "Multiplatformní",
+				"description": "K dispozici pro Windows, Linux a macOS. Používejte na libovolném zařízení."
+			}
+		}
+	},
+	"download": {
+		"title": "Ke stažení",
+		"description": "Získejte LiberShare pro svou platformu. Všechny soubory jsou zdarma a open source.",
+		"version": "Aktuální verze: {version}",
+		"linkAlt": "Stáhnout",
+		"platforms": {
+			"sourceCode": "Zdrojový kód"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64bit",
+			"arm64": "ARM 64bit",
+			"universal": "Univerzální (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64bit (Apple Silicon)",
+			"intel64": "Intel 64bit"
+		},
+		"items": {
+			"installer": "{format} instalátor",
+			"package": "{format} balíček",
+			"portableZip": "Přenosný ZIP",
+			"appImage": "AppImage",
+			"viewOnGithub": "Zobrazit na GitHubu"
+		},
+		"macos": {
+			"title": "Důležitá poznámka pro uživatele macOS:",
+			"intro": "macOS Gatekeeper blokuje nepodepsané / neověřené aplikace stažené z internetu chybou {error}.",
+			"error": "\"je poškozen a nelze jej otevřít\"",
+			"runCommand": "Po stažení DMG nebo ZIP spusťte před otevřením aplikace v Terminálu tento příkaz:",
+			"exampleDmg": "Například po instalaci z DMG:",
+			"exampleZip": "Nebo po rozbalení ZIPu:",
+			"explanation": "Tento příkaz odstraní karanténní atribut a umožní spuštění aplikace."
+		}
+	},
+	"screenshots": {
+		"title": "Snímky obrazovky",
+		"open": "Otevřít snímek {index}",
+		"alt": "Snímek obrazovky {index}",
+		"close": "Zavřít galerii",
+		"prev": "Předchozí obrázek",
+		"next": "Další obrázek"
+	},
+	"comparison": {
+		"title": "Srovnání",
+		"feature": "Vlastnost",
+		"libershare": "LiberShare",
+		"bittorrent": "BitTorrent",
+		"dc": "DC++",
+		"yes": "ano",
+		"no": "ne",
+		"partialDht": "Částečně (DHT)",
+		"rows": {
+			"decentralized": "Decentralizovaná síť",
+			"onlineLibrary": "Online knihovna",
+			"builtInSearch": "Vestavěné vyhledávání obsahu",
+			"decentralizedSearch": "Decentralizované vyhledávání obsahu",
+			"parallelDownloads": "Paralelní stahování z více zdrojů",
+			"mediaCenter": "Rozhraní mediálního centra",
+			"gamepad": "Podpora gamepadu",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Kontaktujte nás",
+		"links": {
+			"telegramChat": "Skupina na Telegramu",
+			"telegramAnnouncements": "Oznámení na Telegramu",
+			"linkedin": "LinkedIn",
+			"facebook": "Skupina na Facebooku",
+			"github": "GitHub"
+		}
+	},
+	"footer": {
+		"by": "od"
+	}
+}

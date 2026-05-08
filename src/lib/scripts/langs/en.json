@@ -1,0 +1,129 @@
+{
+	"site": {
+		"title": "LiberShare — Decentralized File Sharing",
+		"description": "LiberShare is a peer-to-peer file sharing software built on modern decentralized technologies.",
+		"ogTitle": "LiberShare — Decentralized file sharing software",
+		"ogDescription": "Peer-to-peer file sharing built on modern decentralized technologies. No central servers. No single point of failure."
+	},
+	"menu": {
+		"about": "About",
+		"download": "Download",
+		"screenshots": "Screenshots",
+		"comparison": "Comparison",
+		"contact": "Contact",
+		"toggle": "Toggle menu",
+		"close": "Close menu",
+		"selectLanguage": "Select language"
+	},
+	"hero": {
+		"title": "LiberShare",
+		"subtitle": "Next generation peer-to-peer file sharing",
+		"description": "Built on modern decentralized technologies. No central servers. No single point of failure.",
+		"download": "Download"
+	},
+	"about": {
+		"title": "About",
+		"intro": "LiberShare is a next-generation peer-to-peer file sharing platform built on modern decentralized technologies. It combines an intuitive user interface with a fully decentralized architecture, providing a secure and reliable solution for data sharing independent of any central authority. The project is open source and distributed under the {license}.",
+		"license": "Unlicense",
+		"features": {
+			"decentralized": {
+				"title": "Fully decentralized network",
+				"description": "No central servers, no single point of failure. Each network maintains its own decentralized database of shared content. Users automatically update and store the latest version and replicate it among themselves. Browse and discover content within your network without relying on centralized indexers or trackers."
+			},
+			"accessControl": {
+				"title": "Fine-grained access control",
+				"description": "Everyone is free to start their own network with its own rules. Define user roles within each network: owners, admins, publishers, moderators and downloaders. Control exactly who can publish, moderate and download content."
+			},
+			"ui": {
+				"title": "Top-notch user interface",
+				"description": "A stunning media center user interface designed for desktop, TV and mobile platforms. Navigate seamlessly with keyboard, mouse, gamepad, or remote control. Power users can leverage a command line interface for running the software as a headless file server."
+			},
+			"dataFormat": {
+				"title": "Human-readable data format",
+				"description": "The LISH data format is based on JSON, making it easy to create, read and understand. Share your content with clear, transparent metadata that anyone can easily inspect."
+			},
+			"security": {
+				"title": "Privacy & security",
+				"description": "All peer-to-peer communication is encrypted, ensuring your data remains private during transfer. Users can hide behind a VPN for an additional layer of anonymity. LiberShare respects your privacy by design."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Available for Windows, Linux and macOS. Use it on any device you prefer."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "Get LiberShare for your platform. All downloads are free and open source.",
+		"version": "Current version: {version}",
+		"linkAlt": "Download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"appImage": "AppImage",
+			"viewOnGithub": "View on GitHub"
+		},
+		"macos": {
+			"title": "Important note for macOS users:",
+			"intro": "macOS Gatekeeper blocks unsigned / non-notarized apps downloaded from the internet with a {error} error.",
+			"error": "\"is damaged and can't be opened\"",
+			"runCommand": "After downloading the DMG or ZIP, run this command in Terminal before opening the app:",
+			"exampleDmg": "For example, after installing from DMG:",
+			"exampleZip": "Or after extracting the ZIP:",
+			"explanation": "This removes the quarantine attribute and allows the app to run."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshots",
+		"open": "Open screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Close gallery",
+		"prev": "Previous image",
+		"next": "Next image"
+	},
+	"comparison": {
+		"title": "Comparison",
+		"feature": "Feature",
+		"libershare": "LiberShare",
+		"bittorrent": "BitTorrent",
+		"dc": "DC++",
+		"yes": "yes",
+		"no": "no",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Decentralized network",
+			"onlineLibrary": "Online library",
+			"builtInSearch": "Built-in content search",
+			"decentralizedSearch": "Decentralized content search",
+			"parallelDownloads": "Multi-source parallel downloads",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad support",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Get in Touch",
+		"links": {
+			"telegramChat": "Telegram Chat Group",
+			"telegramAnnouncements": "Telegram Announcements",
+			"linkedin": "LinkedIn",
+			"facebook": "Facebook Group",
+			"github": "GitHub"
+		}
+	},
+	"footer": {
+		"by": "by"
+	}
+}

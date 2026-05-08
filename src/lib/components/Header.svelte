@@ -1,7 +1,10 @@
 <script lang="ts">
+	import { t } from '$lib/scripts/language.ts';
 	import Menu from './Menu.svelte';
+	import LanguageSwitcher from './LanguageSwitcher.svelte';
+
 	interface NavItem {
-		label: string;
+		labelKey: string;
 		href: string;
 		id: string;
 	}
@@ -12,7 +15,20 @@
 		onToggleMenu: () => void;
 		onCloseMenu: () => void;
 	}
+
 	let { navItems, activeSection, menuOpen, onToggleMenu, onCloseMenu }: Props = $props();
+
+	function handleHamburgerKey(e: KeyboardEvent): void {
+		if (e.key !== 'Enter' && e.key !== ' ') return;
+		e.preventDefault();
+		onToggleMenu();
+	}
+
+	function handleOverlayKey(e: KeyboardEvent): void {
+		if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Escape') return;
+		e.preventDefault();
+		onCloseMenu();
+	}
 </script>
 
 <style>
@@ -35,6 +51,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 1rem;
 	}
 
 	.logo {
@@ -42,6 +59,12 @@
 		font-weight: 700;
 		color: var(--foreground);
 		letter-spacing: 1px;
+	}
+
+	.right {
+		display: flex;
+		align-items: center;
+		gap: 1.25rem;
 	}
 
 	.hamburger {
@@ -84,7 +107,7 @@
 		background: rgba(0, 0, 0, 0.5);
 		z-index: 90;
 		border: none;
-		cursor: default;
+		cursor: pointer;
 	}
 
 	@media (--mobile) {
@@ -97,16 +120,18 @@
 <header class="topbar">
 	<div class="topbar-inner">
 		<a href="/" class="logo">LiberShare</a>
-		<button class="hamburger" class:active={menuOpen} onclick={onToggleMenu} aria-label="Toggle menu">
-			<span></span>
-			<span></span>
-			<span></span>
-		</button>
-
-		<Menu {navItems} {activeSection} open={menuOpen} onClose={onCloseMenu} />
+		<div class="right">
+			<LanguageSwitcher />
+			<Menu {navItems} {activeSection} open={menuOpen} onClose={onCloseMenu} />
+			<div class="hamburger" class:active={menuOpen} role="button" tabindex="0" aria-label={$t('menu.toggle')} aria-expanded={menuOpen} onclick={onToggleMenu} onkeydown={handleHamburgerKey}>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
 	</div>
 </header>
 
 {#if menuOpen}
-	<button class="overlay" onclick={onCloseMenu} aria-label="Close menu"></button>
+	<div class="overlay" role="button" tabindex="0" aria-label={$t('menu.close')} onclick={onCloseMenu} onkeydown={handleOverlayKey}></div>
 {/if}
