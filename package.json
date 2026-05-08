@@ -18,6 +18,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@csstools/postcss-global-data": "^3.0.0",
     "@prettier/plugin-xml": "^3.4.2",
     "postcss-custom-media": "^11.0.5",
     "prettier": "^3.8.3",

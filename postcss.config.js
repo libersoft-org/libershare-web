@@ -1,9 +1,11 @@
+import postcssGlobalData from '@csstools/postcss-global-data';
 import postcssCustomMedia from 'postcss-custom-media';
 
 export default {
 	plugins: [
-		postcssCustomMedia({
-			importFrom: ['src/custom-media.css'],
+		postcssGlobalData({
+			files: ['src/custom-media.css'],
 		}),
+		postcssCustomMedia(),
 	],
 };
