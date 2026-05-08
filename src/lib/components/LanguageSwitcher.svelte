@@ -1,10 +1,16 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { currentLanguage, languages, getFlagURL, openLanguageDialog, t } from '../scripts/language.ts';
 	interface Props {
 		onOpen?: () => void;
 	}
 	let { onOpen }: Props = $props();
+	let mounted = $state(false);
 	let currentLang = $derived(languages.find(l => l.id === $currentLanguage));
+
+	onMount(() => {
+		mounted = true;
+	});
 
 	function handleOpen(): void {
 		onOpen?.();
@@ -60,9 +66,9 @@
 </style>
 
 <div class="trigger" role="button" tabindex="0" aria-label={$t('menu.selectLanguage')} aria-haspopup="dialog" title={currentLang?.nativeLabel ?? ''} onclick={handleClick} onkeydown={handleKey}>
-	{#key $currentLanguage}
-		{#if currentLang}
-			<span class="flag"><img src={getFlagURL(currentLang.id)} alt={currentLang.nativeLabel} draggable="false" /></span>
-		{/if}
-	{/key}
+	{#if mounted && currentLang}
+		<span class="flag"><img src={getFlagURL(currentLang.id)} alt={currentLang.nativeLabel} draggable="false" /></span>
+	{:else}
+		<span class="flag"></span>
+	{/if}
 </div>
