@@ -87,7 +87,7 @@
 		cursor: default;
 	}
 
-	@media (max-width: 768px) {
+	@media (--mobile) {
 		.hamburger {
 			display: block;
 		}

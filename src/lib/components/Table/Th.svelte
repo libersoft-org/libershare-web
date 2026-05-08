@@ -22,7 +22,7 @@
 		background: rgba(255, 209, 0, 0.05);
 	}
 
-	@media (max-width: 600px) {
+	@media (--mobile) {
 		th {
 			padding: 0.75rem 0.5rem;
 			font-size: 0.9rem;

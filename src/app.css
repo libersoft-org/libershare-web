@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
 	color: var(--foreground);
-	font-weight: 700;
+	font-weight: bold;
 }
 
 a {

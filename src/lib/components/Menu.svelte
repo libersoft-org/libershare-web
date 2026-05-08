@@ -39,7 +39,7 @@
 		color: var(--foreground);
 	}
 
-	@media (max-width: 768px) {
+	@media (--mobile) {
 		nav {
 			position: fixed;
 			top: 65px;

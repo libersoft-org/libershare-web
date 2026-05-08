@@ -23,7 +23,7 @@
 		font-weight: 500;
 	}
 
-	@media (max-width: 600px) {
+	@media (--mobile) {
 		td {
 			padding: 0.75rem 0.5rem;
 			font-size: 0.9rem;

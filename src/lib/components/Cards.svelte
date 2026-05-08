@@ -24,7 +24,7 @@
 		max-width: calc(50% - var(--gap) / 2);
 	}
 
-	@media (max-width: 768px) {
+	@media (--mobile) {
 		.cards > :global(*) {
 			max-width: 100%;
 		}

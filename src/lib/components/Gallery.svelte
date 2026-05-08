@@ -126,7 +126,7 @@
 		opacity: 0.8;
 	}
 
-	@media (max-width: 768px) {
+	@media (--mobile) {
 		.nav-prev {
 			left: 0.5rem;
 		}
