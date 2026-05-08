@@ -1,13 +1,11 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-
 	interface Props {
 		children: Snippet;
 		minWidth?: string;
 		gap?: string;
 		maxWidth?: string;
 	}
-
 	let { children, minWidth = '320px', gap = '1.5rem', maxWidth = '' }: Props = $props();
 </script>
 

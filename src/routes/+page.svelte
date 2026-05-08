@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME, PROJECT_URL } from '$lib/scripts/project.ts';
 	import Hero from '$lib/sections/Hero.svelte';
 	import About from '$lib/sections/About.svelte';
 	import Screenshots from '$lib/sections/Screenshots.svelte';
@@ -9,20 +10,20 @@
 </script>
 
 <svelte:head>
-	<title>{$t('site.title')}</title>
-	<meta name="description" content={$t('site.description')} />
+	<title>{$t('site.title', { project: PROJECT_NAME })}</title>
+	<meta name="description" content={$t('site.description', { project: PROJECT_NAME })} />
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content={$t('site.ogTitle')} />
+	<meta property="og:title" content={$t('site.ogTitle', { project: PROJECT_NAME })} />
 	<meta property="og:description" content={$t('site.ogDescription')} />
-	<meta property="og:image" content="https://libershare.org/favicon.svg" />
-	<meta property="og:url" content="https://libershare.org" />
-	<meta property="og:site_name" content="LiberShare" />
+	<meta property="og:image" content="{PROJECT_URL}/favicon.svg" />
+	<meta property="og:url" content={PROJECT_URL} />
+	<meta property="og:site_name" content={PROJECT_NAME} />
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content={$t('site.ogTitle')} />
+	<meta name="twitter:title" content={$t('site.ogTitle', { project: PROJECT_NAME })} />
 	<meta name="twitter:description" content={$t('site.ogDescription')} />
-	<meta name="twitter:image" content="https://libershare.org/favicon.svg" />
+	<meta name="twitter:image" content="{PROJECT_URL}/favicon.svg" />
 </svelte:head>
 <!-- Toplist -->
 <a href="https://www.toplist.cz/stat/1841253/" id="toplistcz1841253" title="TOPlist">

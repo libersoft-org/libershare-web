@@ -1,31 +1,29 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME, PROJECT_REPO_URL } from '$lib/scripts/project.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Icon from '$lib/components/Icon.svelte';
-
 	interface DownloadItem {
 		labelKey: string;
 		labelVars?: Record<string, string>;
 		filename?: string;
 		href?: string;
 	}
-
 	interface Architecture {
 		arch: string;
 		labelKey: string;
+		disabled?: boolean;
 		items: DownloadItem[];
 	}
-
 	interface PlatformGroup {
 		name?: string;
 		nameKey?: string;
 		icon: string;
 		architectures: Architecture[];
 	}
-
 	interface DownloadsData {
 		version: string;
 		platforms: PlatformGroup[];
@@ -35,9 +33,9 @@
 		return group.name ?? (group.nameKey ? $t(group.nameKey) : '');
 	}
 
-	function resolveFilename(filename: string | undefined, version: string): string {
-		if (!filename) return '';
-		return filename.replace(/\{version\}/g, version);
+	function resolveTemplate(value: string | undefined, version: string): string {
+		if (!value) return '';
+		return value.replace(/\{version\}/g, version).replace(/\{project\}/g, PROJECT_NAME).replace(/\{projectLower\}/g, PROJECT_NAME.toLowerCase()).replace(/\{repo\}/g, PROJECT_REPO_URL);
 	}
 
 	let version: string = $state('');
@@ -47,7 +45,7 @@
 		const res = await fetch('/downloads.json');
 		const data: DownloadsData = await res.json();
 		version = data.version;
-		downloads = data.platforms;
+		downloads = data.platforms.map(group => ({ ...group, architectures: group.architectures.filter(arch => !arch.disabled) })).filter(group => group.architectures.length > 0);
 	});
 
 	let macosIntroParts = $derived.by(() => {
@@ -171,7 +169,7 @@
 
 <Section id="download" title={$t('download.title')}>
 	{#if version}<div class="version">{versionParts.before}<span class="version-value">{version}</span>{versionParts.after}</div>{/if}
-	<div class="section-desc">{$t('download.description')}</div>
+	<div class="section-desc">{$t('download.description', { project: PROJECT_NAME })}</div>
 	<div class="cards-block">
 		<Cards minWidth="300px">
 			{#each downloads as group}
@@ -187,7 +185,7 @@
 								<ul class="downloads">
 									{#each arch.items as item}
 										<li>
-											<a href={item.href ?? `/${resolveFilename(item.filename, version)}`} class="download-link" target="_blank" rel="noopener noreferrer">
+											<a href={resolveTemplate(item.href, version) || `/${resolveTemplate(item.filename, version)}`} class="download-link" target="_blank" rel="noopener noreferrer">
 												<span class="dl-label">{$t(item.labelKey, item.labelVars)}</span>
 												<Icon img="/icons/download.svg" alt={$t('download.linkAlt')} size="20px" colorVariable="--text" />
 											</a>
@@ -206,11 +204,11 @@
 					<div class="label">{$t('download.macos.title')}</div>
 					<div>{macosIntroParts.before}<span class="bold">{$t('download.macos.error')}</span>{macosIntroParts.after}</div>
 					<div>{$t('download.macos.runCommand')}</div>
-					<div class="code">xattr -cr /path/to/LiberShare.app</div>
+					<div class="code">xattr -cr /path/to/{PROJECT_NAME}.app</div>
 					<div>{$t('download.macos.exampleDmg')}</div>
-					<div class="code">xattr -cr /Applications/LiberShare.app</div>
+					<div class="code">xattr -cr /Applications/{PROJECT_NAME}.app</div>
 					<div>{$t('download.macos.exampleZip')}</div>
-					<div class="code">xattr -cr ~/Downloads/LiberShare.app</div>
+					<div class="code">xattr -cr ~/Downloads/{PROJECT_NAME}.app</div>
 					<div>{$t('download.macos.explanation')}</div>
 				</div>
 			</Card>

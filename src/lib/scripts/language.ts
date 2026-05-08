@@ -1,22 +1,18 @@
 import { writable, derived, get, type Readable } from 'svelte/store';
 import en from './langs/en.json';
 import cs from './langs/cs.json';
-
 export interface Language {
 	id: string;
 	label: string;
 	nativeLabel: string;
 	flag: string; // ISO 3166-1 alpha-2 country code for flag
 }
-
 export const languages: Language[] = [
 	{ id: 'en', label: 'English', nativeLabel: 'English', flag: 'gb' },
 	{ id: 'cs', label: 'Czech', nativeLabel: 'Čeština', flag: 'cz' },
 ];
-
 const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
-
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const langCache: Record<string, any> = { en, cs };
@@ -98,4 +94,15 @@ export function syncLanguageFromStorage(): void {
 	const id = pickInitialLanguage();
 	if (id !== get(currentLanguage)) setLanguage(id);
 	else document.documentElement.lang = id;
+}
+
+// Global open state for the language picker dialog.
+export const languageDialogOpen = writable<boolean>(false);
+
+export function openLanguageDialog(): void {
+	languageDialogOpen.set(true);
+}
+
+export function closeLanguageDialog(): void {
+	languageDialogOpen.set(false);
 }

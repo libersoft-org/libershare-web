@@ -1,26 +1,30 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
-
+	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	interface NavItem {
 		labelKey: string;
 		href: string;
 		id: string;
 	}
-
 	interface Props {
 		navItems: NavItem[];
 		activeSection: string;
 		open: boolean;
 		onClose: () => void;
 	}
-
 	let { navItems, activeSection, open, onClose }: Props = $props();
 </script>
 
 <style>
 	nav {
 		display: flex;
+		align-items: center;
 		gap: 2rem;
+	}
+
+	.lang {
+		display: flex;
+		align-items: center;
 	}
 
 	.nav-link {
@@ -52,6 +56,7 @@
 			border-left: 1px solid var(--border);
 			box-shadow: var(--shadow);
 			flex-direction: column;
+			align-items: stretch;
 			padding: 0;
 			gap: 0;
 			transform: translateX(100%);
@@ -68,6 +73,12 @@
 			font-size: 1.1rem;
 			border-bottom: 1px solid var(--border);
 		}
+
+		.lang {
+			order: -1;
+			padding: 1rem 2rem;
+			border-bottom: 1px solid var(--border);
+		}
 	}
 </style>
 
@@ -75,4 +86,5 @@
 	{#each navItems as item}
 		<a href={item.href} class="nav-link" class:active={activeSection === item.id} onclick={onClose}>{$t(item.labelKey)}</a>
 	{/each}
+	<div class="lang"><LanguageSwitcher onOpen={onClose} /></div>
 </nav>

@@ -1,8 +1,8 @@
 {
 	"site": {
-		"title": "LiberShare — Decentralizované sdílení souborů",
-		"description": "LiberShare je software pro peer-to-peer sdílení souborů postavený na moderních decentralizovaných technologiích.",
-		"ogTitle": "LiberShare — Decentralizovaný software pro sdílení souborů",
+		"title": "{project} — Decentralizované sdílení souborů",
+		"description": "{project} je software pro peer-to-peer sdílení souborů postavený na moderních decentralizovaných technologiích.",
+		"ogTitle": "{project} — Decentralizovaný software pro sdílení souborů",
 		"ogDescription": "Peer-to-peer sdílení souborů postavené na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání."
 	},
 	"menu": {
@@ -16,14 +16,13 @@
 		"selectLanguage": "Vybrat jazyk"
 	},
 	"hero": {
-		"title": "LiberShare",
 		"subtitle": "Nová generace peer-to-peer sdílení souborů",
 		"description": "Postaveno na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání.",
 		"download": "Stáhnout"
 	},
 	"about": {
 		"title": "O projektu",
-		"intro": "LiberShare je peer-to-peer platforma nové generace pro sdílení souborů, postavená na moderních decentralizovaných technologiích. Kombinuje intuitivní uživatelské rozhraní s plně decentralizovanou architekturou a poskytuje bezpečné a spolehlivé řešení pro sdílení dat nezávislé na jakékoliv centrální autoritě. Projekt je open source a je distribuován pod licencí {license}.",
+		"intro": "{project} je peer-to-peer platforma nové generace pro sdílení souborů, postavená na moderních decentralizovaných technologiích. Kombinuje intuitivní uživatelské rozhraní s plně decentralizovanou architekturou a poskytuje bezpečné a spolehlivé řešení pro sdílení dat nezávislé na jakékoliv centrální autoritě. Projekt je open source a je distribuován pod licencí {license}.",
 		"license": "Unlicense",
 		"features": {
 			"decentralized": {
@@ -44,7 +43,7 @@
 			},
 			"security": {
 				"title": "Soukromí a bezpečnost",
-				"description": "Veškerá peer-to-peer komunikace je šifrovaná, takže vaše data zůstávají při přenosu soukromá. Uživatelé se mohou skrýt za VPN pro dodatečnou vrstvu anonymity. LiberShare respektuje vaše soukromí již ze své podstaty."
+				"description": "Veškerá peer-to-peer komunikace je šifrovaná, takže vaše data zůstávají při přenosu soukromá. Uživatelé se mohou skrýt za VPN pro dodatečnou vrstvu anonymity. {project} respektuje vaše soukromí již ze své podstaty."
 			},
 			"crossPlatform": {
 				"title": "Multiplatformní",
@@ -54,7 +53,7 @@
 	},
 	"download": {
 		"title": "Ke stažení",
-		"description": "Získejte LiberShare pro svou platformu. Všechny soubory jsou zdarma a open source.",
+		"description": "Získejte {project} pro svou platformu. Všechny soubory jsou zdarma a open source.",
 		"version": "Aktuální verze: {version}",
 		"linkAlt": "Stáhnout",
 		"platforms": {
@@ -95,7 +94,6 @@
 	"comparison": {
 		"title": "Srovnání",
 		"feature": "Vlastnost",
-		"libershare": "LiberShare",
 		"bittorrent": "BitTorrent",
 		"dc": "DC++",
 		"yes": "ano",

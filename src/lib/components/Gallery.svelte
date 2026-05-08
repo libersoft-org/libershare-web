@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
-
 	interface Props {
 		images: string[];
 		index: number;
@@ -144,7 +143,6 @@
 </style>
 
 <svelte:window onkeydown={handleKey} />
-
 <div class="backdrop" role="button" tabindex="-1" aria-label="Close gallery" onclick={handleBackdropClick} onkeydown={handleBackdropKey}>
 	<div class="image-wrap">
 		<img src={images[index]} alt="Screenshot {index + 1}" />

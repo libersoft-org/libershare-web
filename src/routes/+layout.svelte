@@ -3,16 +3,17 @@
 	import { onMount } from 'svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { syncLanguageFromStorage } from '$lib/scripts/language.ts';
-
+	import LanguageDialog from '$lib/components/LanguageDialog.svelte';
+	import Splash from '$lib/components/Splash.svelte';
+	import { get } from 'svelte/store';
+	import { currentLanguage, setLanguage, syncLanguageFromStorage } from '$lib/scripts/language.ts';
 	interface Props {
 		children: import('svelte').Snippet;
 	}
-
 	let { children }: Props = $props();
 	let menuOpen = $state(false);
 	let activeSection = $state('');
-
+	let splashVisible = $state(true);
 	const navItems = [
 		{ labelKey: 'menu.about', href: '/#about', id: 'about' },
 		{ labelKey: 'menu.download', href: '/#download', id: 'download' },
@@ -30,8 +31,16 @@
 	}
 
 	onMount(() => {
-		// Apply persisted language after hydration (SSR snapshot is in default language).
+		// SSR snapshot was rendered with the default language ('en'). Force a transition
+		// to the persisted language so all reactive bindings (including <img src>) re-evaluate.
+		const target = get(currentLanguage);
+		setLanguage('en');
+		setLanguage(target);
 		syncLanguageFromStorage();
+		// Hide splash on next frame so language change is committed to the DOM first.
+		requestAnimationFrame(() => {
+			splashVisible = false;
+		});
 
 		const sections = navItems.map(item => document.getElementById(item.id)).filter(Boolean) as HTMLElement[];
 		const observer = new IntersectionObserver(
@@ -62,18 +71,15 @@
 			const x = Math.random() * 100;
 			const y = Math.random() * 100;
 			const size = 20 + Math.random() * 20;
-
 			// fly in vertex direction (up or down) deflected by rotation
 			const angleRad = (rot * Math.PI) / 180;
 			const dist = 150;
 			const tx = (dir === 'up' ? 1 : -1) * Math.sin(angleRad) * dist;
 			const ty = (dir === 'up' ? -1 : 1) * Math.cos(angleRad) * dist;
-
 			const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 			svg.setAttribute('viewBox', '0 0 40 40');
 			svg.style.cssText = `position:absolute;width:${size}px;height:${size}px;left:${x}%;top:${y}%;--r:${rot}deg;--tx:${tx.toFixed(1)}vh;--ty:${ty.toFixed(1)}vh;animation:float-tri ${duration}s linear ${delay}s infinite;`;
 			svg.classList.add('tri');
-
 			const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 			poly.setAttribute('points', points[dir]);
 			svg.appendChild(poly);
@@ -114,11 +120,10 @@
 </style>
 
 <div id="tri-bg" class="triangles"></div>
-
 <Header {navItems} {activeSection} {menuOpen} onToggleMenu={toggleMenu} onCloseMenu={closeMenu} />
-
 <main>
 	{@render children()}
 </main>
-
 <Footer />
+<LanguageDialog />
+<Splash show={splashVisible} />

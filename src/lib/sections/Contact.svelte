@@ -4,14 +4,12 @@
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Icon from '$lib/components/Icon.svelte';
-
 	interface ContactLink {
 		labelKey: string | null; // null = use raw label (e.g. email)
 		label: string;
 		href: string;
 		icon: string;
 	}
-
 	const contactLinks: ContactLink[] = [
 		{ labelKey: null, label: 'info@libersoft.org', href: 'mailto:info@libersoft.org', icon: '/icons/email.svg' },
 		{ labelKey: 'contact.links.github', label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
@@ -81,7 +79,6 @@
 				<p class="org-id">ID: LLC230002</p>
 			</div>
 		</Card>
-
 		<Card>
 			<h3>{$t('contact.getInTouch')}</h3>
 			<ul class="contact-list">

@@ -9,18 +9,19 @@
 					"arch": "x86_64",
 					"labelKey": "download.archs.intelAmd64",
 					"items": [
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "EXE" }, "filename": "download/LiberShare_{version}_windows_x86_64_setup.exe" },
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "MSI" }, "filename": "download/LiberShare_{version}_windows_x86_64.msi" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_windows_x86_64.zip" }
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "EXE" }, "filename": "download/{project}_{version}_windows_x86_64_setup.exe" },
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "MSI" }, "filename": "download/{project}_{version}_windows_x86_64.msi" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_windows_x86_64.zip" }
 					]
 				},
 				{
 					"arch": "aarch64",
 					"labelKey": "download.archs.arm64",
+					"disabled": true,
 					"items": [
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "EXE" }, "filename": "download/LiberShare_{version}_windows_aarch64_setup.exe" },
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "MSI" }, "filename": "download/LiberShare_{version}_windows_aarch64.msi" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_windows_aarch64.zip" }
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "EXE" }, "filename": "download/{project}_{version}_windows_aarch64_setup.exe" },
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "MSI" }, "filename": "download/{project}_{version}_windows_aarch64.msi" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_windows_aarch64.zip" }
 					]
 				}
 			]
@@ -33,22 +34,22 @@
 					"arch": "x86_64",
 					"labelKey": "download.archs.intelAmd64",
 					"items": [
-						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/libershare_{version}_amd64.deb" },
-						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/libershare-{version}-1.x86_64.rpm" },
-						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/libershare-{version}-1-x86_64.pkg.tar.xz" },
-						{ "labelKey": "download.items.appImage", "filename": "download/LiberShare_{version}_linux_x86_64.AppImage" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_linux_x86_64.zip" }
+						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/{projectLower}_{version}_amd64.deb" },
+						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/{projectLower}-{version}-1.x86_64.rpm" },
+						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/{projectLower}-{version}-1-x86_64.pkg.tar.xz" },
+						{ "labelKey": "download.items.appImage", "filename": "download/{project}_{version}_linux_x86_64.AppImage" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_linux_x86_64.zip" }
 					]
 				},
 				{
 					"arch": "aarch64",
 					"labelKey": "download.archs.arm64",
 					"items": [
-						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/libershare_{version}_arm64.deb" },
-						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/libershare-{version}-1.aarch64.rpm" },
-						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/libershare-{version}-1-aarch64.pkg.tar.xz" },
-						{ "labelKey": "download.items.appImage", "filename": "download/LiberShare_{version}_linux_aarch64.AppImage" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_linux_aarch64.zip" }
+						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/{projectLower}_{version}_arm64.deb" },
+						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/{projectLower}-{version}-1.aarch64.rpm" },
+						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/{projectLower}-{version}-1-aarch64.pkg.tar.xz" },
+						{ "labelKey": "download.items.appImage", "filename": "download/{project}_{version}_linux_aarch64.AppImage" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_linux_aarch64.zip" }
 					]
 				}
 			]
@@ -61,24 +62,24 @@
 					"arch": "universal",
 					"labelKey": "download.archs.universal",
 					"items": [
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/LiberShare_{version}_macos_universal.dmg" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_macos_universal.zip" }
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/{project}_{version}_macos_universal.dmg" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_macos_universal.zip" }
 					]
 				},
 				{
 					"arch": "aarch64",
 					"labelKey": "download.archs.appleSilicon",
 					"items": [
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/LiberShare_{version}_macos_aarch64.dmg" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_macos_aarch64.zip" }
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/{project}_{version}_macos_aarch64.dmg" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_macos_aarch64.zip" }
 					]
 				},
 				{
 					"arch": "x86_64",
 					"labelKey": "download.archs.intel64",
 					"items": [
-						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/LiberShare_{version}_macos_x86_64.dmg" },
-						{ "labelKey": "download.items.portableZip", "filename": "download/LiberShare_{version}_macos_x86_64.zip" }
+						{ "labelKey": "download.items.installer", "labelVars": { "format": "DMG" }, "filename": "download/{project}_{version}_macos_x86_64.dmg" },
+						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_macos_x86_64.zip" }
 					]
 				}
 			]
@@ -90,7 +91,7 @@
 				{
 					"arch": "all",
 					"labelKey": "",
-					"items": [{ "labelKey": "download.items.viewOnGithub", "href": "https://github.com/libersoft-org/libershare" }]
+					"items": [{ "labelKey": "download.items.viewOnGithub", "href": "{repo}" }]
 				}
 			]
 		}

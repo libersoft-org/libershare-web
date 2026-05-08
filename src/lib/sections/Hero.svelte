@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME } from '$lib/scripts/project.ts';
 	import Button from '$lib/components/Button.svelte';
 </script>
 
@@ -41,7 +42,7 @@
 </style>
 
 <div class="hero">
-	<h1 class="hero-title">{$t('hero.title')}</h1>
+	<h1 class="hero-title">{PROJECT_NAME}</h1>
 	<p class="hero-subtitle">{$t('hero.subtitle')}</p>
 	<p class="hero-desc">{$t('hero.description')}</p>
 	<div class="hero-actions">

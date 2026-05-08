@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME } from '$lib/scripts/project.ts';
 	import Menu from './Menu.svelte';
-	import LanguageSwitcher from './LanguageSwitcher.svelte';
-
 	interface NavItem {
 		labelKey: string;
 		href: string;
@@ -15,7 +14,6 @@
 		onToggleMenu: () => void;
 		onCloseMenu: () => void;
 	}
-
 	let { navItems, activeSection, menuOpen, onToggleMenu, onCloseMenu }: Props = $props();
 
 	function handleHamburgerKey(e: KeyboardEvent): void {
@@ -119,9 +117,8 @@
 
 <header class="topbar">
 	<div class="topbar-inner">
-		<a href="/" class="logo">LiberShare</a>
+		<a href="/" class="logo">{PROJECT_NAME}</a>
 		<div class="right">
-			<LanguageSwitcher />
 			<Menu {navItems} {activeSection} open={menuOpen} onClose={onCloseMenu} />
 			<div class="hamburger" class:active={menuOpen} role="button" tabindex="0" aria-label={$t('menu.toggle')} aria-expanded={menuOpen} onclick={onToggleMenu} onkeydown={handleHamburgerKey}>
 				<span></span>
@@ -131,7 +128,6 @@
 		</div>
 	</div>
 </header>
-
 {#if menuOpen}
 	<div class="overlay" role="button" tabindex="0" aria-label={$t('menu.close')} onclick={onCloseMenu} onkeydown={handleOverlayKey}></div>
 {/if}

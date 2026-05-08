@@ -1,71 +1,68 @@
 <script lang="ts">
-	import { currentLanguage, languages, setLanguage, getFlagURL, t } from '../scripts/language.ts';
+	import { currentLanguage, languages, getFlagURL, openLanguageDialog, t } from '../scripts/language.ts';
+	interface Props {
+		onOpen?: () => void;
+	}
+	let { onOpen }: Props = $props();
+	let currentLang = $derived(languages.find(l => l.id === $currentLanguage));
 
-	function selectLanguage(id: string): void {
-		setLanguage(id);
+	function handleOpen(): void {
+		onOpen?.();
+		openLanguageDialog();
 	}
 
-	function handleClick(e: MouseEvent): void {
-		const target = e.currentTarget as HTMLElement;
-		const id = target.dataset.lang;
-		if (id) selectLanguage(id);
+	function handleClick(): void {
+		handleOpen();
 	}
 
 	function handleKey(e: KeyboardEvent): void {
 		if (e.key !== 'Enter' && e.key !== ' ') return;
 		e.preventDefault();
-		const target = e.currentTarget as HTMLElement;
-		const id = target.dataset.lang;
-		if (id) selectLanguage(id);
+		handleOpen();
 	}
 </script>
 
 <style>
-	.switcher {
-		display: flex;
+	.trigger {
+		display: inline-flex;
 		align-items: center;
-		gap: 0.4rem;
+		padding: 0.25rem;
+		border-radius: 6px;
+		cursor: pointer;
+		border: 1px solid var(--border);
+		background: var(--background-light);
+		transition:
+			border-color 0.2s,
+			background 0.2s;
+	}
+
+	.trigger:hover {
+		border-color: var(--border-hover);
+		background: var(--hover-bg);
 	}
 
 	.flag {
-		display: inline-flex;
 		width: 28px;
 		height: 20px;
 		border-radius: 3px;
 		overflow: hidden;
-		cursor: pointer;
-		opacity: 0.55;
-		transition:
-			opacity 0.2s,
-			transform 0.2s,
-			box-shadow 0.2s;
-		border: 1px solid var(--border, transparent);
-		background: var(--background-light, transparent);
-	}
-
-	.flag:hover {
-		opacity: 1;
-		transform: translateY(-1px);
-	}
-
-	.flag.active {
-		opacity: 1;
-		box-shadow: 0 0 0 2px var(--foreground);
+		display: inline-flex;
+		flex: none;
 	}
 
 	.flag img {
 		width: 100%;
 		height: 100%;
-		display: block;
 		object-fit: cover;
+		display: block;
 		pointer-events: none;
 	}
 </style>
 
-<div class="switcher" role="group" aria-label={$t('menu.selectLanguage')}>
-	{#each languages as lang}
-		<div class="flag" class:active={$currentLanguage === lang.id} role="button" tabindex="0" data-lang={lang.id} aria-label={lang.nativeLabel} aria-pressed={$currentLanguage === lang.id} title={lang.nativeLabel} onclick={handleClick} onkeydown={handleKey}>
-			<img src={getFlagURL(lang.id)} alt={lang.nativeLabel} draggable="false" />
-		</div>
-	{/each}
+<div class="trigger" role="button" tabindex="0" aria-label={$t('menu.selectLanguage')} aria-haspopup="dialog" title={currentLang?.nativeLabel ?? ''} onclick={handleClick} onkeydown={handleKey}>
+	{#key $currentLanguage}
+		{#if currentLang}
+			<span class="flag"><img src={getFlagURL(currentLang.id)} alt={currentLang.nativeLabel} draggable="false" /></span>
+		{/if}
+	{/key}
 </div>

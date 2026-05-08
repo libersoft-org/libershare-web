@@ -7,7 +7,6 @@
 		colorVariable?: string | undefined;
 		noColorFilter?: boolean | undefined;
 	}
-
 	let { img, alt = '', size = '24px', padding = '0', colorVariable, noColorFilter = false }: Props = $props();
 	let useMask = $derived(!!colorVariable && !noColorFilter);
 </script>

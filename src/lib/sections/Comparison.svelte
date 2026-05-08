@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME } from '$lib/scripts/project.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Table from '$lib/components/Table/Table.svelte';
 	import Thead from '$lib/components/Table/Thead.svelte';
@@ -9,28 +10,24 @@
 	import Td from '$lib/components/Table/Td.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 	import ComparisonCell from './ComparisonCell.svelte';
-
 	type Cell = boolean | string;
-
 	interface Row {
 		featureKey: string;
 		torrent: Cell;
 		dc: Cell;
-		libershare: Cell;
+		project: Cell;
 	}
-
 	// Cell values that are translatable strings: encoded as keys prefixed with '@:'.
 	const PARTIAL_DHT = '@:comparison.partialDht';
-
 	const rows: Row[] = [
-		{ featureKey: 'comparison.rows.decentralized', torrent: PARTIAL_DHT, dc: false, libershare: true },
-		{ featureKey: 'comparison.rows.onlineLibrary', torrent: false, dc: false, libershare: true },
-		{ featureKey: 'comparison.rows.builtInSearch', torrent: false, dc: true, libershare: true },
-		{ featureKey: 'comparison.rows.decentralizedSearch', torrent: false, dc: false, libershare: true },
-		{ featureKey: 'comparison.rows.parallelDownloads', torrent: true, dc: true, libershare: true },
-		{ featureKey: 'comparison.rows.mediaCenter', torrent: false, dc: false, libershare: true },
-		{ featureKey: 'comparison.rows.gamepad', torrent: false, dc: false, libershare: true },
-		{ featureKey: 'comparison.rows.openSource', torrent: true, dc: true, libershare: true },
+		{ featureKey: 'comparison.rows.decentralized', torrent: PARTIAL_DHT, dc: false, project: true },
+		{ featureKey: 'comparison.rows.onlineLibrary', torrent: false, dc: false, project: true },
+		{ featureKey: 'comparison.rows.builtInSearch', torrent: false, dc: true, project: true },
+		{ featureKey: 'comparison.rows.decentralizedSearch', torrent: false, dc: false, project: true },
+		{ featureKey: 'comparison.rows.parallelDownloads', torrent: true, dc: true, project: true },
+		{ featureKey: 'comparison.rows.mediaCenter', torrent: false, dc: false, project: true },
+		{ featureKey: 'comparison.rows.gamepad', torrent: false, dc: false, project: true },
+		{ featureKey: 'comparison.rows.openSource', torrent: true, dc: true, project: true },
 	];
 
 	function resolveCell(cell: Cell, translate: (key: string) => string): Cell {
@@ -99,7 +96,9 @@
 	::details-content {
 		height: 0;
 		overflow: clip;
-		transition: height 0.3s ease, content-visibility 0.3s allow-discrete;
+		transition:
+			height 0.3s ease,
+			content-visibility 0.3s allow-discrete;
 	}
 
 	details[open]::details-content {
@@ -147,7 +146,7 @@
 			<Thead>
 				<Tr>
 					<Th align="left">{$t('comparison.feature')}</Th>
-					<Th highlight>{$t('comparison.libershare')}</Th>
+					<Th highlight>{PROJECT_NAME}</Th>
 					<Th>{$t('comparison.bittorrent')}</Th>
 					<Th>{$t('comparison.dc')}</Th>
 				</Tr>
@@ -156,7 +155,7 @@
 				{#each rows as row}
 					<Tr>
 						<Td bold>{$t(row.featureKey)}</Td>
-						<Td align="center" highlight><ComparisonCell value={resolveCell(row.libershare, $t)} /></Td>
+						<Td align="center" highlight><ComparisonCell value={resolveCell(row.project, $t)} /></Td>
 						<Td align="center"><ComparisonCell value={resolveCell(row.torrent, $t)} /></Td>
 						<Td align="center"><ComparisonCell value={resolveCell(row.dc, $t)} /></Td>
 					</Tr>
@@ -164,7 +163,6 @@
 			</Tbody>
 		</Table>
 	</div>
-
 	<div class="mobile">
 		{#each rows as row}
 			<details>
@@ -176,8 +174,8 @@
 				</summary>
 				<div class="detail-list">
 					<div class="detail-row highlight">
-						<span class="detail-label">{$t('comparison.libershare')}</span>
-						<ComparisonCell value={resolveCell(row.libershare, $t)} />
+						<span class="detail-label">{PROJECT_NAME}</span>
+						<ComparisonCell value={resolveCell(row.project, $t)} />
 					</div>
 					<div class="detail-row">
 						<span class="detail-label">{$t('comparison.bittorrent')}</span>

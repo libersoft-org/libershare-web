@@ -2,19 +2,7 @@
 	import { t } from '$lib/scripts/language.ts';
 	import Section from '$lib/components/Section.svelte';
 	import Gallery from '$lib/components/Gallery.svelte';
-
-	const images = [
-		'/screenshots/01.webp',
-		'/screenshots/02.webp',
-		'/screenshots/03.webp',
-		'/screenshots/04.webp',
-		'/screenshots/05.webp',
-		'/screenshots/06.webp',
-		'/screenshots/07.webp',
-		'/screenshots/08.webp',
-		'/screenshots/09.webp',
-	];
-
+	const images = ['/screenshots/01.webp', '/screenshots/02.webp', '/screenshots/03.webp', '/screenshots/04.webp', '/screenshots/05.webp', '/screenshots/06.webp', '/screenshots/07.webp', '/screenshots/08.webp', '/screenshots/09.webp'];
 	let galleryIndex = $state(-1);
 	let galleryOpen = $derived(galleryIndex >= 0);
 
@@ -65,7 +53,9 @@
 		border-radius: 8px;
 		cursor: pointer;
 		border: 1px solid var(--border-hover);
-		transition: transform 0.2s, box-shadow 0.2s;
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
 	}
 
 	.thumb:hover {
@@ -84,15 +74,7 @@
 <Section id="screenshots" title={$t('screenshots.title')}>
 	<div class="grid">
 		{#each images as src, i}
-			<div
-				class="thumb"
-				role="button"
-				tabindex="0"
-				aria-label={$t('screenshots.open', { index: String(i + 1) })}
-				data-index={i}
-				onclick={handleThumbClick}
-				onkeydown={handleThumbKey}
-			>
+			<div class="thumb" role="button" tabindex="0" aria-label={$t('screenshots.open', { index: String(i + 1) })} data-index={i} onclick={handleThumbClick} onkeydown={handleThumbKey}>
 				<img {src} alt={$t('screenshots.alt', { index: String(i + 1) })} loading="lazy" />
 			</div>
 		{/each}

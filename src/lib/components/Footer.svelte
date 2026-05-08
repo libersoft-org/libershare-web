@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
+	import { PROJECT_NAME } from '$lib/scripts/project.ts';
 </script>
 
 <style>
@@ -15,5 +16,5 @@
 </style>
 
 <footer class="footer">
-	<p>2022 - {new Date().getFullYear()} - <a href="/">LiberShare</a> {$t('footer.by')} <a href="https://libersoft.org" target="_blank">LiberSoft</a></p>
+	<p>2022 - {new Date().getFullYear()} - <a href="/">{PROJECT_NAME}</a> {$t('footer.by')} <a href="https://libersoft.org" target="_blank">LiberSoft</a></p>
 </footer>

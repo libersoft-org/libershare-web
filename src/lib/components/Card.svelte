@@ -1,11 +1,9 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-
 	interface Props {
 		children: Snippet;
 		noPadding?: boolean;
 	}
-
 	let { children, noPadding = false }: Props = $props();
 </script>
 

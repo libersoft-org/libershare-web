@@ -1,13 +1,11 @@
 <script lang="ts">
 	import Card from './Card.svelte';
 	import Icon from './Icon.svelte';
-
 	interface Props {
 		icon: string;
 		title: string;
 		description: string;
 	}
-
 	let { icon, title, description }: Props = $props();
 </script>
 

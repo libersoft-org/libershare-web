@@ -1,8 +1,8 @@
 {
 	"site": {
-		"title": "LiberShare — Decentralized File Sharing",
-		"description": "LiberShare is a peer-to-peer file sharing software built on modern decentralized technologies.",
-		"ogTitle": "LiberShare — Decentralized file sharing software",
+		"title": "{project} — Decentralized File Sharing",
+		"description": "{project} is a peer-to-peer file sharing software built on modern decentralized technologies.",
+		"ogTitle": "{project} — Decentralized file sharing software",
 		"ogDescription": "Peer-to-peer file sharing built on modern decentralized technologies. No central servers. No single point of failure."
 	},
 	"menu": {
@@ -16,14 +16,13 @@
 		"selectLanguage": "Select language"
 	},
 	"hero": {
-		"title": "LiberShare",
 		"subtitle": "Next generation peer-to-peer file sharing",
 		"description": "Built on modern decentralized technologies. No central servers. No single point of failure.",
 		"download": "Download"
 	},
 	"about": {
 		"title": "About",
-		"intro": "LiberShare is a next-generation peer-to-peer file sharing platform built on modern decentralized technologies. It combines an intuitive user interface with a fully decentralized architecture, providing a secure and reliable solution for data sharing independent of any central authority. The project is open source and distributed under the {license}.",
+		"intro": "{project} is a next-generation peer-to-peer file sharing platform built on modern decentralized technologies. It combines an intuitive user interface with a fully decentralized architecture, providing a secure and reliable solution for data sharing independent of any central authority. The project is open source and distributed under the {license}.",
 		"license": "Unlicense",
 		"features": {
 			"decentralized": {
@@ -44,7 +43,7 @@
 			},
 			"security": {
 				"title": "Privacy & security",
-				"description": "All peer-to-peer communication is encrypted, ensuring your data remains private during transfer. Users can hide behind a VPN for an additional layer of anonymity. LiberShare respects your privacy by design."
+				"description": "All peer-to-peer communication is encrypted, ensuring your data remains private during transfer. Users can hide behind a VPN for an additional layer of anonymity. {project} respects your privacy by design."
 			},
 			"crossPlatform": {
 				"title": "Cross-platform",
@@ -54,7 +53,7 @@
 	},
 	"download": {
 		"title": "Download",
-		"description": "Get LiberShare for your platform. All downloads are free and open source.",
+		"description": "Get {project} for your platform. All downloads are free and open source.",
 		"version": "Current version: {version}",
 		"linkAlt": "Download",
 		"platforms": {
@@ -95,7 +94,6 @@
 	"comparison": {
 		"title": "Comparison",
 		"feature": "Feature",
-		"libershare": "LiberShare",
 		"bittorrent": "BitTorrent",
 		"dc": "DC++",
 		"yes": "yes",
