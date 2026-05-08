@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Hero from '$lib/sections/Hero.svelte';
 	import About from '$lib/sections/About.svelte';
+	import Screenshots from '$lib/sections/Screenshots.svelte';
+	import Comparison from '$lib/sections/Comparison.svelte';
 	import Download from '$lib/sections/Download.svelte';
 	import Contact from '$lib/sections/Contact.svelte';
 </script>
@@ -36,4 +38,6 @@
 <Hero />
 <About />
 <Download />
+<Screenshots />
+<Comparison />
 <Contact />

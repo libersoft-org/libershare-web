@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Card from './Card.svelte';
+	import Icon from './Icon.svelte';
 
 	interface Props {
 		icon: string;
@@ -16,12 +17,6 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin-bottom: 0.75rem;
-	}
-
-	.feature-icon {
-		width: 32px;
-		height: 32px;
-		flex-shrink: 0;
 	}
 
 	h3 {
@@ -41,7 +36,7 @@
 
 <Card>
 	<div class="feature-header">
-		<img class="feature-icon" src={icon} alt={title} />
+		<Icon img={icon} alt={title} size="32px" colorVariable="--foreground" />
 		<h3>{title}</h3>
 	</div>
 	<p>{description}</p>

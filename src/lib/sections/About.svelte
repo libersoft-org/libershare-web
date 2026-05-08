@@ -49,7 +49,7 @@
 </style>
 
 <Section id="about" title="About">
-	<div class="about-intro">LiberShare is a peer-to-peer file sharing software built on modern decentralized technologies. It represents the next generation of file sharing. It combines a modern, intuitive user interface with a fully decentralized architecture, offering users a secure and easy-to-use solution for sharing data without relying on any central authority.</div>
+	<div class="about-intro">LiberShare is a next-generation peer-to-peer file sharing platform built on modern decentralized technologies. It combines an intuitive user interface with a fully decentralized architecture, providing a secure and reliable solution for data sharing independent of any central authority. The project is open source and distributed under the <a href="https://github.com/libersoft-org/libershare/blob/main/LICENSE" target="_blank">Unlicense</a>.</div>
 	<Cards>
 		{#each features as feature}
 			<FeatureCard icon={feature.icon} title={feature.title} description={feature.description} />

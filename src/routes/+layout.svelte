@@ -15,6 +15,8 @@
 	const navItems = [
 		{ label: 'About', href: '/#about', id: 'about' },
 		{ label: 'Download', href: '/#download', id: 'download' },
+		{ label: 'Screenshots', href: '/#screenshots', id: 'screenshots' },
+		{ label: 'Comparison', href: '/#comparison', id: 'comparison' },
 		{ label: 'Contact', href: '/#contact', id: 'contact' },
 	];
 

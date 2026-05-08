@@ -2,6 +2,7 @@
 	import Section from '$lib/components/Section.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
+	import Icon from '$lib/components/Icon.svelte';
 	interface ContactLink {
 		label: string;
 		href: string;
@@ -60,12 +61,6 @@
 		background: var(--hover-bg);
 		opacity: 1;
 	}
-
-	.contact-icon {
-		width: 20px;
-		height: 20px;
-		flex-shrink: 0;
-	}
 </style>
 
 <Section id="contact" title="Contact">
@@ -86,7 +81,7 @@
 				{#each contactLinks as link}
 					<li>
 						<a href={link.href} target="_blank" rel="noopener noreferrer" class="contact-link">
-							<img class="contact-icon" src={link.icon} alt={link.label} />
+							<Icon img={link.icon} alt={link.label} size="20px" colorVariable="--foreground" />
 							<span>{link.label}</span>
 						</a>
 					</li>

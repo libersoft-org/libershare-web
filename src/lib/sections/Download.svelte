@@ -2,6 +2,7 @@
 	import Section from '$lib/components/Section.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Cards from '$lib/components/Cards.svelte';
+	import Icon from '$lib/components/Icon.svelte';
 
 	interface DownloadItem {
 		label: string;
@@ -53,11 +54,6 @@
 		border-bottom: 1px solid var(--border-hover);
 	}
 
-	.platform-icon {
-		width: 28px;
-		height: 28px;
-	}
-
 	.platform-header h3 {
 		font-size: 1.2rem;
 		margin: 0;
@@ -107,12 +103,6 @@
 		font-size: 0.95rem;
 	}
 
-	.dl-arrow {
-		width: 20px;
-		height: 20px;
-		flex-shrink: 0;
-	}
-
 	.macos {
 		display: flex;
 		flex-direction: column;
@@ -143,7 +133,7 @@
 			{#each downloads as group}
 				<Card noPadding>
 					<div class="platform-header">
-						<img class="platform-icon" src={group.icon} alt={group.platform} />
+						<Icon img={group.icon} alt={group.platform} size="28px" colorVariable="--foreground" />
 						<h3>{group.platform}</h3>
 					</div>
 					<div class="archs">
@@ -155,7 +145,7 @@
 										<li>
 											<a href={item.href ?? `/${item.filename}`} class="download-link" target="_blank" rel="noopener noreferrer">
 												<span class="dl-label">{item.label}</span>
-												<img class="dl-arrow" src="/icons/download.svg" alt="Download" />
+											<Icon img="/icons/download.svg" alt="Download" size="20px" colorVariable="--text" />
 											</a>
 										</li>
 									{/each}
