@@ -5,8 +5,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import LanguageDialog from '$lib/components/LanguageDialog.svelte';
 	import Splash from '$lib/components/Splash.svelte';
-	import { get } from 'svelte/store';
-	import { currentLanguage, setLanguage, syncLanguageFromStorage, initLanguages } from '$lib/scripts/language.ts';
+	import { initLanguages } from '$lib/scripts/language.ts';
 	interface Props {
 		children: import('svelte').Snippet;
 	}

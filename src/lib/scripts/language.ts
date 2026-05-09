@@ -403,15 +403,6 @@ export async function initLanguages(): Promise<void> {
 	document.documentElement.lang = target;
 }
 
-// Re-apply the persisted language on the client. Call from onMount in the root layout to
-// resync after hydration in case the SSR snapshot was rendered with the default language.
-export function syncLanguageFromStorage(): void {
-	if (typeof window === 'undefined') return;
-	const id = pickInitialLanguage();
-	if (id !== get(currentLanguage)) setLanguage(id);
-	else document.documentElement.lang = id;
-}
-
 // Global open state for the language picker dialog.
 export const languageDialogOpen = writable<boolean>(false);
 
