@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Rannañ restroù digreizet",
+		"description": "{project} a zo ur meziant rannañ restroù peer-to-peer, savet diwar an teknologiezh digreizet vodern.",
+		"ogTitle": "{project} - Meziant rannañ restroù digreizet",
+		"ogDescription": "Rannañ restroù peer-to-peer diazezet war an teknologiezh digreizet vodern. Servijer kreiz ebet. Poent reizh c'hwitadenn ebet."
+	},
+	"menu": {
+		"about": "Diwar-benn",
+		"download": "Pellgargañ",
+		"screenshots": "Skrammoù",
+		"comparison": "Keñveriañ",
+		"contact": "Darempred",
+		"toggle": "Trec'hañ ar meuziad",
+		"close": "Serriñ ar meuziad",
+		"language": "Yezh",
+		"selectLanguage": "Dibab ur yezh"
+	},
+	"hero": {
+		"subtitle": "Ar rummad nevez a-rannañ restroù peer-to-peer",
+		"description": "Diazezet war an teknologiezh digreizet vodern. Servijer kreiz ebet. Poent reizh c'hwitadenn ebet.",
+		"download": "Pellgargañ"
+	},
+	"about": {
+		"title": "Diwar-benn",
+		"intro": "{project} a zo ur platform a-rummad da zont evit rannañ restroù peer-to-peer, savet diwar an teknologiezh digreizet vodern. Kevreañ a ra un etrefas implijer aes da implijout gant ur reizhwezh penn-da-benn digreizet, o pourchas rannañ roadennoù sur ha fiziadus hep ezhomm a aotrouniezh greiz. An raktres-mañ a zo open source, dasparzhet dindan ar {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rouedad penn-da-benn digreizet",
+				"description": "Servijer kreiz ebet, poent reizh c'hwitadenn ebet. An implijerien a gav hag a bellgargo endalc'had eus an eil d'egile end-eeun, hep en em harpañ war un indekser, heuilher pe stlennvon kreiz."
+			},
+			"accessControl": {
+				"title": "Kontrol haeziñ resis",
+				"description": "Pep hini a c'hall sevel digoust e rouedad e-unan gant e reolennoù e-unan. E-barzh pep rouedad, an roloù implijer a vez termenet: perc'henner, melestrour, embanner, hebreger ha pellgarger. Bezit gant ur c'hontrol resis war piv a c'hall embann, herbreger ha pellgargañ endalc'had."
+			},
+			"ui": {
+				"title": "Etrefas implijer a galite uhel",
+				"description": "Un etrefas kreizenn vediaek sklaer ha respouns, divizet evit ar platformoù burev, skinwel ha hezoug. Merdeerezh aes gant ar c'hlavier, logodenn, gamepad pe pellrenerez. An implijerien araokaet a c'hall lañsañ ar meziant evel ur servijer restroù dipenn dre un etrefas linenn-urzhioù."
+			},
+			"dataFormat": {
+				"title": "Furmad roadennoù lennus gant tud",
+				"description": "Furmad roadennoù LISH a zo savet war JSON, ar pezh a ra anezhañ aes da grouiñ, da lenn ha da gompren. Rannit ho endalc'had gant metaroadennoù sklaer hag eeun a c'hall pep hini gwiriañ aes."
+			},
+			"security": {
+				"title": "Prevezded ha surentez",
+				"description": "An holl gehentiñ peer-to-peer a zo enrineget, o sigurañ e chom ho roadennoù prevez en treuz. An implijerien a c'hall en em guzhat dindan ur VPN evit muioc'h a anvelezh. {project} a zoug doujañs d'ho prevezded dre ziviz."
+			},
+			"crossPlatform": {
+				"title": "Liesvevenn",
+				"description": "Ar meziant a zo hegerz war Windows, Linux ha macOS. Implijit anezhañ war pep benveg a-zo ganeoc'h."
+			}
+		}
+	},
+	"download": {
+		"title": "Pellgargañ",
+		"description": "Tapit {project} evit ho platform. An holl pellgargadennoù a zo digoust hag open source.",
+		"version": "Stumm a-vremañ: {version}",
+		"linkAlt": "Pellgargañ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Stalier {format}",
+			"package": "Pakad {format}",
+			"portableZip": "ZIP douger",
+			"viewOnGithub": "Gwelet war GitHub"
+		},
+		"macos": {
+			"title": "Notenn bouezus evit implijerien macOS:",
+			"intro": "macOS Gatekeeper a stanko ar meziantoù dizinenet/dinotaridiet pellgarget eus an Internet gant ar fazi {error}.",
+			"error": "\"torret eo, n'haller ket digeriñ\"",
+			"runCommand": "Goude pellgargañ an DMG pe ZIP, a-raok digeriñ ar meziant, lañsit an urzhiad-mañ er Terminal:",
+			"exampleDmg": "Da skouer, goude staliañ diwar an DMG:",
+			"exampleZip": "Pe goude tennañ ar ZIP:",
+			"explanation": "Hemañ a zilamm an doareenn kuarantenn hag a aotren ar meziant da redek."
+		}
+	},
+	"screenshots": {
+		"title": "Skrammoù",
+		"open": "Digeriñ ar skramm {index}",
+		"alt": "Skramm {index}",
+		"close": "Serriñ ar skeudennaoueg",
+		"prev": "Skeudenn a-raok",
+		"next": "Skeudenn da-heul"
+	},
+	"comparison": {
+		"title": "Keñveriañ",
+		"feature": "Perzh",
+		"yes": "Ya",
+		"no": "Ket",
+		"partialDht": "Darnel (DHT)",
+		"rows": {
+			"decentralized": "Rouedad digreizet",
+			"onlineLibrary": "Levraoueg enlinenn",
+			"builtInSearch": "Klask endalc'had endaouet",
+			"decentralizedSearch": "Klask endalc'had digreizet",
+			"parallelDownloads": "Pellgargadennoù kenstur a-veur a vamenn",
+			"mediaCenter": "Etrefas kreizenn vediaek",
+			"gamepad": "Skoazell gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Darempred",
+		"getInTouch": "Bezit e darempred",
+		"links": {
+			"telegramChat": "Strollad flapañ Telegram",
+			"telegramAnnouncements": "Kemennadennoù Telegram",
+			"facebook": "Strollad Facebook"
+		}
+	},
+	"footer": {
+		"by": "Savet gant"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Compartimiento descentralizau de fichers",
+		"description": "{project} ye un programa de compartimiento de fichers peer-to-peer, construyiu sobre tecnolochía descentralizada moderna.",
+		"ogTitle": "{project} - Programa de compartimiento descentralizau de fichers",
+		"ogDescription": "Compartimiento de fichers peer-to-peer basau en tecnolochía descentralizada moderna. Sin servidor central. Sin garra punto unico de fallo."
+	},
+	"menu": {
+		"about": "Sobre",
+		"download": "Descargar",
+		"screenshots": "Capturas",
+		"comparison": "Comparanza",
+		"contact": "Contauto",
+		"toggle": "Cambiar menú",
+		"close": "Zarrar menú",
+		"language": "Luenga",
+		"selectLanguage": "Trigar una luenga"
+	},
+	"hero": {
+		"subtitle": "A siguient cheneración de compartimiento de fichers peer-to-peer",
+		"description": "Basau en tecnolochía descentralizada moderna. Sin servidor central. Sin garra punto unico de fallo.",
+		"download": "Descargar"
+	},
+	"about": {
+		"title": "Sobre",
+		"intro": "{project} ye una plataforma de siguient cheneración pa lo compartimiento de fichers peer-to-peer, construyida sobre tecnolochía descentralizada moderna. Combina una interficie d'usuario fácil d'usar con una arquitectura totalment descentralizada, brindando un compartimiento de datos seguro y fiable sin necesidat d'autoridat central. Iste prochecto ye open source, distribuyiu baixo a {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete totalment descentralizada",
+				"description": "Sin servidor central, sin garra punto unico de fallo. Os usuarios troban y descargan o conteniu dreitament uns d'atros, sin dependre d'un indexador, rastriador u base de datos central."
+			},
+			"accessControl": {
+				"title": "Control d'acceso fino",
+				"description": "Cualsequiera puede establir de baldes a suya propia rete con as suyas propias reglas. Dentro de cada rete, definense as roles d'usuario: propietario, administrador, publicador, moderador y descargador. Tien un control fino sobre quí puede publicar, moderar y descargar conteniu."
+			},
+			"ui": {
+				"title": "Interficie d'usuario d'alta calidat",
+				"description": "Una interficie de centro multimedia neta y reactiva, dissenyada pa plataformas d'escritorio, TV y mobils. Navegación fácil con teclau, ratet, gamepad u mando a distancia. Os usuarios abanzaus pueden executar lo programa como un servidor de fichers sin cabeza a traviés d'una interficie de linia de comandos."
+			},
+			"dataFormat": {
+				"title": "Formato de datos lechible por humans",
+				"description": "O formato de datos LISH ye construyiu sobre JSON, lo que lo fa fácil de creyar, leyer y entender. Comparte o tuyo conteniu con metadatos claros y transparents que cualsequiera puede inspeccionar facilment."
+			},
+			"security": {
+				"title": "Privacidat y seguridat",
+				"description": "Tota la comunicación peer-to-peer ye cifrada, asegurando que os tuyos datos restan privaus en transito. Os usuarios pueden amagar-sen tras un VPN pa más anonimato. {project} respeta a tuya privacidat por disenyo."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "O programa ye disponible en Windows, Linux y macOS. Usa-lo en cualsequier dispositivo que tiengas."
+			}
+		}
+	},
+	"download": {
+		"title": "Descargar",
+		"description": "Consigue {project} pa la tuya plataforma. Todas las descargas son de baldes y open source.",
+		"version": "Versión actual: {version}",
+		"linkAlt": "Descargar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP portatil",
+			"viewOnGithub": "Veyer en GitHub"
+		},
+		"macos": {
+			"title": "Nota important pa los usuarios de macOS:",
+			"intro": "macOS Gatekeeper bloqueyará as aplicacions sin sinyar/sin notarizar descargadas d'internet con l'erro {error}.",
+			"error": "\"ye estricallau, no se puede ubrir\"",
+			"runCommand": "Dimpués de descargar lo DMG u ZIP, antes d'ubrir l'aplicación, executa iste comando en o Terminal:",
+			"exampleDmg": "Por eixemplo, dimpués d'instalar dende lo DMG:",
+			"exampleZip": "U dimpués d'extrayer lo ZIP:",
+			"explanation": "Isto saca l'atributo de cuarentena y permite que l'aplicación s'execute."
+		}
+	},
+	"screenshots": {
+		"title": "Capturas",
+		"open": "Ubrir captura {index}",
+		"alt": "Captura {index}",
+		"close": "Zarrar a galería",
+		"prev": "Imachen anterior",
+		"next": "Imachen siguient"
+	},
+	"comparison": {
+		"title": "Comparanza",
+		"feature": "Caracteristica",
+		"yes": "Sí",
+		"no": "No",
+		"partialDht": "Parcial (DHT)",
+		"rows": {
+			"decentralized": "Rete descentralizada",
+			"onlineLibrary": "Biblioteca en linia",
+			"builtInSearch": "Busqueda de conteniu integrada",
+			"decentralizedSearch": "Busqueda de conteniu descentralizada",
+			"parallelDownloads": "Descargas paralelas de barias fuents",
+			"mediaCenter": "Interficie de centro multimedia",
+			"gamepad": "Sustento de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contauto",
+		"getInTouch": "Posar-se en contauto",
+		"links": {
+			"telegramChat": "Grupo de charrada de Telegram",
+			"telegramAnnouncements": "Anuncios de Telegram",
+			"facebook": "Grupo de Facebook"
+		}
+	},
+	"footer": {
+		"by": "Feito por"
+	}
+}

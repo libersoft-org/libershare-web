@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizowane dźělenje datajow",
+		"description": "{project} je peer-to-peer-software za dźělenje datajow, natwarjeny na modernej decentralizowanej technologiji.",
+		"ogTitle": "{project} - Software za decentralizowane dźělenje datajow",
+		"ogDescription": "Peer-to-peer-dźělenje datajow na zakładźe modernej decentralizowanej technologije. Žadyn centralny serwer. Žadyn jednotliwy dypk zwrěšćenja."
+	},
+	"menu": {
+		"about": "Wo nim",
+		"download": "Sćahnyć",
+		"screenshots": "Wobraze wobrazowki",
+		"comparison": "Přirunanje",
+		"contact": "Kontakt",
+		"toggle": "Meni přepinyć",
+		"close": "Meni začinić",
+		"language": "Rěč",
+		"selectLanguage": "Rěč wuzwolić"
+	},
+	"hero": {
+		"subtitle": "Přichodna generacija peer-to-peer-dźělenja datajow",
+		"description": "Na zakładźe modernej decentralizowanej technologije. Žadyn centralny serwer. Žadyn jednotliwy dypk zwrěšćenja.",
+		"download": "Sćahnyć"
+	},
+	"about": {
+		"title": "Wo nim",
+		"intro": "{project} je platforma přichodneje generacije za peer-to-peer-dźělenje datajow, natwarjena na modernej decentralizowanej technologiji. Zwjazuje lochko zwužitkujomne wužiwarske wužiwadło z dospołnje decentralizowanej architekturu, zaručujo wěste a dowěryhódne dźělenje datow bjez trěbnosće centralneje awtority. Tutón projekt je open source, rozšěrjeny pod {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Dospołnje decentralizowana syć",
+				"description": "Žadyn centralny serwer, žadyn jednotliwy dypk zwrěšćenja. Wužiwarjo namakaja a sćahuja wobsah direktnje jedyn z druhim, bjez toho zo by so na centralny indeksowak, slědowak abo datowu banku spušćeli."
+			},
+			"accessControl": {
+				"title": "Mjelka přistupna kontrola",
+				"description": "Kóždy móže swoju swójsku syć z swójskimi prawidłami darmotnje natwarić. Znutřka kóždeje syće su wužiwarske róle definowane: wobsedźer, administrator, wozjewjenjer, moderator a sćehowak. Měł mjelku kontrolu nad tym, štó móže wobsah wozjewić, moderować a sćahować."
+			},
+			"ui": {
+				"title": "Wužiwarske wužiwadło wysokeje kwality",
+				"description": "Čiste a reagěrace wužiwadło medijoweho centruma, koncipowane za pisanske, telewizijne a mobilne platformy. Lochka nawigacija z tastaturu, myšu, gamepadom abo dalokowoditkom. Pokročiłi wužiwarjo móža software jako bjezhłowowy datajowy serwer přez wužiwadło přikazoweje linije běžeć dać."
+			},
+			"dataFormat": {
+				"title": "Format datow čitajomny za čłowjeka",
+				"description": "Format datow LISH je natwarjeny na JSON, štož jeho lochko činiće stworjomny, čitajomny a zrozumliwy. Dźělće swój wobsah z jasnymi a transparentnymi metadatami, kotrež móže kóždy lochko přepruwować."
+			},
+			"security": {
+				"title": "Priwatnosć a wěstosć",
+				"description": "Wšě peer-to-peer-komunikacije su zaklučowane, štož zaručuje, zo waše daty w přenoše priwatne wostanu. Wužiwarjo móža so za VPN schować za hišće wjace anonymnosće. {project} respektuje wašu priwatnosć přez koncepciju."
+			},
+			"crossPlatform": {
+				"title": "Multiplatformowy",
+				"description": "Software je k dispoziciji za Windows, Linux a macOS. Wužiwajće jón na pak kotrymžkuli graje wuhladujce."
+			}
+		}
+	},
+	"download": {
+		"title": "Sćahnyć",
+		"description": "Wobstarajće sej {project} za swoju platformu. Wšě sćehnjenja su darmotne a open source.",
+		"version": "Aktualna wersija: {version}",
+		"linkAlt": "Sćahnyć",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pakćik {format}",
+			"portableZip": "Přenosny ZIP",
+			"viewOnGithub": "Hladać na GitHub"
+		},
+		"macos": {
+			"title": "Wažna informacija za wužiwarjow macOS:",
+			"intro": "macOS Gatekeeper budźe njepodpisane/njenotarizowane nałoženja sćahnjene z interneta z zmylkom {error} blokować.",
+			"error": "\"je złamane, njeda so wočinić\"",
+			"runCommand": "Po sćahnjenju DMG abo ZIP, prjedy hač nałoženje wočiniće, wuwjedźće tutón přikaz w terminalu:",
+			"exampleDmg": "Na přikład, po instalaciji z DMG:",
+			"exampleZip": "Abo po wupakanju ZIP:",
+			"explanation": "To wotstroni atribut karanteny a dowoli nałoženju běžeć."
+		}
+	},
+	"screenshots": {
+		"title": "Wobraze wobrazowki",
+		"open": "Wobraz wobrazowki {index} wočinić",
+		"alt": "Wobraz wobrazowki {index}",
+		"close": "Galeriju začinić",
+		"prev": "Předchadny wobraz",
+		"next": "Přichodny wobraz"
+	},
+	"comparison": {
+		"title": "Přirunanje",
+		"feature": "Kajkosć",
+		"yes": "Haj",
+		"no": "Ně",
+		"partialDht": "Dźělne (DHT)",
+		"rows": {
+			"decentralized": "Decentralizowana syć",
+			"onlineLibrary": "Internetowa biblioteka",
+			"builtInSearch": "Zatwarjene pytanje wobsaha",
+			"decentralizedSearch": "Decentralizowane pytanje wobsaha",
+			"parallelDownloads": "Paralelne sćehnjenja z wjacorych žórłow",
+			"mediaCenter": "Wužiwadło medijoweho centruma",
+			"gamepad": "Podpěra gamepada",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Stupić do kontakta",
+		"links": {
+			"telegramChat": "Telegramowa rozmołwna skupina",
+			"telegramAnnouncements": "Telegramowe wozjewjenja",
+			"facebook": "Skupina na Facebooku"
+		}
+	},
+	"footer": {
+		"by": "Stworjene wot"
+	}
+}

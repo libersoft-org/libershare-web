@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Merkezleştirilmegen fayl paylaşuvı",
+		"description": "{project} - zamanaviy merkezleştirilmegen tehnologiya üzerinde qurulğan peer-to-peer fayl paylaşuv proqramı.",
+		"ogTitle": "{project} - Merkezleştirilmegen fayl paylaşuv proqramı",
+		"ogDescription": "Zamanaviy merkezleştirilmegen tehnologiyağa esaslanğan peer-to-peer fayl paylaşuvı. Merkeziy server yoq. Tek bir muvafaqiyetsizlik noqtası yoq."
+	},
+	"menu": {
+		"about": "Aqqında",
+		"download": "Yükle",
+		"screenshots": "Ekran körüntileri",
+		"comparison": "Qıyaslav",
+		"contact": "Bağlantı",
+		"toggle": "Menüni almaştır",
+		"close": "Menüni qapat",
+		"language": "Til",
+		"selectLanguage": "Til saylañız"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer fayl paylaşuvınıñ kelecek nesli",
+		"description": "Zamanaviy merkezleştirilmegen tehnologiyağa esaslanğan. Merkeziy server yoq. Tek bir muvafaqiyetsizlik noqtası yoq.",
+		"download": "Yükle"
+	},
+	"about": {
+		"title": "Aqqında",
+		"intro": "{project} - zamanaviy merkezleştirilmegen tehnologiya üzerinde qurulğan peer-to-peer fayl paylaşuvınıñ kelecek nesil platformasıdır. O qollanışı qolay qullanıcı arayüzü tamamen merkezleştirilmegen mimariy ile birleştirip, merkeziy avtoriteti talap etmeden bir emin ve işançlı malümat paylaşuvını teqdim ete. Bu proyekt open source dir, {license} altında dağıtıla.",
+		"features": {
+			"decentralized": {
+				"title": "Tamamen merkezleştirilmegen şebeke",
+				"description": "Merkeziy server yoq, tek bir muvafaqiyetsizlik noqtası yoq. Qullanıcılar mündericeni bir-birinden doğrudan tabıp yükleyler, merkeziy indeksleyici, izleyici yaki malümat bazasına bağlı olmadan."
+			},
+			"accessControl": {
+				"title": "İnce kirüv kontrolu",
+				"description": "Er kim öz qaydeleri ile öz şebekesini bedava qura bile. Er şebekede qullanıcı rolleri belgilengen: saibi, idareci, neşirci, moderator ve yükleyici. Mündericeni kim neşir, moderasiya ve yükleme bilecek üzerine ince kontrol tutuñız."
+			},
+			"ui": {
+				"title": "Yüksek sıfatlı qullanıcı arayüzü",
+				"description": "Stol üstü, TV ve mobil platformalar içün yapılğan tertipli ve aks ettirici medya merkez arayüzü. Klaviatura, sıçan, geymped yaki uzaqtan idare ile qolay navigatsiya. İlerlegen qullanıcılar proqramnı buyuruq satrı arayüzü vastasıyla başsız fayl serveri olaraq çaqır bile."
+			},
+			"dataFormat": {
+				"title": "İnsannıñ oqumaq qabiliyetli malümat formatı",
+				"description": "LISH malümat formatı JSON üzerinde qurulğan, bu onı yaratmaq, oqumaq ve añlamaq içün qolay yapa. Mündericeñizni açıq ve şeffaf metadatalar ile paylaşıñız, er kim onları qolay teftiş bile."
+			},
+			"security": {
+				"title": "Şahsiyat ve güvenlik",
+				"description": "Bütün peer-to-peer alıs-veriş şifrelengen, bu transitte malümatıñızıñ şahsiy qalmasını teminat ete. Qullanıcılar daa çoq isimsizlik içün VPN artında saqlana bile. {project} dizayn vastasıyla şahsiyatıñızğa urmet ete."
+			},
+			"crossPlatform": {
+				"title": "Çapraz platforma",
+				"description": "Proqram Windows, Linux ve macOS-ta bar. Er angi cıhazıñızda qullanıñız."
+			}
+		}
+	},
+	"download": {
+		"title": "Yükle",
+		"description": "Platformañız içün {project} alıñız. Bütün yüklemeler bedava ve open source dir.",
+		"version": "Bugünki versiya: {version}",
+		"linkAlt": "Yükle",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} qurğucı",
+			"package": "{format} paket",
+			"portableZip": "Taşınmaq ZIP",
+			"viewOnGithub": "GitHub'ta köriñiz"
+		},
+		"macos": {
+			"title": "macOS qullanıcıları içün muim qayd:",
+			"intro": "macOS Gatekeeper İnternetten yüklengen imzalanmağan/notarizatsiya etilmegen apları {error} hatası ile bloklay.",
+			"error": "\"sınıq, açılamay\"",
+			"runCommand": "DMG yaki ZIP yüklegenden soñ, apnı açqanğa qadar, Terminal'da bu buyuruqnı çapırıñız:",
+			"exampleDmg": "Meselâ, DMG'den qurğandan soñ:",
+			"exampleZip": "Yaki ZIP'ni çıqarğandan soñ:",
+			"explanation": "Bu karantin atributı çıqarıp apnıñ çalışmasına izin bere."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran körüntileri",
+		"open": "{index} ekran körüntisini aç",
+		"alt": "{index} ekran körüntisi",
+		"close": "Galereyanı qapat",
+		"prev": "Evvelki resim",
+		"next": "Soñraki resim"
+	},
+	"comparison": {
+		"title": "Qıyaslav",
+		"feature": "Hususiyet",
+		"yes": "Da",
+		"no": "Yoq",
+		"partialDht": "Qısmen (DHT)",
+		"rows": {
+			"decentralized": "Merkezleştirilmegen şebeke",
+			"onlineLibrary": "Onlayn kütüphane",
+			"builtInSearch": "İçerden mündericeni qıdırma",
+			"decentralizedSearch": "Merkezleştirilmegen mündericeni qıdırma",
+			"parallelDownloads": "Birqaç qaynaqtan paralel yüklemeler",
+			"mediaCenter": "Medya merkez arayüzü",
+			"gamepad": "Geymped destegi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Bağlantı",
+		"getInTouch": "Bağlantığa keliñiz",
+		"links": {
+			"telegramChat": "Telegram qonuşma gurupı",
+			"telegramAnnouncements": "Telegram bildirüvleri",
+			"facebook": "Facebook gurupı"
+		}
+	},
+	"footer": {
+		"by": "Yapqan"
+	}
+}

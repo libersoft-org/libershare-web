@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desintralisearre triemdielen",
+		"description": "{project} is in peer-to-peer-software foar triemdielen, boud op moderne desintralisearre technology.",
+		"ogTitle": "{project} - Desintralisearre triemdiel-software",
+		"ogDescription": "Peer-to-peer-triemdielen op basis fan moderne desintralisearre technology. Gjin sintrale tsjinner. Gjin inkeld punt fan flater."
+	},
+	"menu": {
+		"about": "Oer",
+		"download": "Downloade",
+		"screenshots": "Skermôfdrukken",
+		"comparison": "Fergeliking",
+		"contact": "Kontakt",
+		"toggle": "Menu wikselje",
+		"close": "Menu slute",
+		"language": "Taal",
+		"selectLanguage": "Kies in taal"
+	},
+	"hero": {
+		"subtitle": "De folgjende generaasje peer-to-peer-triemdielen",
+		"description": "Op basis fan moderne desintralisearre technology. Gjin sintrale tsjinner. Gjin inkeld punt fan flater.",
+		"download": "Downloade"
+	},
+	"about": {
+		"title": "Oer",
+		"intro": "{project} is in folgjende-generaasje-platfoarm foar peer-to-peer-triemdielen, boud op moderne desintralisearre technology. It kombinearret in maklik te brûken brûkersinterface mei in folslein desintralisearre arsjitektuer en biedt feilich en betrouber gegevensdielen sûnder dat in sintrale autoriteit nedich is. It projekt is iepen boarne, fersprate ûnder de {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Folslein desintralisearre netwurk",
+				"description": "Gjin sintrale tsjinner, gjin inkeld punt fan flater. Brûkers fine en downloade ynhâld direkt fan inoar, sûnder ôfhinklik te wêzen fan in sintrale yndeksearder, tracker of databank."
+			},
+			"accessControl": {
+				"title": "Fynkerige tagongskontrôle",
+				"description": "Elkenien kin fergees syn eigen netwurk opsette mei syn eigen regels. Binnen elk netwurk wurde brûkersrollen definiearre: eigner, behearder, útjouwer, moderator en downloader. Hawwe fynkerige kontrôle oer wa't ynhâld publisearje, modereare en downloade kin."
+			},
+			"ui": {
+				"title": "Hege-kwaliteits brûkersinterface",
+				"description": "In hingjend en responsyf media-sintrum-ynterface, ûntwurpen foar buroblêd, tv en mobile platfoarms. Maklike navigaasje mei toetseboerd, mûs, gamepad of ôfstânsbetsjinning. Avansearre brûkers kinne de software draaie as in hôfleaze triemtsjinner fia in kommandorigel."
+			},
+			"dataFormat": {
+				"title": "Minskber-lêsber gegevensformaat",
+				"description": "It LISH-gegevensformaat is boud op JSON, wat it makket maklik te kreearjen, lêze en begripe. Diel jo ynhâld mei dúdlike en transparante metadata, dy't elkenien maklik kontrolearje kin."
+			},
+			"security": {
+				"title": "Privacy en feiligens",
+				"description": "Alle peer-to-peer-kommunikaasje wurdt fersifere, wat soarget dat jo gegevens privee bliuwe yn it ferkear. Brûkers kinne har efter in VPN ferskûlje foar mear anonimiteit. {project} respektearret jo privacy troch ûntwerp."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "De software is beskikber op Windows, Linux en macOS. Brûk it op hokker apparaat jo ek mar wolle."
+			}
+		}
+	},
+	"download": {
+		"title": "Downloade",
+		"description": "Krij {project} foar jo platfoarm. Alle downloads binne fergees en iepen boarne.",
+		"version": "Aktuele ferzje: {version}",
+		"linkAlt": "Downloade",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-ynstallearder",
+			"package": "{format}-pakket",
+			"portableZip": "Draachbere ZIP",
+			"viewOnGithub": "Besjoch op GitHub"
+		},
+		"macos": {
+			"title": "Wichtige notysje foar macOS-brûkers:",
+			"intro": "macOS Gatekeeper sil net-tekene/net-notarisearre apps dy't fan it ynternet ôf downloade binne, blokkearje mei de flater {error}.",
+			"error": "\"is brutsen, kin net iepene wurde\"",
+			"runCommand": "Nei it downloaden fan de DMG of ZIP, foar't jo de app iepenje, fier dit kommando út yn Terminal:",
+			"exampleDmg": "Bygelyks, nei ynstallaasje fan de DMG:",
+			"exampleZip": "Of nei it útpakken fan de ZIP:",
+			"explanation": "Dit ferwideret it karantêne-attribút en lit de app rinne."
+		}
+	},
+	"screenshots": {
+		"title": "Skermôfdrukken",
+		"open": "Iepenje skermôfdruk {index}",
+		"alt": "Skermôfdruk {index}",
+		"close": "Galery slute",
+		"prev": "Foarige ôfbylding",
+		"next": "Folgjende ôfbylding"
+	},
+	"comparison": {
+		"title": "Fergeliking",
+		"feature": "Eigenskip",
+		"yes": "Ja",
+		"no": "Nee",
+		"partialDht": "Foar in part (DHT)",
+		"rows": {
+			"decentralized": "Desintralisearre netwurk",
+			"onlineLibrary": "Online biblioteek",
+			"builtInSearch": "Ynboude ynhâldssykjen",
+			"decentralizedSearch": "Desintralisearre ynhâldssykjen",
+			"parallelDownloads": "Parallelle downloads fan meardere boarnen",
+			"mediaCenter": "Media-sintrum-ynterface",
+			"gamepad": "Gamepad-stipe",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Nim kontakt op",
+		"links": {
+			"telegramChat": "Telegram-petearsgroep",
+			"telegramAnnouncements": "Telegram-oankundigingen",
+			"facebook": "Facebook-groep"
+		}
+	},
+	"footer": {
+		"by": "Makke troch"
+	}
+}

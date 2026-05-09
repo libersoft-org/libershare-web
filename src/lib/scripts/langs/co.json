@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Sparta di schedarii decentralizatu",
+		"description": "{project} hè un sgaliciariu di sparta di schedarii peer-to-peer, custruitu nantu à a tecnulugia decentralizata muderna.",
+		"ogTitle": "{project} - Sgaliciariu di sparta di schedarii decentralizatu",
+		"ogDescription": "Sparta di schedarii peer-to-peer basata nantu à a tecnulugia decentralizata muderna. Nisunu servitore centrale. Nisunu puntu unicu di fallimentu."
+	},
+	"menu": {
+		"about": "À prupositu",
+		"download": "Scaricà",
+		"screenshots": "Schermate",
+		"comparison": "Cunfrontu",
+		"contact": "Cuntattu",
+		"toggle": "Cambia u menù",
+		"close": "Chjudi u menù",
+		"language": "Lingua",
+		"selectLanguage": "Sceglie una lingua"
+	},
+	"hero": {
+		"subtitle": "A prossima generazione di sparta di schedarii peer-to-peer",
+		"description": "Basata nantu à a tecnulugia decentralizata muderna. Nisunu servitore centrale. Nisunu puntu unicu di fallimentu.",
+		"download": "Scaricà"
+	},
+	"about": {
+		"title": "À prupositu",
+		"intro": "{project} hè una piattaforma di prossima generazione per a sparta di schedarii peer-to-peer, custruita nantu à a tecnulugia decentralizata muderna. Cumbina un'interfaccia utente faciule da adupera cù un'architettura cumpletamente decentralizata, furnendu una sparta di dati sicura è affidabile senza bisognu di un'autorità centrale. Stu prughjettu hè open source, distribuitu sottu à u {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Reta cumpletamente decentralizata",
+				"description": "Nisunu servitore centrale, nisunu puntu unicu di fallimentu. L'utenti trovanu è scaricanu u cuntenutu direttamente l'unu da l'altru, senza dipende d'un indizatore, tracciatore o basa di dati centrale."
+			},
+			"accessControl": {
+				"title": "Cuntrollu d'accessu finu",
+				"description": "Ognunu pò mette in piedi gratuitamente a so propria reta cù e so proprie regule. Dentru ogni reta, i ruoli di l'utente sò definiti: pruprietariu, amministratore, editore, muderatore è scaricatore. Avete un cuntrollu finu nantu à quale pò publicà, muderà è scaricà u cuntenutu."
+			},
+			"ui": {
+				"title": "Interfaccia utente di alta qualità",
+				"description": "Un'interfaccia di centru multimediale pulita è risponsiva, cuncepita per e piattaforme di scrivania, TV è mobile. Navigazione faciule cù tastiera, sorice, gamepad o telecumandu. L'utenti avanzati ponu eseguisce u sgaliciariu cum'è un servitore di schedarii senza testa attraversu un'interfaccia di linea di cumandu."
+			},
+			"dataFormat": {
+				"title": "Furmatu di dati leghjibile da l'omu",
+				"description": "U furmatu di dati LISH hè custruitu nantu à JSON, ciò chì u rende faciule à creà, leghje è capisce. Sparte u to cuntenutu cù metadati chiari è trasparenti chì ognunu pò ispezziunà facilmente."
+			},
+			"security": {
+				"title": "Privacy è sicurità",
+				"description": "Tutta a cumunicazione peer-to-peer hè criptata, assicurendu chì i to dati restanu privati in transitu. L'utenti ponu ammucciassi daretu à una VPN per più anuminità. {project} rispetta a to privacy per cuncepimentu."
+			},
+			"crossPlatform": {
+				"title": "Multipiattaforma",
+				"description": "U sgaliciariu hè dispunibule nantu à Windows, Linux è macOS. Adupralu nantu à qualsiasi dispusitivu chì ai."
+			}
+		}
+	},
+	"download": {
+		"title": "Scaricà",
+		"description": "Ottene {project} per a to piattaforma. Tutti i scaricamenti sò gratuiti è open source.",
+		"version": "Versione attuale: {version}",
+		"linkAlt": "Scaricà",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installatore {format}",
+			"package": "Pacchettu {format}",
+			"portableZip": "ZIP purtatile",
+			"viewOnGithub": "Vede nantu à GitHub"
+		},
+		"macos": {
+			"title": "Nota impurtante per l'utenti macOS:",
+			"intro": "macOS Gatekeeper bluccarà l'applicazioni micca firmate/micca nutarizzate scaricate da Internet cù l'errore {error}.",
+			"error": "\"hè rottu, ùn si pò micca apre\"",
+			"runCommand": "Dopu avè scaricatu u DMG o ZIP, prima d'apre l'applicazione, eseguite stu cumandu in u Terminal:",
+			"exampleDmg": "Per esempiu, dopu l'installazione da u DMG:",
+			"exampleZip": "O dopu avè estrattu u ZIP:",
+			"explanation": "Quessu sopprime l'attributu di quarantena è permette à l'applicazione di funziunà."
+		}
+	},
+	"screenshots": {
+		"title": "Schermate",
+		"open": "Apre a schermata {index}",
+		"alt": "Schermata {index}",
+		"close": "Chjudi a galleria",
+		"prev": "Immagine precedente",
+		"next": "Immagine seguente"
+	},
+	"comparison": {
+		"title": "Cunfrontu",
+		"feature": "Funziunalità",
+		"yes": "Sì",
+		"no": "Nò",
+		"partialDht": "Parziale (DHT)",
+		"rows": {
+			"decentralized": "Reta decentralizata",
+			"onlineLibrary": "Bibliuteca in linea",
+			"builtInSearch": "Ricerca di cuntenutu integrata",
+			"decentralizedSearch": "Ricerca di cuntenutu decentralizata",
+			"parallelDownloads": "Scaricamenti paralleli da parechje surgenti",
+			"mediaCenter": "Interfaccia centru multimediale",
+			"gamepad": "Supportu gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cuntattu",
+		"getInTouch": "Mette in cuntattu",
+		"links": {
+			"telegramChat": "Gruppu di chat Telegram",
+			"telegramAnnouncements": "Annunzii Telegram",
+			"facebook": "Gruppu Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fattu da"
+	}
+}

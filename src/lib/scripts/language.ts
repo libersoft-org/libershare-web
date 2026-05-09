@@ -178,6 +178,25 @@ import ch from './langs/ch.json';
 import iu from './langs/iu.json';
 import dv from './langs/dv.json';
 import se from './langs/se.json';
+import sa from './langs/sa.json';
+import kok from './langs/kok.json';
+import doi from './langs/doi.json';
+import fy from './langs/fy.json';
+import gd from './langs/gd.json';
+import ast from './langs/ast.json';
+import oc from './langs/oc.json';
+import br from './langs/br.json';
+import fur from './langs/fur.json';
+import co from './langs/co.json';
+import hsb from './langs/hsb.json';
+import an from './langs/an.json';
+import lld from './langs/lld.json';
+import ce from './langs/ce.json';
+import ba from './langs/ba.json';
+import cv from './langs/cv.json';
+import crh from './langs/crh.json';
+import os from './langs/os.json';
+import rup from './langs/rup.json';
 export interface Language {
 	id: string;
 	label: string;
@@ -191,14 +210,18 @@ export const languages: Language[] = [
 	{ id: 'sq', label: 'Albanian', nativeLabel: 'Shqip', flag: 'al' },
 	{ id: 'am', label: 'Amharic', nativeLabel: 'አማርኛ', flag: 'et' },
 	{ id: 'ar', label: 'Arabic', nativeLabel: 'العربية', flag: 'sa' },
+	{ id: 'an', label: 'Aragonese', nativeLabel: 'Aragonés', flag: 'es' },
 	{ id: 'hy', label: 'Armenian', nativeLabel: 'Հայերեն', flag: 'am' },
+	{ id: 'rup', label: 'Aromanian', nativeLabel: 'Armãneashti', flag: 'ro' },
 	{ id: 'as', label: 'Assamese', nativeLabel: 'অসমীয়া', flag: 'in' },
+	{ id: 'ast', label: 'Asturian', nativeLabel: 'Asturianu', flag: 'es' },
 	{ id: 'awa', label: 'Awadhi', nativeLabel: 'अवधी', flag: 'in' },
 	{ id: 'ay', label: 'Aymara', nativeLabel: 'Aymar aru', flag: 'bo' },
 	{ id: 'az', label: 'Azerbaijani', nativeLabel: 'Azərbaycanca', flag: 'az' },
 	{ id: 'ban', label: 'Balinese', nativeLabel: 'Basa Bali', flag: 'id' },
 	{ id: 'bm', label: 'Bambara', nativeLabel: 'Bamanankan', flag: 'ml' },
 	{ id: 'bjn', label: 'Banjar', nativeLabel: 'Bahasa Banjar', flag: 'id' },
+	{ id: 'ba', label: 'Bashkir', nativeLabel: 'Башҡортса', flag: 'ru' },
 	{ id: 'eu', label: 'Basque', nativeLabel: 'Euskara', flag: 'es' },
 	{ id: 'be', label: 'Belarusian', nativeLabel: 'Беларуская', flag: 'by' },
 	{ id: 'bem', label: 'Bemba', nativeLabel: 'Ichibemba', flag: 'zm' },
@@ -207,6 +230,7 @@ export const languages: Language[] = [
 	{ id: 'bho', label: 'Bhojpuri', nativeLabel: 'भोजपुरी', flag: 'in' },
 	{ id: 'bi', label: 'Bislama', nativeLabel: 'Bislama', flag: 'vu' },
 	{ id: 'bs', label: 'Bosnian', nativeLabel: 'Bosanski', flag: 'ba' },
+	{ id: 'br', label: 'Breton', nativeLabel: 'Brezhoneg', flag: 'fr' },
 	{ id: 'bug', label: 'Buginese', nativeLabel: 'ᨅᨔ ᨕᨘᨁᨗ', flag: 'id' },
 	{ id: 'bg', label: 'Bulgarian', nativeLabel: 'Български', flag: 'bg' },
 	{ id: 'my', label: 'Burmese', nativeLabel: 'မြန်မာ', flag: 'mm' },
@@ -215,16 +239,21 @@ export const languages: Language[] = [
 	{ id: 'ca', label: 'Catalan', nativeLabel: 'Català', flag: 'ad' },
 	{ id: 'ceb', label: 'Cebuano', nativeLabel: 'Cebuano', flag: 'ph' },
 	{ id: 'ch', label: 'Chamorro', nativeLabel: 'Chamoru', flag: 'gu' },
+	{ id: 'ce', label: 'Chechen', nativeLabel: 'Нохчийн мотт', flag: 'ru' },
 	{ id: 'hne', label: 'Chhattisgarhi', nativeLabel: 'छत्तीसगढ़ी', flag: 'in' },
 	{ id: 'ny', label: 'Chichewa', nativeLabel: 'Chichewa', flag: 'mw' },
 	{ id: 'zh', label: 'Chinese', nativeLabel: '中文', flag: 'cn' },
 	{ id: 'ctg', label: 'Chittagonian', nativeLabel: 'চাঁটগাঁইয়া', flag: 'bd' },
+	{ id: 'cv', label: 'Chuvash', nativeLabel: 'Чӑвашла', flag: 'ru' },
 	{ id: 'zdj', label: 'Comorian', nativeLabel: 'Shikomori', flag: 'km' },
+	{ id: 'co', label: 'Corsican', nativeLabel: 'Corsu', flag: 'fr' },
 	{ id: 'hr', label: 'Croatian', nativeLabel: 'Hrvatski', flag: 'hr' },
+	{ id: 'crh', label: 'Crimean Tatar', nativeLabel: 'Qırımtatarca', flag: 'ua' },
 	{ id: 'cs', label: 'Czech', nativeLabel: 'Čeština', flag: 'cz' },
 	{ id: 'da', label: 'Danish', nativeLabel: 'Dansk', flag: 'dk' },
 	{ id: 'dv', label: 'Dhivehi', nativeLabel: 'ދިވެހި', flag: 'mv' },
 	{ id: 'din', label: 'Dinka', nativeLabel: 'Thuɔŋjäŋ', flag: 'ss' },
+	{ id: 'doi', label: 'Dogri', nativeLabel: 'डोगरी', flag: 'in' },
 	{ id: 'nl', label: 'Dutch', nativeLabel: 'Nederlands', flag: 'nl' },
 	{ id: 'cdo', label: 'Eastern Min', nativeLabel: '閩東語', flag: 'cn' },
 	{ id: 'en', label: 'English', nativeLabel: 'English', flag: 'gb' },
@@ -234,6 +263,7 @@ export const languages: Language[] = [
 	{ id: 'tl', label: 'Filipino', nativeLabel: 'Filipino', flag: 'ph' },
 	{ id: 'fi', label: 'Finnish', nativeLabel: 'Suomi', flag: 'fi' },
 	{ id: 'fr', label: 'French', nativeLabel: 'Français', flag: 'fr' },
+	{ id: 'fur', label: 'Friulian', nativeLabel: 'Furlan', flag: 'it' },
 	{ id: 'ff', label: 'Fulah', nativeLabel: 'Fulfulde', flag: 'sn' },
 	{ id: 'gl', label: 'Galician', nativeLabel: 'Galego', flag: 'es' },
 	{ id: 'gan', label: 'Gan', nativeLabel: '贛語', flag: 'cn' },
@@ -270,11 +300,13 @@ export const languages: Language[] = [
 	{ id: 'rw', label: 'Kinyarwanda', nativeLabel: 'Ikinyarwanda', flag: 'rw' },
 	{ id: 'rn', label: 'Kirundi', nativeLabel: 'Ikirundi', flag: 'bi' },
 	{ id: 'kg', label: 'Kongo', nativeLabel: 'Kikongo', flag: 'cd' },
+	{ id: 'kok', label: 'Konkani', nativeLabel: 'कोंकणी', flag: 'in' },
 	{ id: 'ko', label: 'Korean', nativeLabel: '한국어', flag: 'kr' },
 	{ id: 'kri', label: 'Krio', nativeLabel: 'Krio', flag: 'sl' },
 	{ id: 'ku', label: 'Kurdish', nativeLabel: 'Kurdî', flag: 'iq' },
 	{ id: 'ky', label: 'Kyrgyz', nativeLabel: 'Кыргызча', flag: 'kg' },
 	{ id: 'lo', label: 'Lao', nativeLabel: 'ລາວ', flag: 'la' },
+	{ id: 'lld', label: 'Ladin', nativeLabel: 'Ladin', flag: 'it' },
 	{ id: 'lv', label: 'Latvian', nativeLabel: 'Latviešu', flag: 'lv' },
 	{ id: 'ln', label: 'Lingala', nativeLabel: 'Lingála', flag: 'cd' },
 	{ id: 'lt', label: 'Lithuanian', nativeLabel: 'Lietuvių', flag: 'lt' },
@@ -302,8 +334,10 @@ export const languages: Language[] = [
 	{ id: 'nso', label: 'Northern Sotho', nativeLabel: 'Sesotho sa Leboa', flag: 'za' },
 	{ id: 'no', label: 'Norwegian', nativeLabel: 'Norsk', flag: 'no' },
 	{ id: 'nn', label: 'Norwegian Nynorsk', nativeLabel: 'Nynorsk', flag: 'no' },
+	{ id: 'oc', label: 'Occitan', nativeLabel: 'Occitan', flag: 'fr' },
 	{ id: 'or', label: 'Odia', nativeLabel: 'ଓଡ଼ିଆ', flag: 'in' },
 	{ id: 'om', label: 'Oromo', nativeLabel: 'Afaan Oromoo', flag: 'et' },
+	{ id: 'os', label: 'Ossetian', nativeLabel: 'Ирон æвзаг', flag: 'ge' },
 	{ id: 'ps', label: 'Pashto', nativeLabel: 'پښتو', flag: 'af' },
 	{ id: 'fa', label: 'Persian', nativeLabel: 'فارسی', flag: 'ir' },
 	{ id: 'pl', label: 'Polish', nativeLabel: 'Polski', flag: 'pl' },
@@ -315,9 +349,11 @@ export const languages: Language[] = [
 	{ id: 'ru', label: 'Russian', nativeLabel: 'Русский', flag: 'ru' },
 	{ id: 'sm', label: 'Samoan', nativeLabel: 'Gagana Sāmoa', flag: 'ws' },
 	{ id: 'sg', label: 'Sango', nativeLabel: 'Sängö', flag: 'cf' },
+	{ id: 'sa', label: 'Sanskrit', nativeLabel: 'संस्कृतम्', flag: 'in' },
 	{ id: 'sat', label: 'Santali', nativeLabel: 'ᱥᱟᱱᱛᱟᱲᱤ', flag: 'in' },
 	{ id: 'skr', label: 'Saraiki', nativeLabel: 'سرائیکی', flag: 'pk' },
 	{ id: 'sc', label: 'Sardinian', nativeLabel: 'Sardu', flag: 'it' },
+	{ id: 'gd', label: 'Scottish Gaelic', nativeLabel: 'Gàidhlig', flag: 'gb' },
 	{ id: 'sr', label: 'Serbian', nativeLabel: 'Српски', flag: 'rs' },
 	{ id: 'st', label: 'Sesotho', nativeLabel: 'Sesotho', flag: 'ls' },
 	{ id: 'crs', label: 'Seychellois Creole', nativeLabel: 'Seselwa', flag: 'sc' },
@@ -351,12 +387,14 @@ export const languages: Language[] = [
 	{ id: 'tk', label: 'Turkmen', nativeLabel: 'Türkmençe', flag: 'tm' },
 	{ id: 'uk', label: 'Ukrainian', nativeLabel: 'Українська', flag: 'ua' },
 	{ id: 'umb', label: 'Umbundu', nativeLabel: 'Umbundu', flag: 'ao' },
+	{ id: 'hsb', label: 'Upper Sorbian', nativeLabel: 'Hornjoserbsce', flag: 'de' },
 	{ id: 'ur', label: 'Urdu', nativeLabel: 'اردو', flag: 'pk' },
 	{ id: 'uz', label: 'Uzbek', nativeLabel: 'Oʻzbekcha', flag: 'uz' },
 	{ id: 'ug', label: 'Uyghur', nativeLabel: 'ئۇيغۇرچە', flag: 'cn' },
 	{ id: 've', label: 'Venda', nativeLabel: 'Tshivenda', flag: 'za' },
 	{ id: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', flag: 'vn' },
 	{ id: 'cy', label: 'Welsh', nativeLabel: 'Cymraeg', flag: 'gb' },
+	{ id: 'fy', label: 'Western Frisian', nativeLabel: 'Frysk', flag: 'nl' },
 	{ id: 'wo', label: 'Wolof', nativeLabel: 'Wolof', flag: 'sn' },
 	{ id: 'wuu', label: 'Wu', nativeLabel: '吳語', flag: 'cn' },
 	{ id: 'xh', label: 'Xhosa', nativeLabel: 'isiXhosa', flag: 'za' },
@@ -369,7 +407,7 @@ const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se };
+const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup };
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {

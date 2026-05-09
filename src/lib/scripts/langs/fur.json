@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Condivision di file decentralizade",
+		"description": "{project} al è un software di condivision di file peer-to-peer, costruît su tecnologjie decentralizade modernis.",
+		"ogTitle": "{project} - Software di condivision di file decentralizât",
+		"ogDescription": "Condivision di file peer-to-peer basât su tecnologjie decentralizade modernis. Nissun servidôr centrâl. Nissun pont singul di vuast."
+	},
+	"menu": {
+		"about": "Informazions",
+		"download": "Discjarie",
+		"screenshots": "Sclips di videade",
+		"comparison": "Confront",
+		"contact": "Contat",
+		"toggle": "Cambie il menù",
+		"close": "Siere il menù",
+		"language": "Lenghe",
+		"selectLanguage": "Selezione une lenghe"
+	},
+	"hero": {
+		"subtitle": "La prossime gjenerazion di condivision di file peer-to-peer",
+		"description": "Basât su tecnologjie decentralizade modernis. Nissun servidôr centrâl. Nissun pont singul di vuast.",
+		"download": "Discjarie"
+	},
+	"about": {
+		"title": "Informazions",
+		"intro": "{project} al è une plateforme di prossime gjenerazion pe condivision di file peer-to-peer, costruide su tecnologjie decentralizade modernis. E met dongje une interface utent facile di doprâ cuntune architeture totalmentri decentralizade, furnint condivision di dâts sigûre e fidade cence necessitât di une autoritât centrâl. Chest progjet al è open source, distribuît sot la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rêt totalmentri decentralizade",
+				"description": "Nissun servidôr centrâl, nissun pont singul di vuast. I utents a cjatin e a discjarin contignûts diretementri un dal altri, cence dipendi di un indicizadôr, tracadôr o base di dâts centrâl."
+			},
+			"accessControl": {
+				"title": "Control di acès finc",
+				"description": "Ognidun al pò creâ a gratis la sô rêt cu lis sôs propris regulis. Dentri di ogni rêt, i rûi dai utents a son definîts: paron, aministradôr, publichadôr, moderadôr e discjariadôr. Vê control finc su cui che al pò publichâ, moderâ e discjariâ contignûts."
+			},
+			"ui": {
+				"title": "Interface utent di alte cualitât",
+				"description": "Une interface di centri multimediâl pulît e responsîf, dissegnade pes plateformis di scrivanie, TV e mobii. Navigazion facile cul tastiêr, mouse, gamepad o telecomant. I utents avanzâts a puedin eseguî il software come un servidôr di file cence cjâf vie une interface a rie di comant."
+			},
+			"dataFormat": {
+				"title": "Formât dâts leibil dai umans",
+				"description": "Il formât dâts LISH al è costruît su JSON, ce che lu rint facil di creâ, lei e capî. Cundividi i tiei contignûts cun metadâts clârs e trasparents che ognidun al pò controlâ facilmentri."
+			},
+			"security": {
+				"title": "Privacy e sigurece",
+				"description": "Dute la comunicazion peer-to-peer e je cifrade, garantint che i tiei dâts a restin privâts in transit. I utents a puedin platâsi daûr di une VPN par plui anonimitât. {project} al rispiete la tô privacy par dissegn."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforme",
+				"description": "Il software al è disponibil su Windows, Linux e macOS. Doprilu su cualsisei dispositîf che tu vuelis."
+			}
+		}
+	},
+	"download": {
+		"title": "Discjarie",
+		"description": "Cjape sù {project} pe tô plateforme. Ducj i discjariâments a son a gratis e open source.",
+		"version": "Version atuâl: {version}",
+		"linkAlt": "Discjarie",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instaladôr {format}",
+			"package": "Pachet {format}",
+			"portableZip": "ZIP portatil",
+			"viewOnGithub": "Viôt su GitHub"
+		},
+		"macos": {
+			"title": "Note impuartante pai utents macOS:",
+			"intro": "macOS Gatekeeper al bloche lis aplicazions no firmadis/no notarizadis discjariadis di internet cul erôr {error}.",
+			"error": "\"al è ruvinât, no si pò vierzi\"",
+			"runCommand": "Daspò vê discjariât il DMG o ZIP, prime di vierzi la aplicazion, eseguìs chest comant tal Terminal:",
+			"exampleDmg": "Par esempli, daspò la instalazion dal DMG:",
+			"exampleZip": "O daspò vê estrât il ZIP:",
+			"explanation": "Chest al gjave l'atribût di cuarantene e al permet ae aplicazion di funzionâ."
+		}
+	},
+	"screenshots": {
+		"title": "Sclips di videade",
+		"open": "Vierç il sclip di videade {index}",
+		"alt": "Sclip di videade {index}",
+		"close": "Siere la galarie",
+		"prev": "Imagjin precedent",
+		"next": "Imagjin sucessîf"
+	},
+	"comparison": {
+		"title": "Confront",
+		"feature": "Funzionalitât",
+		"yes": "Sì",
+		"no": "No",
+		"partialDht": "Parziâl (DHT)",
+		"rows": {
+			"decentralized": "Rêt decentralizade",
+			"onlineLibrary": "Biblioteche online",
+			"builtInSearch": "Ricercje di contignûts integrade",
+			"decentralizedSearch": "Ricercje di contignûts decentralizade",
+			"parallelDownloads": "Discjariâments paralêi di plui sorzints",
+			"mediaCenter": "Interface centri multimediâl",
+			"gamepad": "Supuart gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contat",
+		"getInTouch": "Met in contat",
+		"links": {
+			"telegramChat": "Grup di chat Telegram",
+			"telegramAnnouncements": "Anunzis Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fat di"
+	}
+}

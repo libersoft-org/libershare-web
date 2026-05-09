@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Compartición descentralizada de ficheros",
+		"description": "{project} ye un software de compartición de ficheros peer-to-peer, construyíu sobre teunoloxía descentralizada moderna.",
+		"ogTitle": "{project} - Software de compartición descentralizada de ficheros",
+		"ogDescription": "Compartición de ficheros peer-to-peer basada en teunoloxía descentralizada moderna. Ensin sirvidor central. Ensin nengún puntu únicu de fallu."
+	},
+	"menu": {
+		"about": "Tocante a",
+		"download": "Descarga",
+		"screenshots": "Captures",
+		"comparison": "Comparanza",
+		"contact": "Contautu",
+		"toggle": "Conmutar menú",
+		"close": "Zarrar menú",
+		"language": "Llingua",
+		"selectLanguage": "Esbillar una llingua"
+	},
+	"hero": {
+		"subtitle": "La próxima xeneración de compartición de ficheros peer-to-peer",
+		"description": "Basada en teunoloxía descentralizada moderna. Ensin sirvidor central. Ensin nengún puntu únicu de fallu.",
+		"download": "Descarga"
+	},
+	"about": {
+		"title": "Tocante a",
+		"intro": "{project} ye una plataforma de compartición de ficheros peer-to-peer de la próxima xeneración, construyida sobre teunoloxía descentralizada moderna. Combina una interfaz d'usuariu cenciella d'usar con una arquiteutura totalmente descentralizada, apurriendo una compartición de datos segura y fiable ensin necesidá d'autoridá central. El proyeutu ye open source, distribuyíu baxo la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rede totalmente descentralizada",
+				"description": "Ensin sirvidor central, ensin nengún puntu únicu de fallu. Los usuarios alcuentren y descarguen conteníu direutamente unos d'otros, ensin enantiase nun indexador, rastriador o base de datos central."
+			},
+			"accessControl": {
+				"title": "Control d'accesu finu",
+				"description": "Cualquiera pue armar de baldre la so propia rede coles sos propies regles. Dientro de cada rede, definense los roles d'usuariu: propietariu, alministrador, asoleyador, moderador y descargador. Tien un control finu sobre quién pue asoleyar, moderar y descargar conteníu."
+			},
+			"ui": {
+				"title": "Interfaz d'usuariu d'alta calidá",
+				"description": "Una interfaz de centru multimedia llimpia y reactiva, deseñada pa plataformes d'escritoriu, TV y móviles. Navegación senciella con tecláu, mure, gamepad o mandu a distancia. Los usuarios avanzaos puen executar el software como un sirvidor de ficheros ensin cabeza al traviés d'una interfaz de llinia de comandos."
+			},
+			"dataFormat": {
+				"title": "Formatu de datos llexible por humanos",
+				"description": "El formatu de datos LISH ta construyíu sobre JSON, lo que lu fai cenciellu de crear, lleer y entender. Comparti'l to conteníu con metadatos claros y tresparentes que cualquiera pue inspeccionar fácilmente."
+			},
+			"security": {
+				"title": "Privacidá y seguridá",
+				"description": "Toa la comunicación peer-to-peer ta cifrada, asegurando que los tos datos permanecen privaos en tránsitu. Los usuarios puen anubrise tres una VPN p'una mayor anonimidá. {project} respeta la to privacidá per diseñu."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "El software ta disponible en Windows, Linux y macOS. Úsalu en cualquier preséu que tengas."
+			}
+		}
+	},
+	"download": {
+		"title": "Descarga",
+		"description": "Consigui {project} pa la to plataforma. Toes les descargues son de baldre y open source.",
+		"version": "Versión actual: {version}",
+		"linkAlt": "Descarga",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Paquete {format}",
+			"portableZip": "ZIP portátil",
+			"viewOnGithub": "Ver en GitHub"
+		},
+		"macos": {
+			"title": "Nota importante pa los usuarios de macOS:",
+			"intro": "macOS Gatekeeper bloquiará les aplicaciones non roblaes/non notarizaes baxaes d'internet col error {error}.",
+			"error": "\"ta dañáu, nun se pue abrir\"",
+			"runCommand": "Dempués de baxar el DMG o ZIP, antes d'abrir l'aplicación, executa esti comandu nel Terminal:",
+			"exampleDmg": "Por exemplu, depués d'instalar dende'l DMG:",
+			"exampleZip": "O dempués d'estrayer el ZIP:",
+			"explanation": "Esto desanicia l'atributu de cuarentena y permite executar l'aplicación."
+		}
+	},
+	"screenshots": {
+		"title": "Captures",
+		"open": "Abrir captura {index}",
+		"alt": "Captura {index}",
+		"close": "Zarrar la galería",
+		"prev": "Imaxe anterior",
+		"next": "Imaxe siguiente"
+	},
+	"comparison": {
+		"title": "Comparanza",
+		"feature": "Carauterística",
+		"yes": "Sí",
+		"no": "Non",
+		"partialDht": "Parcial (DHT)",
+		"rows": {
+			"decentralized": "Rede descentralizada",
+			"onlineLibrary": "Biblioteca en llinia",
+			"builtInSearch": "Gueta de conteníu integrada",
+			"decentralizedSearch": "Gueta de conteníu descentralizada",
+			"parallelDownloads": "Descargues paraleles dende delles fontes",
+			"mediaCenter": "Interfaz de centru multimedia",
+			"gamepad": "Sofitu de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contautu",
+		"getInTouch": "Ponse en contautu",
+		"links": {
+			"telegramChat": "Grupu de charra de Telegram",
+			"telegramAnnouncements": "Anuncios de Telegram",
+			"facebook": "Grupu de Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fechu por"
+	}
+}

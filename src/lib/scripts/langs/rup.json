@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mpãrtsãri di fileri descentralizatã",
+		"description": "{project} easti unã programã peer-to-peer di mpãrtsãri di fileri, adratã pri tehnologii descentralizati moderni.",
+		"ogTitle": "{project} - Programã di mpãrtsãri di fileri descentralizatã",
+		"ogDescription": "Mpãrtsãri di fileri peer-to-peer bazatã pri tehnologii descentralizati moderni. Fãrã sirvitor tsentral. Fãrã punctu unic di cãdeari."
+	},
+	"menu": {
+		"about": "Trã",
+		"download": "Cãrtirea",
+		"screenshots": "Capturi di ecran",
+		"comparison": "Sumãrari",
+		"contact": "Tãxi",
+		"toggle": "Alãxescu meniul",
+		"close": "Ncljid meniul",
+		"language": "Limbã",
+		"selectLanguage": "Aleadzi limba"
+	},
+	"hero": {
+		"subtitle": "Etea atsea di nauã di mpãrtsãri di fileri peer-to-peer",
+		"description": "Bazatã pri tehnologii descentralizati moderni. Fãrã sirvitor tsentral. Fãrã punctu unic di cãdeari.",
+		"download": "Cãrtirea"
+	},
+	"about": {
+		"title": "Trã",
+		"intro": "{project} easti unã platformã etã nauã trã mpãrtsãri di fileri peer-to-peer, adratã pri tehnologii descentralizati moderni. Aduchi unã interfatsã di utilizator lishoarã ti dipriunatã cu unã arhitecturã ãndreaptu descentralizatã, dindalui mpãrtsãri di dati siguri shi di ãncreadiri fãrã ananghi di unã autoritati tsentralã. Aestu proiectu easti open source, distribuitu sumã {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Aretsa ãndreaptu descentralizatã",
+				"description": "Fãrã sirvitor tsentral, fãrã punctu unic di cãdeari. Utilizatorlji aflã shi cãrtescu cuntinutu directu unu di altu, fãrã si dipendu di un indexator, urmãtor i bazã di dati tsentralã."
+			},
+			"accessControl": {
+				"title": "Cuntrolã subtsãri di intrari",
+				"description": "Cathiunu poati s-bagã unã areauã proprie tu fãrã platã cu reguli proprii. Tu cathi areauã suntu definiti rolurli di utilizator: stãpãn, administrator, editor, moderator shi cãrtitor. Ai cuntrolã subtsãri pi cari poati s-publicã, modireazã shi cãrteascã cuntinutu."
+			},
+			"ui": {
+				"title": "Interfatsã di utilizator di calitati analtã",
+				"description": "Unã interfatsã di tsentru di mass-media curatã shi reactivã, adratã trã platformi di disktop, TV shi mobili. Navigari lishoarã cu tastaturã, soartit, gamepad i telecomandã. Utilizatorlji avansats poatã s-fac programa s-lucreadzã ca un sirvitor di fileri fãrã caput prit unã interfatsã di liniã di cumandã."
+			},
+			"dataFormat": {
+				"title": "Format di dati ghivãsibilã di omu",
+				"description": "Formatlu di dati LISH easti adratu pri JSON, tsi-l facã lishor ti adrari, ghivãsiri shi achicãsiri. Mpartsã cuntinutu-ts cu metadati lutsidi shi transparenti, cari cathiunu poati lishor s-li cercheteadzã."
+			},
+			"security": {
+				"title": "Privatitati shi sigurãrnia",
+				"description": "Tutã comunicatsia peer-to-peer easti criptatã, asigurând cã datili-ts armãn privati ãn transit. Utilizatorlji poatã s-aspargã dupã un VPN trã cama anonimitati. {project} respectã privatitatea-ts prit dezvoltari."
+			},
+			"crossPlatform": {
+				"title": "Multi-platformã",
+				"description": "Programa easti disponibilã pri Windows, Linux shi macOS. Folisi-u pi cathi vutã ai."
+			}
+		}
+	},
+	"download": {
+		"title": "Cãrtirea",
+		"description": "Acatsã {project} trã platforma-ts. Tuti cãrtirili suntu fãrã platã shi open source.",
+		"version": "Versiunea curentã: {version}",
+		"linkAlt": "Cãrtirea",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pachetu {format}",
+			"portableZip": "ZIP portabilu",
+			"viewOnGithub": "Veadi pri GitHub"
+		},
+		"macos": {
+			"title": "Notã importantã trã utilizatorlji macOS:",
+			"intro": "macOS Gatekeeper va s-blochedzã aplicatsii ne-semnati/ne-notarizati cãrtiti di pri Internet cu eroarea {error}.",
+			"error": "\"easti aspartã, nu poati s-yiscljadã\"",
+			"runCommand": "Dupã cãrtirea DMG i ZIP, ninti di yiscljidearea aplicatsiei, executã aestu cumandu tu Terminal:",
+			"exampleDmg": "Bunãoarã, dupã instalari di pri DMG:",
+			"exampleZip": "I dupã extractsiunea ZIP-lui:",
+			"explanation": "Aestu scoati atributlu di carantinã shi alasã aplicatsia s-lucreadzã."
+		}
+	},
+	"screenshots": {
+		"title": "Capturi di ecran",
+		"open": "Yiscljidi captura {index}",
+		"alt": "Captura {index}",
+		"close": "Ncljid galeria",
+		"prev": "Imagina di ninti",
+		"next": "Imagina urmãtoari"
+	},
+	"comparison": {
+		"title": "Sumãrari",
+		"feature": "Caracteristicã",
+		"yes": "Da",
+		"no": "Nu",
+		"partialDht": "Partsialã (DHT)",
+		"rows": {
+			"decentralized": "Areauã descentralizatã",
+			"onlineLibrary": "Bibliotecã online",
+			"builtInSearch": "Cãftari di cuntinutu integratã",
+			"decentralizedSearch": "Cãftari di cuntinutu descentralizatã",
+			"parallelDownloads": "Cãrtiri paraleli di pri ma multi izvuri",
+			"mediaCenter": "Interfatsã di tsentru di mass-media",
+			"gamepad": "Sprijinu di gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tãxi",
+		"getInTouch": "Bagã ti tãxi",
+		"links": {
+			"telegramChat": "Grup di chat Telegram",
+			"telegramAnnouncements": "Anuntsuri Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Adratu di"
+	}
+}

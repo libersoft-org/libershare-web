@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Despartiment de files descentralisé",
+		"description": "{project} é n software per despartì files peer-to-peer, costruì sön na tecnologia descentralisada moderna.",
+		"ogTitle": "{project} - Software per despartì files descentralisé",
+		"ogDescription": "Despartiment de files peer-to-peer basé sön na tecnologia descentralisada moderna. Niun server zentral. Niun pönt unich de defet."
+	},
+	"menu": {
+		"about": "Sön",
+		"download": "Descarié",
+		"screenshots": "Schermades",
+		"comparison": "Confrunt",
+		"contact": "Contat",
+		"toggle": "Mudé menù",
+		"close": "Stlü menù",
+		"language": "Rujeneda",
+		"selectLanguage": "Chirì na rujeneda"
+	},
+	"hero": {
+		"subtitle": "La proscima generaziun de despartiment de files peer-to-peer",
+		"description": "Basé sön na tecnologia descentralisada moderna. Niun server zentral. Niun pönt unich de defet.",
+		"download": "Descarié"
+	},
+	"about": {
+		"title": "Sön",
+		"intro": "{project} é na plataforma de proscima generaziun por l despartiment de files peer-to-peer, costruida sön na tecnologia descentralisada moderna. La cumbinëia n'interfacia d'utenz scëmpla da adoré cun n'architetöra dl'únt descentralisada, dant n despartiment de dac segür e fidé sënza la nezeshité de n'autorité zentrala. Chësc proiet é open source, despartì sot ala {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rëi dl'únt descentralisada",
+				"description": "Niun server zentral, niun pönt unich de defet. I utenc abinëia y descariëia l contignü direttamënter un da l'auter, sënza dependì da n indizadù, traciadù o banca de dac zentrala."
+			},
+			"accessControl": {
+				"title": "Control d'azes scëmp y minüzius",
+				"description": "Vignun pó stabilì debann sua rëi pröpria cun süa regules. Dentro vigni rëi vëgn definì i rûi d'utenz: paron, aministradù, publichadù, moderadù y descariadù. Avëi n control minüzius söi che pó publiché, moderé y descarié contignüt."
+			},
+			"ui": {
+				"title": "Interfacia d'utenz d'auta cualité",
+				"description": "N'interfacia de zentro multimediala neta y responsiva, dessigneda por les plataformes da scrivagn, TV y mobils. Navigaziun scëmpla cun tastiera, mus, gamepad o telecomanda. I utenc avanzas pó esegui l software co n server de files sënza cef tres n'interfacia da röia de comanda."
+			},
+			"dataFormat": {
+				"title": "Formè de dac lesí dai umans",
+				"description": "L formè de dac LISH é costruì sön JSON, ci che l rënd scëmp da creé, lí y capì. Despartì süa contignüc cun metadac tlers y trasparënc che vignun pó controlé scëmplamënter."
+			},
+			"security": {
+				"title": "Privatëza y segurëza",
+				"description": "Düta la comunicaziun peer-to-peer é zifrada, assigurada che vüsta dac stà privat en transito. I utenc pó se descondi do na VPN por de plü anonimitè. {project} respetëia süa privatëza por desëgn."
+			},
+			"crossPlatform": {
+				"title": "Plö plataformes",
+				"description": "L software é a desposiziun sön Windows, Linux y macOS. Adoré l sön onve disposità che é."
+			}
+		}
+	},
+	"download": {
+		"title": "Descarié",
+		"description": "Otëgn {project} por süa plataforma. Düc i descariamënc é debann y open source.",
+		"version": "Verscion atuala: {version}",
+		"linkAlt": "Descarié",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instaladù {format}",
+			"package": "Pachet {format}",
+			"portableZip": "ZIP portatil",
+			"viewOnGithub": "Vëiga sön GitHub"
+		},
+		"macos": {
+			"title": "Nota importanta por i utenc macOS:",
+			"intro": "macOS Gatekeeper blocaràl le aplicaziuns nia firmades/nia notarisades descariades da Internet cun l error {error}.",
+			"error": "\"é rot, ne pó nia gnì daurì\"",
+			"runCommand": "Do avëi descarié l DMG o ZIP, dan da daurì l'aplicaziun, ejecuté chësc comand tl Terminal:",
+			"exampleDmg": "Por ejëmpl, do l'installaziun dal DMG:",
+			"exampleZip": "O do avëi estrat l ZIP:",
+			"explanation": "Chësc lascia ia l atribut de cuarentëna y permëtt al'aplicaziun da funzioné."
+		}
+	},
+	"screenshots": {
+		"title": "Schermades",
+		"open": "Daurì la schermada {index}",
+		"alt": "Schermada {index}",
+		"close": "Stlü la galaria",
+		"prev": "Imagina dant",
+		"next": "Imagina do"
+	},
+	"comparison": {
+		"title": "Confrunt",
+		"feature": "Funzionalité",
+		"yes": "Scé",
+		"no": "Nia",
+		"partialDht": "Parzial (DHT)",
+		"rows": {
+			"decentralized": "Rëi descentralisada",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Cërca de contignüt integrada",
+			"decentralizedSearch": "Cërca de contignüt descentralisada",
+			"parallelDownloads": "Descariamënc paraleli da plü fonts",
+			"mediaCenter": "Interfacia de zentro multimediala",
+			"gamepad": "Sostëgn de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contat",
+		"getInTouch": "Mët se en contat",
+		"links": {
+			"telegramChat": "Grup de chat Telegram",
+			"telegramAnnouncements": "Anunzes Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fat da"
+	}
+}

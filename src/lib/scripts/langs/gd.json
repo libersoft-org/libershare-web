@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Co-roinneadh fhaidhlichean dì-mheadhanaichte",
+		"description": "Tha {project} na bhathar-bog co-roinneadh fhaidhlichean peer-to-peer, air a thogail air teicneòlas dì-mheadhanaichte ùr-nodha.",
+		"ogTitle": "{project} - Bathar-bog co-roinneadh fhaidhlichean dì-mheadhanaichte",
+		"ogDescription": "Co-roinneadh fhaidhlichean peer-to-peer stèidhichte air teicneòlas dì-mheadhanaichte ùr-nodha. Gun fhrithealaiche meadhanaichte. Gun aon phuing fhàillinn."
+	},
+	"menu": {
+		"about": "Mu dheidhinn",
+		"download": "Luchdaich a-nuas",
+		"screenshots": "Glacaidhean-sgrìn",
+		"comparison": "Coimeas",
+		"contact": "Conaltradh",
+		"toggle": "Toglaich an clàr-taice",
+		"close": "Dùin an clàr-taice",
+		"language": "Cànan",
+		"selectLanguage": "Tagh cànan"
+	},
+	"hero": {
+		"subtitle": "An ath ghinealach de cho-roinneadh fhaidhlichean peer-to-peer",
+		"description": "Stèidhichte air teicneòlas dì-mheadhanaichte ùr-nodha. Gun fhrithealaiche meadhanaichte. Gun aon phuing fhàillinn.",
+		"download": "Luchdaich a-nuas"
+	},
+	"about": {
+		"title": "Mu dheidhinn",
+		"intro": "Tha {project} na ùrlar an ath ghinealach airson co-roinneadh fhaidhlichean peer-to-peer, air a thogail air teicneòlas dì-mheadhanaichte ùr-nodha. Bidh e a' co-cheangal eadar-aghaidh shuaichneach a tha furasta a chleachdadh agus structar gu tur dì-mheadhanaichte, a' lìbhrigeadh co-roinneadh dàta tèarainte agus earbsach gun fheum air ùghdarras meadhanaichte. Tha am pròiseact seo open source, air a sgaoileadh fon {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Lìonra gu tur dì-mheadhanaichte",
+				"description": "Gun fhrithealaiche meadhanaichte, gun aon phuing fhàillinn. Lorgaidh agus luchdaichidh cleachdaichean susbaint sìos gu dìreach bho chàch a chèile, gun a bhith an eisimeil air clàr-amais, tracaire no stòr-dàta meadhanaichte."
+			},
+			"accessControl": {
+				"title": "Smachd inntrigidh mion-phongail",
+				"description": "Faodaidh duine sam bith an lìonra fhèin a stèidheachadh an-asgaidh leis na riaghailtean aige fhèin. Taobh a-staigh gach lìonra, tha dreuchdan luchd-cleachdaidh air am mìneachadh: sealbhadair, rianadair, foillsichear, modaratair agus luchd-luchdachaidh. Gabh smachd mion-phongail air cò as urrainn susbaint a fhoillseachadh, a mhodaratachadh agus a luchdachadh sìos."
+			},
+			"ui": {
+				"title": "Eadar-aghaidh cleachdaiche àrd-chàileachd",
+				"description": "Eadar-aghaidh ionad-mheadhanan soilleir agus freagarrach, dealbhaichte airson ùrlaran deasga, telebhisein agus mobile. Seòladh furasta le meur-chlàr, luchag, paid-gheama no inneal-smachd astair. Faodaidh cleachdaichean adhartach am bathar-bog a ruith mar fhrithealaiche fhaidhlichean gun cheann tro eadar-aghaidh loidhne àithne."
+			},
+			"dataFormat": {
+				"title": "Cruth-dàta a tha furasta a leughadh do dhuine",
+				"description": "Tha cruth-dàta LISH air a thogail air JSON, a tha ga dhèanamh furasta a chruthachadh, a leughadh agus a thuigsinn. Co-roinn do shusbaint le metadata soilleir agus follaiseach a dh'fhaodas duine sam bith a sgrùdadh gu furasta."
+			},
+			"security": {
+				"title": "Prìobhaideachd is tèarainteachd",
+				"description": "Tha gach conaltradh peer-to-peer crioptaichte, a' dèanamh cinnteach gum fan an dàta agad prìobhaideach rè còmhdhail. Faodaidh cleachdaichean falach air cùl VPN airson barrachd ainm-dìomhair. Tha {project} a' toirt urram dha do phrìobhaideachd tro dhealbhadh."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Tha am bathar-bog ri fhaighinn air Windows, Linux agus macOS. Cleachd e air ge bith dè an inneal a chleachdas tu."
+			}
+		}
+	},
+	"download": {
+		"title": "Luchdaich a-nuas",
+		"description": "Faigh {project} airson an ùrlair agad. Tha gach luchdachadh sìos an-asgaidh agus open source.",
+		"version": "Tionndadh làithreach: {version}",
+		"linkAlt": "Luchdaich a-nuas",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Inneal-stàlaidh {format}",
+			"package": "Pasgan {format}",
+			"portableZip": "ZIP so-ghiùlan",
+			"viewOnGithub": "Seall air GitHub"
+		},
+		"macos": {
+			"title": "Brath cudromach do chleachdaichean macOS:",
+			"intro": "Cuiridh macOS Gatekeeper bacadh air aplacaidean nach do chuireadh a-steach/nach deach a notarrachadh a chaidh a luchdachadh sìos bhon eadar-lìon, leis a' mhearachd {error}.",
+			"error": "\"tha e briste, chan urrainnear fhosgladh\"",
+			"runCommand": "An dèidh dhut an DMG no ZIP a luchdachadh sìos, mus fosgail thu an aplacaid, ruith an àithne seo ann an Terminal:",
+			"exampleDmg": "Mar eisimpleir, an dèidh stàlaidh bhon DMG:",
+			"exampleZip": "No an dèidh dhut an ZIP a thoirt a-mach:",
+			"explanation": "Bheir seo air falbh a' bhuadhair cuarantain agus leigidh e leis an aplacaid ruith."
+		}
+	},
+	"screenshots": {
+		"title": "Glacaidhean-sgrìn",
+		"open": "Fosgail glacadh-sgrìn {index}",
+		"alt": "Glacadh-sgrìn {index}",
+		"close": "Dùin an gailearaidh",
+		"prev": "An ìomhaigh roimhe",
+		"next": "An ath ìomhaigh"
+	},
+	"comparison": {
+		"title": "Coimeas",
+		"feature": "Feart",
+		"yes": "Tha",
+		"no": "Chan eil",
+		"partialDht": "Pàirteach (DHT)",
+		"rows": {
+			"decentralized": "Lìonra dì-mheadhanaichte",
+			"onlineLibrary": "Leabharlann air-loidhne",
+			"builtInSearch": "Lorg susbaint a-staigh",
+			"decentralizedSearch": "Lorg susbaint dì-mheadhanaichte",
+			"parallelDownloads": "Luchdachaidhean co-shìnte bho iomadh tùs",
+			"mediaCenter": "Eadar-aghaidh ionad-mheadhanan",
+			"gamepad": "Taic gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Conaltradh",
+		"getInTouch": "Cuir fios",
+		"links": {
+			"telegramChat": "Buidheann còmhraidh Telegram",
+			"telegramAnnouncements": "Brathan Telegram",
+			"facebook": "Buidheann Facebook"
+		}
+	},
+	"footer": {
+		"by": "Air a chruthachadh le"
+	}
+}

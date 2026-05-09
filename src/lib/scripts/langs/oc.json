@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partatge de fichièrs descentralizat",
+		"description": "{project} es un logicial de partatge de fichièrs peer-to-peer, bastit sus la tecnologia descentralizada modèrna.",
+		"ogTitle": "{project} - Logicial de partatge de fichièrs descentralizat",
+		"ogDescription": "Partatge de fichièrs peer-to-peer basat sus la tecnologia descentralizada modèrna. Pas cap de servidor central. Pas cap de punt unic de panne."
+	},
+	"menu": {
+		"about": "A prepaus",
+		"download": "Telecargar",
+		"screenshots": "Capturas d'ecran",
+		"comparison": "Comparason",
+		"contact": "Contacte",
+		"toggle": "Bascular lo menú",
+		"close": "Tampar lo menú",
+		"language": "Lenga",
+		"selectLanguage": "Seleccionar una lenga"
+	},
+	"hero": {
+		"subtitle": "La generacion seguenta del partatge de fichièrs peer-to-peer",
+		"description": "Basat sus la tecnologia descentralizada modèrna. Pas cap de servidor central. Pas cap de punt unic de panne.",
+		"download": "Telecargar"
+	},
+	"about": {
+		"title": "A prepaus",
+		"intro": "{project} es una plataforma de generacion seguenta pel partatge de fichièrs peer-to-peer, bastida sus la tecnologia descentralizada modèrna. Combina una interfàcia d'utilizaire intuitiva amb una arquitectura entièrament descentralizada, en provesissent un partatge de donadas segur e fisable sens besonh d'autoritat centrala. Aqueste projècte es open source, distribuit jos la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ret entièrament descentralizada",
+				"description": "Pas cap de servidor central, pas cap de punt unic de panne. Los utilizaires tròban e telecargan lo contengut dirèctament d'un a l'autre, sens dependre d'un indexador, traçaire o basa de donadas central."
+			},
+			"accessControl": {
+				"title": "Contraròtle d'accès fin",
+				"description": "Quin que siá pòt establir gratuitament la siá pròpria ret amb sas pròprias règlas. Dins cada ret, los ròtles d'utilizaire son definits: proprietari, administrator, editor, moderator e telecargaire. Aiatz un contraròtle fin sus quau pòt publicar, moderar e telecargar lo contengut."
+			},
+			"ui": {
+				"title": "Interfàcia d'utilizaire d'auta qualitat",
+				"description": "Una interfàcia de centre multimèdia neta e responsiva, dessenhada pels suportaires d'escritòri, TV e mobils. Navegacion aisida amb teclat, mirga, gamepad o telecomanda. Los utilizaires avançats pòdon executar lo logicial coma un servidor de fichièrs sens cap a travèrs una interfàcia de linha de comanda."
+			},
+			"dataFormat": {
+				"title": "Format de donadas legibles pels umans",
+				"description": "Lo format de donadas LISH es bastit sus JSON, çò que lo rend aisit a crear, legir e comprene. Partatjatz vòstre contengut amb de metadonadas claras e transparentas que quin que siá pòt examinar facilament."
+			},
+			"security": {
+				"title": "Confidencialitat e seguretat",
+				"description": "Tota la comunicacion peer-to-peer es chifrada, en assegurant que vòstras donadas demòran privadas en transit. Los utilizaires se pòdon amagar darrièr una VPN per mai d'anonimat. {project} respècta vòstra confidencialitat per design."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "Lo logicial es disponible sus Windows, Linux e macOS. Utilizatz-lo sus quin aparelh que siá."
+			}
+		}
+	},
+	"download": {
+		"title": "Telecargar",
+		"description": "Obtenètz {project} per vòstra plataforma. Totes los telecargaments son gratuits e open source.",
+		"version": "Version actuala: {version}",
+		"linkAlt": "Telecargar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installador {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP portable",
+			"viewOnGithub": "Veire sus GitHub"
+		},
+		"macos": {
+			"title": "Nòta importanta pels utilizaires de macOS:",
+			"intro": "macOS Gatekeeper blocarà las aplicacions non signadas/non notarizadas telecargadas d'Internet amb l'error {error}.",
+			"error": "\"es trencat, se pòt pas dobrir\"",
+			"runCommand": "Aprèp aver telecargat lo DMG o ZIP, abans de dobrir l'aplicacion, executatz aquesta comanda dins lo Terminal:",
+			"exampleDmg": "Per exemple, aprèp installacion dempuèi lo DMG:",
+			"exampleZip": "O aprèp aver extrach lo ZIP:",
+			"explanation": "Aquò supprimís l'atribut de quaranténa e permet a l'aplicacion de s'executar."
+		}
+	},
+	"screenshots": {
+		"title": "Capturas d'ecran",
+		"open": "Dobrir la captura d'ecran {index}",
+		"alt": "Captura d'ecran {index}",
+		"close": "Tampar la galeria",
+		"prev": "Imatge precedenta",
+		"next": "Imatge seguenta"
+	},
+	"comparison": {
+		"title": "Comparason",
+		"feature": "Foncionalitat",
+		"yes": "Òc",
+		"no": "Non",
+		"partialDht": "Parcial (DHT)",
+		"rows": {
+			"decentralized": "Ret descentralizada",
+			"onlineLibrary": "Bibliotèca en linha",
+			"builtInSearch": "Recèrca de contengut integrada",
+			"decentralizedSearch": "Recèrca de contengut descentralizada",
+			"parallelDownloads": "Telecargaments parallèls de mantuna sorga",
+			"mediaCenter": "Interfàcia de centre multimèdia",
+			"gamepad": "Sosten de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contacte",
+		"getInTouch": "Contactatz",
+		"links": {
+			"telegramChat": "Grop de discussion Telegram",
+			"telegramAnnouncements": "Anóncis Telegram",
+			"facebook": "Grop Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fach per"
+	}
+}
