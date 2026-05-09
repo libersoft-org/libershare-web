@@ -24,7 +24,6 @@
 	"about": {
 		"title": "O projektu",
 		"intro": "{project} je peer-to-peer platforma nové generace pro sdílení souborů, postavená na moderních decentralizovaných technologiích. Kombinuje intuitivní uživatelské rozhraní s plně decentralizovanou architekturou a poskytuje bezpečné a spolehlivé řešení pro sdílení dat nezávislé na jakékoliv centrální autoritě. Projekt je open source a je distribuován pod licencí {license}.",
-		"license": "Unlicense",
 		"features": {
 			"decentralized": {
 				"title": "Plně decentralizovaná síť",
@@ -71,7 +70,6 @@
 			"installer": "{format} instalátor",
 			"package": "{format} balíček",
 			"portableZip": "Přenosný ZIP",
-			"appImage": "AppImage",
 			"viewOnGithub": "Zobrazit na GitHubu"
 		},
 		"macos": {
@@ -115,7 +113,6 @@
 		"links": {
 			"telegramChat": "Skupina na Telegramu",
 			"telegramAnnouncements": "Oznámení na Telegramu",
-			"linkedin": "LinkedIn",
 			"facebook": "Skupina na Facebooku"
 		}
 	},

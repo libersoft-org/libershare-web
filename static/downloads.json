@@ -37,7 +37,7 @@
 						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/{projectLower}_{version}_amd64.deb" },
 						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/{projectLower}-{version}-1.x86_64.rpm" },
 						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/{projectLower}-{version}-1-x86_64.pkg.tar.xz" },
-						{ "labelKey": "download.items.appImage", "filename": "download/{project}_{version}_linux_x86_64.AppImage" },
+						{ "label": "AppImage", "filename": "download/{project}_{version}_linux_x86_64.AppImage" },
 						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_linux_x86_64.zip" }
 					]
 				},
@@ -48,7 +48,7 @@
 						{ "labelKey": "download.items.package", "labelVars": { "format": "DEB" }, "filename": "download/{projectLower}_{version}_arm64.deb" },
 						{ "labelKey": "download.items.package", "labelVars": { "format": "RPM" }, "filename": "download/{projectLower}-{version}-1.aarch64.rpm" },
 						{ "labelKey": "download.items.package", "labelVars": { "format": "Arch" }, "filename": "download/{projectLower}-{version}-1-aarch64.pkg.tar.xz" },
-						{ "labelKey": "download.items.appImage", "filename": "download/{project}_{version}_linux_aarch64.AppImage" },
+						{ "label": "AppImage", "filename": "download/{project}_{version}_linux_aarch64.AppImage" },
 						{ "labelKey": "download.items.portableZip", "filename": "download/{project}_{version}_linux_aarch64.zip" }
 					]
 				}

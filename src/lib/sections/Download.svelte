@@ -7,7 +7,8 @@
 	import Cards from '$lib/components/Cards.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 	interface DownloadItem {
-		labelKey: string;
+		labelKey?: string;
+		label?: string;
 		labelVars?: Record<string, string>;
 		filename?: string;
 		href?: string;
@@ -186,7 +187,7 @@
 									{#each arch.items as item}
 										<li>
 											<a href={resolveTemplate(item.href, version) || `/${resolveTemplate(item.filename, version)}`} class="download-link" target="_blank" rel="noopener noreferrer">
-												<span class="dl-label">{$t(item.labelKey, item.labelVars)}</span>
+												<span class="dl-label">{item.label ?? $t(item.labelKey ?? '', item.labelVars)}</span>
 												<Icon img="/icons/download.svg" alt={$t('download.linkAlt')} size="20px" colorVariable="--text" />
 											</a>
 										</li>

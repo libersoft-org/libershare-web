@@ -24,7 +24,6 @@
 	"about": {
 		"title": "About",
 		"intro": "{project} is a next-generation peer-to-peer file sharing platform built on modern decentralized technologies. It combines an intuitive user interface with a fully decentralized architecture, providing a secure and reliable solution for data sharing independent of any central authority. The project is open source and distributed under the {license}.",
-		"license": "Unlicense",
 		"features": {
 			"decentralized": {
 				"title": "Fully decentralized network",
@@ -71,7 +70,6 @@
 			"installer": "{format} installer",
 			"package": "{format} package",
 			"portableZip": "Portable ZIP",
-			"appImage": "AppImage",
 			"viewOnGithub": "View on GitHub"
 		},
 		"macos": {
@@ -115,7 +113,6 @@
 		"links": {
 			"telegramChat": "Telegram Chat Group",
 			"telegramAnnouncements": "Telegram Announcements",
-			"linkedin": "LinkedIn",
 			"facebook": "Facebook Group"
 		}
 	},

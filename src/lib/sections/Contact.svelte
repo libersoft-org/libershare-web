@@ -15,7 +15,7 @@
 		{ labelKey: null, label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
 		{ labelKey: 'contact.links.telegramChat', label: 'Telegram Chat Group', href: 'https://t.me/libersoft', icon: '/icons/telegram.svg' },
 		{ labelKey: 'contact.links.telegramAnnouncements', label: 'Telegram Announcements', href: 'https://t.me/libersoft_ann', icon: '/icons/telegram.svg' },
-		{ labelKey: 'contact.links.linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/libersoft-org/', icon: '/icons/linkedin.svg' },
+		{ labelKey: null, label: 'LinkedIn', href: 'https://www.linkedin.com/company/libersoft-org/', icon: '/icons/linkedin.svg' },
 		{ labelKey: 'contact.links.facebook', label: 'Facebook Group', href: 'https://www.facebook.com/groups/libersoft', icon: '/icons/facebook.svg' },
 	];
 

@@ -18,7 +18,7 @@
 		{ icon: '/icons/cross-platform.svg', titleKey: 'about.features.crossPlatform.title', descriptionKey: 'about.features.crossPlatform.description' },
 	];
 	let intro = $derived($t('about.intro', { project: PROJECT_NAME }));
-	let licenseLabel = $derived($t('about.license'));
+	const licenseLabel = 'Unlicense';
 	// Split intro around the {license} placeholder so we can render the link tag inline.
 	let introParts = $derived.by(() => {
 		const parts = intro.split('{license}');
