@@ -1,273 +1,5 @@
 import { writable, derived, get, type Readable } from 'svelte/store';
-import en from './langs/en.json';
-import cs from './langs/cs.json';
-import zh from './langs/zh.json';
-import es from './langs/es.json';
-import hi from './langs/hi.json';
-import pt from './langs/pt.json';
-import ru from './langs/ru.json';
-import ja from './langs/ja.json';
-import vi from './langs/vi.json';
-import tr from './langs/tr.json';
-import ko from './langs/ko.json';
-import id from './langs/id.json';
-import de from './langs/de.json';
-import fr from './langs/fr.json';
-import it from './langs/it.json';
-import th from './langs/th.json';
-import ar from './langs/ar.json';
-import sk from './langs/sk.json';
-import hu from './langs/hu.json';
-import ro from './langs/ro.json';
-import uk from './langs/uk.json';
-import pl from './langs/pl.json';
-import no from './langs/no.json';
-import sv from './langs/sv.json';
-import fi from './langs/fi.json';
-import el from './langs/el.json';
-import bg from './langs/bg.json';
-import lt from './langs/lt.json';
-import lv from './langs/lv.json';
-import et from './langs/et.json';
-import nl from './langs/nl.json';
-import lb from './langs/lb.json';
-import ga from './langs/ga.json';
-import ca from './langs/ca.json';
-import mt from './langs/mt.json';
-import sl from './langs/sl.json';
-import hr from './langs/hr.json';
-import bs from './langs/bs.json';
-import sr from './langs/sr.json';
-import mk from './langs/mk.json';
-import sq from './langs/sq.json';
-import be from './langs/be.json';
-import da from './langs/da.json';
-import is from './langs/is.json';
-import az from './langs/az.json';
-import ka from './langs/ka.json';
-import hy from './langs/hy.json';
-import gl from './langs/gl.json';
-import sc from './langs/sc.json';
-import cy from './langs/cy.json';
-import eu from './langs/eu.json';
-import yi from './langs/yi.json';
-import he from './langs/he.json';
-import bn from './langs/bn.json';
-import ur from './langs/ur.json';
-import sw from './langs/sw.json';
-import pa from './langs/pa.json';
-import fa from './langs/fa.json';
-import mr from './langs/mr.json';
-import te from './langs/te.json';
-import ta from './langs/ta.json';
-import tl from './langs/tl.json';
-import yue from './langs/yue.json';
-import jv from './langs/jv.json';
-import ms from './langs/ms.json';
-import ha from './langs/ha.json';
-import gu from './langs/gu.json';
-import ps from './langs/ps.json';
-import am from './langs/am.json';
-import yo from './langs/yo.json';
-import kn from './langs/kn.json';
-import my from './langs/my.json';
-import om from './langs/om.json';
-import ht from './langs/ht.json';
-import kk from './langs/kk.json';
-import km from './langs/km.json';
-import ky from './langs/ky.json';
-import lo from './langs/lo.json';
-import mg from './langs/mg.json';
-import mn from './langs/mn.json';
-import ne from './langs/ne.json';
-import si from './langs/si.json';
-import so from './langs/so.json';
-import tg from './langs/tg.json';
-import tk from './langs/tk.json';
-import uz from './langs/uz.json';
-import af from './langs/af.json';
-import zu from './langs/zu.json';
-import xh from './langs/xh.json';
-import sn from './langs/sn.json';
-import ig from './langs/ig.json';
-import sd from './langs/sd.json';
-import qu from './langs/qu.json';
-import mi from './langs/mi.json';
-import sm from './langs/sm.json';
-import fo from './langs/fo.json';
-import rw from './langs/rw.json';
-import ny from './langs/ny.json';
-import ti from './langs/ti.json';
-import gn from './langs/gn.json';
-import ln from './langs/ln.json';
-import st from './langs/st.json';
-import tn from './langs/tn.json';
-import bi from './langs/bi.json';
-import tpi from './langs/tpi.json';
-import kl from './langs/kl.json';
-import rn from './langs/rn.json';
-import to from './langs/to.json';
-import fj from './langs/fj.json';
-import wo from './langs/wo.json';
-import ay from './langs/ay.json';
-import bm from './langs/bm.json';
-import tet from './langs/tet.json';
-import bho from './langs/bho.json';
-import mai from './langs/mai.json';
-import awa from './langs/awa.json';
-import or_ from './langs/or.json';
-import as_ from './langs/as.json';
-import su from './langs/su.json';
-import mad from './langs/mad.json';
-import ceb from './langs/ceb.json';
-import ilo from './langs/ilo.json';
-import hil from './langs/hil.json';
-import ku from './langs/ku.json';
-import ff from './langs/ff.json';
-import ber from './langs/ber.json';
-import skr from './langs/skr.json';
-import ks from './langs/ks.json';
-import ak from './langs/ak.json';
-import lg from './langs/lg.json';
-import ug from './langs/ug.json';
-import bo from './langs/bo.json';
-import sat from './langs/sat.json';
-import mag from './langs/mag.json';
-import hne from './langs/hne.json';
-import wuu from './langs/wuu.json';
-import nan from './langs/nan.json';
-import hak from './langs/hak.json';
-import hsn from './langs/hsn.json';
-import gan from './langs/gan.json';
-import ml from './langs/ml.json';
-import tt_ from './langs/tt.json';
-import mwr from './langs/mwr.json';
-import syl from './langs/syl.json';
-import ctg from './langs/ctg.json';
-import cjy from './langs/cjy.json';
-import cdo from './langs/cdo.json';
-import hmn from './langs/hmn.json';
-import ki from './langs/ki.json';
-import bem from './langs/bem.json';
-import kg from './langs/kg.json';
-import nso from './langs/nso.json';
-import ts from './langs/ts.json';
-import lua from './langs/lua.json';
-import umb from './langs/umb.json';
-import luo from './langs/luo.json';
-import min from './langs/min.json';
-import bjn from './langs/bjn.json';
-import ace from './langs/ace.json';
-import ban from './langs/ban.json';
-import bug from './langs/bug.json';
-import din from './langs/din.json';
-import kri from './langs/kri.json';
-import kea from './langs/kea.json';
-import crs from './langs/crs.json';
-import rm from './langs/rm.json';
-import nn from './langs/nn.json';
-import ss from './langs/ss.json';
-import nd from './langs/nd.json';
-import ve from './langs/ve.json';
-import haw from './langs/haw.json';
-import ty from './langs/ty.json';
-import sg from './langs/sg.json';
-import mos from './langs/mos.json';
-import zdj from './langs/zdj.json';
-import ch from './langs/ch.json';
-import iu from './langs/iu.json';
-import dv from './langs/dv.json';
-import se from './langs/se.json';
-import sa from './langs/sa.json';
-import kok from './langs/kok.json';
-import doi from './langs/doi.json';
-import fy from './langs/fy.json';
-import gd from './langs/gd.json';
-import ast from './langs/ast.json';
-import oc from './langs/oc.json';
-import br from './langs/br.json';
-import fur from './langs/fur.json';
-import co from './langs/co.json';
-import hsb from './langs/hsb.json';
-import an from './langs/an.json';
-import lld from './langs/lld.json';
-import ce from './langs/ce.json';
-import ba from './langs/ba.json';
-import cv from './langs/cv.json';
-import crh from './langs/crh.json';
-import os from './langs/os.json';
-import rup from './langs/rup.json';
-import dz from './langs/dz.json';
-import sah from './langs/sah.json';
-import kaa from './langs/kaa.json';
-import war from './langs/war.json';
-import pam from './langs/pam.json';
-import bik from './langs/bik.json';
-import pag from './langs/pag.json';
-import ee from './langs/ee.json';
-import pcm from './langs/pcm.json';
-import nds from './langs/nds.json';
-import fon from './langs/fon.json';
-import dje from './langs/dje.json';
-import eo from './langs/eo.json';
-import kha from './langs/kha.json';
-import nah from './langs/nah.json';
-import li from './langs/li.json';
-import csb from './langs/csb.json';
-import quc from './langs/quc.json';
-import lus from './langs/lus.json';
-import yua from './langs/yua.json';
-import wa from './langs/wa.json';
-import guc from './langs/guc.json';
-import arn from './langs/arn.json';
-import nv from './langs/nv.json';
-import gil from './langs/gil.json';
-import cr from './langs/cr.json';
-import mh from './langs/mh.json';
-import rar from './langs/rar.json';
-import pau from './langs/pau.json';
-import mwl from './langs/mwl.json';
-import tvl from './langs/tvl.json';
-import niu from './langs/niu.json';
-import dsb from './langs/dsb.json';
-import na from './langs/na.json';
-import ho from './langs/ho.json';
-import la from './langs/la.json';
-import ia from './langs/ia.json';
-import io from './langs/io.json';
-import isv from './langs/isv.json';
-import nap from './langs/nap.json';
-import scn from './langs/scn.json';
-import vec from './langs/vec.json';
-import lmo from './langs/lmo.json';
-import jam from './langs/jam.json';
-import eml from './langs/eml.json';
-import sco from './langs/sco.json';
-import mfe from './langs/mfe.json';
-import gcf from './langs/gcf.json';
-import pms from './langs/pms.json';
-import rcf from './langs/rcf.json';
-import rue from './langs/rue.json';
-import szl from './langs/szl.json';
-import lij from './langs/lij.json';
-import srn from './langs/srn.json';
-import pap from './langs/pap.json';
-import pdt from './langs/pdt.json';
-import ltg from './langs/ltg.json';
-import vro from './langs/vro.json';
-import krl from './langs/krl.json';
-import frr from './langs/frr.json';
-import wae from './langs/wae.json';
-import stq from './langs/stq.json';
-import bar from './langs/bar.json';
-import gsw from './langs/gsw.json';
-import kw from './langs/kw.json';
-import gv from './langs/gv.json';
-import lad from './langs/lad.json';
-import pcd from './langs/pcd.json';
-import iba from './langs/iba.json';
-import gag from './langs/gag.json';
-import ab from './langs/ab.json';
+
 export interface Language {
 	id: string;
 	label: string;
@@ -547,9 +279,35 @@ export const languages: Language[] = [
 ];
 const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
-// Bundled translation maps (statically imported so first render has data)
+// Translations are fetched at runtime from /langs/<id>.json and memoized here.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup, dz, sah, kaa, war, pam, bik, pag, ee, pcm, nds, fon, dje, eo, kha, nah, li, csb, quc, lus, yua, wa, guc, arn, nv, gil, cr, mh, rar, pau, mwl, tvl, niu, dsb, na, ho, la, ia, io, isv, nap, scn, vec, lmo, jam, eml, sco, mfe, gcf, pms, rcf, rue, szl, lij, srn, pap, pdt, ltg, vro, krl, frr, wae, stq, bar, gsw, kw, gv, lad, pcd, iba, gag, ab };
+const langCache: Record<string, any> = {};
+// Tracks in-flight requests so concurrent calls share one promise.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const langPromises: Record<string, Promise<any>> = {};
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function loadLanguage(id: string): Promise<any> {
+	if (langCache[id]) return langCache[id];
+	const inflight = langPromises[id];
+	if (inflight) return inflight;
+	const promise = (async () => {
+		try {
+			const res = await fetch(`/langs/${id}.json`);
+			if (!res.ok) throw new Error(`Failed to fetch /langs/${id}.json: ${res.status}`);
+			const data = await res.json();
+			langCache[id] = data;
+			return data;
+		} catch (err) {
+			console.error(`[i18n] Could not load language "${id}", falling back to ${DEFAULT_LANGUAGE}`, err);
+			return langCache[DEFAULT_LANGUAGE];
+		} finally {
+			delete langPromises[id];
+		}
+	})();
+	langPromises[id] = promise;
+	return promise;
+}
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {
@@ -568,8 +326,10 @@ function pickInitialLanguage(): string {
 
 export const currentLanguage = writable<string>(pickInitialLanguage());
 
+// Translations start empty and are populated by initLanguages() / setLanguage().
+// Until then, t() returns '{key}' placeholders (the splash screen covers this phase).
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const translations = writable<any>(langCache[get(currentLanguage)] ?? langCache[DEFAULT_LANGUAGE]);
+export const translations = writable<any>({});
 
 // Helper function to get nested value from object by path
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -595,10 +355,9 @@ export function tt(key: string, vars?: Record<string, string>): string {
 	return vars ? text.replace(/\{(\w+)\}/g, (match, k) => vars[k] ?? match) : text;
 }
 
-export function setLanguage(languageID: string): void {
-	if (!languages.some(l => l.id === languageID)) return;
+export function setLanguage(languageID: string): Promise<void> {
+	if (!languages.some(l => l.id === languageID)) return Promise.resolve();
 	currentLanguage.set(languageID);
-	translations.set(langCache[languageID] ?? langCache[DEFAULT_LANGUAGE]);
 	if (typeof window !== 'undefined') {
 		try {
 			window.localStorage.setItem(STORAGE_KEY, languageID);
@@ -608,6 +367,16 @@ export function setLanguage(languageID: string): void {
 		// Update <html lang="..."> for accessibility / SEO.
 		document.documentElement.lang = languageID;
 	}
+	// If already cached (e.g. English), apply synchronously; otherwise fetch.
+	const cached = langCache[languageID];
+	if (cached) {
+		translations.set(cached);
+		return Promise.resolve();
+	}
+	return loadLanguage(languageID).then(data => {
+		// Only apply if the user did not switch to another language while we were loading.
+		if (get(currentLanguage) === languageID) translations.set(data);
+	});
 }
 
 export function getLanguage(id: string): Language | undefined {
@@ -619,6 +388,19 @@ export function getFlagURL(langID: string): string {
 	const lang = getLanguage(langID);
 	const flagCode = lang?.flag ?? langID;
 	return `/flags/${flagCode}.svg`;
+}
+
+// Bootstrap on the client: fetch the default language (used as fallback) and the
+// currently selected language in parallel, then commit translations.
+export async function initLanguages(): Promise<void> {
+	if (typeof window === 'undefined') return;
+	const target = get(currentLanguage);
+	const tasks: Promise<unknown>[] = [loadLanguage(DEFAULT_LANGUAGE)];
+	if (target !== DEFAULT_LANGUAGE) tasks.push(loadLanguage(target));
+	await Promise.all(tasks);
+	const data = langCache[target] ?? langCache[DEFAULT_LANGUAGE];
+	translations.set(data);
+	document.documentElement.lang = target;
 }
 
 // Re-apply the persisted language on the client. Call from onMount in the root layout to

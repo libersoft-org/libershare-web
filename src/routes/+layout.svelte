@@ -6,7 +6,7 @@
 	import LanguageDialog from '$lib/components/LanguageDialog.svelte';
 	import Splash from '$lib/components/Splash.svelte';
 	import { get } from 'svelte/store';
-	import { currentLanguage, setLanguage, syncLanguageFromStorage } from '$lib/scripts/language.ts';
+	import { currentLanguage, setLanguage, syncLanguageFromStorage, initLanguages } from '$lib/scripts/language.ts';
 	interface Props {
 		children: import('svelte').Snippet;
 	}
@@ -31,15 +31,11 @@
 	}
 
 	onMount(() => {
-		// SSR snapshot was rendered with the default language ('en'). Force a transition
-		// to the persisted language so all reactive bindings (including <img src>) re-evaluate.
-		const target = get(currentLanguage);
-		setLanguage('en');
-		setLanguage(target);
-		syncLanguageFromStorage();
-		// Hide splash on next frame so language change is committed to the DOM first.
-		requestAnimationFrame(() => {
-			splashVisible = false;
+		// Fetch default + target language in parallel, then hide the splash.
+		initLanguages().then(() => {
+			requestAnimationFrame(() => {
+				splashVisible = false;
+			});
 		});
 
 		const sections = navItems.map(item => document.getElementById(item.id)).filter(Boolean) as HTMLElement[];
