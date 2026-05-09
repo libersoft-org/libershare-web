@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fizarana rakitra tsy afovoany",
+		"description": "{project} dia rindrambaiko fizarana rakitra peer-to-peer naorina amin'ny teknolojia maoderina tsy afovoany.",
+		"ogTitle": "{project} - Rindrambaiko fizarana rakitra tsy afovoany",
+		"ogDescription": "Fizarana rakitra peer-to-peer naorina amin'ny teknolojia maoderina tsy afovoany. Tsy misy mpizara afovoany. Tsy misy n'inona n'inona afaka mandrava ny tambajotra manontolo."
+	},
+	"menu": {
+		"about": "Mombamomba",
+		"download": "Halaina",
+		"screenshots": "Sary an-tsehatra",
+		"comparison": "Fampitahana",
+		"contact": "Ifandraisana",
+		"toggle": "Manova menio",
+		"close": "Hidio ny menio",
+		"language": "Fiteny",
+		"selectLanguage": "Misafidiana fiteny"
+	},
+	"hero": {
+		"subtitle": "Fizarana rakitra peer-to-peer ho an'ny taranaka manaraka",
+		"description": "Naorina amin'ny teknolojia maoderina tsy afovoany. Tsy misy mpizara afovoany. Tsy misy n'inona n'inona afaka mandrava ny tambajotra manontolo.",
+		"download": "Halaina"
+	},
+	"about": {
+		"title": "Mombamomba",
+		"intro": "{project} dia sehatra fizarana rakitra peer-to-peer ho an'ny taranaka manaraka, naorina amin'ny teknolojia maoderina tsy afovoany. Manambatra interface mpampiasa mora ampiasaina sy rafitra tsy afovoany tanteraka izy, ka manolotra vahaolana azo antoka sy azo itokisana ho an'ny fizarana data, tsy miankina amin'ny manampahefana afovoany. Tetikasa open source izy ity ary aparitaka eo ambany fahazoan-dalana {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Tambajotra tsy afovoany tanteraka",
+				"description": "Tsy misy mpizara afovoany, tsy misy teboka tokana hiavian'ny tsy fahombiazana. Mikaroka sy maka mivantana ny votoaty avy amin'ny tsirairay ny mpampiasa, tsy miankina amin'ny mpanao indeksa, mpanaramaso na banky an-kevitra afovoany."
+			},
+			"accessControl": {
+				"title": "Fanaraha-maso fidirana antsipiriany",
+				"description": "Na iza na iza dia afaka manomboka ny tambajotrany manokana miaraka amin'ny lalànany manokana malalaka. Mamaritra ny anjara asan'ny mpampiasa amin'ny tambajotra tsirairay: tompony, mpitantana, mpamoaka, mpanitsy ary mpaka. Hifehy tsara hoe iza no afaka mamoaka, manitsy sy maka votoaty."
+			},
+			"ui": {
+				"title": "Interface mpampiasa avo lenta",
+				"description": "Interface foibe haino aman-jery madio sy mora ampiasaina, namboarina ho an'ny sehatra desktop, TV ary finday. Mizotra tsy misy sakana amin'ny fitendry, totozy, gamepad na fitaovam-pifehezana lavi-tany. Ny mpampiasa mahay dia afaka mampiasa interface command-line mba hampandeha ny rindrambaiko ho mpizara rakitra tsy misy interface an-tsary."
+			},
+			"dataFormat": {
+				"title": "Endrika data azon'ny olombelona vakiana",
+				"description": "Ny endrika data LISH dia mifototra amin'ny JSON, izay mahatonga azy mora amboarina, vakiana ary takarina. Zarao ny votoatinao miaraka amin'ny metadata mazava sy mangarahara izay azon'ny olona rehetra jerena mora foana."
+			},
+			"security": {
+				"title": "Tsiambaratelo sy fiarovana",
+				"description": "Voaisy crypto avokoa ny fifandraisana peer-to-peer rehetra, izay manome antoka fa mijanona ho miafina ny datanao mandritra ny famindrana. Afaka miafina ao ambadiky ny VPN ny mpampiasa raha mila lonjy fanampiny tsy fahafantarana. Manaja ny tsiambaratelonao amin'ny alalan'ny fanamboarana ny {project}."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Misy ho an'ny sehatra Windows, Linux ary macOS ny rindrambaiko. Ampiasao amin'ny fitaovana tianao."
+			}
+		}
+	},
+	"download": {
+		"title": "Halaina",
+		"description": "Alaivo ny {project} ho an'ny sehatrareo. Maimaim-poana sy open source ny fakana rehetra.",
+		"version": "Dikan-teny ankehitriny: {version}",
+		"linkAlt": "Halaina",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mpampiditra {format}",
+			"package": "Fonosana {format}",
+			"portableZip": "ZIP azo entina",
+			"viewOnGithub": "Jereo ao amin'ny GitHub"
+		},
+		"macos": {
+			"title": "Fanamarihana lehibe ho an'ny mpampiasa macOS:",
+			"intro": "Mosika ny rindrambaiko tsy misy sonia / tsy voamarina nalaina avy amin'ny aterineto ny macOS Gatekeeper miaraka amin'ny fahadisoana {error}.",
+			"error": "\"simba ary tsy azo sokafana\"",
+			"runCommand": "Aorian'ny fakana ny DMG na ny ZIP, alohan'ny hanokafana ny rindrambaiko, mampandehana baiko ao amin'ny Terminal araka ny endrika manaraka:",
+			"exampleDmg": "Ohatra aorian'ny fametahana avy amin'ny DMG:",
+			"exampleZip": "Na aorian'ny fanesorana ny ZIP:",
+			"explanation": "Manaisotra ny toetra fanasarahana io baiko io ary mamela ny rindrambaiko handeha."
+		}
+	},
+	"screenshots": {
+		"title": "Sary an-tsehatra",
+		"open": "Sokafy ny sary an-tsehatra {index}",
+		"alt": "Sary an-tsehatra {index}",
+		"close": "Hidio ny tranombakoka",
+		"prev": "Sary teo aloha",
+		"next": "Sary manaraka"
+	},
+	"comparison": {
+		"title": "Fampitahana",
+		"feature": "Toetra",
+		"yes": "eny",
+		"no": "tsia",
+		"partialDht": "Ampahany (DHT)",
+		"rows": {
+			"decentralized": "Tambajotra tsy afovoany",
+			"onlineLibrary": "Tranomboky an-tserasera",
+			"builtInSearch": "Fikarohana votoaty miaraka",
+			"decentralizedSearch": "Fikarohana votoaty tsy afovoany",
+			"parallelDownloads": "Fakana mitovy avy amin'ny loharano maro",
+			"mediaCenter": "Interface foibe haino aman-jery",
+			"gamepad": "Fanohanana gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Ifandraisana",
+		"getInTouch": "Mifandraisa aminay",
+		"links": {
+			"telegramChat": "Vondrona resaka Telegram",
+			"telegramAnnouncements": "Filazana Telegram",
+			"facebook": "Vondrona Facebook"
+		}
+	},
+	"footer": {
+		"by": "nataon'i"
+	}
+}

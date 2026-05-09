@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Merkezleşdirilmedik faýl paýlaşmak",
+		"description": "{project} - häzirki zaman merkezleşdirilmedik tehnologiýalary esasynda gurlan peer-to-peer faýl paýlaşma programma üpjünçiligi.",
+		"ogTitle": "{project} - Merkezleşdirilmedik faýl paýlaşma programmasy",
+		"ogDescription": "Häzirki zaman merkezleşdirilmedik tehnologiýalary esasynda gurlan peer-to-peer faýl paýlaşmak. Merkezi serwerler ýok. Tutuş ulgamy synmagy başaryp biljek hiç zat ýok."
+	},
+	"menu": {
+		"about": "Hakda",
+		"download": "Ýüklemek",
+		"screenshots": "Ekran suratlary",
+		"comparison": "Deňeşdirme",
+		"contact": "Aragatnaşyk",
+		"toggle": "Menýuny çalyşmak",
+		"close": "Menýuny ýapmak",
+		"language": "Dil",
+		"selectLanguage": "Dili saýlaň"
+	},
+	"hero": {
+		"subtitle": "Indiki nesliň peer-to-peer faýl paýlaşmagy",
+		"description": "Häzirki zaman merkezleşdirilmedik tehnologiýalary esasynda gurlan. Merkezi serwerler ýok. Tutuş ulgamy synmagy başaryp biljek hiç zat ýok.",
+		"download": "Ýüklemek"
+	},
+	"about": {
+		"title": "Hakda",
+		"intro": "{project} - häzirki zaman merkezleşdirilmedik tehnologiýalary esasynda gurlan indiki nesliň peer-to-peer faýl paýlaşma platformasydyr. Ol içgin ulanyjy interfeýsini doly merkezleşdirilmedik arhitektura bilen birleşdirýär, islendik merkezi häkimiýetden garaşsyz maglumat paýlaşmak üçin howpsuz we ygtybarly çözgüt hödürleýär. Taslama açyk çeşmedir we {license} ygtyýarnamasy esasynda paýlanýar.",
+		"features": {
+			"decentralized": {
+				"title": "Doly merkezleşdirilmedik ulgam",
+				"description": "Merkezi serwerler ýok, ýeke näsazlyk nokady ýok. Ulanyjylar merkezi indeksleýjilere, trekerlere ýa-da maglumat bazalaryna bil baglamazdan, biri-birinden mazmuny gönüden-göni gözleýär we ýükleýär."
+			},
+			"accessControl": {
+				"title": "Jikme-jik girmek dolandyryşy",
+				"description": "Islendik adam öz düzgünleri bilen öz ulgamyny erkin başlap biler. Her ulgamda ulanyjy rollaryny kesgitläň: eýeleri, administratorlar, neşirçiler, moderatorlar we ýükleýjiler. Mazmuny kim çap edip, moderasiýa edip we ýükläp biljekdigini takyk dolandyryň."
+			},
+			"ui": {
+				"title": "Birinji synp ulanyjy interfeýsi",
+				"description": "Desktop, TV we ykjam platformalar üçin döredilen arassa we ulanyjy üçin amatly media merkezi interfeýsi. Klawiatura, syçanjyk, gamepad ýa-da uzakdan dolandyryjy bilen päsgelçiliksiz nawigasiýa ediň. Ösen ulanyjylar grafiki interfeýssiz programmany faýl serweri hökmünde işletmek üçin command-line interfeýsinden peýdalanyp bilerler."
+			},
+			"dataFormat": {
+				"title": "Adam okap bolýan maglumat formaty",
+				"description": "LISH maglumat formaty JSON-a esaslanýar, bu ony döretmek, okamak we düşünmek aňsat edýär. Mazmunyňyzy aňsat barlap bolýan aýdyň, aç-açan metadata bilen paýlaşyň."
+			},
+			"security": {
+				"title": "Gizlinlik we howpsuzlyk",
+				"description": "Ähli peer-to-peer aragatnaşygy şifrlenen, bu geçirilen wagtynda maglumatlaryňyzyň şahsy bolup galmagyny üpjün edýär. Ulanyjylar goşmaça anonim gatlak üçin VPN-iň aňyrsynda gizlenip bilerler. {project} dizaýn arkaly gizlinligiňize hormat goýýar."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Programma üpjünçiligi Windows, Linux we macOS platformalary üçin elýeterlidir. Halaýan islendik enjamyňyzda ulanyň."
+			}
+		}
+	},
+	"download": {
+		"title": "Ýüklemek",
+		"description": "Platformaňyz üçin {project}-y alyň. Ähli ýüklemeler mugt we açyk çeşmedir.",
+		"version": "Häzirki wersiýa: {version}",
+		"linkAlt": "Ýüklemek",
+		"platforms": {
+			"sourceCode": "Çeşme kody"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Uniwersal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} gurnaýjy",
+			"package": "{format} paket",
+			"portableZip": "Göçme ZIP",
+			"viewOnGithub": "GitHub-da görmek"
+		},
+		"macos": {
+			"title": "macOS ulanyjylary üçin möhüm bellik:",
+			"intro": "macOS Gatekeeper internetden ýüklenen gol çekilmedik / tassyklanmadyk programmalary {error} ýalňyşlygy bilen petikleýär.",
+			"error": "\"zaýalandy we açylyp bolanok\"",
+			"runCommand": "DMG ýa-da ZIP-i ýüklänsoň, programmany açmazdan öň, Terminal-da aşakdaky görnüşdäki buýrugy işlediň:",
+			"exampleDmg": "Mysal üçin DMG-den gurnandan soň:",
+			"exampleZip": "Ýa-da ZIP-i çykarandan soň:",
+			"explanation": "Bu buýruk karantin häsiýetini aýyrýar we programmanyň işlemegine rugsat berýär."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran suratlary",
+		"open": "{index} ekran suratyny açmak",
+		"alt": "Ekran suraty {index}",
+		"close": "Galereýany ýapmak",
+		"prev": "Öňki surat",
+		"next": "Indiki surat"
+	},
+	"comparison": {
+		"title": "Deňeşdirme",
+		"feature": "Aýratynlyk",
+		"yes": "hawa",
+		"no": "ýok",
+		"partialDht": "Bölekleýin (DHT)",
+		"rows": {
+			"decentralized": "Merkezleşdirilmedik ulgam",
+			"onlineLibrary": "Onlaýn kitaphana",
+			"builtInSearch": "Birleşen mazmun gözlegi",
+			"decentralizedSearch": "Merkezleşdirilmedik mazmun gözlegi",
+			"parallelDownloads": "Birnäçe çeşmeden parallel ýüklemeler",
+			"mediaCenter": "Media merkezi interfeýsi",
+			"gamepad": "Gamepad goldawy",
+			"openSource": "Açyk çeşme"
+		}
+	},
+	"contact": {
+		"title": "Aragatnaşyk",
+		"getInTouch": "Biz bilen habarlaşyň",
+		"links": {
+			"telegramChat": "Telegram söhbet topary",
+			"telegramAnnouncements": "Telegram bildirişleri",
+			"facebook": "Facebook topary"
+		}
+	},
+	"footer": {
+		"by": "tarapyndan"
+	}
+}

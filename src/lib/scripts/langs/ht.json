@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pataj fichye san sant",
+		"description": "{project} se yon lojisyèl pataj fichye peer-to-peer ki bati sou teknoloji san sant modèn yo.",
+		"ogTitle": "{project} - Lojisyèl pataj fichye san sant",
+		"ogDescription": "Pataj fichye peer-to-peer ki bati sou teknoloji san sant modèn yo. Pa gen sèvè santral. Pa gen anyen ki ka kraze tout rezo a."
+	},
+	"menu": {
+		"about": "Konsènan",
+		"download": "Telechaje",
+		"screenshots": "Foto ekran",
+		"comparison": "Konparezon",
+		"contact": "Kontak",
+		"toggle": "Chanje meni",
+		"close": "Fèmen meni",
+		"language": "Lang",
+		"selectLanguage": "Chwazi lang"
+	},
+	"hero": {
+		"subtitle": "Pataj fichye peer-to-peer pwochen jenerasyon",
+		"description": "Bati sou teknoloji san sant modèn yo. Pa gen sèvè santral. Pa gen anyen ki ka kraze tout rezo a.",
+		"download": "Telechaje"
+	},
+	"about": {
+		"title": "Konsènan",
+		"intro": "{project} se yon platfòm pataj fichye peer-to-peer pwochen jenerasyon, ki bati sou teknoloji san sant modèn yo. Li konbine yon entèfas itilizatè entwitif ak yon achitekti konplètman san sant, ofri yon solisyon sekirize ak fyab pou pataje done, endepandan de nenpòt otorite santral. Pwojè a se sous ouvri epi li distribye anba lisans {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rezo konplètman san sant",
+				"description": "Pa gen sèvè santral, pa gen yon sèl pwen echèk. Itilizatè yo chèche epi telechaje kontni dirèkteman youn nan men lòt, san depann sou endèksè santral, trakè oswa baz done."
+			},
+			"accessControl": {
+				"title": "Kontwòl aksè detaye",
+				"description": "Nenpòt moun ka kòmanse rezo pa l ak règ pa l libreman. Defini wòl itilizatè nan chak rezo: pwopriyetè, administratè, pibliyè, modèratè ak telechajè. Kontwole egzakteman ki moun ki ka pibliye, modere ak telechaje kontni."
+			},
+			"ui": {
+				"title": "Entèfas itilizatè premye klas",
+				"description": "Yon entèfas sant medya pwòp ak fasil pou itilize, ki fèt pou platfòm desktop, televizyon ak mobil. Navige san pwoblèm ak klavye, sourit, gamepad oswa kontwòl alontan. Itilizatè avanse yo ka pwofite de entèfas liy kòmandman an pou kouri lojisyèl an kòm sèvè fichye san entèfas grafik."
+			},
+			"dataFormat": {
+				"title": "Fòma done lizib pa moun",
+				"description": "Fòma done LISH la baze sou JSON, ki fè li fasil pou kreye, li ak konprann. Pataje kontni ou ak metadata klè ak transparan ke nenpòt moun ka egzamine fasil."
+			},
+			"security": {
+				"title": "Vi prive ak sekirite",
+				"description": "Tout kominikasyon peer-to-peer chiffre, ki garanti done ou rete prive pandan transfè a. Itilizatè yo ka kache dèyè yon VPN pou yon kouch anonim siplemantè. {project} respekte vi prive ou pa konsepsyon."
+			},
+			"crossPlatform": {
+				"title": "Kwa-platfòm",
+				"description": "Lojisyèl la disponib pou platfòm Windows, Linux ak macOS. Itilize li sou nenpòt aparèy ou pi pito."
+			}
+		}
+	},
+	"download": {
+		"title": "Telechaje",
+		"description": "Jwenn {project} pou platfòm ou. Tout telechajman gratis epi sous ouvri.",
+		"version": "Vèsyon aktyèl: {version}",
+		"linkAlt": "Telechaje",
+		"platforms": {
+			"sourceCode": "Kòd sous"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Inivèsèl (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Enstalatè {format}",
+			"package": "Pakèt {format}",
+			"portableZip": "ZIP pòtab",
+			"viewOnGithub": "Wè sou GitHub"
+		},
+		"macos": {
+			"title": "Nòt enpòtan pou itilizatè macOS:",
+			"intro": "macOS Gatekeeper bloke aplikasyon ki pa siyen / pa verifye telechaje sou entènèt ak erè {error}.",
+			"error": "\"se domaje epi li pa ka louvri\"",
+			"runCommand": "Apre w fin telechaje DMG oswa ZIP la, anvan w louvri aplikasyon an, kouri yon kòmandman nan Terminal nan fòma sa a:",
+			"exampleDmg": "Pa egzanp apre enstalasyon depi DMG:",
+			"exampleZip": "Oswa apre ekstraksyon ZIP la:",
+			"explanation": "Kòmandman sa a retire atribi quarantine la epi pèmèt aplikasyon an kouri."
+		}
+	},
+	"screenshots": {
+		"title": "Foto ekran",
+		"open": "Louvri foto ekran {index}",
+		"alt": "Foto ekran {index}",
+		"close": "Fèmen galri",
+		"prev": "Imaj anvan",
+		"next": "Imaj apre"
+	},
+	"comparison": {
+		"title": "Konparezon",
+		"feature": "Karakteristik",
+		"yes": "wi",
+		"no": "non",
+		"partialDht": "Pasyèl (DHT)",
+		"rows": {
+			"decentralized": "Rezo san sant",
+			"onlineLibrary": "Bibliyotèk anliy",
+			"builtInSearch": "Rechèch kontni entegre",
+			"decentralizedSearch": "Rechèch kontni san sant",
+			"parallelDownloads": "Telechajman paralèl depi sous miltip",
+			"mediaCenter": "Entèfas sant medya",
+			"gamepad": "Sipò gamepad",
+			"openSource": "Sous ouvri"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Kontakte nou",
+		"links": {
+			"telegramChat": "Gwoup chat Telegram",
+			"telegramAnnouncements": "Anons Telegram",
+			"facebook": "Gwoup Facebook"
+		}
+	},
+	"footer": {
+		"by": "pa"
+	}
+}

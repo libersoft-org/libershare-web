@@ -1,0 +1,123 @@
+{
+	"site": {
+		"title": "{project} - Wadaagista faylasha oo aan dhexe lahayn",
+		"description": "{project} waa softiweer wadaagista faylasha oo isku xira dadka iyada oo lagu dhisay tignoolajiyada casriga ah ee aan dhexe lahayn.",
+		"ogTitle": "{project} - Softiweerka wadaagista faylasha oo aan dhexe lahayn",
+		"ogDescription": "Wadaagista faylasha ee dadka isku xirta oo lagu dhisay tignoolajiyada casriga ah ee aan dhexe lahayn. Ma jiraan serfar dhexe. Ma jiro wax keligii hoos u dhigi kara shabakada oo dhan."
+	},
+	"menu": {
+		"about": "Ku saabsan",
+		"download": "Soo dejiso",
+		"screenshots": "Sawirrada shaashada",
+		"comparison": "Isbarbar dhig",
+		"contact": "Xiriir",
+		"toggle": "Bedel menu-ga",
+		"close": "Xir menu-ga",
+		"language": "Luqad",
+		"selectLanguage": "Dooro luqad"
+	},
+	"hero": {
+		"subtitle": "Wadaagista faylasha jiilka soo socda ee dadka isku xirta",
+		"description": "Lagu dhisay tignoolajiyada casriga ah ee aan dhexe lahayn. Ma jiraan serfar dhexe. Ma jiro wax keligii hoos u dhigi kara shabakada oo dhan.",
+		"download": "Soo dejiso"
+	},
+	"about": {
+		"title": "Ku saabsan",
+		"intro": "{project} waa madal wadaagista faylasha jiilka soo socda ee dadka isku xirta, oo lagu dhisay tignoolajiyada casriga ah ee aan dhexe lahayn. Waxay isku darsataa interface isticmaale oo fudud iyo qaab dhismeed gebi ahaanba aan dhexe lahayn, iyada oo bixisa xal aamin ah oo lagu kalsoonaan karo wadaagista xogta, oo madax bannaan ka ah maamul kasta oo dhexe. Mashruucu waa ilo furan oo waxaa lagu qaybiyaa shati {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Shabakad gebi ahaanba aan dhexe lahayn",
+				"description": "Ma jiraan serfar dhexe, ma jirto hal meel oo guul-darro. Isticmaalayaashu si toos ah ayey midba midka kale uga raadiyaan oo uga soo dejiyaan waxa ku jira, iyaga oo aan ku tiirsanayn tilmaameyaal, raadiyeyaal ama xog kayd ah oo dhexe."
+			},
+			"accessControl": {
+				"title": "Xakamaynta marin u helitaanka oo faahfaahsan",
+				"description": "Qof kasta wuxuu si xor ah u bilaabi karaa shabakaddiisa xeerarkiisa leh. Qeex doorarka isticmaalayaasha shabakad kasta: lahaanshaha, maamulayaasha, daabacayaasha, kormeerayaasha iyo soo dejiyayaasha. Si sax ah u xakamee cidda daabici karta, kormeeri karta iyo soo dejin karta waxa ku jira."
+			},
+			"ui": {
+				"title": "Interface isticmaale heer koowaad",
+				"description": "Interface xarunta warbaahinta oo nadiif ah oo isticmaale-saaxiib ah oo loogu talagalay madasha desktop, TV iyo mobile. Si sahlan ugu socoto kiiboordhka, jiirka, gamepad ama kontaroolaha fog. Isticmaalayaasha horumarsan waxay ka faa'iidaysan karaan interface khadka taliska si ay u shaqeyn karaan softiweerka sida serfar fayl iyada oo aan lahayn interface garaaf."
+			},
+			"dataFormat": {
+				"title": "Qaab xog oo bini-aadamku akhrin karo",
+				"description": "Qaabka xogta LISH wuxuu ku salaysan yahay JSON, taas oo fududaynaysa abuuritaanka, akhrinta iyo fahamka. La wadaag waxa aad leedahay metadata cad oo daahir ah oo qof kastaaba si fudud u baari karo."
+			},
+			"security": {
+				"title": "Asturnaanta iyo amniga",
+				"description": "Dhammaan wadahadalka peer-to-peer waa la qariyay (encrypted), taas oo hubinaysa in xogtaada ay sir ah ku sii joogto inta lagu jiro gudbinta. Isturmaalayaashu waxay isku qarin karaan VPN gadaasheed si loo helo lakab dheeraad ah oo aan la garanaynin. {project} wuxuu naqshadeedu ku ixtiraamayaa asturnaantaada.",
+				"description2": ""
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Softiweerku wuxuu diyaar u yahay madasha Windows, Linux iyo macOS. Ku isticmaal qalab kasta oo aad doonto."
+			}
+		}
+	},
+	"download": {
+		"title": "Soo dejiso",
+		"description": "Hel {project} madashaada. Dhammaan soo dejintu waa bilaash oo ilo furan.",
+		"version": "Nooca hadda: {version}",
+		"linkAlt": "Soo dejiso",
+		"platforms": {
+			"sourceCode": "Koodka isha"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Caalami ah (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Rakibaha {format}",
+			"package": "Xirmada {format}",
+			"portableZip": "ZIP la qaadi karo",
+			"viewOnGithub": "Eeg GitHub"
+		},
+		"macos": {
+			"title": "Ogeysiis muhiim ah isticmaalayaasha macOS:",
+			"intro": "macOS Gatekeeper wuxuu xannibayaa abka aan saxiixnayn / aan la xaqiijin oo laga soo dejiyay internetka isaga oo bixinaya khalad {error}.",
+			"error": "\"waa kharribmay oo lama furi karo\"",
+			"runCommand": "Ka dib markaad soo dejiso DMG ama ZIP, ka hor inta aanad furin abka, Terminal ku socodsii amar qaabkan oo kale ah:",
+			"exampleDmg": "Tusaale ahaan ka dib markaad ka rakibto DMG:",
+			"exampleZip": "Ama ka dib markaad sii daayso ZIP:",
+			"explanation": "Amarkani wuxuu meesha ka saaraa sifada karantiil-ka oo wuxuu u oggolaanayaa abka inuu shaqeeyo."
+		}
+	},
+	"screenshots": {
+		"title": "Sawirrada shaashada",
+		"open": "Fur sawirka shaashada {index}",
+		"alt": "Sawirka shaashada {index}",
+		"close": "Xir gallery-ga",
+		"prev": "Sawirka hore",
+		"next": "Sawirka xiga"
+	},
+	"comparison": {
+		"title": "Isbarbar dhig",
+		"feature": "Sifada",
+		"yes": "haa",
+		"no": "maya",
+		"partialDht": "Qayb (DHT)",
+		"rows": {
+			"decentralized": "Shabakad aan dhexe lahayn",
+			"onlineLibrary": "Maktabad onlayn ah",
+			"builtInSearch": "Raadinta waxyaabaha ku jira ee la isku daray",
+			"decentralizedSearch": "Raadinta waxyaabaha ku jira oo aan dhexe lahayn",
+			"parallelDownloads": "Soo dejin la jaad ah oo ka timid ilo badan",
+			"mediaCenter": "Interface xarunta warbaahinta",
+			"gamepad": "Taageerada gamepad",
+			"openSource": "Ilo furan"
+		}
+	},
+	"contact": {
+		"title": "Xiriir",
+		"getInTouch": "Nala soo xiriir",
+		"links": {
+			"telegramChat": "Kooxda sheekaynta Telegram",
+			"telegramAnnouncements": "Ogeysiisyada Telegram",
+			"facebook": "Kooxda Facebook"
+		}
+	},
+	"footer": {
+		"by": "ee uu sameeyay"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Markaziylashmagan fayl almashish",
+		"description": "{project} zamonaviy markaziylashmagan texnologiyalarga asoslangan peer-to-peer fayl almashish dasturi.",
+		"ogTitle": "{project} - Markaziylashmagan fayl almashish dasturi",
+		"ogDescription": "Zamonaviy markaziylashmagan texnologiyalarga asoslangan peer-to-peer fayl almashish. Markaziy serverlar yoʻq. Butun tarmoqni ishdan chiqara oladigan hech narsa yoʻq."
+	},
+	"menu": {
+		"about": "Haqida",
+		"download": "Yuklab olish",
+		"screenshots": "Ekran tasvirlari",
+		"comparison": "Taqqoslash",
+		"contact": "Aloqa",
+		"toggle": "Menyuni almashtirish",
+		"close": "Menyuni yopish",
+		"language": "Til",
+		"selectLanguage": "Tilni tanlang"
+	},
+	"hero": {
+		"subtitle": "Keyingi avlod peer-to-peer fayl almashish",
+		"description": "Zamonaviy markaziylashmagan texnologiyalarga asoslangan. Markaziy serverlar yoʻq. Butun tarmoqni ishdan chiqara oladigan hech narsa yoʻq.",
+		"download": "Yuklab olish"
+	},
+	"about": {
+		"title": "Haqida",
+		"intro": "{project} — bu zamonaviy markaziylashmagan texnologiyalarga asoslangan keyingi avlod peer-to-peer fayl almashish platformasi. U intuitiv foydalanuvchi interfeysini toʻliq markaziylashmagan arxitektura bilan birlashtiradi va har qanday markaziy hokimiyatdan mustaqil maʼlumot almashishning xavfsiz va ishonchli yechimini taqdim etadi. Loyiha ochiq manbali boʻlib, {license} litsenziyasi ostida tarqatiladi.",
+		"features": {
+			"decentralized": {
+				"title": "Toʻliq markaziylashmagan tarmoq",
+				"description": "Markaziy serverlar yoʻq, yagona nosozlik nuqtasi yoʻq. Foydalanuvchilar markaziy indekslar, treklar yoki maʼlumotlar bazalariga tayanmasdan, kontentni bevosita bir-biridan qidirib, yuklab oladi."
+			},
+			"accessControl": {
+				"title": "Batafsil kirish nazorati",
+				"description": "Har kim oʻz qoidalari bilan oʻz tarmogʻini erkin boshlay oladi. Har bir tarmoqda foydalanuvchi rollarini belgilang: egalari, administratorlar, nashriyotchilar, moderatorlar va yuklab oluvchilar. Kim kontentni nashr qilishi, moderatsiya qilishi va yuklab olishi mumkinligini aniq nazorat qiling."
+			},
+			"ui": {
+				"title": "Birinchi sinf foydalanuvchi interfeysi",
+				"description": "Desktop, TV va mobil platformalar uchun moʻljallangan toza va qulay media markaz interfeysi. Klaviatura, sichqoncha, geympad yoki masofadan boshqarish puldi bilan bemalol harakatlaning. Tajribali foydalanuvchilar dasturni grafik interfeyssiz fayl serveri sifatida ishga tushirish uchun buyruq qatori interfeysidan foydalanishi mumkin."
+			},
+			"dataFormat": {
+				"title": "Inson oʻqiy oladigan maʼlumotlar formati",
+				"description": "LISH maʼlumotlar formati JSONga asoslangan boʻlib, uni yaratish, oʻqish va tushunishni osonlashtiradi. Kontentingizni har kim oson tekshira oladigan aniq, shaffof metamaʼlumotlar bilan baham koʻring."
+			},
+			"security": {
+				"title": "Maxfiylik va xavfsizlik",
+				"description": "Barcha peer-to-peer aloqalar shifrlangan, bu maʼlumotlaringizni uzatish davomida shaxsiy boʻlib qolishini taʼminlaydi. Foydalanuvchilar qoʻshimcha anonimlik qatlami uchun VPN orqasida yashirinishi mumkin. {project} dizayn boʻyicha sizning maxfiyligingizni hurmat qiladi."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Dastur Windows, Linux va macOS platformalari uchun mavjud. Uni xohlagan qurilmangizda foydalaning."
+			}
+		}
+	},
+	"download": {
+		"title": "Yuklab olish",
+		"description": "Platformangiz uchun {project}ni oling. Barcha yuklamalar bepul va ochiq manbali.",
+		"version": "Joriy versiya: {version}",
+		"linkAlt": "Yuklab olish",
+		"platforms": {
+			"sourceCode": "Manba kodi"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} oʻrnatuvchi",
+			"package": "{format} paketi",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "GitHubda koʻrish"
+		},
+		"macos": {
+			"title": "macOS foydalanuvchilari uchun muhim eslatma:",
+			"intro": "macOS Gatekeeper internetdan yuklab olingan imzosiz / tasdiqlanmagan ilovalarni {error} xatosi bilan bloklaydi.",
+			"error": "\"shikastlangan va ochilmaydi\"",
+			"runCommand": "DMG yoki ZIPni yuklab olgandan soʻng, ilovani ochishdan oldin, Terminalda quyidagi shakldagi buyruqni ishga tushiring:",
+			"exampleDmg": "Masalan, DMGdan oʻrnatgandan soʻng:",
+			"exampleZip": "Yoki ZIPni chiqargandan soʻng:",
+			"explanation": "Bu buyruq karantin atributini olib tashlaydi va ilovaning ishlashiga ruxsat beradi."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran tasvirlari",
+		"open": "{index}-ekran tasvirini ochish",
+		"alt": "Ekran tasviri {index}",
+		"close": "Galereyani yopish",
+		"prev": "Oldingi rasm",
+		"next": "Keyingi rasm"
+	},
+	"comparison": {
+		"title": "Taqqoslash",
+		"feature": "Xususiyat",
+		"yes": "ha",
+		"no": "yoʻq",
+		"partialDht": "Qisman (DHT)",
+		"rows": {
+			"decentralized": "Markaziylashmagan tarmoq",
+			"onlineLibrary": "Onlayn kutubxona",
+			"builtInSearch": "Birlashtirilgan kontent qidiruvi",
+			"decentralizedSearch": "Markaziylashmagan kontent qidiruvi",
+			"parallelDownloads": "Bir nechta manbadan parallel yuklamalar",
+			"mediaCenter": "Media markaz interfeysi",
+			"gamepad": "Geympad qoʻllab-quvvatlashi",
+			"openSource": "Ochiq manba"
+		}
+	},
+	"contact": {
+		"title": "Aloqa",
+		"getInTouch": "Bogʻlaning",
+		"links": {
+			"telegramChat": "Telegram chat guruhi",
+			"telegramAnnouncements": "Telegram eʼlonlari",
+			"facebook": "Facebook guruhi"
+		}
+	},
+	"footer": {
+		"by": "muallif"
+	}
+}

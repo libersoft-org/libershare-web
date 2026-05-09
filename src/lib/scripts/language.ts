@@ -72,6 +72,19 @@ import yo from './langs/yo.json';
 import kn from './langs/kn.json';
 import my from './langs/my.json';
 import om from './langs/om.json';
+import ht from './langs/ht.json';
+import kk from './langs/kk.json';
+import km from './langs/km.json';
+import ky from './langs/ky.json';
+import lo from './langs/lo.json';
+import mg from './langs/mg.json';
+import mn from './langs/mn.json';
+import ne from './langs/ne.json';
+import si from './langs/si.json';
+import so from './langs/so.json';
+import tg from './langs/tg.json';
+import tk from './langs/tk.json';
+import uz from './langs/uz.json';
 export interface Language {
 	id: string;
 	label: string;
@@ -107,6 +120,7 @@ export const languages: Language[] = [
 	{ id: 'de', label: 'German', nativeLabel: 'Deutsch', flag: 'de' },
 	{ id: 'el', label: 'Greek', nativeLabel: 'Ελληνικά', flag: 'gr' },
 	{ id: 'gu', label: 'Gujarati', nativeLabel: 'ગુજરાતી', flag: 'in' },
+	{ id: 'ht', label: 'Haitian Creole', nativeLabel: 'Kreyòl Ayisyen', flag: 'ht' },
 	{ id: 'ha', label: 'Hausa', nativeLabel: 'Hausa', flag: 'ng' },
 	{ id: 'he', label: 'Hebrew', nativeLabel: 'עברית', flag: 'il' },
 	{ id: 'hi', label: 'Hindi', nativeLabel: 'हिन्दी', flag: 'in' },
@@ -118,14 +132,21 @@ export const languages: Language[] = [
 	{ id: 'ja', label: 'Japanese', nativeLabel: '日本語', flag: 'jp' },
 	{ id: 'jv', label: 'Javanese', nativeLabel: 'Basa Jawa', flag: 'id' },
 	{ id: 'kn', label: 'Kannada', nativeLabel: 'ಕನ್ನಡ', flag: 'in' },
+	{ id: 'kk', label: 'Kazakh', nativeLabel: 'Қазақша', flag: 'kz' },
+	{ id: 'km', label: 'Khmer', nativeLabel: 'ខ្មែរ', flag: 'kh' },
 	{ id: 'ko', label: 'Korean', nativeLabel: '한국어', flag: 'kr' },
+	{ id: 'ky', label: 'Kyrgyz', nativeLabel: 'Кыргызча', flag: 'kg' },
+	{ id: 'lo', label: 'Lao', nativeLabel: 'ລາວ', flag: 'la' },
 	{ id: 'lv', label: 'Latvian', nativeLabel: 'Latviešu', flag: 'lv' },
 	{ id: 'lt', label: 'Lithuanian', nativeLabel: 'Lietuvių', flag: 'lt' },
 	{ id: 'lb', label: 'Luxembourgish', nativeLabel: 'Lëtzebuergesch', flag: 'lu' },
 	{ id: 'mk', label: 'Macedonian', nativeLabel: 'Македонски', flag: 'mk' },
+	{ id: 'mg', label: 'Malagasy', nativeLabel: 'Malagasy', flag: 'mg' },
 	{ id: 'ms', label: 'Malay', nativeLabel: 'Bahasa Melayu', flag: 'my' },
 	{ id: 'mt', label: 'Maltese', nativeLabel: 'Malti', flag: 'mt' },
 	{ id: 'mr', label: 'Marathi', nativeLabel: 'मराठी', flag: 'in' },
+	{ id: 'mn', label: 'Mongolian', nativeLabel: 'Монгол', flag: 'mn' },
+	{ id: 'ne', label: 'Nepali', nativeLabel: 'नेपाली', flag: 'np' },
 	{ id: 'no', label: 'Norwegian', nativeLabel: 'Norsk', flag: 'no' },
 	{ id: 'om', label: 'Oromo', nativeLabel: 'Afaan Oromoo', flag: 'et' },
 	{ id: 'ps', label: 'Pashto', nativeLabel: 'پښتو', flag: 'af' },
@@ -137,17 +158,22 @@ export const languages: Language[] = [
 	{ id: 'ru', label: 'Russian', nativeLabel: 'Русский', flag: 'ru' },
 	{ id: 'sc', label: 'Sardinian', nativeLabel: 'Sardu', flag: 'it' },
 	{ id: 'sr', label: 'Serbian', nativeLabel: 'Српски', flag: 'rs' },
+	{ id: 'si', label: 'Sinhala', nativeLabel: 'සිංහල', flag: 'lk' },
 	{ id: 'sk', label: 'Slovak', nativeLabel: 'Slovenčina', flag: 'sk' },
 	{ id: 'sl', label: 'Slovenian', nativeLabel: 'Slovenščina', flag: 'si' },
+	{ id: 'so', label: 'Somali', nativeLabel: 'Soomaali', flag: 'so' },
 	{ id: 'es', label: 'Spanish', nativeLabel: 'Español', flag: 'es' },
 	{ id: 'sw', label: 'Swahili', nativeLabel: 'Kiswahili', flag: 'tz' },
 	{ id: 'sv', label: 'Swedish', nativeLabel: 'Svenska', flag: 'se' },
+	{ id: 'tg', label: 'Tajik', nativeLabel: 'Тоҷикӣ', flag: 'tj' },
 	{ id: 'ta', label: 'Tamil', nativeLabel: 'தமிழ்', flag: 'in' },
 	{ id: 'te', label: 'Telugu', nativeLabel: 'తెలుగు', flag: 'in' },
 	{ id: 'th', label: 'Thai', nativeLabel: 'ไทย', flag: 'th' },
 	{ id: 'tr', label: 'Turkish', nativeLabel: 'Türkçe', flag: 'tr' },
+	{ id: 'tk', label: 'Turkmen', nativeLabel: 'Türkmençe', flag: 'tm' },
 	{ id: 'uk', label: 'Ukrainian', nativeLabel: 'Українська', flag: 'ua' },
 	{ id: 'ur', label: 'Urdu', nativeLabel: 'اردو', flag: 'pk' },
+	{ id: 'uz', label: 'Uzbek', nativeLabel: 'Oʻzbekcha', flag: 'uz' },
 	{ id: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', flag: 'vn' },
 	{ id: 'cy', label: 'Welsh', nativeLabel: 'Cymraeg', flag: 'gb' },
 	{ id: 'yi', label: 'Yiddish', nativeLabel: 'ייִדיש', flag: 'il' },
@@ -157,7 +183,7 @@ const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om };
+const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz };
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {
