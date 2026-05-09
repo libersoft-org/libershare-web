@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Orayda jıynalmaǵan fayllardı bólisiw",
+		"description": "{project} - zamanagóy orayda jıynalmaǵan texnologiya tiykarında qurılǵan peer-to-peer fayl bólisiw baǵdarlaması.",
+		"ogTitle": "{project} - Orayda jıynalmaǵan fayl bólisiw baǵdarlaması",
+		"ogDescription": "Zamanagóy orayda jıynalmaǵan texnologiyaǵa tiykarlanǵan peer-to-peer fayl bólisiw. Orayliq server joq. Bir ǵana sátsiz noqat joq."
+	},
+	"menu": {
+		"about": "Haqqında",
+		"download": "Júklew",
+		"screenshots": "Ekran súwretleri",
+		"comparison": "Salıstırıw",
+		"contact": "Baylanıs",
+		"toggle": "Menyu awıstırıw",
+		"close": "Menyunı jabıw",
+		"language": "Til",
+		"selectLanguage": "Tildi tańlań"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer fayl bólisiwdiń keler áwladı",
+		"description": "Zamanagóy orayda jıynalmaǵan texnologiyaǵa tiykarlanǵan. Orayliq server joq. Bir ǵana sátsiz noqat joq.",
+		"download": "Júklew"
+	},
+	"about": {
+		"title": "Haqqında",
+		"intro": "{project} - zamanagóy orayda jıynalmaǵan texnologiya tiykarında qurılǵan peer-to-peer fayl bólisiwdiń keler áwlad platforması. Ol ańsat paydalanılatuǵın paydalanıwshı interfeysin tolıq orayda jıynalmaǵan arxitektura menen birlestirip, oraylıq húkimet kerek bolmastan isenimli hám qáwipsiz maǵlıwmat bólisiwdi usınadı. Bul joybar open source bolıp, {license} astında tarqaladı.",
+		"features": {
+			"decentralized": {
+				"title": "Tolıq orayda jıynalmaǵan tarmaq",
+				"description": "Orayliq server joq, bir ǵana sátsiz noqat joq. Paydalanıwshılar oraylıq indekslewshi, izlewshi yamasa maǵlıwmat bazasına baylanıspay-aq mazmundı bir-birinen tikkeley tabadı hám júkleydi."
+			},
+			"accessControl": {
+				"title": "Inje kiriw qadaǵalaw",
+				"description": "Hár kim óziniń qaǵıydaları menen óz tarmaǵın tegin qura aladı. Hár tarmaq ishinde paydalanıwshı rolleri belgilengen: iyesi, basqarıwshı, jariyalawshı, modetator hám júklewshi. Mazmundı kim jariyalaw, modetatsiya etiw hám júklew múmkinligin inje qadaǵalań."
+			},
+			"ui": {
+				"title": "Joqarı sapalı paydalanıwshı interfeysi",
+				"description": "Stol kompyuteri, TV hám mobil platformaları ushın isleńge alınǵan tap-taza hám juwap berer media oray interfeysi. Klaviatura, tıshqan, geympad yamasa qashıqtan basqarıw járdeminde ańsat navigatsiya. Aldıńǵı paydalanıwshılar baǵdarlamanı buyrıq qatarı interfeysi arqalı bassız fayl serveri sıpatında jumıs islete aladı."
+			},
+			"dataFormat": {
+				"title": "Adam oqıy alatuǵın maǵlıwmat formatı",
+				"description": "LISH maǵlıwmat formatı JSON tiykarında qurılǵan, bul onı jaratıw, oqıw hám túsiniwdi ańsat etedi. Mazmunıńızdı hár kim ańsat tekserip alatuǵın taza hám ashıq metamaǵlıwmatlar menen bólisiń."
+			},
+			"security": {
+				"title": "Jeke ómir hám qáwipsizlik",
+				"description": "Barlıq peer-to-peer baylanıs shifrlanǵan, bul tasımal waqtında siziń maǵlıwmatlarıńız jeke bolıp qalıwdı kepilleydi. Paydalanıwshılar tóreliksizlik ushın VPN keynine jasırına aladı. {project} sizdiń jeke ómirińizdi dizayn arqalı húrmet etedi."
+			},
+			"crossPlatform": {
+				"title": "Kóp platformalı",
+				"description": "Baǵdarlama Windows, Linux hám macOS da bar. Onı qálegen úskenede paydalanıń."
+			}
+		}
+	},
+	"download": {
+		"title": "Júklew",
+		"description": "Platformańız ushın {project} alıń. Barlıq júklewler tegin hám open source.",
+		"version": "Házirgi nusqası: {version}",
+		"linkAlt": "Júklew",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ornatıwshı",
+			"package": "{format} paket",
+			"portableZip": "Tasımalı ZIP",
+			"viewOnGithub": "GitHub-da kóriw"
+		},
+		"macos": {
+			"title": "macOS paydalanıwshıları ushın ámiyetli eskertiw:",
+			"intro": "macOS Gatekeeper Internetten júklengen imzalanbaǵan/notarial tastıyıqlanbaǵan baǵdarlamalardı {error} qátesi menen bóget aladı.",
+			"error": "\"buzılǵan, ashıp bolmaydı\"",
+			"runCommand": "DMG yamasa ZIP júklegennen keyin baǵdarlamanı ashpas burın Terminal-da bul buyrıqtı orınlań:",
+			"exampleDmg": "Mısalı, DMG-dan ornatqannan keyin:",
+			"exampleZip": "Yamasa ZIP-tı shıǵarǵannan keyin:",
+			"explanation": "Bul karantin atributın alıp taslaydı hám baǵdarlamaǵa islewge ruqsat beredi."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran súwretleri",
+		"open": "{index} ekran súwretin ashıw",
+		"alt": "{index} ekran súwreti",
+		"close": "Galereyanı jabıw",
+		"prev": "Aldıńǵı súwret",
+		"next": "Keyingi súwret"
+	},
+	"comparison": {
+		"title": "Salıstırıw",
+		"feature": "Ózgesheligi",
+		"yes": "Awa",
+		"no": "Joq",
+		"partialDht": "Bólekleshe (DHT)",
+		"rows": {
+			"decentralized": "Orayda jıynalmaǵan tarmaq",
+			"onlineLibrary": "Onlayn kitapxana",
+			"builtInSearch": "Ishki mazmun izlew",
+			"decentralizedSearch": "Orayda jıynalmaǵan mazmun izlew",
+			"parallelDownloads": "Birneshe derekten parallel júklewler",
+			"mediaCenter": "Media oray interfeysi",
+			"gamepad": "Geympad qollaw",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Baylanıs",
+		"getInTouch": "Baylanısqa shıǵıń",
+		"links": {
+			"telegramChat": "Telegram sóylesiw toparı",
+			"telegramAnnouncements": "Telegram xabarları",
+			"facebook": "Facebook toparı"
+		}
+	},
+	"footer": {
+		"by": "Jasaǵan"
+	}
+}

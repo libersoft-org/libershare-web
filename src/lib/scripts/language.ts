@@ -197,6 +197,13 @@ import cv from './langs/cv.json';
 import crh from './langs/crh.json';
 import os from './langs/os.json';
 import rup from './langs/rup.json';
+import dz from './langs/dz.json';
+import sah from './langs/sah.json';
+import kaa from './langs/kaa.json';
+import war from './langs/war.json';
+import pam from './langs/pam.json';
+import bik from './langs/bik.json';
+import pag from './langs/pag.json';
 export interface Language {
 	id: string;
 	label: string;
@@ -228,6 +235,7 @@ export const languages: Language[] = [
 	{ id: 'bn', label: 'Bengali', nativeLabel: 'বাংলা', flag: 'bd' },
 	{ id: 'ber', label: 'Berber', nativeLabel: 'Tamaziɣt', flag: 'ma' },
 	{ id: 'bho', label: 'Bhojpuri', nativeLabel: 'भोजपुरी', flag: 'in' },
+	{ id: 'bik', label: 'Bikol', nativeLabel: 'Bikol', flag: 'ph' },
 	{ id: 'bi', label: 'Bislama', nativeLabel: 'Bislama', flag: 'vu' },
 	{ id: 'bs', label: 'Bosnian', nativeLabel: 'Bosanski', flag: 'ba' },
 	{ id: 'br', label: 'Breton', nativeLabel: 'Brezhoneg', flag: 'fr' },
@@ -255,6 +263,7 @@ export const languages: Language[] = [
 	{ id: 'din', label: 'Dinka', nativeLabel: 'Thuɔŋjäŋ', flag: 'ss' },
 	{ id: 'doi', label: 'Dogri', nativeLabel: 'डोगरी', flag: 'in' },
 	{ id: 'nl', label: 'Dutch', nativeLabel: 'Nederlands', flag: 'nl' },
+	{ id: 'dz', label: 'Dzongkha', nativeLabel: 'རྫོང་ཁ', flag: 'bt' },
 	{ id: 'cdo', label: 'Eastern Min', nativeLabel: '閩東語', flag: 'cn' },
 	{ id: 'en', label: 'English', nativeLabel: 'English', flag: 'gb' },
 	{ id: 'et', label: 'Estonian', nativeLabel: 'Eesti', flag: 'ee' },
@@ -295,6 +304,7 @@ export const languages: Language[] = [
 	{ id: 'kn', label: 'Kannada', nativeLabel: 'ಕನ್ನಡ', flag: 'in' },
 	{ id: 'ks', label: 'Kashmiri', nativeLabel: 'كٲشُر', flag: 'in' },
 	{ id: 'kk', label: 'Kazakh', nativeLabel: 'Қазақша', flag: 'kz' },
+	{ id: 'kaa', label: 'Karakalpak', nativeLabel: 'Qaraqalpaqsha', flag: 'uz' },
 	{ id: 'km', label: 'Khmer', nativeLabel: 'ខ្មែរ', flag: 'kh' },
 	{ id: 'ki', label: 'Kikuyu', nativeLabel: 'Gĩkũyũ', flag: 'ke' },
 	{ id: 'rw', label: 'Kinyarwanda', nativeLabel: 'Ikinyarwanda', flag: 'rw' },
@@ -343,11 +353,14 @@ export const languages: Language[] = [
 	{ id: 'pl', label: 'Polish', nativeLabel: 'Polski', flag: 'pl' },
 	{ id: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: 'pt' },
 	{ id: 'pa', label: 'Punjabi', nativeLabel: 'ਪੰਜਾਬੀ', flag: 'in' },
+	{ id: 'pag', label: 'Pangasinan', nativeLabel: 'Pangasinan', flag: 'ph' },
+	{ id: 'pam', label: 'Kapampangan', nativeLabel: 'Kapampangan', flag: 'ph' },
 	{ id: 'qu', label: 'Quechua', nativeLabel: 'Runa Simi', flag: 'pe' },
 	{ id: 'ro', label: 'Romanian', nativeLabel: 'Română', flag: 'ro' },
 	{ id: 'rm', label: 'Romansh', nativeLabel: 'Rumantsch', flag: 'ch' },
 	{ id: 'ru', label: 'Russian', nativeLabel: 'Русский', flag: 'ru' },
 	{ id: 'sm', label: 'Samoan', nativeLabel: 'Gagana Sāmoa', flag: 'ws' },
+	{ id: 'sah', label: 'Sakha', nativeLabel: 'Сахалыы', flag: 'ru' },
 	{ id: 'sg', label: 'Sango', nativeLabel: 'Sängö', flag: 'cf' },
 	{ id: 'sa', label: 'Sanskrit', nativeLabel: 'संस्कृतम्', flag: 'in' },
 	{ id: 'sat', label: 'Santali', nativeLabel: 'ᱥᱟᱱᱛᱟᱲᱤ', flag: 'in' },
@@ -393,6 +406,7 @@ export const languages: Language[] = [
 	{ id: 'ug', label: 'Uyghur', nativeLabel: 'ئۇيغۇرچە', flag: 'cn' },
 	{ id: 've', label: 'Venda', nativeLabel: 'Tshivenda', flag: 'za' },
 	{ id: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', flag: 'vn' },
+	{ id: 'war', label: 'Waray', nativeLabel: 'Winaray', flag: 'ph' },
 	{ id: 'cy', label: 'Welsh', nativeLabel: 'Cymraeg', flag: 'gb' },
 	{ id: 'fy', label: 'Western Frisian', nativeLabel: 'Frysk', flag: 'nl' },
 	{ id: 'wo', label: 'Wolof', nativeLabel: 'Wolof', flag: 'sn' },
@@ -407,7 +421,7 @@ const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup };
+const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup, dz, sah, kaa, war, pam, bik, pag };
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {

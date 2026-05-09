@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Disentralisadu a pamipalibutad da reng file",
+		"description": "{project} metung yang peer-to-peer a programa para king pamipalibutad da reng file, gewa king moderno at disentralisadu a teknolohiya.",
+		"ogTitle": "{project} - Disentralisadu a programa para king pamipalibutad da reng file",
+		"ogDescription": "Peer-to-peer a pamipalibutad da reng file a base king moderno at disentralisadu a teknolohiya. Alang sentral a server. Alang metung mu a punto da ning pamangapakyas."
+	},
+	"menu": {
+		"about": "Tungkul",
+		"download": "I-download",
+		"screenshots": "Reng screenshot",
+		"comparison": "Pamipanaling",
+		"contact": "Kontak",
+		"toggle": "I-toggle ya ing menu",
+		"close": "Sarading ya ing menu",
+		"language": "Amanu",
+		"selectLanguage": "Pumili ka amanu"
+	},
+	"hero": {
+		"subtitle": "Ing tutuking henerasyon na ning peer-to-peer a pamipalibutad da reng file",
+		"description": "Base king moderno at disentralisadu a teknolohiya. Alang sentral a server. Alang metung mu a punto da ning pamangapakyas.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Tungkul",
+		"intro": "{project} metung yang plataporma na ning tutuking henerasyon para king peer-to-peer a pamipalibutad da reng file, gewa king moderno at disentralisadu a teknolohiya. Pisasama na ing malagwa pamigamit a interface na ning tau king metung a kumpletung disentralisadu a arkitektura, mibibie ya na ing seguro at masasarigan a pamipalibutad da reng datu alang kakailangan ka sentral a awtoridad. Ing proyektung iti open source, mibibili ya lalam ning {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Kumpletung disentralisadu a network",
+				"description": "Alang sentral a server, alang metung mu a punto da ning pamangapakyas. Reng tau makakit la at maka-download la ning sulud direktang ibat king metung at metung, alang depende king metung a sentral a indexer, tracker o database."
+			},
+			"accessControl": {
+				"title": "Pinung kontrol na ning pamanglub",
+				"description": "Ninu mang tau, malyari yang gawang libre ing kayang sariling network agpang king kayang sariling reng panuntunan. King kilub ning balang network, midefinihan la reng papel da reng tau: ing may-ari, administrador, talapamigatlu, moderador at talag-download. Magkaroon ka pinung kontrol king ninu ing malyaring magpalaganap, mag-moderate at mag-download ning sulud."
+			},
+			"ui": {
+				"title": "Mataas a kalidad a interface na ning tau",
+				"description": "Malinis at maglubug a interface na ning media center, gewa para reng plataporma da reng desktop, TV at mobile. Malagwang nabigasyon king pamamilatan ning keyboard, mouse, gamepad o remote control. Reng abante a tau, malyari dang patalbugan ing programa bilang headless a file server king pamamilatan ning command line interface."
+			},
+			"dataFormat": {
+				"title": "Pormat na ning datu a mababasa da reng tau",
+				"description": "Ing pormat na ning datu LISH gewa king JSON, ne ginawa kang malagwang gawan, basan at intindihan. Ipalaganap mu ing kekang sulud kayabe da reng malino at transparenteng metadata a malyaring siyasat-siyasatan ning ninu mang tau."
+			},
+			"security": {
+				"title": "Pribasidad at seguridad",
+				"description": "Eganagana reng peer-to-peer a komunikasyon makakencrypt la, mititiyak na manatili lang pribadu reng kekang datu durante na ning paghatud. Reng tau, malyari dang isuksok la king likod na ning VPN para king dagdag a pamangalang ngaran. Reriespetuan na ning {project} ing kekang pribasidad king pamamilatan na ning disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ing programa makakuwa ya king Windows, Linux at macOS. Gamitan me ing nanu mang aparato a atin ka."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Kuwa me ing {project} para king kekang plataporma. Eganagana reng download libre la at open source.",
+		"version": "Ing kasalungsungan a bersyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} a installer",
+			"package": "{format} a package",
+			"portableZip": "Portable a ZIP",
+			"viewOnGithub": "Lawan king GitHub"
+		},
+		"macos": {
+			"title": "Mahalagang nota para reng tau a magagamit ning macOS:",
+			"intro": "Sasalibatibatan na ning macOS Gatekeeper reng aplikasyon a alang pirma/alang notaryo a gindownload king Internet kayabe na ning kamalian {error}.",
+			"error": "\"sira ya, e ya malyaring buksan\"",
+			"runCommand": "Kaibat mong i-download ing DMG o ZIP, bayu me buksan ing aplikasyon, patalbugan me ining utus king Terminal:",
+			"exampleDmg": "Halimbawa, kaibat ka mag-install ibat king DMG:",
+			"exampleZip": "O kaibat me i-extract ing ZIP:",
+			"explanation": "Aalisan na nita ing attribute na ning quarantine at papabayan ne ing aplikasyon a tumalbug."
+		}
+	},
+	"screenshots": {
+		"title": "Reng screenshot",
+		"open": "Buksan me ing screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Sarading me ing galerya",
+		"prev": "Minunang ladawan",
+		"next": "Tutuking ladawan"
+	},
+	"comparison": {
+		"title": "Pamipanaling",
+		"feature": "Tampak",
+		"yes": "Wa",
+		"no": "Ali",
+		"partialDht": "Pang-arap (DHT)",
+		"rows": {
+			"decentralized": "Disentralisadu a network",
+			"onlineLibrary": "Online a aklatan",
+			"builtInSearch": "Built-in a panintun ning sulud",
+			"decentralizedSearch": "Disentralisadu a panintun ning sulud",
+			"parallelDownloads": "Reng paralelung download ibat king dakal a pibatan",
+			"mediaCenter": "Interface ning media center",
+			"gamepad": "Suporta na ning gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Manginan ka",
+		"links": {
+			"telegramChat": "Telegram a grupu da reng chat",
+			"telegramAnnouncements": "Reng pamipakilala na ning Telegram",
+			"facebook": "Facebook a grupu"
+		}
+	},
+	"footer": {
+		"by": "Gewa nang"
+	}
+}

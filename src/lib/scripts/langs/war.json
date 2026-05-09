@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Disentralisado nga pagpaambit hin mga file",
+		"description": "{project} amo an peer-to-peer nga programa para hin pagpaambit hin mga file, ginhimo ha bag-o nga disentralisado nga teknolohiya.",
+		"ogTitle": "{project} - Programa para hin disentralisado nga pagpaambit hin mga file",
+		"ogDescription": "Peer-to-peer nga pagpaambit hin mga file nga base ha bag-o nga disentralisado nga teknolohiya. Waray sentral nga server. Waray usa la nga punto hin pagkapakyas."
+	},
+	"menu": {
+		"about": "Mahitungod",
+		"download": "I-download",
+		"screenshots": "Mga screenshot",
+		"comparison": "Pagtanding",
+		"contact": "Kontak",
+		"toggle": "I-toggle an menu",
+		"close": "Sirado an menu",
+		"language": "Yinaknan",
+		"selectLanguage": "Pumili hin yinaknan"
+	},
+	"hero": {
+		"subtitle": "An sunod nga henerasyon han peer-to-peer nga pagpaambit hin mga file",
+		"description": "Base ha bag-o nga disentralisado nga teknolohiya. Waray sentral nga server. Waray usa la nga punto hin pagkapakyas.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Mahitungod",
+		"intro": "{project} amo an sunod nga henerasyon nga plataporma para hin peer-to-peer nga pagpaambit hin mga file, ginhimo ha bag-o nga disentralisado nga teknolohiya. Iginkokombina hito an sayon gamiton nga interface han gumaramit ngan an bug-os nga disentralisado nga arkitektura, naghahatag hin sigurado ngan masasarigan nga pagpaambit hin datos nga waray na kinahanglan hin sentral nga awtoridad. Ini nga proyekto open source, igintatag-iya ilarom han {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Bug-os nga disentralisado nga network",
+				"description": "Waray sentral nga server, waray usa la nga punto hin pagkapakyas. An mga gumaramit nakakabilngan ngan nakaka-download direkta tikang ha kada usa, nga waray nadepende ha sentral nga indexer, tracker o database."
+			},
+			"accessControl": {
+				"title": "Detalyado nga kontrol han pagsulod",
+				"description": "Bisan hin-o kasarangan nga maghimo hin iya kalugaringon nga network nga libre upod an iya kalugaringon nga mga lagda. Ha sulod han kada network, an mga papel han gumaramit gindefini: tag-iya, administrador, magpaplublika, moderador ngan mag-do-download. Magkaada detalyado nga kontrol mahitungod han kanay puyde magpublika, mag-moderate ngan mag-download hin sulod."
+			},
+			"ui": {
+				"title": "Hitaas nga kalidad nga interface han gumaramit",
+				"description": "Mahisog ngan responsive nga interface han media center, ginhimo para han mga plataporma han desktop, TV ngan mobile. Sayon nga nabigasyon gamit an keyboard, mouse, gamepad o remote control. An mga abante nga gumaramit puyde magpadalagan han programa sugad nga headless nga file server pinaagi han command line interface."
+			},
+			"dataFormat": {
+				"title": "Format han datos nga mababasa han tawo",
+				"description": "An LISH nga format han datos ginhimo ha JSON, nga naghihimo hito nga sayon hin paghimo, pagbasa ngan pagsabot. Paambita an imo sulod upod an klaro ngan transparente nga metadata nga puyde sayon usisahon han bisan hin-o."
+			},
+			"security": {
+				"title": "Pribasidad ngan kasiguraduhan",
+				"description": "An ngatanan nga peer-to-peer nga komunikasyon naka-encrypt, nga nasisiguro nga an imo datos nagpapabilin nga pribado durante han paghatud. An mga gumaramit puyde magtago ha luyo han VPN para hin dugang nga pagkawaray ngaran. Iginrerespeto han {project} an imo pribasidad pinaagi han disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "An programa available ha Windows, Linux ngan macOS. Gamita ito ha bisan ano nga aparato nga aada ha imo."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Pamilngi an {project} para han imo plataporma. An ngatanan nga mga download libre ngan open source.",
+		"version": "Kasalukuyan nga bersiyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} nga installer",
+			"package": "{format} nga package",
+			"portableZip": "Portable nga ZIP",
+			"viewOnGithub": "Kitaa ha GitHub"
+		},
+		"macos": {
+			"title": "Importante nga nota para han mga gumaramit han macOS:",
+			"intro": "Iharang han macOS Gatekeeper an mga aplikasyon nga waray pirma/waray notarized nga gindown-load tikang ha Internet upod an sayop nga {error}.",
+			"error": "\"buong na, diri puyde abrihan\"",
+			"runCommand": "Katapos i-download an DMG o ZIP, antes abrihan an aplikasyon, padalagana ini nga utos ha Terminal:",
+			"exampleDmg": "Ehemplo, katapos i-install tikang ha DMG:",
+			"exampleZip": "O katapos i-extract an ZIP:",
+			"explanation": "Ginkakuha hini an quarantine nga attribute ngan ginpapahimuyog an aplikasyon nga magdalagan."
+		}
+	},
+	"screenshots": {
+		"title": "Mga screenshot",
+		"open": "Abrihan an screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Sirado an galerya",
+		"prev": "Nag-una nga hulagway",
+		"next": "Sunod nga hulagway"
+	},
+	"comparison": {
+		"title": "Pagtanding",
+		"feature": "Pinasahi",
+		"yes": "Oo",
+		"no": "Diri",
+		"partialDht": "Bahin la (DHT)",
+		"rows": {
+			"decentralized": "Disentralisado nga network",
+			"onlineLibrary": "Online nga librarya",
+			"builtInSearch": "Built-in nga pamiling hin sulod",
+			"decentralizedSearch": "Disentralisado nga pamiling hin sulod",
+			"parallelDownloads": "Parallel nga mga download tikang ha damo nga gintikangan",
+			"mediaCenter": "Interface han media center",
+			"gamepad": "Suporta han gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Mag-kontak",
+		"links": {
+			"telegramChat": "Telegram nga chat group",
+			"telegramAnnouncements": "Telegram nga mga pahibaro",
+			"facebook": "Facebook nga group"
+		}
+	},
+	"footer": {
+		"by": "Ginhimo ni"
+	}
+}

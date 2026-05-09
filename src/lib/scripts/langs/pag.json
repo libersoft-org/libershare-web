@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Disentralisadon a pakibinilay na saray file",
+		"description": "{project} so sakey ya peer-to-peer ya programa para ed pakibinilay na saray file, agawa ed moderno tan disentralisadon teknolohiya.",
+		"ogTitle": "{project} - Disentralisadon programa para ed pakibinilay na saray file",
+		"ogDescription": "Peer-to-peer ya pakibinilay na saray file ya akabase ed moderno tan disentralisadon teknolohiya. Anggapoy sentral a server. Anggapoy sakey labat ya punto na pankaagaway."
+	},
+	"menu": {
+		"about": "Nipaakar",
+		"download": "I-download",
+		"screenshots": "Saray screenshot",
+		"comparison": "Pankomparaan",
+		"contact": "Kontak",
+		"toggle": "I-toggle so menu",
+		"close": "Iserra so menu",
+		"language": "Salita",
+		"selectLanguage": "Manpili na salita"
+	},
+	"hero": {
+		"subtitle": "Say onsublay ya henerasyon na peer-to-peer ya pakibinilay na saray file",
+		"description": "Akabase ed moderno tan disentralisadon teknolohiya. Anggapoy sentral a server. Anggapoy sakey labat ya punto na pankaagaway.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Nipaakar",
+		"intro": "{project} so onsublay ya henerasyon ya plataporma para ed peer-to-peer ya pakibinilay na saray file, agawa ed moderno tan disentralisadon teknolohiya. Tipan to so mainomay ya pagamit ya interface na user tan say sigpot ya disentralisadon arkitektura, mangiiter na seguro tan napanmatalkan ya pakibinilay na saray datos ya anggapoy kaukolan ya sentral ya awtoridad. Sayan proyekto open source, ipapayaman ed silong na {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Sigpot ya disentralisadon network",
+				"description": "Anggapoy sentral a server, anggapoy sakey labat ya punto na pankaagaway. Saray user nawalaan tan ondaownload na sulat dirikta ed sakey tan sakey, anggapoy ondedepende ed sentral ya indexer, tracker o database."
+			},
+			"accessControl": {
+				"title": "Detalyadon kontrol na onloob",
+				"description": "Antokaman ya too nayarian ton igawa so sarili ton network ya libre ed sarili ton saray panrumbo. Diad loob na kada network, saray rolin na user definido: tag-aro, administrador, magpapaalam, moderador tan onda-download. Walaan na detalyadon kontrol ed siopa so nayarian a magpaalam, magpamondo tan ondownload na sulat."
+			},
+			"ui": {
+				"title": "Atagey ya kalidad ya interface na user",
+				"description": "Malinis tan maapay ya interface na media center, agawa para ed saray plataporma na desktop, TV tan mobile. Mainomay ya nabigasyon panamegley na keyboard, mouse, gamepad o remote control. Saray maaligwas ya user nayari ran patakbohen so programa bilang headless ya file server panamegley na command line interface."
+			},
+			"dataFormat": {
+				"title": "Pormato na datos ya nabasan na too",
+				"description": "Say pormato na datos ya LISH agawa ed JSON, kanyan mainomay ya magawa, basaen tan natalusan. Ipakibinilay so kabaliksan mo ya kaiba so malinis tan transparenten metadata ya nayari ran ipasiman ya mainomay na antokaman."
+			},
+			"security": {
+				"title": "Pribasidad tan seguridad",
+				"description": "Amin a peer-to-peer ya komunikasyon naka-encrypt, manmamatua ya saray datos mo manmansin pribado anggad ipalakap. Saray user nayari ran iyamot ed beneg na VPN para ed mas anggapon ngaran. Iresperaten na {project} so pribasidad mo panamegley na disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Say programa available ed Windows, Linux tan macOS. Usaren ed antokaman ya aparato ya wala ed sika."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Mangala na {project} para ed plataporma mo. Amin a download libre tan open source.",
+		"version": "Kasalukuyan a bersyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ya installer",
+			"package": "{format} ya package",
+			"portableZip": "Portable ya ZIP",
+			"viewOnGithub": "Nengnengen ed GitHub"
+		},
+		"macos": {
+			"title": "Importante ya nota para ed saray user na macOS:",
+			"intro": "Pakaiyaan na macOS Gatekeeper iray aplikasyon ya anggapoy pirma/anggapoy notaryo ya nadownload ed Internet diad lingoy {error}.",
+			"error": "\"abulok la, ag napaway\"",
+			"runCommand": "Kayari ya i-download so DMG o ZIP, antis ya pawayan so aplikasyon, patakbohen yan utos ed Terminal:",
+			"exampleDmg": "Alimbawa, kayari mag-install manlapud DMG:",
+			"exampleZip": "O kayari ya i-extract so ZIP:",
+			"explanation": "Inaekal na saya so attribute na quarantine tan papagawaen ton ontakbo so aplikasyon."
+		}
+	},
+	"screenshots": {
+		"title": "Saray screenshot",
+		"open": "Pawayan so screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Iserra so galerya",
+		"prev": "Naonan ya litrato",
+		"next": "Onsublay ya litrato"
+	},
+	"comparison": {
+		"title": "Pankomparaan",
+		"feature": "Karakteristiko",
+		"yes": "On",
+		"no": "Andi",
+		"partialDht": "Andokey labat (DHT)",
+		"rows": {
+			"decentralized": "Disentralisadon network",
+			"onlineLibrary": "Online ya librarya",
+			"builtInSearch": "Built-in ya panaanap na sulat",
+			"decentralizedSearch": "Disentralisadon panaanap na sulat",
+			"parallelDownloads": "Paralelon download manlapud dakerakel ya nanlapuan",
+			"mediaCenter": "Interface na media center",
+			"gamepad": "Suporta na gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Mikontakto",
+		"links": {
+			"telegramChat": "Telegram ya grupon chat",
+			"telegramAnnouncements": "Saray patanir na Telegram",
+			"facebook": "Facebook ya grupo"
+		}
+	},
+	"footer": {
+		"by": "Agawa nen"
+	}
+}

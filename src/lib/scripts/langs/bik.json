@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentralisadong pagsasaro nin mga file",
+		"description": "{project} sarong peer-to-peer na programa para sa pagsasaro nin mga file, ginibo sa moderno asin desentralisadong teknolohiya.",
+		"ogTitle": "{project} - Desentralisadong programa para sa pagsasaro nin mga file",
+		"ogDescription": "Peer-to-peer na pagsasaro nin mga file na nakabasar sa moderno asin desentralisadong teknolohiya. Mayong sentral na server. Mayong sarong puntong nagigin dahilan kan pagkapakyas."
+	},
+	"menu": {
+		"about": "Manongod",
+		"download": "I-download",
+		"screenshots": "Mga screenshot",
+		"comparison": "Pagkomparar",
+		"contact": "Kontak",
+		"toggle": "I-toggle an menu",
+		"close": "Sarhan an menu",
+		"language": "Tataramon",
+		"selectLanguage": "Pumili nin tataramon"
+	},
+	"hero": {
+		"subtitle": "An susunod na henerasyon kan peer-to-peer na pagsasaro nin mga file",
+		"description": "Nakabasar sa moderno asin desentralisadong teknolohiya. Mayong sentral na server. Mayong sarong puntong nagigin dahilan kan pagkapakyas.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Manongod",
+		"intro": "{project} iyo an susunod na henerasyon na plataporma para sa peer-to-peer na pagsasaro nin mga file, ginibo sa moderno asin desentralisadong teknolohiya. Pinapagsararo kaini an pasil gamiton na interface kan paragamit asin an bilog na desentralisadong arkitektura, na nagtatao nin segurado asin masasarigan na pagsasaro nin mga datos na mayong kaipuhan na sentral na awtoridad. An proyektong ini open source, iginpamamahagi sa irarom kan {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Bilog na desentralisadong network",
+				"description": "Mayong sentral na server, mayong sarong puntong nagigin dahilan kan pagkapakyas. An mga paragamit nakakahiling asin nakaka-download nin laog direktang hali sa sarosaro, na mayong nagdedepende sa sentral na indexer, tracker o database."
+			},
+			"accessControl": {
+				"title": "Detalyadong kontrol kan pagsulod",
+				"description": "Siisay man pwedeng maggibo kan saiyang sadiring network nin libre na may sadiring mga pamantayan. Sa laog kan kada network, an mga papel kan paragamit definidong: kagsadiri, administrador, magpapublikar, moderator asin mag-da-download. Magkaigwa nin detalyadong kontrol manongod sa siisay an pwedeng magpublikar, mag-moderate asin mag-download nin laog."
+			},
+			"ui": {
+				"title": "Halangkaw an kalidad na interface kan paragamit",
+				"description": "Malinig asin responsive na interface kan media center, ginibo para sa mga plataporma kan desktop, TV asin mobile. Pasil na nabigasyon paagi sa keyboard, mouse, gamepad o remote control. An mga abanteng paragamit pwedeng magpadalagan kan programa bilang headless na file server paagi sa command line interface."
+			},
+			"dataFormat": {
+				"title": "Pormat kan datos na mababasa kan tawo",
+				"description": "An pormat kan datos na LISH ginibo sa JSON, na nagpapagibo kaini na pasil sa paggibo, pagbasa asin pagkasabot. Ipasaro an saimong laog na may malinig asin transparenteng metadata na pwedeng pasil suriin kan siisay man."
+			},
+			"security": {
+				"title": "Pribasidad asin seguridad",
+				"description": "Gabos na peer-to-peer na komunikasyon naka-encrypt, na nagsisiguro na an saimong datos nagigin pribado durante kan paghatud. An mga paragamit pwedeng magtago sa likod kan VPN para sa orog na pagigin mayong pangaran. Iginrerespeto kan {project} an saimong pribasidad paagi sa disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "An programa available sa Windows, Linux asin macOS. Gamitan ini sa anong klaseng aparato na yaon saimo."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Kumua nin {project} para sa saimong plataporma. Gabos na download libre asin open source.",
+		"version": "Kasalukuyan na bersyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} na installer",
+			"package": "{format} na package",
+			"portableZip": "Portable na ZIP",
+			"viewOnGithub": "Hilingon sa GitHub"
+		},
+		"macos": {
+			"title": "Mahalagang nota para sa mga paragamit kan macOS:",
+			"intro": "Pugulan kan macOS Gatekeeper an mga aplikasyon na mayong pirma/mayong notaryo na nadownload sa Internet sa kasalan na {error}.",
+			"error": "\"sira na, dai pwedeng buksan\"",
+			"runCommand": "Pakatapos i-download an DMG o ZIP, bago bukasan an aplikasyon, padalaganon ining utos sa Terminal:",
+			"exampleDmg": "Halimbawa, pakatapos mag-install hali sa DMG:",
+			"exampleZip": "O pakatapos i-extract an ZIP:",
+			"explanation": "Inaalis kaini an attribute kan quarantine asin pinapagibo an aplikasyon na magdalagan."
+		}
+	},
+	"screenshots": {
+		"title": "Mga screenshot",
+		"open": "Bukasan an screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Sarhan an galerya",
+		"prev": "Naenot na ladawan",
+		"next": "Susunod na ladawan"
+	},
+	"comparison": {
+		"title": "Pagkomparar",
+		"feature": "Karakteristiko",
+		"yes": "Iyo",
+		"no": "Dai",
+		"partialDht": "Bahay-bahay (DHT)",
+		"rows": {
+			"decentralized": "Desentralisadong network",
+			"onlineLibrary": "Online na librarya",
+			"builtInSearch": "Built-in na paghanap nin laog",
+			"decentralizedSearch": "Desentralisadong paghanap nin laog",
+			"parallelDownloads": "Paralelong mga download hali sa dakol na pinaghalian",
+			"mediaCenter": "Interface kan media center",
+			"gamepad": "Suporta kan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Mag-kontak",
+		"links": {
+			"telegramChat": "Telegram na grupong chat",
+			"telegramAnnouncements": "Mga pahibalo kan Telegram",
+			"facebook": "Facebook na grupo"
+		}
+	},
+	"footer": {
+		"by": "Ginibo ni"
+	}
+}
