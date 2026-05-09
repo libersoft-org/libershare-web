@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Uhanyize wa Mafayilio sina Kati",
+		"description": "{project} ni programu ya peer-to-peer ya uhanyize wa mafayilio, iliyojengwa juu ya teknolojia mpya isiyo na kati.",
+		"ogTitle": "{project} - Programu ya Uhanyize wa Mafayilio sina Kati",
+		"ogDescription": "Uhanyize wa mafayilio wa peer-to-peer juu ya teknolojia mpya isiyo na kati. Hapana sava ya kati. Hapana mahala mmoja wa kuanguka."
+	},
+	"menu": {
+		"about": "Juu ya",
+		"download": "Pakua",
+		"screenshots": "Picha za skrini",
+		"comparison": "Ulinganisho",
+		"contact": "Mawasiliano",
+		"toggle": "Geuza menyu",
+		"close": "Funga menyu",
+		"language": "Lugha",
+		"selectLanguage": "Chagua lugha"
+	},
+	"hero": {
+		"subtitle": "Kizazi kijao cha uhanyize wa mafayilio wa peer-to-peer",
+		"description": "Juu ya teknolojia mpya isiyo na kati. Hapana sava ya kati. Hapana mahala mmoja wa kuanguka.",
+		"download": "Pakua"
+	},
+	"about": {
+		"title": "Juu ya",
+		"intro": "{project} ni jukwaa la kizazi kijao cha uhanyize wa mafayilio wa peer-to-peer lililojengwa juu ya teknolojia mpya isiyo na kati. Yinakusanya kiolezo cha mtumiaji rahisi pamoja na muundo usio na kati kabisa, ikileta uhanyize wa data salama na wa kutumainika bila kuhitaji mamlaka yoyote ya kati. Mradi huu ni open source, unagaviwa chini ya {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Mtandao usio na kati kabisa",
+				"description": "Hapana sava ya kati, hapana mahala mmoja wa kuanguka. Watumiaji huzipata na kupakua maudhui moja kwa moja kati yao kwa wengine, bila kutegemea kihifadhi cheo, mfuatiliaji, au hifadhidata yoyote ya kati."
+			},
+			"accessControl": {
+				"title": "Udhibiti wa upenyo wa kina",
+				"description": "Mtu yeyote anaweza kuanzisha mtandao wake bure pamoja na sheria zake. Ndani ya kila mtandao, eleza majukumu ya watumiaji: mwenyewe, msimamizi, mhariri, mwendelezaji na mpakuaji. Dhibiti kwa kina ni nani anayeweza kuhariri, kusimamia, na kupakua maudhui."
+			},
+			"ui": {
+				"title": "Kiolezo cha mtumiaji cha ubora wa juu",
+				"description": "Kiolezo cha kituo cha vyombo vya habari kilicho safi na laini, kilichoundwa kwa ajili ya desktop, TV na mifumo ya simu za mkononi. Uongozi rahisi pamoja na kibodi, panya, gemepad au remoti. Watumiaji wa hali ya juu wanaweza kuendesha programu kama sava ya mafayilio isiyo na kichwa kupitia kiolezo cha mstari wa amri."
+			},
+			"dataFormat": {
+				"title": "Muundo wa data unaosomeka na binadamu",
+				"description": "Muundo wa data wa LISH umejengwa juu ya JSON, ukiufanya rahisi kuumba, kusoma na kuelewa. Hanya maudhui yako pamoja na metadata safi na ya wazi ambayo mtu yeyote anaweza kukagua kwa urahisi."
+			},
+			"security": {
+				"title": "Faragha na usalama",
+				"description": "Mawasiliano yote ya peer-to-peer yamesimbwa, yakihakikisha kwamba data yako inaendelea kuwa ya faragha wakati wa upatikanizo. Watumiaji wanaweza kujificha nyuma ya VPN kwa tabaka la ziada la kutotambulika. {project} anaheshimu faragha yako kwa muundo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Programu inapatikana kwenye Windows, Linux na macOS. Itumie kwenye chombo chochote unachopenda."
+			}
+		}
+	},
+	"download": {
+		"title": "Pakua",
+		"description": "Pata {project} kwa jukwaa lako. Pakua zote ni bure na open source.",
+		"version": "Toleo la sasa: {version}",
+		"linkAlt": "Pakua",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mfunguzi {format}",
+			"package": "Pakeji {format}",
+			"portableZip": "ZIP ya kubebeka",
+			"viewOnGithub": "Tazama kwenye GitHub"
+		},
+		"macos": {
+			"title": "Notisi muhimu kwa watumiaji wa macOS:",
+			"intro": "macOS Gatekeeper itazuia programu zisizo na sahihi/notarized zilizopakuliwa kutoka mtandao, kwa kosa {error}.",
+			"error": "\"imeharibika, haiwezi kufunguliwa\"",
+			"runCommand": "Baada ya kupakua DMG au ZIP, kabla ya kufungua programu, endesha amri hii ndani ya Terminal:",
+			"exampleDmg": "Mfano, baada ya kufunga kutoka DMG:",
+			"exampleZip": "Au baada ya kuondoa ZIP:",
+			"explanation": "Hii itaondoa sifa ya karantini na kuruhusu programu ifanye kazi."
+		}
+	},
+	"screenshots": {
+		"title": "Picha za skrini",
+		"open": "Fungua picha ya skrini {index}",
+		"alt": "Picha ya skrini {index}",
+		"close": "Funga galeri",
+		"prev": "Picha iliyopita",
+		"next": "Picha ifuatayo"
+	},
+	"comparison": {
+		"title": "Ulinganisho",
+		"feature": "Sifa",
+		"yes": "Ndio",
+		"no": "Hapana",
+		"partialDht": "Sehemu (DHT)",
+		"rows": {
+			"decentralized": "Mtandao usio na kati",
+			"onlineLibrary": "Maktaba ya mtandaoni",
+			"builtInSearch": "Utafutaji wa maudhui uliyojumuishwa",
+			"decentralizedSearch": "Utafutaji wa maudhui usio na kati",
+			"parallelDownloads": "Pakua kwa pamoja kutoka kwa vyanzo vingi",
+			"mediaCenter": "Kiolezo cha kituo cha vyombo vya habari",
+			"gamepad": "Msaada wa gemepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Mawasiliano",
+		"getInTouch": "Wasiliana nasi",
+		"links": {
+			"telegramChat": "Kikundi cha mazungumzo cha Telegram",
+			"telegramAnnouncements": "Matangazo ya Telegram",
+			"facebook": "Kikundi cha Facebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

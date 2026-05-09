@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tilg-rãabo tũudum sẽn ka be ne yiir-ramba",
+		"description": "{project} yaa logisiyɛll peer-to-peer ne tilg-rãabo tũudum, b sʋga rãmb sẽn yaa paalga sẽn ka be ne yiir-ramba.",
+		"ogTitle": "{project} - Logisiyɛll Tilg-rãabo Tũudum sẽn Ka Be Ne Yiir-ramba",
+		"ogDescription": "Tilg-rãabo tũudum peer-to-peer ne tehnology paalga sẽn ka be ne yiir-ramba. Sɛrver yiir-paal ka be ye. Zĩig sẽn ka be tooro ye."
+	},
+	"menu": {
+		"about": "B yelle",
+		"download": "Rɩka",
+		"screenshots": "Ekirãn fotuyã",
+		"comparison": "Mak",
+		"contact": "Sõng",
+		"toggle": "Tek menu",
+		"close": "Pag menu",
+		"language": "Buud-gomde",
+		"selectLanguage": "Yãk buud-gomde"
+	},
+	"hero": {
+		"subtitle": "Yʋʋm-paalg tilg-rãabo tũudum peer-to-peer",
+		"description": "Ne tehnology paalga sẽn ka be ne yiir-ramba. Sɛrver yiir-paal ka be ye. Zĩig sẽn ka be tooro ye.",
+		"download": "Rɩka"
+	},
+	"about": {
+		"title": "B yelle",
+		"intro": "{project} yaa platifɔrm yʋʋm-paalg ne tilg-rãabo tũudum peer-to-peer b sʋga rãmb ne tehnology paalga sẽn ka be ne yiir-ramba. A naagda interfɛs sẽn yaa ne tũudum ne arsitektir sẽn ka be ne yiir-ramba zãnga, n wat ne tilg tũudum sẽn yaa sõma la sẽn yaa ne tagsg ka tar tũudum ne yiir-ramba ye. Tʋʋmd-kãngã yaa open source, b yiisd-a-la ne {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Reso sẽn ka be ne yiir-ramba zãnga",
+				"description": "Sɛrver yiir-paal ka be ye, zĩig sẽn ka be tooro ye. Tũudbã yãta n rɩkda nyaktã yẽmb ne yẽmb, b ka rat-a tʋʋma ne indɛksɛr, trakɛr, walla baz données yiir-paal ye."
+			},
+			"accessControl": {
+				"title": "Tũudum sẽn yaa pekẽgr",
+				"description": "Ned baa kẽ tõe n sɩnga a meng resoo zaalem ne a meng noyã. Reso fãa pʋgẽ, bilg tũudbã tʋʋmde: soaba, admin, pubɛlsɩr, modɛratɛr la rɩka. Tũ pekẽgr soab sẽn tõe n pubɛlsi, n moderẽ, la a rɩka nyak."
+			},
+			"ui": {
+				"title": "Interfɛs tũudb sẽn yaa nooma",
+				"description": "Interfɛs santral média sẽn yaa pelg la pelg, b sʋga b ne tablo, TV la platifɔrm-rãmb mobil. Cengo sẽn yaa pãngã ne klaviɛ, sõuri, manɛt zãma walla télekomãnd. Tũudb sẽn paam-b tõnde tõe n nĩnga logisiyɛll wala sɛrver tilg sẽn ka tar zugu ne ligɣɛ kommãnd interfɛs."
+			},
+			"dataFormat": {
+				"title": "Dõneere format ned tõe n karme",
+				"description": "Dõneere format LISH b sʋga rãmb ne JSON, n kõ noom kõnde, karẽ la wʋmde. Tũudum y nyaakã ne metadonées sẽn yaa pelg la transparã ned baa kẽ tõe n geta ne nooma."
+			},
+			"security": {
+				"title": "Vĩs-koɛɛga la kogenda",
+				"description": "Komunikasɩõ peer-to-peer fãa b kibel-rãmb-a, n wilgdẽ tɩ y data wã pa be vĩs-koɛɛga pʋgẽ tʋʋmd pʋgẽ. Tũudb tõe n sõlim VPN poorẽ ne tʋʋmd anonim sẽn yaa paasdg. {project} pasgda y vĩs-koɛɛga ne dizayn."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Logisiyɛll wã yaa Windows, Linux la macOS zugu. Tʋʋma ne aparɛy buud y sẽn rat ye."
+			}
+		}
+	},
+	"download": {
+		"title": "Rɩka",
+		"description": "Paam {project} y platifɔrm yĩnga. Rɩkdsã fãa yaa zaalem la open source.",
+		"version": "Versiyõ-paalg: {version}",
+		"linkAlt": "Rɩka",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalatɛr {format}",
+			"package": "Paake {format}",
+			"portableZip": "ZIP sẽn tõe n rɩka",
+			"viewOnGithub": "Ges GitHub zugu"
+		},
+		"macos": {
+			"title": "Gomde sẽn yaa pãnga macOS tũudbã yĩnga:",
+			"intro": "macOS Gatekeeper na n pagda aplikasɩyõ-rãmb sẽn pa sɩjɩne/notarize wã y sẽn rɩg ɛntɛrnɛt zugu, ne tudgr {error}.",
+			"error": "\"a sãama, a pa tõe pakr ye\"",
+			"runCommand": "Y rɩg DMG wall ZIP poorẽ, sã n pa zĩig y na n pak aplikasɩyõ wã, kẽn kommãnd kãngã Terminal pʋgẽ:",
+			"exampleDmg": "Wala makre, instal DMG poorẽ:",
+			"exampleZip": "Wall sẽn yiis ZIP poorẽ:",
+			"explanation": "A na n yiisa atribit karãten n basa aplikasɩyõ wã n kẽne."
+		}
+	},
+	"screenshots": {
+		"title": "Ekirãn fotuyã",
+		"open": "Pak ekirãn foto {index}",
+		"alt": "Ekirãn foto {index}",
+		"close": "Pag galeri",
+		"prev": "Foto sẽn loogã",
+		"next": "Foto sẽn watã"
+	},
+	"comparison": {
+		"title": "Mak",
+		"feature": "Bãnde",
+		"yes": "N-yẽ",
+		"no": "Ayo",
+		"partialDht": "Pʋ-pʋbg (DHT)",
+		"rows": {
+			"decentralized": "Reso sẽn ka be ne yiir-ramba",
+			"onlineLibrary": "Bibliotɛk online",
+			"builtInSearch": "Nyak baoogo b sʋga rãmb",
+			"decentralizedSearch": "Nyak baoogo sẽn ka be ne yiir-ramba",
+			"parallelDownloads": "Rɩkdsã sẽn naag taab tʋ tʋkr wʋsg pʋgẽ",
+			"mediaCenter": "Santral média interfɛs",
+			"gamepad": "Manɛt zãma sõngdam",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Sõng",
+		"getInTouch": "Sõng-d",
+		"links": {
+			"telegramChat": "Telegram chat groupe",
+			"telegramAnnouncements": "Telegram tʋma",
+			"facebook": "Facebook groupe"
+		}
+	},
+	"footer": {
+		"by": "ne"
+	}
+}

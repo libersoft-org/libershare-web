@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mungo ti Asêka tî awafayile",
+		"description": "{project} ayeke logiciel peer-to-peer ndali ti mungo ti asêka tî awafayile, asarango na ndo ti tehnology ti laso so a yeke na bê pëpe.",
+		"ogTitle": "{project} - Logiciel ti Mungo ti Asêka tî awafayile so a yeke na bê pëpe",
+		"ogDescription": "Mungo ti asêka tî awafayile peer-to-peer na ndo ti tehnology ti laso so a yeke na bê pëpe. Pasûku ti popo ayeke pëpe. Ndo ti tî ngangu ayeke oko pëpe."
+	},
+	"menu": {
+		"about": "Na ndo",
+		"download": "Tï na yâ",
+		"screenshots": "A photo ti écran",
+		"comparison": "Mängbi",
+		"contact": "Bä",
+		"toggle": "Gbiän menu",
+		"close": "Kanga menu",
+		"language": "Yângâ",
+		"selectLanguage": "Soro yângâ"
+	},
+	"hero": {
+		"subtitle": "Génération ti pekôko ti mungo ti asêka tî awafayile peer-to-peer",
+		"description": "Na ndo ti tehnology ti laso so a yeke na bê pëpe. Pasûku ti popo ayeke pëpe. Ndo ti tî ngangu ayeke oko pëpe.",
+		"download": "Tï na yâ"
+	},
+	"about": {
+		"title": "Na ndo",
+		"intro": "{project} ayeke plate-forme ti génération ti pekôko ndali ti mungo ti asêka tî awafayile peer-to-peer so asarango na ndo ti tehnology ti laso so a yeke na bê pëpe. A bûngbi interface so ayeke nzöni gï na zo na architecture so a yeke na bê pëpe biaku, a ga na mungo ti asêka tî data so ayeke na ndurü na so a lingbi ti yöre na pîkö ti mbeni autorité ti popo. Projet sô ayeke open source, a yâa na gbe ti {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Réseau so a yeke na bê pëpe biaku",
+				"description": "Pasûku ti popo ayeke pëpe, ndo ti tî ngangu ayeke oko pëpe. A wamungo a wara na atï asêka mbâgê na mbâgê, a yi pëpe ti yöre na mbeni indexeur, traceur, wala base ti données ti popo."
+			},
+			"accessControl": {
+				"title": "Yâ ti accès so a fa nzönî",
+				"description": "Mbeni zo kûê alîngbi ti tö nda ti réseau ti lo gratuit na arègle ti lo wani. Na yâ ti réseau oko, fa arôle ti awamungo: maître, admin, wamungo na séo, modérateur, na wamungo. Yâa nzönî zo so alingbi ti zî, ti modérer, na ti mungo asêka."
+			},
+			"ui": {
+				"title": "Interface ti wamungo ti qualité ti ndurü",
+				"description": "Interface ti centre ti média so anzere na so a yeke nzönî, a sara na ndo ti bureau, TV na aplate-forme ti mobile. Tambüla so ayeke ngangu pëpe na clavier, souris, manette ti ngiâ wala télécommande. Awamungo ti hôko alingbi ti sara que logiciel ayeke serveur ti afayile so ayeke na lê pëpe na lêge ti interface ti ligne ti commande."
+			},
+			"dataFormat": {
+				"title": "Format ti data so zo alingbi ti dîko",
+				"description": "Format ti data ti LISH asarango na ndo ti JSON, a sara que a yeke ngangu pëpe ti tö, ti dîko, na ti hîngbi. Mu mungo ti mbi na metadata so ayeke nzönî na so a hîngbi ngangu pëpe ti bä."
+			},
+			"security": {
+				"title": "Vie privée na sécurité",
+				"description": "A communications kûê ti peer-to-peer ayeke chiffré, a sara que data ti mbi anînga na yâ ti dü ti vie privée na ngoi ti mungo. Awamungo alingbi ti hônde tere na peko ti VPN ndali ti couche ti dü polélé ti tene zo ahînga pëpe. {project} a sara nzönî na vie privée ti mbi na lêge ti dessin ti lo wani."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Logiciel ayeke na Windows, Linux na macOS. Sara kua na ni na ndo ti mbeni appareil so mo ye."
+			}
+		}
+	},
+	"download": {
+		"title": "Tï na yâ",
+		"description": "Wara {project} ndali ti plate-forme ti mo. A mungo kûê ayeke gratuit na ayeke open source.",
+		"version": "Version ti laso: {version}",
+		"linkAlt": "Tï na yâ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installateur {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP so a lingbi ti yôro",
+			"viewOnGithub": "Bâ na GitHub"
+		},
+		"macos": {
+			"title": "Tene ti ngangu ndali ti awamungo ti macOS:",
+			"intro": "macOS Gatekeeper ayeke kanga aapplication so a signé pëpe/notarisé pëpe so a tï tî na yâ ti internet, na erreur {error}.",
+			"error": "\"a futi awe, a lingbi ti zî pëpe\"",
+			"runCommand": "Na peko ti tï tï DMG wala ZIP, kôzo si mo zî application, sala commande sô na yâ ti Terminal:",
+			"exampleDmg": "Tapande, na peko ti installation tî na DMG:",
+			"exampleZip": "Wala na peko ti zî ti ZIP:",
+			"explanation": "Sô ayeke kê attribut ti quarantaine na ayeke zia application ti sara kua."
+		}
+	},
+	"screenshots": {
+		"title": "A photo ti écran",
+		"open": "Zî photo ti écran {index}",
+		"alt": "Photo ti écran {index}",
+		"close": "Kanga galerie",
+		"prev": "Photo so akôzo",
+		"next": "Photo so apeko"
+	},
+	"comparison": {
+		"title": "Mängbi",
+		"feature": "Caractéristique",
+		"yes": "Eyo",
+		"no": "Pëpe",
+		"partialDht": "Mbâgê (DHT)",
+		"rows": {
+			"decentralized": "Réseau so a yeke na bê pëpe",
+			"onlineLibrary": "Fare ti abuku na ndo ti internet",
+			"builtInSearch": "Gïngö ti asêka so a yâa na yâ",
+			"decentralizedSearch": "Gïngö ti asêka so a yeke na bê pëpe",
+			"parallelDownloads": "A mungo so a sara legeoko tî na ahônde mingi",
+			"mediaCenter": "Interface ti centre ti média",
+			"gamepad": "Mungo maboko na manette ti ngiâ",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Bä",
+		"getInTouch": "Bä mbi",
+		"links": {
+			"telegramChat": "Groupe ti chat ti Telegram",
+			"telegramAnnouncements": "A annonces ti Telegram",
+			"facebook": "Groupe Facebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

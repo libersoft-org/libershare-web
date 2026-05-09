@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kaʻana Like Faila ʻOle Mua",
+		"description": "{project} he polokalamu peer-to-peer no ke kaʻana like ʻana i ka faila, kūkulu ʻia ma luna o ka ʻenehana hou ʻole mua.",
+		"ogTitle": "{project} - Polokalamu Kaʻana Like Faila ʻOle Mua",
+		"ogDescription": "Kaʻana like faila peer-to-peer ma luna o ka ʻenehana hou ʻole mua. ʻAʻohe kikowaena waena. ʻAʻohe kahi hāʻule hoʻokahi."
+	},
+	"menu": {
+		"about": "E pili ana",
+		"download": "Hoʻoiho",
+		"screenshots": "Nā paʻi pale",
+		"comparison": "Hoʻohālikelike",
+		"contact": "Pili",
+		"toggle": "Hoʻololi i ka papa kuhikuhi",
+		"close": "Pani i ka papa kuhikuhi",
+		"language": "ʻŌlelo",
+		"selectLanguage": "Koho i ka ʻōlelo"
+	},
+	"hero": {
+		"subtitle": "Hanauna hou o ke kaʻana like faila peer-to-peer",
+		"description": "Ma luna o ka ʻenehana hou ʻole mua. ʻAʻohe kikowaena waena. ʻAʻohe kahi hāʻule hoʻokahi.",
+		"download": "Hoʻoiho"
+	},
+	"about": {
+		"title": "E pili ana",
+		"intro": "He papa hana hanauna hou ʻo {project} no ke kaʻana like faila peer-to-peer i kūkulu ʻia ma luna o ka ʻenehana hou ʻole mua. Hoʻopili ʻo ia i ka ʻāpana mea hoʻohana maʻalahi me ka hoʻolālā ʻole mua loa, e lawe mai ana i ke kaʻana like ʻikepili palekana a hilinaʻi ʻole me ka pono ʻole o kekahi mana waena. He polokalamu wehe ʻia kēia papahana, hoʻolaha ʻia ma lalo o ka {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Pūnaewele ʻole mua loa",
+				"description": "ʻAʻohe kikowaena waena, ʻaʻohe kahi hāʻule hoʻokahi. Loaʻa a hoʻoiho nā mea hoʻohana i ka ʻike pololei mai kekahi i kekahi, me ka hilinaʻi ʻole i kekahi indekisi, alanui, a i ʻole waihona waena."
+			},
+			"accessControl": {
+				"title": "Hoʻomalu komo kikoʻī",
+				"description": "Hiki i kēlā me kēia kanaka ke hoʻomaka i kāna pūnaewele ponoʻī me kāna mau lula ponoʻī me ka uku ʻole. I loko o kēlā me kēia pūnaewele, e wehewehe i nā kuleana mea hoʻohana: mea nona, hoʻokele, mea hoʻopuka, kahuna kapu, a me mea hoʻoiho. Hoʻomalu pono i ka mea i hiki ke hoʻopuka, hoʻomalu, a hoʻoiho i ka ʻike."
+			},
+			"ui": {
+				"title": "ʻĀpana mea hoʻohana ʻano kiʻekiʻe",
+				"description": "ʻĀpana kikowaena media maʻemaʻe a maluhia, hoʻolālā ʻia no ka pākaukau, TV a me nā papa hana mobile. Hele maʻalahi me ka papa kīpā, ka ʻiole, ka pona pāʻani a i ʻole ka pona mamao. Hiki i nā mea hoʻohana akamai ke hoʻokele i ka polokalamu ma ke ʻano he kikowaena faila ʻole poʻo ma o ka ʻāpana laina kauoha."
+			},
+			"dataFormat": {
+				"title": "ʻAno ʻikepili heluhelu kanaka",
+				"description": "Ua kūkulu ʻia ke ʻano ʻikepili LISH ma luna o ka JSON, e maʻalahi ai ka hana, ka heluhelu, a me ka hoʻomaopopo. E kaʻana like i kāu ʻike me ka metadata maʻemaʻe akāka i hiki i ke kanaka ke nānā maʻalahi."
+			},
+			"security": {
+				"title": "Pilikino a palekana",
+				"description": "Hoʻopili ʻia nā kamaʻilio peer-to-peer a pau, e hōʻoiaʻiʻo ana e noho pilikino ana kāu ʻikepili i ka wā o ka hoʻouna ʻana. Hiki i nā mea hoʻohana ke hūnā ma hope o kahi VPN no kahi papa hou aʻe o ka inoa ʻole. Hoʻohanohano ʻo {project} i kāu pilikino ma ka hoʻolālā ʻana."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Loaʻa ka polokalamu ma Windows, Linux a me macOS. E hoʻohana iā ia ma ka mīkini āu e makemake ai."
+			}
+		}
+	},
+	"download": {
+		"title": "Hoʻoiho",
+		"description": "E loaʻa iā {project} no kāu papa hana. He manuahi a hāmama ke kumu nā hoʻoiho āpau.",
+		"version": "Mana o kēia manawa: {version}",
+		"linkAlt": "Hoʻoiho",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mea hoʻokomo {format}",
+			"package": "Pūʻolo {format}",
+			"portableZip": "ZIP lawe",
+			"viewOnGithub": "Nānā ma GitHub"
+		},
+		"macos": {
+			"title": "Memo nui no nā mea hoʻohana macOS:",
+			"intro": "E pale ʻo macOS Gatekeeper i nā polokalamu ʻole pūlima/notarized i hoʻoiho ʻia mai ka pūnaewele, me ka hewa {error}.",
+			"error": "\"ua pōʻino, ʻaʻole hiki ke wehe\"",
+			"runCommand": "Ma hope o kou hoʻoiho ʻana i ka DMG a i ʻole ZIP, ma mua o ka wehe ʻana i ka polokalamu, e holo i kēia kauoha i loko o ka Terminal:",
+			"exampleDmg": "Laʻana, ma hope o ka hoʻokomo ʻana mai ka DMG:",
+			"exampleZip": "A i ʻole ma hope o ka unuhi ʻana i ka ZIP:",
+			"explanation": "E wehe kēia i ka ʻano kapu a hiki i ka polokalamu ke holo."
+		}
+	},
+	"screenshots": {
+		"title": "Nā paʻi pale",
+		"open": "Wehe i ka paʻi pale {index}",
+		"alt": "Paʻi pale {index}",
+		"close": "Pani i ka hale hōʻikeʻike",
+		"prev": "Kiʻi mua",
+		"next": "Kiʻi aʻe"
+	},
+	"comparison": {
+		"title": "Hoʻohālikelike",
+		"feature": "Hiʻohiʻona",
+		"yes": "ʻAe",
+		"no": "ʻAʻole",
+		"partialDht": "ʻĀpana (DHT)",
+		"rows": {
+			"decentralized": "Pūnaewele ʻole mua",
+			"onlineLibrary": "Hale waihona puke pūnaewele",
+			"builtInSearch": "ʻImi ʻike i kūkulu ʻia",
+			"decentralizedSearch": "ʻImi ʻike ʻole mua",
+			"parallelDownloads": "Hoʻoiho ʻokoʻa mai nā kumu he nui",
+			"mediaCenter": "ʻĀpana kikowaena media",
+			"gamepad": "Kākoʻo gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Pili",
+		"getInTouch": "E pili mai",
+		"links": {
+			"telegramChat": "Hui kamaʻilio Telegram",
+			"telegramAnnouncements": "Nā hoʻolaha Telegram",
+			"facebook": "Hui Facebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

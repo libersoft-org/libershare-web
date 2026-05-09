@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralisada cundivisiun da datotecas",
+		"description": "{project} è in software peer-to-peer per cundivider datotecas, construì sin tecnologia decentralisada moderna.",
+		"ogTitle": "{project} - Software per la cundivisiun decentralisada da datotecas",
+		"ogDescription": "Cundivisiun da datotecas peer-to-peer sin tecnologia decentralisada moderna. Nagin server central. Nagin punct unic da fallaments."
+	},
+	"menu": {
+		"about": "Davart",
+		"download": "Telechargiar",
+		"screenshots": "Stgazis dal visur",
+		"comparison": "Cumparegliaziun",
+		"contact": "Contact",
+		"toggle": "Midar menu",
+		"close": "Serrar menu",
+		"language": "Lingua",
+		"selectLanguage": "Tscherner la lingua"
+	},
+	"hero": {
+		"subtitle": "Proxima generaziun da cundivisiun da datotecas peer-to-peer",
+		"description": "Sin tecnologia decentralisada moderna. Nagin server central. Nagin punct unic da fallaments.",
+		"download": "Telechargiar"
+	},
+	"about": {
+		"title": "Davart",
+		"intro": "{project} è ina plattafurma da proxima generaziun per la cundivisiun peer-to-peer da datotecas construida sin tecnologia decentralisada moderna. Ella cumbinescha in'interfatscha simpla cun in'architectura cumplettamain decentralisada, purtond ina cundivisiun segira e fidaivla da datas senza basegn d'ina autoritad centrala. Quest project è open source, distribuì sut la licenza {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rait cumplettamain decentralisada",
+				"description": "Nagin server central, nagin punct unic da fallaments. Utilisaders chattan e telechargian cuntegn directamain in da l'auter, senza dependenza d'in indexader central, traccader u banca da datas."
+			},
+			"accessControl": {
+				"title": "Controlla detagliada da l'access",
+				"description": "Mintga persuna po lantschar sia atgna rait gratuitamain cun ses agens reglas. Entaifer mintga rait, definir rolas dad utilisaders: possessur, admin, publichader, moderatur e telechargiader. Controllar detagliadamain tgi po publitgar, moderar e telechargiar cuntegn."
+			},
+			"ui": {
+				"title": "Interfatscha d'utilisader da grond'qualitad",
+				"description": "Interfatscha da center mediatic netta e tschuetta, planisada per desktop, televisiun e plattafurmas mobilas. Navigaziun simpla cun tastatura, mieur, gamepad u telecumand. Utilisaders avanzads pon exequir il software sco server da datotecas senza testa cun l'interfatscha da linia da cumond."
+			},
+			"dataFormat": {
+				"title": "Format da datas legibel per umans",
+				"description": "Il format da datas LISH è construì sin JSON, fatschend el simpel da crear, leger e capir. Cundividi tes cuntegn cun metadatas claras e transparentas che mintgin po inspectar facilmain."
+			},
+			"security": {
+				"title": "Sfera privata e segirezza",
+				"description": "Tut las communicaziuns peer-to-peer èn criptadas, garantind che tias datas restan privatas durant la transmissiun. Utilisaders pon sa zuppentar davos in VPN per ina capa supplementara d'anonimitad. {project} respecta tia sfera privata da maletg."
+			},
+			"crossPlatform": {
+				"title": "Cross-plattafurma",
+				"description": "Il software è disponibel per Windows, Linux e macOS. Dovra el sin l'apparat che ti preferescha."
+			}
+		}
+	},
+	"download": {
+		"title": "Telechargiar",
+		"description": "Procurescha {project} per tia plattafurma. Tut ils telechargiaments èn gratis ed open source.",
+		"version": "Versiun actuala: {version}",
+		"linkAlt": "Telechargiar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installatur {format}",
+			"package": "Pachet {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Guardar sin GitHub"
+		},
+		"macos": {
+			"title": "Nota impurtanta per utilisaders da macOS:",
+			"intro": "macOS Gatekeeper bloccha applicaziuns betg signadas/notarisadas telechargiadas dad internet, cun l'errur {error}.",
+			"error": "\"è donnegià, na po betg vegnir avert\"",
+			"runCommand": "Suenter avair telechargià il DMG u ZIP, avant d'avrir l'applicaziun, exequir quest cumond en il Terminal:",
+			"exampleDmg": "Exempel, suenter installaziun dal DMG:",
+			"exampleZip": "U suenter avair extratg il ZIP:",
+			"explanation": "Quai vegn ad allontanar l'attribut da quarantaina e laschar curdar l'applicaziun."
+		}
+	},
+	"screenshots": {
+		"title": "Stgazis dal visur",
+		"open": "Avrir stgazi dal visur {index}",
+		"alt": "Stgazi dal visur {index}",
+		"close": "Serrar la galaria",
+		"prev": "Maletg precedent",
+		"next": "Proxim maletg"
+	},
+	"comparison": {
+		"title": "Cumparegliaziun",
+		"feature": "Caracteristica",
+		"yes": "Gea",
+		"no": "Na",
+		"partialDht": "Parzial (DHT)",
+		"rows": {
+			"decentralized": "Rait decentralisada",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Tschertga da cuntegn integrada",
+			"decentralizedSearch": "Tschertga da cuntegn decentralisada",
+			"parallelDownloads": "Telechargiaments paralels da diversas funtaunas",
+			"mediaCenter": "Interfatscha da center mediatic",
+			"gamepad": "Sustegn gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Prenda contact",
+		"links": {
+			"telegramChat": "Gruppa da chat Telegram",
+			"telegramAnnouncements": "Annunzias Telegram",
+			"facebook": "Gruppa Facebook"
+		}
+	},
+	"footer": {
+		"by": "da"
+	}
+}

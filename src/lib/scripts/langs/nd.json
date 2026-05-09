@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ukwabelana Ngamafayela Okungalawulwa Maphakathi",
+		"description": "{project} yisoftware ye-peer-to-peer yokwabelana ngamafayela, eyakhiwe phezu kwezobuchwepheshe besimanje besingalawulwa maphakathi.",
+		"ogTitle": "{project} - Isoftware Yokwabelana Ngamafayela Engalawulwa Maphakathi",
+		"ogDescription": "Ukwabelana ngamafayela kwe-peer-to-peer phezu kwezobuchwepheshe besimanje besingalawulwa maphakathi. Akukho iseva ephakathi. Akukho ndawo eyodwa yokuhluleka."
+	},
+	"menu": {
+		"about": "Mayelana",
+		"download": "Layisha",
+		"screenshots": "Izithombe zesikrini",
+		"comparison": "Ukuqhathaniswa",
+		"contact": "Thintana",
+		"toggle": "Shintsha imenyu",
+		"close": "Vala imenyu",
+		"language": "Ulimi",
+		"selectLanguage": "Khetha ulimi"
+	},
+	"hero": {
+		"subtitle": "Isizukulwane esilandelayo sokwabelana ngamafayela kwe-peer-to-peer",
+		"description": "Phezu kwezobuchwepheshe besimanje besingalawulwa maphakathi. Akukho iseva ephakathi. Akukho ndawo eyodwa yokuhluleka.",
+		"download": "Layisha"
+	},
+	"about": {
+		"title": "Mayelana",
+		"intro": "{project} yiplatform yesizukulwane esilandelayo sokwabelana ngamafayela kwe-peer-to-peer eyakhiwe phezu kwezobuchwepheshe besimanje besingalawulwa maphakathi. Ihlanganisa ikhasi lokusebenzisa elilula ne-architecture engalawulwa maphakathi ngokugcwele, iletha ukwabelana ngedata okuphephile nokwethembekile ngaphandle kwesidingo segunya elimaphakathi. Lo mklamo uvulekile, usatshalaliswa ngaphansi kwe-{license}.",
+		"features": {
+			"decentralized": {
+				"title": "Inethiwekhi engalawulwa maphakathi ngokupheleleyo",
+				"description": "Akukho iseva ephakathi, akukho ndawo eyodwa yokuhluleka. Abasebenzisi bathola futhi balayisha okuqukethwe ngokuqondile komunye nomunye, ngaphandle kokuncika kunoma yikuphi i-indexer, isilandeli, noma idatabase ephakathi."
+			},
+			"accessControl": {
+				"title": "Ukulawula okuncane kwe-access",
+				"description": "Noma ngubani angaqala inethiwekhi yakhe mahhala ngemithetho yakhe. Ngaphakathi kwenethiwekhi ngayinye, chaza izindima zomsebenzisi: umnikazi, umphathi, umshicileli, ulawuli nomlayishi. Lawula ngokuncane ukuthi ubani angashicilela, alawule, futhi alayishe okuqukethwe."
+			},
+			"ui": {
+				"title": "Ikhasi lomsebenzisi lekhwalithi ephezulu",
+				"description": "Ikhasi le-media center elihlanzekile nelimnandi, lakhelwe i-desktop, i-TV namaplatform aphethwa. Ukuhamba okulula ngebhodi lokushaya, ingoso, isidlalo noma ulawulwa lwesibukweli. Abasebenzisi abathuthukile bangagijimisa lesi software njengeseva yefayela engenanhloko ngekhasi lomugqa womyalelo."
+			},
+			"dataFormat": {
+				"title": "Ifomathi yedata efundwa ngumuntu",
+				"description": "Ifomathi yedata ye-LISH yakhiwe phezu kwe-JSON, okwenza kube lula ukudala, ukufunda nokuqonda. Yabelana ngokuqukethwe kwakho ngemetadata ehlanzekile nesobala leyo noma ngubani angabhekisisa kalula."
+			},
+			"security": {
+				"title": "Ubumfihlo nokuphepha",
+				"description": "Konke ukuxhumana kwe-peer-to-peer kucashile, kuqinisekisa ukuthi idata yakho ihlala iyimfihlo ngesikhathi sokudluliselwa. Abasebenzisi bangacasha ngemuva kwe-VPN ngokweseka kokungaziwa okwengeziwe. {project} iyahlonipha ubumfihlo bakho ngokuyiklamiwe."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Lesi software siyatholakala ku-Windows, Linux nakuMacOS. Sisebenzise kunoma yiluphi idivayisi oyikhethayo."
+			}
+		}
+	},
+	"download": {
+		"title": "Layisha",
+		"description": "Thola {project} kwiplatform yakho. Konke ukulayisha kumahhala futhi kuvulekile.",
+		"version": "Inguqulo yamanje: {version}",
+		"linkAlt": "Layisha",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Isifaki {format}",
+			"package": "Iphakheji {format}",
+			"portableZip": "ZIP ephathekayo",
+			"viewOnGithub": "Buka ku-GitHub"
+		},
+		"macos": {
+			"title": "Inothi elibalulekile kubasebenzisi be-macOS:",
+			"intro": "I-macOS Gatekeeper izovimba ama-app angasayindiwe/anganotarayizwanga alayishwe kwi-internet, ngephutha {error}.",
+			"error": "\"yonakele, ayikwazi ukuvulwa\"",
+			"runCommand": "Ngemuva kokulayisha i-DMG noma i-ZIP, ngaphambi kokuvula i-app, sebenzisa lo myalelo kwi-Terminal:",
+			"exampleDmg": "Isibonelo, ngemuva kokufaka okuvela kwi-DMG:",
+			"exampleZip": "Noma ngemuva kokukhipha i-ZIP:",
+			"explanation": "Lokhu kuzosusa isici se-quarantine futhi kuvumele i-app igijime."
+		}
+	},
+	"screenshots": {
+		"title": "Izithombe zesikrini",
+		"open": "Vula isithombe sesikrini {index}",
+		"alt": "Isithombe sesikrini {index}",
+		"close": "Vala igalari",
+		"prev": "Isithombe esidlulile",
+		"next": "Isithombe esilandelayo"
+	},
+	"comparison": {
+		"title": "Ukuqhathaniswa",
+		"feature": "Isici",
+		"yes": "Yebo",
+		"no": "Hatshi",
+		"partialDht": "Ingxenye (DHT)",
+		"rows": {
+			"decentralized": "Inethiwekhi engalawulwa maphakathi",
+			"onlineLibrary": "Imtapo welwazi we-online",
+			"builtInSearch": "Ukusesha okuqukethwe okukhona ngaphakathi",
+			"decentralizedSearch": "Ukusesha okuqukethwe okungalawulwa maphakathi",
+			"parallelDownloads": "Ukulayisha okuhambisanayo kuvela emithonjeni eminingi",
+			"mediaCenter": "Ikhasi le-media center",
+			"gamepad": "Ukweseka i-gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Thintana",
+		"getInTouch": "Thintana lathi",
+		"links": {
+			"telegramChat": "Iqembu lokuxoxa le-Telegram",
+			"telegramAnnouncements": "Izimemezelo ze-Telegram",
+			"facebook": "Iqembu le-Facebook"
+		}
+	},
+	"footer": {
+		"by": "ngu"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tuʻatiraʻa Vahi-Tuati o te Mau Faila",
+		"description": "{project} e poroterama peer-to-peer no te tuʻatiraʻa o te mau faila, hāmanihia i niʻa i te ʻihi rurutia āpī vahi-tuati.",
+		"ogTitle": "{project} - Poroterama Tuʻatiraʻa o te Mau Faila Vahi-Tuati",
+		"ogDescription": "Tuʻatiraʻa peer-to-peer o te mau faila i niʻa i te ʻihi rurutia āpī vahi-tuati. ʻAore tahua afaro. ʻAore vahi tahi noa o te ofatiraʻa."
+	},
+	"menu": {
+		"about": "No",
+		"download": "Hopoʻi mai",
+		"screenshots": "Tā mau hōhoʻa",
+		"comparison": "Faaauraa",
+		"contact": "Faatāʻa",
+		"toggle": "Hurihia te tabula",
+		"close": "Ōpani te tabula",
+		"language": "Reo",
+		"selectLanguage": "Maʻiti reo"
+	},
+	"hero": {
+		"subtitle": "ʻUi āpī o te tuʻatiraʻa peer-to-peer o te mau faila",
+		"description": "I niʻa i te ʻihi rurutia āpī vahi-tuati. ʻAore tahua afaro. ʻAore vahi tahi noa o te ofatiraʻa.",
+		"download": "Hopoʻi mai"
+	},
+	"about": {
+		"title": "No",
+		"intro": "Te {project} e tahua o te ʻui āpī no te tuʻatiraʻa peer-to-peer o te mau faila i hāmanihia i niʻa i te ʻihi rurutia āpī vahi-tuati. Te tāpaʻo nei ʻo ia i te hōhoʻa-ʻāmui mea māmā e te hāmaniraʻa vahi-tuati taʻatoʻa, te āratai mai nei i te tuʻatiraʻa parau o te paruru e o te tiʻaturi mā te hinaʻaro ʻore i te hoʻē mana afaro. ʻO teie ʻōhipa e open source, ʻafaʻihia i raro aʻe i te {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Faanahoraʻa vahi-tuati taʻatoʻa",
+				"description": "ʻAore tahua afaro, ʻaore vahi tahi noa o te ofatiraʻa. Te ʻite e te hopoʻi nei te mau ʻāmui i te mau parau ʻāmui mai te tahi i te tahi, mā te tiʻaturi ʻore i te hoʻē tāpura, tarekā, aore ra fare parau afaro."
+			},
+			"accessControl": {
+				"title": "Faatereraʻa o te ōraʻa hōhonu",
+				"description": "Pou e taʻata e nehenehe e haʻamata i tāna iho faanahoraʻa mā te ʻore o te moni mā tāna iho mau ture. I roto i te tahi e tahi faanahoraʻa, parau i te tareʻa o te mau ʻāmui: ʻai fenua, faaterehau, taʻata neneʻi, taʻata haʻavāra e taʻata hopoʻi. Faatere hōhonu i te taʻata o te nehenehe e neneʻi, haʻavāra, e hopoʻi i te mau parau ʻāmui."
+			},
+			"ui": {
+				"title": "Hōhoʻa-ʻāmui o te toʻo teitei",
+				"description": "Hōhoʻa-ʻāmui no te tāhua peʻe māmā e te tāmaroʻiroʻi, hāmanihia no te ʻāfata roa, te TV e te mau tahua poromū. Te haereraʻa māmā nā roto i te papa-mau, te ʻiore, te tāʻiri-haʻutiraʻa aore ra te mau māʻū. Te mau ʻāmui matau e nehenehe e haʻa i te poroterama mai te tahua faila tei haʻamoeʻiri ʻore nā roto i te hōhoʻa-ʻāmui o te ʻāʻano faatureraʻa."
+			},
+			"dataFormat": {
+				"title": "Faanahoraʻa o te mau parau e tāʻio-pātia-ʻia e te taʻata",
+				"description": "Te faanahoraʻa o te mau parau LISH e hāmanihia i niʻa i te JSON, te haʻafāʻito nei i te poiete, i te tāʻio e i te taʻa. Tūʻa i tā ʻoe parau ʻāmui ma te metadata māmā e te ʻite-ʻiahia o te taʻata atoʻa e nehenehe e tirotiro mā te māmā."
+			},
+			"security": {
+				"title": "Mau pārakapuʻa e te paruru",
+				"description": "Te mau parau peer-to-peer ʻātoʻa e nāmuhia, e tāmau nei e te vai pārakapuʻa nō tā ʻoe mau parau i te taime o te tuʻutiraʻa. Te mau ʻāmui e nehenehe e ʻurupu i muri i te VPN no te tahi paeau hau o te ʻiteʻa-ʻorehia. Te {project} te faatura nei i tā ʻoe pārakapuʻa nā roto i te hāmaniraʻa."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Te poroterama e vai nei i niʻa i te Windows, Linux e te macOS. Faaohipa i niʻa i te mauiha o tā ʻoe e hinaʻaro nei."
+			}
+		}
+	},
+	"download": {
+		"title": "Hopoʻi mai",
+		"description": "Noaʻa i te {project} no tā ʻoe tahua. Te mau hopoʻiraʻa ʻātoʻa e ʻāveʻave e e open source.",
+		"version": "Tuhaa nō teie nei: {version}",
+		"linkAlt": "Hopoʻi mai",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Tāmau {format}",
+			"package": "Pūtē {format}",
+			"portableZip": "ZIP nehenehe e ʻafaʻihia",
+			"viewOnGithub": "Hiʻopoʻa i niʻa i te GitHub"
+		},
+		"macos": {
+			"title": "Parau faufaʻa nō te mau ʻāmui o te macOS:",
+			"intro": "Te faatāpea nei te macOS Gatekeeper i te mau āpi tei ʻore i tāpaʻopaʻo/notarihia i hopoʻihia mai te ārapū, ma te tarahaparaʻa {error}.",
+			"error": "\"ʻua ʻino, ʻaore e nehenehe e ʻīriti\"",
+			"runCommand": "I muri aʻe i tā ʻoe hopoʻiraʻa i te DMG aore ra ZIP, hou aʻe ʻoe i te ʻīritiraʻa i te āpi, faaʻohipa teie faataeraʻa i roto i te Terminal:",
+			"exampleDmg": "Hiʻoraʻa, i muri aʻe i te tāmauraʻa mai te DMG:",
+			"exampleZip": "Aore ra i muri aʻe i te ʻīritiraʻa i te ZIP:",
+			"explanation": "Teie e faaʻore mai i te ʻano koeʻe e e haʻafaufaʻa i te āpi e ʻohipa."
+		}
+	},
+	"screenshots": {
+		"title": "Tā mau hōhoʻa",
+		"open": "ʻĪriti te tā hōhoʻa {index}",
+		"alt": "Tā hōhoʻa {index}",
+		"close": "Ōpani te ʻāfata hōhoʻa",
+		"prev": "Hōhoʻa nā mua",
+		"next": "Hōhoʻa nā muri"
+	},
+	"comparison": {
+		"title": "Faaauraa",
+		"feature": "Huru",
+		"yes": "ʻĒ",
+		"no": "ʻAore",
+		"partialDht": "Tahi tuhaa (DHT)",
+		"rows": {
+			"decentralized": "Faanahoraʻa vahi-tuati",
+			"onlineLibrary": "Fare puta nā roto i te ārapū",
+			"builtInSearch": "Maʻimiraʻa o te mau parau ʻāmui i hāmaniʻāhia",
+			"decentralizedSearch": "Maʻimiraʻa vahi-tuati o te mau parau ʻāmui",
+			"parallelDownloads": "Te mau hopoʻiraʻa ʻāmui mai te mau ʻōmoʻe rau",
+			"mediaCenter": "Hōhoʻa-ʻāmui no te tāhua peʻe",
+			"gamepad": "Tauturu i te gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Faatāʻa",
+		"getInTouch": "ʻIʻite mai",
+		"links": {
+			"telegramChat": "Pupu paraparau Telegram",
+			"telegramAnnouncements": "Mau faaʻiteraʻa Telegram",
+			"facebook": "Pupu Facebook"
+		}
+	},
+	"footer": {
+		"by": "nā"
+	}
+}

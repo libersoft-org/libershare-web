@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - U Vhanganyiswa ha Mafaela hu si na Vhulanguli Vhukati",
+		"description": "{project} ndi software ya peer-to-peer ya u vhanganyisa mafaela, ye ya fhaṱwa nga thekinolodzhi ya zwa zwino ye ya si na vhulanguli vhukati.",
+		"ogTitle": "{project} - Software ya u Vhanganyisa Mafaela hu si na Vhulanguli Vhukati",
+		"ogDescription": "U vhanganyisa mafaela hu si na vhulanguli vhukati nga thekinolodzhi ya zwa zwino. A hu na seva ya vhukati. A hu na fhethu fhuthihi fha u kundelwa."
+	},
+	"menu": {
+		"about": "Nga ha",
+		"download": "Dzhenisa",
+		"screenshots": "Zwifanyiso zwa tshikirini",
+		"comparison": "U vhambedza",
+		"contact": "Vhukwama",
+		"toggle": "Shandukisa menyu",
+		"close": "Vala menyu",
+		"language": "Luambo",
+		"selectLanguage": "Khetha luambo"
+	},
+	"hero": {
+		"subtitle": "Tshitshawelo tshi tevhelaho tsha u vhanganyisa mafaela tsha peer-to-peer",
+		"description": "Nga thekinolodzhi ya zwa zwino ye ya si na vhulanguli vhukati. A hu na seva ya vhukati. A hu na fhethu fhuthihi fha u kundelwa.",
+		"download": "Dzhenisa"
+	},
+	"about": {
+		"title": "Nga ha",
+		"intro": "{project} ndi pulatifomo ya tshitshawelo tshi tevhelaho tsha u vhanganyisa mafaela ya peer-to-peer ye ya fhaṱwa nga thekinolodzhi ya zwa zwino. I ṱanganyisa khasi i shumiseaho nga vhuleluwa na arikhitekiṱsha ya u sa vha na vhulanguli vhukati nga vhuḓalo, i ḓisa u vhanganyisa data ho tsireledzwaho ho fulufhedzaho ngaupo a hu vhuḓi ha mulayowane wa vhukati. Hetshi tshiitiwa ndi open source, ho phaḓaladzwaho fhasi ha {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Vhuhwala vhune ha si vha na vhulanguli vhukati nga vhuḓalo",
+				"description": "A hu na seva ya vhukati, a hu na fhethu fhuthihi fha u kundelwa. Vhashumisi vha wana na u dzhenisa zwo vhewaho ngalwo ngalwo, ngaupo a vha tikedzi nga inḓekisi, mutevhelisi, kana ḓatabeisi ya vhukati."
+			},
+			"accessControl": {
+				"title": "U langula u vula ho tibesiwaho",
+				"description": "Naho hu nnyi a nga thoma vhuhwala havhe ha mahala nga miṱhetho yawe. Kha vhuhwala vhuthihi, ṱalusa mishumo ya vhashumisi: muvhane, admin, mubveledzi, mulanguli na muḓenisi. Ulanguli ngo tibesiwaho uri ndi nnyi a nga bvisaho, langulaho, na uḓenisaho zwo vhewaho."
+			},
+			"ui": {
+				"title": "Khasi ya mushumisi ya khwine",
+				"description": "Khasi ya senthara ya muṱaṱi yo vhonalaho na yo lutshanyaho, yo dzudzanywaho ho desiketopo, TV na pulatifomo dza moḓiḽiṱhi. U fhambana ho vhuleluwa nga thithokerimu, makulu, gemepedi kana riimoutu. Vhashumisi vho ṱuṱuwedzwaho vha nga shumisa software sa seva ya mafaela ya hu si na thoho nga khasi ya mutaladzwa wa milayedzano."
+			},
+			"dataFormat": {
+				"title": "Fometo ya data i vhalwaho nga muthu",
+				"description": "Fometo ya data ya LISH yo fhaṱwa nga JSON, zwine zwa ita uri i si konḓe u sika, u vhala na u pfesesa. Vhanganyisa zwo vhewaho zwau na metadata yo vhonalaho ye ya tshena ye naho hu nnyi a nga ṱola nga vhuleluwa."
+			},
+			"security": {
+				"title": "Tshipiri na tsireledzo",
+				"description": "Vhuṱumani vhoṱhe ha peer-to-peer ho enkripiṱhwa, hu khwaṱhisa uri data yau i sokou vha tshipiri tshikhathi tsha u rumelelwa. Vhashumisi vha nga ḓidzumba murahu ha VPN nga thumelelano dzine dza si dzhenelele. {project} i ṱhonifha tshipiri tshau nga thi yothe ya u dzudzanya."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software i hu kona u wanala kha Windows, Linux na macOS. I shumise kha tshishumiswa naho tshi tshifhio tshe wa tshi takalela."
+			}
+		}
+	},
+	"download": {
+		"title": "Dzhenisa",
+		"description": "Wana {project} ya pulatifomo yau. Kudzhenisi kuṱhe ndi mahala na open source.",
+		"version": "Vhuimo vhanzhi: {version}",
+		"linkAlt": "Dzhenisa",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mudzhenisi {format}",
+			"package": "Phakheji {format}",
+			"portableZip": "ZIP i hwalwaho",
+			"viewOnGithub": "Vhona kha GitHub"
+		},
+		"macos": {
+			"title": "Ṅwalo ya ndeme kha vhashumisi vha macOS:",
+			"intro": "macOS Gatekeeper i ḓo thivhela maapulikheishini a sa swainwaho/notarized o dzheniswaho u bva inthanethe, nga vhukundi {error}.",
+			"error": "\"i tshinyatshi, a i koni u vulwa\"",
+			"runCommand": "Nga murahu ha u dzhenisa DMG kana ZIP, phanḓa ha u vula apulikheishini, shumisa hetshi tshilayedzano kha Terminal:",
+			"exampleDmg": "Tsumbo, nga murahu ha u faṱa u bva DMG:",
+			"exampleZip": "Kana nga murahu ha u bvisa ZIP:",
+			"explanation": "Hezwi zwi ḓo bvisa atribuṱhi ya khoarantheine na u tendela apulikheishini i shume."
+		}
+	},
+	"screenshots": {
+		"title": "Zwifanyiso zwa tshikirini",
+		"open": "Vula tshifanyiso tsha tshikirini {index}",
+		"alt": "Tshifanyiso tsha tshikirini {index}",
+		"close": "Vala gallarei",
+		"prev": "Tshifanyiso tsha fhasi",
+		"next": "Tshifanyiso tshi tevhelaho"
+	},
+	"comparison": {
+		"title": "U vhambedza",
+		"feature": "Tshiimo",
+		"yes": "Ee",
+		"no": "Hai",
+		"partialDht": "Tshipiḓa (DHT)",
+		"rows": {
+			"decentralized": "Vhuhwala vhu si vhulanguli vhukati",
+			"onlineLibrary": "Bugu ya online",
+			"builtInSearch": "U ṱoda zwo vhewaho ho dzheniswaho",
+			"decentralizedSearch": "U ṱoda zwo vhewaho hu si vhulanguli vhukati",
+			"parallelDownloads": "Kudzhenisi kunzhi u bva kha vhubvo vhunzhi",
+			"mediaCenter": "Khasi ya senthara ya muṱaṱi",
+			"gamepad": "U tikedza gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Vhukwama",
+		"getInTouch": "Kwamane na riṋe",
+		"links": {
+			"telegramChat": "Tshigwada tsha u amba tsha Telegram",
+			"telegramAnnouncements": "Vhuḓivhadzo ha Telegram",
+			"facebook": "Tshigwada tsha Facebook"
+		}
+	},
+	"footer": {
+		"by": "nga"
+	}
+}

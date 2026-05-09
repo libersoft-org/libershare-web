@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Hokken Faila ti Tåya Sentråt",
+		"description": "{project} i un software peer-to-peer para hokken faila, fina hatsa gi tatte ottot teknolohia moderno tåya sentråt.",
+		"ogTitle": "{project} - Software para Hokken Faila ti Tåya Sentråt",
+		"ogDescription": "Hokken faila peer-to-peer gi tatte ottot teknolohia moderno tåya sentråt. Tåya servidot sentråt. Tåya un punton ti faltå."
+	},
+	"menu": {
+		"about": "Put",
+		"download": "Daunlot",
+		"screenshots": "Pinta gi pantåyan",
+		"comparison": "Compåra",
+		"contact": "Konektåt",
+		"toggle": "Tulai menu",
+		"close": "Húchom menu",
+		"language": "Lengguåhi",
+		"selectLanguage": "Ayek i lengguåhi"
+	},
+	"hero": {
+		"subtitle": "Sigiente generasion ti hokken faila peer-to-peer",
+		"description": "Gi tatte ottot teknolohia moderno tåya sentråt. Tåya servidot sentråt. Tåya un punton ti faltå.",
+		"download": "Daunlot"
+	},
+	"about": {
+		"title": "Put",
+		"intro": "I {project} un plataforma sigiente generasion para hokken faila peer-to-peer ni fina hatsa gi tatte ottot teknolohia moderno tåya sentråt. Ha ufuna i interfas yan-utilisådot ya un arkitekturå tåya sentråt put kabåles, na huhululu hokken data seguro yan fitme sin nisesidåt put pot kuåtkiet autoridat sentråt. Este i prohekto open source, distribuido gi papå i {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Networok tåya sentråt put kabåles",
+				"description": "Tåya servidot sentråt, tåya un punton ti faltå. I usuario siha mañodda yan dauntlot kontenidu derecho gi entre siha, sin dipendi gi pot kuåtkiet indeksador, sigiente, ot batabasi sentråt."
+			},
+			"accessControl": {
+				"title": "Kontrot ti acceso fino",
+				"description": "Maseha hayi siña tutuhon i propio na networok libre yan i propio na areklamento siha. Gi sanhalom kada networok, sangåni i papet siha gi usuario: tåtte, admin, pumublika, moderador yan dauntlodet. Kontrot fino hayi siña pumublika, mumoderasion, yan dauntlot kontenidu."
+			},
+			"ui": {
+				"title": "Interfas yan-utilisådot ti maolek na kalidat",
+				"description": "Interfas sentro median linimpio yan susabe, sina pa kompiuter, TV yan plataformå mobile. Manhanao fasit gi keyboard, raton, gamepad ot kontroladot. I dabilot na usuario siña ufana i software komo servidot ti kape på interfas pot komåndo."
+			},
+			"dataFormat": {
+				"title": "Format ti data lehibili put taotao",
+				"description": "I LISH na format data fina hatsa gi tatte ottot JSON, na fasit hatsa, taitai yan tomtom. Hokken i kontenidu-mu yan metadata linimpio yan klåru ni kuåtkiet siña ulali fasit."
+			},
+			"security": {
+				"title": "Privasia yan seguridat",
+				"description": "Todu i komunikasion peer-to-peer fina kifrasion, ya hokkayi i data-mu sumigi privåt durånti i fina sångan. I usuario siña haohao gi tatten un VPN para un yåyas ti tinatanga adisional. {project} ha respeta i privasia-mu pot diseñu."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "I software fina ayegga gi Windows, Linux yan macOS. Usa gi pot kuåtkiet ti utilis ni un guaiya."
+			}
+		}
+	},
+	"download": {
+		"title": "Daunlot",
+		"description": "Hokka {project} pot i platafotma-mu. Todu i daunlot libre yan open source.",
+		"version": "Bersion åktuat: {version}",
+		"linkAlt": "Daunlot",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalådot {format}",
+			"package": "Paketi {format}",
+			"portableZip": "ZIP portable",
+			"viewOnGithub": "Lili gi GitHub"
+		},
+		"macos": {
+			"title": "Importånti notisia para usuario macOS:",
+			"intro": "macOS Gatekeeper para ublåka i app sin firma/sin notari ni fina daunlot ginen i internet, gi error {error}.",
+			"error": "\"yini dåñu, ti siña hånao\"",
+			"runCommand": "Despues di un dauntlot DMG ot ZIP, antes di un baba i app, fa hånao este na komåndu gi Terminal:",
+			"exampleDmg": "Egemplo, despues di um instala ginen i DMG:",
+			"exampleZip": "Ot despues di un fañule i ZIP:",
+			"explanation": "Este para uchule i atributo kuarentena yan ufana i app uhånao."
+		}
+	},
+	"screenshots": {
+		"title": "Pinta gi pantåyan",
+		"open": "Baba pinta gi pantåyan {index}",
+		"alt": "Pinta gi pantåyan {index}",
+		"close": "Húchom galeria",
+		"prev": "Antes na pintura",
+		"next": "Sigiente pintura"
+	},
+	"comparison": {
+		"title": "Compåra",
+		"feature": "Inadahin",
+		"yes": "Hunggan",
+		"no": "Åhe",
+		"partialDht": "Påtte (DHT)",
+		"rows": {
+			"decentralized": "Networok tåya sentråt",
+			"onlineLibrary": "Bibliotekan onlain",
+			"builtInSearch": "Aligao kontenidu fina hatsa",
+			"decentralizedSearch": "Aligao kontenidu tåya sentråt",
+			"parallelDownloads": "Daunlot peles-mu hineggam ginen meggai sumiñå",
+			"mediaCenter": "Interfas sentro median",
+			"gamepad": "Sapotte gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Konektåt",
+		"getInTouch": "Konekta yan hami",
+		"links": {
+			"telegramChat": "Grupo chat Telegram",
+			"telegramAnnouncements": "Anunsion siha gi Telegram",
+			"facebook": "Grupo Facebook"
+		}
+	},
+	"footer": {
+		"by": "as"
+	}
+}

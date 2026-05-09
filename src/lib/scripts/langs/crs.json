@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partaz Fisye Desantralize",
+		"description": "{project} i en lozisyel peer-to-peer pour partaz fisye, konstrir lo teknolozi modern desantralize.",
+		"ogTitle": "{project} - Lozisyel Partaz Fisye Desantralize",
+		"ogDescription": "Partaz fisye peer-to-peer lo teknolozi modern desantralize. Pa en server santral. Pa en sel pwen defayans."
+	},
+	"menu": {
+		"about": "Lo",
+		"download": "Telesarz",
+		"screenshots": "Kaptir lekran",
+		"comparison": "Konparezon",
+		"contact": "Kontak",
+		"toggle": "Sanz meni",
+		"close": "Ferm meni",
+		"language": "Langaz",
+		"selectLanguage": "Swazir langaz"
+	},
+	"hero": {
+		"subtitle": "Prosen zenerasyon partaz fisye peer-to-peer",
+		"description": "Lo teknolozi modern desantralize. Pa en server santral. Pa en sel pwen defayans.",
+		"download": "Telesarz"
+	},
+	"about": {
+		"title": "Lo",
+		"intro": "{project} i en platform prosen zenerasyon pour partaz fisye peer-to-peer ki konstrir lo teknolozi modern desantralize. I konbin en lentefas fasil pour servi avek en larsitektir antyerman desantralize, ofer partaz done san danze e fyab san bezwen okenn lotorite santral. Sa proze i open source, distribye anba {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rezo antyerman desantralize",
+				"description": "Pa en server santral, pa en sel pwen defayans. Bann itilizater i dekouver e telesarz konteni direkteman ant zot menm, san depan lo okenn lendekser, traker, oubyen baz done santral."
+			},
+			"accessControl": {
+				"title": "Kontrol akse fin",
+				"description": "Nenport ki kapab lans son prop rezo gratuitman avek son prop bann regleman. Dan sak rezo, defini bann rol bann itilizater: propriyeter, admin, edidite, moderater e telesarzer. Kontrol fin lekel ki kapab edidite, moder e telesarz konteni."
+			},
+			"ui": {
+				"title": "Lentefas itilizater otkalite",
+				"description": "Lentefas santenmedya prop e flwid, dizenny pour desktop, TV e platform mobil. Navigasyon fasil avek klavye, sourit, gamepad oubyen telekomann. Itilizater avanse i kapab fer lozisyel mars konman en serve fisye san en latet atraver lentefas linny komann."
+			},
+			"dataFormat": {
+				"title": "Format done lizibl pour limen",
+				"description": "Format done LISH i konstrir lo JSON, ki fer i fasil pour kre, li e konpran. Partaz ou konteni avek metadata kler e transparan ki nenport ki kapab enspekte fasilman."
+			},
+			"security": {
+				"title": "Konfidansyalite e sekirite",
+				"description": "Tou kominikasyon peer-to-peer in kripte, garanti ki ou done i reste prive pandan transmisyon. Bann itilizater i kapab kasyet deryer en VPN pour en kous adisyonel lanonimite. {project} i respekte ou konfidansyalite par dizenny."
+			},
+			"crossPlatform": {
+				"title": "Miltiplatform",
+				"description": "Lozisyel i disponib lo Windows, Linux e macOS. Servi li lo nenport ki aparey ou prefere."
+			}
+		}
+	},
+	"download": {
+		"title": "Telesarz",
+		"description": "Gany {project} pour ou platform. Tou bann telesarzman i gratui e open source.",
+		"version": "Versyon aktyel: {version}",
+		"linkAlt": "Telesarz",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Enstalater {format}",
+			"package": "Pake {format}",
+			"portableZip": "ZIP portab",
+			"viewOnGithub": "Get lo GitHub"
+		},
+		"macos": {
+			"title": "Not enportan pour itilizater macOS:",
+			"intro": "macOS Gatekeeper pou blok bann aplikasyon non sinyen/notarize ki ti telesarze depi lentenet, avek lerer {error}.",
+			"error": "\"in domaze, pa kapab ouver\"",
+			"runCommand": "Apre ou telesarz DMG oubyen ZIP, avan ou ouver aplikasyon, fer mars sa komann dan Terminal:",
+			"exampleDmg": "Legzanp, apre lenstalasyon depi DMG:",
+			"exampleZip": "Oubyen apre ekstraksyon ZIP:",
+			"explanation": "Sa pou retir atribi karantin e les aplikasyon mars."
+		}
+	},
+	"screenshots": {
+		"title": "Kaptir lekran",
+		"open": "Ouver kaptir lekran {index}",
+		"alt": "Kaptir lekran {index}",
+		"close": "Ferm galri",
+		"prev": "Zimaz presedan",
+		"next": "Zimaz swivan"
+	},
+	"comparison": {
+		"title": "Konparezon",
+		"feature": "Karakteristik",
+		"yes": "Wi",
+		"no": "Non",
+		"partialDht": "Parsyel (DHT)",
+		"rows": {
+			"decentralized": "Rezo desantralize",
+			"onlineLibrary": "Bibliotek anliny",
+			"builtInSearch": "Resers konteni enkli",
+			"decentralizedSearch": "Resers konteni desantralize",
+			"parallelDownloads": "Telesarzman paralel depi plizyer sours",
+			"mediaCenter": "Lentefas santenmedya",
+			"gamepad": "Sipor gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Antre an kontak",
+		"links": {
+			"telegramChat": "Group sat Telegram",
+			"telegramAnnouncements": "Anons Telegram",
+			"facebook": "Group Facebook"
+		}
+	},
+	"footer": {
+		"by": "par"
+	}
+}

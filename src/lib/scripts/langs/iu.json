@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - ᐊᐅᓚᔪᖅᑎᑦᑎᔪᓐᓇᕈᓐᓇᐅᑏᑦ ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᔪᑦ",
+		"description": "{project} ᐅᑯᐊ ᐃᓕᖅᑯᓯᕐᒥ peer-to-peer ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᓂᕐᒧᑦ ᐅᖃᒡᕕᖕᓂᒃ.",
+		"ogTitle": "{project} - ᐃᓕᖅᑯᓯᖕᒧᑦ ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᔪᑦ ᐊᐅᓚᔪᖅᑎᑦᑎᔪᓐᓇᕈᓐᓇᐅᑏᑦ",
+		"ogDescription": "ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᓂᖅ peer-to-peer ᐃᓕᖅᑯᓯᖕᒥ. ᐊᕕᑦᑐᖃᓐᖏᑦᑐᖅ. ᐊᑕᐅᓯᕐᒥᒃ ᐱᓕᕆᐊᖃᓐᖏᑦᑐᖅ."
+	},
+	"menu": {
+		"about": "ᒥᒃᓵᓄᑦ",
+		"download": "ᐊᐅᓚᑦᑎᓚᐅᕐᓂᖅ",
+		"screenshots": "ᑕᕐᕆᔭᐅᑎᑦ ᑕᑯᔭᒐᒃᓴᑦ",
+		"comparison": "ᓇᓕᒧᒃᓴᕐᓂᖅ",
+		"contact": "ᐅᖃᖃᑎᒋᔪᑦ",
+		"toggle": "ᐊᓯᔾᔨᕐᓂᖅ",
+		"close": "ᒪᑐᔭᐅᔪᑦ",
+		"language": "ᐅᖃᐅᓯᖅ",
+		"selectLanguage": "ᐅᖃᐅᓯᕐᒥᒃ ᓂᕈᐊᕈᓐᓇᕐᓂᖅ"
+	},
+	"hero": {
+		"subtitle": "ᐅᓪᓗᒥᑦᑎᐊᖅ ᐱᓕᕆᐊᖅᑎᑦᑎᔪᑦ ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᔪᑦ peer-to-peer",
+		"description": "ᐃᓕᖅᑯᓯᖕᒥ. ᐊᕕᑦᑐᖃᓐᖏᑦᑐᖅ. ᐊᑕᐅᓯᕐᒥᒃ ᐱᓕᕆᐊᖃᓐᖏᑦᑐᖅ.",
+		"download": "ᐊᐅᓚᑦᑎᓚᐅᕐᓂᖅ"
+	},
+	"about": {
+		"title": "ᒥᒃᓵᓄᑦ",
+		"intro": "{project} ᐅᑯᐊ ᐅᓪᓗᒥᑦᑎᐊᖅ ᐱᓕᕆᐊᖅᑎᑦᑎᔪᑦ ᐊᕕᒃᑐᕆᐊᖅᑎᑦᑎᓂᕐᒧᑦ peer-to-peer ᐊᑐᕈᓐᓇᕈᓐᓇᐅᑎᑦ ᐃᓕᖅᑯᓯᖕᒥᒃ ᐊᑐᖅᑐᑦ. ᑲᔪᓯᑎᑦᑎᕗᑦ ᐃᓄᖕᒧᑦ ᐃᓕᔭᕆᐊᖃᕐᓂᕐᒥᒃ ᑎᑎᕋᕐᕕᖕᒥᒃ ᐊᒻᒪᓗ ᐃᓕᖅᑯᓯᕐᒥᒃ ᐊᑐᖅᑐᓂ. ᐅᑯᐊ ᐊᑐᖅᑕᐅᓲᖑᔪᑦ open source, ᑐᓂᔭᐅᑎᑦᑎᔪᑦ ᐊᑐᕐᓗᒍ {license}.",
+		"features": {
+			"decentralized": {
+				"title": "ᐃᓕᖅᑯᓯᖕᒥ ᐱᓕᕆᐊᖑᔪᑦ",
+				"description": "ᐊᕕᑦᑐᖃᓐᖏᑦᑐᖅ, ᐊᑕᐅᓯᕐᒥᒃ ᐱᓕᕆᐊᖃᓐᖏᑦᑐᖅ. ᐊᑐᖅᑏᑦ ᐊᑐᖅᑕᐅᓂᐊᖃᕈᑎᑦ ᐅᖃᒡᕕᖕᒥᒃ ᐊᑦᑎᒃᑭᐊᕆᔭᐅᔪᑦ ᑐᕌᖅᑎᓪᓗᒍ ᐃᒻᒥᓂᒃ, ᐅᑭᐅᖃᓐᖏᑦᑐᖅ ᐊᕕᑦᑐᖃᕐᒥᒃ."
+			},
+			"accessControl": {
+				"title": "ᐊᔪᕐᓇᖅᑎᑦᑎᔪᑦ ᐊᑐᕈᓐᓇᐅᑏᑦ",
+				"description": "ᑭᓇᑐᐃᓐᓇᖅ ᐱᒋᐊᖅᑎᑦᑎᔪᓐᓇᖅᑐᖅ ᓇᒻᒥᓂᖅ ᐊᑐᕈᓐᓇᐅᑎᒥᒃ ᐊᑭᖃᓐᖏᑦᑐᒥᒃ ᓇᒻᒥᓂᖅ ᒪᓕᒐᕈᓐᓂᒃ. ᐊᑕᐅᓯᕐᒥ ᐊᑐᕈᓐᓇᐅᑎᒥ, ᓇᓗᓇᐃᕈᑎᔭᐅᔪᑦ ᐊᑐᖅᑐᑦ: ᐱᔪᓐᓇᖅᑐᖅ, ᐊᐅᓚᔾᔭᐃᓂᖅ, ᑎᑎᕋᖅᑎ, ᐊᐅᓚᑦᑎᓂᖅ ᐊᒻᒪᓗ ᐊᐅᓚᑦᑎᔪᖅ."
+			},
+			"ui": {
+				"title": "ᐱᕈᖅᑎᑦᑎᕙᓪᓕᐊᔪᑦ ᑎᑎᕋᕐᕕᒃ",
+				"description": "ᐃᓅᓯᕐᒥᒃ ᑭᒡᒐᖅᑐᖅᑎ ᑭᒻᒥᕐᓇᖏᑦᑐᖅ ᑎᑎᕋᕐᕕᒃ, ᓱᓇᒃᑯᑖᖃᕐᕕᒃᓴᓂᒃ, ᐃᓅᓂᖅ TV ᐊᒻᒪᓗ ᐱᕈᖅᑎᑦᑎᔪᑦ ᐱᕙᓪᓕᐊᔭᐅᔭᕆᐊᓕᖕᓄᑦ. ᐊᑐᖅᑕᐅᔪᓐᓇᖅᑐᖅ ᐊᑐᖅᑕᐅᓪᓗᓂ ᑎᑎᖅᑲᕈᑏᑦ, ᐊᑦᑎᒋᔭᐅᔪᑦ, ᐱᙳᐊᕈᑏᑦ ᐅᕝᕙᓘᓐᓃᑦ ᐊᐅᓚᑦᑎᔭᐅᔪᑦ. ᐊᑐᖅᑎᐅᔪᑦ ᓱᓇᒃᑯᑖᖅᑐᑦ ᐱᓕᕆᔪᓐᓇᖅᑐᑦ ᐊᑐᕈᓐᓇᐅᑎᒥᒃ ᐅᖃᒡᕕᖕᒥᒃ."
+			},
+			"dataFormat": {
+				"title": "ᐱᓕᕆᐊᕆᔪᓐᓇᕈᓐᓇᐅᑏᑦ ᑐᑭᓯᔭᐅᔪᓐᓇᖅᑐᑦ",
+				"description": "LISH ᑐᑭᓯᔭᐅᔪᓐᓇᖅᑐᖅ JSON-ᒥᒃ ᐊᑐᖅᑐᖅ, ᐊᑑᑎᖃᕐᓂᖅᓴᐅᔪᓄᑦ, ᐊᑐᖅᑎᑦᑎᔪᓄᑦ ᐊᒻᒪᓗ ᑐᑭᓯᓂᕆᔭᐅᔪᓄᑦ. ᐊᕕᒃᑐᕆᐊᕈᑏᑦ ᐊᑐᖅᑕᐅᔪᑦ metadata-ᓂᒃ ᑭᒻᒥᕐᓇᖏᑦᑐᓂᒃ ᐊᒻᒪᓗ ᑐᓴᐅᒪᔭᐅᓲᓂᒃ ᑭᓇᑐᐃᓐᓇᕐᒧᑦ ᑕᑯᔭᐅᔪᓐᓇᖅᑐᑦ."
+			},
+			"security": {
+				"title": "ᐊᓯᖕᓄᑦ ᑕᑯᑎᑦᑎᕙᓪᓕᐊᔭᐅᖕᒪᑦ ᐊᒻᒪᓗ ᐊᔪᕐᓇᖅᑎᑦᑎᔪᑦ",
+				"description": "ᑕᒪᕐᒥᒃ ᐅᖃᖃᑎᒌᒃᑐᑦ peer-to-peer ᑎᒥᒃᑎᑦᑎᔪᑦ, ᓇᓗᓇᐃᔭᐃᔪᑦ ᐊᑐᖅᑐᑦ ᐱᓕᕆᔭᐅᔪᑦ ᐅᖃᖃᑎᒌᒃᑎᓪᓗᒋᑦ. ᐊᑐᖅᑎᑦ ᐃᕐᙯᔭᐅᔪᓐᓇᖅᑐᑦ VPN-ᒥᒃ ᑕᐃᒪᓐᓇ ᐊᔪᕐᓇᖅᑎᑦᑎᔪᑦ. {project} ᐃᓱᒪᒋᕗᖅ ᐊᑐᕈᓐᓇᐅᑏᑦ ᐊᔪᕐᓇᖅᑎᑦᑎᓂᖕᒥᑦ."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "ᐊᑐᕈᓐᓇᐅᑏᑦ ᐃᓂᖃᖅᑐᑦ Windows, Linux ᐊᒻᒪᓗ macOS-ᒥᒃ. ᐊᑐᕐᓗᒋᑦ ᓇᒃᑎᕈᓐᓇᕐᒪᑕ ᓇᒃᑎᕈᓐᓇᖅᑐᑦ."
+			}
+		}
+	},
+	"download": {
+		"title": "ᐊᐅᓚᑦᑎᓚᐅᕐᓂᖅ",
+		"description": "ᐅᖃᕈᓐᓇᕐᓂᖅ {project} ᐊᑐᕈᓐᓇᕈᕐᓂᖅ. ᐊᑐᖅᑕᐅᔪᑦ ᐊᑭᖃᓐᖏᑦᑐᑦ ᐊᒻᒪᓗ open source.",
+		"version": "ᐅᓪᓗᒥᑦᑎᐊᖅ ᐊᓯᔾᔨᕈᑏᑦ: {version}",
+		"linkAlt": "ᐊᐅᓚᑦᑎᓚᐅᕐᓂᖅ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "ᐃᓕᔪᑦ {format}",
+			"package": "ᐃᒡᒐᕐᓄᑦ {format}",
+			"portableZip": "ᓄᓇᓕᖕᒥ ZIP",
+			"viewOnGithub": "ᑕᑯᔪᑦ GitHub-ᒥ"
+		},
+		"macos": {
+			"title": "ᐱᒻᒪᕆᐅᔪᑦ ᐱᓕᕆᐊᕈᑏᑦ macOS-ᒧᑦ ᐊᑐᖅᑎᓄᑦ:",
+			"intro": "macOS Gatekeeper ᒪᑐᕗᑦ ᐊᑎᒋᕈᑎᒃᓴᕐᒧᑦ ᐊᑐᕈᓐᓇᐅᑎᒥᒃ ᐊᐅᓚᑎᔪᑦ ᐃᓕᖅᑯᓯᕐᒥ ᐊᕕᒃᑐᖅᓯᒪᔪᒥᒃ, ᐊᔪᕐᓇᖅᑐᖅ {error}.",
+			"error": "\"ᓱᕋᒃᓯᒪᔪᖅ, ᒪᑐᔭᐅᔪᓐᓇᖏᑦᑐᖅ\"",
+			"runCommand": "ᐊᐅᓚᑦᑎᓚᐅᖅᓯᒪᔪᑎ DMG ᐅᕝᕙᓘᓐᓃᑦ ZIP-ᒥᒃ, ᒪᑐᕝᕕᒋᔭᐅᔪᓐᓇᖅᑐᖅ ᐊᑐᕈᓐᓇᐅᑎᒥᒃ, ᐊᑐᕐᓗᒋᑦ Terminal-ᒥᒃ:",
+			"exampleDmg": "ᐊᕐᕌᓄᖅᓯᐅᑎᒥᒃ, ᐊᐅᓚᑦᑎᔭᐅᓚᐅᖅᓯᒪᓂᕐᒧᑦ DMG-ᒥᒃ:",
+			"exampleZip": "ᐅᕝᕙᓘᓐᓃᑦ ᐊᕕᑦᑐᕐᓗᒍ ZIP:",
+			"explanation": "ᑖᓐᓇ ᐊᑐᕐᓂᐊᖅᑐᖅ ᐃᓕᖅᑯᓯᖕᒥᒃ ᐊᑐᖅᑎᑦᑎᕙᓪᓕᐊᔭᕆᐊᓕᒃ."
+		}
+	},
+	"screenshots": {
+		"title": "ᑕᕐᕆᔭᐅᑎᑦ ᑕᑯᔭᒐᒃᓴᑦ",
+		"open": "ᒪᑐᕝᕕᒋᔪᖅ ᑕᕐᕆᔭᐅᑎᑦ {index}",
+		"alt": "ᑕᕐᕆᔭᐅᑎᑦ {index}",
+		"close": "ᒪᑐᕗᑦ ᑕᑯᔭᒐᒃᓴᕐᒥᒃ",
+		"prev": "ᐊᕐᕌᓂᑦᑎᐊᖅ ᑕᕐᕆᔭᐅᑎᑦ",
+		"next": "ᑭᒡᒐᖅᑐᐃᓪᓚᕆᒃ ᑕᕐᕆᔭᐅᑎᑦ"
+	},
+	"comparison": {
+		"title": "ᓇᓕᒧᒃᓴᕐᓂᖅ",
+		"feature": "ᐊᔪᖏᓐᓂᕆᔭᐅᔪᖅ",
+		"yes": "ᐄ",
+		"no": "ᐋᒃᑲ",
+		"partialDht": "ᐃᓚᖏᑦ (DHT)",
+		"rows": {
+			"decentralized": "ᐃᓕᖅᑯᓯᖕᒥ ᐱᓕᕆᐊᖑᔪᑦ",
+			"onlineLibrary": "ᐃᑭᐊᖅᑭᕕᒃ ᑎᑎᕋᕐᕕᒃ",
+			"builtInSearch": "ᐊᑐᖅᑎᔪᓐᓇᕈᓐᓇᐅᑎᒥᒃ ᕿᓂᕈᑏᑦ",
+			"decentralizedSearch": "ᐃᓕᖅᑯᓯᖕᒥ ᕿᓂᕈᑎᒥᒃ",
+			"parallelDownloads": "ᐊᐅᓚᑦᑎᔭᐅᔪᑦ ᐊᒥᒐᕈᑎᒥᒃ ᐊᒥᓲᔪᓂᒃ ᐊᔪᙱᑦᑐᓂᒃ",
+			"mediaCenter": "ᐱᕈᖅᑎᑦᑎᕙᓪᓕᐊᔪᑦ ᑎᑎᕋᕐᕕᒃ",
+			"gamepad": "ᐱᙳᐊᕈᑏᑦ ᐃᑲᔪᕈᑏᑦ",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "ᐅᖃᖃᑎᒋᔪᑦ",
+		"getInTouch": "ᐅᖃᖃᑎᒋᕗᒍᑦ",
+		"links": {
+			"telegramChat": "Telegram-ᒥᒃ ᐅᖃᖃᑎᒌᒃᑐᑦ",
+			"telegramAnnouncements": "Telegram ᑐᓴᒐᒃᓴᑦ",
+			"facebook": "Facebook ᑲᑎᙵᔪᑦ"
+		}
+	},
+	"footer": {
+		"by": "ᐊᑐᖅᑕᐅᔪᖅ"
+	}
+}

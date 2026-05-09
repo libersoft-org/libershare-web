@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kwabelana Ngamafayela Okungenakubuswa",
+		"description": "{project} yisofthiwe ye-peer-to-peer yokwabelana ngamafayela, eyakhiwe phezu kwetekhinoloji yesimanjemanje engenakubuswa.",
+		"ogTitle": "{project} - Isofthiwe Yokwabelana Ngamafayela Engenakubuswa",
+		"ogDescription": "Ukwabelana ngamafayela kwe-peer-to-peer phezu kwetekhinoloji yesimanjemanje engenakubuswa. Akukho seva esemkhatsini. Akukho ndzawo yinye yekuhluleka."
+	},
+	"menu": {
+		"about": "Mayelana",
+		"download": "Layisha",
+		"screenshots": "Tikenshothi",
+		"comparison": "Kucatsanisa",
+		"contact": "Tsintsana",
+		"toggle": "Tjintsa imenyu",
+		"close": "Vala imenyu",
+		"language": "Lulwimi",
+		"selectLanguage": "Khetsa lulwimi"
+	},
+	"hero": {
+		"subtitle": "Situkulwane lesilandzelako sekwabelana ngamafayela kwe-peer-to-peer",
+		"description": "Phezu kwetekhinoloji yesimanjemanje engenakubuswa. Akukho seva esemkhatsini. Akukho ndzawo yinye yekuhluleka.",
+		"download": "Layisha"
+	},
+	"about": {
+		"title": "Mayelana",
+		"intro": "{project} yipulatifomu yesitukulwane lesilandzelako sekwabelana ngamafayela kwe-peer-to-peer leyakhiwe phezu kwetekhinoloji yesimanjemanje engenakubuswa. Ihlanganisa ikhasi lelisebenta kalula nemoyalo loyentile longakabuswa, ileta kwabelana ngedata lokuphephile nalokwetsembekile ngaphandle kwesidzingo sekuvumelwa kwemumeli waselikhatsi. Lelifolosa livulekile, lisetjentiswa ngaphansi kwe-{license}.",
+		"features": {
+			"decentralized": {
+				"title": "Inethiwekhi lengakabuswa nakancane",
+				"description": "Akukho seva esemkhatsini, akukho ndzawo yinye yekuhluleka. Bayinhloko bayatfola futsi balayisha sicaba secaba ngalokucondzile, ngaphandle kwekutsembela nakuphi indeksa, lokulandzelako, kumbe sigcina semaningi semelelwe."
+			},
+			"accessControl": {
+				"title": "Lukhetfo loluneketela kuvula",
+				"description": "Nome ngubani angakhona kucala inethiwekhi yakhe mahhala ngeluhlelo lwakhe. Ngekhatsi inethiwekhi nguyinye, chaza tindzima tebayinhloko: umbusi, admin, umshicileli, mlawuli kanye nalophesheya. Lawula ngeketela ukutsi ngubani lokwakhe kushicilele, lawule, futsi alayishe sicaba."
+			},
+			"ui": {
+				"title": "Imithombo lekhuluma kahle",
+				"description": "Imithombo yesentha senyene yekhululekile, yenketwe yi-desktop, TV nemkhushwane. Sihambo lesilula ngebhodi lwetinkhomba, sago, sicwabeziwe noma ngokulawulwa. Bayinhloko labandulekile bangakwati kuhambisa lesofthiwe nje ngeseva yamafayela ngabuye ngebusisa lwemugqa wemiyalo."
+			},
+			"dataFormat": {
+				"title": "Indlela yedata lekhonjwa ngumuntfu",
+				"description": "Indlela yedata ye-LISH yakhiwe phezu kwe-JSON, lokwenta ibe lula kwakha, kufundza nakucondzaSibhalele sicaba sakho ngedatametaa lecacile nalebabako labamene angakwati kucwaya kalula."
+			},
+			"security": {
+				"title": "Imfihlo nekuphepha",
+				"description": "Konkhe kuxoxisana kwe-peer-to-peer kucashazwe, lokucinise kutsi data yakho ihlala iyimfihlo ngenkhatsi yekutfumela. Bayinhloko bangakhona kuyifihla emuva kwe-VPN ngekuhlanganisa kwekungavumelwa. {project} ihlonipha imfihlo yakho ngendlela yekuyenta."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Lesofthiwe iyatfolakala ku-Windows, Linux na macOS. Yisebentise nakuphi loludlela lokhetsako."
+			}
+		}
+	},
+	"download": {
+		"title": "Layisha",
+		"description": "Tfola {project} ngepulatifomu yakho. Konkhe kulayisha kumahhala futsi kuvulekile.",
+		"version": "Iversion yamanje: {version}",
+		"linkAlt": "Layisha",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Sifaki {format}",
+			"package": "Iphakheji {format}",
+			"portableZip": "ZIP letfolakalako",
+			"viewOnGithub": "Bonisa ku-GitHub"
+		},
+		"macos": {
+			"title": "Sifiso lesibalulekile kubayinhloko be macOS:",
+			"intro": "macOS Gatekeeper utawuvimba ema-app langasayinwanga/notarized lalayishiwe ku-internet, ngephutsa {error}.",
+			"error": "\"yonakele, ayivuleki\"",
+			"runCommand": "Ngemuva kwekulayisha DMG noma ZIP, ngapha kwekuvula i-app, hlanganisa lawu mlayeti ku-Terminal:",
+			"exampleDmg": "Sibonelo, ngemuva kwekufaka kwe-DMG:",
+			"exampleZip": "Noma ngemuva kwekuhumusha ZIP:",
+			"explanation": "Loku kuyabusulisa attribute yekuhlinzeka futsi kuvumele i-app yifune."
+		}
+	},
+	"screenshots": {
+		"title": "Tikenshothi",
+		"open": "Vula sikenshothi {index}",
+		"alt": "Sikenshothi {index}",
+		"close": "Vala lifolosa",
+		"prev": "Sitfombe lesedlulile",
+		"next": "Sitfombe lesilandzelako"
+	},
+	"comparison": {
+		"title": "Kucatsanisa",
+		"feature": "Sici",
+		"yes": "Yebo",
+		"no": "Cha",
+		"partialDht": "Bekungephelele (DHT)",
+		"rows": {
+			"decentralized": "Inethiwekhi lengakabuswa",
+			"onlineLibrary": "Lifosholo lekuonline",
+			"builtInSearch": "Kufuna sicaba lokufakwe ngekhatsi",
+			"decentralizedSearch": "Kufuna sicaba lokungakabuswa",
+			"parallelDownloads": "Kulayisha ngekhatsi sokuphuma kumathombo lamanyenti",
+			"mediaCenter": "Imithombo yesentha senyene",
+			"gamepad": "Lusekelo lwe-gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tsintsana",
+		"getInTouch": "Tsintsana natsi",
+		"links": {
+			"telegramChat": "Licembu lekhuluma le-Telegram",
+			"telegramAnnouncements": "Tibikelo te-Telegram",
+			"facebook": "Licembu le-Facebook"
+		}
+	},
+	"footer": {
+		"by": "ngu"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Guovddášhuvvon fiilajuohkin",
+		"description": "{project} lea peer-to-peer prográmma fiilajuhkimii, mii lea hukset ođđaáigásaš guovddášhuvvon teknologiija ala.",
+		"ogTitle": "{project} - Guovddášhuvvon fiilajuogadanprográmma",
+		"ogDescription": "Peer-to-peer fiilajuohkin ođđaáigásaš guovddášhuvvon teknologiija ala. Ii oktet guovddáš serveris. Ii oktet áidna sodjenčuokkis."
+	},
+	"menu": {
+		"about": "Birra",
+		"download": "Viečča",
+		"screenshots": "Šearbmagovat",
+		"comparison": "Buohtastahttin",
+		"contact": "Oktavuohta",
+		"toggle": "Molsut fálaldaga",
+		"close": "Gidde fálaldaga",
+		"language": "Giella",
+		"selectLanguage": "Vállje giela"
+	},
+	"hero": {
+		"subtitle": "Boahttevaš buolva peer-to-peer fiilajuohkimis",
+		"description": "Ođđaáigásaš guovddášhuvvon teknologiija ala. Ii oktet guovddáš serveris. Ii oktet áidna sodjenčuokkis.",
+		"download": "Viečča"
+	},
+	"about": {
+		"title": "Birra",
+		"intro": "{project} lea boahttevaš buolva platfora peer-to-peer fiilajuhkimii mii lea hukset ođđaáigásaš guovddášhuvvon teknologiija ala. Dat ovttastahttá geavaheaddjeustitlaš okta-gaskka oktan ollásit guovddášhuvvon arkitektuvrrain, dat buktá oadjebas ja luohtehahtti dieđujuogadeami almmá darbbu váikkuhusgo guovddáš váldii. Dát prošeakta lea open source, juhkkojuvvon {license} vuolde.",
+		"features": {
+			"decentralized": {
+				"title": "Ollásit guovddášhuvvon fierpmádat",
+				"description": "Ii oktet guovddáš serveris, ii oktet áidna sodjenčuokkis. Geavaheaddjit gávdnet ja viežžet sisdoaluid njuolga nuppástaga, eai luohte ovttage guovddáš indeksahuvvon, čuovvunneavvu, dahje vuođđodieđuvuorká."
+			},
+			"accessControl": {
+				"title": "Detaljerejuvvon beassanstivren",
+				"description": "Juohkehaš sáhttá nuvttá álggahit iežas fierpmádaga iežas njuolggadusaiguin. Juohke fierpmádaga siste, definere geavaheaddjirollaid: eaiggát, hálddašeaddji, almmuheaddji, moderáhtor ja viežžan. Stivre dárkilit gii sáhttá almmuhit, moderet ja viežžat sisdoalu."
+			},
+			"ui": {
+				"title": "Alla kvalitehtolaš geavaheaddjeustitlaš",
+				"description": "Čielga ja njuovččas mediaguovddáš okta-gaskka, hábmejuvvon dasiidkonnan, TV ja mobiila platforuide. Álki johtolat boallobeavddi, sáhpáni, gomažanjuolggadusa dahje gáiddusgomažango bokte. Ovddidan geavaheaddjit sáhttet vuojahit prográmma oaivvi haga fiilaservveris gohččunlinjáokta-gaska bokte."
+			},
+			"dataFormat": {
+				"title": "Olbmui lohkamuš dieđuhápmi",
+				"description": "LISH dieđuhápmi lea hukset JSON ala, dat dahká dan álkin ráhkadit, lohkat ja áddet. Juoga sisdoalu čielga ja čájehuvvon metadáhtaiguin maid juohkehaš sáhttá guorrahit álkit."
+			},
+			"security": {
+				"title": "Priváhtavuohta ja sihkkarvuohta",
+				"description": "Buot peer-to-peer gulahallamat leat enkrypterejuvvon, dáhkidit ahte du dieđut bissot priváhta sáddenmuttus. Geavaheaddjit sáhttet čiehkit VPN duohken liigeárvun anonyma. {project} gudnejahttá du priváhtavuođa hábmema bokte."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Prográmma lea oažžumis Windows, Linux ja macOS:as. Geavat dan vaikko mas ávdnasis háliidat."
+			}
+		}
+	},
+	"download": {
+		"title": "Viečča",
+		"description": "Oačču {project} du platforai. Buot viežžamat leat nuvttá ja open source.",
+		"version": "Dálá veršuvdna: {version}",
+		"linkAlt": "Viečča",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-asaheaddji",
+			"package": "{format}-páhkka",
+			"portableZip": "Sirdomuš ZIP",
+			"viewOnGithub": "Geahča GitHubas"
+		},
+		"macos": {
+			"title": "Deaŧalaš dieđáhus macOS-geavaheaddjiide:",
+			"intro": "macOS Gatekeeper boktá interneahtas viežžojuvvon vuolláičállekeahtes/notariserekeahtes prográmmaid, gozut {error}.",
+			"error": "\"lea billahuvvon, ii sáhte rahppojuvvot\"",
+			"runCommand": "Maŋŋel go leat viežžan DMG dahje ZIP, ovdal go rahpat prográmma, vuoje dán gohččuma Terminálas:",
+			"exampleDmg": "Ovdamearka, maŋŋel asaheami DMG:s:",
+			"exampleZip": "Dahje maŋŋel ZIP-báhkkenrahpana:",
+			"explanation": "Dát váldá eret karantenjajemiid ja diktá prográmma vuodjat."
+		}
+	},
+	"screenshots": {
+		"title": "Šearbmagovat",
+		"open": "Raba šearbmagova {index}",
+		"alt": "Šearbmagovva {index}",
+		"close": "Gidde galleria",
+		"prev": "Ovddit govva",
+		"next": "Boahtte govva"
+	},
+	"comparison": {
+		"title": "Buohtastahttin",
+		"feature": "Iešvuohta",
+		"yes": "Juo",
+		"no": "Ii",
+		"partialDht": "Oassi (DHT)",
+		"rows": {
+			"decentralized": "Guovddášhuvvon fierpmádat",
+			"onlineLibrary": "Online girjerájus",
+			"builtInSearch": "Sisahukset sisdoallooidnu",
+			"decentralizedSearch": "Guovddášhuvvon sisdoallooidnu",
+			"parallelDownloads": "Buohkanaš viežžamat máŋgga gáldus",
+			"mediaCenter": "Mediaguovddáš okta-gaska",
+			"gamepad": "Gomažanjuolggadusa doarjja",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Oktavuohta",
+		"getInTouch": "Váldde oktavuođa",
+		"links": {
+			"telegramChat": "Telegram-ságastalanjoavku",
+			"telegramAnnouncements": "Telegram-dieđut",
+			"facebook": "Facebook-joavku"
+		}
+	},
+	"footer": {
+		"by": "barget"
+	}
+}

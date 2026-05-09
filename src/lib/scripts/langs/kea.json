@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partilha di Fixerus Diskontralizadu",
+		"description": "{project} é un software peer-to-peer pa partilha di fixerus, konstruidu riba di tikinolojia modernu diskontralizadu.",
+		"ogTitle": "{project} - Software di Partilha di Fixerus Diskontralizadu",
+		"ogDescription": "Partilha di fixerus peer-to-peer riba di tikinolojia modernu diskontralizadu. Ka ten servidor sentral. Ka ten un úniku ponton di falha."
+	},
+	"menu": {
+		"about": "Sobri",
+		"download": "Diskarrega",
+		"screenshots": "Kapturas di ekran",
+		"comparison": "Komparason",
+		"contact": "Kontaktu",
+		"toggle": "Alterna menú",
+		"close": "Fitxa menú",
+		"language": "Língua",
+		"selectLanguage": "Skodji língua"
+	},
+	"hero": {
+		"subtitle": "Próssimu jerason di partilha di fixerus peer-to-peer",
+		"description": "Riba di tikinolojia modernu diskontralizadu. Ka ten servidor sentral. Ka ten un úniku ponton di falha.",
+		"download": "Diskarrega"
+	},
+	"about": {
+		"title": "Sobri",
+		"intro": "{project} é un platafórma di próssimu jerason pa partilha di fixerus peer-to-peer konstruidu riba di tikinolojia modernu diskontralizadu. El ta kombina un interfaci fasil di uza ku un arkitetura kompletamenti diskontralizadu, ta ofresi partilha di dadus siguru i fiavel sen nesesidadi di nenhun autoridadi sentral. Es prujetu é open source, distribuidu sob a {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Redi kompletamenti diskontralizadu",
+				"description": "Ka ten servidor sentral, ka ten un úniku ponton di falha. Uzuárius ta diskubri i diskarrega kontiudu diretamenti un di otu, sen dipendi di nenhun indeksador, rastreador, ó bazi di dadus sentral."
+			},
+			"accessControl": {
+				"title": "Kontrolu di asesu detalhadu",
+				"description": "Kaltxer un pode lansa se própria redi di grasa ku se própria regras. Dentu di kada redi, difini papel di uzuárius: dunu, admin, publikador, moderador i diskarregador. Kontrola detalhadamenti kenha ki pode publika, modera, i diskarrega kontiudu."
+			},
+			"ui": {
+				"title": "Interfaci di uzuáriu di alta kualidadi",
+				"description": "Interfaci di sentru di médiu limpu i suavi, dizenhadu pa desktop, TV i platafórmas móvel. Navegason fasil ku teklado, ratu, gamepad ó komandu. Uzuárius avansadu pode lansa software komu un servidor di fixerus sen kabesa atravéz di interfaci di linha di komandu."
+			},
+			"dataFormat": {
+				"title": "Formatu di dadus lijivel pa pesoa",
+				"description": "Formatu di dadus LISH é konstruidu riba di JSON, ta torna fasil di kria, lê i kompriendi. Partilha bu kontiudu ku metadados klaru i transparenti ki kaltxer un pode inspesiona faramenti."
+			},
+			"security": {
+				"title": "Privasidadi i siguransa",
+				"description": "Tudu komunikasaun peer-to-peer é sifradu, ta garanti ki bu dadus permanesi privadu duranti transmisaun. Uzuárius pode skondi atráz di un VPN pa kamada adisional di anonimatu. {project} ta respeita bu privasidadi pa dizenhu."
+			},
+			"crossPlatform": {
+				"title": "Multi-platafórma",
+				"description": "Software ta sta dispunivel na Windows, Linux i macOS. Uza-l na kalker dispozitivu ki bu prefiri."
+			}
+		}
+	},
+	"download": {
+		"title": "Diskarrega",
+		"description": "Pega {project} pa bu platafórma. Tudu diskarregamentu é grátis i open source.",
+		"version": "Versaun atual: {version}",
+		"linkAlt": "Diskarrega",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Pakoti {format}",
+			"portableZip": "ZIP portátil",
+			"viewOnGithub": "Odja na GitHub"
+		},
+		"macos": {
+			"title": "Nota importanti pa uzuárius di macOS:",
+			"intro": "macOS Gatekeeper ta blokia aplikativu ka asinadu/notarizadu diskarregadu di internet, ku eru {error}.",
+			"error": "\"sta korrumpidu, ka pode ser abertu\"",
+			"runCommand": "Dipos di diskarrega DMG ó ZIP, antis di abri aplikativu, kori es komandu na Terminal:",
+			"exampleDmg": "Igzemplu, dipos di instala di DMG:",
+			"exampleZip": "Ó dipos di stra ZIP:",
+			"explanation": "Es ta tirá atributu di kuarentena i ta dexa aplikativu kori."
+		}
+	},
+	"screenshots": {
+		"title": "Kapturas di ekran",
+		"open": "Abri kaptura di ekran {index}",
+		"alt": "Kaptura di ekran {index}",
+		"close": "Fitxa galeria",
+		"prev": "Imajen anterior",
+		"next": "Próssima imajen"
+	},
+	"comparison": {
+		"title": "Komparason",
+		"feature": "Funsionalidadi",
+		"yes": "Sin",
+		"no": "Nau",
+		"partialDht": "Parsial (DHT)",
+		"rows": {
+			"decentralized": "Redi diskontralizadu",
+			"onlineLibrary": "Bibliotéka onlain",
+			"builtInSearch": "Buska di kontiudu inkluida",
+			"decentralizedSearch": "Buska di kontiudu diskontralizadu",
+			"parallelDownloads": "Diskarregamentu paralelu di múltiplus fonti",
+			"mediaCenter": "Interfaci di sentru di médiu",
+			"gamepad": "Suporti di gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontaktu",
+		"getInTouch": "Entra en kontaktu",
+		"links": {
+			"telegramChat": "Grupu di chat Telegram",
+			"telegramAnnouncements": "Anúnsius di Telegram",
+			"facebook": "Grupu di Facebook"
+		}
+	},
+	"footer": {
+		"by": "pa"
+	}
+}

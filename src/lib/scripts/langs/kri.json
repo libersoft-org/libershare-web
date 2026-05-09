@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Disentralayz Fayl Shering",
+		"description": "{project} na peer-to-peer software fɔ fayl shering, we dɛn bil pan modan disentralayz teknɔlɔji.",
+		"ogTitle": "{project} - Disentralayz Fayl Shering Software",
+		"ogDescription": "Peer-to-peer fayl shering pan modan disentralayz teknɔlɔji. Nɔ sɛntral sava. Nɔ wan pɔynt fɔ fel."
+	},
+	"menu": {
+		"about": "Bɔt",
+		"download": "Dawnlod",
+		"screenshots": "Skrinshɔt dɛm",
+		"comparison": "Kɔmparɛzɔn",
+		"contact": "Kɔntakt",
+		"toggle": "Tɔgul menyu",
+		"close": "Klos menyu",
+		"language": "Langwej",
+		"selectLanguage": "Pik langwej"
+	},
+	"hero": {
+		"subtitle": "Niu jenarayshɔn peer-to-peer fayl shering",
+		"description": "Pan modan disentralayz teknɔlɔji. Nɔ sɛntral sava. Nɔ wan pɔynt fɔ fel.",
+		"download": "Dawnlod"
+	},
+	"about": {
+		"title": "Bɔt",
+		"intro": "{project} na niu jenarayshɔn platfɔm fɔ peer-to-peer fayl shering we dɛn bil pan modan disentralayz teknɔlɔji. I de jɔyn yuza-frɛndli intafes wit fulli disentralayz akitɛkchɔ, we de bring sef ɛn riliebul data shering wit nɔ nid fɔ ɛni sɛntral atɔriti. Di prɔjɛkt na opin sɔs, we dɛn distribyut anda di {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fulli disentralayz nɛtwɔk",
+				"description": "Nɔ sɛntral sava, nɔ wan pɔynt fɔ fel. Yuza dɛm de fɛn ɛn dawnlod kɔntɛnt dayrɛkt frɔm wan ɛn ɔda, witawt depɛnd pan ɛni sɛntral indɛksa, trakka, ɔ databes."
+			},
+			"accessControl": {
+				"title": "Fayn-grein akses kɔntrol",
+				"description": "Anibɔdi kin start dɛn ɔn nɛtwɔk fɔ fri wit dɛn ɔn rul. Insay ɛvri nɛtwɔk, dɛfin yuza rol dɛm: ona, admin, pɔblisha, mɔdarɛta ɛn dawnloda. Kɔntrol fayn-grein udat kin pɔblish, mɔdarɛt, ɛn dawnlod kɔntɛnt."
+			},
+			"ui": {
+				"title": "Hay-kwaliti yuza intafes",
+				"description": "Klin ɛn smut midia sɛnta intafes, dɛn dizayn am fɔ disktɔp, TV ɛn mobayl platfɔm. Iizi navigeshɔn wit kibɔd, maws, gemped ɔ rimot. Adva yuza dɛm kin run di software az ɛd-lɛs fayl sava wit kɔman-layn intafes."
+			},
+			"dataFormat": {
+				"title": "Yuman-ridebul data fɔmat",
+				"description": "Di LISH data fɔmat dɛn bil pan JSON, mek i izi fɔ kriet, rid ɛn ɔndastand. Sher yu kɔntɛnt wit klin ɛn transparent metadata we anibɔdi kin chɛk izi."
+			},
+			"security": {
+				"title": "Praivasi ɛn sɛkyuriti",
+				"description": "Ɔl peer-to-peer kɔmunikeshɔn dɛn enkript am, fɔ mek shɔ se yu data tan prayvit pan transmit. Yuza dɛm kin hayd biyen VPN fɔ ɛkstra anɔnɛmiti. {project} de rɛspɛkt yu praivasi bay dizayn."
+			},
+			"crossPlatform": {
+				"title": "Krɔs-platfɔm",
+				"description": "Di software de pan Windows, Linux ɛn macOS. Yuz am pan ɛni divays we yu lɛk."
+			}
+		}
+	},
+	"download": {
+		"title": "Dawnlod",
+		"description": "Gɛt {project} fɔ yu platfɔm. Ɔl dawnlod dɛm na fri ɛn opin sɔs.",
+		"version": "Kɔrɛnt vashɔn: {version}",
+		"linkAlt": "Dawnlod",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instala",
+			"package": "{format} pakej",
+			"portableZip": "Pɔtebul ZIP",
+			"viewOnGithub": "Si pan GitHub"
+		},
+		"macos": {
+			"title": "Impɔtant not fɔ macOS yuza dɛm:",
+			"intro": "macOS Gatekeeper go blɔk anseyn/anɔtaraysd ap dɛn we yu dawnlod frɔm di intanɛt, wit di ɛrɔ {error}.",
+			"error": "\"i dɔn dameg, nɔ ebul fɔ opin\"",
+			"runCommand": "Afta yu dawnlod di DMG ɔ ZIP, bifo yu opin di ap, run dis kɔman insay Tɛrminal:",
+			"exampleDmg": "Ɛgzampul, afta yu instal frɔm DMG:",
+			"exampleZip": "Ɔ afta yu ɛkstrakt di ZIP:",
+			"explanation": "Dis go rimuv di kɔrantin atribyut ɛn lɛf di ap fɔ run."
+		}
+	},
+	"screenshots": {
+		"title": "Skrinshɔt dɛm",
+		"open": "Opin skrinshɔt {index}",
+		"alt": "Skrinshɔt {index}",
+		"close": "Klos galari",
+		"prev": "Bifo imej",
+		"next": "Nɛkst imej"
+	},
+	"comparison": {
+		"title": "Kɔmparɛzɔn",
+		"feature": "Fichɔ",
+		"yes": "Yɛs",
+		"no": "Nɔ",
+		"partialDht": "Pat (DHT)",
+		"rows": {
+			"decentralized": "Disentralayz nɛtwɔk",
+			"onlineLibrary": "Ɔnlayn laybrari",
+			"builtInSearch": "Bilt-in kɔntɛnt sɛch",
+			"decentralizedSearch": "Disentralayz kɔntɛnt sɛch",
+			"parallelDownloads": "Paralɛl dawnlod frɔm bɔku sɔs",
+			"mediaCenter": "Midia sɛnta intafes",
+			"gamepad": "Gemped sɔpɔt",
+			"openSource": "Opin sɔs"
+		}
+	},
+	"contact": {
+		"title": "Kɔntakt",
+		"getInTouch": "Gɛt in toch",
+		"links": {
+			"telegramChat": "Telegram chat grup",
+			"telegramAnnouncements": "Telegram anawnsmɛnt",
+			"facebook": "Facebook grup"
+		}
+	},
+	"footer": {
+		"by": "bay"
+	}
+}
