@@ -14,7 +14,8 @@
 		"toggle": "Preklopi meni",
 		"close": "Zapri meni",
 		"language": "Jezik",
-		"selectLanguage": "Izberi jezik"
+		"selectLanguage": "Izberi jezik",
+		"searchLanguage": "Iskanje jezika..."
 	},
 	"hero": {
 		"subtitle": "Izmenjava datotek peer-to-peer naslednje generacije",

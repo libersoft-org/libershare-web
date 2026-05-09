@@ -14,7 +14,8 @@
 		"toggle": "I-toggle an menu",
 		"close": "Sirado an menu",
 		"language": "Yinaknan",
-		"selectLanguage": "Pumili hin yinaknan"
+		"selectLanguage": "Pumili hin yinaknan",
+		"searchLanguage": "Pangitaa an yinaknan..."
 	},
 	"hero": {
 		"subtitle": "An sunod nga henerasyon han peer-to-peer nga pagpaambit hin mga file",

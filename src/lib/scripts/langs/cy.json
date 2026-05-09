@@ -14,7 +14,8 @@
 		"toggle": "Toglu'r ddewislen",
 		"close": "Cau'r ddewislen",
 		"language": "Iaith",
-		"selectLanguage": "Dewis iaith"
+		"selectLanguage": "Dewis iaith",
+		"searchLanguage": "Chwilio iaith..."
 	},
 	"hero": {
 		"subtitle": "Rhannu ffeiliau cymar-i-gymar y genhedlaeth nesaf",

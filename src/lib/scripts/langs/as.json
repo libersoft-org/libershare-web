@@ -14,7 +14,8 @@
 		"toggle": "মেনু ট'গল কৰক",
 		"close": "মেনু বন্ধ কৰক",
 		"language": "ভাষা",
-		"selectLanguage": "ভাষা বাছনি কৰক"
+		"selectLanguage": "ভাষা বাছনি কৰক",
+		"searchLanguage": "ভাষা সন্ধান কৰক..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer ফাইল শ্বেয়াৰিঙৰ নতুন প্ৰজন্ম",

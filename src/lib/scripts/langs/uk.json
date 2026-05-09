@@ -14,7 +14,8 @@
 		"toggle": "Перемкнути меню",
 		"close": "Закрити меню",
 		"language": "Мова",
-		"selectLanguage": "Вибрати мову"
+		"selectLanguage": "Вибрати мову",
+		"searchLanguage": "Пошук мови..."
 	},
 	"hero": {
 		"subtitle": "Однорангове передавання файлів нового покоління",

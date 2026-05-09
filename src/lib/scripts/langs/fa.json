@@ -14,7 +14,8 @@
 		"toggle": "تغییر وضعیت منو",
 		"close": "بستن منو",
 		"language": "زبان",
-		"selectLanguage": "انتخاب زبان"
+		"selectLanguage": "انتخاب زبان",
+		"searchLanguage": "جستجوی زبان..."
 	},
 	"hero": {
 		"subtitle": "اشتراک‌گذاری فایل همتا به همتای نسل جدید",

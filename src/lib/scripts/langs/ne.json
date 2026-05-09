@@ -14,7 +14,8 @@
 		"toggle": "मेनु टगल गर्नुहोस्",
 		"close": "मेनु बन्द गर्नुहोस्",
 		"language": "भाषा",
-		"selectLanguage": "भाषा छनोट गर्नुहोस्"
+		"selectLanguage": "भाषा छनोट गर्नुहोस्",
+		"searchLanguage": "भाषा खोज्नुहोस्..."
 	},
 	"hero": {
 		"subtitle": "अर्को पुस्ताको peer-to-peer फाइल साझेदारी",

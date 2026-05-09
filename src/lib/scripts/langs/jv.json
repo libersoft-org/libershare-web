@@ -14,7 +14,8 @@
 		"toggle": "Ngalih menu",
 		"close": "Nutup menu",
 		"language": "Basa",
-		"selectLanguage": "Pilih basa"
+		"selectLanguage": "Pilih basa",
+		"searchLanguage": "Goleki basa..."
 	},
 	"hero": {
 		"subtitle": "Pambagi file peer-to-peer generasi sabanjure",

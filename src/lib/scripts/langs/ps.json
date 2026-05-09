@@ -14,7 +14,8 @@
 		"toggle": "مینو بدل کړئ",
 		"close": "مینو وتړئ",
 		"language": "ژبه",
-		"selectLanguage": "ژبه وټاکئ"
+		"selectLanguage": "ژبه وټاکئ",
+		"searchLanguage": "ژبه لټول..."
 	},
 	"hero": {
 		"subtitle": "د راتلونکې نسل د همکار-سره-همکار د فایل شریکول",

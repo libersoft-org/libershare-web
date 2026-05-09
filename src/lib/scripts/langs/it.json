@@ -14,7 +14,8 @@
 		"toggle": "Apri/chiudi menu",
 		"close": "Chiudi menu",
 		"language": "Lingua",
-		"selectLanguage": "Seleziona lingua"
+		"selectLanguage": "Seleziona lingua",
+		"searchLanguage": "Cerca lingua..."
 	},
 	"hero": {
 		"subtitle": "Condivisione di file peer-to-peer di nuova generazione",

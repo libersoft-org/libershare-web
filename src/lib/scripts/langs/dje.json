@@ -14,7 +14,8 @@
 		"toggle": "Menu fiti",
 		"close": "Menu daabu",
 		"language": "Sanni",
-		"selectLanguage": "Sanni suuban"
+		"selectLanguage": "Sanni suuban",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer sankayan zamana taji",

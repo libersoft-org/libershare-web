@@ -14,7 +14,8 @@
 		"toggle": "Avrîr al menù",
 		"close": "Saràr al menù",
 		"language": "Léngua",
-		"selectLanguage": "Sèrnir la léngua"
+		"selectLanguage": "Sèrnir la léngua",
+		"searchLanguage": "Zerca lengua..."
 	},
 	"hero": {
 		"subtitle": "Scàmbi ed file peer-to-peer ed nóva generaziòun",

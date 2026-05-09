@@ -14,7 +14,8 @@
 		"toggle": "Hindura menu",
 		"close": "Funga menu",
 		"language": "Ururimi",
-		"selectLanguage": "Hitamo ururimi"
+		"selectLanguage": "Hitamo ururimi",
+		"searchLanguage": "Shaka ururimi..."
 	},
 	"hero": {
 		"subtitle": "Igisekuruza gitaha cyo gusangira amadosiye ya peer-to-peer",

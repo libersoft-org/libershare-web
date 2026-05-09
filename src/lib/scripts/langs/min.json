@@ -14,7 +14,8 @@
 		"toggle": "Ubah menu",
 		"close": "Tutuik menu",
 		"language": "Bahaso",
-		"selectLanguage": "Piliah bahaso"
+		"selectLanguage": "Piliah bahaso",
+		"searchLanguage": "Cari bahaso..."
 	},
 	"hero": {
 		"subtitle": "Babagi berkas peer-to-peer ganerasi bisuak",

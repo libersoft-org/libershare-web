@@ -14,7 +14,8 @@
 		"toggle": "Превключване на менюто",
 		"close": "Затваряне на менюто",
 		"language": "Език",
-		"selectLanguage": "Избор на език"
+		"selectLanguage": "Избор на език",
+		"searchLanguage": "Търсене на език..."
 	},
 	"hero": {
 		"subtitle": "Ново поколение peer-to-peer споделяне на файлове",

@@ -14,7 +14,8 @@
 		"toggle": "I-toggle ang menu",
 		"close": "Isara ang menu",
 		"language": "Wika",
-		"selectLanguage": "Pumili ng wika"
+		"selectLanguage": "Pumili ng wika",
+		"searchLanguage": "Maghanap ng wika..."
 	},
 	"hero": {
 		"subtitle": "Susunod na henerasyong peer-to-peer file sharing",

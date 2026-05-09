@@ -14,7 +14,8 @@
 		"toggle": "मेन्यू टॉगल करो",
 		"close": "मेन्यू बंद करो",
 		"language": "भाषा",
-		"selectLanguage": "भाषा चुणो"
+		"selectLanguage": "भाषा चुणो",
+		"searchLanguage": "भाषा खोजो..."
 	},
 	"hero": {
 		"subtitle": "अगली पीढ़ी री peer-to-peer फाइल साझेदारी",

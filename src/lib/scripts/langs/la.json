@@ -14,7 +14,8 @@
 		"toggle": "Aperire menu",
 		"close": "Claudere menu",
 		"language": "Lingua",
-		"selectLanguage": "Eligere linguam"
+		"selectLanguage": "Eligere linguam",
+		"searchLanguage": "Quaerere linguam..."
 	},
 	"hero": {
 		"subtitle": "Communicatio fasciculorum peer-to-peer generationis sequentis",

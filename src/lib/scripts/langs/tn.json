@@ -14,7 +14,8 @@
 		"toggle": "Fetola menu",
 		"close": "Tswala menu",
 		"language": "Puo",
-		"selectLanguage": "Tlhopha puo"
+		"selectLanguage": "Tlhopha puo",
+		"searchLanguage": "Batla puo..."
 	},
 	"hero": {
 		"subtitle": "Lotso lo lo tlang la tlhakanelo ya difaele ya peer-to-peer",

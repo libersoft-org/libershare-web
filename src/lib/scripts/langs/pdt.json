@@ -14,7 +14,8 @@
 		"toggle": "Mediu opmoaken",
 		"close": "Mediu tuumoaken",
 		"language": "Sproak",
-		"selectLanguage": "Sproak ütsieken"
+		"selectLanguage": "Sproak ütsieken",
+		"searchLanguage": "Sproak säike..."
 	},
 	"hero": {
 		"subtitle": "Niee Generation peer-to-peer Datei-Deelung",

@@ -14,7 +14,8 @@
 		"toggle": "Avita menüü",
 		"close": "Kinni menüü",
 		"language": "Kiil",
-		"selectLanguage": "Vali kiilt"
+		"selectLanguage": "Vali kiilt",
+		"searchLanguage": "Otsi kiilt..."
 	},
 	"hero": {
 		"subtitle": "Vahtsõ põlvkonna peer-to-peer failide jagaminõ",

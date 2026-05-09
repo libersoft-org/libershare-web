@@ -14,7 +14,8 @@
 		"toggle": "Отворити меню",
 		"close": "Затворити меню",
 		"language": "Язык",
-		"selectLanguage": "Вибрати язык"
+		"selectLanguage": "Вибрати язык",
+		"searchLanguage": "Пошук языка..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer вимінка файлів новой ґенерації",

@@ -14,7 +14,8 @@
 		"toggle": "Pārslēgt izvēlni",
 		"close": "Aizvērt izvēlni",
 		"language": "Valoda",
-		"selectLanguage": "Izvēlieties valodu"
+		"selectLanguage": "Izvēlieties valodu",
+		"searchLanguage": "Meklēt valodu..."
 	},
 	"hero": {
 		"subtitle": "Jaunās paaudzes peer-to-peer failu koplietošana",

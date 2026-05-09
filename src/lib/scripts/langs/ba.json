@@ -14,7 +14,8 @@
 		"toggle": "Менюны алмаштырыу",
 		"close": "Менюны ябыу",
 		"language": "Тел",
-		"selectLanguage": "Тел һайлағыҙ"
+		"selectLanguage": "Тел һайлағыҙ",
+		"searchLanguage": "Тел эҙләү..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer файл уртаҡлашыуҙың яңы быуыны",

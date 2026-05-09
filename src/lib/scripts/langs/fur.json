@@ -14,7 +14,8 @@
 		"toggle": "Cambie il menù",
 		"close": "Siere il menù",
 		"language": "Lenghe",
-		"selectLanguage": "Selezione une lenghe"
+		"selectLanguage": "Selezione une lenghe",
+		"searchLanguage": "Cîr une lenghe..."
 	},
 	"hero": {
 		"subtitle": "La prossime gjenerazion di condivision di file peer-to-peer",

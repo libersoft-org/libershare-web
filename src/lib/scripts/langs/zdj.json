@@ -14,7 +14,8 @@
 		"toggle": "Geuza menyu",
 		"close": "Funga menyu",
 		"language": "Lugha",
-		"selectLanguage": "Chagua lugha"
+		"selectLanguage": "Chagua lugha",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Kizazi kijao cha uhanyize wa mafayilio wa peer-to-peer",

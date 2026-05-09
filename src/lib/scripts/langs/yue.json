@@ -14,7 +14,8 @@
 		"toggle": "切換選單",
 		"close": "關閉選單",
 		"language": "語言",
-		"selectLanguage": "揀語言"
+		"selectLanguage": "揀語言",
+		"searchLanguage": "搵語言..."
 	},
 	"hero": {
 		"subtitle": "新一代點對點檔案分享",

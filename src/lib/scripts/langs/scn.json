@@ -14,7 +14,8 @@
 		"toggle": "Apriri lu menù",
 		"close": "Chiùdiri lu menù",
 		"language": "Lingua",
-		"selectLanguage": "Sceglìri la lingua"
+		"selectLanguage": "Sceglìri la lingua",
+		"searchLanguage": "Çirca lingua..."
 	},
 	"hero": {
 		"subtitle": "Scangiu di file peer-to-peer di nova generazzioni",

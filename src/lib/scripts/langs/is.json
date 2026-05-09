@@ -14,7 +14,8 @@
 		"toggle": "Skipta um valmynd",
 		"close": "Loka valmynd",
 		"language": "Tungumál",
-		"selectLanguage": "Veldu tungumál"
+		"selectLanguage": "Veldu tungumál",
+		"searchLanguage": "Leita að tungumáli..."
 	},
 	"hero": {
 		"subtitle": "Næstu kynslóð jafningja-til-jafningja skráadeiling",

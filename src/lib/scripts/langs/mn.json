@@ -14,7 +14,8 @@
 		"toggle": "Цэс солих",
 		"close": "Цэс хаах",
 		"language": "Хэл",
-		"selectLanguage": "Хэл сонгоно уу"
+		"selectLanguage": "Хэл сонгоно уу",
+		"searchLanguage": "Хэл хайх..."
 	},
 	"hero": {
 		"subtitle": "Дараагийн үеийн peer-to-peer файл хуваалцах",

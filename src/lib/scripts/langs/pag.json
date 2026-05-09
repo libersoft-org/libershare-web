@@ -14,7 +14,8 @@
 		"toggle": "I-toggle so menu",
 		"close": "Iserra so menu",
 		"language": "Salita",
-		"selectLanguage": "Manpili na salita"
+		"selectLanguage": "Manpili na salita",
+		"searchLanguage": "Anapen so salita..."
 	},
 	"hero": {
 		"subtitle": "Say onsublay ya henerasyon na peer-to-peer ya pakibinilay na saray file",

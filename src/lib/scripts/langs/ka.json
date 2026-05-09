@@ -14,7 +14,8 @@
 		"toggle": "მენიუს გადართვა",
 		"close": "მენიუს დახურვა",
 		"language": "ენა",
-		"selectLanguage": "აირჩიეთ ენა"
+		"selectLanguage": "აირჩიეთ ენა",
+		"searchLanguage": "ენის ძებნა..."
 	},
 	"hero": {
 		"subtitle": "შემდეგი თაობის peer-to-peer ფაილების გაზიარება",

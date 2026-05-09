@@ -14,7 +14,8 @@
 		"toggle": "Avua valikko",
 		"close": "Šolge valikko",
 		"language": "Kieli",
-		"selectLanguage": "Valikoi kieli"
+		"selectLanguage": "Valikoi kieli",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Uvven šukupolven peer-to-peer failien jakami̇nõ",

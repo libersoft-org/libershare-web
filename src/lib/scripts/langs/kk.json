@@ -14,7 +14,8 @@
 		"toggle": "Мәзірді ауыстыру",
 		"close": "Мәзірді жабу",
 		"language": "Тіл",
-		"selectLanguage": "Тілді таңдаңыз"
+		"selectLanguage": "Тілді таңдаңыз",
+		"searchLanguage": "Тіл іздеу..."
 	},
 	"hero": {
 		"subtitle": "Келесі ұрпақтың peer-to-peer файл бөлісуі",

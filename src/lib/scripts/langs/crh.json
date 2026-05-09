@@ -14,7 +14,8 @@
 		"toggle": "Menüni almaştır",
 		"close": "Menüni qapat",
 		"language": "Til",
-		"selectLanguage": "Til saylañız"
+		"selectLanguage": "Til saylañız",
+		"searchLanguage": "Til qıdırmaq..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer fayl paylaşuvınıñ kelecek nesli",

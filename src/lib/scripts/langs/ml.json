@@ -14,7 +14,8 @@
 		"toggle": "മെനു ടോഗിൾ ചെയ്യുക",
 		"close": "മെനു അടയ്ക്കുക",
 		"language": "ഭാഷ",
-		"selectLanguage": "ഭാഷ തിരഞ്ഞെടുക്കുക"
+		"selectLanguage": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+		"searchLanguage": "ഭാഷ തിരയുക..."
 	},
 	"hero": {
 		"subtitle": "അടുത്ത തലമുറയിലെ peer-to-peer ഫയൽ പങ്കിടൽ",

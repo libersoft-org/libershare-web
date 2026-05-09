@@ -14,7 +14,8 @@
 		"toggle": "Менюну которуу",
 		"close": "Менюну жабуу",
 		"language": "Тил",
-		"selectLanguage": "Тилди тандаңыз"
+		"selectLanguage": "Тилди тандаңыз",
+		"searchLanguage": "Тил издөө..."
 	},
 	"hero": {
 		"subtitle": "Кийинки муундун peer-to-peer файл бөлүшүүсү",

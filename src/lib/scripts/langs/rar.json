@@ -14,7 +14,8 @@
 		"toggle": "Akairi i te menu",
 		"close": "Akati'a i te menu",
 		"language": "Reo",
-		"selectLanguage": "Iki i te reo"
+		"selectLanguage": "Iki i te reo",
+		"searchLanguage": "Kimi'anga reo..."
 	},
 	"hero": {
 		"subtitle": "Te au'akaaere mua peer-to-peer tu'angaanga pepa",

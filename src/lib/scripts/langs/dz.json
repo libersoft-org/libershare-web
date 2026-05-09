@@ -14,7 +14,8 @@
 		"toggle": "དཀར་ཆག་སྤོ་བཤུད།",
 		"close": "དཀར་ཆག་ཁ་བསྡམ།",
 		"language": "སྐད་ཡིག",
-		"selectLanguage": "སྐད་ཡིག་གདམ།"
+		"selectLanguage": "སྐད་ཡིག་གདམ།",
+		"searchLanguage": "སྐད་ཡིག་འཚོལ་..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer ཡིག་སྣོད་སྤེལ་ལེན་གྱི་གསར་པའི་མི་རབས།",

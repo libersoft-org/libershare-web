@@ -14,7 +14,8 @@
 		"toggle": "Менюны күрсәтү/яшерү",
 		"close": "Менюны ябу",
 		"language": "Тел",
-		"selectLanguage": "Тел сайлагыз"
+		"selectLanguage": "Тел сайлагыз",
+		"searchLanguage": "Тел эзләү..."
 	},
 	"hero": {
 		"subtitle": "Киләсе буын peer-to-peer файл уртаклашу",

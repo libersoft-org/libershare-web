@@ -14,7 +14,8 @@
 		"toggle": "Aqleb il-menu",
 		"close": "Agħlaq il-menu",
 		"language": "Lingwa",
-		"selectLanguage": "Agħżel lingwa"
+		"selectLanguage": "Agħżel lingwa",
+		"searchLanguage": "Fittex lingwa..."
 	},
 	"hero": {
 		"subtitle": "Qsim ta' fajls peer-to-peer tal-ġenerazzjoni li jmiss",

@@ -14,7 +14,8 @@
 		"toggle": "Meni přepinyć",
 		"close": "Meni začinić",
 		"language": "Rěč",
-		"selectLanguage": "Rěč wuzwolić"
+		"selectLanguage": "Rěč wuzwolić",
+		"searchLanguage": "Pytać rěč..."
 	},
 	"hero": {
 		"subtitle": "Přichodna generacija peer-to-peer-dźělenja datajow",

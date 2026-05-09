@@ -14,7 +14,8 @@
 		"toggle": "Pyrshang menu",
 		"close": "Khang menu",
 		"language": "Ka Ktien",
-		"selectLanguage": "Jied ka ktien"
+		"selectLanguage": "Jied ka ktien",
+		"searchLanguage": "Wad ka ktien..."
 	},
 	"hero": {
 		"subtitle": "Ka jingiaisuk fail peer-to-peer ka pyrthei ba dei ban wan",

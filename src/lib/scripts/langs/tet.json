@@ -14,7 +14,8 @@
 		"toggle": "Troka menu",
 		"close": "Taka menu",
 		"language": "Lian",
-		"selectLanguage": "Hili lian"
+		"selectLanguage": "Hili lian",
+		"searchLanguage": "Buka lian..."
 	},
 	"hero": {
 		"subtitle": "Jerasaun foun fahe arkivu peer-to-peer",

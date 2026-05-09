@@ -14,7 +14,8 @@
 		"toggle": "Toggle menu",
 		"close": "Tutup menu",
 		"language": "Basa",
-		"selectLanguage": "Pilih basa"
+		"selectLanguage": "Pilih basa",
+		"searchLanguage": "Teangan basa..."
 	},
 	"hero": {
 		"subtitle": "Generasi anyar babagi berkas peer-to-peer",

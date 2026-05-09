@@ -14,7 +14,8 @@
 		"toggle": "切换菜单",
 		"close": "关菜单",
 		"language": "语言",
-		"selectLanguage": "选语言"
+		"selectLanguage": "选语言",
+		"searchLanguage": "寻找语言..."
 	},
 	"hero": {
 		"subtitle": "新一代 peer-to-peer 文件共享",

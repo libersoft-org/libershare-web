@@ -14,7 +14,8 @@
 		"toggle": "Whakakā tahua",
 		"close": "Katia te tahua",
 		"language": "Reo",
-		"selectLanguage": "Tīpakohia te reo"
+		"selectLanguage": "Tīpakohia te reo",
+		"searchLanguage": "Rapu reo..."
 	},
 	"hero": {
 		"subtitle": "Te whakatupuranga e haere mai ana o te tuaritanga kōnae peer-to-peer",

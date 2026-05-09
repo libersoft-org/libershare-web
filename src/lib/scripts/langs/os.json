@@ -14,7 +14,8 @@
 		"toggle": "Меню ивын",
 		"close": "Меню сæхгæнын",
 		"language": "Æвзаг",
-		"selectLanguage": "Æвзаг равзар"
+		"selectLanguage": "Æвзаг равзар",
+		"searchLanguage": "Æвзаг агурын..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer файлты ивыды нæуæг фæлтæр",

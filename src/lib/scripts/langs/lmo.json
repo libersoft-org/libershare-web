@@ -14,7 +14,8 @@
 		"toggle": "Vèrt el menu",
 		"close": "Sarà el menu",
 		"language": "Lengua",
-		"selectLanguage": "Cèrn la lengua"
+		"selectLanguage": "Cèrn la lengua",
+		"searchLanguage": "Cerca lengua..."
 	},
 	"hero": {
 		"subtitle": "Scambi di file peer-to-peer de növa generaziun",

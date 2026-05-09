@@ -14,7 +14,8 @@
 		"toggle": "Alula Menyu",
 		"close": "Isalapo Menyu",
 		"language": "Ululimi",
-		"selectLanguage": "Salapo Ululimi"
+		"selectLanguage": "Salapo Ululimi",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Ukugabana amafayilo kwa peer-to-peer kwa nshita imo",

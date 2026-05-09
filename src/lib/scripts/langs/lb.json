@@ -14,7 +14,8 @@
 		"toggle": "Menü ëmschalten",
 		"close": "Menü zoumaachen",
 		"language": "Sprooch",
-		"selectLanguage": "Sprooch auswielen"
+		"selectLanguage": "Sprooch auswielen",
+		"searchLanguage": "Sprooch sichen..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-Peer Dateienaustausch vun der nächster Generatioun",

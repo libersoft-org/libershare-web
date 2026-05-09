@@ -14,7 +14,8 @@
 		"toggle": "Hindura urutonde",
 		"close": "Ugarira urutonde",
 		"language": "Ururimi",
-		"selectLanguage": "Hitamwo ururimi"
+		"selectLanguage": "Hitamwo ururimi",
+		"searchLanguage": "Rondera ururimi..."
 	},
 	"hero": {
 		"subtitle": "Iruhuko ryikuriraga ryo gusangiza amadosiye ya peer-to-peer",

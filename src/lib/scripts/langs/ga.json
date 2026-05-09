@@ -14,7 +14,8 @@
 		"toggle": "Athraigh roghchlár",
 		"close": "Dún roghchlár",
 		"language": "Teanga",
-		"selectLanguage": "Roghnaigh teanga"
+		"selectLanguage": "Roghnaigh teanga",
+		"searchLanguage": "Cuardaigh teanga..."
 	},
 	"hero": {
 		"subtitle": "Comhroinnt comhad piaraí-go-piaraí na chéad ghlúine eile",

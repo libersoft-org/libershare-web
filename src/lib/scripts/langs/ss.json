@@ -14,7 +14,8 @@
 		"toggle": "Tjintsa imenyu",
 		"close": "Vala imenyu",
 		"language": "Lulwimi",
-		"selectLanguage": "Khetsa lulwimi"
+		"selectLanguage": "Khetsa lulwimi",
+		"searchLanguage": "Sesha lulwimi..."
 	},
 	"hero": {
 		"subtitle": "Situkulwane lesilandzelako sekwabelana ngamafayela kwe-peer-to-peer",

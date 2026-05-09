@@ -14,7 +14,8 @@
 		"toggle": "Hloov Menu",
 		"close": "Kaw Menu",
 		"language": "Hom Lus",
-		"selectLanguage": "Xaiv Hom Lus"
+		"selectLanguage": "Xaiv Hom Lus",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Tiam tshiab peer-to-peer kev sib faib ntaub ntawv",

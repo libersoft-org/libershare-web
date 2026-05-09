@@ -14,7 +14,8 @@
 		"toggle": "Alihkan menu",
 		"close": "Tutup menu",
 		"language": "Bahasa",
-		"selectLanguage": "Pilih bahasa"
+		"selectLanguage": "Pilih bahasa",
+		"searchLanguage": "Cari bahasa..."
 	},
 	"hero": {
 		"subtitle": "Berbagi file peer-to-peer generasi berikutnya",

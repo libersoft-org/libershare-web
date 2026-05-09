@@ -14,7 +14,8 @@
 		"toggle": "Shandukisa menyu",
 		"close": "Vala menyu",
 		"language": "Luambo",
-		"selectLanguage": "Khetha luambo"
+		"selectLanguage": "Khetha luambo",
+		"searchLanguage": "Tsea luambo..."
 	},
 	"hero": {
 		"subtitle": "Tshitshawelo tshi tevhelaho tsha u vhanganyisa mafaela tsha peer-to-peer",

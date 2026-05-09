@@ -14,7 +14,8 @@
 		"toggle": "Molsut fálaldaga",
 		"close": "Gidde fálaldaga",
 		"language": "Giella",
-		"selectLanguage": "Vállje giela"
+		"selectLanguage": "Vállje giela",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Boahttevaš buolva peer-to-peer fiilajuohkimis",

@@ -14,7 +14,8 @@
 		"toggle": "Przełącz menu",
 		"close": "Zamknij menu",
 		"language": "Język",
-		"selectLanguage": "Wybierz język"
+		"selectLanguage": "Wybierz język",
+		"searchLanguage": "Szukaj języka..."
 	},
 	"hero": {
 		"subtitle": "Udostępnianie plików peer-to-peer nowej generacji",

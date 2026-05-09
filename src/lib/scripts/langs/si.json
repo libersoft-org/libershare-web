@@ -14,7 +14,8 @@
 		"toggle": "මෙනුව මාරු කරන්න",
 		"close": "මෙනුව වසන්න",
 		"language": "භාෂාව",
-		"selectLanguage": "භාෂාව තෝරන්න"
+		"selectLanguage": "භාෂාව තෝරන්න",
+		"searchLanguage": "භාෂාවක් සොයන්න..."
 	},
 	"hero": {
 		"subtitle": "ඊළඟ පරම්පරාවේ peer-to-peer ගොනු බෙදාගැනීම",

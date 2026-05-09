@@ -14,7 +14,8 @@
 		"toggle": "Меню хийцар",
 		"close": "Меню къевлар",
 		"language": "Мотт",
-		"selectLanguage": "Мотт хаа"
+		"selectLanguage": "Мотт хаа",
+		"searchLanguage": "Мотт лаха..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer файлийн декъарийн керла чкъор",

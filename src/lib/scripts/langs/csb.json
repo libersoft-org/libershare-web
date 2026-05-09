@@ -14,7 +14,8 @@
 		"toggle": "Przełączë menu",
 		"close": "Zamkni menu",
 		"language": "Jãzëk",
-		"selectLanguage": "Wëbierzë jãzëk"
+		"selectLanguage": "Wëbierzë jãzëk",
+		"searchLanguage": "Szëkôj jãzëka..."
 	},
 	"hero": {
 		"subtitle": "Pòsobné pòkòlenié peer-to-peer dzeleniô lopków",

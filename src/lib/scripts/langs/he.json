@@ -14,7 +14,8 @@
 		"toggle": "החלף תפריט",
 		"close": "סגור תפריט",
 		"language": "שפה",
-		"selectLanguage": "בחר שפה"
+		"selectLanguage": "בחר שפה",
+		"searchLanguage": "חיפוש שפה..."
 	},
 	"hero": {
 		"subtitle": "שיתוף קבצים עמית-לעמית מהדור הבא",

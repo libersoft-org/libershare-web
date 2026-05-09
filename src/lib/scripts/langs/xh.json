@@ -14,7 +14,8 @@
 		"toggle": "Tshintsha imenyu",
 		"close": "Vala imenyu",
 		"language": "Ulwimi",
-		"selectLanguage": "Khetha ulwimi"
+		"selectLanguage": "Khetha ulwimi",
+		"searchLanguage": "Khangela ulwimi..."
 	},
 	"hero": {
 		"subtitle": "Isizukulwana esilandelayo sokwabelana ngeefayile kwi-peer-to-peer",

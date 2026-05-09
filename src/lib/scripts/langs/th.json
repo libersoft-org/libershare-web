@@ -14,7 +14,8 @@
 		"toggle": "สลับเมนู",
 		"close": "ปิดเมนู",
 		"language": "ภาษา",
-		"selectLanguage": "เลือกภาษา"
+		"selectLanguage": "เลือกภาษา",
+		"searchLanguage": "ค้นหาภาษา..."
 	},
 	"hero": {
 		"subtitle": "การแบ่งปันไฟล์แบบ peer-to-peer ยุคใหม่",

@@ -14,7 +14,8 @@
 		"toggle": "Apertar menuo",
 		"close": "Klozar menuo",
 		"language": "Linguo",
-		"selectLanguage": "Selektar linguo"
+		"selectLanguage": "Selektar linguo",
+		"searchLanguage": "Serchar linguo..."
 	},
 	"hero": {
 		"subtitle": "Sequanta-generacionala peer-to-peer kunpartigado di dosieri",

@@ -14,7 +14,8 @@
 		"toggle": "Trec'hañ ar meuziad",
 		"close": "Serriñ ar meuziad",
 		"language": "Yezh",
-		"selectLanguage": "Dibab ur yezh"
+		"selectLanguage": "Dibab ur yezh",
+		"searchLanguage": "Klask yezh..."
 	},
 	"hero": {
 		"subtitle": "Ar rummad nevez a-rannañ restroù peer-to-peer",

@@ -14,7 +14,8 @@
 		"toggle": "Sanz meni",
 		"close": "Ferm meni",
 		"language": "Langaz",
-		"selectLanguage": "Swazir langaz"
+		"selectLanguage": "Swazir langaz",
+		"searchLanguage": "Rod langaz..."
 	},
 	"hero": {
 		"subtitle": "Prosen zenerasyon partaz fisye peer-to-peer",

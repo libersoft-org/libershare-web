@@ -14,7 +14,8 @@
 		"toggle": "I-toggle ang menu",
 		"close": "Sirahi ang menu",
 		"language": "Hambal",
-		"selectLanguage": "Pilia ang hambal"
+		"selectLanguage": "Pilia ang hambal",
+		"searchLanguage": "Pangitaon ang lingguahe..."
 	},
 	"hero": {
 		"subtitle": "Bag-o nga henerasyon sang peer-to-peer file sharing",

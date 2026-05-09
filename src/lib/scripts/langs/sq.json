@@ -14,7 +14,8 @@
 		"toggle": "Ndërro menynë",
 		"close": "Mbyll menynë",
 		"language": "Gjuha",
-		"selectLanguage": "Zgjidh gjuhën"
+		"selectLanguage": "Zgjidh gjuhën",
+		"searchLanguage": "Kërko gjuhën..."
 	},
 	"hero": {
 		"subtitle": "Ndarje e skedarëve peer-to-peer e gjeneratës së ardhshme",

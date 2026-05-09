@@ -14,7 +14,8 @@
 		"toggle": "Loko menu",
 		"close": "Lor menu",
 		"language": "Dhok",
-		"selectLanguage": "Yier dhok"
+		"selectLanguage": "Yier dhok",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Pomo mar faili mar peer-to-peer mar tieng' manyien",

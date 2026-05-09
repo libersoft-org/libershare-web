@@ -14,7 +14,8 @@
 		"toggle": "Menüyü aç",
 		"close": "Menüyü kapa",
 		"language": "Dil",
-		"selectLanguage": "Dil seç"
+		"selectLanguage": "Dil seç",
+		"searchLanguage": "Dil ara..."
 	},
 	"hero": {
 		"subtitle": "Eni nesil eşten-eşä dosya paylaşması",

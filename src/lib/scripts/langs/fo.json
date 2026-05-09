@@ -14,7 +14,8 @@
 		"toggle": "Skifta valmynd",
 		"close": "Lat valmynd aftur",
 		"language": "Mál",
-		"selectLanguage": "Vel mál"
+		"selectLanguage": "Vel mál",
+		"searchLanguage": "Leita mál..."
 	},
 	"hero": {
 		"subtitle": "Næsta ætt av peer-to-peer fíludeiling",

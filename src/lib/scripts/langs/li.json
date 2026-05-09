@@ -14,7 +14,8 @@
 		"toggle": "Menu wessele",
 		"close": "Menu sjlute",
 		"language": "Sjpraok",
-		"selectLanguage": "Kees sjpraok"
+		"selectLanguage": "Kees sjpraok",
+		"searchLanguage": "Taol zeuke..."
 	},
 	"hero": {
 		"subtitle": "Volgende generatie peer-to-peer bestanddele",

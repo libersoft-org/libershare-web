@@ -14,7 +14,8 @@
 		"toggle": "Menu wikselje",
 		"close": "Menu slute",
 		"language": "Taal",
-		"selectLanguage": "Kies in taal"
+		"selectLanguage": "Kies in taal",
+		"searchLanguage": "Taal sykje..."
 	},
 	"hero": {
 		"subtitle": "De folgjende generaasje peer-to-peer-triemdielen",

@@ -14,7 +14,8 @@
 		"toggle": "I-toggle ti menu",
 		"close": "Iserra ti menu",
 		"language": "Pagsasao",
-		"selectLanguage": "Pilien ti pagsasao"
+		"selectLanguage": "Pilien ti pagsasao",
+		"searchLanguage": "Agbiruk iti pagsasao..."
 	},
 	"hero": {
 		"subtitle": "Baro a henerasion ti peer-to-peer file sharing",

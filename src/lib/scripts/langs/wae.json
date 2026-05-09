@@ -14,7 +14,8 @@
 		"toggle": "Menu öffne",
 		"close": "Menu zueschiebe",
 		"language": "Sprooch",
-		"selectLanguage": "Sprooch wähle"
+		"selectLanguage": "Sprooch wähle",
+		"searchLanguage": "Sproch sueche..."
 	},
 	"hero": {
 		"subtitle": "Nüüi Generaziu peer-to-peer Dateie-Teile",

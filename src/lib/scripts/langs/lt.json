@@ -14,7 +14,8 @@
 		"toggle": "Perjungti meniu",
 		"close": "Uždaryti meniu",
 		"language": "Kalba",
-		"selectLanguage": "Pasirinkti kalbą"
+		"selectLanguage": "Pasirinkti kalbą",
+		"searchLanguage": "Ieškoti kalbos..."
 	},
 	"hero": {
 		"subtitle": "Naujos kartos peer-to-peer failų dalijimasis",

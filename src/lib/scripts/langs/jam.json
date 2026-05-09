@@ -14,7 +14,8 @@
 		"toggle": "Open menu",
 		"close": "Lock menu",
 		"language": "Langwij",
-		"selectLanguage": "Pick langwij"
+		"selectLanguage": "Pick langwij",
+		"searchLanguage": "Luk fi langwij..."
 	},
 	"hero": {
 		"subtitle": "Niex-generieshan peer-to-peer file sharin",

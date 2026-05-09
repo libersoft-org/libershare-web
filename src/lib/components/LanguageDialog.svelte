@@ -1,9 +1,18 @@
 <script lang="ts">
 	import { currentLanguage, languages, setLanguage, getFlagURL, languageDialogOpen, closeLanguageDialog, t } from '../scripts/language.ts';
 	import Dialog from './Dialog.svelte';
+	import Input from './Input.svelte';
+
+	let filter = $state('');
+	let filteredLanguages = $derived.by(() => {
+		const q = filter.trim().toLowerCase();
+		if (!q) return languages;
+		return languages.filter(l => l.id.toLowerCase().includes(q) || l.label.toLowerCase().includes(q) || l.nativeLabel.toLowerCase().includes(q));
+	});
 
 	function selectLanguage(id: string): void {
 		setLanguage(id);
+		filter = '';
 		closeLanguageDialog();
 	}
 
@@ -20,11 +29,26 @@
 		const id = target.dataset.lang;
 		if (id) selectLanguage(id);
 	}
+
+	function handleClose(): void {
+		filter = '';
+		closeLanguageDialog();
+	}
 </script>
 
 <style>
+	.search {
+		padding: 0.5rem 0.5rem 0;
+	}
+
 	.list {
 		padding: 0.5rem;
+	}
+
+	.empty {
+		padding: 1rem;
+		color: var(--text-muted);
+		text-align: center;
 	}
 
 	.item {
@@ -70,14 +94,19 @@
 	}
 </style>
 
-<Dialog open={$languageDialogOpen} title={$t('menu.selectLanguage')} closeLabel={$t('menu.close')} onClose={closeLanguageDialog}>
+<Dialog open={$languageDialogOpen} title={$t('menu.selectLanguage')} closeLabel={$t('menu.close')} onClose={handleClose}>
 	{#snippet body()}
+		<div class="search">
+			<Input type="search" bind:value={filter} placeholder={$t('menu.searchLanguage')} ariaLabel={$t('menu.searchLanguage')} />
+		</div>
 		<div class="list">
-			{#each languages as lang}
+			{#each filteredLanguages as lang (lang.id)}
 				<div class="item" class:active={$currentLanguage === lang.id} role="button" tabindex="0" data-lang={lang.id} aria-pressed={$currentLanguage === lang.id} onclick={handleItemClick} onkeydown={handleItemKey}>
 					<span class="flag"><img src={getFlagURL(lang.id)} alt={lang.nativeLabel} draggable="false" /></span>
 					<span class="name">{lang.label} ({lang.nativeLabel})</span>
 				</div>
+			{:else}
+				<div class="empty">—</div>
 			{/each}
 		</div>
 	{/snippet}

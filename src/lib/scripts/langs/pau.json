@@ -14,7 +14,8 @@
 		"toggle": "Mngitechut menu",
 		"close": "Mongdubech menu",
 		"language": "Tekoi",
-		"selectLanguage": "Mngilt a tekoi"
+		"selectLanguage": "Mngilt a tekoi",
+		"searchLanguage": "Osiik er a omelekoi..."
 	},
 	"hero": {
 		"subtitle": "A merreder el peer-to-peer omkar el files",

@@ -14,7 +14,8 @@
 		"toggle": "Abrir menu",
 		"close": "Cerrar menu",
 		"language": "Lhéngua",
-		"selectLanguage": "Çcolher lhéngua"
+		"selectLanguage": "Çcolher lhéngua",
+		"searchLanguage": "Buscar lhéngua..."
 	},
 	"hero": {
 		"subtitle": "Cumpartilha de ficheiros peer-to-peer de la próssima geraçon",

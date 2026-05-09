@@ -14,7 +14,8 @@
 		"toggle": "Prebaci izbornik",
 		"close": "Zatvori izbornik",
 		"language": "Jezik",
-		"selectLanguage": "Odaberi jezik"
+		"selectLanguage": "Odaberi jezik",
+		"searchLanguage": "Pretraga jezika..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer dijeljenje datoteka nove generacije",

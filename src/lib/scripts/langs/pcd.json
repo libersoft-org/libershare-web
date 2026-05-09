@@ -14,7 +14,8 @@
 		"toggle": "Drouvi l'menu",
 		"close": "Frumer l'menu",
 		"language": "Langache",
-		"selectLanguage": "Cosir un langache"
+		"selectLanguage": "Cosir un langache",
+		"searchLanguage": "Kerker ène langue..."
 	},
 	"hero": {
 		"subtitle": "Nuvèle jénération d'pertach d'fichiers pa-pa",

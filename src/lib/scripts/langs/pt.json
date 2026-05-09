@@ -14,7 +14,8 @@
 		"toggle": "Alternar menu",
 		"close": "Fechar menu",
 		"language": "Idioma",
-		"selectLanguage": "Selecionar idioma"
+		"selectLanguage": "Selecionar idioma",
+		"searchLanguage": "Pesquisar idioma..."
 	},
 	"hero": {
 		"subtitle": "Partilha de ficheiros peer-to-peer de nova geração",

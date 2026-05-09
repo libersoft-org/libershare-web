@@ -14,7 +14,8 @@
 		"toggle": "Menu kehoa",
 		"close": "Menu koua",
 		"language": "Gado",
-		"selectLanguage": "Gado abia"
+		"selectLanguage": "Gado abia",
+		"searchLanguage": "Sivagi gado..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer file hahebou matamatana",

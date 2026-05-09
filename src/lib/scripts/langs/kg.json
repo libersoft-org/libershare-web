@@ -14,7 +14,8 @@
 		"toggle": "Soba menyu",
 		"close": "Kanga menyu",
 		"language": "Ndinga",
-		"selectLanguage": "Sola ndinga"
+		"selectLanguage": "Sola ndinga",
+		"searchLanguage": "Sosa ndinga..."
 	},
 	"hero": {
 		"subtitle": "Kukabula mafayilo kwa peer-to-peer kwa nkanu ya mpa",

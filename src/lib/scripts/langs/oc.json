@@ -14,7 +14,8 @@
 		"toggle": "Bascular lo menú",
 		"close": "Tampar lo menú",
 		"language": "Lenga",
-		"selectLanguage": "Seleccionar una lenga"
+		"selectLanguage": "Seleccionar una lenga",
+		"searchLanguage": "Cercar una lenga..."
 	},
 	"hero": {
 		"subtitle": "La generacion seguenta del partatge de fichièrs peer-to-peer",

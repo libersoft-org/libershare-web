@@ -14,7 +14,8 @@
 		"toggle": "Ouver meni",
 		"close": "Ferm meni",
 		"language": "Lang",
-		"selectLanguage": "Swazi lang"
+		"selectLanguage": "Swazi lang",
+		"searchLanguage": "Rod lalang..."
 	},
 	"hero": {
 		"subtitle": "Partaz fisye peer-to-peer prosenn zenerasyon",

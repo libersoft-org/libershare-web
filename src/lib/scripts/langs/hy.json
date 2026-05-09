@@ -14,7 +14,8 @@
 		"toggle": "Փոխել ընտրացանկը",
 		"close": "Փակել ընտրացանկը",
 		"language": "Լեզու",
-		"selectLanguage": "Ընտրեք լեզուն"
+		"selectLanguage": "Ընտրեք լեզուն",
+		"searchLanguage": "Փնտրել լեզու..."
 	},
 	"hero": {
 		"subtitle": "Հաջորդ սերնդի peer-to-peer ֆայլերի փոխանակում",

@@ -14,7 +14,8 @@
 		"toggle": "Garũra Menyu",
 		"close": "Hinga Menyu",
 		"language": "Rũthiomi",
-		"selectLanguage": "Thuura Rũthiomi"
+		"selectLanguage": "Thuura Rũthiomi",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Ũgayanĩri wa peer-to-peer wa rũciaro rwa rũgendi",

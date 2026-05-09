@@ -14,7 +14,8 @@
 		"toggle": "Menúta tikray",
 		"close": "Menúta wisq'ay",
 		"language": "Simi",
-		"selectLanguage": "Simita akllay"
+		"selectLanguage": "Simita akllay",
+		"searchLanguage": "Simita maskay..."
 	},
 	"hero": {
 		"subtitle": "Hamuq miray peer-to-peer willaykuna rakiy",

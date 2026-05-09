@@ -14,7 +14,8 @@
 		"toggle": "Mudé menù",
 		"close": "Stlü menù",
 		"language": "Rujeneda",
-		"selectLanguage": "Chirì na rujeneda"
+		"selectLanguage": "Chirì na rujeneda",
+		"searchLanguage": "Cërcia n lingaz..."
 	},
 	"hero": {
 		"subtitle": "La proscima generaziun de despartiment de files peer-to-peer",

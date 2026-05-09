@@ -14,7 +14,8 @@
 		"toggle": "Commuta el menú",
 		"close": "Tanca el menú",
 		"language": "Idioma",
-		"selectLanguage": "Selecciona l'idioma"
+		"selectLanguage": "Selecciona l'idioma",
+		"searchLanguage": "Cercar idioma..."
 	},
 	"hero": {
 		"subtitle": "Compartició de fitxers entre iguals de nova generació",

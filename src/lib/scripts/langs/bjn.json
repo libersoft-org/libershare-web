@@ -14,7 +14,8 @@
 		"toggle": "Ubah menu",
 		"close": "Tutup menu",
 		"language": "Bahasa",
-		"selectLanguage": "Pilih bahasa"
+		"selectLanguage": "Pilih bahasa",
+		"searchLanguage": "Mancari bahasa..."
 	},
 	"hero": {
 		"subtitle": "Babagi berkas peer-to-peer ganarasi panayuhan",

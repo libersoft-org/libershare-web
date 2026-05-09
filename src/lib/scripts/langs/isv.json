@@ -14,7 +14,8 @@
 		"toggle": "Otkryti menu",
 		"close": "Zatvoriti menu",
 		"language": "Jezyk",
-		"selectLanguage": "Vybrati jezyk"
+		"selectLanguage": "Vybrati jezyk",
+		"searchLanguage": "Iskati jezyk..."
 	},
 	"hero": {
 		"subtitle": "Sledujučaja generacija peer-to-peer razděljanja fajlov",

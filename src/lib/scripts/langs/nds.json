@@ -14,7 +14,8 @@
 		"toggle": "Menü ümstellen",
 		"close": "Menü tomaken",
 		"language": "Spraak",
-		"selectLanguage": "Spraak utwählen"
+		"selectLanguage": "Spraak utwählen",
+		"searchLanguage": "Spraak söken..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-Peer-Datendelen vun de nächsten Generatschoon",

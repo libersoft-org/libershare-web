@@ -14,7 +14,8 @@
 		"toggle": "Menu iipne",
 		"close": "Menu tuluke",
 		"language": "Spreek",
-		"selectLanguage": "Spreek ütwele"
+		"selectLanguage": "Spreek ütwele",
+		"searchLanguage": "Spriak sjuke..."
 	},
 	"hero": {
 		"subtitle": "Naist generaatsjuun peer-to-peer datei-deeln",

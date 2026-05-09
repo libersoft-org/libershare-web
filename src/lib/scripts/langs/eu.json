@@ -14,7 +14,8 @@
 		"toggle": "Aldatu menua",
 		"close": "Itxi menua",
 		"language": "Hizkuntza",
-		"selectLanguage": "Hautatu hizkuntza"
+		"selectLanguage": "Hautatu hizkuntza",
+		"searchLanguage": "Hizkuntza bilatu..."
 	},
 	"hero": {
 		"subtitle": "Hurrengo belaunaldiko peer-to-peer fitxategi partekatzea",

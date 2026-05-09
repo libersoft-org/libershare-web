@@ -14,7 +14,8 @@
 		"toggle": "Menu omschakelen",
 		"close": "Menu sluiten",
 		"language": "Taal",
-		"selectLanguage": "Taal selecteren"
+		"selectLanguage": "Taal selecteren",
+		"searchLanguage": "Taal zoeken..."
 	},
 	"hero": {
 		"subtitle": "Volgende generatie peer-to-peer bestandsdeling",

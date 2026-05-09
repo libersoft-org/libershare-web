@@ -14,7 +14,8 @@
 		"toggle": "Apre 'o menù",
 		"close": "Chiure 'o menù",
 		"language": "Lengua",
-		"selectLanguage": "Scegli 'a lengua"
+		"selectLanguage": "Scegli 'a lengua",
+		"searchLanguage": "Cerca lengua..."
 	},
 	"hero": {
 		"subtitle": "Scambio 'e file peer-to-peer 'e nova generazzione",

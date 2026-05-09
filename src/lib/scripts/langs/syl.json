@@ -14,7 +14,8 @@
 		"toggle": "মেনু টগল করো",
 		"close": "মেনু বন্ধ করো",
 		"language": "ভাষা",
-		"selectLanguage": "ভাষা বাছো"
+		"selectLanguage": "ভাষা বাছো",
+		"searchLanguage": "ভাষা টুকান..."
 	},
 	"hero": {
 		"subtitle": "নতুন জুগর peer-to-peer ফাইল শেয়ারিং",

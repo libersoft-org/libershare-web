@@ -14,7 +14,8 @@
 		"toggle": "Vaihda valikko",
 		"close": "Sulje valikko",
 		"language": "Kieli",
-		"selectLanguage": "Valitse kieli"
+		"selectLanguage": "Valitse kieli",
+		"searchLanguage": "Etsi kieli..."
 	},
 	"hero": {
 		"subtitle": "Uuden sukupolven vertaisverkon tiedostonjako",

@@ -14,7 +14,8 @@
 		"toggle": "मेनू बदलची",
 		"close": "मेनू बंद करची",
 		"language": "भास",
-		"selectLanguage": "भास निवडची"
+		"selectLanguage": "भास निवडची",
+		"searchLanguage": "भाषा सोदचें..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer फायल शेअरींगाची नवी पिळगी",

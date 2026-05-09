@@ -14,7 +14,8 @@
 		"toggle": "ສະຫຼັບເມນູ",
 		"close": "ປິດເມນູ",
 		"language": "ພາສາ",
-		"selectLanguage": "ເລືອກພາສາ"
+		"selectLanguage": "ເລືອກພາສາ",
+		"searchLanguage": "ຄົ້ນຫາພາສາ..."
 	},
 	"hero": {
 		"subtitle": "ການແບ່ງປັນໄຟລ໌ peer-to-peer ລຸ້ນຕໍ່ໄປ",

@@ -14,7 +14,8 @@
 		"toggle": "Opo menu",
 		"close": "Tapu menu",
 		"language": "Tongo",
-		"selectLanguage": "Teki tongo"
+		"selectLanguage": "Teki tongo",
+		"searchLanguage": "Suku tongo..."
 	},
 	"hero": {
 		"subtitle": "Nyun-generasi peer-to-peer fayl partaisman",

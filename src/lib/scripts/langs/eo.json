@@ -14,7 +14,8 @@
 		"toggle": "Ŝalti menuon",
 		"close": "Fermi menuon",
 		"language": "Lingvo",
-		"selectLanguage": "Elekti lingvon"
+		"selectLanguage": "Elekti lingvon",
+		"searchLanguage": "Serĉi lingvon..."
 	},
 	"hero": {
 		"subtitle": "Sekvageneracia samtavola dosierkunhavigo",

@@ -14,7 +14,8 @@
 		"toggle": "Менюро иваз кардан",
 		"close": "Менюро бастан",
 		"language": "Забон",
-		"selectLanguage": "Забонро интихоб кунед"
+		"selectLanguage": "Забонро интихоб кунед",
+		"searchLanguage": "Ҷустуҷӯи забон..."
 	},
 	"hero": {
 		"subtitle": "Мубодилаи файлҳои peer-to-peer насли оянда",

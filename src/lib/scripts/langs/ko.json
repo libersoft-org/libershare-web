@@ -14,7 +14,8 @@
 		"toggle": "메뉴 전환",
 		"close": "메뉴 닫기",
 		"language": "언어",
-		"selectLanguage": "언어 선택"
+		"selectLanguage": "언어 선택",
+		"searchLanguage": "언어 검색..."
 	},
 	"hero": {
 		"subtitle": "차세대 P2P 파일 공유",

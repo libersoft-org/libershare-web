@@ -14,7 +14,8 @@
 		"toggle": "Cambia u menù",
 		"close": "Chjudi u menù",
 		"language": "Lingua",
-		"selectLanguage": "Sceglie una lingua"
+		"selectLanguage": "Sceglie una lingua",
+		"searchLanguage": "Cercà una lingua..."
 	},
 	"hero": {
 		"subtitle": "A prossima generazione di sparta di schedarii peer-to-peer",

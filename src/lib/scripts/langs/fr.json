@@ -14,7 +14,8 @@
 		"toggle": "Basculer le menu",
 		"close": "Fermer le menu",
 		"language": "Langue",
-		"selectLanguage": "Sélectionner la langue"
+		"selectLanguage": "Sélectionner la langue",
+		"searchLanguage": "Rechercher une langue..."
 	},
 	"hero": {
 		"subtitle": "Partage de fichiers peer-to-peer de nouvelle génération",

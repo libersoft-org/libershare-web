@@ -14,7 +14,8 @@
 		"toggle": "Open menu",
 		"close": "Sneck menu",
 		"language": "Leid",
-		"selectLanguage": "Wale leid"
+		"selectLanguage": "Wale leid",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Neist-generation peer-tae-peer file sharin",

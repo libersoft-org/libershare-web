@@ -14,7 +14,8 @@
 		"toggle": "मेनू बदलू",
 		"close": "मेनू बन्द करू",
 		"language": "भाषा",
-		"selectLanguage": "भाषा चुनू"
+		"selectLanguage": "भाषा चुनू",
+		"searchLanguage": "भाषा ताकू..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer फाइल साझा करय के नव पीढ़ी",

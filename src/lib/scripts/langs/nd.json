@@ -14,7 +14,8 @@
 		"toggle": "Shintsha imenyu",
 		"close": "Vala imenyu",
 		"language": "Ulimi",
-		"selectLanguage": "Khetha ulimi"
+		"selectLanguage": "Khetha ulimi",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Isizukulwane esilandelayo sokwabelana ngamafayela kwe-peer-to-peer",

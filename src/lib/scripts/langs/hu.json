@@ -14,7 +14,8 @@
 		"toggle": "Menü ki/be",
 		"close": "Menü bezárása",
 		"language": "Nyelv",
-		"selectLanguage": "Nyelv kiválasztása"
+		"selectLanguage": "Nyelv kiválasztása",
+		"searchLanguage": "Nyelv keresése..."
 	},
 	"hero": {
 		"subtitle": "Új generációs peer-to-peer fájlmegosztás",

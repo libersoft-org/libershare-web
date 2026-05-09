@@ -14,7 +14,8 @@
 		"toggle": "Menu yɛlɛma",
 		"close": "Menu datugu",
 		"language": "Kan",
-		"selectLanguage": "Kan sugandi"
+		"selectLanguage": "Kan sugandi",
+		"searchLanguage": "Kan ɲini..."
 	},
 	"hero": {
 		"subtitle": "Wakatti kura peer-to-peer fayilu tilali",

@@ -14,7 +14,8 @@
 		"toggle": "Atvērt izvēlni",
 		"close": "Aizvērt izvēlni",
 		"language": "Volūda",
-		"selectLanguage": "Izavielēt volūdu"
+		"selectLanguage": "Izavielēt volūdu",
+		"searchLanguage": "Mekleit volūdu..."
 	},
 	"hero": {
 		"subtitle": "Naukōkais paaudzis peer-to-peer failu kūpōšona",

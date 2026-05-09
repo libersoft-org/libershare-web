@@ -14,7 +14,8 @@
 		"toggle": "Εναλλαγή μενού",
 		"close": "Κλείσιμο μενού",
 		"language": "Γλώσσα",
-		"selectLanguage": "Επιλογή γλώσσας"
+		"selectLanguage": "Επιλογή γλώσσας",
+		"searchLanguage": "Αναζήτηση γλώσσας..."
 	},
 	"hero": {
 		"subtitle": "Κοινή χρήση αρχείων peer-to-peer νέας γενιάς",

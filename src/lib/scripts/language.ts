@@ -583,7 +583,7 @@ function getNestedValue(obj: any, path: string): string | undefined {
 // When vars are provided, replaces {placeholder} tokens with values.
 export const t: Readable<(key: string, vars?: Record<string, string>) => string> = derived(translations, $translations => {
 	return (key: string, vars?: Record<string, string>): string => {
-		const text = getNestedValue($translations, key) ?? `{${key}}`;
+		const text = getNestedValue($translations, key) ?? getNestedValue(langCache[DEFAULT_LANGUAGE], key) ?? `{${key}}`;
 		return vars ? text.replace(/\{(\w+)\}/g, (match, k) => vars[k] ?? match) : text;
 	};
 });
@@ -591,7 +591,7 @@ export const t: Readable<(key: string, vars?: Record<string, string>) => string>
 // Function for translations outside components - use as tt('common.back') or tt('key', { name: 'foo' })
 export function tt(key: string, vars?: Record<string, string>): string {
 	const current = get(translations);
-	const text = getNestedValue(current, key) ?? `{${key}}`;
+	const text = getNestedValue(current, key) ?? getNestedValue(langCache[DEFAULT_LANGUAGE], key) ?? `{${key}}`;
 	return vars ? text.replace(/\{(\w+)\}/g, (match, k) => vars[k] ?? match) : text;
 }
 

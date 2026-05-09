@@ -14,7 +14,8 @@
 		"toggle": "Пребаци мени",
 		"close": "Затвори мени",
 		"language": "Језик",
-		"selectLanguage": "Изабери језик"
+		"selectLanguage": "Изабери језик",
+		"searchLanguage": "Претрага језика..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer дељење фајлова нове генерације",

@@ -14,7 +14,8 @@
 		"toggle": "Lülita menüü",
 		"close": "Sulge menüü",
 		"language": "Keel",
-		"selectLanguage": "Vali keel"
+		"selectLanguage": "Vali keel",
+		"searchLanguage": "Otsi keelt..."
 	},
 	"hero": {
 		"subtitle": "Uue põlvkonna peer-to-peer failijagamine",

@@ -14,7 +14,8 @@
 		"toggle": "تبديل القائمة",
 		"close": "إغلاق القائمة",
 		"language": "اللغة",
-		"selectLanguage": "اختر اللغة"
+		"selectLanguage": "اختر اللغة",
+		"searchLanguage": "بحث عن لغة..."
 	},
 	"hero": {
 		"subtitle": "مشاركة ملفات نظير إلى نظير من الجيل التالي",

@@ -14,7 +14,8 @@
 		"toggle": "Bukit menu",
 		"close": "Itubok menu",
 		"language": "Dorerin",
-		"selectLanguage": "Bigaringi dorerin"
+		"selectLanguage": "Bigaringi dorerin",
+		"searchLanguage": "Buagunee a dorerin..."
 	},
 	"hero": {
 		"subtitle": "Idu peer-to-peer tarakuwet faila",

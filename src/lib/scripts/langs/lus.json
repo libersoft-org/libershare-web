@@ -14,7 +14,8 @@
 		"toggle": "Menu hawng",
 		"close": "Menu khar",
 		"language": "Tawng",
-		"selectLanguage": "Tawng thlang"
+		"selectLanguage": "Tawng thlang",
+		"searchLanguage": "Tawng zawng..."
 	},
 	"hero": {
 		"subtitle": "Lo lo turin peer-to-peer file sem-thamna",

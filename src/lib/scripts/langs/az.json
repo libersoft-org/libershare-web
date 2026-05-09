@@ -14,7 +14,8 @@
 		"toggle": "Menyunu dəyiş",
 		"close": "Menyunu bağla",
 		"language": "Dil",
-		"selectLanguage": "Dili seçin"
+		"selectLanguage": "Dili seçin",
+		"searchLanguage": "Dil axtar..."
 	},
 	"hero": {
 		"subtitle": "Yeni nəsil peer-to-peer fayl paylaşımı",

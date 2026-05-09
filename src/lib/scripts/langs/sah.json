@@ -14,7 +14,8 @@
 		"toggle": "Меню уларытыы",
 		"close": "Менюну сэп",
 		"language": "Тыл",
-		"selectLanguage": "Тылы тал"
+		"selectLanguage": "Тылы тал",
+		"searchLanguage": "Тыл көрдөө..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer билэ үллэстиитин саҥа көлүөнэтэ",

@@ -14,7 +14,8 @@
 		"toggle": "I-toggle ang menu",
 		"close": "Sirado ang menu",
 		"language": "Pinulongan",
-		"selectLanguage": "Pilia ang pinulongan"
+		"selectLanguage": "Pilia ang pinulongan",
+		"searchLanguage": "Pangitaa ang pinulongan..."
 	},
 	"hero": {
 		"subtitle": "Bag-ong henerasyon sa peer-to-peer file sharing",

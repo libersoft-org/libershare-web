@@ -14,7 +14,8 @@
 		"toggle": "Veksle meny",
 		"close": "Lukk meny",
 		"language": "Språk",
-		"selectLanguage": "Velg språk"
+		"selectLanguage": "Velg språk",
+		"searchLanguage": "Søk språk..."
 	},
 	"hero": {
 		"subtitle": "Neste generasjons peer-to-peer fildeling",

@@ -14,7 +14,8 @@
 		"toggle": "Menu allanngortikkit",
 		"close": "Menu matussigit",
 		"language": "Oqaatsit",
-		"selectLanguage": "Oqaatsit toqqakkit"
+		"selectLanguage": "Oqaatsit toqqakkit",
+		"searchLanguage": "Oqaatsit ujarlugit..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer toqqortakkanik avitseqatigiinnermut kingulleq",

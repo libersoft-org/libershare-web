@@ -14,7 +14,8 @@
 		"toggle": "Aperir menu",
 		"close": "Clauder menu",
 		"language": "Lingua",
-		"selectLanguage": "Selectionar lingua"
+		"selectLanguage": "Selectionar lingua",
+		"searchLanguage": "Cercar lingua..."
 	},
 	"hero": {
 		"subtitle": "Compartimento peer-to-peer de files del proxime generation",

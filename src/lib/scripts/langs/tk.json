@@ -14,7 +14,8 @@
 		"toggle": "Menýuny çalyşmak",
 		"close": "Menýuny ýapmak",
 		"language": "Dil",
-		"selectLanguage": "Dili saýlaň"
+		"selectLanguage": "Dili saýlaň",
+		"searchLanguage": "Dil gözle..."
 	},
 	"hero": {
 		"subtitle": "Indiki nesliň peer-to-peer faýl paýlaşmagy",

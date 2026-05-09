@@ -14,7 +14,8 @@
 		"toggle": "Menüyü aç/kapat",
 		"close": "Menüyü kapat",
 		"language": "Dil",
-		"selectLanguage": "Dil seç"
+		"selectLanguage": "Dil seç",
+		"searchLanguage": "Dil ara..."
 	},
 	"hero": {
 		"subtitle": "Yeni nesil eşler arası dosya paylaşımı",

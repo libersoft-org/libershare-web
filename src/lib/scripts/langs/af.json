@@ -14,7 +14,8 @@
 		"toggle": "Wissel kieslys",
 		"close": "Sluit kieslys",
 		"language": "Taal",
-		"selectLanguage": "Kies taal"
+		"selectLanguage": "Kies taal",
+		"searchLanguage": "Soek taal..."
 	},
 	"hero": {
 		"subtitle": "Volgende generasie eweknie-tot-eweknie lêerdeling",

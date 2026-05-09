@@ -14,7 +14,8 @@
 		"toggle": "Прекини мени",
 		"close": "Затвори мени",
 		"language": "Јазик",
-		"selectLanguage": "Избери јазик"
+		"selectLanguage": "Избери јазик",
+		"searchLanguage": "Барај јазик..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer споделување на датотеки од следната генерација",

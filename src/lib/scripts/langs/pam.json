@@ -14,7 +14,8 @@
 		"toggle": "I-toggle ya ing menu",
 		"close": "Sarading ya ing menu",
 		"language": "Amanu",
-		"selectLanguage": "Pumili ka amanu"
+		"selectLanguage": "Pumili ka amanu",
+		"searchLanguage": "Manintun amanu..."
 	},
 	"hero": {
 		"subtitle": "Ing tutuking henerasyon na ning peer-to-peer a pamipalibutad da reng file",

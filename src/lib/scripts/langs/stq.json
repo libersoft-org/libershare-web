@@ -14,7 +14,8 @@
 		"toggle": "Menü iepnje",
 		"close": "Menü touluuke",
 		"language": "Sproake",
-		"selectLanguage": "Sproake utseekje"
+		"selectLanguage": "Sproake utseekje",
+		"searchLanguage": "Sproake säike..."
 	},
 	"hero": {
 		"subtitle": "Näie Generaation peer-to-peer Datei-Dailen",

@@ -14,7 +14,8 @@
 		"toggle": "Menü aufmacha",
 		"close": "Menü zuamacha",
 		"language": "Sproch",
-		"selectLanguage": "Sproch auswöin"
+		"selectLanguage": "Sproch auswöin",
+		"searchLanguage": "Sproch suacha..."
 	},
 	"hero": {
 		"subtitle": "Neichi Generation peer-to-peer Datei-Doaln",

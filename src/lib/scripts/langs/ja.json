@@ -14,7 +14,8 @@
 		"toggle": "メニューの切り替え",
 		"close": "メニューを閉じる",
 		"language": "言語",
-		"selectLanguage": "言語を選択"
+		"selectLanguage": "言語を選択",
+		"searchLanguage": "言語を検索..."
 	},
 	"hero": {
 		"subtitle": "次世代のピアツーピアファイル共有",

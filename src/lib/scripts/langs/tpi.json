@@ -14,7 +14,8 @@
 		"toggle": "Senisim menu",
 		"close": "Pasim menu",
 		"language": "Tokples",
-		"selectLanguage": "Makim tokples"
+		"selectLanguage": "Makim tokples",
+		"searchLanguage": "Painim tok ples..."
 	},
 	"hero": {
 		"subtitle": "Nupela jenereisen bilong peer-to-peer fail serim",

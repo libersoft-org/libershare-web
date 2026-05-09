@@ -14,7 +14,8 @@
 		"toggle": "Cambiar menú",
 		"close": "Zarrar menú",
 		"language": "Luenga",
-		"selectLanguage": "Trigar una luenga"
+		"selectLanguage": "Trigar una luenga",
+		"searchLanguage": "Mirar idioma..."
 	},
 	"hero": {
 		"subtitle": "A siguient cheneración de compartimiento de fichers peer-to-peer",

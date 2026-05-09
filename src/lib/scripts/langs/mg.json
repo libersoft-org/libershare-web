@@ -14,7 +14,8 @@
 		"toggle": "Manova menio",
 		"close": "Hidio ny menio",
 		"language": "Fiteny",
-		"selectLanguage": "Misafidiana fiteny"
+		"selectLanguage": "Misafidiana fiteny",
+		"searchLanguage": "Search language..."
 	},
 	"hero": {
 		"subtitle": "Fizarana rakitra peer-to-peer ho an'ny taranaka manaraka",

@@ -14,7 +14,8 @@
 		"toggle": "Verxer el menu",
 		"close": "Sarar el menu",
 		"language": "Lengua",
-		"selectLanguage": "Sielzi la lengua"
+		"selectLanguage": "Sielzi la lengua",
+		"searchLanguage": "Çerca lengua..."
 	},
 	"hero": {
 		"subtitle": "Scambio de file peer-to-peer de nova generazion",

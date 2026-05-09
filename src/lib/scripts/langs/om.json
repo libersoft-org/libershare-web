@@ -14,7 +14,8 @@
 		"toggle": "Menuu jijjiiri",
 		"close": "Menuu cufi",
 		"language": "Afaan",
-		"selectLanguage": "Afaan filadhu"
+		"selectLanguage": "Afaan filadhu",
+		"searchLanguage": "Afaan barbaadi..."
 	},
 	"hero": {
 		"subtitle": "Hirmaata faayilii peer-to-peer dhaloota itti aanu",

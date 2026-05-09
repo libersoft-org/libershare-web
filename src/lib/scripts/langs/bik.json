@@ -14,7 +14,8 @@
 		"toggle": "I-toggle an menu",
 		"close": "Sarhan an menu",
 		"language": "Tataramon",
-		"selectLanguage": "Pumili nin tataramon"
+		"selectLanguage": "Pumili nin tataramon",
+		"searchLanguage": "Maghanap nin tataramon..."
 	},
 	"hero": {
 		"subtitle": "An susunod na henerasyon kan peer-to-peer na pagsasaro nin mga file",

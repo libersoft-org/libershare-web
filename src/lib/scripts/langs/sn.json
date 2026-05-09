@@ -14,7 +14,8 @@
 		"toggle": "Shandura menyu",
 		"close": "Vhara menyu",
 		"language": "Mutauro",
-		"selectLanguage": "Sarudza mutauro"
+		"selectLanguage": "Sarudza mutauro",
+		"searchLanguage": "Tsvaga mutauro..."
 	},
 	"hero": {
 		"subtitle": "Chizvarwa chinotevera chekugovera mafaira kwe-peer-to-peer",

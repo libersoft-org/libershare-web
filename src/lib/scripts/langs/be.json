@@ -14,7 +14,8 @@
 		"toggle": "Пераключыць меню",
 		"close": "Зачыніць меню",
 		"language": "Мова",
-		"selectLanguage": "Выберыце мову"
+		"selectLanguage": "Выберыце мову",
+		"searchLanguage": "Пошук мовы..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer абмен файламі наступнага пакалення",

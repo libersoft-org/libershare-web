@@ -14,7 +14,8 @@
 		"toggle": "Avrir el menú",
 		"close": "Serrar el menú",
 		"language": "Lingua",
-		"selectLanguage": "Eskojer lingua"
+		"selectLanguage": "Eskojer lingua",
+		"searchLanguage": "Buxkar lingua..."
 	},
 	"hero": {
 		"subtitle": "Mueva jenerasyón de kompartisyón de archivos de igual-a-igual",

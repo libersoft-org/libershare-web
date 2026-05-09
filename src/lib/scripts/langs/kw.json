@@ -14,7 +14,8 @@
 		"toggle": "Igeri rol",
 		"close": "Degea rol",
 		"language": "Yeth",
-		"selectLanguage": "Dewis yeth"
+		"selectLanguage": "Dewis yeth",
+		"searchLanguage": "Hwilas yeth..."
 	},
 	"hero": {
 		"subtitle": "Henedh nowydh a rynnans restren para-dhe-bara",

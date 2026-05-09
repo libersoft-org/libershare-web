@@ -14,7 +14,8 @@
 		"toggle": "মেনু টগল গরন",
 		"close": "মেনু বন্ধ গরন",
 		"language": "ভাষা",
-		"selectLanguage": "ভাষা বাচন"
+		"selectLanguage": "ভাষা বাচন",
+		"searchLanguage": "ভাষা খুঁজা..."
 	},
 	"hero": {
 		"subtitle": "নয়া যুগর peer-to-peer ফাইল শেয়ারিং",

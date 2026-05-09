@@ -14,7 +14,8 @@
 		"toggle": "मेनू टॉगल करें",
 		"close": "मेनू बंद करें",
 		"language": "भाषा",
-		"selectLanguage": "भाषा चुनें"
+		"selectLanguage": "भाषा चुनें",
+		"searchLanguage": "भाषा खोजें..."
 	},
 	"hero": {
 		"subtitle": "अगली पीढ़ी का पीयर-टू-पीयर फ़ाइल साझाकरण",

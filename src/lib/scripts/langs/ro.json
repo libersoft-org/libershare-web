@@ -14,7 +14,8 @@
 		"toggle": "Comută meniul",
 		"close": "Închide meniul",
 		"language": "Limbă",
-		"selectLanguage": "Selectează limba"
+		"selectLanguage": "Selectează limba",
+		"searchLanguage": "Caută limba..."
 	},
 	"hero": {
 		"subtitle": "Partajare de fișiere peer-to-peer de nouă generație",

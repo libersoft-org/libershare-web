@@ -14,7 +14,8 @@
 		"toggle": "Càmbia menù",
 		"close": "Serra menù",
 		"language": "Limba",
-		"selectLanguage": "Seletziona limba"
+		"selectLanguage": "Seletziona limba",
+		"searchLanguage": "Chirca limba..."
 	},
 	"hero": {
 		"subtitle": "Cumpartzidura de archìvios peer-to-peer de noa generatzione",

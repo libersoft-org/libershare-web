@@ -14,7 +14,8 @@
 		"toggle": "Open menu",
 		"close": "Close menu",
 		"language": "Language",
-		"selectLanguage": "Choose language"
+		"selectLanguage": "Choose language",
+		"searchLanguage": "Find language..."
 	},
 	"hero": {
 		"subtitle": "Next-generation peer-to-peer file sharing",

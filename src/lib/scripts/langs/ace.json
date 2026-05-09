@@ -14,7 +14,8 @@
 		"toggle": "Ubah menu",
 		"close": "Tutop menu",
 		"language": "Bahsa",
-		"selectLanguage": "Pileh bahsa"
+		"selectLanguage": "Pileh bahsa",
+		"searchLanguage": "Mita basa..."
 	},
 	"hero": {
 		"subtitle": "Pembagian file peer-to-peer ngon ganerasi nyang baro",

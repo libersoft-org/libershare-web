@@ -14,7 +14,8 @@
 		"toggle": "Habri menú",
 		"close": "Sera menú",
 		"language": "Idioma",
-		"selectLanguage": "Skohe idioma"
+		"selectLanguage": "Skohe idioma",
+		"searchLanguage": "Buska idioma..."
 	},
 	"hero": {
 		"subtitle": "Kompartishon di file peer-to-peer di próksimo generashon",

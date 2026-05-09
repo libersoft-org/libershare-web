@@ -14,7 +14,8 @@
 		"toggle": "Menü uftue",
 		"close": "Menü zuetue",
 		"language": "Sproch",
-		"selectLanguage": "Sproch ussueche"
+		"selectLanguage": "Sproch ussueche",
+		"searchLanguage": "Sproch sueche..."
 	},
 	"hero": {
 		"subtitle": "Nöji Generation peer-to-peer Dateie-Teile",

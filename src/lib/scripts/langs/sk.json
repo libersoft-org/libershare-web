@@ -14,7 +14,8 @@
 		"toggle": "Prepnúť menu",
 		"close": "Zavrieť menu",
 		"language": "Jazyk",
-		"selectLanguage": "Vybrať jazyk"
+		"selectLanguage": "Vybrať jazyk",
+		"searchLanguage": "Hľadať jazyk..."
 	},
 	"hero": {
 		"subtitle": "Nová generácia peer-to-peer zdieľania súborov",

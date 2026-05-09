@@ -14,7 +14,8 @@
 		"toggle": "မီနူးပြောင်းရန်",
 		"close": "မီနူးပိတ်ရန်",
 		"language": "ဘာသာစကား",
-		"selectLanguage": "ဘာသာစကားရွေးပါ"
+		"selectLanguage": "ဘာသာစကားရွေးပါ",
+		"searchLanguage": "ဘာသာစကားရှာရန်..."
 	},
 	"hero": {
 		"subtitle": "နောက်မျိုးဆက် peer-to-peer ဖိုင်မျှဝေခြင်း",

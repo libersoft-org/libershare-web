@@ -14,7 +14,8 @@
 		"toggle": "Menyuni almashtirish",
 		"close": "Menyuni yopish",
 		"language": "Til",
-		"selectLanguage": "Tilni tanlang"
+		"selectLanguage": "Tilni tanlang",
+		"searchLanguage": "Tilni qidirish..."
 	},
 	"hero": {
 		"subtitle": "Keyingi avlod peer-to-peer fayl almashish",

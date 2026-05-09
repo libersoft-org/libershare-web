@@ -14,7 +14,8 @@
 		"toggle": "Arvî o menù",
 		"close": "Særâ o menù",
 		"language": "Lengua",
-		"selectLanguage": "Çerne a lengua"
+		"selectLanguage": "Çerne a lengua",
+		"searchLanguage": "Çerca lengua..."
 	},
 	"hero": {
 		"subtitle": "Scangio de file peer-to-peer de neuva generaçión",

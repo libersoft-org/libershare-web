@@ -14,7 +14,8 @@
 		"toggle": "Chanje meni",
 		"close": "Fèmen meni",
 		"language": "Lang",
-		"selectLanguage": "Chwazi lang"
+		"selectLanguage": "Chwazi lang",
+		"searchLanguage": "Chèche lang..."
 	},
 	"hero": {
 		"subtitle": "Pataj fichye peer-to-peer pwochen jenerasyon",

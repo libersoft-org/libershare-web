@@ -14,7 +14,8 @@
 		"toggle": "Conmutar menú",
 		"close": "Zarrar menú",
 		"language": "Llingua",
-		"selectLanguage": "Esbillar una llingua"
+		"selectLanguage": "Esbillar una llingua",
+		"searchLanguage": "Buscar llingua..."
 	},
 	"hero": {
 		"subtitle": "La próxima xeneración de compartición de ficheros peer-to-peer",

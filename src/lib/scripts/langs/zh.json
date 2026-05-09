@@ -14,7 +14,8 @@
 		"toggle": "切换菜单",
 		"close": "关闭菜单",
 		"language": "语言",
-		"selectLanguage": "选择语言"
+		"selectLanguage": "选择语言",
+		"searchLanguage": "搜索语言..."
 	},
 	"hero": {
 		"subtitle": "新一代点对点文件共享",

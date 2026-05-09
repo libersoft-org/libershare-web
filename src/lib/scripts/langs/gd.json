@@ -14,7 +14,8 @@
 		"toggle": "Toglaich an clàr-taice",
 		"close": "Dùin an clàr-taice",
 		"language": "Cànan",
-		"selectLanguage": "Tagh cànan"
+		"selectLanguage": "Tagh cànan",
+		"searchLanguage": "Lorg cànan..."
 	},
 	"hero": {
 		"subtitle": "An ath ghinealach de cho-roinneadh fhaidhlichean peer-to-peer",

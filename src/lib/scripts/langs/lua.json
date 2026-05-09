@@ -14,7 +14,8 @@
 		"toggle": "Shintulula menyu",
 		"close": "Imika menyu",
 		"language": "Mwakulu",
-		"selectLanguage": "Sungula mwakulu"
+		"selectLanguage": "Sungula mwakulu",
+		"searchLanguage": "Kebula muakulu..."
 	},
 	"hero": {
 		"subtitle": "Bagasunga bwa mafayi bwa peer-to-peer bwa tshikondo tshikuabu",

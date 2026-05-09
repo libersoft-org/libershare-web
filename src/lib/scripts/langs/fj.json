@@ -14,7 +14,8 @@
 		"toggle": "Veisautaka na menu",
 		"close": "Sogo na menu",
 		"language": "Vosa",
-		"selectLanguage": "Digitaka na vosa"
+		"selectLanguage": "Digitaka na vosa",
+		"searchLanguage": "Vakasaqara vosa..."
 	},
 	"hero": {
 		"subtitle": "Itabagone vou ni veiwasei iVola peer-to-peer",

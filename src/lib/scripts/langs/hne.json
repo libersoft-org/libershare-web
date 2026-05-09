@@ -14,7 +14,8 @@
 		"toggle": "मेनू टॉगल करौ",
 		"close": "मेनू बंद करौ",
 		"language": "भाखा",
-		"selectLanguage": "भाखा चुनौ"
+		"selectLanguage": "भाखा चुनौ",
+		"searchLanguage": "भाखा खोजव..."
 	},
 	"hero": {
 		"subtitle": "Peer-to-peer फाइल बाँटइया के नवा पीढ़ी",

@@ -14,7 +14,8 @@
 		"toggle": "Alãxescu meniul",
 		"close": "Ncljid meniul",
 		"language": "Limbã",
-		"selectLanguage": "Aleadzi limba"
+		"selectLanguage": "Aleadzi limba",
+		"searchLanguage": "Caftă limba..."
 	},
 	"hero": {
 		"subtitle": "Etea atsea di nauã di mpãrtsãri di fileri peer-to-peer",

@@ -14,7 +14,8 @@
 		"toggle": "Hurihia te tabula",
 		"close": "Ōpani te tabula",
 		"language": "Reo",
-		"selectLanguage": "Maʻiti reo"
+		"selectLanguage": "Maʻiti reo",
+		"searchLanguage": "ʻImi reo..."
 	},
 	"hero": {
 		"subtitle": "ʻUi āpī o te tuʻatiraʻa peer-to-peer o te mau faila",

@@ -14,7 +14,8 @@
 		"toggle": "Vula imenyu",
 		"close": "Vala imenyu",
 		"language": "Ulimi",
-		"selectLanguage": "Khetha ulimi"
+		"selectLanguage": "Khetha ulimi",
+		"searchLanguage": "Sesha ulimi..."
 	},
 	"hero": {
 		"subtitle": "Isizukulwane esilandelayo sokwabelana ngamafayela ku-peer-to-peer",

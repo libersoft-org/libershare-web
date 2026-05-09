@@ -14,7 +14,8 @@
 		"toggle": "បិទបើកម៉ឺនុយ",
 		"close": "បិទម៉ឺនុយ",
 		"language": "ភាសា",
-		"selectLanguage": "ជ្រើសរើសភាសា"
+		"selectLanguage": "ជ្រើសរើសភាសា",
+		"searchLanguage": "ស្វែងរកភាសា..."
 	},
 	"hero": {
 		"subtitle": "ការចែករំលែកឯកសារ peer-to-peer ជំនាន់ក្រោយ",
