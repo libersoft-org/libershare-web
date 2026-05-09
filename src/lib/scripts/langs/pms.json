@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cundivisión decentralizà ëd file",
+		"description": "{project} a l'é un programa peer-to-peer për lë scambi ëd file, basà dzora a tecnologìa moderna decentralizà.",
+		"ogTitle": "{project} - Programa ëd cundivisión decentralizà ëd file",
+		"ogDescription": "Scambi ëd file peer-to-peer basà dzora a tecnologìa moderna decentralizà. Gnun servidor centrale. Gnun pont uni ëd falimènt."
+	},
+	"menu": {
+		"about": "Anformassion",
+		"download": "Dëscarié",
+		"screenshots": "Schermà",
+		"comparison": "Confront",
+		"contact": "Contat",
+		"toggle": "Duverté ël menù",
+		"close": "Sarié ël menù",
+		"language": "Lenga",
+		"selectLanguage": "Sserne la lenga"
+	},
+	"hero": {
+		"subtitle": "Scambi ëd file peer-to-peer ëd nuva generassion",
+		"description": "Basà dzora a tecnologìa moderna decentralizà. Gnun servidor centrale. Gnun pont uni ëd falimènt.",
+		"download": "Dëscarié"
+	},
+	"about": {
+		"title": "Anformassion",
+		"intro": "{project} a l'é na piataforma ëd nuva generassion për lë scambi ëd file peer-to-peer, basà dzora a tecnologìa moderna decentralizà. A combina n'antërfacia bonòira da dovré con n'architetura dël tut decentralizà, garantend në scambi ëd file sigur e fidà sensa dabzògn ëd n'autorità centrale. Cost progèt a l'é open source, publicà sota {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Réj dël tut decentralizà",
+				"description": "Gnun servidor centrale, gnun pont uni ëd falimènt. Jë dovrador a treuvo e dëscário contnù dirëtament dai àutri, sensa dipende da gnun ìndice centrale, motor ëd serca o database."
+			},
+			"accessControl": {
+				"title": "Contròl fin dl'aces",
+				"description": "Tut chi a peul costrùe soa réj con soe régole, gratis. Dal didentr ëd minca réj, jë rol dë jë dovrador a son definì: padron, aministrator, editor, moderator e seguidor. Ti't l'has ël contròl fin ëd chi a peul publicé, moderé e dëscarié contnù."
+			},
+			"ui": {
+				"title": "Antërfacia ëd qualità",
+				"description": "Antërfacia media center polida e lesta, progetà për desktop, TV e piataforme mobili. Navigassion bonòira con tastera, mouse, gamepad o telecomand. Jë dovrador espèrt a peulo fé giré ël programa coma servidor sensa testa travers l'antërfacia a riga ëd comand."
+			},
+			"dataFormat": {
+				"title": "Formà ëd dat lesìbil dai òmo",
+				"description": "Ël formà ëd dat LISH a l'é basà dzora JSON, ch'a lo fa bonòire da creé, lese e capì. Condivid ël tò contnù con metadati ciair e trasparent, che tut chi a peul verifiché."
+			},
+			"security": {
+				"title": "Privatëssa e sicurëssa",
+				"description": "Tute le comunicassion peer-to-peer a son criptà, garantend che ij tò dat a resto privà durant ël transit. Jë dovrador a peulo stërmesse dré a na VPN për la massima anonimità. {project} a rispeta toa privatëssa për progèt."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforma",
+				"description": "Ël programa a l'é disponibil për Windows, Linux e macOS. Dovrëlo dzora la piataforma ch'it preferisse."
+			}
+		}
+	},
+	"download": {
+		"title": "Dëscarié",
+		"description": "Ciapa {project} për toa piataforma. Tute le dëscariament a son gratis e open source.",
+		"version": "Version atual: {version}",
+		"linkAlt": "Dëscarié",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pachèt {format}",
+			"portableZip": "ZIP portàbil",
+			"viewOnGithub": "Varda dzora GitHub"
+		},
+		"macos": {
+			"title": "Avis amportant për jë dovrador macOS:",
+			"intro": "macOS Gatekeeper a blòca j'aplicassion nen firmà/nen notarizà dëscariate da Internet con n'eror {error}.",
+			"error": "\"a l'é rota, as peul nen duverté\"",
+			"runCommand": "Apress avej dëscarià ël DMG o ël ZIP, prima ëd duverté l'aplicassion, fà giré cost comand an terminal:",
+			"exampleDmg": "Për esempi, apress l'instalassion da un DMG:",
+			"exampleZip": "O bin apress l'estrassion ëd un ZIP:",
+			"explanation": "Sòn a leva l'atribut ëd quarantèna e a përmët a l'aplicassion ëd giré."
+		}
+	},
+	"screenshots": {
+		"title": "Schermà",
+		"open": "Duverté la schermà {index}",
+		"alt": "Schermà {index}",
+		"close": "Sarié la galarìa",
+		"prev": "Schermà precedenta",
+		"next": "Schermà sucessiva"
+	},
+	"comparison": {
+		"title": "Confront",
+		"feature": "Funsion",
+		"yes": "É",
+		"no": "Nò",
+		"partialDht": "Parsial (DHT)",
+		"rows": {
+			"decentralized": "Réj decentralizà",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Serca ëd contnù integrà",
+			"decentralizedSearch": "Serca ëd contnù decentralizà",
+			"parallelDownloads": "Dëscariament paralei da fònt multipl",
+			"mediaCenter": "Antërfacia media center",
+			"gamepad": "Sostegn për gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contat",
+		"getInTouch": "Bùtesse an contat",
+		"links": {
+			"telegramChat": "Group chat Telegram",
+			"telegramAnnouncements": "Anunsi Telegram",
+			"facebook": "Group Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fait da"
+	}
+}

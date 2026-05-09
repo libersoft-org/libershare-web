@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizovano Razděljanje Fajlov",
+		"description": "{project} jest peer-to-peer softver za razděljanje fajlov, izgradženy na moderno decentralizovanoj teknologiji.",
+		"ogTitle": "{project} - Softver za Decentralizovano Razděljanje Fajlov",
+		"ogDescription": "Peer-to-peer razděljanje fajlov izgradženo na moderno decentralizovanoj teknologiji. Bez centralnogo servera. Bez jedinogo točke neuspěha."
+	},
+	"menu": {
+		"about": "O programu",
+		"download": "Skačati",
+		"screenshots": "Snimki ekrana",
+		"comparison": "Sravnjenje",
+		"contact": "Kontakt",
+		"toggle": "Otkryti menu",
+		"close": "Zatvoriti menu",
+		"language": "Jezyk",
+		"selectLanguage": "Vybrati jezyk"
+	},
+	"hero": {
+		"subtitle": "Sledujučaja generacija peer-to-peer razděljanja fajlov",
+		"description": "Izgradženo na moderno decentralizovanoj teknologiji. Bez centralnogo servera. Bez jedinogo točke neuspěha.",
+		"download": "Skačati"
+	},
+	"about": {
+		"title": "O programu",
+		"intro": "{project} jest platforma sledujučej generacije za peer-to-peer razděljanje fajlov, izgradžena na moderno decentralizovanoj teknologiji. Ona kombinuje legko upotrěbljajemy interfejs s polno decentralizovanoju arhitekturoju, garantujuč bezpečno i pouzdano razděljanje fajlov bez potreby centralnogo organa. Tutoj projekt jest open source, publikovany pod {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Polno decentralizovana sěť",
+				"description": "Bez centralnogo servera, bez jedinogo točke neuspěha. Užitkovniki nahodet i skačajut sodržanje neposrědno jeden od drugogo, ne polagajučise na centralny indeks, traker ili bazu dannyh."
+			},
+			"accessControl": {
+				"title": "Granularna kontrola dostupa",
+				"description": "Vsekto može izgraditi vlastnu sěť s vlastnymi pravilami besplatno. Vnutri vsakoj sěti, role užitkovnikov sut definovane: vlastnik, administrator, publikator, moderator i poslědovatelj. Imajete granularnu kontrolu nad tym, kto može publikovati, moderovati i skačati sodržanje."
+			},
+			"ui": {
+				"title": "Vysoko-kačestveny interfejs",
+				"description": "Čisty i otzyvajučise interfejs medijnogo centra, projektovany za desktop, televizor i mobilne platformy. Legka navigacija s klaviaturoju, myšjeju, gejmpadom ili daljinskym upravljenjem. Razvijeni užitkovniki mogut zapustiti softver jako servera dannyh bez glavy črez interfejs komandnoj linije."
+			},
+			"dataFormat": {
+				"title": "Po-čeloveskomu čitajemy format dannyh",
+				"description": "Format dannyh LISH izgradžen jest na JSON, čto čini jego legkim za sotvarjanje, čitanje i razuměnje. Razděljajete sodržanje s jasnymi i prozračnymi metadannymi, kotore vsekto može legko proveriti."
+			},
+			"security": {
+				"title": "Privatnost i bezpěčnost",
+				"description": "Vse peer-to-peer komunikacije sut šifrovane, garantujuč že vaše danne ostajut privatnymi v tranzitě. Užitkovniki mogut skryti se za VPN za bolju anonimnost. {project} uvažaje vašu privatnost po dizajnu."
+			},
+			"crossPlatform": {
+				"title": "Mežduplatformny",
+				"description": "Softver jest dostupny za Windows, Linux i macOS. Upotrěbljajte ga na ljuboj platformě, kotoru predpočitajete."
+			}
+		}
+	},
+	"download": {
+		"title": "Skačati",
+		"description": "Polučite {project} za vašu platformu. Vse skačanja sut besplatne i open source.",
+		"version": "Tekuča versija: {version}",
+		"linkAlt": "Skačati",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Paket {format}",
+			"portableZip": "Prenosny ZIP",
+			"viewOnGithub": "Smotrěti na GitHub"
+		},
+		"macos": {
+			"title": "Važna informacija za užitkovnikov macOS:",
+			"intro": "macOS Gatekeeper budet blokovati nepodpisane/neotorizovane aplikacije skačane iz interneta s grěškoju {error}.",
+			"error": "\"jest slomljena, ne može byti otkryta\"",
+			"runCommand": "Po skačanji DMG ili ZIP, prěd otkrytjem aplikacije, izpolnite tutu komandu v terminalu:",
+			"exampleDmg": "Naprimer, po instalaciji iz DMG:",
+			"exampleZip": "Ili po izvlěčenji ZIP:",
+			"explanation": "To otstrani atribut karantiny i dozvoli aplikaciji izpolnjati se."
+		}
+	},
+	"screenshots": {
+		"title": "Snimki ekrana",
+		"open": "Otkryti snimok ekrana {index}",
+		"alt": "Snimok ekrana {index}",
+		"close": "Zatvoriti galeriju",
+		"prev": "Prědhodny snimok",
+		"next": "Slědujuči snimok"
+	},
+	"comparison": {
+		"title": "Sravnjenje",
+		"feature": "Funkcija",
+		"yes": "Da",
+		"no": "Ne",
+		"partialDht": "Častno (DHT)",
+		"rows": {
+			"decentralized": "Decentralizovana sěť",
+			"onlineLibrary": "Online biblioteka",
+			"builtInSearch": "Vnutrišnje iskanje sodržanja",
+			"decentralizedSearch": "Decentralizovano iskanje sodržanja",
+			"parallelDownloads": "Paralelne skačanja iz mnogyh izvorov",
+			"mediaCenter": "Interfejs medijnogo centra",
+			"gamepad": "Podpora gejmpada",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Stupiti v kontakt",
+		"links": {
+			"telegramChat": "Telegram čat grupa",
+			"telegramAnnouncements": "Telegram objavjenja",
+			"facebook": "Facebook grupa"
+		}
+	},
+	"footer": {
+		"by": "Sotvorjeno"
+	}
+}

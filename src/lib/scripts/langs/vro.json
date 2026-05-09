@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Detsentraliseeritu failide jagaminõ",
+		"description": "{project} om peer-to-peer programm failide jagamisõs, mis põhinõs kaasaigsel detsentraliseeritul tehnoloogial.",
+		"ogTitle": "{project} - Detsentraliseeritu failide jagamisõ programm",
+		"ogDescription": "Peer-to-peer failide jagaminõ, mis põhinõs kaasaigsel detsentraliseeritul tehnoloogial. Tsentraalsõt serverit ei olõ. Üttõ rikõpunkti ei olõ."
+	},
+	"menu": {
+		"about": "Meist",
+		"download": "Tõmba alla",
+		"screenshots": "Pildi ekraanist",
+		"comparison": "Võrdõlus",
+		"contact": "Kontakt",
+		"toggle": "Avita menüü",
+		"close": "Kinni menüü",
+		"language": "Kiil",
+		"selectLanguage": "Vali kiilt"
+	},
+	"hero": {
+		"subtitle": "Vahtsõ põlvkonna peer-to-peer failide jagaminõ",
+		"description": "Põhinõs kaasaigsel detsentraliseeritul tehnoloogial. Tsentraalsõt serverit ei olõ. Üttõ rikõpunkti ei olõ.",
+		"download": "Tõmba alla"
+	},
+	"about": {
+		"title": "Meist",
+		"intro": "{project} om vahtsõ põlvkonna platvorm peer-to-peer failide jagamisõs, mis põhinõs kaasaigsel detsentraliseeritul tehnoloogial. Taa pand kokku lihtsa pruugitava liidese täielikult detsentraliseeritu arhitektuuriga, taatõs turvalisõ ja kindla failide jagamisõ ilma tsentraalsõ võimu vajadusõlda. Taa projekt om avatu lättekoodiga, vällä antu {license} alh.",
+		"features": {
+			"decentralized": {
+				"title": "Täielikult detsentraliseeritu võrk",
+				"description": "Tsentraalsõt serverit ei olõ, üttõ rikõpunkti ei olõ. Pruukja löüdvä ja tõmbasõ alla sisu otse tõisilt, ilma sõltumalda ütestki tsentraalsõst registrist, otsimuturist vai andmõbaasist."
+			},
+			"accessControl": {
+				"title": "Peenide pääsulupakontroll",
+				"description": "Egäüts saa luvva uma võrgu uma reegliga, ilma rahalda. Egan võrgun olõva pruukja rolli är määräti: umanik, administraator, toimõndaja, moderaator ja jälgijä. Sul om peenide kontroll selle üle, kiä saa avalikustaa, modereeriä ja sisu alla tõmmaa."
+			},
+			"ui": {
+				"title": "Korgkvaliteediga liides",
+				"description": "Puhas ja kipõ media center liides, mõisitu lavvaarvutilõ, telerile ja mobiilsele platvormele. Lihtne navigeerminõ klaviatuuriga, hiirega, mängupuldiga vai kaugjuhtimispuldiga. Kogenu pruukja saava programmi käümä panda päätäna serverina käsurea liidese kaudu."
+			},
+			"dataFormat": {
+				"title": "Inemiselt loetav andmõvorming",
+				"description": "LISH andmõvorming põhinõs JSON-il, mis tege talõ lihtsas luvva, lukõ ja arru saaja. Jaga umma sisu selgide ja läbipaistvide metaandmidõga, midä egäüts saa kontrolliõ."
+			},
+			"security": {
+				"title": "Privaatsus ja turvalisus",
+				"description": "Kõik peer-to-peer suhtlus om krüpteerit, mis taa, et su andmõ jäävä edastamisel privaatsõs. Pruukja saava end VPN tagaha varjada veel suurõba anonüümsusõs. {project} austa su privaatsust kavandamisõ kaudu."
+			},
+			"crossPlatform": {
+				"title": "Mitmõlõ platvormilõ",
+				"description": "Programm om saiavalt Windowsõlõ, Linuxilõ ja macOS-ilõ. Pruugi tedä sellõ platvormi pääl, midä iks rohkõmb meelde."
+			}
+		}
+	},
+	"download": {
+		"title": "Tõmba alla",
+		"description": "Saa {project} uma platvormi jaos. Kõik allatõmbamisõ olõva ilma rahalda ja avatu lättekoodiga.",
+		"version": "Praegunõ versiuun: {version}",
+		"linkAlt": "Tõmba alla",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universaalnõ (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} paigaldajas",
+			"package": "{format} pakk",
+			"portableZip": "Kaasaskandav ZIP",
+			"viewOnGithub": "Kae GitHubist"
+		},
+		"macos": {
+			"title": "Tähtsä teedüs macOS pruukjile:",
+			"intro": "macOS Gatekeeper tõkka allatõmmatu allkirjastamalda/notariseerimälda rakendusõ veaga {error}.",
+			"error": "\"om katski, ei saa avita\"",
+			"runCommand": "Pääle DMG vai ZIP allatõmbamist, inne rakendusõ avitamist, käüvitä taa käsk terminaalin:",
+			"exampleDmg": "Näütüsõs, pääle DMG paigaldamist:",
+			"exampleZip": "Vai pääle ZIP lahtipakmist:",
+			"explanation": "Taa võtt är karantiini atribuudi ja lupa rakendusõl käümä minnä."
+		}
+	},
+	"screenshots": {
+		"title": "Pildi ekraanist",
+		"open": "Avita ekraanipilt {index}",
+		"alt": "Ekraanipilt {index}",
+		"close": "Kinni galerii",
+		"prev": "Edinene pilt",
+		"next": "Tulõva pilt"
+	},
+	"comparison": {
+		"title": "Võrdõlus",
+		"feature": "Funktsiuun",
+		"yes": "Jah",
+		"no": "Ei",
+		"partialDht": "Osaliselt (DHT)",
+		"rows": {
+			"decentralized": "Detsentraliseeritu võrk",
+			"onlineLibrary": "Internetin raamatukogo",
+			"builtInSearch": "Sisseehitetü sisu otsing",
+			"decentralizedSearch": "Detsentraliseeritu sisu otsing",
+			"parallelDownloads": "Paralleelse allatõmbamisõ mitmõst lättest",
+			"mediaCenter": "Media center liides",
+			"gamepad": "Mängupuldi tugi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Võta üle",
+		"links": {
+			"telegramChat": "Telegram jutugrupp",
+			"telegramAnnouncements": "Telegram teedüsõ",
+			"facebook": "Facebook grupp"
+		}
+	},
+	"footer": {
+		"by": "Tegi"
+	}
+}

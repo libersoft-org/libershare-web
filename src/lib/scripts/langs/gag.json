@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Merkezsiz Dosya Paylaşması",
+		"description": "{project} bir eşten-eşä dosya paylaşması proqramıdır, modern merkezsiz tehnologiyä üstündä kurulu.",
+		"ogTitle": "{project} - Merkezsiz dosya paylaşması proqramı",
+		"ogDescription": "Eşten-eşä dosya paylaşması modern merkezsiz tehnologiyä üstündä kurulu. Merkez serveri yok. Tek bir başarsızlık noktası yok."
+	},
+	"menu": {
+		"about": "Bizim için",
+		"download": "İndir",
+		"screenshots": "Ekran resimneri",
+		"comparison": "Karşılaştırmak",
+		"contact": "Baalantı",
+		"toggle": "Menüyü aç",
+		"close": "Menüyü kapa",
+		"language": "Dil",
+		"selectLanguage": "Dil seç"
+	},
+	"hero": {
+		"subtitle": "Eni nesil eşten-eşä dosya paylaşması",
+		"description": "Modern merkezsiz tehnologiyä üstündä kurulu. Merkez serveri yok. Tek bir başarsızlık noktası yok.",
+		"download": "İndir"
+	},
+	"about": {
+		"title": "Bizim için",
+		"intro": "{project} bir eni nesil eşten-eşä dosya paylaşması platformasıdır, modern merkezsiz tehnologiyä üstündä kurulu. O hafif bir bakış pençeresini tamamnan merkezsiz bir mimariyä birleştirär, salim hem inanılır dosya paylaşmasını saalayarak merkez bir otoritä gerek olmadaan. Bu proyekt açık kaynak, {license} altında çıkarıldı.",
+		"features": {
+			"decentralized": {
+				"title": "Tamamnan merkezsiz aa",
+				"description": "Merkez serveri yok, tek bir başarsızlık noktası yok. Kullanıcılar içerää dooru başkalarından bulup indirerlär, merkez bir indeksä, aaramak makinasına yada veri tabanına baalı olmadaan."
+			},
+			"accessControl": {
+				"title": "İncä erişim kontrolü",
+				"description": "Hepsi kendi aalını kendi kurallarınnan kurabilir, parasız. Hep aanın içindä kullanıcı rolleri tanımlanmış: saabi, yönetici, redaktör, moderator hem izlemäk yapan. Sän kimin yayımlayabilecäänä, moderasiyä yapabilecäänä hem içerii indirebilecäänä üstündä incä kontrolün var."
+			},
+			"ui": {
+				"title": "Üüsek kalitäli bakış pençeresi",
+				"description": "Temiz hem hızlı medyä merkezi bakış pençeresi, masaüstü, televizion hem cep platformaları için tasarlandı. Kolay yön bulması klaviaturanın, faarä, gamepad yada uzaktan kontrol kullanarak. Tecrübeli kullanıcılar proqramı başsız server gibi komut satırı bakış pençeresinnän çalıştırabilirlär."
+			},
+			"dataFormat": {
+				"title": "İnsannar tarafından okunabilän veri formatı",
+				"description": "LISH veri formatı JSON üstündä kurulu, ki onu yapmaa, okumaa hem annamaa kolay yapär. İçerini açık hem şeffaf metadatalarlan paylaş, ki hepsi kontrol edebilir."
+			},
+			"security": {
+				"title": "Privatlık hem salimlik",
+				"description": "Hepsi eşten-eşä iletişimnär şifrelenmiş, geçidin sırasında verilerin privat kalmasını saalayarak. Kullanıcılar VPN'in arkasında saklanabilirlär daha çok anonimlik için. {project} senin privatlıını tasarımca sayär."
+			},
+			"crossPlatform": {
+				"title": "Çoklu platforma",
+				"description": "Proqram Windows, Linux hem macOS için var. Onu istediin platformada kullan."
+			}
+		}
+	},
+	"download": {
+		"title": "İndir",
+		"description": "{project}'i platforman için al. Hepsi indirmelär parasızdır hem açık kaynaktır.",
+		"version": "Şindiki versiya: {version}",
+		"linkAlt": "İndir",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} kuruculu",
+			"package": "{format} paket",
+			"portableZip": "Taşınır ZIP",
+			"viewOnGithub": "GitHub'ta gör"
+		},
+		"macos": {
+			"title": "Önemni nota macOS kullanıcıları için:",
+			"intro": "macOS Gatekeeper imzasız/notarsız internettän indirilmiş aplikasiyaları durdurär, bir hata {error} ilä.",
+			"error": "\"bozuk, açılamaz\"",
+			"runCommand": "DMG yada ZIP indirdiktän sora, aplikasiyayı açmadan ilerdän, bu komutu terminalda çalıştır:",
+			"exampleDmg": "Örnek için, DMG'dän kurulduktan sora:",
+			"exampleZip": "Yada ZIP'in açılmasından sora:",
+			"explanation": "Bu karantina atribütünü kaldırär hem aplikasiyayı çalıştırmaa izin verär."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran resimneri",
+		"open": "{index} ekran resmini aç",
+		"alt": "Ekran resmi {index}",
+		"close": "Galeriyi kapa",
+		"prev": "Geçmiş ekran resmi",
+		"next": "Bitki ekran resmi"
+	},
+	"comparison": {
+		"title": "Karşılaştırmak",
+		"feature": "Özellik",
+		"yes": "Evet",
+		"no": "Yok",
+		"partialDht": "Bölümäk (DHT)",
+		"rows": {
+			"decentralized": "Merkezsiz aa",
+			"onlineLibrary": "Onlayn kitaplık",
+			"builtInSearch": "Iç içerik aaraması",
+			"decentralizedSearch": "Merkezsiz içerik aaraması",
+			"parallelDownloads": "Birkaç kaynaktan paralel indirmelär",
+			"mediaCenter": "Medyä merkezi bakış pençeresi",
+			"gamepad": "Gamepad desteklemesi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Baalantı",
+		"getInTouch": "Baalantıya geç",
+		"links": {
+			"telegramChat": "Telegram laf grupası",
+			"telegramAnnouncements": "Telegram bildirmeleri",
+			"facebook": "Facebook grupası"
+		}
+	},
+	"footer": {
+		"by": "Tarafından yapıldı"
+	}
+}

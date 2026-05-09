@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizowane dzielyńy plikōw",
+		"description": "{project} to je peer-to-peer program do dzielyńo plikōw, postawiōny na moderny decentralizowany technologii.",
+		"ogTitle": "{project} - Program do decentralizowanego dzielyńo plikōw",
+		"ogDescription": "Peer-to-peer dzielyńy plikōw postawiōny na moderny decentralizowany technologii. Żodyn centralny serwer. Żodyn jedyn pōnkt awarie."
+	},
+	"menu": {
+		"about": "Ô nasi",
+		"download": "Pobier",
+		"screenshots": "Snimki ekranu",
+		"comparison": "Porōwnanie",
+		"contact": "Kōntakt",
+		"toggle": "Ôtwōrz menu",
+		"close": "Zawrzij menu",
+		"language": "Godka",
+		"selectLanguage": "Wybier godka"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer dzielyńy plikōw nowyj generacyje",
+		"description": "Postawiōny na moderny decentralizowany technologii. Żodyn centralny serwer. Żodyn jedyn pōnkt awarie.",
+		"download": "Pobier"
+	},
+	"about": {
+		"title": "Ô nasi",
+		"intro": "{project} to je platforma nowyj generacyje do peer-to-peer dzielyńo plikōw, postawiōno na moderny decentralizowany technologii. Łōnczy proste interfejs do używaniō ze cołkiym decentralizowanōm architekturōm, gwarantujōnc bezpieczne i pewne dzielyńy plikōw bez potrzeby centralnyj autorytety. Tyn projekt to je open source, wydany pod {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Cołkiym decentralizowano sieć",
+				"description": "Żodyn centralny serwer, żodyn jedyn pōnkt awarie. Używocze najdujōm i pobiyrajōm zawartość prosto ôd inkszych, niy zależōnc ôd żodnego centralnego indeksu, wyszukiwarki abo bazy danych."
+			},
+			"accessControl": {
+				"title": "Drobnostkowo kōntrola dostympu",
+				"description": "Kożdy może budować swojo siyć ze swojimi regułami, zadarmo. We kożdy siyci sōm zdefiniowane role używoczy: posiyciel, administrator, edytor, moderator i naśladowca. Mosz drobnostkowo kōntrola ôber tym, kto może publikować, moderować i pobiyrać zawartość."
+			},
+			"ui": {
+				"title": "Wysokij jakości interfejs",
+				"description": "Czyste i prōnde interfejs media center, zaprojektowane do desktopu, telewizora i mobilnych platform. Proste nawigacyjo z klawiaturōm, myszōm, gamepadem abo pilotym. Spamiyntali używocze mogōm puszczać program jak serwer bez głowy bez interfejs liniji kōmend."
+			},
+			"dataFormat": {
+				"title": "Czytelne dlo czowieka format danych",
+				"description": "Format danych LISH to je postawiōny na JSON, co robi go prōndnym do tworzyniō, czytaniō i rozumiyniō. Dziel swoja zawartość ze jasnymi i przejrzystymi metadanymi, kere kożdy może sprawdzić."
+			},
+			"security": {
+				"title": "Prywatność i bezpieczyństwo",
+				"description": "Wszyske peer-to-peer kōmunikacyje sōm szyfrowane, gwarantujōnc, że twoje dane ôstajōm prywatne we transicie. Używocze mogōm sie skryć za VPN dlo wiynkszyj anonimowości. {project} szanuje twoja prywatność po projekcie."
+			},
+			"crossPlatform": {
+				"title": "Multiplatformowy",
+				"description": "Program to je dostympny na Windows, Linux i macOS. Używej go na platformie, kero wolisz."
+			}
+		}
+	},
+	"download": {
+		"title": "Pobier",
+		"description": "Wez {project} do swojij platformy. Wszyske pobiyraniō sōm zadarmo i open source.",
+		"version": "Aktualno wersyjo: {version}",
+		"linkAlt": "Pobier",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Uniwersalny (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalatōr {format}",
+			"package": "Pakiet {format}",
+			"portableZip": "Przenośny ZIP",
+			"viewOnGithub": "Ôbejrzij na GitHubie"
+		},
+		"macos": {
+			"title": "Ważne ôgłoszyńy do używoczy macOS:",
+			"intro": "macOS Gatekeeper zablokuje niepodpisane/nienotaryzowane aplikacyje pobrane ze Internetu ze błyndym {error}.",
+			"error": "\"je rozbito, niy może być ôtworzōno\"",
+			"runCommand": "Po pobraniu DMG abo ZIP, przed ôtwōrzyniym aplikacyje, puść ta kōmenda we terminalu:",
+			"exampleDmg": "Na przikłod, po instalacyji z DMG:",
+			"exampleZip": "Abo po wypakowaniu ZIP:",
+			"explanation": "To suciepie atrybut kwarantanny i pozwoli aplikacyji se uruchōmić."
+		}
+	},
+	"screenshots": {
+		"title": "Snimki ekranu",
+		"open": "Ôtwōrz snimek ekranu {index}",
+		"alt": "Snimek ekranu {index}",
+		"close": "Zawrzij galeryjo",
+		"prev": "Poprzedni snimek",
+		"next": "Nastympny snimek"
+	},
+	"comparison": {
+		"title": "Porōwnanie",
+		"feature": "Funkcyjo",
+		"yes": "Ja",
+		"no": "Niy",
+		"partialDht": "Czyńściowe (DHT)",
+		"rows": {
+			"decentralized": "Decentralizowano siyć",
+			"onlineLibrary": "Biblioteka online",
+			"builtInSearch": "Wbudowane wyszukowanie zawartości",
+			"decentralizedSearch": "Decentralizowane wyszukowanie zawartości",
+			"parallelDownloads": "Rōwnoległe pobiyraniō ze wielu źrōdoł",
+			"mediaCenter": "Interfejs media center",
+			"gamepad": "Sparcie do gamepada",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kōntakt",
+		"getInTouch": "Skōntaktuj sie",
+		"links": {
+			"telegramChat": "Telegram chat grupa",
+			"telegramAnnouncements": "Telegram ôgłoszyniō",
+			"facebook": "Facebook grupa"
+		}
+	},
+	"footer": {
+		"by": "Zrobiōny ôd"
+	}
+}

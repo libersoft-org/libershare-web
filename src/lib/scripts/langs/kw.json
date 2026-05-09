@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Rynnans Restren Dasranellys",
+		"description": "{project} yw towlen para-dhe-bara rag rynna restrennow, drehevys war dornweyth nowydh dasranellys.",
+		"ogTitle": "{project} - Towlen rynnans restren dasranellys",
+		"ogDescription": "Rynnans restren para-dhe-bara drehevys war dornweyth nowydh dasranellys. Servador kres vyth. Poynt onan a fyllyans vyth."
+	},
+	"menu": {
+		"about": "A-dro",
+		"download": "Iskerghes",
+		"screenshots": "Skrinskeusennow",
+		"comparison": "Keheveles",
+		"contact": "Kestava",
+		"toggle": "Igeri rol",
+		"close": "Degea rol",
+		"language": "Yeth",
+		"selectLanguage": "Dewis yeth"
+	},
+	"hero": {
+		"subtitle": "Henedh nowydh a rynnans restren para-dhe-bara",
+		"description": "Drehevys war dornweyth nowydh dasranellys. Servador kres vyth. Poynt onan a fyllyans vyth.",
+		"download": "Iskerghes"
+	},
+	"about": {
+		"title": "A-dro",
+		"intro": "{project} yw plasen henedh nowydh rag rynnans restren para-dhe-bara, drehevys war dornweyth nowydh dasranellys. Y kesun keniver-tu sempel gans framweyth dasranellys leun, ow surya rynnans restren salow ha krysadow heb edhom a awtorita kres. Y'ma an ragdres ma open source, dyllys yn-dann an {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Roesweyth dasranellys yn leun",
+				"description": "Servador kres vyth, poynt onan a fyllyans vyth. Devnydhyoryon a gyv hag a iskergh dalgh yn unyon dhyworth re erell, heb bos kelmys orth menegva, jynn-hwilas po dasvas kres."
+			},
+			"accessControl": {
+				"title": "Kontroll fynn a dhyffres",
+				"description": "Pubonan a yll drehevel y rosweyth y honan gans rewlys y honan, heb arghans. A-bervedh pub rosweyth, y fydh ow tegva an rolyow devnydhyer: perghennek, mentenor, golegydh, modurer ha siwya. Yma genes kontroll fynn dhe biw a yll dyllo, modurya hag iskerghes dalgh."
+			},
+			"ui": {
+				"title": "Keniver-tu a vri uhel",
+				"description": "Keniver-tu kresva venystrek glan ha skav, desinys rag amontyer-deusk, pellwolok ha plasennow dorn. Lewyans sempel gans alhwedhverl, logosen, gamboes po pellrewlyer. Devnydhyoryon profys a yll resek an dowlen avel servador heb pen der an keniver-tu lin-arghadow."
+			},
+			"dataFormat": {
+				"title": "Furvenn data redadow gans den",
+				"description": "Furvenn data LISH yw drehevys war JSON, mayth yw es y wul, redya ha konvedhes. Rann dha dhalgh gans metadata kler ha gwelladow, may hyll pubonan y wires."
+			},
+			"security": {
+				"title": "Privetter ha salusy",
+				"description": "Oll keskomunyansow para-dhe-bara yw kevrinek, ow surya bos dha dhata privet pan vo o tremena. Devnydhyoryon a yll omgudha a-dryv VPN rag moy a anaknowianseth. {project} a brisya dha brivetter der dhesin."
+			},
+			"crossPlatform": {
+				"title": "Lies plasen",
+				"description": "An dowlen yw kevadow rag Windows, Linux ha macOS. Y'n usya war an blasen a vynnydh."
+			}
+		}
+	},
+	"download": {
+		"title": "Iskerghes",
+		"description": "Kavoes {project} rag dha blasen. Pub iskerghes yw heb arghans hag open source.",
+		"version": "Versyon a-lemmyn: {version}",
+		"linkAlt": "Iskerghes",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Hollvysek (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} stalyer",
+			"package": "{format} paket",
+			"portableZip": "ZIP doryadow",
+			"viewOnGithub": "Mires war GitHub"
+		},
+		"macos": {
+			"title": "Notyans posek rag devnydhyoryon macOS:",
+			"intro": "macOS Gatekeeper a let towlennow heb sinnans/heb notarya iskerghys a'n kesrosweyth, gans gwall {error}.",
+			"error": "\"yw terrys, ny yll bos igerys\"",
+			"runCommand": "Wosa ty dh'iskerghes an DMG po ZIP, kyns ty dh'igeri an dowlen, res yw dhis resek an arghadow ma y'n termynal:",
+			"exampleDmg": "Rag ensampel, wosa stalyans dhyworth DMG:",
+			"exampleZip": "Po wosa diskria a ZIP:",
+			"explanation": "Hemma a denn dhe-ves an gnasaweth quarantine ha gas an dowlen dhe resek."
+		}
+	},
+	"screenshots": {
+		"title": "Skrinskeusennow",
+		"open": "Igeri skrinskeusen {index}",
+		"alt": "Skrinskeusen {index}",
+		"close": "Degea galery",
+		"prev": "Skrinskeusen kyns",
+		"next": "Skrinskeusen nessa"
+	},
+	"comparison": {
+		"title": "Keheveles",
+		"feature": "Gnasweyth",
+		"yes": "Ya",
+		"no": "Na",
+		"partialDht": "Rann (DHT)",
+		"rows": {
+			"decentralized": "Roesweyth dasranellys",
+			"onlineLibrary": "Lyverva war-linen",
+			"builtInSearch": "Hwilas dalgh drehevys-a-bervedh",
+			"decentralizedSearch": "Hwilas dalgh dasranellys",
+			"parallelDownloads": "Iskerghyansow keheveloges a lies pennfenten",
+			"mediaCenter": "Keniver-tu kresva venystrek",
+			"gamepad": "Skoodhyans gamboes",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kestava",
+		"getInTouch": "Bos yn kestava",
+		"links": {
+			"telegramChat": "Bagas keskows Telegram",
+			"telegramAnnouncements": "Derivasow Telegram",
+			"facebook": "Bagas Facebook"
+		}
+	},
+	"footer": {
+		"by": "Gwrys gans"
+	}
+}

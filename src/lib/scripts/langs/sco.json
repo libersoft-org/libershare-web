@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralised File Sharin",
+		"description": "{project} is a peer-tae-peer programme fur sharin files, biggit on modren decentralised technologie.",
+		"ogTitle": "{project} - Decentralised File Sharin Programme",
+		"ogDescription": "Peer-tae-peer file sharin biggit on modren decentralised technologie. Nae central server. Nae single pynt o failure."
+	},
+	"menu": {
+		"about": "Aboot",
+		"download": "Doonload",
+		"screenshots": "Screenshots",
+		"comparison": "Comparison",
+		"contact": "Contact",
+		"toggle": "Open menu",
+		"close": "Sneck menu",
+		"language": "Leid",
+		"selectLanguage": "Wale leid"
+	},
+	"hero": {
+		"subtitle": "Neist-generation peer-tae-peer file sharin",
+		"description": "Biggit on modren decentralised technologie. Nae central server. Nae single pynt o failure.",
+		"download": "Doonload"
+	},
+	"about": {
+		"title": "Aboot",
+		"intro": "{project} is a neist-generation platform fur peer-tae-peer file sharin, biggit on modren decentralised technologie. It pits thegither an aisy-tae-uise interface wi a fully decentralised airchitecture, ensuirin sauf an reliable file sharin athoot the need fur a central authoritie. This project is open source, lowsed unner the {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fully decentralised network",
+				"description": "Nae central server, nae single pynt o failure. Uisers find an doonload content straucht frae ithers, no relyin on ony central index, search engine, or database."
+			},
+			"accessControl": {
+				"title": "Fine access control",
+				"description": "Onybodie can bigg thair ain network wi thair ain rules, fur free. Within ilka network, uiser roles is defined: ouner, admeenistrator, editor, moderator, an follaer. Ye hae fine control ower wha can publeesh, moderate, an doonload content."
+			},
+			"ui": {
+				"title": "High qualitie interface",
+				"description": "A clean an snell media centre interface, designed fur desktop, TV, an mobile platforms. Aisy navigation wi keyboard, moose, gamepad, or remote. Pawkie uisers can rin the programme as a heidless server throu the command line interface."
+			},
+			"dataFormat": {
+				"title": "Human-readable data format",
+				"description": "The LISH data format is biggit on JSON, makin it aisy tae create, read, an unnerstaund. Share yer content wi clear an transparent metadata that onybodie can verifie."
+			},
+			"security": {
+				"title": "Privacy an securitie",
+				"description": "Aw peer-tae-peer communications is encrypit, ensuirin yer data bides preevat in transit. Uiser can hide ahint a VPN fur ekstra anonymitie. {project} respecks yer privacy bi design."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "The programme is available fur Windows, Linux, an macOS. Uise it on whitiver platform ye like best."
+			}
+		}
+	},
+	"download": {
+		"title": "Doonload",
+		"description": "Get {project} fur yer platform. Aw doonloads is free an open source.",
+		"version": "Currant version: {version}",
+		"linkAlt": "Doonload",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installer",
+			"package": "{format} Package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Vizzy on GitHub"
+		},
+		"macos": {
+			"title": "Important nottice fur macOS uisers:",
+			"intro": "macOS Gatekeeper will block unsigned/unnotarised applications doonloadit frae the Internet wi an error {error}.",
+			"error": "\"is breukken, canna be opened\"",
+			"runCommand": "Efter ye've doonloadit the DMG or ZIP, afore openin the application, rin this command in the terminal:",
+			"exampleDmg": "Fur exemple, efter installin frae a DMG:",
+			"exampleZip": "Or efter ekstractin a ZIP:",
+			"explanation": "This will tak awa the quarantine attribute an let the application rin."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshots",
+		"open": "Open screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Sneck galerie",
+		"prev": "Previous screenshot",
+		"next": "Neist screenshot"
+	},
+	"comparison": {
+		"title": "Comparison",
+		"feature": "Feature",
+		"yes": "Aye",
+		"no": "Naw",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Decentralised network",
+			"onlineLibrary": "Online librarie",
+			"builtInSearch": "Biggit-in content search",
+			"decentralizedSearch": "Decentralised content search",
+			"parallelDownloads": "Parallel doonloads frae mony soorces",
+			"mediaCenter": "Media centre interface",
+			"gamepad": "Gamepad support",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Get in touch",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram announcements",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Made bi"
+	}
+}

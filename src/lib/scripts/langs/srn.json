@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralisado fayl partaisman",
+		"description": "{project} a wan peer-to-peer program fu fayl partaisman, bow tapu modern decentralisado teknologia.",
+		"ogTitle": "{project} - Decentralisado fayl partaisman program",
+		"ogDescription": "Peer-to-peer fayl partaisman bow tapu modern decentralisado teknologia. No wan sentral server. No wan enkri pwenti fu mankeri."
+	},
+	"menu": {
+		"about": "Abra",
+		"download": "Hari kon",
+		"screenshots": "Skrin foto",
+		"comparison": "Pratiman",
+		"contact": "Kontaki",
+		"toggle": "Opo menu",
+		"close": "Tapu menu",
+		"language": "Tongo",
+		"selectLanguage": "Teki tongo"
+	},
+	"hero": {
+		"subtitle": "Nyun-generasi peer-to-peer fayl partaisman",
+		"description": "Bow tapu modern decentralisado teknologia. No wan sentral server. No wan enkri pwenti fu mankeri.",
+		"download": "Hari kon"
+	},
+	"about": {
+		"title": "Abra",
+		"intro": "{project} a wan nyun-generasi platfom fu peer-to-peer fayl partaisman, bow tapu modern decentralisado teknologia. A e poti makandra wan makriki interface nanga wan dorodoro decentralisado architectura, e meki seyker dati a fayl partaisman safu en bétro sondro fu abi wan sentral autoriteit. A projekt disi a open source, puru ondro a {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Dorodoro decentralisado netwerk",
+				"description": "No wan sentral server, no wan enkri pwenti fu mankeri. Den gebroykiman e feni en hari kon contenti dirèktilek fu trawan, sondro fu hari tapu wan sentral indeks, suku enjin noso database."
+			},
+			"accessControl": {
+				"title": "Fayni kontrol fu aksès",
+				"description": "Iniwan e man bow en eigi netwerk nanga en eigi reglamenti, fu noting. Inisey ibri netwerk, den rol fu gebroykiman e seti: eyenari, administrator, editor, moderator, en folowman. Yu abi fayni kontrol abra suma e man pubrisèr, modere, en hari kon contenti."
+			},
+			"ui": {
+				"title": "Hey kwaliteit interface",
+				"description": "Wan krin en yepi-yepi media center interface, meki gi desktop, TV, en mobyl platfom. Makriki navigasyon nanga keyboard, muso, gamepad, noso afsantswèl. Sabiman gebroykiman e man waka a program leki wan ede-lasi server tru a kòmandi-lèyn interface."
+			},
+			"dataFormat": {
+				"title": "Suma-leysiman fasi data",
+				"description": "A LISH data fasi e bow tapu JSON, e meki en makriki fu meki, leysi, en frustan. Hari kon yu contenti nanga krin en transparant metadata san iniwan e man froeke."
+			},
+			"security": {
+				"title": "Privatsi en seyker",
+				"description": "Ala den peer-to-peer komunikasyon e kripti, e meki seyker dati yu data e tan privat na ini transit. Den gebroykiman e man kibri baka wan VPN gi ekstra anonimiteit. {project} e respektir yu privatsi fu konstruksyon."
+			},
+			"crossPlatform": {
+				"title": "Multi-platfom",
+				"description": "A program de gi Windows, Linux, en macOS. Gebroyki en tapu iniwan platfom yu wani."
+			}
+		}
+	},
+	"download": {
+		"title": "Hari kon",
+		"description": "Teki {project} gi yu platfom. Ala harikon e fu noting en open source.",
+		"version": "Now versi: {version}",
+		"linkAlt": "Hari kon",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Instalèr",
+			"package": "{format} Paket",
+			"portableZip": "Tya-tya ZIP",
+			"viewOnGithub": "Luku tapu GitHub"
+		},
+		"macos": {
+			"title": "Belangrik akabari gi macOS gebroykiman:",
+			"intro": "macOS Gatekeeper sa blokeer aplikasyon di no sayni/no notarisèr di hari kon fu Internet nanga wan fowtu {example}.",
+			"error": "\"a broko, kan opo en\"",
+			"runCommand": "Baka yu hari kon a DMG noso ZIP, fosi yu opo a aplikasyon, waka a kòmandi disi na ini terminal:",
+			"exampleDmg": "Eksèmpel, baka instalasyon fu wan DMG:",
+			"exampleZip": "Noso baka eksktrakti wan ZIP:",
+			"explanation": "Disi sa puru a karantenè atribu en sa meki a aplikasyon waka."
+		}
+	},
+	"screenshots": {
+		"title": "Skrin foto",
+		"open": "Opo skrin foto {index}",
+		"alt": "Skrin foto {index}",
+		"close": "Tapu galeri",
+		"prev": "Fosi skrin foto",
+		"next": "Bakaten skrin foto"
+	},
+	"comparison": {
+		"title": "Pratiman",
+		"feature": "Funksyon",
+		"yes": "Iya",
+		"no": "No",
+		"partialDht": "Pisi (DHT)",
+		"rows": {
+			"decentralized": "Decentralisado netwerk",
+			"onlineLibrary": "Online buku-oso",
+			"builtInSearch": "Insey-bow contenti suku",
+			"decentralizedSearch": "Decentralisado contenti suku",
+			"parallelDownloads": "Paralèl harikon fu furu sors",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad sopo",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontaki",
+		"getInTouch": "Kon na kontaki",
+		"links": {
+			"telegramChat": "Telegram chat grupu",
+			"telegramAnnouncements": "Telegram bekènti",
+			"facebook": "Facebook grupu"
+		}
+	},
+	"footer": {
+		"by": "Meki dor"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kompartishon di file desentralisá",
+		"description": "{project} ta un programa peer-to-peer pa kompartishon di file, basá riba teknologia moderno desentralisá.",
+		"ogTitle": "{project} - Programa pa kompartishon di file desentralisá",
+		"ogDescription": "Kompartishon di file peer-to-peer basá riba teknologia moderno desentralisá. No tin ningun server sentral. No tin ningun punto úniko di falla."
+	},
+	"menu": {
+		"about": "Tokante",
+		"download": "Baha",
+		"screenshots": "Imágen di pantaya",
+		"comparison": "Komparashon",
+		"contact": "Kontakto",
+		"toggle": "Habri menú",
+		"close": "Sera menú",
+		"language": "Idioma",
+		"selectLanguage": "Skohe idioma"
+	},
+	"hero": {
+		"subtitle": "Kompartishon di file peer-to-peer di próksimo generashon",
+		"description": "Basá riba teknologia moderno desentralisá. No tin ningun server sentral. No tin ningun punto úniko di falla.",
+		"download": "Baha"
+	},
+	"about": {
+		"title": "Tokante",
+		"intro": "{project} ta un platafòrma di próksimo generashon pa kompartishon di file peer-to-peer, basá riba teknologia moderno desentralisá. E ta kombiná un interfaz fásil pa usa ku un arkitektura kompletamente desentralisá, garantisando un kompartishon di file siguro i konfiabel sin tin mester di un outoridat sentral. E proyekto aki ta open source, lansá bou di {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Red kompletamente desentralisá",
+				"description": "No tin ningun server sentral, no tin ningun punto úniko di falla. Usuarionan ta haña i baha kontenido direktamente di otro hende, sin dependé di ningun índise sentral, motor di buskeda òf base di datos."
+			},
+			"accessControl": {
+				"title": "Kontròl fin di akseso",
+				"description": "Kualke hende por traha su mes red ku su mes reglanan, grátis. Den kada red, e papelnan di usuarionan ta definí: doño, administrador, editor, moderador i siguidor. Bo tin kontròl fin riba ken por publiká, moderá i baha kontenido."
+			},
+			"ui": {
+				"title": "Interfaz di alta kalidat",
+				"description": "Un interfaz media center limpi i lihé, diseñá pa desktop, TV i platafòrmanan móbil. Navegashon fásil ku tablero, mouse, gamepad òf kontròl remoto. Usuarionan eksperto por kòre e programa komo server sin kabes via e interfaz di liña di komando."
+			},
+			"dataFormat": {
+				"title": "Formato di datos legibel pa hende",
+				"description": "E formato di datos LISH ta basá riba JSON, ku ta hasié fásil pa krea, lesa i komprondé. Kompartí bo kontenido ku metadata kla i transparente, ku kualke hende por verifiká."
+			},
+			"security": {
+				"title": "Privasidat i siguridat",
+				"description": "Tur komunikashon peer-to-peer ta enkriptá, garantisando ku bo datos ta keda privá durante e tránsito. Usuarionan por skonde tras di un VPN pa máksimo anonimato. {project} ta respetá bo privasidat dor di diseño."
+			},
+			"crossPlatform": {
+				"title": "Multiplatafòrma",
+				"description": "E programa ta disponibel pa Windows, Linux i macOS. Usa é riba e platafòrma ku bo prefer."
+			}
+		}
+	},
+	"download": {
+		"title": "Baha",
+		"description": "Haña {project} pa bo platafòrma. Tur bahamentonan ta grátis i open source.",
+		"version": "Vershon aktual: {version}",
+		"linkAlt": "Baha",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portátil",
+			"viewOnGithub": "Wak riba GitHub"
+		},
+		"macos": {
+			"title": "Aviso importante pa usuarionan di macOS:",
+			"intro": "macOS Gatekeeper lo blòkia aplikashonnan no firmá/no notarisá ku ta bahá for di Internet ku un eror {error}.",
+			"error": "\"ta kibrá, no por habri\"",
+			"runCommand": "Despues ku bo a baha e DMG òf ZIP, promé ku bo habri e aplikashon, kòre e komando aki den terminal:",
+			"exampleDmg": "Por ehèmpel, despues di instalashon for di un DMG:",
+			"exampleZip": "Òf despues di estraksion di un ZIP:",
+			"explanation": "Esaki lo kita e atribut di kuarentena i lo lag'e aplikashon kòre."
+		}
+	},
+	"screenshots": {
+		"title": "Imágen di pantaya",
+		"open": "Habri imágen di pantaya {index}",
+		"alt": "Imágen di pantaya {index}",
+		"close": "Sera galeria",
+		"prev": "Imágen anterior",
+		"next": "Próksimo imágen"
+	},
+	"comparison": {
+		"title": "Komparashon",
+		"feature": "Funshon",
+		"yes": "Si",
+		"no": "No",
+		"partialDht": "Parsial (DHT)",
+		"rows": {
+			"decentralized": "Red desentralisá",
+			"onlineLibrary": "Biblioteka online",
+			"builtInSearch": "Buskeda di kontenido inkorporá",
+			"decentralizedSearch": "Buskeda di kontenido desentralisá",
+			"parallelDownloads": "Bahamento paralel for di vários fuente",
+			"mediaCenter": "Interfaz media center",
+			"gamepad": "Sosten pa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakto",
+		"getInTouch": "Tuma kontakto",
+		"links": {
+			"telegramChat": "Grupo di chat Telegram",
+			"telegramAnnouncements": "Anunsionan Telegram",
+			"facebook": "Grupo Facebook"
+		}
+	},
+	"footer": {
+		"by": "Trahá pa"
+	}
+}

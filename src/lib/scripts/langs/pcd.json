@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pertach d'fichiers décintralisé",
+		"description": "{project} ch'est un programme pa-pa pou pertacher des fichiers, bati su' eune ténologie moderne décintralisée.",
+		"ogTitle": "{project} - Programme d'pertach d'fichiers décintralisé",
+		"ogDescription": "Pertach d'fichiers pa-pa bati su' eune ténologie moderne décintralisée. Nin un sieu serveux centro. Nin un sieu point d'caillure."
+	},
+	"menu": {
+		"about": "À propos",
+		"download": "Décarcher",
+		"screenshots": "Imaches d'écran",
+		"comparison": "Comparaison",
+		"contact": "Contact",
+		"toggle": "Drouvi l'menu",
+		"close": "Frumer l'menu",
+		"language": "Langache",
+		"selectLanguage": "Cosir un langache"
+	},
+	"hero": {
+		"subtitle": "Nuvèle jénération d'pertach d'fichiers pa-pa",
+		"description": "Bati su' eune ténologie moderne décintralisée. Nin un sieu serveux centro. Nin un sieu point d'caillure.",
+		"download": "Décarcher"
+	},
+	"about": {
+		"title": "À propos",
+		"intro": "{project} ch'est eune plate-forme d'eune nuvèle jénération pou l'pertach d'fichiers pa-pa, batie su' eune ténologie moderne décintralisée. Èle marie eune intèrface djèche aveuc eune architèture intièremint décintralisée, asseurant un pertach d'fichiers seûr et d'confiance sans aveû besoin d'un autoritè centro. Ch'projet ch'est open source, publiè dsous l'{license}.",
+		"features": {
+			"decentralized": {
+				"title": "Réseau intièremint décintralisé",
+				"description": "Nin un sieu serveux centro, nin un sieu point d'caillure. Les utilisateurs trouvtte et décarchtte du contenu directemint des eutes, sans dépinde d'un index centro, d'un motèur d'rcherche ou eune base d'données."
+			},
+			"accessControl": {
+				"title": "Contrôle fin d'l'aksès",
+				"description": "Caqun peut bati sin propre réseau aveuc ses propres règles, gratis. Édins caque réseau, les rôles d'utilisateur sont définis: poséssur, administrateur, éditeur, modérateur et suiveux. T'as un contrôle fin su' qui peut publier, modérer et décarcher du contenu."
+			},
+			"ui": {
+				"title": "Intèrface d'haute qualitè",
+				"description": "Eune intèrface d'centre d'média propre et rapide, conchue pou l'bureau, l'tévé et les plate-formes mobiles. Navigation aijèche aveuc clavier, sori, gamepad ou télécomande. Les utilisateurs expérimintès peutte fé tournyer l'programme com un serveux sins tête à travers l'intèrface ligne d'commandes."
+			},
+			"dataFormat": {
+				"title": "Format d'données lijible pa l'humain",
+				"description": "L'format d'données LISH est bati su' JSON, ch'qui l'rind aijè à crèer, lire et compérinde. Pertache tin contenu aveuc des métadonnèes claires et transparintes, qu'caqun peut vérifier."
+			},
+			"security": {
+				"title": "Privacitè et seûretè",
+				"description": "Toutes les comunications pa-pa sont chifrèes, asseurant qu'tes données dmèrtte privèes pindant l'transmission. Les utilisateurs peutte s'cacher dèrière un VPN pou pus d'anonymat. {project} respète t'privacitè pa concèption."
+			},
+			"crossPlatform": {
+				"title": "Multi-plate-forme",
+				"description": "L'programme est disponible pou Windows, Linux et macOS. Use l'su' la plate-forme qu't'aimes l'mieu."
+			}
+		}
+	},
+	"download": {
+		"title": "Décarcher",
+		"description": "Prinds {project} pou t'plate-forme. Tous les décarchminds sont gratis et open source.",
+		"version": "Version actuèle: {version}",
+		"linkAlt": "Décarcher",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universé (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installateur {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP portable",
+			"viewOnGithub": "Vir su' GitHub"
+		},
+		"macos": {
+			"title": "Note importinte pou les utilisateurs d'macOS:",
+			"intro": "macOS Gatekeeper bloque les applications nin signèes/nin notarisèes décarchèes d'l'internet, aveuc un erreûr {error}.",
+			"error": "\"est cassèe, èle peut nin yête drouvée\"",
+			"runCommand": "Apreu qu't'as décarchè l'DMG ou l'ZIP, avant d'drouvi l'application, fais tournyer ch't'ordre dins l'terminal:",
+			"exampleDmg": "Pa egzimpe, apreu l'installation d'un DMG:",
+			"exampleZip": "Ou apreu l'dépaqutache d'un ZIP:",
+			"explanation": "Cha enlève l'attribut d'quarantaine et lèche l'application tournyer."
+		}
+	},
+	"screenshots": {
+		"title": "Imaches d'écran",
+		"open": "Drouvi l'imache d'écran {index}",
+		"alt": "Imache d'écran {index}",
+		"close": "Frumer l'galerie",
+		"prev": "Imache d'écran d'avant",
+		"next": "Imache d'écran d'apreu"
+	},
+	"comparison": {
+		"title": "Comparaison",
+		"feature": "Caractéristique",
+		"yes": "Vouè",
+		"no": "Nin",
+		"partialDht": "Partiel (DHT)",
+		"rows": {
+			"decentralized": "Réseau décintralisé",
+			"onlineLibrary": "Bibliothèque in ligne",
+			"builtInSearch": "Rcherche d'contenu intégrèe",
+			"decentralizedSearch": "Rcherche d'contenu décintralisèe",
+			"parallelDownloads": "Décarchminds parallèles d'pus d'sources",
+			"mediaCenter": "Intèrface d'centre d'média",
+			"gamepad": "Soutien d'gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Mette in contact",
+		"links": {
+			"telegramChat": "Group d'kèvenser Telegram",
+			"telegramAnnouncements": "Anonces Telegram",
+			"facebook": "Group Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fait pa"
+	}
+}

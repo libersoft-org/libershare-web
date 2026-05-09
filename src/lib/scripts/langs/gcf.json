@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partaj a fichyé désantralizé",
+		"description": "{project} sé on pwogram peer-to-peer pou pataj fichyé, fondé asi téchnoloji modèn désantralizé.",
+		"ogTitle": "{project} - Pwogram a pataj fichyé désantralizé",
+		"ogDescription": "Pataj a fichyé peer-to-peer fondé asi téchnoloji modèn désantralizé. Pa ni okenn sèvè santral. Pa ni okenn sèl pwen défayans."
+	},
+	"menu": {
+		"about": "Asi",
+		"download": "Téléchajé",
+		"screenshots": "Kapti dèkran",
+		"comparison": "Konparézon",
+		"contact": "Kontak",
+		"toggle": "Ouvè ménu",
+		"close": "Fèmé ménu",
+		"language": "Lang",
+		"selectLanguage": "Chwazi lang"
+	},
+	"hero": {
+		"subtitle": "Pataj fichyé peer-to-peer a pwochènn jénérasyon",
+		"description": "Fondé asi téchnoloji modèn désantralizé. Pa ni okenn sèvè santral. Pa ni okenn sèl pwen défayans.",
+		"download": "Téléchajé"
+	},
+	"about": {
+		"title": "Asi",
+		"intro": "{project} sé on platfòm a pwochènn jénérasyon pou pataj fichyé peer-to-peer, fondé asi téchnoloji modèn désantralizé. I konbiné on lentèfas fasil pou itilizé èvè on awchitèkti konplètman désantralizé, asiré on pataj fichyé sékirizé é fyab san bizwen on lotorité santral. Pwojé-lasa sé open source, libéré anba {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rézo konplètman désantralizé",
+				"description": "Pa ni okenn sèvè santral, pa ni okenn sèl pwen défayans. Itilizatè-la ka touvé é téléchajé kontni dirèkteman avè dòt, san dépann adan okenn lendèks santral, motè rechèch ouswa baz a done."
+			},
+			"accessControl": {
+				"title": "Kontwòl fen asi aksè",
+				"description": "Tout moun pé bati pwòp rézo a-yo èvè pwòp règ a-yo, gratis. Adan chak rézo, wòl a itilizatè-la défini: pwopriyétè, administratè, éditè, modératè, é siwiyè. Ou ni kontwòl fen asi sa ki pé piblé, modéré, é téléchajé kontni."
+			},
+			"ui": {
+				"title": "Lentèfas a kalité",
+				"description": "On lentèfas media center pwòp é rapid, désiné pou desktop, TV, é platfòm mobil. Navigasyon fasil èvè klavyé, sourit, gamepad, ouswa télékomand. Itilizatè èkspéwimanté pé fè pwogram-la maché kon sèvè san tèt atravè lentèfas a liy a kòmandman."
+			},
+			"dataFormat": {
+				"title": "Fòma a done lizib pa moun",
+				"description": "Fòma a done LISH fondé asi JSON, sa ki ka fè'y fasil pou kréyé, li, é konpwann. Pataj kontni a-w èvè métadone klè é transparan, sa tout moun pé vérifyé."
+			},
+			"security": {
+				"title": "Lavi privé é sékirité",
+				"description": "Tout kominikasyon peer-to-peer ka kripté, ka asiré done a-w rété privé adan tranzit. Itilizatè pé séré dèyè on VPN pou plis anonimat. {project} ka respèkté lavi privé a-w pa désen."
+			},
+			"crossPlatform": {
+				"title": "Miltiplatfòm",
+				"description": "Pwogram-la disponib pou Windows, Linux, é macOS. Itilizé'y asi platfòm ou préféré."
+			}
+		}
+	},
+	"download": {
+		"title": "Téléchajé",
+		"description": "Pwan {project} pou platfòm a-w. Tout téléchajman gratis é open source.",
+		"version": "Vèsyon aktyèl: {version}",
+		"linkAlt": "Téléchajé",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Iniwsèl (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Lenstalatè {format}",
+			"package": "Pakèt {format}",
+			"portableZip": "ZIP pòtab",
+			"viewOnGithub": "Wè asi GitHub"
+		},
+		"macos": {
+			"title": "Avi enpòwtan pou itilizatè macOS:",
+			"intro": "macOS Gatekeeper ké blòké aplikasyon pa siyné/pa notarizé téléchajé adan Entènèt èvè on érè {error}.",
+			"error": "\"i kasé, i pé pa ouvè\"",
+			"runCommand": "Apré ou téléchajé DMG ouswa ZIP, avan ou ouvè aplikasyon-la, fè kòmandman-lasa maché adan tèminal:",
+			"exampleDmg": "Pa èkzanp, apré lenstalasyon adan on DMG:",
+			"exampleZip": "Ouswa apré èkstraksyon a on ZIP:",
+			"explanation": "Sa ké rétiré atribi a karantèn é kité aplikasyon-la maché."
+		}
+	},
+	"screenshots": {
+		"title": "Kapti dèkran",
+		"open": "Ouvè kapti dèkran {index}",
+		"alt": "Kapti dèkran {index}",
+		"close": "Fèmé galri",
+		"prev": "Kapti dèkran avan",
+		"next": "Kapti dèkran apré"
+	},
+	"comparison": {
+		"title": "Konparézon",
+		"feature": "Fonksyon",
+		"yes": "Wi",
+		"no": "Non",
+		"partialDht": "Pasyèl (DHT)",
+		"rows": {
+			"decentralized": "Rézo désantralizé",
+			"onlineLibrary": "Bibliyotèk asi nèt",
+			"builtInSearch": "Rechèch kontni entégré",
+			"decentralizedSearch": "Rechèch kontni désantralizé",
+			"parallelDownloads": "Téléchajman paralèl adan plizyè sous",
+			"mediaCenter": "Lentèfas media center",
+			"gamepad": "Sipò gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Pwan kontak",
+		"links": {
+			"telegramChat": "Gwoup chat Telegram",
+			"telegramAnnouncements": "Anons Telegram",
+			"facebook": "Gwoup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fè pa"
+	}
+}

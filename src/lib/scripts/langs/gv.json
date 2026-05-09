@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Co-rheynn Coadanyn Neureenit",
+		"description": "{project} t'eh prughtag jeih-rish-jeih son co-rheynn coadanyn, troggit er çhaghteraght ny laghyn shoh neureenit.",
+		"ogTitle": "{project} - Prughtag son co-rheynn coadanyn neureenit",
+		"ogDescription": "Co-rheynn coadanyn jeih-rish-jeih troggit er çhaghteraght ny laghyn shoh neureenit. Cha nel server meanagh erbee. Cha nel un phoynt cailltyn erbee."
+	},
+	"menu": {
+		"about": "Mychione",
+		"download": "Lhiggey-neose",
+		"screenshots": "Cooyl-yallooyn",
+		"comparison": "Soylaghey",
+		"contact": "Cohaglym",
+		"toggle": "Foshil ny menu",
+		"close": "Dooin ny menu",
+		"language": "Çhengey",
+		"selectLanguage": "Reih çhengey"
+	},
+	"hero": {
+		"subtitle": "Sheelogh noa dy chorheynn coadanyn jeih-rish-jeih",
+		"description": "Troggit er çhaghteraght ny laghyn shoh neureenit. Cha nel server meanagh erbee. Cha nel un phoynt cailltyn erbee.",
+		"download": "Lhiggey-neose"
+	},
+	"about": {
+		"title": "Mychione",
+		"intro": "{project} t'eh ardan jeh'n sheelogh noa son corheynn coadanyn jeih-rish-jeih, troggit er çhaghteraght ny laghyn shoh neureenit. T'eh sheeyney enmys aashagh dy chleayn marish caghlaa neureenit slane, lhiggey lesh corheynn coadanyn shickyr as treisht heb feme er pooar veanagh. Ta'n çhamyr shoh open source, eeasit fo'n {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Eddyr-voggyl neureenit slane",
+				"description": "Cha nel server meanagh erbee, cha nel un phoynt cailltyn erbee. Ta ymmydeyryn feddyn as lhiggey-neose stoo dy jeeragh veih feallagh elley, gyn cliaghtey er ynnyd-rolley meanagh, jaghin chaghter ny stoyr-folkit."
+			},
+			"accessControl": {
+				"title": "Reill kione goaill stiagh chiart",
+				"description": "Foddee dy chooilley pheiagh troggal eddyr-voggyl ec eh hene marish reillyn echey hene, gyn argid. Cheu sthie jeh dy chooilley eddyr-voggyl, ta keimyn ymmydeyr scarrit: shellooder, reireyder, chaglyder, mojderyr as eiyrtagh. Ta reill chiart ayd er quoi oddys foillsheydey, mojdershey as lhiggey-neose stoo."
+			},
+			"ui": {
+				"title": "Enmys cleaynee feeu ard",
+				"description": "Enmys ynnyd-meanagh meanyn glen as tappee, cummit son boayrd-screeuee, televishan as ardanyn shooyl. Glen-hroailtys ny rieaughey marish lioar-screeuee, lugh, gamepad ny stiurader-foddey. Foddee ymmydeyryn vleeantyn ny prughtag y vroeashey myr server gyn kione trooid yn enmys linney-arrey."
+			},
+			"dataFormat": {
+				"title": "Cummey-fysseree lhaihit liorish dooinney",
+				"description": "Ta'n cummey-fysseree LISH troggit er JSON, ta jannoo eh aashagh dy yannoo, lhaih as toiggal. Co-rheynn dty stoo marish meta-vysseree glen as obbragh-jeeragh, oddys dagh duine cooney."
+			},
+			"security": {
+				"title": "Preevaadjys as shickyrys",
+				"description": "Ta dy chooilley cho-haarn jeih-rish-jeih cooylit, lhiggey lesh dty fysseree fuirraghtyn preevaadjagh er y raad. Foddee ymmydeyryn ceiltyn iad fo VPN son tooilley anenmnaghtys. Ta {project} cur arrym da dty phreevaadjys trooid co-aam."
+			},
+			"crossPlatform": {
+				"title": "Y-ymmodee-ardan",
+				"description": "Ta'n prughtag goaillit son Windows, Linux as macOS. Jean ymmyd jeh er yn ardan share lhiat."
+			}
+		}
+	},
+	"download": {
+		"title": "Lhiggey-neose",
+		"description": "Faag {project} son dty ardan. Ta dy chooilley lhiggey-neose nastee as open source.",
+		"version": "Lioar reesht: {version}",
+		"linkAlt": "Lhiggey-neose",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Yn-cruinney (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Suiteyder {format}",
+			"package": "Pasc {format}",
+			"portableZip": "ZIP ymmyrkagh",
+			"viewOnGithub": "Jeeagh er GitHub"
+		},
+		"macos": {
+			"title": "Choyrlaght scanshoil son ymmydeyryn macOS:",
+			"intro": "Ta macOS Gatekeeper lhietalys jeskagh y phrughtaghyn gyn-jeerey/gyn-notaryssagh lhiggit-neose veih'n eddyr-voggyl, marish error {error}.",
+			"error": "\"t'eh brisht, cha nodit oshlit\"",
+			"runCommand": "Erreish dhyt lhiggey-neose ny DMG ny ZIP, roish my t'ou foshlagh ny phrughtagh, roie yn sarey shoh 'sy terminal:",
+			"exampleDmg": "Sampleyr, erreish da'n suiteagh veih DMG:",
+			"exampleZip": "Ny erreish da'n laghtyn-magh jeh ZIP:",
+			"explanation": "Ta shoh goaill ersooyl yn dooar quarantine as lhiggey y phrughtagh dy roie."
+		}
+	},
+	"screenshots": {
+		"title": "Cooyl-yallooyn",
+		"open": "Foshil cooyl-yalloo {index}",
+		"alt": "Cooyl-yalloo {index}",
+		"close": "Dooin gailerie",
+		"prev": "Cooyl-yalloo s'jerree",
+		"next": "Yn nah cooyl-yalloo"
+	},
+	"comparison": {
+		"title": "Soylaghey",
+		"feature": "Cummey",
+		"yes": "Dy jarroo",
+		"no": "Cha nel",
+		"partialDht": "Ayrn (DHT)",
+		"rows": {
+			"decentralized": "Eddyr-voggyl neureenit",
+			"onlineLibrary": "Lioarlann er-linney",
+			"builtInSearch": "Jaghin stoo troggit-stiagh",
+			"decentralizedSearch": "Jaghin stoo neureenit",
+			"parallelDownloads": "Lhiggaghyn-neose comheilagh veih ymmodee bun",
+			"mediaCenter": "Enmys ynnyd-meanagh meanyn",
+			"gamepad": "Cooney gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cohaglym",
+		"getInTouch": "Cur cohaglym",
+		"links": {
+			"telegramChat": "Possan taggloo Telegram",
+			"telegramAnnouncements": "Fograghyn Telegram",
+			"facebook": "Possan Facebook"
+		}
+	},
+	"footer": {
+		"by": "Jeant liorish"
+	}
+}

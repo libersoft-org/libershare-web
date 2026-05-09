@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizāta failu kūpōšona",
+		"description": "{project} ir peer-to-peer pruograma failu kūpōšonai, byudāta iz mūsdīnu decentralizātys technologejis.",
+		"ogTitle": "{project} - Pruograma decentralizātai failu kūpōšonai",
+		"ogDescription": "Peer-to-peer failu kūpōšona, byudāta iz mūsdīnu decentralizātys technologejis. Bez centrala servera. Bez vīna kļūmis pōnkta."
+	},
+	"menu": {
+		"about": "Pa myusim",
+		"download": "Lejupīluodet",
+		"screenshots": "Akrana attāli",
+		"comparison": "Salīdzynōjums",
+		"contact": "Kontakts",
+		"toggle": "Atvērt izvēlni",
+		"close": "Aizvērt izvēlni",
+		"language": "Volūda",
+		"selectLanguage": "Izavielēt volūdu"
+	},
+	"hero": {
+		"subtitle": "Naukōkais paaudzis peer-to-peer failu kūpōšona",
+		"description": "Byudāta iz mūsdīnu decentralizātys technologejis. Bez centrala servera. Bez vīna kļūmis pōnkta.",
+		"download": "Lejupīluodet"
+	},
+	"about": {
+		"title": "Pa myusim",
+		"intro": "{project} ir naukōkō paaudzis platforma peer-to-peer failu kūpōšonai, byudāta iz mūsdīnu decentralizātys technologejis. Tei savīno vīglu lītuotuojsaskari ar pylniejī decentralizātu architektūru, nūdrūsynojūt drūsu i uzticamu failu kūpōšonu bez vajadzeibys piec centralys instances. Šys pruojekts ir atvārtō kuoda, izlaists zam {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Pylniejī decentralizāts teikls",
+				"description": "Bez centrala servera, bez vīna kļūmis pōnkta. Lītuotuoji atrūn i lejupīluode saturu tīši nu cytim, nepalaikūt iz nivīna centrala radeitōja, mekleitōja vai datu bāzis."
+			},
+			"accessControl": {
+				"title": "Smolka pīkļuovis kontrole",
+				"description": "Kotrys var īdarinōt sovu paša teiklu ar sovim noteikumim, par bryvu. Iz kotra teikla ir definēta lītuotuoju lūmys: īparšnīks, administrators, redaktors, moderators un sekātōjs. Tev ir smolka kontrole pār to, kas var publicēt, moderēt un lejupīluodet saturu."
+			},
+			"ui": {
+				"title": "Augstas kvalitatys saskaņs",
+				"description": "Tīrs un ōtrs media center saskaņs, izstroduots dorbvyrsmim, TV un mobylajom platformom. Vīgla navigōcija ar tastatūru, peli, gamepad vai pulti. Pīredzejušī lītuotuoji var palaist pruogrammu kai bezgolvas serveri caur kōmandrinda saskaņi."
+			},
+			"dataFormat": {
+				"title": "Cylvāka losōms datu formats",
+				"description": "LISH datu formats ir byudāts iz JSON, kas dora to vīglu īveiduot, lasēt un saprastu. Dalīs ar sovu saturu ar skaidrim un caurspīdejim metadatim, kurus var pōrbaudēt kotrys."
+			},
+			"security": {
+				"title": "Privātums un drūseiba",
+				"description": "Vysa peer-to-peer komunikōcija ir šifrāta, nūdrūsynojūt, ka tovi dati paliek privāti pōrsyutiešonā. Lītuotuoji var paslēptīs aiz VPN papyldu anonimitātei. {project} cīna tovu privātumu pīc projekta."
+			},
+			"crossPlatform": {
+				"title": "Daudzplatformu",
+				"description": "Pruogramma ir pīejama Windows, Linux un macOS. Lītoj jū iz tās platformys, kura tev tyk vislabuok."
+			}
+		}
+	},
+	"download": {
+		"title": "Lejupīluodet",
+		"description": "Saņem {project} sovai platformai. Vysys lejupīluodes ir par bryvu un atvārtō kuoda.",
+		"version": "Pošreizejō versija: {version}",
+		"linkAlt": "Lejupīluodet",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universāls (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalātors",
+			"package": "{format} pakiets",
+			"portableZip": "Portatīvs ZIP",
+			"viewOnGithub": "Skatēt iz GitHub"
+		},
+		"macos": {
+			"title": "Sviereiga informōcija macOS lītuotuojim:",
+			"intro": "macOS Gatekeeper bluokēs neparakstītuos/nenotarizātuos aplikōcijas, lejupīluodātys nu Interneta, ar kļūdu {error}.",
+			"error": "\"ir saplāsta, nevar atvērt\"",
+			"runCommand": "Pēc tom, kai esi lejupīluodejis DMG vai ZIP, pyrms aplikōcijis atvēršonys, palaid šū kōmandu termināli:",
+			"exampleDmg": "Pīmāram, pēc instalōcijis nu DMG:",
+			"exampleZip": "Vai pēc ZIP iztaiseišonys:",
+			"explanation": "Tys nūņems karantīnys atribūtu un ļaus aplikōcijai darbētīs."
+		}
+	},
+	"screenshots": {
+		"title": "Akrana attāli",
+		"open": "Atvērt akrana attālu {index}",
+		"alt": "Akrana attāls {index}",
+		"close": "Aizvērt galeriju",
+		"prev": "Īprīkšejais attāls",
+		"next": "Nōkušais attāls"
+	},
+	"comparison": {
+		"title": "Salīdzynōjums",
+		"feature": "Funkcija",
+		"yes": "Jā",
+		"no": "Nā",
+		"partialDht": "Daļejs (DHT)",
+		"rows": {
+			"decentralized": "Decentralizāts teikls",
+			"onlineLibrary": "Tīšsaistys bibliotaika",
+			"builtInSearch": "Īveiduota satura mekleišona",
+			"decentralizedSearch": "Decentralizāta satura mekleišona",
+			"parallelDownloads": "Paralelys lejupīluodes nu daudzim avotim",
+			"mediaCenter": "Media center saskaņs",
+			"gamepad": "Gamepad atbolsts",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakts",
+		"getInTouch": "Sazynōtīs",
+		"links": {
+			"telegramChat": "Telegram čata grupa",
+			"telegramAnnouncements": "Telegram pazinōjumi",
+			"facebook": "Facebook grupa"
+		}
+	},
+	"footer": {
+		"by": "Izveiduots nu"
+	}
+}

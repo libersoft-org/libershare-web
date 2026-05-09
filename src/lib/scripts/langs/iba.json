@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Bekunsi Fail Tedesentralisi",
+		"description": "{project} kerja program siku-ngagai-siku ke bekunsi fail, ditegah ba teknologi terbaru ti tedesentralisi.",
+		"ogTitle": "{project} - Program bekunsi fail tedesentralisi",
+		"ogDescription": "Bekunsi fail siku-ngagai-siku ditegah ba teknologi terbaru ti tedesentralisi. Nadai server tengah. Nadai siti gak point pengelapur."
+	},
+	"menu": {
+		"about": "Pasal kami",
+		"download": "Turun",
+		"screenshots": "Gambar layar",
+		"comparison": "Perandingka",
+		"contact": "Kena dikena",
+		"toggle": "Bukai menu",
+		"close": "Tutup menu",
+		"language": "Jaku",
+		"selectLanguage": "Pilih jaku"
+	},
+	"hero": {
+		"subtitle": "Generasi baru pasal bekunsi fail siku-ngagai-siku",
+		"description": "Ditegah ba teknologi terbaru ti tedesentralisi. Nadai server tengah. Nadai siti gak point pengelapur.",
+		"download": "Turun"
+	},
+	"about": {
+		"title": "Pasal kami",
+		"intro": "{project} nya platform generasi baru ke bekunsi fail siku-ngagai-siku, ditegah ba teknologi terbaru ti tedesentralisi. Iya nyaut interface ti senang ke dikena enggau arkitektur ti udah tedesentralisi penuh, ngeresa bekunsi fail ti aman lalu dikepiakai enda perlu ngagai pengarah tengah. Projek tu open source, dipansutka di baruh {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan ti udah tedesentralisi penuh",
+				"description": "Nadai server tengah, nadai siti gak point pengelapur. Pengena ngiga lalu nurunka pemeresi ditus ari pengena bukai, nadai bergantung ngagai indeks tengah, mesin pengiga tauka pengisi data."
+			},
+			"accessControl": {
+				"title": "Pengawal pemansang ti halus",
+				"description": "Genap iku ulih ngaga jaringan empu enggau ukum empu, enda mayar. Dalam genap jaringan, peranan pengena udah dikenalka: tuan, pengelola, pengarang, moderator, lalu peniti. Nuan bisi pengawal halus pasal sapa ulih mansutka, moderate, lalu nurunka pemeresi."
+			},
+			"ui": {
+				"title": "Interface bermutu tinggi",
+				"description": "Interface pusat media ti seriak lalu diraup, dipulai ke dekstop, televisyen, lalu platform ti dimerai. Penangkah ti senang enggau papan kunci, mois, gamepad tauka kawal jauh. Pengena ti rabis ulih nyalanka program ngambika server enda berpala melalui interface garis ayat."
+			},
+			"dataFormat": {
+				"title": "Format data ti dibacha mensia",
+				"description": "Format data LISH ditegah ba JSON, ke ngaga iya senang dipulai, dibacha lalu diserita. Bekunsi pemeresi nuan enggau metadata ti riang lalu dibukai, ke genap iku ulih merikai."
+			},
+			"security": {
+				"title": "Pemerinsa empu enggau pengaman",
+				"description": "Semua komunikasi siku-ngagai-siku diunci, ngeresa data nuan tetap ditisi pemerinsa empu lebuh diatur. Pengena ulih besembunyi di belakang VPN ke pemansang lebih anonim. {project} ngerinka pemerinsa nuan empu melalui pulai."
+			},
+			"crossPlatform": {
+				"title": "Mayuh platform",
+				"description": "Program tu udah disedia ke Windows, Linux lalu macOS. Kena di platform ti nuan rinduka."
+			}
+		}
+	},
+	"download": {
+		"title": "Turun",
+		"description": "Ambik {project} ke platform nuan. Semua penurunan enda mayar lalu open source.",
+		"version": "Versi diatu: {version}",
+		"linkAlt": "Turun",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Pakit {format}",
+			"portableZip": "ZIP ti tau dibai",
+			"viewOnGithub": "Peda ba GitHub"
+		},
+		"macos": {
+			"title": "Nota beguna ke pengena macOS:",
+			"intro": "macOS Gatekeeper ngalang aplikasi ti enda ditandakan/enda dinotari ditununka ari internet, enggau salah {error}.",
+			"error": "\"udah berabis, enda tau dibukai\"",
+			"runCommand": "Lebuh nuan udah nurunka DMG tauka ZIP, sebedau nuan mukai aplikasi, jalanka pesan tu di dalam terminal:",
+			"exampleDmg": "Mungkin, lebuh udah masangka ari DMG:",
+			"exampleZip": "Tauka lebuh udah ngeluarka ari ZIP:",
+			"explanation": "Tu mansutka attribute karantin lalu nyukup aplikasi nya jalan."
+		}
+	},
+	"screenshots": {
+		"title": "Gambar layar",
+		"open": "Bukai gambar layar {index}",
+		"alt": "Gambar layar {index}",
+		"close": "Tutup galeri",
+		"prev": "Gambar layar dulu",
+		"next": "Gambar layar berikut"
+	},
+	"comparison": {
+		"title": "Perandingka",
+		"feature": "Sipat",
+		"yes": "Aw",
+		"no": "Nadai",
+		"partialDht": "Sebagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan tedesentralisi",
+			"onlineLibrary": "Pustaka online",
+			"builtInSearch": "Pengiga pemeresi ti dipulai",
+			"decentralizedSearch": "Pengiga pemeresi tedesentralisi",
+			"parallelDownloads": "Penurunan beduan ari mayuh punca",
+			"mediaCenter": "Interface pusat media",
+			"gamepad": "Sokongan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kena dikena",
+		"getInTouch": "Bekenali",
+		"links": {
+			"telegramChat": "Kelumpok berandau Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Kelumpok Facebook"
+		}
+	},
+	"footer": {
+		"by": "Digaga ulih"
+	}
+}

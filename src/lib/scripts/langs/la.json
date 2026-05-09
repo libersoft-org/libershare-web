@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Communicatio Decentralizata Fasciculorum",
+		"description": "{project} est programma peer-to-peer ad fasciculos communicandos, fundatum super technologia moderna decentralizata.",
+		"ogTitle": "{project} - Programma ad Communicationem Decentralizatam Fasciculorum",
+		"ogDescription": "Communicatio fasciculorum peer-to-peer fundata super technologia moderna decentralizata. Nullus servus centralis. Nullum unicum punctum defectus."
+	},
+	"menu": {
+		"about": "De",
+		"download": "Demitte",
+		"screenshots": "Imagines schemati",
+		"comparison": "Comparatio",
+		"contact": "Contactus",
+		"toggle": "Aperire menu",
+		"close": "Claudere menu",
+		"language": "Lingua",
+		"selectLanguage": "Eligere linguam"
+	},
+	"hero": {
+		"subtitle": "Communicatio fasciculorum peer-to-peer generationis sequentis",
+		"description": "Fundata super technologia moderna decentralizata. Nullus servus centralis. Nullum unicum punctum defectus.",
+		"download": "Demitte"
+	},
+	"about": {
+		"title": "De",
+		"intro": "{project} est platforma generationis sequentis ad communicationem fasciculorum peer-to-peer, fundata super technologia moderna decentralizata. Coniungit interfaciem facilem usu cum architectura plene decentralizata, garantiens communicationem fasciculorum tutam et fidelem sine necessitate auctoritatis centralis. Hoc proiectum est apertae fontis, dimissum sub {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete plene decentralizatum",
+				"description": "Nullus servus centralis, nullum unicum punctum defectus. Usores inveniunt et demittunt contentum directe ab aliis, non innisi indici centrali, indagatori, vel basi datorum."
+			},
+			"accessControl": {
+				"title": "Accuratum dominium accessus",
+				"description": "Quisque potest construere proprium rete cum propriis regulis gratis. Intra unumquodque rete, partes usorum definitae sunt: dominus, administrator, editor, moderator, et sectator. Habes accuratum dominium super eos qui possunt edere, moderari, et demittere contentum."
+			},
+			"ui": {
+				"title": "Interfacies summae qualitatis",
+				"description": "Munda et celeris interfacies medii centri, designata pro mensa scriptoria, televisione, et platformis mobilibus. Facilis navigatio cum claviatura, mure, gamepado, vel telecomando. Usores periti possunt programma exsequi ut servum datorum sine capite per interfaciem lineae imperandi."
+			},
+			"dataFormat": {
+				"title": "Forma datorum legibilis ab homine",
+				"description": "Forma datorum LISH fundata est super JSON, quod facit eam facilem creatu, lectu, et intellectu. Communica contentum tuum cum metadatis claris et perspicuis, quae quivis facile probare potest."
+			},
+			"security": {
+				"title": "Privatitas et securitas",
+				"description": "Omnes communicationes peer-to-peer cifratae sunt, garantientes data tua privata manere in transitu. Usores possunt celari post VPN ad maiorem anonymitatem. {project} privatitatem tuam veneratur ex consilio."
+			},
+			"crossPlatform": {
+				"title": "Trans-platforma",
+				"description": "Programma praesto est pro Windows, Linux, et macOS. Utere eo in qualibet platforma quam praeoptas."
+			}
+		}
+	},
+	"download": {
+		"title": "Demitte",
+		"description": "Cape {project} pro platforma tua. Omnes demissiones gratuitae sunt et apertae fontis.",
+		"version": "Versio currens: {version}",
+		"linkAlt": "Demitte",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installator {format}",
+			"package": "Sarcina {format}",
+			"portableZip": "ZIP portabilis",
+			"viewOnGithub": "Vide in GitHub"
+		},
+		"macos": {
+			"title": "Notitia gravis pro usoribus macOS:",
+			"intro": "macOS Gatekeeper applicationes non signatas/non notarizatas demissas ex interrete impediet cum errore {error}.",
+			"error": "\"fracta est, aperiri non potest\"",
+			"runCommand": "Postquam DMG vel ZIP demisisti, antequam applicationem aperias, exseque hoc imperium in terminali:",
+			"exampleDmg": "Exempli gratia, post installationem ex DMG:",
+			"exampleZip": "Vel post extractionem ZIP:",
+			"explanation": "Hoc removebit attributum quarantenae et permittet applicationi exsequi."
+		}
+	},
+	"screenshots": {
+		"title": "Imagines schemati",
+		"open": "Aperire imaginem schemati {index}",
+		"alt": "Imago schemati {index}",
+		"close": "Claudere galeriam",
+		"prev": "Imago praecedens",
+		"next": "Imago sequens"
+	},
+	"comparison": {
+		"title": "Comparatio",
+		"feature": "Proprietas",
+		"yes": "Ita",
+		"no": "Non",
+		"partialDht": "Partim (DHT)",
+		"rows": {
+			"decentralized": "Rete decentralizatum",
+			"onlineLibrary": "Bibliotheca in linea",
+			"builtInSearch": "Inquisitio inaedificata contenti",
+			"decentralizedSearch": "Inquisitio decentralizata contenti",
+			"parallelDownloads": "Demissiones parallelae ex pluribus fontibus",
+			"mediaCenter": "Interfacies medii centri",
+			"gamepad": "Sustentaculum gamepadi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contactus",
+		"getInTouch": "Contactum ineas",
+		"links": {
+			"telegramChat": "Grex colloquii Telegram",
+			"telegramAnnouncements": "Nuntiationes Telegram",
+			"facebook": "Grex Facebook"
+		}
+	},
+	"footer": {
+		"by": "Factum a"
+	}
+}

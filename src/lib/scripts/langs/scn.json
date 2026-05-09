@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cunnessioni decentralizzata di file",
+		"description": "{project} è un prugramma peer-to-peer pi lu scangiu di file, basatu supra la tecnulugìa muderna decentralizzata.",
+		"ogTitle": "{project} - Prugramma di cunnessioni decentralizzata di file",
+		"ogDescription": "Scangiu di file peer-to-peer basatu supra la tecnulugìa muderna decentralizzata. Nuḍḍu servu centrali. Nuḍḍu puntu unicu di fallimentu."
+	},
+	"menu": {
+		"about": "Nfurmazzioni",
+		"download": "Scarricari",
+		"screenshots": "Schermati",
+		"comparison": "Paragunu",
+		"contact": "Cuntattu",
+		"toggle": "Apriri lu menù",
+		"close": "Chiùdiri lu menù",
+		"language": "Lingua",
+		"selectLanguage": "Sceglìri la lingua"
+	},
+	"hero": {
+		"subtitle": "Scangiu di file peer-to-peer di nova generazzioni",
+		"description": "Basatu supra la tecnulugìa muderna decentralizzata. Nuḍḍu servu centrali. Nuḍḍu puntu unicu di fallimentu.",
+		"download": "Scarricari"
+	},
+	"about": {
+		"title": "Nfurmazzioni",
+		"intro": "{project} è na piattafurma di nova generazzioni pi lu scangiu di file peer-to-peer, basata supra la tecnulugìa muderna decentralizzata. Cumbina n'interfaccia faciri d'usari c'un'architettura tutta decentralizzata, garantennu un scangiu di file sicuru e affidabbili senza bisognu d'una autorità centrali. Stu prugettu è open source, pubbricatu sutta {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Riti tutta decentralizzata",
+				"description": "Nuḍḍu servu centrali, nuḍḍu puntu unicu di fallimentu. L'utenti trovanu e scarricanu cuntenutu direttamenti di l'autri, senza dipèndiri di nuḍḍu indici centrali, mutori di ricerca o banca dati."
+			},
+			"accessControl": {
+				"title": "Cuntrollu finu di l'accessu",
+				"description": "Cu vasta po custruìri la propria riti cu li propri reuli, gratis. Dintra ogni riti, li ruoli di l'utenti su' definuti: patruni, amministraturi, editori, mudderaturi e siguituri. Hai lu cuntrollu finu di cui po pubbricari, mudderari e scarricari cuntenutu."
+			},
+			"ui": {
+				"title": "Interfaccia di qualità",
+				"description": "Interfaccia media center pulita e lestra, prugettata pi desktop, TV e piattaformi mobbili. Navigazzioni faciri cu tastera, mouse, gamepad o telecumannu. L'utenti esperti ponnu fari curriri lu prugramma comu servu senza testa attraversu l'interfaccia di la riga di cumannu."
+			},
+			"dataFormat": {
+				"title": "Furmatu dati leggibili a l'omu",
+				"description": "Lu furmatu dati LISH è basatu supra JSON, chi lu fa faciri di criari, leggiri e capiri. Cunnetta lu cuntenutu cu metadati chiari e trasparenti, chi cu vasta po virificari."
+			},
+			"security": {
+				"title": "Privatizza e sicurezza",
+				"description": "Tutti li cumunicazzioni peer-to-peer su' criptati, assicurannu chi li dati toi rimanunu privati duranti la trasmissioni. L'utenti ponnu ammucciarsi appressu di na VPN pi la massima anonimità. {project} rispetta la privatizza toa pi prugettu."
+			},
+			"crossPlatform": {
+				"title": "Multipiattafurma",
+				"description": "Lu prugramma è dispunibili pi Windows, Linux e macOS. Usalu supra la piattafurma chi prefirìsci."
+			}
+		}
+	},
+	"download": {
+		"title": "Scarricari",
+		"description": "Pigghia {project} pi la piattafurma toa. Tutti li scarricamenti su' gratis e open source.",
+		"version": "Virsioni attuali: {version}",
+		"linkAlt": "Scarricari",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universali (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installaturi {format}",
+			"package": "Pacchettu {format}",
+			"portableZip": "ZIP purtabbili",
+			"viewOnGithub": "Vidi supra GitHub"
+		},
+		"macos": {
+			"title": "Avvisu mpurtanti pi l'utenti macOS:",
+			"intro": "macOS Gatekeeper blocca li applicazzioni non firmati/non nutarizzati scarricati di Internet cu un errori {error}.",
+			"error": "\"è rutta, non po èssiri aperta\"",
+			"runCommand": "Doppu chi hai scarricatu lu DMG o lu ZIP, prima di apriri l'applicazzioni, fa curriri stu cumannu nta lu terminali:",
+			"exampleDmg": "Pi esempiu, doppu l'installazzioni di un DMG:",
+			"exampleZip": "Oppuru doppu l'estrazzioni di un ZIP:",
+			"explanation": "Chistu leva l'attributu di quarantena e permetti a l'applicazzioni di curriri."
+		}
+	},
+	"screenshots": {
+		"title": "Schermati",
+		"open": "Apriri la schermata {index}",
+		"alt": "Schermata {index}",
+		"close": "Chiùdiri la galleria",
+		"prev": "Schermata pricidenti",
+		"next": "Schermata succissiva"
+	},
+	"comparison": {
+		"title": "Paragunu",
+		"feature": "Funziunalità",
+		"yes": "Sì",
+		"no": "No",
+		"partialDht": "Parziali (DHT)",
+		"rows": {
+			"decentralized": "Riti decentralizzata",
+			"onlineLibrary": "Bibblioteca online",
+			"builtInSearch": "Ricerca di cuntenutu integrata",
+			"decentralizedSearch": "Ricerca di cuntenutu decentralizzata",
+			"parallelDownloads": "Scarricamenti paralleli di fonti multipli",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Suppurtu pi gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cuntattu",
+		"getInTouch": "Mèttiti n cuntattu",
+		"links": {
+			"telegramChat": "Gruppu chat Telegram",
+			"telegramAnnouncements": "Annunci Telegram",
+			"facebook": "Gruppu Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fattu di"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentralisiarts Dateie-Teile",
+		"description": "{project} isch e peer-to-peer Programm zum Dateie teile, gschtütz uf moderni dezentralisiarti Technologi.",
+		"ogTitle": "{project} - Programm für dezentralisiarts Dateie-Teile",
+		"ogDescription": "Peer-to-peer Dateie-Teile, gschtütz uf moderni dezentralisiarti Technologi. Kei zentrale Server. Kei einzige Usfallpunkt."
+	},
+	"menu": {
+		"about": "Über üs",
+		"download": "Abelade",
+		"screenshots": "Bildschirm-Bildli",
+		"comparison": "Vergliich",
+		"contact": "Kontakt",
+		"toggle": "Menü uftue",
+		"close": "Menü zuetue",
+		"language": "Sproch",
+		"selectLanguage": "Sproch ussueche"
+	},
+	"hero": {
+		"subtitle": "Nöji Generation peer-to-peer Dateie-Teile",
+		"description": "Gschtütz uf moderni dezentralisiarti Technologi. Kei zentrale Server. Kei einzige Usfallpunkt.",
+		"download": "Abelade"
+	},
+	"about": {
+		"title": "Über üs",
+		"intro": "{project} isch e Plattform vo de nöje Generation für peer-to-peer Dateie-Teile, gschtütz uf moderni dezentralisiarti Technologi. Si verbindet e eifachi Bediänigsoberflächi mit ere ganz dezentralisiarte Architektur, sichlet sicheri und verlässligi Dateie-Teile ohni e zentrali Autorität z'bruuche. Das Projäkt isch open source, usegää under em {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ganz dezentralisiarts Netzwärk",
+				"description": "Kei zentrale Server, kei einzige Usfallpunkt. Bruucher findet und ladet Inhalt direkt vo andere abe, ohni uf e zentrale Index, Suechmaschine oder Datebank agwiise z'si."
+			},
+			"accessControl": {
+				"title": "Fini Zuegangskontroll",
+				"description": "Jede chan sis eigene Netzwärk mit eigene Regle baue, gratis. Innerhalb vo jedem Netzwärk si d Bruucher-Rolle definiart: Bsitzer, Verwalter, Editor, Moderator und Aahänger. Du häsch fini Kontroll drüber, wär chan publiziere, moderiere und Inhalt ablade."
+			},
+			"ui": {
+				"title": "Hochwärtigi Bediänigsoberflächi",
+				"description": "E suuberi und schnälli Media Center Bediänigsoberflächi, ufem Tisch-Computer, Fernseh und mobile Plattforme zueglait. Eifachi Navigation mit Tastatur, Muus, Gamepad oder Fernbedienig. Erfahreni Bruucher chönd s Programm als chöpfloose Server über die Befähl-Ziile-Bediänigsoberflächi laufe la."
+			},
+			"dataFormat": {
+				"title": "Mensch-läsbars Datemformat",
+				"description": "S LISH Datemformat isch uf JSON gschtütz, was es eifach zum Erstelle, Läse und Verstah macht. Teil dini Inhalt mit klare und transparente Metadate, was jede chan überprüefe."
+			},
+			"security": {
+				"title": "Privatschpäri und Sicherheit",
+				"description": "All peer-to-peer Kommunikatione si verschlüsslet, sichlet, dass dini Date privat bliibet im Verkehr. Bruucher chönd sich hinder eme VPN verschtecke für me Anonymität. {project} ehrt dini Privatschpäri vom Design här."
+			},
+			"crossPlatform": {
+				"title": "Multiplattform",
+				"description": "S Programm isch erhältlich für Windows, Linux und macOS. Bruuch's uf de Plattform, won dr am liebste hesch."
+			}
+		}
+	},
+	"download": {
+		"title": "Abelade",
+		"description": "Hol {project} für dini Plattform. Alli Abeladige si gratis und open source.",
+		"version": "Aktuälli Version: {version}",
+		"linkAlt": "Abelade",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universäll (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installierer",
+			"package": "{format} Pakääli",
+			"portableZip": "Tragbars ZIP",
+			"viewOnGithub": "Uf GitHub aaluege"
+		},
+		"macos": {
+			"title": "Wichtigi Notiz für macOS-Bruucher:",
+			"intro": "macOS Gatekeeper blockiert nit unterschribni/nit notarisierti Awändige, wo us em Internät abeglade worde si, mit eme Fähler {error}.",
+			"error": "\"isch kaputt, cha nit ufgma wärde\"",
+			"runCommand": "Nochdäm dr s DMG oder ZIP abeglade häsch, vor dass d Awändig ufmachsch, lass das Befähl im Terminäl laufe:",
+			"exampleDmg": "Zum Bischpil noch dr Installation us emene DMG:",
+			"exampleZip": "Oder noch em Uspacke vo nemme ZIP:",
+			"explanation": "Das nimmt s Quarantäne-Attribut wäg und lat d Awändig laufe."
+		}
+	},
+	"screenshots": {
+		"title": "Bildschirm-Bildli",
+		"open": "Bildschirm-Bildli {index} uftue",
+		"alt": "Bildschirm-Bildli {index}",
+		"close": "Galleri zuetue",
+		"prev": "Vorigs Bildschirm-Bildli",
+		"next": "Nächschts Bildschirm-Bildli"
+	},
+	"comparison": {
+		"title": "Vergliich",
+		"feature": "Funktion",
+		"yes": "Ja",
+		"no": "Nei",
+		"partialDht": "Teilwiis (DHT)",
+		"rows": {
+			"decentralized": "Dezentralisiarts Netzwärk",
+			"onlineLibrary": "Online-Bibliothek",
+			"builtInSearch": "Iibouti Inhalt-Sueche",
+			"decentralizedSearch": "Dezentralisiarti Inhalt-Sueche",
+			"parallelDownloads": "Parallälli Abeladige us mehrere Quelle",
+			"mediaCenter": "Media Center Bediänigsoberflächi",
+			"gamepad": "Gamepad-Unterstützig",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "I Kontakt cho",
+		"links": {
+			"telegramChat": "Telegram Plouder-Gruppe",
+			"telegramAnnouncements": "Telegram Bekanntmachige",
+			"facebook": "Facebook Gruppe"
+		}
+	},
+	"footer": {
+		"by": "Gmacht vom"
+	}
+}

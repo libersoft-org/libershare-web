@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partaz fichyé désantralizé",
+		"description": "{project} lé in program peer-to-peer pou partaz bann fichyé, baz su tèknolozi modèrn désantralizé.",
+		"ogTitle": "{project} - Program pou partaz fichyé désantralizé",
+		"ogDescription": "Partaz fichyé peer-to-peer baz su tèknolozi modèrn désantralizé. I lé pa nin sèrvèr santral. I lé pa nin sèl pwin défaut."
+	},
+	"menu": {
+		"about": "Su",
+		"download": "Téléchargé",
+		"screenshots": "Foto lékran",
+		"comparison": "Konparèzon",
+		"contact": "Kontak",
+		"toggle": "Ouvèr ménu",
+		"close": "Frém ménu",
+		"language": "Lang",
+		"selectLanguage": "Choizi lang"
+	},
+	"hero": {
+		"subtitle": "Partaz fichyé peer-to-peer prosèn zénérasyon",
+		"description": "Baz su tèknolozi modèrn désantralizé. I lé pa nin sèrvèr santral. I lé pa nin sèl pwin défaut.",
+		"download": "Téléchargé"
+	},
+	"about": {
+		"title": "Su",
+		"intro": "{project} lé in platforme prosèn zénérasyon pou partaz fichyé peer-to-peer, baz su tèknolozi modèrn désantralizé. Li konbine in lintèrfas fasil pou siouv avèk in larchitèktir konplétman désantralizé, asure in partaz fichyé sékirizé èk fyab san bizwin in lotorité santral. Sa proze-la lé open source, lansé sou {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rézo konplétman désantralizé",
+				"description": "I lé pa nin sèrvèr santral, i lé pa nin sèl pwin défaut. Bann itilizatèr i trouv èk i téléchaj kontni dirèktman avèk lézot, san i dépand su nin lindèks santral, motèr résèrch oubyin baz done."
+			},
+			"accessControl": {
+				"title": "Kontrol fin su laksè",
+				"description": "Tout dimoun i pé bati son prop rézo avèk son prop bann règ, gratis. Dan chak rézo, bann rol itilizatèr lé défini: propriétèr, administratèr, éditèr, modératèr, èk swivèr. Ou na nin kontrol fin su sak i pé piblié, modéré, èk téléchaj kontni."
+			},
+			"ui": {
+				"title": "Lintèrfas o kalité",
+				"description": "In lintèrfas media center prop èk rapid, désiné pou desktop, TV, èk bann platforme mobil. Navigasyon fasil avèk klavyé, lasouri, gamepad, oubyin télékomand. Bann itilizatèr èkspérimanté i pé fé tourn program-la kom sèrvèr san tèt atravèr lintèrfas linyn kòmandman."
+			},
+			"dataFormat": {
+				"title": "Fòrma done lizib par bann zimin",
+				"description": "Fòrma done LISH lé baz su JSON, sa i fé li fasil pou kré, li, èk konpran. Partaj out kontni avèk métadone klèr èk transparan, sa tout dimoun i pé vérifyé."
+			},
+			"security": {
+				"title": "Vi privé èk sékirité",
+				"description": "Tout bann komunikasyon peer-to-peer lé kripté, asure out done i rès privé dan transit. Bann itilizatèr i pé kasiet dèryér in VPN pou plis lanonima. {project} i réspèkt out vi privé par konsèpsyon."
+			},
+			"crossPlatform": {
+				"title": "Miltiplatforme",
+				"description": "Program-la lé disponib pou Windows, Linux, èk macOS. Sèrv ali su platforme ou préfére."
+			}
+		}
+	},
+	"download": {
+		"title": "Téléchargé",
+		"description": "Pran {project} pou out platforme. Tout téléchargman lé gratis èk open source.",
+		"version": "Vèrsyon aktyèl: {version}",
+		"linkAlt": "Téléchargé",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Inivèrsèl (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Lintalatèr {format}",
+			"package": "Pakèt {format}",
+			"portableZip": "ZIP pòrtab",
+			"viewOnGithub": "Vwar su GitHub"
+		},
+		"macos": {
+			"title": "Avi inportan pou bann itilizatèr macOS:",
+			"intro": "macOS Gatekeeper i sa blok bann aplikasyon pa siyné/pa notarizé téléchargé dépi Lintèrnèt avèk in érèr {error}.",
+			"error": "\"li kasé, i pé pa ouvèr\"",
+			"runCommand": "Apré ou la téléchaj DMG oubyin ZIP, avan ou ouvèr aplikasyon-la, fé tourn sa kòmandman-la dan tèrminal:",
+			"exampleDmg": "Par egzanp, apré linstalasyon dépi in DMG:",
+			"exampleZip": "Oubyin apré lèkstraksyon in ZIP:",
+			"explanation": "Sa i sa retir latribi karantèn èk i sa lès aplikasyon-la tourn."
+		}
+	},
+	"screenshots": {
+		"title": "Foto lékran",
+		"open": "Ouvèr foto lékran {index}",
+		"alt": "Foto lékran {index}",
+		"close": "Frém galri",
+		"prev": "Foto lékran avan",
+		"next": "Foto lékran apré"
+	},
+	"comparison": {
+		"title": "Konparèzon",
+		"feature": "Fonksyon",
+		"yes": "Wi",
+		"no": "Non",
+		"partialDht": "Parsyèl (DHT)",
+		"rows": {
+			"decentralized": "Rézo désantralizé",
+			"onlineLibrary": "Bibliyotèk an liyn",
+			"builtInSearch": "Résèrch kontni intégré",
+			"decentralizedSearch": "Résèrch kontni désantralizé",
+			"parallelDownloads": "Téléchargman paralèl dépi plizyèr sours",
+			"mediaCenter": "Lintèrfas media center",
+			"gamepad": "Sipòr gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Pran kontak",
+		"links": {
+			"telegramChat": "Group chat Telegram",
+			"telegramAnnouncements": "Anons Telegram",
+			"facebook": "Group Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fé par"
+	}
+}

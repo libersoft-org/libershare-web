@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Condivision decentralizada de file",
+		"description": "{project} el xè un programa peer-to-peer par el scambio de file, basà su tecnologia moderna decentralizada.",
+		"ogTitle": "{project} - Programa de condivision decentralizada de file",
+		"ogDescription": "Scambio de file peer-to-peer basà su tecnologia moderna decentralizada. Nissun servar central. Nissun ponto unico de fallimento."
+	},
+	"menu": {
+		"about": "Informazion",
+		"download": "Scaricar",
+		"screenshots": "Imagini de schermo",
+		"comparison": "Confronto",
+		"contact": "Contato",
+		"toggle": "Verxer el menu",
+		"close": "Sarar el menu",
+		"language": "Lengua",
+		"selectLanguage": "Sielzi la lengua"
+	},
+	"hero": {
+		"subtitle": "Scambio de file peer-to-peer de nova generazion",
+		"description": "Basà su tecnologia moderna decentralizada. Nissun servar central. Nissun ponto unico de fallimento.",
+		"download": "Scaricar"
+	},
+	"about": {
+		"title": "Informazion",
+		"intro": "{project} el xè na piataforma de nova generazion par el scambio de file peer-to-peer, basà su tecnologia moderna decentralizada. El combina un'interfaza facile da doparar co un'architetura tuta decentralizada, garantindo un scambio de file securo e fidato sensa bisogno de un'autorità central. Sto progeto el xè open source, publicà soto {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rede tuta decentralizada",
+				"description": "Nissun servar central, nissun ponto unico de fallimento. I utenti i trova e scarica contenuto diretamente dai altri, sensa dipender da nissun indice central, motor de ricerca o database."
+			},
+			"accessControl": {
+				"title": "Controlo fin de l'aceso",
+				"description": "Chiunque pol costruir la sua rede co le sue regole, gratis. Drento ogni rede, i ruoli dei utenti i xè definii: paron, aministrador, editor, moderator e seguitor. Te ghè el controlo fin de chi pol publicar, moderar e scarcar contenuto."
+			},
+			"ui": {
+				"title": "Interfaza de qualità",
+				"description": "Interfaza media center neta e svelta, progetada par desktop, TV e piataforme mobili. Navigazion facile co tastiera, mouse, gamepad o telecomando. I utenti esperti i pol far girar el programa come servar sensa testa atraverso l'interfaza a riga de comando."
+			},
+			"dataFormat": {
+				"title": "Formato dati legibile da omeni",
+				"description": "El formato dati LISH el xè basà su JSON, che lo fa facile da crear, lèder e capir. Condividi el to contenuto co metadati ciari e trasparenti, che chiunque pol verificar."
+			},
+			"security": {
+				"title": "Privacy e securità",
+				"description": "Tute le comunicazion peer-to-peer le xè criptade, garantindo che i to dati i resta privà durante el transito. I utenti i pol sconderse drio na VPN par massima anonimità. {project} el rispeta la to privacy par progeto."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforma",
+				"description": "El programa el xè disponibile par Windows, Linux e macOS. Doparalo su la piataforma che te preferissi."
+			}
+		}
+	},
+	"download": {
+		"title": "Scaricar",
+		"description": "Ciapa {project} par la to piataforma. Tuti i scaricamenti i xè gratis e open source.",
+		"version": "Version atuale: {version}",
+		"linkAlt": "Scaricar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pacheto {format}",
+			"portableZip": "ZIP portabile",
+			"viewOnGithub": "Vardar su GitHub"
+		},
+		"macos": {
+			"title": "Aviso importante par i utenti macOS:",
+			"intro": "macOS Gatekeeper el blocà le aplicazion mìa firmade/mìa notarizade scaricà da Internet co un eror {error}.",
+			"error": "\"la xè rota, no se pol verxer\"",
+			"runCommand": "Dopo che te ghè scaricà el DMG o el ZIP, prima de verxer l'aplicazion, fa girar sto comando in terminale:",
+			"exampleDmg": "Par esempio, dopo l'instalazion da un DMG:",
+			"exampleZip": "Opur dopo l'estrazion de un ZIP:",
+			"explanation": "Sto qua el leva l'atributo de quarantena e el permete a l'aplicazion de girar."
+		}
+	},
+	"screenshots": {
+		"title": "Imagini de schermo",
+		"open": "Verxer la schermada {index}",
+		"alt": "Schermada {index}",
+		"close": "Sarar la galaria",
+		"prev": "Schermada precedente",
+		"next": "Schermada sucessiva"
+	},
+	"comparison": {
+		"title": "Confronto",
+		"feature": "Funzion",
+		"yes": "Sì",
+		"no": "No",
+		"partialDht": "Parzial (DHT)",
+		"rows": {
+			"decentralized": "Rede decentralizada",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Ricerca de contenuto integrada",
+			"decentralizedSearch": "Ricerca de contenuto decentralizada",
+			"parallelDownloads": "Scaricamenti paraleli da fonti multiple",
+			"mediaCenter": "Interfaza media center",
+			"gamepad": "Suporto par gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contato",
+		"getInTouch": "Méteti in contato",
+		"links": {
+			"telegramChat": "Grupo chat Telegram",
+			"telegramAnnouncements": "Anunci Telegram",
+			"facebook": "Grupo Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fato da"
+	}
+}

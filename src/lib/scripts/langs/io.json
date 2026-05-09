@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentraligita Kunpartigado di Dosieri",
+		"description": "{project} esas peer-to-peer softwaro por kunpartigado di dosieri, konstruktita sur moderna decentraligita teknologio.",
+		"ogTitle": "{project} - Softwaro por Decentraligita Kunpartigado di Dosieri",
+		"ogDescription": "Peer-to-peer kunpartigado di dosieri konstruktita sur moderna decentraligita teknologio. Nula centrala servilo. Nula unika punto di falio."
+	},
+	"menu": {
+		"about": "Pri",
+		"download": "Telecharjar",
+		"screenshots": "Ekran-imaji",
+		"comparison": "Komparo",
+		"contact": "Kontakto",
+		"toggle": "Apertar menuo",
+		"close": "Klozar menuo",
+		"language": "Linguo",
+		"selectLanguage": "Selektar linguo"
+	},
+	"hero": {
+		"subtitle": "Sequanta-generacionala peer-to-peer kunpartigado di dosieri",
+		"description": "Konstruktita sur moderna decentraligita teknologio. Nula centrala servilo. Nula unika punto di falio.",
+		"download": "Telecharjar"
+	},
+	"about": {
+		"title": "Pri",
+		"intro": "{project} esas sequanta-generacionala platformo por peer-to-peer kunpartigado di dosieri, konstruktita sur moderna decentraligita teknologio. Lu kombinas facila uzar interfaco kun komplete decentraligita arkitekturo, garantiante sekura e fidinda kunpartigado di dosieri sen bezono di centrala autoritato. Ica projeto esas open source, publikigita sub la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Komplete decentraligita reto",
+				"description": "Nula centrala servilo, nula unika punto di falio. Uzanti trovas e telecharjas konteno direte de l'uni a l'altri, sen depende di centrala indexo, sequilo, o datumbazo."
+			},
+			"accessControl": {
+				"title": "Granulara kontrolo di acesso",
+				"description": "Irgu povas konstruktar sua propra reto kun sua propra reguli libere. Interne di omna reto, la roli di uzanti esas definita: posedanto, administranto, publikiganto, moderiganto, e sequanto. Vu havas granulara kontrolo pri qua povas publikigar, moderigar, e telecharjar konteno."
+			},
+			"ui": {
+				"title": "Alta-qualita interfaco",
+				"description": "Pura e responsiva mediumcentra interfaco, projetita por skribtablo, televiziono, e mobila platformi. Facila navigado per klavaro, muso, gamepad, o telekomando. Avancita uzanti povas exekutar la softwaro quale senkapa datumservilo per la imperativ-lineala interfaco."
+			},
+			"dataFormat": {
+				"title": "Homo-lektebla datumformato",
+				"description": "La datumformato LISH esas konstruktita sur JSON, quo facas lu facila krear, lektar, e komprenar. Kunpartigez vua konteno kun klara e transparanta metadatumi, quin irgu povas facile verifiar."
+			},
+			"security": {
+				"title": "Privateso e sekureso",
+				"description": "Omna peer-to-peer komuniki esas cifrigita, garantiante ke vua datumi restas privata dum transito. Uzanti povas celar su dop VPN por plusa anonimeso. {project} respektas vua privateso per la projetacho."
+			},
+			"crossPlatform": {
+				"title": "Trans-platforma",
+				"description": "La softwaro esas havebla por Windows, Linux, e macOS. Uzez ol sur irga platformo quan vu preferas."
+			}
+		}
+	},
+	"download": {
+		"title": "Telecharjar",
+		"description": "Obtenez {project} por vua platformo. Omna telecharji esas senpaga e open source.",
+		"version": "Aktuala versiono: {version}",
+		"linkAlt": "Telecharjar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalilo {format}",
+			"package": "Pakajo {format}",
+			"portableZip": "Portebla ZIP",
+			"viewOnGithub": "Videz en GitHub"
+		},
+		"macos": {
+			"title": "Importanta informo por uzanti di macOS:",
+			"intro": "macOS Gatekeeper blokus aplikuri ne-signatita/ne-notariizita telecharjita de l'interreto kun eroro {error}.",
+			"error": "\"esas ruptita, ne povas apertesar\"",
+			"runCommand": "Pos telecharjar la DMG od ZIP, ante apertar la aplikuro, exekutez ica imperativo en la terminalo:",
+			"exampleDmg": "Por exemplo, pos instalo de DMG:",
+			"exampleZip": "Od pos extrakto di ZIP:",
+			"explanation": "Ico forigos la atributo di kuranteno e permisos a la aplikuro funcionar."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran-imaji",
+		"open": "Apertar ekran-imajo {index}",
+		"alt": "Ekran-imajo {index}",
+		"close": "Klozar galerio",
+		"prev": "Antea imajo",
+		"next": "Sequanta imajo"
+	},
+	"comparison": {
+		"title": "Komparo",
+		"feature": "Karakterizajo",
+		"yes": "Yes",
+		"no": "No",
+		"partialDht": "Parta (DHT)",
+		"rows": {
+			"decentralized": "Decentraligita reto",
+			"onlineLibrary": "Interreta biblioteko",
+			"builtInSearch": "Inkluzita konteno-serchado",
+			"decentralizedSearch": "Decentraligita konteno-serchado",
+			"parallelDownloads": "Paralela telecharji de pluri fonti",
+			"mediaCenter": "Mediumcentra interfaco",
+			"gamepad": "Gamepad-suporto",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakto",
+		"getInTouch": "Kontaktez ni",
+		"links": {
+			"telegramChat": "Telegram konversala grupo",
+			"telegramAnnouncements": "Telegram anunci",
+			"facebook": "Facebook grupo"
+		}
+	},
+	"footer": {
+		"by": "Facita da"
+	}
+}

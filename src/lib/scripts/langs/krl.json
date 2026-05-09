@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tsentralisoimattomas failien jakami̇nõ",
+		"description": "{project} on peer-to-peer ohjelmu failien jakamisekše, perustui̇n nykyaiguškel tsentralisoimattomal teknolougial.",
+		"ogTitle": "{project} - Tsentralisoimattomas failien jakamisõn ohjelmu",
+		"ogDescription": "Peer-to-peer failien jakami̇nõ, perustui̇n nykyaiguškel tsentralisoimattomal teknolougial. Ei keškuššerverii̇. Ei yhttäkin vikapistettä."
+	},
+	"menu": {
+		"about": "Mei̇stä",
+		"download": "Lataa",
+		"screenshots": "Ruudunkuvua",
+		"comparison": "Vertailu",
+		"contact": "Yhteyš",
+		"toggle": "Avua valikko",
+		"close": "Šolge valikko",
+		"language": "Kieli",
+		"selectLanguage": "Valikoi kieli"
+	},
+	"hero": {
+		"subtitle": "Uvven šukupolven peer-to-peer failien jakami̇nõ",
+		"description": "Perustui̇n nykyaiguškel tsentralisoimattomal teknolougial. Ei keškuššerverii̇. Ei yhttäkin vikapistettä.",
+		"download": "Lataa"
+	},
+	"about": {
+		"title": "Mei̇stä",
+		"intro": "{project} on uvven šukupolven alusta peer-to-peer failien jakamisekše, perustui̇n nykyaiguškel tsentralisoimattomal teknolougial. Še yhdistäy helpon käytettävän rajapinnan täydellizeh tsentralisoimattomah arhitektuurih, takuijen turvallizen i luotettavan failien jakamizen i̇lmal keškuššaufigurua. Tämä projekti on avoi̇nlähdekoodi̇nõ, julgaistu {license} alla.",
+		"features": {
+			"decentralized": {
+				"title": "Täydellizesti tsentralisoimaton verkko",
+				"description": "Ei keškuššerverii̇, ei yhttäkin vikapistettä. Käyttäjät löydetäh i ladajah šišältyö šuoral toizilta, riippumattu yhthešthi keškuššhakemišthi, hakukoneešhi tahi tietokantah."
+			},
+			"accessControl": {
+				"title": "Tarkka pi̇ršyhalli̇nta",
+				"description": "Jogahi̇nõ voi rakentua oman verkkoh omi̇l šäännöillä, i̇lmaiziekše. Jogahizes verkos käyttäjien rouli̇t on määritetty: omistaja, hallintamieš, redaktora, moderaattora i šeurai̇njā. Šivulla on tarkka halli̇nta šii̇tä, ken voi julgua, moderirua i ladua šišältyö."
+			},
+			"ui": {
+				"title": "Korgielatuhi̇nõ rajapinta",
+				"description": "Pudaš i nopie media center -rajapinta, šuvattu pöytäkonelo, televisiolo i mobiilialustoilo. Helppo navigirminõ näppäimistöl, hi̇rel, peliohjaimel tahi kaukoš:äätimel. Tottuneet käyttäjät voijah ajua ohjelmua piätt:ömän palvelmienä komentoriviraajapinnaš kautti."
+			},
+			"dataFormat": {
+				"title": "Inehmizel luvettava tietomuoto",
+				"description": "LISH-tietomuoto perustau JSON:ah, mi tegöy hänestä helpon luvva, lugie i ymmärtämäh. Jagua šišältyö šelvällä i lähpinägyväl metadatalla, midä jogahi̇nõ voi tarkistua."
+			},
+			"security": {
+				"title": "Yksityižyš i turvallizuš",
+				"description": "Kaikki peer-to-peer viestimiset on šalaltut, takuijen, jotta tieto pyšyy yksityižnä šii̇rrol. Käyttäjät voijah peittüä VPN takanua makšimi̇ššen anonyymihyvven varti̇n. {project} kunnioittau ši̇nun yksityžyttä šuvitelmaštah."
+			},
+			"crossPlatform": {
+				"title": "Monialustahi̇nõ",
+				"description": "Ohjelmu on šuatavi̇l Windowsola, Linuxol i macOS:ola. Käytä häntä millä tahanša mieldyttäväs alustassa."
+			}
+		}
+	},
+	"download": {
+		"title": "Lataa",
+		"description": "Šua {project} omah alustalla. Kaikki latuat ollah i̇lmaizet i avoi̇mlähdekoodizet.",
+		"version": "Nyküi̇nõ versija: {version}",
+		"linkAlt": "Lataa",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Yhteine (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} azennuš",
+			"package": "{format} paketti",
+			"portableZip": "Kannettava ZIP",
+			"viewOnGithub": "Kačo GitHubašša"
+		},
+		"macos": {
+			"title": "Tärgie tieduš macOS-käyttäjät varti̇n:",
+			"intro": "macOS Gatekeeper estäy allagirjuamattomi̇e/notarisoimattomi̇e ohjelmua, mit ovat ladatut Interneti̇stä, virhellä {error}.",
+			"error": "\"on rikki, šitä ei voi avata\"",
+			"runCommand": "DMG:n tahi ZIP:n latuamizen jälges, ennen ohjelman avuamišta, ajua tämä komento terminuali:",
+			"exampleDmg": "Esimerkikše DMG-azennuksen jälges:",
+			"exampleZip": "Tahi ZIP-purgamizen jälges:",
+			"explanation": "Tämä poistau karantiniattribuutti i šallinda ohjelmal toimimah."
+		}
+	},
+	"screenshots": {
+		"title": "Ruudunkuvua",
+		"open": "Avata ruudunkuva {index}",
+		"alt": "Ruudunkuva {index}",
+		"close": "Šolge galleria",
+		"prev": "Ennizet ruudunkuva",
+		"next": "Šeuruava ruudunkuva"
+	},
+	"comparison": {
+		"title": "Vertailu",
+		"feature": "Toiminduš",
+		"yes": "Da",
+		"no": "Ei",
+		"partialDht": "Ošillenä (DHT)",
+		"rows": {
+			"decentralized": "Tsentralisoimaton verkko",
+			"onlineLibrary": "Verkko-kirjašto",
+			"builtInSearch": "Šišään rakennettu šišällön etsindä",
+			"decentralizedSearch": "Tsentralisoimaton šišällön etsindä",
+			"parallelDownloads": "Rinnakkaizet latuat monešt' lähtieštä",
+			"mediaCenter": "Media center -rajapinta",
+			"gamepad": "Peliohjaimen tugi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Yhteyš",
+		"getInTouch": "Yhthü̆stü",
+		"links": {
+			"telegramChat": "Telegram-juttoryhmä",
+			"telegramAnnouncements": "Telegram-iľmoituksen",
+			"facebook": "Facebook-ryhmä"
+		}
+	},
+	"footer": {
+		"by": "Tehty"
+	}
+}

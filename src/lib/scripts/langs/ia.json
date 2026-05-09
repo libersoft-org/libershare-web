@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Compartimento Decentralisate de Files",
+		"description": "{project} es un software peer-to-peer pro compartimento de files, construite super technologia moderne decentralisate.",
+		"ogTitle": "{project} - Software pro Compartimento Decentralisate de Files",
+		"ogDescription": "Compartimento peer-to-peer de files construite super technologia moderne decentralisate. Nulle servitor central. Nulle puncto unic de fallimento."
+	},
+	"menu": {
+		"about": "A proposito",
+		"download": "Discargar",
+		"screenshots": "Capturas de schermo",
+		"comparison": "Comparation",
+		"contact": "Contacto",
+		"toggle": "Aperir menu",
+		"close": "Clauder menu",
+		"language": "Lingua",
+		"selectLanguage": "Selectionar lingua"
+	},
+	"hero": {
+		"subtitle": "Compartimento peer-to-peer de files del proxime generation",
+		"description": "Construite super technologia moderne decentralisate. Nulle servitor central. Nulle puncto unic de fallimento.",
+		"download": "Discargar"
+	},
+	"about": {
+		"title": "A proposito",
+		"intro": "{project} es un platteforma del proxime generation pro compartimento peer-to-peer de files, construite super technologia moderne decentralisate. Illo combina un interfacie facile de usar con un architectura completemente decentralisate, garantiente compartimento de files secur e fidelissime sin necessitate de un autoritate central. Iste projecto es open source, publicate sub le {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete completemente decentralisate",
+				"description": "Nulle servitor central, nulle puncto unic de fallimento. Le usatores trova e discarga contento directemente ab unos al alteres, sin depender de un indice central, traciator, o base de datos."
+			},
+			"accessControl": {
+				"title": "Controlo granular de accesso",
+				"description": "Quicunque pote construer su proprie rete con su proprie regulas gratuitemente. Intra cata rete, le rolos del usatores es definite: proprietario, administrator, editor, moderator, e sequitor. Vos ha controlo granular super qui pote publicar, moderar, e discargar contento."
+			},
+			"ui": {
+				"title": "Interfacie de alte qualitate",
+				"description": "Un interfacie munde e responsive de centro de medios, designate pro platteformas de scriptorio, television, e mobiles. Navigation facile con claviero, mus, gamepad, o controlo remote. Le usatores avantiate pote executar le software como un servitor de datos sin testa per le interfacie de linea de commandos."
+			},
+			"dataFormat": {
+				"title": "Formato de datos legibile per humano",
+				"description": "Le formato de datos LISH es construite super JSON, lo que rende illo facile a crear, leger, e comprender. Comparti tu contento con metadatos clar e transparente, que quicunque pote facilemente verificar."
+			},
+			"security": {
+				"title": "Privacy e securitate",
+				"description": "Tote le communicationes peer-to-peer es cryptate, garantiente que tu datos remane private in transito. Le usatores pote celar se detra un VPN pro plus anonymitate. {project} respecta tu privacy per designo."
+			},
+			"crossPlatform": {
+				"title": "Multiplatteforma",
+				"description": "Le software es disponibile pro Windows, Linux, e macOS. Usa lo in qualcunque platteforma que tu prefere."
+			}
+		}
+	},
+	"download": {
+		"title": "Discargar",
+		"description": "Obtene {project} pro tu platteforma. Tote le discargamentos es gratuite e open source.",
+		"version": "Version actual: {version}",
+		"linkAlt": "Discargar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installator {format}",
+			"package": "Pacchetto {format}",
+			"portableZip": "ZIP portabile",
+			"viewOnGithub": "Vider in GitHub"
+		},
+		"macos": {
+			"title": "Information importante pro usatores de macOS:",
+			"intro": "macOS Gatekeeper blocara applicationes non signate/non notarisate discargate ab le internet con un error {error}.",
+			"error": "\"es rumpite, non pote esser aperite\"",
+			"runCommand": "Post discargar le DMG o ZIP, ante aperir le application, executa iste commando in le terminal:",
+			"exampleDmg": "Per exemplo, post installation ab DMG:",
+			"exampleZip": "O post extraction del ZIP:",
+			"explanation": "Isto removera le attributo de quarantena e permittera al application executar."
+		}
+	},
+	"screenshots": {
+		"title": "Capturas de schermo",
+		"open": "Aperir captura de schermo {index}",
+		"alt": "Captura de schermo {index}",
+		"close": "Clauder galeria",
+		"prev": "Imagine previe",
+		"next": "Imagine sequente"
+	},
+	"comparison": {
+		"title": "Comparation",
+		"feature": "Caracteristica",
+		"yes": "Si",
+		"no": "No",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Rete decentralisate",
+			"onlineLibrary": "Bibliotheca in linea",
+			"builtInSearch": "Recerca de contento integrate",
+			"decentralizedSearch": "Recerca de contento decentralisate",
+			"parallelDownloads": "Discargamentos parallel de plure fontes",
+			"mediaCenter": "Interfacie de centro de medios",
+			"gamepad": "Supporto de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contacto",
+		"getInTouch": "Contacta nos",
+		"links": {
+			"telegramChat": "Gruppo de chat Telegram",
+			"telegramAnnouncements": "Annuncios Telegram",
+			"facebook": "Gruppo Facebook"
+		}
+	},
+	"footer": {
+		"by": "Facite per"
+	}
+}

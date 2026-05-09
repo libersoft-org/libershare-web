@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentraliseerd Datei-Dailen",
+		"description": "{project} is en peer-to-peer Programm tou't Dateien dailen, boud ap moderne dezentraliseerde Technologie.",
+		"ogTitle": "{project} - Dezentraliseerd Datei-Dailen Programm",
+		"ogDescription": "Peer-to-peer Datei-Dailen boud ap moderne dezentraliseerde Technologie. Niinen tsentralen Server. Niinen ainzigen Punkt fon Failja."
+	},
+	"menu": {
+		"about": "Uur",
+		"download": "Deelloodje",
+		"screenshots": "Schierm-Bielde",
+		"comparison": "Fergliek",
+		"contact": "Kontakt",
+		"toggle": "Menü iepnje",
+		"close": "Menü touluuke",
+		"language": "Sproake",
+		"selectLanguage": "Sproake utseekje"
+	},
+	"hero": {
+		"subtitle": "Näie Generaation peer-to-peer Datei-Dailen",
+		"description": "Boud ap moderne dezentraliseerde Technologie. Niinen tsentralen Server. Niinen ainzigen Punkt fon Failja.",
+		"download": "Deelloodje"
+	},
+	"about": {
+		"title": "Uur",
+		"intro": "{project} is en Plattfoorm fon ju näien Generaation foar peer-to-peer Datei-Dailen, boud ap moderne dezentraliseerde Technologie. Hat ferbiendet en eenfache Bruukoberflächte mäd en ful dezentraliseerde Architektüür, sieket sichere un fertrouenswürdige Datei-Dailen sunner Bedoarw fon enen tsentralen Outoritäit. Disse Projekt is open source, utleest unner ju {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ful dezentraliseerd Netwoark",
+				"description": "Niinen tsentralen Server, niinen ainzigen Punkt fon Failja. Bruukere fiende un loodje Inhoold direkt fon uur, sunner ap en tsentralen Indeks, Souksmaschine of Datebanke tou stuude."
+			},
+			"accessControl": {
+				"title": "Fien Toughong-Kontrolle",
+				"description": "Älk uur kon sien oain Netwoark mäd oain Reegele baue, foar gjin Geeld. Bineeden älken Netwoark wäide ju Bruuker-Rollen definiäärd: Bisitter, Ferwoolter, Reedakteur, Moderator un Foulger. Dou hääst fiene Kontrolle uur wäl publisiärje, moderiärje un Inhoold deelloodje kon."
+			},
+			"ui": {
+				"title": "Houch-Kwaliteet Bruukoberflächte",
+				"description": "En klär un gauen Media Center Bruukoberflächte, ärnstet foar Schriewdiskk, Fernsjur un mobile Plattformen. Eenfache Navigaation mäd Tastatür, Müs, Spielpäd of Fernbediening. Erfääride Bruukere konnen ju Programm as koplosen Server troch ju Bifäelriege Bruukoberflächte loope läite."
+			},
+			"dataFormat": {
+				"title": "Foar Mänsken liesboar Datenformat",
+				"description": "Dät LISH Datenformat is boud ap JSON, wät hat eenfach tou måkjen, lieezen un fersteen måket. Dail dien Inhoold mäd klären un troch-sjåhne Metadaten, wät älk uur kon prüfe."
+			},
+			"security": {
+				"title": "Privätheet un Sicherheet",
+				"description": "Alle peer-to-peer Kommunikaationen sunt ferschlöätelt, sieket dien Daten priwät bliewe ap'n Wäi. Bruukere konnen sik fanääft en VPN ferstoppe foar muar Anonymität. {project} hooldt dien Privätheet uur Plääning."
+			},
+			"crossPlatform": {
+				"title": "Multiplattfoorm",
+				"description": "Dät Programm is foarheelden foar Windows, Linux un macOS. Bruuk it ap diu Plattfoorm dät dou foarsjuckest."
+			}
+		}
+	},
+	"download": {
+		"title": "Deelloodje",
+		"description": "Krieg {project} foar dien Plattfoorm. Alle Deelloodjingen sunt foar gjin Geeld un open source.",
+		"version": "Aktuelle Fersjun: {version}",
+		"linkAlt": "Deelloodje",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Uneferseel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installiäärwoark",
+			"package": "{format} Paket",
+			"portableZip": "Drääigboar ZIP",
+			"viewOnGithub": "Ap GitHub luuke"
+		},
+		"macos": {
+			"title": "Wichtige Mitdailing foar macOS-Bruukere:",
+			"intro": "macOS Gatekeeper bluukket nit-unnerschriewene/nit-notariseerde Anwendingen, ju ut dän Internet deelloadt sunt, mäd en Failja {error}.",
+			"error": "\"is kaputt, kon nit iepnetk wäide\"",
+			"runCommand": "Nodäm dou dät DMG of ZIP deelloadt hääst, foarät dou ju Anwending iepnest, läit dissen Bifäel in dän Terminal loope:",
+			"exampleDmg": "Foar Beispiel, nodäm ju Installaation ut en DMG:",
+			"exampleZip": "Of nodäm ju Utpaakjen fon en ZIP:",
+			"explanation": "Dit smit dät Karantäne-Attribut wäch un läit ju Anwending loope."
+		}
+	},
+	"screenshots": {
+		"title": "Schierm-Bielde",
+		"open": "Schierm-Bield {index} iepnje",
+		"alt": "Schierm-Bield {index}",
+		"close": "Galerie touluuke",
+		"prev": "Foarige Schierm-Bield",
+		"next": "Näiste Schierm-Bield"
+	},
+	"comparison": {
+		"title": "Fergliek",
+		"feature": "Funkzjun",
+		"yes": "Ja",
+		"no": "Nai",
+		"partialDht": "Dailwiese (DHT)",
+		"rows": {
+			"decentralized": "Dezentraliseerd Netwoark",
+			"onlineLibrary": "Online-Bibliothek",
+			"builtInSearch": "Inboud Inhoold-Souke",
+			"decentralizedSearch": "Dezentraliseerd Inhoold-Souke",
+			"parallelDownloads": "Parallele Deelloodjingen fon ferskate Quelen",
+			"mediaCenter": "Media Center Bruukoberflächte",
+			"gamepad": "Spielpäd-Stütterje",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "In Kontakt kume",
+		"links": {
+			"telegramChat": "Telegram Snäkk-Gruppe",
+			"telegramAnnouncements": "Telegram Bikäntmåkjingen",
+			"facebook": "Facebook Gruppe"
+		}
+	},
+	"footer": {
+		"by": "Måked fon"
+	}
+}

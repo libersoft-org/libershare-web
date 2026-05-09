@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cundivisiòun decentralizêda ed file",
+		"description": "{project} l'è un prugrâma peer-to-peer per al scàmbi ed file, basê sòura tecnologia moderna decentralizêda.",
+		"ogTitle": "{project} - Prugrâma ed cundivisiòun decentralizêda ed file",
+		"ogDescription": "Scàmbi ed file peer-to-peer basê sòura tecnologia moderna decentralizêda. Inciun servidòur central. Inciun pónt ùnic ed falimèint."
+	},
+	"menu": {
+		"about": "Infurmaziòun",
+		"download": "Scarigàr",
+		"screenshots": "Schermê",
+		"comparison": "Cunfrónt",
+		"contact": "Cuntat",
+		"toggle": "Avrîr al menù",
+		"close": "Saràr al menù",
+		"language": "Léngua",
+		"selectLanguage": "Sèrnir la léngua"
+	},
+	"hero": {
+		"subtitle": "Scàmbi ed file peer-to-peer ed nóva generaziòun",
+		"description": "Basê sòura tecnologia moderna decentralizêda. Inciun servidòur central. Inciun pónt ùnic ed falimèint.",
+		"download": "Scarigàr"
+	},
+	"about": {
+		"title": "Infurmaziòun",
+		"intro": "{project} l'è 'na piataforma ed nóva generaziòun per al scàmbi ed file peer-to-peer, basêda sòura tecnologia moderna decentralizêda. La cumbîna 'na interfaccia fàcil da druvàr cón 'na architetùra del tót decentralizêda, garantend 'n scàmbi ed file sicùr e fidê sèinza bisógn ed 'na autoritê centrêla. St'incàric l'è open source, publichê sòta {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rèida del tót decentralizêda",
+				"description": "Inciun servidòur central, inciun pónt ùnic ed falimèint. I utèint i trôven e scarighen al cuntegnù direttamèint dai àter, sèinza dipèinder da inciun indice central, motór ed ricèirca o database."
+			},
+			"accessControl": {
+				"title": "Cuntról fin ed l'acèss",
+				"description": "Chichesìa al pôl custruìr la sô rèida cón i sô règoi, a gratis. Dèinter ogni rèida, i röli di utèint i sun definî: padròun, aministratòur, editòur, moderatòur e seguidòur. Te g'hè al cuntról fin ed chi 'l pôl publicàr, moderàr e scarigàr al cuntegnù."
+			},
+			"ui": {
+				"title": "Interfaccia ed qualitê",
+				"description": "Interfaccia media center pulîda e svèlta, prugetêda per desktop, TV e piataforme mòbili. Navigaziòun fàcila cón tastêra, mouse, gamepad o telecomànd. I utèint espèrt i pôlen fâr girâr al prugrâma cumè server sèinza tèsta atravêrs l'interfaccia a rîga ed cumànd."
+			},
+			"dataFormat": {
+				"title": "Furmê di dêti legibil dai òmni",
+				"description": "Al furmê di dêti LISH l'è basê sòura JSON, ch'al fà fàcil da creàr, lèżer e capîr. Cundividi al tô cuntegnù cón metadati cêr e traspareint, che chichesìa al pôl verificàr."
+			},
+			"security": {
+				"title": "Privacy e sigurèza",
+				"description": "Tót i cumunicaziòun peer-to-peer i sun criptê, garantend che i tô dêti i restén privê durànt al transit. I utèint i pôlen scunders dré a 'na VPN per la masima anonimitê. {project} 'l rispèta la tô privacy per prugèt."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforma",
+				"description": "Al prugrâma l'è dispunibil per Windows, Linux e macOS. Druvel sòura la piataforma che te preferis."
+			}
+		}
+	},
+	"download": {
+		"title": "Scarigàr",
+		"description": "Ciapa {project} per la tô piataforma. Tót i scarigamèint i sun gratis e open source.",
+		"version": "Versiòun atuêla: {version}",
+		"linkAlt": "Scarigàr",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universêl (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalatòur {format}",
+			"package": "Pachèt {format}",
+			"portableZip": "ZIP purtàbil",
+			"viewOnGithub": "Guêrda sòura GitHub"
+		},
+		"macos": {
+			"title": "Avîs impurtànt per i utèint macOS:",
+			"intro": "macOS Gatekeeper al blôca i aplicaziòun mìa firmê/mìa notarizê scarigêdi da Internet cón un erór {error}.",
+			"error": "\"l'è ròta, an's pôl mìa avrîr\"",
+			"runCommand": "Dôp che t'è scarighê al DMG o al ZIP, prima d'avrîr l'aplicaziòun, fà girâr st'incàric in terminêl:",
+			"exampleDmg": "Per esèimpi, dôp l'instalaziòun da un DMG:",
+			"exampleZip": "Opùr dôp l'estraziòun ed un ZIP:",
+			"explanation": "Quèst al lèva l'atribùt ed quarantèina e 'l permèt a l'aplicaziòun ed girâr."
+		}
+	},
+	"screenshots": {
+		"title": "Schermê",
+		"open": "Avrîr la schermêda {index}",
+		"alt": "Schermêda {index}",
+		"close": "Saràr la galarìa",
+		"prev": "Schermêda precedèint",
+		"next": "Schermêda sucesîva"
+	},
+	"comparison": {
+		"title": "Cunfrónt",
+		"feature": "Funziòun",
+		"yes": "Sé",
+		"no": "No",
+		"partialDht": "Parziêl (DHT)",
+		"rows": {
+			"decentralized": "Rèida decentralizêda",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Ricèirca ed cuntegnù integrêda",
+			"decentralizedSearch": "Ricèirca ed cuntegnù decentralizêda",
+			"parallelDownloads": "Scarigamèint paralêl da fônt multipli",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Supôrt per gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cuntat",
+		"getInTouch": "Mèt-et in cuntat",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Anunci Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fat da"
+	}
+}

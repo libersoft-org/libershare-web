@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralize File Sharin",
+		"description": "{project} a wan peer-to-peer program fi share file dem, build pon modern decentralize technology.",
+		"ogTitle": "{project} - Decentralize File Sharin Program",
+		"ogDescription": "Peer-to-peer file sharin build pon modern decentralize technology. No central server. No single point a failure."
+	},
+	"menu": {
+		"about": "Bout",
+		"download": "Dunglod",
+		"screenshots": "Screenshot dem",
+		"comparison": "Compearison",
+		"contact": "Contact",
+		"toggle": "Open menu",
+		"close": "Lock menu",
+		"language": "Langwij",
+		"selectLanguage": "Pick langwij"
+	},
+	"hero": {
+		"subtitle": "Niex-generieshan peer-to-peer file sharin",
+		"description": "Build pon modern decentralize technology. No central server. No single point a failure.",
+		"download": "Dunglod"
+	},
+	"about": {
+		"title": "Bout",
+		"intro": "{project} a wan niex-generieshan platform fi peer-to-peer file sharin, build pon modern decentralize technology. It combine wan iizi-fi-yuuz interface wid wan whole-heap decentralize architecture, mek shuor file sharin sieful an reliable widoutn no need fi no central authority. Dis projek a open source, release anda di {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Whole-heap decentralize netwerk",
+				"description": "No central server, no single point a failure. Yuuza dem fain an dunglod content straait fram ada wan, widoutn dipen pon no central indeks, search engine, or database."
+			},
+			"accessControl": {
+				"title": "Faina aksess control",
+				"description": "Anybadi kyaan bil dem owna netwerk wid dem owna ruul, fi free. Insaida iich netwerk, yuuza rool dem definn: owna, administrator, ediita, moderator, an follower. Yuh hav faina control ova wuh kyaan publish, moderate, an dunglod content."
+			},
+			"ui": {
+				"title": "Hai-kuaaliti interface",
+				"description": "Wan klin an fiis media centa interface, dezain fi desktop, TV, an mobail platform dem. Iizi navigieshan wid kibood, mous, geempad, ar rimoot. Eksperinz yuuza kyaan ron di program lakka eddless server tru di kamand lain interface."
+			},
+			"dataFormat": {
+				"title": "Yuuman-riedibl daata format",
+				"description": "Di LISH daata format build pon JSON, mek it iizi fi miek, riid, an andastan. Shier yu content wid kliar an transparent metadata wuh anybadi kyaan verifai."
+			},
+			"security": {
+				"title": "Praivisi an sekyuriti",
+				"description": "Aal peer-to-peer komiunikieshan ina enkrip, mek shuor yu daata stie praivit ina transit. Yuuza kyaan haid biain wan VPN fi maks anonimiti. {project} rispek yu praivisi bai dezain."
+			},
+			"crossPlatform": {
+				"title": "Kraas-platform",
+				"description": "Di program avaalibl fi Windows, Linux, an macOS. Yuuz it pon wichevva platform yuh prifa."
+			}
+		}
+	},
+	"download": {
+		"title": "Dunglod",
+		"description": "Get {project} fi yu platform. Aal dunglod fi free an open source.",
+		"version": "Korent vorshan: {version}",
+		"linkAlt": "Dunglod",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installa",
+			"package": "{format} Pakij",
+			"portableZip": "Portibl ZIP",
+			"viewOnGithub": "Si it pon GitHub"
+		},
+		"macos": {
+			"title": "Important notis fi macOS yuuza:",
+			"intro": "macOS Gatekeeper a-go blok aplikieshan wuh no sain/no notarize wuh dunglod fram di Internet wid wan error {error}.",
+			"error": "\"brok, kyaan open\"",
+			"runCommand": "Aafta yuh dunglod di DMG ar ZIP, bifuor yuh open di aplikieshan, ron dis kamand ina di terminal:",
+			"exampleDmg": "Far egzampl, aafta yuh instaal fram wan DMG:",
+			"exampleZip": "Ar aafta yuh ekstrak wan ZIP:",
+			"explanation": "Dis a-go riimuuv di kuarantiin atribiut an mek di aplikieshan ron."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshot dem",
+		"open": "Open screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Lock galari",
+		"prev": "Previyos screenshot",
+		"next": "Niex screenshot"
+	},
+	"comparison": {
+		"title": "Compearison",
+		"feature": "Fiicha",
+		"yes": "Yes",
+		"no": "No",
+		"partialDht": "Paashal (DHT)",
+		"rows": {
+			"decentralized": "Decentralize netwerk",
+			"onlineLibrary": "Onlain laibri",
+			"builtInSearch": "Bilt-in content search",
+			"decentralizedSearch": "Decentralize content search",
+			"parallelDownloads": "Paraliel dunglod fram nof sors",
+			"mediaCenter": "Media centa interface",
+			"gamepad": "Geempad sopuot",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Get ina tuch",
+		"links": {
+			"telegramChat": "Telegram chat gruup",
+			"telegramAnnouncements": "Telegram anouncement",
+			"facebook": "Facebook gruup"
+		}
+	},
+	"footer": {
+		"by": "Mek bai"
+	}
+}

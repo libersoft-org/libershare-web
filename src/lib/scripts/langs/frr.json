@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Detsentraliseert Datei-deeln",
+		"description": "{project} as en peer-to-peer-programm för't deeln faan dateie, boud üüb modern detsentraliseert teknologii.",
+		"ogTitle": "{project} - Programm för detsentraliseert datei-deeln",
+		"ogDescription": "Peer-to-peer datei-deeln boud üüb modern detsentraliseert teknologii. Niinj sentraal server. Niinj enklet ütfaalpunkt."
+	},
+	"menu": {
+		"about": "Auer",
+		"download": "Deelääsen",
+		"screenshots": "Skerm-billen",
+		"comparison": "Fergelik",
+		"contact": "Kontakt",
+		"toggle": "Menu iipne",
+		"close": "Menu tuluke",
+		"language": "Spreek",
+		"selectLanguage": "Spreek ütwele"
+	},
+	"hero": {
+		"subtitle": "Naist generaatsjuun peer-to-peer datei-deeln",
+		"description": "Boud üüb modern detsentraliseert teknologii. Niinj sentraal server. Niinj enklet ütfaalpunkt.",
+		"download": "Deelääsen"
+	},
+	"about": {
+		"title": "Auer",
+		"intro": "{project} as en plattfoorm faan'er naist generaatsjuun för peer-to-peer datei-deeln, boud üüb modern detsentraliseert teknologii. Hat ferbant en lacht to bruken berööringsiir mä en ful detsentraliseert arkitektüür, sai en sicher en tüstellig datei-deeln tu, üüne uun en sentraal autoriteet bedöörft. Diling projekt as iipens kööd, ütliisd unner di {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ful detsentraliseert nätwerk",
+				"description": "Niinj sentraal server, niinj enklet ütfaalpunkt. Bruker fan en lääse iinhult diirekt faan üüdern, üüne up en sentraal indeks, suuksmaskiin of databoankel tu bestou."
+			},
+			"accessControl": {
+				"title": "Fiin tugang-kontrool",
+				"description": "Hük en kön sin äin nätwerk mä sin äin regle bua, ütan jüld. Iin elk nätwerk san di brukerrolle bestäämd: ääger, administrator, redakteur, moderator en följer. Dü häs fiin kontrool auer wat publisiir, moderiir en iinhult deelääse kön."
+			},
+			"ui": {
+				"title": "Huug-kwaliteet berööringsiir",
+				"description": "En klaar en sneel media center berööringsiir, üntwerd för'er skriiwdesk, fernsiir en mobiil plattformen. Lacht navigeere mä toetenboord, müs, spölgreaper of fernbedining. Erfaaren bruker köne't programm as en hoodlees server unner di komandoliin berööringsiir lupe."
+			},
+			"dataFormat": {
+				"title": "Faan minsken iisbar dataformat",
+				"description": "Det LISH dataformat as boud üüb JSON, wat hat lacht maaget för üügemaaging, iisen en ferstööning. Deel din iinhult mä klaar en kloar metadata, wat hük en kön kontrolere."
+			},
+			"security": {
+				"title": "Privatheit en sicherheit",
+				"description": "Aal peer-to-peer komunikaatsjuune san enkripteerd, sai dat din data privaat bleewt unner'er auerdrau. Bruker köne sak ofter en VPN ferstoppe för mar anonimiteet. {project} respekteerd din privatheit dörch üntwerp."
+			},
+			"crossPlatform": {
+				"title": "Föl-plattformig",
+				"description": "Det programm as ferföögbar för Windows, Linux en macOS. Brük't üüb diling plattform, wat dü leewer mei."
+			}
+		}
+	},
+	"download": {
+		"title": "Deelääsen",
+		"description": "Krek {project} för din plattfoorm. Aal deelääsings san ütan jüld en iipens kööd.",
+		"version": "Aktuel ferskuun: {version}",
+		"linkAlt": "Deelääsen",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Üüniwersaal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installeerwerktig",
+			"package": "{format} paket",
+			"portableZip": "Dragbar ZIP",
+			"viewOnGithub": "Üüb GitHub luki"
+		},
+		"macos": {
+			"title": "Wachtig nüügrik för macOS bruker:",
+			"intro": "macOS Gatekeeper bluuk niin underskreed/niin notariseerd anwendinge, wat faan't internet deelelääsd san, mä di feel {error}.",
+			"error": "\"as kaput, kön nian iipnet wurd\"",
+			"runCommand": "Edder dü't DMG of ZIP deelääsd häs, för'r dü di anwending iipnest, lup diling komando uun di terminaal:",
+			"exampleDmg": "As biispül, edder'r installeering faan en DMG:",
+			"exampleZip": "Of edder't ütpaken faan en ZIP:",
+			"explanation": "Dit nemt di karantään-attribuut wäch en let di anwending lupe."
+		}
+	},
+	"screenshots": {
+		"title": "Skerm-billen",
+		"open": "Skerm-bild {index} iipne",
+		"alt": "Skerm-bild {index}",
+		"close": "Galerii tuluke",
+		"prev": "Forig skerm-bild",
+		"next": "Naist skerm-bild"
+	},
+	"comparison": {
+		"title": "Fergelik",
+		"feature": "Funktsjuun",
+		"yes": "Ja",
+		"no": "Niinj",
+		"partialDht": "Deelwiis (DHT)",
+		"rows": {
+			"decentralized": "Detsentraliseert nätwerk",
+			"onlineLibrary": "Online biblioteek",
+			"builtInSearch": "Iinboud iinhult-suuken",
+			"decentralizedSearch": "Detsentraliseert iinhult-suuken",
+			"parallelDownloads": "Paralel deelääsings faan föl kweelen",
+			"mediaCenter": "Media center berööringsiir",
+			"gamepad": "Spölgreaper-stützing",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Iin kontakt küme",
+		"links": {
+			"telegramChat": "Telegram chat-grup",
+			"telegramAnnouncements": "Telegram unkündigingen",
+			"facebook": "Facebook grup"
+		}
+	},
+	"footer": {
+		"by": "Maaget faan"
+	}
+}

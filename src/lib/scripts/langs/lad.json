@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kompartisyón de Archivos Desentralizada",
+		"description": "{project} es un programa de igual-a-igual para kompartir archivos, fragwado sovre teknolojiya moderna desentralizada.",
+		"ogTitle": "{project} - Programa de kompartisyón de archivos desentralizada",
+		"ogDescription": "Kompartisyón de archivos de igual-a-igual fragwada sovre teknolojiya moderna desentralizada. No ay servidor sentral. No ay un solo punto de falta."
+	},
+	"menu": {
+		"about": "Sovre mozotros",
+		"download": "Abashar",
+		"screenshots": "Imajes de pantalya",
+		"comparison": "Komparasyón",
+		"contact": "Kontakto",
+		"toggle": "Avrir el menú",
+		"close": "Serrar el menú",
+		"language": "Lingua",
+		"selectLanguage": "Eskojer lingua"
+	},
+	"hero": {
+		"subtitle": "Mueva jenerasyón de kompartisyón de archivos de igual-a-igual",
+		"description": "Fragwada sovre teknolojiya moderna desentralizada. No ay servidor sentral. No ay un solo punto de falta.",
+		"download": "Abashar"
+	},
+	"about": {
+		"title": "Sovre mozotros",
+		"intro": "{project} es una platforma de mueva jenerasyón para la kompartisyón de archivos de igual-a-igual, fragwada sovre teknolojiya moderna desentralizada. Aunifika una interfaz lijera kon una arkitektura kompletamente desentralizada, asegurando una kompartisyón de archivos sigura i konfivle sin la nesesidad de una otoridad sentral. Este proyekto es open source, publikado debasho de la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Red kompletamente desentralizada",
+				"description": "No ay servidor sentral, no ay un solo punto de falta. Los uzadores topan i abashan kontenido direktamente de otros, sin depender de un índiche sentral, motor de bushkita o baza de datos."
+			},
+			"accessControl": {
+				"title": "Kontrol fino de aksesso",
+				"description": "Kada uno puede konstruir su propia red kon sus propias reglas, sin pagar nada. Adientro de kada red, los roles de uzador son definidos: proprietario, administrator, redaktor, moderador i seguidor. Tienes kontrol fino sovre kien puede publikar, moderar i abashar kontenido."
+			},
+			"ui": {
+				"title": "Interfaz de alta kalidad",
+				"description": "Una interfaz limpia i rápida de sentro de medios, dezenyada para komputadora, televizyón i platformas móviles. Navegasyón fásil kon teklado, ratón, gamepad o telekomando. Uzadores eksperimentados pueden korrer el programa komo servidor sin kavesa por la interfaz de línea de komandos."
+			},
+			"dataFormat": {
+				"title": "Formato de datos lejible por umanos",
+				"description": "El formato de datos LISH está fragwado sovre JSON, lo ke lo aze fásil de krear, leer i entender. Komparte tu kontenido kon metadatos klaros i transparentes, ke kada uno puede verifikar."
+			},
+			"security": {
+				"title": "Privasidad i seguridad",
+				"description": "Todas las komunikasyones de igual-a-igual son enkriptadas, asegurando ke tus datos keden privados durante la transmisyón. Los uzadores pueden askonderse detrás de un VPN para más anonimato. {project} respekta tu privasidad por dezenyo."
+			},
+			"crossPlatform": {
+				"title": "Multi-platforma",
+				"description": "El programa está disponivle para Windows, Linux i macOS. Úzalo en la platforma ke prefieres."
+			}
+		}
+	},
+	"download": {
+		"title": "Abashar",
+		"description": "Toma {project} para tu platforma. Todas las abashadas son sin pagar i open source.",
+		"version": "Versyón aktual: {version}",
+		"linkAlt": "Abashar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Paketo {format}",
+			"portableZip": "ZIP portativo",
+			"viewOnGithub": "Ver en GitHub"
+		},
+		"macos": {
+			"title": "Nota importante para uzadores de macOS:",
+			"intro": "macOS Gatekeeper bloquea las aplikasyones sin firma/sin notarizar abashadas de la internet, kon un yerro {error}.",
+			"error": "\"está rota, no se puede avrir\"",
+			"runCommand": "Después ke ayas abashado el DMG o ZIP, antes de avrir la aplikasyón, korre este komando en el terminal:",
+			"exampleDmg": "Por egzemplo, después de la instalasyón de un DMG:",
+			"exampleZip": "O después de dezempaketar un ZIP:",
+			"explanation": "Esto kita el atributo de quarantine i deja la aplikasyón korrer."
+		}
+	},
+	"screenshots": {
+		"title": "Imajes de pantalya",
+		"open": "Avrir imaje de pantalya {index}",
+		"alt": "Imaje de pantalya {index}",
+		"close": "Serrar galeriya",
+		"prev": "Imaje de pantalya anterior",
+		"next": "Próksima imaje de pantalya"
+	},
+	"comparison": {
+		"title": "Komparasyón",
+		"feature": "Karakterístika",
+		"yes": "Sí",
+		"no": "No",
+		"partialDht": "Parsial (DHT)",
+		"rows": {
+			"decentralized": "Red desentralizada",
+			"onlineLibrary": "Biblioteka en línea",
+			"builtInSearch": "Bushkita de kontenido inkorporada",
+			"decentralizedSearch": "Bushkita de kontenido desentralizada",
+			"parallelDownloads": "Abashadas paralelas de munchas fuentes",
+			"mediaCenter": "Interfaz de sentro de medios",
+			"gamepad": "Soporte para gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakto",
+		"getInTouch": "Toma kontakto",
+		"links": {
+			"telegramChat": "Grupo de chat Telegram",
+			"telegramAnnouncements": "Anunsios Telegram",
+			"facebook": "Grupo de Facebook"
+		}
+	},
+	"footer": {
+		"by": "Echo por"
+	}
+}

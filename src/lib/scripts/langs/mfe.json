@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partaz fisye desantralize",
+		"description": "{project} se enn program peer-to-peer pou partaze fisye, baze lor teknolozi modern desantralize.",
+		"ogTitle": "{project} - Program pou partaz fisye desantralize",
+		"ogDescription": "Partaz fisye peer-to-peer baze lor teknolozi modern desantralize. Pena okenn server santral. Pena okenn sel pwen failure."
+	},
+	"menu": {
+		"about": "Lor",
+		"download": "Telesarze",
+		"screenshots": "Kapir lekran",
+		"comparison": "Konparezon",
+		"contact": "Kontak",
+		"toggle": "Ouver meni",
+		"close": "Ferm meni",
+		"language": "Lang",
+		"selectLanguage": "Swazi lang"
+	},
+	"hero": {
+		"subtitle": "Partaz fisye peer-to-peer prosenn zenerasyon",
+		"description": "Baze lor teknolozi modern desantralize. Pena okenn server santral. Pena okenn sel pwen failure.",
+		"download": "Telesarze"
+	},
+	"about": {
+		"title": "Lor",
+		"intro": "{project} se enn platform prosenn zenerasyon pou partaz fisye peer-to-peer, baze lor teknolozi modern desantralize. Li konbinn enn entrfas fasil pou servi avek enn larsitektir konpletman desantralize, garanti enn partaz fisye sekirize ek fyab san bizin enn lotorite santral. Sa proze la se open source, larg anba {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rezo konpletman desantralize",
+				"description": "Pena okenn server santral, pena okenn sel pwen failure. Bann itilizater trouv ek telesarz konteni direkteman ar lezot, san depan lor okenn lindeks santral, motor resers ouswa baz done."
+			},
+			"accessControl": {
+				"title": "Kontrol fin lor lakse",
+				"description": "Ninport ki kapav konstri so prop rezo avek so prop bann regleman, gratis. Dan sak rezo, bann rol itilizater inn defini: proprieter, administrater, editer, moderater, ek swiver. Ou ena enn kontrol fin lor kisannla kapav pibliye, modere, ek telesarz konteni."
+			},
+			"ui": {
+				"title": "Entrfas o kalite",
+				"description": "Enn entrfas media center prop ek rapid, dizay pou desktop, TV, ek bann platform mobil. Navigasyon fasil avek klavye, lasouri, gamepad, ouswa telekomann. Bann itilizater eksperimante kapav fer program la roule kouma server san latet atraver lentrfas linn komand."
+			},
+			"dataFormat": {
+				"title": "Format done lizib pou imen",
+				"description": "Format done LISH baze lor JSON, ki rann li fasil pou kreye, lir, ek konpran. Partaz ou konteni avek metadata kler ek transparan, ki ninport ki kapav verifie."
+			},
+			"security": {
+				"title": "Lavi prive ek sekirite",
+				"description": "Tou bann kominikasyon peer-to-peer inn kripte, garanti ki ou done res prive dan transi. Bann itilizater kapav kasyet deryer enn VPN pou plis lanonima. {project} respekte ou lavi prive par dizay."
+			},
+			"crossPlatform": {
+				"title": "Miltiplatform",
+				"description": "Program la disponib pou Windows, Linux, ek macOS. Servi li lor platform ki ou prefere."
+			}
+		}
+	},
+	"download": {
+		"title": "Telesarze",
+		"description": "Pran {project} pou ou platform. Tou telesarzman gratis ek open source.",
+		"version": "Versyon aktyel: {version}",
+		"linkAlt": "Telesarze",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Iniversel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instaler {format}",
+			"package": "Pake {format}",
+			"portableZip": "ZIP portab",
+			"viewOnGithub": "Get lor GitHub"
+		},
+		"macos": {
+			"title": "Avi inportan pou bann itilizater macOS:",
+			"intro": "macOS Gatekeeper pou blok bann aplikasyon ki pa siyne/pa notarize ki finn telesarze depi Internet avek enn erer {error}.",
+			"error": "\"li kase, pa kapav ouver\"",
+			"runCommand": "Apre ou finn telesarz DMG ouswa ZIP, avan ou ouver aplikasyon la, fer roule sa komand la dan terminal:",
+			"exampleDmg": "Par egzanp, apre instalasyon depi enn DMG:",
+			"exampleZip": "Ouswa apre ekstraksyon enn ZIP:",
+			"explanation": "Sa pou tir latribi karantenn ek pou les aplikasyon roule."
+		}
+	},
+	"screenshots": {
+		"title": "Kapir lekran",
+		"open": "Ouver kapir lekran {index}",
+		"alt": "Kapir lekran {index}",
+		"close": "Ferm galri",
+		"prev": "Kapir lekran avan",
+		"next": "Kapir lekran apre"
+	},
+	"comparison": {
+		"title": "Konparezon",
+		"feature": "Fonksyon",
+		"yes": "Wi",
+		"no": "Non",
+		"partialDht": "Parsyel (DHT)",
+		"rows": {
+			"decentralized": "Rezo desantralize",
+			"onlineLibrary": "Bibliotek lor net",
+			"builtInSearch": "Resers konteni entegre",
+			"decentralizedSearch": "Resers konteni desantralize",
+			"parallelDownloads": "Telesarzman paralel depi plizyer sours",
+			"mediaCenter": "Entrfas media center",
+			"gamepad": "Sipor gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Pran kontak",
+		"links": {
+			"telegramChat": "Group chat Telegram",
+			"telegramAnnouncements": "Anons Telegram",
+			"facebook": "Group Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fer par"
+	}
+}

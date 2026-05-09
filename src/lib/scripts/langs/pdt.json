@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentralisīerde Datei-Deelung",
+		"description": "{project} es een peer-to-peer Programm tom Dateien deelen, jebuet op moderne dezentralisīerde Technoloji.",
+		"ogTitle": "{project} - Dezentralisīerd Programm tom Dateien deelen",
+		"ogDescription": "Peer-to-peer Datei-Deelung jebuet op moderne dezentralisīerde Technoloji. Keen zentrala Server. Keen eenzlich Punkt von Versag."
+	},
+	"menu": {
+		"about": "Over",
+		"download": "Daunloaden",
+		"screenshots": "Bilda vom Schirm",
+		"comparison": "Vegliek",
+		"contact": "Kontakt",
+		"toggle": "Mediu opmoaken",
+		"close": "Mediu tuumoaken",
+		"language": "Sproak",
+		"selectLanguage": "Sproak ütsieken"
+	},
+	"hero": {
+		"subtitle": "Niee Generation peer-to-peer Datei-Deelung",
+		"description": "Jebuet op moderne dezentralisīerde Technoloji. Keen zentrala Server. Keen eenzlich Punkt von Versag.",
+		"download": "Daunloaden"
+	},
+	"about": {
+		"title": "Over",
+		"intro": "{project} es eene Plattform vonne nieee Generation tom peer-to-peer Dateien deelen, jebuet op moderne dezentralisīerde Technoloji. Daut kombinīert eene leichte Schnittstal met eene voll dezentralisīerde Architekturj, woat seekjert ne sichre un tovelät:lige Datei-Deelung sondre een tsentrole Macht. Dit Projekt es Open Source, ütfjefrieelt unna {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Voll dezentralisīerd Netwerk",
+				"description": "Keen zentrala Server, keen eenzlich Punkt von Versag. De Brükja finden un daunloaden den Inhauld direkt von däen aundren, sondre op een tsentrole Index, Sēikmaschīen oda Datenbasis to vetlaten."
+			},
+			"accessControl": {
+				"title": "Fienj Tojang-Kontroll",
+				"description": "Aulaman kann sien eejen Netwerk met sien eejene Riejlen oafbujen, sondre Tjeld. Bennen jiedes Netwerk woaren Brükja-Rollen jedefinīert: Bezeta, Vewaulta, Editor, Moderator un Naufolja. Dü hast fienje Kontroll äwa wäa kann publitsīeren, moderīeren un Inhauld daunloaden."
+			},
+			"ui": {
+				"title": "Hooch-Quoalitīet Schnittstal",
+				"description": "Eene reine un schnaule Media Center Schnittstal, jeworpfen fa Schriewdesch, Telewīesa un mobile Plattformen. Leichtet Navigīeren met Tasten, Müs, Spelpaud oda Feabedienung. Erfoarne Brükja kunnen daut Programm aus koplosa Server lopen lauten, derch de Befälzeil-Schnittstal."
+			},
+			"dataFormat": {
+				"title": "Mensch-leesboares Datenformat",
+				"description": "Daut LISH Datenformat es jebuet op JSON, daut moakt am leicht to maken, lesen un vestoanen. Deel dien Inhauld met kloare un sichtboare Metadaten, woat aulaman kann nokjikjen."
+			},
+			"security": {
+				"title": "Privootheit un Sichaheit",
+				"description": "Aule peer-to-peer Komunikation es jeschilt, woat seekjert dien Daten bliewen privoot om Onnaweges. De Brükja kunnen sich henja een VPN vesteajken fa mea Anonymitīet. {project} respektīert diene Privootheit derch Worpfen."
+			},
+			"crossPlatform": {
+				"title": "Vea Plattformen",
+				"description": "Daut Programm es to bekomen fa Windows, Linux un macOS. Brük am op de Plattform, woat dü leewa hast."
+			}
+		}
+	},
+	"download": {
+		"title": "Daunloaden",
+		"description": "Krieg {project} fa diene Plattform. Aule Daunloads sent sondre Tjeld un Open Source.",
+		"version": "Aufnerlije Vesion: {version}",
+		"linkAlt": "Daunloaden",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Aulhoom (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installīerwoatj",
+			"package": "{format} Pakjet",
+			"portableZip": "Drachboar ZIP",
+			"viewOnGithub": "Op GitHub kjikjen"
+		},
+		"macos": {
+			"title": "Wijte Notiez fa de macOS Brükja:",
+			"intro": "macOS Gatekeeper sper-rt onneunderschreewne/onnenotarisīerde Anwendungen, woat oet daut Internet daunjeloaden sent, met dem Fäla {error}.",
+			"error": "\"es kapot, kann nich opjemoakt waren\"",
+			"runCommand": "Norm dü daut DMG oda ZIP daunjeloaden hast, ea daut Anwenden opjemoakt woat, lop dißen Befäl em Terminal:",
+			"exampleDmg": "Tom Bischpäl, norm aune Installation oet eenem DMG:",
+			"exampleZip": "Oda norm dem ütschpaken vonn ZIP:",
+			"explanation": "Dit nemt daut Karantäne-Attribut wajch un lat de Anwendung lopen."
+		}
+	},
+	"screenshots": {
+		"title": "Bilda vom Schirm",
+		"open": "Schirmbild {index} opmoaken",
+		"alt": "Schirmbild {index}",
+		"close": "Galleri tuumoaken",
+		"prev": "Ferja Schirmbild",
+		"next": "Nächst Schirmbild"
+	},
+	"comparison": {
+		"title": "Vegliek",
+		"feature": "Funktion",
+		"yes": "Joa",
+		"no": "Nee",
+		"partialDht": "Diels (DHT)",
+		"rows": {
+			"decentralized": "Dezentralisīerd Netwerk",
+			"onlineLibrary": "Online Bibliotek",
+			"builtInSearch": "Enbujd Inhauldssēikung",
+			"decentralizedSearch": "Dezentralisīerde Inhauldssēikung",
+			"parallelDownloads": "Parolale Daunloads von veelen Quellen",
+			"mediaCenter": "Media Center Schnittstal",
+			"gamepad": "Spelpaud Steanj",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Em Kontakt komen",
+		"links": {
+			"telegramChat": "Telegram Chat-Grupp",
+			"telegramAnnouncements": "Telegram Bekanntmoakungen",
+			"facebook": "Facebook Grupp"
+		}
+	},
+	"footer": {
+		"by": "Jemoakt von"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cunnessione decentralizzata 'e file",
+		"description": "{project} è nu programma peer-to-peer p'ô scambio 'e file, basato ncopp'â tecnologgia mudèrna decentralizzata.",
+		"ogTitle": "{project} - Programma 'e cunnessione decentralizzata 'e file",
+		"ogDescription": "Scambio 'e file peer-to-peer basato ncopp'â tecnologgia mudèrna decentralizzata. Nisciuno servere centrale. Nisciuno punto unico 'e fallimento."
+	},
+	"menu": {
+		"about": "Nfurmazzione",
+		"download": "Scarrecá",
+		"screenshots": "Schermate",
+		"comparison": "Cunfronto",
+		"contact": "Cuntatto",
+		"toggle": "Apre 'o menù",
+		"close": "Chiure 'o menù",
+		"language": "Lengua",
+		"selectLanguage": "Scegli 'a lengua"
+	},
+	"hero": {
+		"subtitle": "Scambio 'e file peer-to-peer 'e nova generazzione",
+		"description": "Basato ncopp'â tecnologgia mudèrna decentralizzata. Nisciuno servere centrale. Nisciuno punto unico 'e fallimento.",
+		"download": "Scarrecá"
+	},
+	"about": {
+		"title": "Nfurmazzione",
+		"intro": "{project} è na piattaforma 'e nova generazzione p'ô scambio 'e file peer-to-peer, basata ncopp'â tecnologgia mudèrna decentralizzata. Mette nzieme n'interfaccia facile c' n'architettura cumpletamente decentralizzata, garantenno nu scambio 'e file sicuro e affidabbele senza bisogno 'e n'autorità centrale. Stu pruggetto è open source, pubbricato sott' 'a {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete cumpletamente decentralizzata",
+				"description": "Nisciuno servere centrale, nisciuno punto unico 'e fallimento. 'E utenti truvano e scarricano cuntenuto direttamente da ll'ate, senza dipenne 'a nisciuno indice centrale, motore 'e ricerca o database."
+			},
+			"accessControl": {
+				"title": "Cuntrollo 'e l'accesso a fino",
+				"description": "Chiunque pò custruì 'a propia rete cu 'e propie reole, gratis. Dint'a ogne rete, 'e ruoli 'e ll'utenti so' definuti: prupietario, ammenistratore, editore, mudderatore e seguace. Tiene 'o cuntrollo a fino 'e chi pò pubbricá, mudderá e scarrecá cuntenuto."
+			},
+			"ui": {
+				"title": "Interfaccia 'e qualità",
+				"description": "Interfaccia media center pulita e veloce, prugettata pe desktop, TV e piattaforme mobbile. Navegazzione facile cu tastera, mouse, gamepad o telecumanno. ll'utenti esperti ponno fá girá 'o programma comm'a server senza testa attraverso l'interfaccia 'a riga 'e cumanno."
+			},
+			"dataFormat": {
+				"title": "Furmato dati leggibile a ll'omme",
+				"description": "'O furmato dati LISH è basato ncopp'a JSON, ca 'o fa facile 'a creá, lèggere e capì. Cunnetta 'o cuntenuto cu metadati chiare e trasparente, ca chiunque pò verificá."
+			},
+			"security": {
+				"title": "Privatezza e sicurezza",
+				"description": "Tutte 'e cumunicazione peer-to-peer so' criptate, assicuranno ca 'e dati toje rèstano privati durante 'a trasmissione. ll'utenti ponno annascunnerse arrèto 'e na VPN p'a massima anonimità. {project} rispetta 'a privatezza toja pe prugètto."
+			},
+			"crossPlatform": {
+				"title": "Multipiattaforma",
+				"description": "'O programma è dispunibile pe Windows, Linux e macOS. Aduprale ncopp'â piattaforma ca prefierese."
+			}
+		}
+	},
+	"download": {
+		"title": "Scarrecá",
+		"description": "Piglia {project} p'â piattaforma toja. Tutte 'e scarricamiente so' gratis e open source.",
+		"version": "Versione attuale: {version}",
+		"linkAlt": "Scarrecá",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universale (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installatore {format}",
+			"package": "Pacchetto {format}",
+			"portableZip": "ZIP purtabbile",
+			"viewOnGithub": "Vide ncopp'a GitHub"
+		},
+		"macos": {
+			"title": "Avviso mpurtante p' ll'utenti macOS:",
+			"intro": "macOS Gatekeeper bblocca ll'applicazione nun firmate/nun nutarizzate scarrecate 'a Internet cu n'errore {error}.",
+			"error": "\"è ròtta, nun pò essere aperta\"",
+			"runCommand": "Doppo c'haje scarrecato 'o DMG o 'o ZIP, primma 'e aprì l'applicazione, fa girá stu cumanno int'ô terminale:",
+			"exampleDmg": "Pe esempio, doppo l'installazzione 'a nu DMG:",
+			"exampleZip": "Oppure doppo l'estrazzione 'e nu ZIP:",
+			"explanation": "Chesto leva l'attributo 'e quarantena e permette a l'applicazione 'e girá."
+		}
+	},
+	"screenshots": {
+		"title": "Schermate",
+		"open": "Apre 'a schermata {index}",
+		"alt": "Schermata {index}",
+		"close": "Chiure 'a galleria",
+		"prev": "Schermata precedente",
+		"next": "Schermata successiva"
+	},
+	"comparison": {
+		"title": "Cunfronto",
+		"feature": "Funziunalità",
+		"yes": "Sì",
+		"no": "No",
+		"partialDht": "Parziale (DHT)",
+		"rows": {
+			"decentralized": "Rete decentralizzata",
+			"onlineLibrary": "Bibblioteca online",
+			"builtInSearch": "Ricerca 'e cuntenuto integrata",
+			"decentralizedSearch": "Ricerca 'e cuntenuto decentralizzata",
+			"parallelDownloads": "Scarricamiente parallele 'a fonti multiple",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Suppurto p'ô gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cuntatto",
+		"getInTouch": "Mèttete n cuntatto",
+		"links": {
+			"telegramChat": "Gruppo chat Telegram",
+			"telegramAnnouncements": "Annunci Telegram",
+			"facebook": "Gruppo Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fatto 'a"
+	}
+}

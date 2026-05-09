@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Condivisiun decentralizada di file",
+		"description": "{project} l'è un program peer-to-peer per el scambi di file, basà sora tecnologia moderna decentralizada.",
+		"ogTitle": "{project} - Program de condivisiun decentralizada di file",
+		"ogDescription": "Scambi di file peer-to-peer basà sora tecnologia moderna decentralizada. Nessun servidor central. Nessun punt unic de fallimentu."
+	},
+	"menu": {
+		"about": "Informaziun",
+		"download": "Scarigà",
+		"screenshots": "Schermade",
+		"comparison": "Confront",
+		"contact": "Contatt",
+		"toggle": "Vèrt el menu",
+		"close": "Sarà el menu",
+		"language": "Lengua",
+		"selectLanguage": "Cèrn la lengua"
+	},
+	"hero": {
+		"subtitle": "Scambi di file peer-to-peer de növa generaziun",
+		"description": "Basà sora tecnologia moderna decentralizada. Nessun servidor central. Nessun punt unic de fallimentu.",
+		"download": "Scarigà"
+	},
+	"about": {
+		"title": "Informaziun",
+		"intro": "{project} l'è 'na piataforma de növa generaziun per el scambi di file peer-to-peer, basada sora tecnologia moderna decentralizada. La combina 'na interfaccia facila de doperà cunt 'na architetüra del tüt decentralizada, garantend 'n scambi di file segür e fidà senza bisogn de 'na autorità central. Quest progett l'è open source, publicà sota {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rede del tüt decentralizada",
+				"description": "Nessun servidor central, nessun punt unic de fallimentu. I üser i tröven e scarighen el contenüt direttament dai alter, senza dipend da nessun indice central, motor de ricerca o database."
+			},
+			"accessControl": {
+				"title": "Cuntroll fin de l'acess",
+				"description": "Chiünche el pò costrüì la sua rede cunt i sò regui, a gratis. Denter ogni rede, i röli di üser i sun definì: padrun, aministrador, editor, moderador e seguidor. Tì te g'hé el cuntroll fin de chi 'l pò publicà, moderà e scarigà el contenüt."
+			},
+			"ui": {
+				"title": "Interfaccia de qualità",
+				"description": "Interfaccia media center neta e svelta, progettada per desktop, TV e piataforme mobili. Navigaziun facila cunt tastera, mouse, gamepad o telecomand. I üser espert i pòden fà girà el program come server senza testa atravers l'interfaccia a riga de comand."
+			},
+			"dataFormat": {
+				"title": "Formà di dati legibil dai omen",
+				"description": "El formà di dati LISH l'è basà sora JSON, ch'el lu fa facil de creà, lèg e capì. Condividi el tò contenüt cunt metadati ciar e trasparent, che chiünche pò verificà."
+			},
+			"security": {
+				"title": "Privacy e securetà",
+				"description": "Tüti i comunicaziun peer-to-peer i sun criptade, garantend che i tò dati i resten privà durant el transit. I üser i pòden sconds dré 'na VPN per la massima anonimità. {project} 'l rispèta la tua privacy per progett."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforma",
+				"description": "El program l'è disponibil per Windows, Linux e macOS. Doperal sora la piataforma che te preferissi."
+			}
+		}
+	},
+	"download": {
+		"title": "Scarigà",
+		"description": "Ciapa {project} per la tua piataforma. Tüti i scaricament i sun a gratis e open source.",
+		"version": "Versiun atuala: {version}",
+		"linkAlt": "Scarigà",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalador {format}",
+			"package": "Pachet {format}",
+			"portableZip": "ZIP portabil",
+			"viewOnGithub": "Varda sora GitHub"
+		},
+		"macos": {
+			"title": "Avis important per i üser macOS:",
+			"intro": "macOS Gatekeeper el blocà i aplicaziun mia firmade/mia notarizade scarigade da Internet cunt un eror {error}.",
+			"error": "\"l'è rota, se pò mia vèrt\"",
+			"runCommand": "Dop che te g'hé scarigà el DMG o el ZIP, prima de vèrt l'aplicaziun, fa girà quest comand in terminal:",
+			"exampleDmg": "Per esempi, dop l'instalaziun da un DMG:",
+			"exampleZip": "O ben dop l'estraziun de un ZIP:",
+			"explanation": "Quest el leva l'atribut de quarantena e 'l permett a l'aplicaziun de girà."
+		}
+	},
+	"screenshots": {
+		"title": "Schermade",
+		"open": "Vèrt la schermada {index}",
+		"alt": "Schermada {index}",
+		"close": "Sarà la galleria",
+		"prev": "Schermada precedent",
+		"next": "Schermada successiva"
+	},
+	"comparison": {
+		"title": "Confront",
+		"feature": "Funziun",
+		"yes": "Sì",
+		"no": "No",
+		"partialDht": "Parzial (DHT)",
+		"rows": {
+			"decentralized": "Rede decentralizada",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Ricerca de contenüt integrada",
+			"decentralizedSearch": "Ricerca de contenüt decentralizada",
+			"parallelDownloads": "Scaricament paraleli da font multipli",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Suport per gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contatt",
+		"getInTouch": "Mèttet in contatt",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Anunci Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fai da"
+	}
+}

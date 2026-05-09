@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Condivixón descentralizâ de file",
+		"description": "{project} o l'é un programma peer-to-peer pe-o scangio de file, basòu sciâ tecnologia moderna descentralizâ.",
+		"ogTitle": "{project} - Programma de condivixón descentralizâ de file",
+		"ogDescription": "Scangio de file peer-to-peer basòu sciâ tecnologia moderna descentralizâ. Nisciun servior centrale. Nisciun ponto unico de fallimento."
+	},
+	"menu": {
+		"about": "Informaçión",
+		"download": "Descaregâ",
+		"screenshots": "Schermæ",
+		"comparison": "Confronto",
+		"contact": "Contatto",
+		"toggle": "Arvî o menù",
+		"close": "Særâ o menù",
+		"language": "Lengua",
+		"selectLanguage": "Çerne a lengua"
+	},
+	"hero": {
+		"subtitle": "Scangio de file peer-to-peer de neuva generaçión",
+		"description": "Basòu sciâ tecnologia moderna descentralizâ. Nisciun servior centrale. Nisciun ponto unico de fallimento.",
+		"download": "Descaregâ"
+	},
+	"about": {
+		"title": "Informaçión",
+		"intro": "{project} o l'é unna piattaforma de neuva generaçión pe-o scangio de file peer-to-peer, basâ sciâ tecnologia moderna descentralizâ. O combina un'interfaccia faççile da adoeuvâ con un'architettua do tutto descentralizâ, garantindo un scangio de file seguo e fidòu sensa de bezeugno de un'autoritæ centrale. Sto progetto o l'é open source, pubricòu sotta {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ræ do tutto descentralizâ",
+				"description": "Nisciun servior centrale, nisciun ponto unico de fallimento. I utenti treuvan e descareghan contegnüo direttamente da-i atri, sensa dipende da nisciun indice centrale, motô de riçerca o database."
+			},
+			"accessControl": {
+				"title": "Contròllo fin de l'acesso",
+				"description": "Chi vœ o pœu costruî a sò ræ co-e sò regole, a gratis. Drento ogni ræ, i röli di utenti son definî: poæn, ammenistratô, editô, moderatô e seguitò. Ti t'æ o contròllo fin de chi o pœu pubricâ, moderâ e descaregâ contegnüo."
+			},
+			"ui": {
+				"title": "Interfaccia de quaitæ",
+				"description": "Interfaccia media center pulia e lesta, progettâ pe desktop, TV e piattaforme mobili. Navigaçión faççile con tastea, mouse, gamepad ò telecomando. I utenti esperti pœuan fâ giâ o programma comme server sensa testa attraverso l'interfaccia a riga de comando."
+			},
+			"dataFormat": {
+				"title": "Formato dæti leggibile da-i òmmi",
+				"description": "O formato dæti LISH o l'é basòu sciô JSON, ch'o l'à fa faççile da creâ, lêze e capî. Condividdi o tò contegnüo con metadæti ciæi e trasparenti, che chi vœ o pœu verificâ."
+			},
+			"security": {
+				"title": "Privacy e seguessa",
+				"description": "Tütte e comunicaçioin peer-to-peer son criptæ, garantindo che i tò dæti restan privati duante o transito. I utenti pœuan ascondise derê a unna VPN pe a massima anonimitæ. {project} o respetta a tò privacy pe progetto."
+			},
+			"crossPlatform": {
+				"title": "Multipiattaforma",
+				"description": "O programma o l'é disponibile pe Windows, Linux e macOS. Adeuvilo sciâ piattaforma ch'a t'agradda de ciû."
+			}
+		}
+	},
+	"download": {
+		"title": "Descaregâ",
+		"description": "Piggia {project} pe a tò piattaforma. Tütti i descaregamenti son gratis e open source.",
+		"version": "Verscion attuale: {version}",
+		"linkAlt": "Descaregâ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universale (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installatô {format}",
+			"package": "Pacchetto {format}",
+			"portableZip": "ZIP portatile",
+			"viewOnGithub": "Çerne in sce GitHub"
+		},
+		"macos": {
+			"title": "Aviso importante pe-i utenti macOS:",
+			"intro": "macOS Gatekeeper o blocca e applicaçioin no firmæ/no notarizæ descaregæ da Internet con un errô {error}.",
+			"error": "\"a l'é rotta, no se peu arvî\"",
+			"runCommand": "Doppo aveì descaregòu o DMG ò o ZIP, primma de arvî l'applicaçión, fanni giâ sto comando in terminale:",
+			"exampleDmg": "Pe ezempio, doppo l'installaçión da un DMG:",
+			"exampleZip": "Ò pœu doppo l'estraçión de un ZIP:",
+			"explanation": "Questo o leva l'attribûto de quarantenn-a e o permette a l'applicaçión de giâ."
+		}
+	},
+	"screenshots": {
+		"title": "Schermæ",
+		"open": "Arvî a schermâ {index}",
+		"alt": "Schermâ {index}",
+		"close": "Særâ a galleria",
+		"prev": "Schermâ precedente",
+		"next": "Schermâ succescionn-a"
+	},
+	"comparison": {
+		"title": "Confronto",
+		"feature": "Funçión",
+		"yes": "Sci",
+		"no": "Nò",
+		"partialDht": "Parçiale (DHT)",
+		"rows": {
+			"decentralized": "Ræ descentralizâ",
+			"onlineLibrary": "Bibrioteca online",
+			"builtInSearch": "Riçerca de contegnüo integrâ",
+			"decentralizedSearch": "Riçerca de contegnüo descentralizâ",
+			"parallelDownloads": "Descaregamenti paraleli da fonte multiple",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Apoggio pe gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contatto",
+		"getInTouch": "Mettite in contatto",
+		"links": {
+			"telegramChat": "Gruppo chat Telegram",
+			"telegramAnnouncements": "Annunçi Telegram",
+			"facebook": "Gruppo Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fæto da"
+	}
+}

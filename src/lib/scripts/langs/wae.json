@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentralisiärtsch Dateie-Teile",
+		"description": "{project} isch es peer-to-peer Programm zum Dateie teile, üs moderner dezentralisiärter Technologi gmacht.",
+		"ogTitle": "{project} - Programm fer dezentralisiärtsch Dateie-Teile",
+		"ogDescription": "Peer-to-peer Dateie-Teile üs moderner dezentralisiärter Technologi gmacht. Es git keis Mittelserver. Keis einsigs Faalpunkt."
+	},
+	"menu": {
+		"about": "Vu üs",
+		"download": "Lade",
+		"screenshots": "Bildschirm-Bilder",
+		"comparison": "Vergleich",
+		"contact": "Kontakt",
+		"toggle": "Menu öffne",
+		"close": "Menu zueschiebe",
+		"language": "Sprooch",
+		"selectLanguage": "Sprooch wähle"
+	},
+	"hero": {
+		"subtitle": "Nüüi Generaziu peer-to-peer Dateie-Teile",
+		"description": "Üs moderner dezentralisiärter Technologi gmacht. Es git keis Mittelserver. Keis einsigs Faalpunkt.",
+		"download": "Lade"
+	},
+	"about": {
+		"title": "Vu üs",
+		"intro": "{project} isch e Plattform vu der nüüie Generaziu fer peer-to-peer Dateie-Teile, üs moderner dezentralisiärter Technologi gmacht. Es vereint e liechti Bediänigsoberflächä mit ere komplett dezentralisiärte Architektur, sicheret sicheri und vurliässligi Dateie-Teile aani Bedüärfnis vum eme Mittel-Werchschtatt. Das Projäkt isch open source, üsegää unter d {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Komplett dezentralisiärts Netzwärch",
+				"description": "Keis Mittelserver, keis einsigs Faalpunkt. D Bnützer fänd und lade Inhalt direkt vu andere abe, ohni vu eme Mittelregister, Suechmotor oder Datenbank abhängig z'sii."
+			},
+			"accessControl": {
+				"title": "Fiini Zuegangskontrolle",
+				"description": "Jeder cha sis eigäs Netzwärch mit eigäne Regle baue, gratis. Innerhalb vu jedem Netzwärch sind d Bnützer-Rolle definiärt: Bsitzer, Verwalter, Redaktor, Moderator und Folger. Du hesch fiini Kontrolle drüber, wer publizierä, moderierä und Inhalt lade chaa."
+			},
+			"ui": {
+				"title": "Huechqualitiäts-Bediänigsoberflächä",
+				"description": "E suuberi und gschwinde Media Center Bediänigsoberflächä, gschtaltet fer Schribtisch, TV und mobili Plattforme. Liechti Navigaziu mit Tastatur, Müüs, Gamepad oder Färnbedienig. Erfahrnigi Bnützer chönd s'Programm als chopfloosi Server düürch die Befehlszile-Bediänigsoberflächä laufe lah."
+			},
+			"dataFormat": {
+				"title": "Mensch-läsbars Datemformat",
+				"description": "S'LISH Datemformat isch üs JSON gmacht, was es liecht zum mache, läse und verstoh macht. Teil dini Inhalt mit klarer und durchsichtiger Metadata, was jeder cha prüäfe."
+			},
+			"security": {
+				"title": "Privatheit und Sicherheit",
+				"description": "Alli peer-to-peer Kommunikaziune sind verschlüsslet, was sicheret das dini Date privat bliibe unterwägs. D Bnützer chönd sich hinter eme VPN verstecke fer mehr Anonymitiät. {project} respäktiert dini Privatheit düürch s Design."
+			},
+			"crossPlatform": {
+				"title": "Vil Plattforme",
+				"description": "S Programm isch erhältlich fer Windows, Linux und macOS. Brüüch's uf der Plattform wo du am liäbste hesch."
+			}
+		}
+	},
+	"download": {
+		"title": "Lade",
+		"description": "Hol {project} fer dini Plattform. Alli Ladigä sind gratis und open source.",
+		"version": "Aktuälli Versiu: {version}",
+		"linkAlt": "Lade",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universäl (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installiärer",
+			"package": "{format} Paket",
+			"portableZip": "Tragbarä ZIP",
+			"viewOnGithub": "Uf GitHub a luäge"
+		},
+		"macos": {
+			"title": "Wichtigi Notiz fer macOS-Bnützer:",
+			"intro": "macOS Gatekeeper blockiert ungschribni/ungneschtariisierti Aawändigä, wo us em Internet glade worde sind, mit eme Fähler {error}.",
+			"error": "\"isch kaputt, ma cha si nüd öffne\"",
+			"runCommand": "Nochdäm du s DMG oder ZIP gladä hesch, vorher du d Aawändig öffnisch, lah disä Befähl im Terminal laufe:",
+			"exampleDmg": "Zum Bispiäl, noch der Installaziu vum eme DMG:",
+			"exampleZip": "Oder noch em Üüspacke vum eme ZIP:",
+			"explanation": "Das nimmt s Quarantäne-Attribut weg und lat d Aawändig laufe."
+		}
+	},
+	"screenshots": {
+		"title": "Bildschirm-Bilder",
+		"open": "Bildschirm-Bild {index} öffne",
+		"alt": "Bildschirm-Bild {index}",
+		"close": "Galleri zueschiebe",
+		"prev": "Vorigi Bildschirm-Bild",
+		"next": "Nächschti Bildschirm-Bild"
+	},
+	"comparison": {
+		"title": "Vergleich",
+		"feature": "Funktion",
+		"yes": "Ja",
+		"no": "Nei",
+		"partialDht": "Teilwiis (DHT)",
+		"rows": {
+			"decentralized": "Dezentralisiärts Netzwärch",
+			"onlineLibrary": "Online-Bibliothek",
+			"builtInSearch": "Iibüüti Inhaltssuechi",
+			"decentralizedSearch": "Dezentralisiärti Inhaltssuechi",
+			"parallelDownloads": "Parallälli Ladigä vu vil Quelle",
+			"mediaCenter": "Media Center Bediänigsoberflächä",
+			"gamepad": "Gamepad-Unterstützig",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Choo i Kontakt",
+		"links": {
+			"telegramChat": "Telegram Chat-Gruppe",
+			"telegramAnnouncements": "Telegram Vermeldigä",
+			"facebook": "Facebook Gruppe"
+		}
+	},
+	"footer": {
+		"by": "Gmacht vu"
+	}
+}

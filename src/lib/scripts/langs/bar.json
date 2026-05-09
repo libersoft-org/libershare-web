@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentralisiads Datei-Doaln",
+		"description": "{project} is a peer-to-peer Programm zum Dateien doaln, baut auf moderner dezentralisiada Technologie.",
+		"ogTitle": "{project} - Programm fia dezentralisiads Datei-Doaln",
+		"ogDescription": "Peer-to-peer Datei-Doaln baut auf moderner dezentralisiada Technologie. Koa zentrala Server. Koa oazaga Ausfoipunkt."
+	},
+	"menu": {
+		"about": "Iwa uns",
+		"download": "Owalodn",
+		"screenshots": "Buidschirm-Buida",
+		"comparison": "Vagleich",
+		"contact": "Kontakt",
+		"toggle": "Menü aufmacha",
+		"close": "Menü zuamacha",
+		"language": "Sproch",
+		"selectLanguage": "Sproch auswöin"
+	},
+	"hero": {
+		"subtitle": "Neichi Generation peer-to-peer Datei-Doaln",
+		"description": "Baut auf moderner dezentralisiada Technologie. Koa zentrala Server. Koa oazaga Ausfoipunkt.",
+		"download": "Owalodn"
+	},
+	"about": {
+		"title": "Iwa uns",
+		"intro": "{project} is a Plattform vo da neichn Generation fia peer-to-peer Datei-Doaln, baut auf moderner dezentralisiada Technologie. Es vabindt a easy z'verwendende Bediunungsobaflächn mit a komplett dezentralisiadn Architektur, sicht sichas und vatraunsguats Datei-Doaln zua, ohne dass ma a zentrale Autoritätsstöi braucht. Des Projekt is open source, vereffentlicht unter da {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Komplett dezentralisiads Netzwerk",
+				"description": "Koa zentrala Server, koa oazaga Ausfoipunkt. Benutzer findn und lodn Inhoid direkt vo andan owa, ohne auf an zentralen Index, Suachmaschin oda Datnbank z'angwiesn z'sei."
+			},
+			"accessControl": {
+				"title": "Feini Zuagangskontrolle",
+				"description": "Jeda ko sei eigna Netzwerk mit seine eigna Regln baun, gratis. Innahalb vo jedm Netzwerk san d Benutza-Rolln definiat: Eignehma, Vawoita, Redakteur, Moderator und Folga. Du host feini Kontrolle iwa des, wer publiziarn, moderiarn und Inhoid owalodn ko."
+			},
+			"ui": {
+				"title": "Hochquajitätige Bediunungsobaflächn",
+				"description": "A sauwane und gschwinde Media Center Bediunungsobaflächn, gstoidet fia Schreibtisch, Fernseha und mobile Plattformen. Easy Navigation mit Tostadua, Maus, Gamepad oda Fernbedienung. Erfoahrene Benutza kennan s Programm ois kopfloser Server iwa de Bfeisozeil-Bediunungsobaflächn lafn lassn."
+			},
+			"dataFormat": {
+				"title": "Vom Menschn lesbares Datenformat",
+				"description": "Des LISH Datenformat is auf JSON aufbaut, was es easy zum Erstöin, Lesn und Vasteh macht. Doi dein Inhoid mit kloara und durchsichtiga Metadaten, dees jeda iwapriafn ko."
+			},
+			"security": {
+				"title": "Privatsphäre und Sichaheit",
+				"description": "Alle peer-to-peer Kommunikationen san vaschlüsselt, was sicht zua, dass deine Datn privat bleibm beim Iwadrogn. Benutza kennan se hinta am VPN vasteckn fia mehra Anonymität. {project} respektiat dei Privatsphäre durch s Design."
+			},
+			"crossPlatform": {
+				"title": "Multiplattform",
+				"description": "Des Programm is fia Windows, Linux und macOS vafiagbar. Brauch's auf da Plattform, dees da am liabstn is."
+			}
+		}
+	},
+	"download": {
+		"title": "Owalodn",
+		"description": "Howl da {project} fia dei Plattform. Olle Owalodungen san gratis und open source.",
+		"version": "Aktuelle Vasion: {version}",
+		"linkAlt": "Owalodn",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universäi (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} Installiarer",
+			"package": "{format} Pakl",
+			"portableZip": "Tragboars ZIP",
+			"viewOnGithub": "Auf GitHub o'schaun"
+		},
+		"macos": {
+			"title": "Wichtige Hiweis fia macOS-Benutza:",
+			"intro": "macOS Gatekeeper bockiert ned signiate/ned notarisiate Anwendungen, dees vom Internet owagloodn worn san, mit am Fehla {error}.",
+			"error": "\"is hi, ko ned aufgmacht wern\"",
+			"runCommand": "Wenns'd s DMG oda ZIP owagloodn host, eb du d Anwendung aufmachst, los dean Bfei im Terminoi rennan:",
+			"exampleDmg": "Zum Beispül, nochs Installiarn vo am DMG:",
+			"exampleZip": "Oda nochs Auspackn vo am ZIP:",
+			"explanation": "Des nimmt's Quarantäne-Attribut weg und losst d Anwendung rennan."
+		}
+	},
+	"screenshots": {
+		"title": "Buidschirm-Buida",
+		"open": "Buidschirm-Buid {index} aufmacha",
+		"alt": "Buidschirm-Buid {index}",
+		"close": "Galarie zuamacha",
+		"prev": "Vorigs Buidschirm-Buid",
+		"next": "Nächstes Buidschirm-Buid"
+	},
+	"comparison": {
+		"title": "Vagleich",
+		"feature": "Funktion",
+		"yes": "Jo",
+		"no": "Na",
+		"partialDht": "Teiweis (DHT)",
+		"rows": {
+			"decentralized": "Dezentralisiads Netzwerk",
+			"onlineLibrary": "Online-Bibliothek",
+			"builtInSearch": "Eibaute Inhoidssuach",
+			"decentralizedSearch": "Dezentralisiarte Inhoidssuach",
+			"parallelDownloads": "Parallele Owalodungen vo vüi Quelln",
+			"mediaCenter": "Media Center Bediunungsobaflächn",
+			"gamepad": "Gamepad-Unterstützung",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "In Kontakt kemma",
+		"links": {
+			"telegramChat": "Telegram Schmoizgruppn",
+			"telegramAnnouncements": "Telegram Bekanntmachungen",
+			"facebook": "Facebook Gruppn"
+		}
+	},
+	"footer": {
+		"by": "Gmacht vo"
+	}
+}
