@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Wallpa Wallpa Mu'rkechi Reñma",
+		"description": "{project} kiñe peer-to-peer kishu kishu reñma software, dewman zugun mu'rkechi tekn'oloxia mew.",
+		"ogTitle": "{project} - Wallpa Wallpa Mu'rkechi Reñma Software",
+		"ogDescription": "Peer-to-peer mu'rkechi reñma dewman zugun mu'rkechi tekn'oloxia mew. Ngelay kiñe rangiñ servidor. Ngelay kiñe wenu kishu kishumkeechi."
+	},
+	"menu": {
+		"about": "Inche",
+		"download": "Naqümün",
+		"screenshots": "Pantallapag",
+		"comparison": "Reyñ ayifel",
+		"contact": "Mañumtuwün",
+		"toggle": "Nülan menú",
+		"close": "Nükan menú",
+		"language": "Zugun",
+		"selectLanguage": "Zullin zugun"
+	},
+	"hero": {
+		"subtitle": "Pichikepu peer-to-peer mu'rkechi reñma",
+		"description": "Dewman zugun mu'rkechi tekn'oloxia mew. Ngelay kiñe rangiñ servidor. Ngelay kiñe wenu kishu kishumkeechi.",
+		"download": "Naqümün"
+	},
+	"about": {
+		"title": "Inche",
+		"intro": "{project} kiñe pichikepu plataforma peer-to-peer mu'rkechi reñma, dewman zugun mu'rkechi tekn'oloxia mew. Trekanmu kiñe küme inarume interfaz kiñe ñidol kümeche kishu kishumkeechi arquitektura, kümelu kake ka pengelmekey mu'rkechi reñma ngelaytulay kiñe rangiñ ñizolfilu. Tüfachi proyekto kiñe open source, wülnge'l mew {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Cheñma kishu kishumkeechi red",
+				"description": "Ngelay kiñe rangiñ servidor, ngelay kiñe wenu kishu kishumkeechi. Pu kelluwe pengelin ka naqümkey contenido kiñe ka kake mew, ngelaylu kiñe rangiñ índice, traketador o base de datos."
+			},
+			"accessControl": {
+				"title": "Pichi pichi nütram inarume",
+				"description": "Itrofill kelluwe deway ñi kishu reñma ñi kishu reñma reglas mew kintusenmu. Ñi kake red mew, kishu zoy ñi roles definangelfui: ñizol, administrador, publicador, moderador ka inafülchemu. Eymi nieymi pichi pichi nütram tunten ñi pengelin, moderar ka naqümün ñi contenido."
+			},
+			"ui": {
+				"title": "Reqle ñom interfaz kishu",
+				"description": "Lif ka külmen medios reñma interfaz, dewman üytun, televisor ka dispositivos móviles. Küme inarume teklado, ratón, gamepad ka kontrol remoto mew. Pu zoy kelluwe pengelin software headless servidor reche meu interfaz línea de komandos mew."
+			},
+			"dataFormat": {
+				"title": "Che zoy zugun datos kümeche",
+				"description": "Ti LISH datos formato dewman JSON mew, kümelu kake küme dewman, küme zugun ka küme kimün. Reñma tami contenido küme ka kümeche metadatos mew, itrofillkelluwe küme inarume."
+			},
+			"security": {
+				"title": "Wenu kümeche ka kümeche",
+				"description": "Itrofill peer-to-peer kuwün cifrazo, kümelu kake tami datos kishu küme tránsito mew. Pu kelluwe deway VPN ñi mu'rkechi anonimato. {project} kümeche tami wenu kümeche dewmaeyu."
+			},
+			"crossPlatform": {
+				"title": "Mu'r plataformas",
+				"description": "Ti software niyey Windows, Linux ka macOS. Küme inarume kiñe küme plataforma mew."
+			}
+		}
+	},
+	"download": {
+		"title": "Naqümün",
+		"description": "Tuyenge {project} tami plataforma mew. Itrofill naqümün kintusenmu ka open source.",
+		"version": "Tüfachi versión: {version}",
+		"linkAlt": "Naqümün",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalador",
+			"package": "{format} paketb",
+			"portableZip": "ZIP yenge",
+			"viewOnGithub": "Inarume GitHub mew"
+		},
+		"macos": {
+			"title": "Wenu kümeche pu kelluwe macOS:",
+			"intro": "macOS Gatekeeper rakizuamche aplikasyon ngelay firmazu/notarizado naqümtuy internet mew {error} kishu mew.",
+			"error": "\"trafürki, ngelaytuy nülan\"",
+			"runCommand": "Naqümel DMG o ZIP, petu nülal aplikasyon, dewman tüfachi komando terminal mew:",
+			"exampleDmg": "Adkintumu, instalal mew DMG:",
+			"exampleZip": "O nentun mew ZIP:",
+			"explanation": "Tüfachi nentun atributo cuarentena ka aplikasyon kümey dewman."
+		}
+	},
+	"screenshots": {
+		"title": "Pantallapag",
+		"open": "Nülan pantallapag {index}",
+		"alt": "Pantallapag {index}",
+		"close": "Nükan galería",
+		"prev": "Furi reñma",
+		"next": "Külentu reñma"
+	},
+	"comparison": {
+		"title": "Reyñ ayifel",
+		"feature": "Tukulpu",
+		"yes": "May",
+		"no": "Mu'lay",
+		"partialDht": "Pichi (DHT)",
+		"rows": {
+			"decentralized": "Kishu kishumkeechi red",
+			"onlineLibrary": "Internet biblioteka",
+			"builtInSearch": "Dewman kintun",
+			"decentralizedSearch": "Kishu kishumkeechi kintun",
+			"parallelDownloads": "Mu'r naqümün mu'r pu mew",
+			"mediaCenter": "Medios reñma interfaz",
+			"gamepad": "Gamepad kelluwe",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Mañumtuwün",
+		"getInTouch": "Mañum",
+		"links": {
+			"telegramChat": "Telegram dungun trawünke",
+			"telegramAnnouncements": "Telegram pengelin",
+			"facebook": "Facebook trawünke"
+		}
+	},
+	"footer": {
+		"by": "Dewmangey"
+	}
+}

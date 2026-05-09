@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Zdecentralizowóné Dzelenié Lopków",
+		"description": "{project} je peer-to-peer softwôra do dzeleniô lopków, zbudowóną na nowòczasny zdecentralizowóny technologii.",
+		"ogTitle": "{project} - Zdecentralizowóné Softwôra do Dzeleniô Lopków",
+		"ogDescription": "Peer-to-peer dzelenié lopków zbudowóné na nowòczasny zdecentralizowóny technologii. Niżódny centralny serwer. Niżódny pojedińczi pónkt awarii."
+	},
+	"menu": {
+		"about": "Ò programie",
+		"download": "Zladowac",
+		"screenshots": "Zdrzucë ekranu",
+		"comparison": "Pòrównanié",
+		"contact": "Kòntakt",
+		"toggle": "Przełączë menu",
+		"close": "Zamkni menu",
+		"language": "Jãzëk",
+		"selectLanguage": "Wëbierzë jãzëk"
+	},
+	"hero": {
+		"subtitle": "Pòsobné pòkòlenié peer-to-peer dzeleniô lopków",
+		"description": "Zbudowóné na nowòczasny zdecentralizowóny technologii. Niżódny centralny serwer. Niżódny pojedińczi pónkt awarii.",
+		"download": "Zladowac"
+	},
+	"about": {
+		"title": "Ò programie",
+		"intro": "{project} je platfòrma pòsobnégo pòkòleniô do peer-to-peer dzeleniô lopków, zbudowónô na nowòczasny zdecentralizowóny technologii. Łączë łatwi w ùżëcym ineterfejs z fùl zdecentralizowóną architekturą, zapewniający bezpieczné a wiarëgódné dzelenié lopków bez pòtrzebë centralny ùrzãdny mòcë. Tã projekt je open source, wëdóny pòd {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fùl zdecentralizowónô séc",
+				"description": "Niżódny centralny serwer, niżódny pojedińczi pónkt awarii. Brëkòwnicë nalezą i zladowùją kònteñt direkt jeden òd drëgégò, bez òdwôłaniô sã na centralny indeks, tracker abò baza danëch."
+			},
+			"accessControl": {
+				"title": "Pòdrobnô kòntrola dostãpù",
+				"description": "Kòżdi mòże zbudowac swòjã włôsną séc z włôsnyma reglama za darmò. Wewnątrk kòżdy sécë są wëzdrzónę role brëkòwników: gòspòdôrz, administratór, wëdôwca, mòderatór a śledzący. Môsz pòdrobną kòntrolã nad tim, chto mòże publikòwac, mòderowac a zladowac kònteñt."
+			},
+			"ui": {
+				"title": "Wësokòkwaliticzni interfejs brëkòwnika",
+				"description": "Czësti i reagùjący interfejs centrum mediów, zaprojektowóny dlô platfòrm desktopowëch, telewizyjnëch a mobilnëch. Łatwô nawigacëjô klawiaturą, mëszą, gamepadã abò pilotã. Zaawansowóny brëkòwnicë mògą ùruchòmic softwôrã jakno bezgłowòwy serwer dóny przez interfejs lënii rozkazów."
+			},
+			"dataFormat": {
+				"title": "Człowiekòczitelny fòrmat dónych",
+				"description": "Fòrmat dónych LISH je zbudowóny na JSON, co ùłatwiô jegò stwòrzenié, czitanié a zrozmienié. Dzelë sã swòjima kònteñtã z jasnyma i przejrzëstyma metadónyma, jakô mòże kòżdi łatwò przezdrzëc."
+			},
+			"security": {
+				"title": "Privatnota a bezpieczeństwò",
+				"description": "Wszëtczé kòmùnikacëje peer-to-peer są zaszifrowóné, zapewniający, że twòje dóné òstóną privatne podczas przekôzaniô. Brëkòwnicë mògą sã ùkrëc za VPN dlô dodôwnëj anonimnotë. {project} szanowô twòjã privatnotã ze swòjégo projektowaniô."
+			},
+			"crossPlatform": {
+				"title": "Wieloplatfòrmòwi",
+				"description": "Softwôra je dostãpnô dlô Windows, Linux a macOS. Brëkùj jã na platfòrmie, jakã wòlësz."
+			}
+		}
+	},
+	"download": {
+		"title": "Zladowac",
+		"description": "Pòzwij {project} dlô swòjy platfòrmë. Wszëtczé zladowania są darmòwé i open source.",
+		"version": "Aktualnô wersjô: {version}",
+		"linkAlt": "Zladowac",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalatór {format}",
+			"package": "Paczét {format}",
+			"portableZip": "Przenośny ZIP",
+			"viewOnGithub": "Òbôczë na GitHubie"
+		},
+		"macos": {
+			"title": "Wôżny pòdôwk dlô brëkòwników macOS:",
+			"intro": "macOS Gatekeeper zablokùje niepòdpisóné/niezawiarëgódnioné aplikacëje zladowóné z internetu z błãdã {error}.",
+			"error": "\"je ùszkòdzonô, nie mòże bëc òtemkłô\"",
+			"runCommand": "Pò zladowanim DMG abò ZIP, zaczãcie òtemkłaniô aplikacëji, wëkònôj tã rozkaz w terminalu:",
+			"exampleDmg": "Na przëkłôd, pò instalacëji z DMG:",
+			"exampleZip": "Abò pò rozpakòwanim ZIP:",
+			"explanation": "Òdejmnie to atribut kwarantanny i pòzwòlë aplikacëji bëc ùruchòmioną."
+		}
+	},
+	"screenshots": {
+		"title": "Zdrzucë ekranu",
+		"open": "Òtemkni zdrzucã ekranu {index}",
+		"alt": "Zdrzucã ekranu {index}",
+		"close": "Zamkni galerëjã",
+		"prev": "Pòprzédnô òbrôzk",
+		"next": "Następny òbrôzk"
+	},
+	"comparison": {
+		"title": "Pòrównanié",
+		"feature": "Cecha",
+		"yes": "Jo",
+		"no": "Nié",
+		"partialDht": "Czãsticzné (DHT)",
+		"rows": {
+			"decentralized": "Zdecentralizowónô séc",
+			"onlineLibrary": "Bibliotekô ònline",
+			"builtInSearch": "Wbudowóné szukanié kònteñtu",
+			"decentralizedSearch": "Zdecentralizowóné szukanié kònteñtu",
+			"parallelDownloads": "Równoległé zladowania z wielu zdrojów",
+			"mediaCenter": "Interfejs centrum mediów",
+			"gamepad": "Wspiarcié gamepada",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kòntakt",
+		"getInTouch": "Skòntaktuj sã",
+		"links": {
+			"telegramChat": "Grupa rozmòwë Telegrama",
+			"telegramAnnouncements": "Òbwieszczenia Telegrama",
+			"facebook": "Grupa Facebooka"
+		}
+	},
+	"footer": {
+		"by": "Stwòrził"
+	}
+}

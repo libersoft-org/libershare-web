@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Aje Pinep̧einin Bok ko Decentralized",
+		"description": "{project} ej juon peer-to-peer software ñan kōjjelọk bok ko, ekar kōmman jān modern decentralized teknolji.",
+		"ogTitle": "{project} - Software ñan Aje Pinep̧einin Bok ko Decentralized",
+		"ogDescription": "Peer-to-peer aje bok ko ekar kōmman jān modern decentralized teknolji. Ejjelok central server. Ejjelok juon wōt point eo emaron jorrāān."
+	},
+	"menu": {
+		"about": "Kōn",
+		"download": "Tōl-laḷḷok",
+		"screenshots": "Pija ko an screen",
+		"comparison": "Keidi",
+		"contact": "Kōnono",
+		"toggle": "Kōpeḷḷọk menu",
+		"close": "Kiili menu",
+		"language": "Kajin",
+		"selectLanguage": "Kālet kajin"
+	},
+	"hero": {
+		"subtitle": "Aje pinep̧einin bok ko peer-to-peer im ekāāl",
+		"description": "Ekar kōmman jān modern decentralized teknolji. Ejjelok central server. Ejjelok juon wōt point eo emaron jorrāān.",
+		"download": "Tōl-laḷḷok"
+	},
+	"about": {
+		"title": "Kōn",
+		"intro": "{project} ej juon platform ekāāl ñan peer-to-peer aje pinep̧einin bok ko, ekar kōmman jān modern decentralized teknolji. Ej kōppopo juon interface epidodo im juon architecture eo eaolep decentralized, eo ej kōmmane bwe aje bok ko en jab uwota im emaron lokjak ejjelok aikuj an juon central authority. Project in ej open source, eḷap an kommanmane iuṃwin {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network eo eaolep decentralized",
+				"description": "Ejjelok central server, ejjelok juon wōt point eo emaron jorrāān. Ri-kōjerbal ro rej lo im tōl-laḷḷok content jān doon, im rej jab pedped ioon juon central index, tracker, ak database."
+			},
+			"accessControl": {
+				"title": "Lale eo elap an deḷọñ",
+				"description": "Jabdewōt armej emaron kalōke an make network kōn an make kien ko ejjelok wōnāer. Ilo jabdewōt network, role ko an ri-kōjerbal raar definelok: ri-jolet, administrator, ri-kowaḷok, moderator, im ri-ḷoor. Eor aṃ lale eo elap an deḷọñ kōn wōn emaron kowaḷok, moderate, im tōl-laḷḷok content."
+			},
+			"ui": {
+				"title": "Interface eo eṃṃan an kōjerbal",
+				"description": "Juon interface emelele im erre-wōt an media center, ekar kōmmane ñan desktop, televisor, im platform mobile ko. Epidodo an iuṃwin keyboard, ratona, gamepad, ak juon control remote. Ri-kōjerbal ro reaolep emaron kōjerbal software in āinwōt juon headless data server kōn command-line interface."
+			},
+			"dataFormat": {
+				"title": "Data format eo armej emaron kōnono",
+				"description": "Data format eo LISH ekar kōmmane ioon JSON, eo ej kōmmane bwe enaaj epidodo an kōmmane, kōnono, im meḷeḷe. Ajete content eo aṃ kōn metadata eḷḷap im erre-wōt, eo jabdewōt armej emaron kanooj lale."
+			},
+			"security": {
+				"title": "Tutu im kōjparok",
+				"description": "Aolep kōnono peer-to-peer encrypted, eo ej kōmmane bwe data ko aṃ ren tutu ilo transit. Ri-kōjerbal ro remaron tilekek ālikin VPN ñan eḷḷap anonymity. {project} ej koutiej an aṃ tutu kōn an design."
+			},
+			"crossPlatform": {
+				"title": "Iioon platform ko relōñ",
+				"description": "Software in eor an Windows, Linux, im macOS. Kōjerbal e ioon jabdewōt platform eo aṃ kōnaan."
+			}
+		}
+	},
+	"download": {
+		"title": "Tōl-laḷḷok",
+		"description": "Bōk {project} ñan platform eo aṃ. Aolep tōl-laḷḷok ko rej ejjelok wōnāer im open source.",
+		"version": "Version eo iiō: {version}",
+		"linkAlt": "Tōl-laḷḷok",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ñan {format}",
+			"package": "Package ñan {format}",
+			"portableZip": "ZIP eo emaron uweweloñ",
+			"viewOnGithub": "Lale ilo GitHub"
+		},
+		"macos": {
+			"title": "Naan eo eḷḷap ñan ri-kōjerbal ro an macOS:",
+			"intro": "macOS Gatekeeper enaaj kōkkure application ko unsigned/unnotarized eo ekar tōl-laḷḷok jān internet kōn juon bōd in {error}.",
+			"error": "\"e jorrāān, ejaab maron kapeḷḷọke\"",
+			"runCommand": "Ālikin aṃ tōl-laḷḷok DMG eo ak ZIP eo, ṃokta jān aṃ kapeḷḷọke application eo, kōmmane command in ilo terminal:",
+			"exampleDmg": "Eñin juon waanjōñak, ālikin install jān DMG:",
+			"exampleZip": "Ak ālikin aṃ kakōle ZIP eo:",
+			"explanation": "Men in enaaj joḷok attribute eo an quarantine im kōtḷọke application eo bwe en etal."
+		}
+	},
+	"screenshots": {
+		"title": "Pija ko an screen",
+		"open": "Kōpeḷḷọk pija an screen {index}",
+		"alt": "Pija an screen {index}",
+		"close": "Kiili gallery",
+		"prev": "Pija eo ṃokta",
+		"next": "Pija eo tōkālik"
+	},
+	"comparison": {
+		"title": "Keidi",
+		"feature": "Wāwein",
+		"yes": "Aet",
+		"no": "Jaab",
+		"partialDht": "Jet wōt (DHT)",
+		"rows": {
+			"decentralized": "Network decentralized",
+			"onlineLibrary": "Library ilo internet",
+			"builtInSearch": "Pukot eo emaron-de",
+			"decentralizedSearch": "Pukot decentralized",
+			"parallelDownloads": "Lōñ tōl-laḷḷok jān source ko relōñ",
+			"mediaCenter": "Interface an media center",
+			"gamepad": "Wāwein an gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kōnono",
+		"getInTouch": "Kōnono ippāer",
+		"links": {
+			"telegramChat": "Group chat an Telegram",
+			"telegramAnnouncements": "Naan ko an Telegram",
+			"facebook": "Group an Facebook"
+		}
+	},
+	"footer": {
+		"by": "Eṃōj kōmmane jān"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tibwabwarara Nakon te Tibwa Boki",
+		"description": "{project} bon te peer-to-peer ana software ibukin tibwan boki, ae kateaki ni bouaki ma te decentralized teknolji ae boou.",
+		"ogTitle": "{project} - Software ibukin Tibwa Boki ae Tibwabwarara",
+		"ogDescription": "Peer-to-peer tibwan boki ae kateaki ma te decentralized teknolji ae boou. Akea te server ae mena i nuka. Akea te tabo teuana ae kona ni bua."
+	},
+	"menu": {
+		"about": "Ibukin",
+		"download": "Karauaki",
+		"screenshots": "Taambo n te screen",
+		"comparison": "Te kabotau",
+		"contact": "Te reitaki",
+		"toggle": "Kauka te menu",
+		"close": "Kaina te menu",
+		"language": "Te taetae",
+		"selectLanguage": "Rinea te taetae"
+	},
+	"hero": {
+		"subtitle": "Te peer-to-peer tibwa boki ae a roko",
+		"description": "Kateaki ma te decentralized teknolji ae boou. Akea te server ae mena i nuka. Akea te tabo teuana ae kona ni bua.",
+		"download": "Karauaki"
+	},
+	"about": {
+		"title": "Ibukin",
+		"intro": "{project} bon te platform ae a roko ibukin tibwan peer-to-peer boki, ae kateaki ma te decentralized teknolji ae boou. E katiteboboi te interface ae bebete ma te architecture ae tibwabwarara, e kakoroa raoi te tibwa boki ae mwaiti raoi ma akea te oin n authority. E open source te project aei, ao a kanakoaki i aan te {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Te network ae tibwabwarara raoi",
+				"description": "Akea te server ae mena i nuka, akea te tabo teuana ae kona ni bua. A kunei aoia ao a karauaki te kanoa irouia n aroia, n aki uaia n te index ae mena i nuka, te tracker ke te database."
+			},
+			"accessControl": {
+				"title": "Te tabea n riringinaki ae tikiraoi",
+				"description": "Aomata nako a kona ni katea oin aia network ma aia tua n akea boona. I nanon te network ae nako, a kanawanawanaki nakoaia kaain te aba: te kuami, te administrator, te tia kanakoa, te moderator ao te tia ira. Iai am tabea n tikiraoi ibukin antai ae kona ni kanakoa, ni moderator ao ni karauaki te kanoa."
+			},
+			"ui": {
+				"title": "Te interface ae raoiroi",
+				"description": "Te interface ae itiaki ao ae kanakoa kanoaki te media center, ae kateaki ibukin desktop, te TV ao te telephone ae moau. E bebete ni biri ma te keyboard, ratona, gamepad ke te taua remote. A kona kaain naake a kainabwabwa ni kabongana te software bwa te headless data server ma te command-line interface."
+			},
+			"dataFormat": {
+				"title": "Te boki ni boki ae a kona n wareki kaain te aba",
+				"description": "Te LISH data format e kateaki ma te JSON, ae bebete ni karaoaki, ni warekaki ao n ataki. Tibwa kanoam ma te metadata ae teretere ao ae nora, ae kona n noraki irouia kaain te aba ni kabane."
+			},
+			"security": {
+				"title": "Te aki kaongoraei ao te kamano",
+				"description": "Reitaki ni peer-to-peer ni kabane a kabongaki ao a kainakoaki, e kakoroa raoi ata bwa am data e na karaubaki rinanon te transit. A kona kaain te aba n karaba i aon te VPN ibukin riki te aki kaongoraei. {project} e karinea am aki kaongoraei i aon te oin n karaoia."
+			},
+			"crossPlatform": {
+				"title": "I aon platform ni kabane",
+				"description": "E mena te software ibukin Windows, Linux ao macOS. Kabongana i aon platform ae ko tatangiria."
+			}
+		}
+	},
+	"download": {
+		"title": "Karauaki",
+		"description": "Anaa {project} ibukin am platform. A kabane karauaki a aki kabooaki ao bon open source.",
+		"version": "Te version ngkai: {version}",
+		"linkAlt": "Karauaki",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ibukin {format}",
+			"package": "Package ibukin {format}",
+			"portableZip": "ZIP ae uotaki",
+			"viewOnGithub": "Nora i GitHub"
+		},
+		"macos": {
+			"title": "Te taeka ae kakaongora ibukia kaain macOS:",
+			"intro": "macOS Gatekeeper e na tukai application aika aki signed/aki notarized aika karauaki man te internet ma te kairua {error}.",
+			"error": "\"e bua, e aki konaki ni kaukaki\"",
+			"runCommand": "Imwin karauakin te DMG ke ZIP, imwain ae ko kauka te application, taotaonim te command aei i nanon te terminal:",
+			"exampleDmg": "N aron, imwin installation man te DMG:",
+			"exampleZip": "Ke imwin kabwakaakin te ZIP:",
+			"explanation": "E na anaai te attribute n quarantine ao e na kariaia te application bwa e na biri."
+		}
+	},
+	"screenshots": {
+		"title": "Taambo n te screen",
+		"open": "Kauka taamnein te screen {index}",
+		"alt": "Taamnein te screen {index}",
+		"close": "Kaina te gallery",
+		"prev": "Te taambo ae mwaitin",
+		"next": "Te taambo ae imwin"
+	},
+	"comparison": {
+		"title": "Te kabotau",
+		"feature": "Te oin",
+		"yes": "Eng",
+		"no": "Akea",
+		"partialDht": "Tabeua (DHT)",
+		"rows": {
+			"decentralized": "Te network ae tibwabwarara",
+			"onlineLibrary": "Te library i nanon te internet",
+			"builtInSearch": "Te ukoukori ae kateaki i nanona",
+			"decentralizedSearch": "Te ukoukori ae tibwabwarara",
+			"parallelDownloads": "Karauaki ni mwaiti man taabo aika mwaiti",
+			"mediaCenter": "Te interface n te media center",
+			"gamepad": "Te buobuoki n te gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Te reitaki",
+		"getInTouch": "Reitaki ma ngaira",
+		"links": {
+			"telegramChat": "Te chat n te Telegram",
+			"telegramAnnouncements": "Taeka aika kanakoaki n te Telegram",
+			"facebook": "Te group n te Facebook"
+		}
+	},
+	"footer": {
+		"by": "E karaoaki iroun"
+	}
+}

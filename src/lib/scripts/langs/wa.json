@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Distribuwêye Pårtaedje di Fitchîs",
+		"description": "{project} c' est on programe peer-to-peer di pårtaedje di fitchîs, basti so del moderne distribuwêye tecnolodjeye.",
+		"ogTitle": "{project} - Programe di Distribuwêye Pårtaedje di Fitchîs",
+		"ogDescription": "Pårtaedje peer-to-peer di fitchîs basti so del moderne distribuwêye tecnolodjeye. Nou cintrå sierveu. Nou seu pont d' fôte."
+	},
+	"menu": {
+		"about": "Åd fwait",
+		"download": "Aberweter",
+		"screenshots": "Waitroûle imådjes",
+		"comparison": "Comparaedje",
+		"contact": "Contak",
+		"toggle": "Drovi menu",
+		"close": "Cloyî menu",
+		"language": "Lingaedje",
+		"selectLanguage": "Tchoezi lingaedje"
+	},
+	"hero": {
+		"subtitle": "Pårtaedje peer-to-peer di fitchîs del prochinne djermêye",
+		"description": "Basti so del moderne distribuwêye tecnolodjeye. Nou cintrå sierveu. Nou seu pont d' fôte.",
+		"download": "Aberweter"
+	},
+	"about": {
+		"title": "Åd fwait",
+		"intro": "{project} est ene platfôme del prochinne djermêye po pårtaedje peer-to-peer di fitchîs, bastêye so del moderne distribuwêye tecnolodjeye. I metev eshonne ene eshonne facile a-z eployî avou ene cmaplete distribuwêye båsse, ki sclôt seur eyet fiyåve pårtaedje di fitchîs sins l' nouzeur d' ene cintrå otorité. Ci pordjet est libe sourdant, dispåclé pa l' {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Cmaplete distribuwêye rantoele",
+				"description": "Nou cintrå sierveu, nou seu pont d' fôte. Les eployants trovèt eyet aberwetèt l' contnou drectumint d' onk a l' ôte, sins s' acoter so on cintrå indecse, lecteu d' troûs ou båze di dnêyes."
+			},
+			"accessControl": {
+				"title": "Tinrou maistrijhaedje d' acès",
+				"description": "Tot l' monde pout basti s' prôpe rantoele avou s' prôpes rîles po rén. Divins tchaeke rantoele, les rôles des eployants sont definis: prôpietere, manaedjeu, publiyeu, moderateu eyet shuveu. Vos avoz on tinrou maistrijhaedje so kî ki pout publiyî, moderer eyet aberweter l' contnou."
+			},
+			"ui": {
+				"title": "Ôt cwålité eshonne ouxhe",
+				"description": "Ene nete eyet respondante eshonne d' cinte d' medias, dessinêye po platfômes di buro, télévizion eyet mobile. Facile naveye avou taprece, soris, gamepad ou comanderece. Les avancîs eployants polèt fé roter l' programe come on no-tiesse sierveu d' dnêyes pa l' eshonne d' roye di cmande."
+			},
+			"dataFormat": {
+				"title": "Format di dnêyes lijhåve a l' ome",
+				"description": "Li format di dnêyes LISH est basti so JSON, ki l' rind facile a fé, lére eyet etinde. Pårtaedjîz vosse contnou avou clair eyet rastrindant metadnêyes, ki tot l' monde pout aujhinmint verifyî."
+			},
+			"security": {
+				"title": "Privance eyet såvurêye",
+				"description": "Totes les comunicåcions peer-to-peer sont coupêyes, çou ki sclôt vos dnêyes ki dmoront privêyes e l' transferaedje. Les eployants si polèt catchî drî on VPN po pus d' anonymisté. {project} respecte vosse privance pa s' dessin."
+			},
+			"crossPlatform": {
+				"title": "Multi-platfôme",
+				"description": "Li programe est disponibe po Windows, Linux eyet macOS. Eployîz l' so li platfôme ki vos voloz."
+			}
+		}
+	},
+	"download": {
+		"title": "Aberweter",
+		"description": "Erçoevoz {project} po vosse platfôme. Tos les aberwetaedjes sont po rén eyet libe sourdant.",
+		"version": "Version atouwoû: {version}",
+		"linkAlt": "Aberweter",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Astaleu {format}",
+			"package": "Pacaedje {format}",
+			"portableZip": "Pôrtåve ZIP",
+			"viewOnGithub": "Vey so GitHub"
+		},
+		"macos": {
+			"title": "Impôrtante notice po les eployants di macOS:",
+			"intro": "macOS Gatekeeper bloke les programes nén signés/nén notarized aberweté di l' Etrernete avou l' fôte {error}.",
+			"error": "\"est cwébelé, ni s' pout drovi\"",
+			"runCommand": "Après aveur aberweté l' DMG ou ZIP, divant d' drovi l' programe, fjhoz cisse cmande chal e terminål:",
+			"exampleDmg": "Par egzimpe, après l' astalaedje då DMG:",
+			"exampleZip": "Ou après l' destricaedje då ZIP:",
+			"explanation": "Çoula bodje l' atribut di cwarinte èn esteut eyet leye li programe roter."
+		}
+	},
+	"screenshots": {
+		"title": "Waitroûle imådjes",
+		"open": "Drovi waitroûle imådje {index}",
+		"alt": "Waitroûle imådje {index}",
+		"close": "Cloyî l' galreye",
+		"prev": "Imådje di dvant",
+		"next": "Imådje shuvante"
+	},
+	"comparison": {
+		"title": "Comparaedje",
+		"feature": "Rissaetchêye",
+		"yes": "Oyi",
+		"no": "Neni",
+		"partialDht": "Pårticulaire (DHT)",
+		"rows": {
+			"decentralized": "Distribuwêye rantoele",
+			"onlineLibrary": "Bibliotheke en lene",
+			"builtInSearch": "Cweraedje di contnou estimé",
+			"decentralizedSearch": "Distribuwêye cweraedje",
+			"parallelDownloads": "Aberwetaedjes a paralelle di sacwantès sourdants",
+			"mediaCenter": "Eshonne d' cinte d' medias",
+			"gamepad": "Sopôrt gamepad",
+			"openSource": "Libe sourdant"
+		}
+	},
+	"contact": {
+		"title": "Contak",
+		"getInTouch": "Acontaedjîz",
+		"links": {
+			"telegramChat": "Sicrijhaedje Telegram",
+			"telegramAnnouncements": "Anonces Telegram",
+			"facebook": "Groupe Facebook"
+		}
+	},
+	"footer": {
+		"by": "Fwait pa"
+	}
+}

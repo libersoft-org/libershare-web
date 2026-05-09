@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tu'angaanga Tu'atu'a Pepa",
+		"description": "{project} e tu'atu'a peer-to-peer software no te tu'angaanga pepa, i akamatatia ki runga i te tekinolotia decentralized ou.",
+		"ogTitle": "{project} - Software no te Tu'angaanga Tu'atu'a Pepa",
+		"ogDescription": "Peer-to-peer tu'angaanga pepa i akamatatia ki runga i te tekinolotia decentralized ou. Kare e server taokotai. Kare e ngai okotai te ka tarevake."
+	},
+	"menu": {
+		"about": "No te",
+		"download": "Iki mai",
+		"screenshots": "Tutu mata uira",
+		"comparison": "Akaakaitearaanga",
+		"contact": "Tuatua atu",
+		"toggle": "Akairi i te menu",
+		"close": "Akati'a i te menu",
+		"language": "Reo",
+		"selectLanguage": "Iki i te reo"
+	},
+	"hero": {
+		"subtitle": "Te au'akaaere mua peer-to-peer tu'angaanga pepa",
+		"description": "I akamatatia ki runga i te tekinolotia decentralized ou. Kare e server taokotai. Kare e ngai okotai te ka tarevake.",
+		"download": "Iki mai"
+	},
+	"about": {
+		"title": "No te",
+		"intro": "{project} e tu'atu'a no te au'akaaere mua peer-to-peer tu'angaanga pepa, i akamatatia ki runga i te tekinolotia decentralized ou. Te akakapiti nei i tetai interface māmā ma tetai apinga decentralized atoatoa, te akapapaanga i te tu'angaanga pepa kia kore e kino e kia tau, kare e mou apinga taokotai. Te tarere nei te porotieki i te open source, i tukutukuia i raro i te {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network decentralized atoatoa",
+				"description": "Kare e server taokotai, kare e ngai okotai te ka tarevake. Te kitea ana e te tāngata e te iki maira i te tu'atu'a tika atu mei te tāngata anake, kare e tauturuia e te index taokotai, te tracker, e te database."
+			},
+			"accessControl": {
+				"title": "Te akapapaanga ririnui o te tomo'anga",
+				"description": "Te ka rauka i te tāngata katoatoa i te akamatatia tana uaorai network ma tana uaorai au ture, kare e moni. I roto i tetai ua atu network, te akamataia e te au tu'anga o te tāngata: te rangatira, te tūtara, te tāngata akakite, te moderator, e te tāngata aru. Ka rauka iaau i te akapapaanga ririnui no runga i te koai te ka rauka i te akakite, i te akamatakite e i te iki mai i te tu'atu'a."
+			},
+			"ui": {
+				"title": "Tetai interface meitaki o te tāngata",
+				"description": "Tetai interface mā e te akatika viviki o te media center, i akamatatia no te au'akaaere o te kāpene, te televīoni, e te au'akaaere kuru. Māmā te aaka i te keyboard, te ratona, te gamepad, e te akakite kuru. Ka rauka i te au tāngata pakari i te akarukea i te software ei headless server o te tu'atu'a kia rouia te command-line interface."
+			},
+			"dataFormat": {
+				"title": "Te ariu o te tu'atu'a ka rauka i te tāngata i te tatau",
+				"description": "Te ariu LISH o te tu'atu'a, i akamatatia ki runga i te JSON, te akamāmā nei i te akamataanga, te tatau, e te marama. Tu'angaanga ki to'ou tu'atu'a ki te au metadata māmā e te tika, ka rauka i te tāngata katoatoa i te akirikiri."
+			},
+			"security": {
+				"title": "Te akamouanga e te akarava",
+				"description": "Te au tuatua atu peer-to-peer i akahuriia, ka noo i to'ou tu'atu'a ei mou i te tukutuku. Ka rauka i te tāngata i te taparu i muri i tetai VPN no te akarava maata atu. Te akamou nei {project} i to'ou akamouanga mei tona akamataanga."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ka rauka te software no te Windows, Linux, e te macOS. Akarukea ki tetai ua atu platform e ana koe."
+			}
+		}
+	},
+	"download": {
+		"title": "Iki mai",
+		"description": "Rave i te {project} no to'ou platform. Te au mea i iki maira, e mea kore moni e te open source.",
+		"version": "Te taime nei: {version}",
+		"linkAlt": "Iki mai",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer no te {format}",
+			"package": "Package no te {format}",
+			"portableZip": "ZIP ka rauka i te apai",
+			"viewOnGithub": "Akara'i ki GitHub"
+		},
+		"macos": {
+			"title": "Tetai akakitenga maata no te au tāngata o te macOS:",
+			"intro": "Ka tāmou te macOS Gatekeeper i te au application kāre i tāmoua/notarizatia i iki maira mei te internet ma te {error}.",
+			"error": "\"kua tarevake, kāre e rauka i te akati'a\"",
+			"runCommand": "Te oti, kua iki mai i te DMG e te ZIP, na mua kia akati'a i te application, akarukea i teia komana i roto i te terminal:",
+			"exampleDmg": "Ei akarounga, na muri i te tāmou mei te DMG:",
+			"exampleZip": "E na muri i te akamarama i te ZIP:",
+			"explanation": "E ka takore teia i te attribute o te quarantine e ka tukutuku i te application kia akarukea."
+		}
+	},
+	"screenshots": {
+		"title": "Tutu mata uira",
+		"open": "Akati'a i te tutu mata uira {index}",
+		"alt": "Tutu mata uira {index}",
+		"close": "Akati'a i te gallery",
+		"prev": "Tutu mua",
+		"next": "Tutu i muri"
+	},
+	"comparison": {
+		"title": "Akaakaitearaanga",
+		"feature": "Tuanga",
+		"yes": "Ae",
+		"no": "Kare",
+		"partialDht": "Apa (DHT)",
+		"rows": {
+			"decentralized": "Network decentralized",
+			"onlineLibrary": "Whare pukapuka i runga i te internet",
+			"builtInSearch": "Akakimi i akamatatia",
+			"decentralizedSearch": "Akakimi decentralized",
+			"parallelDownloads": "Iki mai parareira mei te au sources",
+			"mediaCenter": "Interface o te media center",
+			"gamepad": "Tauturu o te gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tuatua atu",
+		"getInTouch": "Tuatua mai",
+		"links": {
+			"telegramChat": "Group tuatua o Telegram",
+			"telegramAnnouncements": "Akakitenga o Telegram",
+			"facebook": "Group o Facebook"
+		}
+	},
+	"footer": {
+		"by": "I akamatatia e"
+	}
+}

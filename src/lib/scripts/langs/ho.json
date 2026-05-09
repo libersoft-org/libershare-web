@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Hereva Henanadai Decentralized File Hahebou",
+		"description": "{project} be peer-to-peer software file hahebou, modern decentralized technology dekenai e karaia.",
+		"ogTitle": "{project} - Software Decentralized File Hahebou",
+		"ogDescription": "Peer-to-peer file hahebou modern decentralized technology dekenai e karaia. Server tamona lasi. Tamona kavakavana dika diba lasi."
+	},
+	"menu": {
+		"about": "Hereva",
+		"download": "Abia diho",
+		"screenshots": "Screen laulaudia",
+		"comparison": "Hahebadalaia",
+		"contact": "Hereva henia",
+		"toggle": "Menu kehoa",
+		"close": "Menu koua",
+		"language": "Gado",
+		"selectLanguage": "Gado abia"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer file hahebou matamatana",
+		"description": "Modern decentralized technology dekenai e karaia. Server tamona lasi. Tamona kavakavana dika diba lasi.",
+		"download": "Abia diho"
+	},
+	"about": {
+		"title": "Hereva",
+		"intro": "{project} be matamatana platform peer-to-peer file hahebou, modern decentralized technology dekenai e karaia. Ia hahebou interface auka be raka decentralized architecture, e gwau file hahebou be namo bona namba server tamona lasi. Inai project be open source, {license} dekenai e tore.",
+		"features": {
+			"decentralized": {
+				"title": "Decentralized network ibounai",
+				"description": "Server tamona lasi, tamona kavakavana dika diba lasi. Taudia ese davaria bona abia diho hereva direct ta ta amo, index tamona, tracker eiava database lasi."
+			},
+			"accessControl": {
+				"title": "Maino keko hereva",
+				"description": "Tau ibounai ese sibona network e karaia diba sibona taravatu danu, davana lasi. Network ibounai dekenai, taudia roledia: biaguna, administrator, hahedinarai, moderator, bona murimuri tau. Oi maino keko hereva daika ese hahedinarai, moderate bona abia diho hereva e karaia diba."
+			},
+			"ui": {
+				"title": "Namo herea interface",
+				"description": "Goeva bona haraga media center interface, desktop, televise bona mobile platforms dekenai e karaia. Auka raka keyboard, mouse, gamepad eiava remote control dekenai. Diba bada taudia ese software headless data server e karaia diba command-line interface dekenai."
+			},
+			"dataFormat": {
+				"title": "Tau e duahia diba data format",
+				"description": "LISH data format be JSON dekenai e karaia, e karaia auka, duahia bona dibaia. Hahebou hereva e gwau bona kemegumegu metadata, tau ibounai ese auka itadiba."
+			},
+			"security": {
+				"title": "Hunia bona namo",
+				"description": "Peer-to-peer hereva ibounai be encrypted, e gwau hereva be hunia transit dekenai. Taudia ese VPN murimurinai e hunia diba. {project} ese oiemu hunia e raraia design dekenai."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software be Windows, Linux bona macOS dekenai. Platform oi ura herea dekenai gaukara."
+			}
+		}
+	},
+	"download": {
+		"title": "Abia diho",
+		"description": "{project} oiemu platform abia. Abia diho ibounai be davana lasi bona open source.",
+		"version": "Hari version: {version}",
+		"linkAlt": "Abia diho",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "ZIP huaia diba",
+			"viewOnGithub": "GitHub itaia"
+		},
+		"macos": {
+			"title": "Hereva badana macOS taudia:",
+			"intro": "macOS Gatekeeper applications signed/notarized lasi internet amo abia diho be {error} dekenai e koua.",
+			"error": "\"e dika, kehoa lasi\"",
+			"runCommand": "DMG eiava ZIP abia diho murinai, application kehoa gunalaia, inai command terminal dekenai gaukara:",
+			"exampleDmg": "Hegeregere, install DMG amo murinai:",
+			"exampleZip": "Eiava ZIP kehoa murinai:",
+			"explanation": "Inai ese quarantine attribute e abia oho bona application e raraia raka."
+		}
+	},
+	"screenshots": {
+		"title": "Screen laulaudia",
+		"open": "Screen laulauna {index} kehoa",
+		"alt": "Screen laulauna {index}",
+		"close": "Gallery koua",
+		"prev": "Laulau gunalaia",
+		"next": "Laulau murinai"
+	},
+	"comparison": {
+		"title": "Hahebadalaia",
+		"feature": "Kara",
+		"yes": "Oibe",
+		"no": "Lasi",
+		"partialDht": "Tamona kahana (DHT)",
+		"rows": {
+			"decentralized": "Decentralized network",
+			"onlineLibrary": "Library internet dekenai",
+			"builtInSearch": "Tahua karaia",
+			"decentralizedSearch": "Decentralized tahua",
+			"parallelDownloads": "Sources momo amo abia diho",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad heduru",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hereva henia",
+		"getInTouch": "Hereva henia mai",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram hereva",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "E karaia"
+	}
+}

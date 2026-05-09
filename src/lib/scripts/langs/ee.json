@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mawudede nuwo nadana",
+		"description": "{project} nye peer-to-peer nudede nuwo si wotu kple decentralized mɔnu yeyewo dzi.",
+		"ogTitle": "{project} - Mawudede nudede nuwo dɔwɔnu",
+		"ogDescription": "Peer-to-peer nudede nuwo si wotu kple decentralized mɔnu yeyewo dzi. Server titina aɖeke meli o. Gbeɖoɖoanyi ɖeka aɖeke meli o."
+	},
+	"menu": {
+		"about": "Tso eŋu",
+		"download": "Ɖe agbalẽa",
+		"screenshots": "Foto",
+		"comparison": "Sɔsrɔ̃",
+		"contact": "Kadodo",
+		"toggle": "Ʋu menu",
+		"close": "Tu menu",
+		"language": "Gbe",
+		"selectLanguage": "Tia gbe"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer nudede nuwo ƒe dzidzime yeye",
+		"description": "Wotu kple decentralized mɔnu yeyewo dzi. Server titina aɖeke meli o. Gbeɖoɖoanyi ɖeka aɖeke meli o.",
+		"download": "Ɖe agbalẽa"
+	},
+	"about": {
+		"title": "Tso eŋu",
+		"intro": "{project} nye dzidzime yeye ƒe peer-to-peer nudede nuwo dɔwɔnu si wotu kple decentralized mɔnu yeyewo dzi. Eblea zazã bɔbɔe kple decentralized ɖoɖo blibo nu, eye wòkpɔa egbɔ be wotsɔa nudede nuwo dedea ɖe edzi kple kakaɖedzi evɔ titina ƒe ŋusẽ aɖeke mahiã o. Dɔwɔnu sia nye open source, woɖe egome le {license} te.",
+		"features": {
+			"decentralized": {
+				"title": "Decentralized network blibo",
+				"description": "Server titina aɖeke meli o, gbeɖoɖoanyi ɖeka aɖeke meli o. Zãlawo dia nudzɔdzɔwo eye woɖea wo tẽ tso wo nɔewo gbɔ, evɔ titina ƒe nuŋlɔɖi, tracker alo database aɖeke mahiã o."
+			},
+			"accessControl": {
+				"title": "Mɔɖoɖo si wotrɔna ɖe nudzɔdzɔ ŋu",
+				"description": "Ame sia ame ate ŋu atu eya ŋutɔ ƒe network kple eya ŋutɔ ƒe sewo femaxee. Le network ɖe sia ɖe me la, woɖo zãlawo ƒe ɖoɖowo: nutɔ, dɔdzikpɔla, nudzɔla, moderator kple kpɔla. Ènye ame si dzraa ɖoɖo ɖe ame siwo ate ŋu atsɔ nudzɔdzɔwo, alé ŋku ɖe wo ŋu eye woaɖe wo agbalẽa ŋu."
+			},
+			"ui": {
+				"title": "Zãzã si dze nyuie",
+				"description": "Media center zãzã si dza eye wòɖoa ŋkume na televizionwo, computer kple mobile mɔ̃wo. Tata bɔbɔe le keyboard, mouse, gamepad alo remote dzi. Zãla siwo ƒo nu sɔŋ la ate ŋu azã dɔwɔnua abe headless data server ene to command line zãzã me."
+			},
+			"dataFormat": {
+				"title": "Data ƒe nɔnɔme si amegbetɔ ate ŋu axlẽ",
+				"description": "LISH data ƒe nɔnɔme wotu kple JSON dzi, eye wònana wòle bɔbɔe be woawɔe, woaxlẽe eye woase egɔme. Tsɔ wò nudzɔdzɔwo dzra le metadata si dze nyuie eye wòle nutopaƒe me, esi ame sia ame ate ŋu akpɔe."
+			},
+			"security": {
+				"title": "Bebenu kple dedienɔnɔ",
+				"description": "Wotsɔ peer-to-peer ƒomedodowo katã ɣla, esi nana wò data nye bebenu nu le ɖoɖo me. Zãlawo ate ŋu azã VPN tsɔ aɣla wo ɖokuiwo geɖe wu. {project} dea bubu wò bebenu ŋu tso eƒe wɔwɔ me."
+			},
+			"crossPlatform": {
+				"title": "Mɔ vovovowo dzi zazã",
+				"description": "Dɔwɔnua li na Windows, Linux kple macOS. Zãe le mɔ ɖe sia ɖe si nèlɔ̃ dzi."
+			}
+		}
+	},
+	"download": {
+		"title": "Ɖe agbalẽa",
+		"description": "Xɔ {project} na wò mɔ. Ɖeɖe ɖe sia ɖe nye femaxee eye wònye open source.",
+		"version": "Vɔvɔ fifia: {version}",
+		"linkAlt": "Ɖe agbalẽa",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} dadanu",
+			"package": "{format} kpado",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Kpɔ le GitHub"
+		},
+		"macos": {
+			"title": "Nyatakaka vevi na macOS zãlawo:",
+			"intro": "macOS Gatekeeper axe mɔ na app siwo wometsɔ asikee o si woɖe le internet la kple {error} ƒe vodada.",
+			"error": "\"egblẽ, mate ŋu aʋui o\"",
+			"runCommand": "Esi nèɖe DMG alo ZIP la, hafi nàʋu app la, zã command sia le terminal me:",
+			"exampleDmg": "Le kpɔɖeŋu me, ne èda tso DMG me:",
+			"exampleZip": "Alo ne èʋu ZIP la:",
+			"explanation": "Esia ɖea quarantine attribute la ɖa eye wònana app la nate ŋu adze dɔ wɔwɔ gɔme."
+		}
+	},
+	"screenshots": {
+		"title": "Foto",
+		"open": "Ʋu foto {index}",
+		"alt": "Foto {index}",
+		"close": "Tu nɔnɔmetatawo",
+		"prev": "Foto si do ŋgɔ",
+		"next": "Foto si kplɔe ɖo"
+	},
+	"comparison": {
+		"title": "Sɔsrɔ̃",
+		"feature": "Nɔnɔme",
+		"yes": "Ɛ̃",
+		"no": "Ao",
+		"partialDht": "Akpa aɖe (DHT)",
+		"rows": {
+			"decentralized": "Decentralized network",
+			"onlineLibrary": "Online agbalẽdzraɖoƒe",
+			"builtInSearch": "Nudidi si le eme xoxo",
+			"decentralizedSearch": "Decentralized nudidi",
+			"parallelDownloads": "Ɖeɖe geɖewo tso teƒe geɖewo",
+			"mediaCenter": "Media center zãzã",
+			"gamepad": "Gamepad kpekpeɖeŋu",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kadodo",
+		"getInTouch": "Do ka",
+		"links": {
+			"telegramChat": "Telegram dzeɖoƒe",
+			"telegramAnnouncements": "Telegram nyatakaka",
+			"facebook": "Facebook ƒuƒoƒo"
+		}
+	},
+	"footer": {
+		"by": "Wotui ƒe"
+	}
+}

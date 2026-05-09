@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Sankayan a si fati ka nooru ka kar",
+		"description": "{project} ya peer-to-peer sankayan a si fati nya ka tonton bondoy yereyere taarey gaa.",
+		"ogTitle": "{project} - Sankayan a si fati ka nooru ka kar nya",
+		"ogDescription": "Peer-to-peer sankayan a si fati ka tonton bondoy yereyere taarey gaa. Server ize si no. Naane folla kaŋ ga hasara si no."
+	},
+	"menu": {
+		"about": "A boŋ",
+		"download": "Zumandi",
+		"screenshots": "Foto",
+		"comparison": "Senseni",
+		"contact": "Diraw",
+		"toggle": "Menu fiti",
+		"close": "Menu daabu",
+		"language": "Sanni",
+		"selectLanguage": "Sanni suuban"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer sankayan zamana taji",
+		"description": "Ka tonton bondoy yereyere taarey gaa. Server ize si no. Naane folla kaŋ ga hasara si no.",
+		"download": "Zumandi"
+	},
+	"about": {
+		"title": "A boŋ",
+		"intro": "{project} ya zamana taji peer-to-peer sankayan tonton, kaŋ ga tonton bondoy yereyere taarey gaa. A ga goy ga sambu nooyaŋ ga laaba kayna nda fati nya kaŋ si fati ka kar a kulu, ga teeyandi kaŋ sankayan goyey ga kayna nda goy ga laaba si fati no kaŋ ga sanno koy. Goy wone ya open source no, kaŋ wofu {license} cire.",
+		"features": {
+			"decentralized": {
+				"title": "Sare kulu si fati ka kar",
+				"description": "Server ize si no, naane folla kaŋ ga hasara si no. Goyzey ga jine bara nda nooru sankay tan ngey nda care game ra, ga si laakal daŋ index ize, tracker walaa database boŋ."
+			},
+			"accessControl": {
+				"title": "Cabi gaay kayna",
+				"description": "Boro kulu ga hin nga boŋ sare tee nda nga boŋ asariyey ka mana hayyaŋ. Sare kulu ra, goyzey nyaŋey go: nooru koy, hizu, taanandiko, hin sankayko, ga ka galmandiko. Ni ga boro kaŋ ga hin ka nooru taanandi, ga sankaykoy daŋ ga zumandi ka cabi-cabi tee."
+			},
+			"ui": {
+				"title": "Goyze cabi sumey beeri",
+				"description": "Mediakpaay cabi kaŋ ga jin ga ga laaba bondoy taji nda taasenoŋ kaarukaarey, televizionyo nda telephone-yo se. Cabi-cabi gaa kayna nda kibordi, suuru, gamepad walaa diraw teebandiko. Goyze beerey ga hin ka goy zumbu mate kaŋ headless data server kommandiko cabi gaa."
+			},
+			"dataFormat": {
+				"title": "Sankay alboro ga hin ka caw",
+				"description": "LISH sankay heeyandiyaŋey ga tonton JSON gaa, kaŋ ga te a kayna ka tee, ka caw ga ka faham. Ni nooru sankay nda metadata kaayniyaŋ kaŋ boro kulu ga hin ka cabi."
+			},
+			"security": {
+				"title": "Boŋ tugu nda baani",
+				"description": "Peer-to-peer ifo-ifo kulu ga tugu, kaŋ ga teeyandi ni sankayey ga goro tugu boŋ ka diraw. Goyzey ga hin ka tugu VPN banda ga boŋ tugu se. {project} ga ni boŋ tugu sambu nga taasenoŋ ra."
+			},
+			"crossPlatform": {
+				"title": "Bondoy taji kulu boŋ",
+				"description": "Goy ga goro Windows, Linux nda macOS se. A goy bondoy kaŋ ni ga ba boŋ."
+			}
+		}
+	},
+	"download": {
+		"title": "Zumandi",
+		"description": "{project} sambu ni bondoy se. Zumandi kulu mana hayyaŋ no nda open source no.",
+		"version": "Wahay sohõ: {version}",
+		"linkAlt": "Zumandi",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} sinjikoy",
+			"package": "{format} paket",
+			"portableZip": "ZIP sambu-sambu",
+			"viewOnGithub": "Guna GitHub gaa"
+		},
+		"macos": {
+			"title": "Bayrandi hima macOS goyzey se:",
+			"intro": "macOS Gatekeeper ga goyey kaŋ si signé walaa notarisé kaŋ i zumandi internet ra daabu nda {error} taali.",
+			"error": "\"a hasara, a si hin ka fiti\"",
+			"runCommand": "Saaya kaŋ ni DMG walaa ZIP zumandi, za ni si goy fiti, kommandi wone goy terminal ra:",
+			"exampleDmg": "Misal se, saaya kaŋ ni sinji DMG ra:",
+			"exampleZip": "Walaa saaya kaŋ ni ZIP fee:",
+			"explanation": "Wone ga quarantine taarewey kaa ka goy daŋ ga goy."
+		}
+	},
+	"screenshots": {
+		"title": "Foto",
+		"open": "Foto {index} fiti",
+		"alt": "Foto {index}",
+		"close": "Galerie daabu",
+		"prev": "Foto jine",
+		"next": "Foto banda"
+	},
+	"comparison": {
+		"title": "Senseni",
+		"feature": "Hima",
+		"yes": "Aha",
+		"no": "Manti",
+		"partialDht": "Jare (DHT)",
+		"rows": {
+			"decentralized": "Sare si fati ka kar",
+			"onlineLibrary": "Tirandi internet ra",
+			"builtInSearch": "Goro ceeci",
+			"decentralizedSearch": "Goro ceeci si fati ka kar",
+			"parallelDownloads": "Zumandi-zumandi naane mooru-mooro ra",
+			"mediaCenter": "Mediakpaay cabi",
+			"gamepad": "Gamepad gaakasinay",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Diraw",
+		"getInTouch": "Diraw daŋ",
+		"links": {
+			"telegramChat": "Telegram xabar",
+			"telegramAnnouncements": "Telegram bayrandi",
+			"facebook": "Facebook marga"
+		}
+	},
+	"footer": {
+		"by": "A te"
+	}
+}

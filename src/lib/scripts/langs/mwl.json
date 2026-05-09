@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cumpartilha de Ficheiros Decentralizada",
+		"description": "{project} ye un software peer-to-peer pa cumpartilha de ficheiros, custruído subre tecnologie moderna decentralizada.",
+		"ogTitle": "{project} - Software de Cumpartilha de Ficheiros Decentralizada",
+		"ogDescription": "Cumpartilha de ficheiros peer-to-peer custruída subre tecnologie moderna decentralizada. Nun haba serbidor central. Nun haba un solo punto que pode falhar."
+	},
+	"menu": {
+		"about": "Subre",
+		"download": "Çcarregar",
+		"screenshots": "Eimáiges de la pantalha",
+		"comparison": "Cumparaçon",
+		"contact": "Cuntato",
+		"toggle": "Abrir menu",
+		"close": "Cerrar menu",
+		"language": "Lhéngua",
+		"selectLanguage": "Çcolher lhéngua"
+	},
+	"hero": {
+		"subtitle": "Cumpartilha de ficheiros peer-to-peer de la próssima geraçon",
+		"description": "Custruída subre tecnologie moderna decentralizada. Nun haba serbidor central. Nun haba un solo punto que pode falhar.",
+		"download": "Çcarregar"
+	},
+	"about": {
+		"title": "Subre",
+		"intro": "{project} ye ua plataforma de la próssima geraçon pa cumpartilha de ficheiros peer-to-peer, custruída subre tecnologie moderna decentralizada. Cumbina ua interface fácele de usar cun ua arquitectura totalmente decentralizada, garantindo cumpartilha de ficheiros segura i de cunfiança sin necidade dua outoridade central. Este porjeto ye open source, lançado sob la {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rede totalmente decentralizada",
+				"description": "Nun haba serbidor central, nun haba un solo punto que pode falhar. Ls usuairos ancuontran i çcarregan cuntenido direitamente uns de ls outros, sin se apoiar nun índice central, rastreador ó base de dados."
+			},
+			"accessControl": {
+				"title": "Cuntrolo de acesso pormenorizado",
+				"description": "Qualquiera pessona pode custruir la sue própia rede cun las sues própias regras de borla. Drento de cada rede, ls papéis de ls usuairos son definidos: dono, administrador, eiditor, moderador i siguidor. Tu tenes cuntrolo pormenorizado subre quien pode publicar, moderar i çcarregar cuntenido."
+			},
+			"ui": {
+				"title": "Interface de eilebada qualidade",
+				"description": "Ua interface lhimpa i reactiba de cintro de meios, çponhada pa plataformas de scritório, telebison i móbeles. Nabegaçon fácele cun teclado, rato, gamepad ó cumando remoto. Ls usuairos abançados puoden eisecutar l software cumo serbidor de dados sin cabeça atrabeç de la interface de lhinha de cumandos."
+			},
+			"dataFormat": {
+				"title": "Formato de dados lhegible por houmano",
+				"description": "L formato de dados LISH ye custruído subre JSON, l que l torna fácele de criar, lher i antender. Cumpartilha l tou cuntenido cun metadados claros i transparentes, que qualquiera pessona pode berificar facilmente."
+			},
+			"security": {
+				"title": "Pribaçidade i segurança",
+				"description": "Todas las quemunicaçones peer-to-peer son criptografadas, garantindo que ls tous dados se mantengan pribados an trânsito. Ls usuairos puoden se scunder atrás dua VPN pa mais anonimato. {project} respeita la tue pribaçidade por çponho."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "L software stá çponible pa Windows, Linux i macOS. Usa-lo na plataforma que percisas."
+			}
+		}
+	},
+	"download": {
+		"title": "Çcarregar",
+		"description": "Oubtén {project} pa la tue plataforma. Todos ls çcarregos son grátis i open source.",
+		"version": "Berson atual: {version}",
+		"linkAlt": "Çcarregar",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Anstalador {format}",
+			"package": "Pacote {format}",
+			"portableZip": "ZIP portátil",
+			"viewOnGithub": "Ber ne l GitHub"
+		},
+		"macos": {
+			"title": "Anformaçon amportante pa ls usuairos de macOS:",
+			"intro": "L macOS Gatekeeper bai bloquear aplicaçones nun assinadas/nun autenticadas çcarregadas de la anternete cun un erro {error}.",
+			"error": "\"stá strapaçada, nun pode ser abierta\"",
+			"runCommand": "Apuis de çcarregar l DMG ó ZIP, antes de abrir la aplicaçon, eisecuta este cumando ne l terminal:",
+			"exampleDmg": "Por sjemplo, apuis de la anstalaçon de DMG:",
+			"exampleZip": "Ó apuis de extrair l ZIP:",
+			"explanation": "Esto bai retirar l atributo de quaranteno i premitir la eisecuçon de la aplicaçon."
+		}
+	},
+	"screenshots": {
+		"title": "Eimáiges de la pantalha",
+		"open": "Abrir eimaige de la pantalha {index}",
+		"alt": "Eimaige de la pantalha {index}",
+		"close": "Cerrar la galerie",
+		"prev": "Eimaige anterior",
+		"next": "Próssima eimaige"
+	},
+	"comparison": {
+		"title": "Cumparaçon",
+		"feature": "Caraterística",
+		"yes": "Si",
+		"no": "Nó",
+		"partialDht": "Parcial (DHT)",
+		"rows": {
+			"decentralized": "Rede decentralizada",
+			"onlineLibrary": "Biblioteca an lhinha",
+			"builtInSearch": "Pesquisa de cuntenido anteber",
+			"decentralizedSearch": "Pesquisa de cuntenido decentralizada",
+			"parallelDownloads": "Çcarregos paralelos de bárias fuontes",
+			"mediaCenter": "Interface de cintro de meios",
+			"gamepad": "Suporte de gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Cuntato",
+		"getInTouch": "Cuntatar-mos",
+		"links": {
+			"telegramChat": "Grupo de cumbersa de l Telegram",
+			"telegramAnnouncements": "Anúncios de l Telegram",
+			"facebook": "Grupo de l Facebook"
+		}
+	},
+	"footer": {
+		"by": "Feito por"
+	}
+}

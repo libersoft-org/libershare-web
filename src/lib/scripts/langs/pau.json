@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Otukliil a Decentralized el Omkar el Files",
+		"description": "{project} a peer-to-peer software el kirel a omkar el files, ngara mlo merechorech ra modern decentralized technology.",
+		"ogTitle": "{project} - Software el Decentralized el Omkar el Files",
+		"ogDescription": "Peer-to-peer omkar el files el ngara mlo merechorech ra modern decentralized technology. Diak a central server. Diak a tang el blil a omeleseb."
+	},
+	"menu": {
+		"about": "Kirel",
+		"download": "Mengai",
+		"screenshots": "Screenshots",
+		"comparison": "Otkangiil",
+		"contact": "Toulekoi",
+		"toggle": "Mngitechut menu",
+		"close": "Mongdubech menu",
+		"language": "Tekoi",
+		"selectLanguage": "Mngilt a tekoi"
+	},
+	"hero": {
+		"subtitle": "A merreder el peer-to-peer omkar el files",
+		"description": "Ngara mlo merechorech ra modern decentralized technology. Diak a central server. Diak a tang el blil a omeleseb.",
+		"download": "Mengai"
+	},
+	"about": {
+		"title": "Kirel",
+		"intro": "{project} a merreder el platform er a peer-to-peer omkar el files, el ngara mlo merechorech ra modern decentralized technology. Ng melatk a beot el interface me a klou el decentralized architecture, el meketmokl a beot e melemalt el omkar el files el diak a osisiu er a central authority. Tia el project a open source, el mlo techelbe ra {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Klou el decentralized network",
+				"description": "Diak a central server, diak a tang el blil a omeleseb. A re lousbech a chad a metik e mengai a klalo er a delobech er a re lousbech, el diak el lokmesumerang ra central index, tracker, me a database."
+			},
+			"accessControl": {
+				"title": "Klisiich el omes ra olcholt",
+				"description": "A bek el chad a sebechel mocheraol a beklatkel network el ngii el blil a beklatkel rules el diak a klalo. Ra di ng kingall el network, a chiluis el lousbech a chad a mle merreder: a re ngara medad, administrator, lurrenges, moderator, e te oltobed. Kebelekemiu el klisiich el omes ra ngara seraol el lurrenges, moderate, e mengai a klalo."
+			},
+			"ui": {
+				"title": "Ungil el interface",
+				"description": "Beches e mecherrang el media center interface, el mlo merreder ra desktop, TV, me a mobile platforms. Beot el omkereomel ra keyboard, mouse, gamepad, me a remote. A re kau el lousbech a sebechir el oltobed a software el ua headless data server ra command-line interface."
+			},
+			"dataFormat": {
+				"title": "Data format el sebechel a chad el meses",
+				"description": "A LISH data format a mlo merechorech ra JSON, el meketmokl er a beot el omekoiei, omeses, e omdullkleng. Mengai e omkar er a klalom el ngara klemerang me ungil el metadata, el bek el chad a sebechel oba el omes."
+			},
+			"security": {
+				"title": "Kelldukl me a klisiich",
+				"description": "A rokui el peer-to-peer omdullkleng a encrypted, el meketmokl el dataam a mlo kelldukl ra transit. A re lousbech a sebechir mongerodech er a uriul ra VPN ra klou el klisiich. {project} a oltobed a kelldukl er kau ra dam el design."
+			},
+			"crossPlatform": {
+				"title": "Bek el platform",
+				"description": "Ng kall a software ra Windows, Linux, me a macOS. Mngitechur ra ngara seraol el platform el sokerir."
+			}
+		}
+	},
+	"download": {
+		"title": "Mengai",
+		"description": "Mngai er {project} ra blim el platform. A rokui el omkar a diak a klalo me ng open source.",
+		"version": "Tia el version: {version}",
+		"linkAlt": "Mengai",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer er a {format}",
+			"package": "Package er a {format}",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Mes ra GitHub"
+		},
+		"macos": {
+			"title": "Klou el klalo el kirel a re lousbech ra macOS:",
+			"intro": "macOS Gatekeeper a mlo melibech ra applications el diak a signed/notarized el mlo nguu ra internet ma {error} el klikiid.",
+			"error": "\"a mlechelebed, ng diak el sebechel mengitechut\"",
+			"runCommand": "Uriul a omeruul ra DMG me a ZIP, uche el mongitechut ra application, melai tia el command ra terminal:",
+			"exampleDmg": "El ngalek, uriul a install ra DMG:",
+			"exampleZip": "Me a uriul a omtebed ra ZIP:",
+			"explanation": "Tia a mengai a quarantine attribute me ng meleluches ra application el rokui."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshots",
+		"open": "Mngitechut a screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Mongdubech gallery",
+		"prev": "A mededaol el image",
+		"next": "A medad el image"
+	},
+	"comparison": {
+		"title": "Otkangiil",
+		"feature": "Tekoi",
+		"yes": "Choi",
+		"no": "Diak",
+		"partialDht": "Diak el rokui (DHT)",
+		"rows": {
+			"decentralized": "Decentralized network",
+			"onlineLibrary": "Online library",
+			"builtInSearch": "Built-in el ousmeses",
+			"decentralizedSearch": "Decentralized el ousmeses",
+			"parallelDownloads": "Klou el omkar er a klou el sources",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad omsisiich",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Toulekoi",
+		"getInTouch": "Toulekoi",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram el messages",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Mlo merechorech ra"
+	}
+}

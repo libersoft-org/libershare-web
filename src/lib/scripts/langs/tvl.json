@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Te Fakatasi o Faila Faka-Decentralized",
+		"description": "{project} se peer-to-peer software ki te fakatasi o faila, ne fakatu i luga i te tekonolosi modern decentralized.",
+		"ogTitle": "{project} - Software ki te Fakatasi o Faila Faka-Decentralized",
+		"ogDescription": "Te fakatasi o faila peer-to-peer ne fakatu i luga i te tekonolosi modern decentralized. E seai se server tukufakatasi. E seai se tasi tulafono e mafai o pala."
+	},
+	"menu": {
+		"about": "E uiga ki",
+		"download": "Sisi mai",
+		"screenshots": "Ata o te mata",
+		"comparison": "Te fakatusatusaaga",
+		"contact": "Te fakafesootaiga",
+		"toggle": "Tatala te menu",
+		"close": "Pono te menu",
+		"language": "Te gana",
+		"selectLanguage": "Filifili te gana"
+	},
+	"hero": {
+		"subtitle": "Te fakatasi o faila peer-to-peer fou",
+		"description": "Ne fakatu i luga i te tekonolosi modern decentralized. E seai se server tukufakatasi. E seai se tasi tulafono e mafai o pala.",
+		"download": "Sisi mai"
+	},
+	"about": {
+		"title": "E uiga ki",
+		"intro": "{project} se platform fou ki te fakatasi o faila peer-to-peer, ne fakatu i luga i te tekonolosi modern decentralized. E fakatasi se interface faigofie ki se architecture decentralized atoa, e fakamautinoa te fakatasi o faila e saogalemu kae mafai o talitonu i ei e seai se manakoga ki se pulega tukufakatasi. Te galuega tenei se open source, ne tuku atu i lalo o te {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Te netiueka decentralized atoa",
+				"description": "E seai se server tukufakatasi, e seai se tasi tulafono e mafai o pala. E maua kae sisi mai ne tagata fakaaoga te tulaga tonu mai te tasi ki te isi, e seai se talitonuga ki se index tukufakatasi, tracker, io me se database."
+			},
+			"accessControl": {
+				"title": "Te pulega faka-fakatasi",
+				"description": "E mafai e nisi tagata o fakatu tana netiueka tonu mo ana tulafono tonu fakatasi. I loto i te netiueka takitasi, ko tulaga o tagata fakaaoga e fakamatala mai: te pule, te administrator, te tagata fakasalalau, te moderator, mo te tagata mulimuli. E maua e koe se pulega faka-fakatasi i ai ko se tagata e mafai o fakasalalau, moderate, mo o sisi mai te tulaga."
+			},
+			"ui": {
+				"title": "Se interface lelei",
+				"description": "Se interface mama mo tonuga vave o te media center, ne fakatu mo desktop, televise, mo mobile platforms. E faigofie te seleseleaga i te keyboard, ratoura, gamepad, io me te puleaga mamao. E mafai e tagata fakaaoga maualuluga o fakaaoga te software pelā mo se headless server o tulaga ki te command-line interface."
+			},
+			"dataFormat": {
+				"title": "Te tulaga o tulaga e mafai e te tagata o faitau",
+				"description": "Te tulaga LISH ne fakatu i luga o JSON, e fakaufamoesega o fakatu, faitau, mo malamalama. Fakatasi atu te tulaga o koe ki metadata mama mo manino, e mafai e nisi tagata o silasila lelei."
+			},
+			"security": {
+				"title": "Te tonuga mo te saogalemu",
+				"description": "Ko fakafesootaiga peer-to-peer katoa e encrypted, e fakamautinoa te tulaga o koe e tonu i te tulaga o te alualu. E mafai e tagata fakaaoga o lafi i tafatafa o se VPN ki te anonymity malosi atu. {project} e fakatauloto atu te tonuga ona mai tana fakatuga."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Te software e maua mo Windows, Linux, mo macOS. Fakaaoga i te platform e manako koe."
+			}
+		}
+	},
+	"download": {
+		"title": "Sisi mai",
+		"description": "Maua {project} mo to platform. Ko sisi mai katoa e seai se totogi mo open source.",
+		"version": "Te version i te taimi nei: {version}",
+		"linkAlt": "Sisi mai",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Te installer mo {format}",
+			"package": "Te package mo {format}",
+			"portableZip": "Te ZIP e mafai e ave",
+			"viewOnGithub": "Silasila i GitHub"
+		},
+		"macos": {
+			"title": "Faaiga taua ki tagata fakaaoga o macOS:",
+			"intro": "macOS Gatekeeper o pono nisi applications e seai se signed/notarized e sisi mai te internet ma se sese {error}.",
+			"error": "\"e malu, e seai se mafai o tatala\"",
+			"runCommand": "I luga o te taimi e oti ai te sisi mai o te DMG io me te ZIP, mua atu o tatala te application, fakaaoga te command lenei i loto o te terminal:",
+			"exampleDmg": "Pelā mo, i luga o te oti o te install mai te DMG:",
+			"exampleZip": "Io me i luga o te oti o te tatala o te ZIP:",
+			"explanation": "Tenei o ave te attribute o te quarantine mo o tuku te application o gaoioi."
+		}
+	},
+	"screenshots": {
+		"title": "Ata o te mata",
+		"open": "Tatala te ata o te mata {index}",
+		"alt": "Te ata o te mata {index}",
+		"close": "Pono te gallery",
+		"prev": "Te ata mua",
+		"next": "Te ata mai luga"
+	},
+	"comparison": {
+		"title": "Te fakatusatusaaga",
+		"feature": "Te tulaga",
+		"yes": "Ioe",
+		"no": "Ikai",
+		"partialDht": "Tasi vaega (DHT)",
+		"rows": {
+			"decentralized": "Te netiueka decentralized",
+			"onlineLibrary": "Te falepukapuka i internet",
+			"builtInSearch": "Te sukesukega ne fakatu",
+			"decentralizedSearch": "Te sukesukega decentralized",
+			"parallelDownloads": "Sisi mai vave mai nisi sources",
+			"mediaCenter": "Interface o te media center",
+			"gamepad": "Te lagolago o te gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Te fakafesootaiga",
+		"getInTouch": "Fakafesootai mai",
+		"links": {
+			"telegramChat": "Te kupu Telegram",
+			"telegramAnnouncements": "Te talaaga o Telegram",
+			"facebook": "Te kupu Facebook"
+		}
+	},
+	"footer": {
+		"by": "Ne faia ne"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - T'áá Hahgo Naaltsoos Ałhił Yiyiilé",
+		"description": "{project} éí peer-to-peer naaltsoos ałhił yiyiilé bee na'anish, t'áá hahgo náás iiná bee bidziilígíí bee ályaa.",
+		"ogTitle": "{project} - T'áá Hahgo Naaltsoos Ałhił Yiyiilé Software",
+		"ogDescription": "Peer-to-peer naaltsoos ałhił yiyiilé t'áá hahgo náás iiná bee bidziilígíí bee ályaa. T'áá łá'í t'óó'ahjí naaltsoos áda'ałtsoí ádin. T'áá łá'í naaltsoos doo bíighah da."
+	},
+	"menu": {
+		"about": "Bídahojiil'į́",
+		"download": "Hadayiitkáá",
+		"screenshots": "E'e'aah binaaltsoos",
+		"comparison": "Ałhił ííshjání ályaa",
+		"contact": "Ahił Hodeezt'i'",
+		"toggle": "Áníléehgo dah si'ą́",
+		"close": "Áńdaalniih",
+		"language": "Saad",
+		"selectLanguage": "Saad nahániih"
+	},
+	"hero": {
+		"subtitle": "Hodínóołkahgo peer-to-peer naaltsoos ałhił yiyiilé",
+		"description": "T'áá hahgo náás iiná bee bidziilígíí bee ályaa. T'áá łá'í t'óó'ahjí naaltsoos áda'ałtsoí ádin. T'áá łá'í naaltsoos doo bíighah da.",
+		"download": "Hadayiitkáá"
+	},
+	"about": {
+		"title": "Bídahojiil'į́",
+		"intro": "{project} éí hodínóołkahgo platform peer-to-peer naaltsoos ałhił yiyiilé biniiyé, t'áá hahgo náás iiná bee bidziilígíí bee ályaa. Bee ee'ad'ahdee'ída'ł hadalk'aigo interface ałtso bee t'áá łá'í t'óó'ahjí ádeił architecture, naaltsoos ałhił yiyiilé bee yá'át'ééh dóó t'áá aaníí, t'áá łá'í t'óó'ahjí bee áda'ałtsoí biniiyé hólǫ́ǫ doolééł t'áadoo le'é. Díí na'anish éí open source, biniiyé {license} bee bee haz'ą́.",
+		"features": {
+			"decentralized": {
+				"title": "Ałtso t'áá łá'í t'óó'ahjí ádeił network",
+				"description": "T'áá łá'í t'óó'ahjí naaltsoos áda'ałtsoí ádin, t'áá łá'í naaltsoos doo bíighah da. Choo'į́ííyołii bee yiniikeed dóó hadayiitkáá content t'áá ałhił, t'áá łá'í t'óó'ahjí index, tracker, éí doodaii' database doo choo'į́į́ da."
+			},
+			"accessControl": {
+				"title": "Yá'át'éehígíí bee yikeedgo bee bidziilígíí",
+				"description": "T'áá ałtsoní bíighah hólǫ́ǫ network ts'ídá doo nahaltą'í da. T'áá ałtso network biyaa, choo'į́ííyołii bee biniiyé hólǫ́: yidáhólǫ́, administrator, naaltsoos baa nahideedlóii, moderator, dóó nayííłhį́ahíí. Yá'át'éehígíí bee bidziilígíí hólǫ́ haash naaltsoos baa nidaheedlóigo, moderate dóó hadayiitkáá."
+			},
+			"ui": {
+				"title": "Yá'át'éehígíí choo'į́ííyołii interface",
+				"description": "Łigai dóó haa'í'haadiitsihígíí media center interface, desktop, naaltsoos bee yiilkáad dóó iiyisíí dah ałníyél biniiyé ályaa. Doo nahaltą'í da bee ahił hodółnih keyboard, mouse, gamepad éí doodaii' control remoto bee. Naadiidáhígíí choo'į́ííyołii bíighah ályaago software headless data server bee command-line interface biká."
+			},
+			"dataFormat": {
+				"title": "Bee ółta'go data format",
+				"description": "LISH data format éí JSON bee ályaa, doo nahaltą'í da ályaago, ółta'go dóó bee yideeshtah. Naaltsoos baa nidaheedló nizhdoolnih t'áá éí dóó t'áá hodi'eeł metadata bee, t'áá ałtsoní bíighah hodínóot'į́į́."
+			},
+			"security": {
+				"title": "T'áá nił náániiniił dóó bee yá'át'éeh",
+				"description": "Ałtso peer-to-peer ahił hodółnih bee shilééh, naaltsoos t'áá nił náániiniił dóólááłii nił bee bidziilígíí. Choo'į́ííyołii VPN bee bíighah hólǫ́ǫ ts'ídá doo bíi'oolt'i da. {project} bee bóhólníihii t'áá nił náániiniił bee design."
+			},
+			"crossPlatform": {
+				"title": "Ałtso platforms biyi'",
+				"description": "Software éí Windows, Linux dóó macOS biyaa hólǫ́. Choo'į́ haash platform yá'át'ééh."
+			}
+		}
+	},
+	"download": {
+		"title": "Hadayiitkáá",
+		"description": "{project} ni platform biniiyé hadiitkáá. Ałtso hadiitkáá éí t'áadoo bááhílíní da dóó open source.",
+		"version": "Kohjį́' version: {version}",
+		"linkAlt": "Hadayiitkáá",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} ałtso ályaa",
+			"portableZip": "Bee yidáhólǫ́ ZIP",
+			"viewOnGithub": "GitHub bee deéz'į́"
+		},
+		"macos": {
+			"title": "T'áá ił bee yá'át'ééh macOS choo'į́ííyołii biniiyé:",
+			"intro": "macOS Gatekeeper applications doo bee bóhojił'į́ḧ da/doo notarized da hadiitkáágíí internet bee {error} bee biniiyé yidínóot'į́į́.",
+			"error": "\"k'ínáaslííd, doo nadidoolniił da\"",
+			"runCommand": "DMG éí doodaii' ZIP hadiitkáánę́ę́, doo applícation áníle'íí t'ah, díí command terminal biyaa naashné:",
+			"exampleDmg": "Naaltsoos t'áá hahgo, DMG bee installgo:",
+			"exampleZip": "Éí doodaii' ZIP haadayiit'aazhgo:",
+			"explanation": "Díí éí quarantine attribute halni'go bee application nayííł'á."
+		}
+	},
+	"screenshots": {
+		"title": "E'e'aah binaaltsoos",
+		"open": "E'e'aah binaaltsoos {index} áníléehgo",
+		"alt": "E'e'aah binaaltsoos {index}",
+		"close": "Gallery áńdaalniih",
+		"prev": "Naaltsoos t'óó áłch'ı́dí",
+		"next": "Naaltsoos hodínóołkahgo"
+	},
+	"comparison": {
+		"title": "Ałhił ííshjání ályaa",
+		"feature": "Bee ályaa",
+		"yes": "Aoo'",
+		"no": "Dooda",
+		"partialDht": "T'áá biyą́(DHT)",
+		"rows": {
+			"decentralized": "T'áá łá'í t'óó'ahjí ádeił network",
+			"onlineLibrary": "Internet bee naaltsoos baa hooghan",
+			"builtInSearch": "Bee ályaago hadeezt'i'",
+			"decentralizedSearch": "T'áá łá'í t'óó'ahjí ádeił hadeezt'i'",
+			"parallelDownloads": "Łahgóó hadiitkáá łahgóó t'óó'ahjí",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad bee bíká i'oolwoł",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Ahił Hodeezt'i'",
+		"getInTouch": "Ahił hodeezt'i'go",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram bee bóhojił'į́ḧ",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Áyiilaa"
+	}
+}

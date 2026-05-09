@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralized File Sem-tham",
+		"description": "{project} chu peer-to-peer file sem-thamna software, hmasawnna decentralized technology hmangin sak a ni.",
+		"ogTitle": "{project} - Decentralized File Sem-thamna Software",
+		"ogDescription": "Hmasawnna decentralized technology-a sak peer-to-peer file sem-thamna. Central server reng a awm lo. Failure point pakhat reng a awm lo."
+	},
+	"menu": {
+		"about": "Chungchang",
+		"download": "Download",
+		"screenshots": "Mitthla lakna",
+		"comparison": "Khaikhin",
+		"contact": "Inbiakna",
+		"toggle": "Menu hawng",
+		"close": "Menu khar",
+		"language": "Tawng",
+		"selectLanguage": "Tawng thlang"
+	},
+	"hero": {
+		"subtitle": "Lo lo turin peer-to-peer file sem-thamna",
+		"description": "Hmasawnna decentralized technology-a sak. Central server reng a awm lo. Failure point pakhat reng a awm lo.",
+		"download": "Download"
+	},
+	"about": {
+		"title": "Chungchang",
+		"intro": "{project} hi peer-to-peer file sem-thamna platform, lo lo turin hmasawnna decentralized technology-a sak a ni. User-tan tih awlsam interface chu architecture decentralized pumhlum nen a inkawpkhawm a, central authority a mamawh lova file sem-thamna himhim leh ringawm a tihtling. He project hi open source a ni a, {license} hnuaiah chhuah a ni.",
+		"features": {
+			"decentralized": {
+				"title": "Network decentralized pumhlum",
+				"description": "Central server a awm lo, failure point pakhat reng a awm lo. User-te chuan content chu mahni inkar lakah an hmu a, an download bawk a, central index, tracker, emaw database an mamawh lo."
+			},
+			"accessControl": {
+				"title": "Access control thuvelhna",
+				"description": "Tupawh chuan mahni network leh dan-ah a sak thei a, man pek tul lovin. Network tinah hian user role-te hi ruahmanh a ni: neitu, administrator, publisher, moderator leh nung lakawhtu. Tu pawhin content publish thei, moderate thei leh download thei tih chungchangah hian thuvelhna i nei."
+			},
+			"ui": {
+				"title": "Tha tak user interface",
+				"description": "Media center interface fai leh chhanlet thei tak, desktop, TV leh mobile platform-tan ruahman a ni. Keyboard, mouse, gamepad emaw remote control hmangin awlsam takin nawiawmin. User hriatthiam tak chuan command-line interface hmangin headless data server angin software hi an hman thei a ni."
+			},
+			"dataFormat": {
+				"title": "Mihring tan chhiar theih data format",
+				"description": "LISH data format hi JSON-a sak a ni a, siam, chhiar leh hriat awlsam a ni. I content chu metadata fai leh hmuh ngam taka sem ang che, tu pawhin awlsam taka enchhin ngam tur."
+			},
+			"security": {
+				"title": "Inbumna leh himna",
+				"description": "Peer-to-peer inbiaknate zawng zawng hi encrypt a ni a, i data hi transit-ah inbumna a ni reng tih a tihtling. User-ten anonymity thar zawk neih nan VPN-a inthup an thei. {project} chuan design atangin i inbumna a zah."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software hi Windows, Linux leh macOS-tan a awm. I duh ber platform-ah han hmang rawh."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "{project} chu i platform tan la rawh. Download zawng zawng hi free leh open source a ni.",
+		"version": "Tunlai version: {version}",
+		"linkAlt": "Download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Phurpui ZIP",
+			"viewOnGithub": "GitHub-ah en"
+		},
+		"macos": {
+			"title": "macOS user-te tan thu pawimawh:",
+			"intro": "macOS Gatekeeper chuan internet atanga download application sign/notarize loh-te chu {error} dik lo neia khap a ni.",
+			"error": "\"siatchhia a ni, hawng theih a ni lo\"",
+			"runCommand": "DMG emaw ZIP i download zawh hnu a, application i hawn hmain, terminal-ah hian he command hi run rawh:",
+			"exampleDmg": "Entirnan, DMG atanga install hnuah:",
+			"exampleZip": "A nih loh leh ZIP zip ke a chuah hnu ah:",
+			"explanation": "Hei hian quarantine attribute chu a la chhuah a, application chu run a phalsak thei dawn a ni."
+		}
+	},
+	"screenshots": {
+		"title": "Mitthla lakna",
+		"open": "Mitthla lakna {index} hawng",
+		"alt": "Mitthla lakna {index}",
+		"close": "Gallery khar",
+		"prev": "Hmaa mitthla",
+		"next": "A dawt mitthla"
+	},
+	"comparison": {
+		"title": "Khaikhin",
+		"feature": "Bik",
+		"yes": "Aw",
+		"no": "Aih",
+		"partialDht": "A chanve (DHT)",
+		"rows": {
+			"decentralized": "Network decentralized",
+			"onlineLibrary": "Online library",
+			"builtInSearch": "Content zawnna built-in",
+			"decentralizedSearch": "Decentralized content zawnna",
+			"parallelDownloads": "Hmun hrang hrang atanga parallel download",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad tanpuina",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Inbiakna",
+		"getInTouch": "Min biak rawh",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram puanchhuahna",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Sawmtu"
+	}
+}

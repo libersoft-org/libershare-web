@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Maya'on Tzelaj Tijonik Re Maxinik",
+		"description": "{project} jun peer-to-peer software re tzelaj tijonik maxinik, banatal pa k'ak'a' decentralized tijonik.",
+		"ogTitle": "{project} - Software re Tzelaj Tijonik Maxinik",
+		"ogDescription": "Peer-to-peer tzelaj tijonik banatal pa k'ak'a' decentralized tijonik. Maj jun centralized server. Maj jun b'inel xa kqaj."
+	},
+	"menu": {
+		"about": "Cho rij",
+		"download": "Q'asaj",
+		"screenshots": "Wachib'al ku'ek",
+		"comparison": "Junamaxik",
+		"contact": "Riq'ik",
+		"toggle": "Jaqi menu",
+		"close": "Tz'apij menu",
+		"language": "Ch'ab'al",
+		"selectLanguage": "Cha'o jun ch'ab'al"
+	},
+	"hero": {
+		"subtitle": "Petenaq peer-to-peer tzelaj tijonik maxinik",
+		"description": "Banatal pa k'ak'a' decentralized tijonik. Maj jun centralized server. Maj jun b'inel xa kqaj.",
+		"download": "Q'asaj"
+	},
+	"about": {
+		"title": "Cho rij",
+		"intro": "{project} jun petenaq plataforma re peer-to-peer tzelaj tijonik maxinik, banatal pa k'ak'a' decentralized tijonik. Kuk'amowi'i jun mebal manaqaj rik'in jun decentralized architectura, kub'ano' chi ri tzelaj tijonik utz xuquje' kuya' chuwach maj k'amol-b'eyal centralizada k'a oj. Re' chak open source, kelesax pa {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Tz'aqat decentralized red",
+				"description": "Maj jun central server, maj jun b'inel xa kqaj. Ri ajk'amol-b'eyal kkikanoj xuquje' kkiqasaj ri xuwa rik'in xib'iil junam, maj kkikanoj jun central index, tracker o database."
+			},
+			"accessControl": {
+				"title": "Q'asal cha'oj manaqaj",
+				"description": "Apachal' utz nub'an ri rixin' red rik'in ri ruq'oxomaxik na'oj kichin'. Pa rij ri ronojel red, kkiq'asax ri ruq'inel ajk'amol-b'eyal: ajaw, ajq'inel, ajwachil', moderador xuquje' tzeqe'l. K'a rik'in q'asal manaqaj cha'oj chrij apachal' nik'asex, k'aslem xuquje' niq'asax ri xuwa."
+			},
+			"ui": {
+				"title": "Utz' rub'eyal mebal",
+				"description": "Ch'ajch'oj xuquje' aninaq media center mebal, b'anatal chinch'i' lemow, televisión xuquje' k'amol-b'eyal. Mëbal ch'utin rik'in teclado, raton, gamepad o telecomando. Ri nim ajk'amol-b'eyal kkitik'aj ri software achi'el headless data server pa command-line mebal."
+			},
+			"dataFormat": {
+				"title": "Tijonik nuq'oxomaj winaq",
+				"description": "Ri LISH tijonik formato banatal pa JSON, kub'ano' manaqaj rub'anik, rusik'ixik xuquje' rusol. Tija' ri xuwa rik'in chajalik xuquje' nuq'oxomaj metadata, achke nub'an apachal' utz nutzu'."
+			},
+			"security": {
+				"title": "Eweb'el xuquje' utziril",
+				"description": "Ronojel peer-to-peer tzijoxik q'asal pa cifrado, kub'ano' chi ri xuwa kkic'ojeib'en pa eweb'el chinch'i' rich'ab'ik. Ri ajk'amol-b'eyal kkitik'aj VPN richin nïm anonimato. {project} kuq'i'ij ri eweb'el rik'in ri rub'anik."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "Ri software k'o k'a Windows, Linux xuquje' macOS. Tatik'aj k'a apachal' plataforma najowaj."
+			}
+		}
+	},
+	"download": {
+		"title": "Q'asaj",
+		"description": "Tach'apo' {project} chi ri aplataforma. Ronojel q'asal manqaq xuquje' open source.",
+		"version": "Re' versión: {version}",
+		"linkAlt": "Q'asaj",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} chajinel",
+			"package": "{format} pak'el",
+			"portableZip": "Q'asal ZIP",
+			"viewOnGithub": "Tatzu' pa GitHub"
+		},
+		"macos": {
+			"title": "Nimalaj b'eyal chwach ri macOS ajk'amol-b'eyal:",
+			"intro": "macOS Gatekeeper xa kchak ri aplikaciones machaj juch'utal/notariado xq'asax pa internet rik'in {error} sachoj.",
+			"error": "\"sachinaq, manaq nujaqi\"",
+			"runCommand": "Toq xq'asax ri DMG o ZIP, manaq xajaqi ri aplicación, tab'ana' re' rub'eyal pa terminal:",
+			"exampleDmg": "Achi'el ruwach, toq xachajinik pa DMG:",
+			"exampleZip": "O toq xab'oqo' ri ZIP:",
+			"explanation": "Re' kelesax ri rub'anik chuwach cuarentena xuquje' nuya' chwach ri aplicación richin nutik'aj."
+		}
+	},
+	"screenshots": {
+		"title": "Wachib'al ku'ek",
+		"open": "Tajaqo' wachib'al ku'ek {index}",
+		"alt": "Wachib'al ku'ek {index}",
+		"close": "Tatz'apij galería",
+		"prev": "Nab'ey wachib'al",
+		"next": "Petenaq wachib'al"
+	},
+	"comparison": {
+		"title": "Junamaxik",
+		"feature": "B'eyal",
+		"yes": "Je'",
+		"no": "Manaq",
+		"partialDht": "Manaqaj (DHT)",
+		"rows": {
+			"decentralized": "Decentralized red",
+			"onlineLibrary": "Wujib'al pa internet",
+			"builtInSearch": "Kanoxik banatal",
+			"decentralizedSearch": "Decentralized kanoxik",
+			"parallelDownloads": "Junam q'asal pa k'iy b'eyal",
+			"mediaCenter": "Media center mebal",
+			"gamepad": "Gamepad to'oj",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Riq'ik",
+		"getInTouch": "Tariq'ij",
+		"links": {
+			"telegramChat": "Telegram tzijoxik",
+			"telegramAnnouncements": "Telegram b'eyal",
+			"facebook": "Facebook molaj"
+		}
+	},
+	"footer": {
+		"by": "Banatal kuma"
+	}
+}

@@ -204,6 +204,34 @@ import war from './langs/war.json';
 import pam from './langs/pam.json';
 import bik from './langs/bik.json';
 import pag from './langs/pag.json';
+import ee from './langs/ee.json';
+import pcm from './langs/pcm.json';
+import nds from './langs/nds.json';
+import fon from './langs/fon.json';
+import dje from './langs/dje.json';
+import eo from './langs/eo.json';
+import kha from './langs/kha.json';
+import nah from './langs/nah.json';
+import li from './langs/li.json';
+import csb from './langs/csb.json';
+import quc from './langs/quc.json';
+import lus from './langs/lus.json';
+import yua from './langs/yua.json';
+import wa from './langs/wa.json';
+import guc from './langs/guc.json';
+import arn from './langs/arn.json';
+import nv from './langs/nv.json';
+import gil from './langs/gil.json';
+import cr from './langs/cr.json';
+import mh from './langs/mh.json';
+import rar from './langs/rar.json';
+import pau from './langs/pau.json';
+import mwl from './langs/mwl.json';
+import tvl from './langs/tvl.json';
+import niu from './langs/niu.json';
+import dsb from './langs/dsb.json';
+import na from './langs/na.json';
+import ho from './langs/ho.json';
 export interface Language {
 	id: string;
 	label: string;
@@ -254,9 +282,11 @@ export const languages: Language[] = [
 	{ id: 'ctg', label: 'Chittagonian', nativeLabel: 'চাঁটগাঁইয়া', flag: 'bd' },
 	{ id: 'cv', label: 'Chuvash', nativeLabel: 'Чӑвашла', flag: 'ru' },
 	{ id: 'zdj', label: 'Comorian', nativeLabel: 'Shikomori', flag: 'km' },
+	{ id: 'rar', label: 'Cook Islands Maori', nativeLabel: 'Māori Kūki ʻĀirani', flag: 'ck' },
 	{ id: 'co', label: 'Corsican', nativeLabel: 'Corsu', flag: 'fr' },
 	{ id: 'hr', label: 'Croatian', nativeLabel: 'Hrvatski', flag: 'hr' },
 	{ id: 'crh', label: 'Crimean Tatar', nativeLabel: 'Qırımtatarca', flag: 'ua' },
+	{ id: 'cr', label: 'Cree', nativeLabel: 'ᓀᐦᐃᔭᐍᐏᐣ', flag: 'ca' },
 	{ id: 'cs', label: 'Czech', nativeLabel: 'Čeština', flag: 'cz' },
 	{ id: 'da', label: 'Danish', nativeLabel: 'Dansk', flag: 'dk' },
 	{ id: 'dv', label: 'Dhivehi', nativeLabel: 'ދިވެހި', flag: 'mv' },
@@ -266,11 +296,14 @@ export const languages: Language[] = [
 	{ id: 'dz', label: 'Dzongkha', nativeLabel: 'རྫོང་ཁ', flag: 'bt' },
 	{ id: 'cdo', label: 'Eastern Min', nativeLabel: '閩東語', flag: 'cn' },
 	{ id: 'en', label: 'English', nativeLabel: 'English', flag: 'gb' },
+	{ id: 'eo', label: 'Esperanto', nativeLabel: 'Esperanto', flag: 'eu' },
 	{ id: 'et', label: 'Estonian', nativeLabel: 'Eesti', flag: 'ee' },
+	{ id: 'ee', label: 'Ewe', nativeLabel: 'Eʋegbe', flag: 'gh' },
 	{ id: 'fo', label: 'Faroese', nativeLabel: 'Føroyskt', flag: 'fo' },
 	{ id: 'fj', label: 'Fijian', nativeLabel: 'Vosa Vakaviti', flag: 'fj' },
 	{ id: 'tl', label: 'Filipino', nativeLabel: 'Filipino', flag: 'ph' },
 	{ id: 'fi', label: 'Finnish', nativeLabel: 'Suomi', flag: 'fi' },
+	{ id: 'fon', label: 'Fon', nativeLabel: 'Fon gbè', flag: 'bj' },
 	{ id: 'fr', label: 'French', nativeLabel: 'Français', flag: 'fr' },
 	{ id: 'fur', label: 'Friulian', nativeLabel: 'Furlan', flag: 'it' },
 	{ id: 'ff', label: 'Fulah', nativeLabel: 'Fulfulde', flag: 'sn' },
@@ -278,6 +311,7 @@ export const languages: Language[] = [
 	{ id: 'gan', label: 'Gan', nativeLabel: '贛語', flag: 'cn' },
 	{ id: 'ka', label: 'Georgian', nativeLabel: 'ქართული', flag: 'ge' },
 	{ id: 'de', label: 'German', nativeLabel: 'Deutsch', flag: 'de' },
+	{ id: 'gil', label: 'Gilbertese', nativeLabel: 'Taetae ni Kiribati', flag: 'ki' },
 	{ id: 'el', label: 'Greek', nativeLabel: 'Ελληνικά', flag: 'gr' },
 	{ id: 'kl', label: 'Greenlandic', nativeLabel: 'Kalaallisut', flag: 'gl' },
 	{ id: 'gn', label: 'Guaraní', nativeLabel: "Avañe'ẽ", flag: 'py' },
@@ -289,6 +323,7 @@ export const languages: Language[] = [
 	{ id: 'he', label: 'Hebrew', nativeLabel: 'עברית', flag: 'il' },
 	{ id: 'hil', label: 'Hiligaynon', nativeLabel: 'Hiligaynon', flag: 'ph' },
 	{ id: 'hi', label: 'Hindi', nativeLabel: 'हिन्दी', flag: 'in' },
+	{ id: 'ho', label: 'Hiri Motu', nativeLabel: 'Hiri Motu', flag: 'pg' },
 	{ id: 'hmn', label: 'Hmong', nativeLabel: 'Hmoob', flag: 'la' },
 	{ id: 'hu', label: 'Hungarian', nativeLabel: 'Magyar', flag: 'hu' },
 	{ id: 'is', label: 'Icelandic', nativeLabel: 'Íslenska', flag: 'is' },
@@ -305,7 +340,10 @@ export const languages: Language[] = [
 	{ id: 'ks', label: 'Kashmiri', nativeLabel: 'كٲشُر', flag: 'in' },
 	{ id: 'kk', label: 'Kazakh', nativeLabel: 'Қазақша', flag: 'kz' },
 	{ id: 'kaa', label: 'Karakalpak', nativeLabel: 'Qaraqalpaqsha', flag: 'uz' },
+	{ id: 'csb', label: 'Kashubian', nativeLabel: 'Kaszëbsczi', flag: 'pl' },
+	{ id: 'kha', label: 'Khasi', nativeLabel: 'Ka Ktien Khasi', flag: 'in' },
 	{ id: 'km', label: 'Khmer', nativeLabel: 'ខ្មែរ', flag: 'kh' },
+	{ id: 'quc', label: "K'iche'", nativeLabel: "K'iche'", flag: 'gt' },
 	{ id: 'ki', label: 'Kikuyu', nativeLabel: 'Gĩkũyũ', flag: 'ke' },
 	{ id: 'rw', label: 'Kinyarwanda', nativeLabel: 'Ikinyarwanda', flag: 'rw' },
 	{ id: 'rn', label: 'Kirundi', nativeLabel: 'Ikirundi', flag: 'bi' },
@@ -319,7 +357,10 @@ export const languages: Language[] = [
 	{ id: 'lld', label: 'Ladin', nativeLabel: 'Ladin', flag: 'it' },
 	{ id: 'lv', label: 'Latvian', nativeLabel: 'Latviešu', flag: 'lv' },
 	{ id: 'ln', label: 'Lingala', nativeLabel: 'Lingála', flag: 'cd' },
+	{ id: 'li', label: 'Limburgish', nativeLabel: 'Lèmburgs', flag: 'nl' },
 	{ id: 'lt', label: 'Lithuanian', nativeLabel: 'Lietuvių', flag: 'lt' },
+	{ id: 'nds', label: 'Low German', nativeLabel: 'Plattdüütsch', flag: 'de' },
+	{ id: 'dsb', label: 'Lower Sorbian', nativeLabel: 'Dolnoserbski', flag: 'de' },
 	{ id: 'lg', label: 'Luganda', nativeLabel: 'Luganda', flag: 'ug' },
 	{ id: 'luo', label: 'Luo', nativeLabel: 'Dholuo', flag: 'ke' },
 	{ id: 'lb', label: 'Luxembourgish', nativeLabel: 'Lëtzebuergesch', flag: 'lu' },
@@ -331,14 +372,23 @@ export const languages: Language[] = [
 	{ id: 'ms', label: 'Malay', nativeLabel: 'Bahasa Melayu', flag: 'my' },
 	{ id: 'ml', label: 'Malayalam', nativeLabel: 'മലയാളം', flag: 'in' },
 	{ id: 'mt', label: 'Maltese', nativeLabel: 'Malti', flag: 'mt' },
+	{ id: 'arn', label: 'Mapudungun', nativeLabel: 'Mapudungun', flag: 'cl' },
 	{ id: 'mi', label: 'Maori', nativeLabel: 'Māori', flag: 'nz' },
 	{ id: 'mr', label: 'Marathi', nativeLabel: 'मराठी', flag: 'in' },
 	{ id: 'mwr', label: 'Marwari', nativeLabel: 'मारवाड़ी', flag: 'in' },
+	{ id: 'mh', label: 'Marshallese', nativeLabel: 'Kajin M̧ajeļ', flag: 'mh' },
 	{ id: 'nan', label: 'Min Nan', nativeLabel: '閩南語', flag: 'tw' },
 	{ id: 'min', label: 'Minangkabau', nativeLabel: 'Baso Minang', flag: 'id' },
+	{ id: 'mwl', label: 'Mirandese', nativeLabel: 'Mirandés', flag: 'pt' },
+	{ id: 'lus', label: 'Mizo', nativeLabel: 'Mizo ṭawng', flag: 'in' },
 	{ id: 'mn', label: 'Mongolian', nativeLabel: 'Монгол', flag: 'mn' },
 	{ id: 'mos', label: 'Mooré', nativeLabel: 'Mooré', flag: 'bf' },
+	{ id: 'nah', label: 'Nahuatl', nativeLabel: 'Nāhuatl', flag: 'mx' },
+	{ id: 'na', label: 'Nauruan', nativeLabel: 'Dorerin Naoero', flag: 'nr' },
+	{ id: 'nv', label: 'Navajo', nativeLabel: 'Diné bizaad', flag: 'us' },
 	{ id: 'ne', label: 'Nepali', nativeLabel: 'नेपाली', flag: 'np' },
+	{ id: 'pcm', label: 'Nigerian Pidgin', nativeLabel: 'Naijá', flag: 'ng' },
+	{ id: 'niu', label: 'Niuean', nativeLabel: 'Vagahau Niue', flag: 'nu' },
 	{ id: 'nd', label: 'Northern Ndebele', nativeLabel: 'isiNdebele', flag: 'zw' },
 	{ id: 'se', label: 'Northern Sami', nativeLabel: 'Davvisámegiella', flag: 'no' },
 	{ id: 'nso', label: 'Northern Sotho', nativeLabel: 'Sesotho sa Leboa', flag: 'za' },
@@ -352,6 +402,7 @@ export const languages: Language[] = [
 	{ id: 'fa', label: 'Persian', nativeLabel: 'فارسی', flag: 'ir' },
 	{ id: 'pl', label: 'Polish', nativeLabel: 'Polski', flag: 'pl' },
 	{ id: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: 'pt' },
+	{ id: 'pau', label: 'Palauan', nativeLabel: 'Tekoi ra Belau', flag: 'pw' },
 	{ id: 'pa', label: 'Punjabi', nativeLabel: 'ਪੰਜਾਬੀ', flag: 'in' },
 	{ id: 'pag', label: 'Pangasinan', nativeLabel: 'Pangasinan', flag: 'ph' },
 	{ id: 'pam', label: 'Kapampangan', nativeLabel: 'Kapampangan', flag: 'ph' },
@@ -398,6 +449,7 @@ export const languages: Language[] = [
 	{ id: 'tn', label: 'Tswana', nativeLabel: 'Setswana', flag: 'bw' },
 	{ id: 'tr', label: 'Turkish', nativeLabel: 'Türkçe', flag: 'tr' },
 	{ id: 'tk', label: 'Turkmen', nativeLabel: 'Türkmençe', flag: 'tm' },
+	{ id: 'tvl', label: 'Tuvaluan', nativeLabel: 'Te Ggana Tuuvalu', flag: 'tv' },
 	{ id: 'uk', label: 'Ukrainian', nativeLabel: 'Українська', flag: 'ua' },
 	{ id: 'umb', label: 'Umbundu', nativeLabel: 'Umbundu', flag: 'ao' },
 	{ id: 'hsb', label: 'Upper Sorbian', nativeLabel: 'Hornjoserbsce', flag: 'de' },
@@ -406,7 +458,9 @@ export const languages: Language[] = [
 	{ id: 'ug', label: 'Uyghur', nativeLabel: 'ئۇيغۇرچە', flag: 'cn' },
 	{ id: 've', label: 'Venda', nativeLabel: 'Tshivenda', flag: 'za' },
 	{ id: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', flag: 'vn' },
+	{ id: 'wa', label: 'Walloon', nativeLabel: 'Walon', flag: 'be' },
 	{ id: 'war', label: 'Waray', nativeLabel: 'Winaray', flag: 'ph' },
+	{ id: 'guc', label: 'Wayuu', nativeLabel: 'Wayuunaiki', flag: 'co' },
 	{ id: 'cy', label: 'Welsh', nativeLabel: 'Cymraeg', flag: 'gb' },
 	{ id: 'fy', label: 'Western Frisian', nativeLabel: 'Frysk', flag: 'nl' },
 	{ id: 'wo', label: 'Wolof', nativeLabel: 'Wolof', flag: 'sn' },
@@ -415,13 +469,15 @@ export const languages: Language[] = [
 	{ id: 'hsn', label: 'Xiang', nativeLabel: '湘語', flag: 'cn' },
 	{ id: 'yi', label: 'Yiddish', nativeLabel: 'ייִדיש', flag: 'il' },
 	{ id: 'yo', label: 'Yoruba', nativeLabel: 'Yorùbá', flag: 'ng' },
+	{ id: 'yua', label: 'Yucatec Maya', nativeLabel: "Màaya T'àan", flag: 'mx' },
+	{ id: 'dje', label: 'Zarma', nativeLabel: 'Zarmaciine', flag: 'ne' },
 	{ id: 'zu', label: 'Zulu', nativeLabel: 'isiZulu', flag: 'za' },
 ];
 const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup, dz, sah, kaa, war, pam, bik, pag };
+const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he, bn, ur, sw, pa, fa, mr, te, ta, tl, yue, jv, ms, ha, gu, ps, am, yo, kn, my, om, ht, kk, km, ky, lo, mg, mn, ne, si, so, tg, tk, uz, af, zu, xh, sn, ig, sd, qu, mi, sm, fo, rw, ny, ti, gn, ln, st, tn, bi, tpi, kl, rn, to, fj, wo, ay, bm, tet, bho, mai, awa, or: or_, as: as_, su, mad, ceb, ilo, hil, ku, ff, ber, skr, ks, ak, lg, ug, bo, sat, mag, hne, wuu, nan, hak, hsn, gan, ml, tt: tt_, mwr, syl, ctg, cjy, cdo, hmn, ki, bem, kg, nso, ts, lua, umb, luo, min, bjn, ace, ban, bug, din, kri, kea, crs, rm, nn, ss, nd, ve, haw, ty, sg, mos, zdj, ch, iu, dv, se, sa, kok, doi, fy, gd, ast, oc, br, fur, co, hsb, an, lld, ce, ba, cv, crh, os, rup, dz, sah, kaa, war, pam, bik, pag, ee, pcm, nds, fon, dje, eo, kha, nah, li, csb, quc, lus, yua, wa, guc, arn, nv, gil, cr, mh, rar, pau, mwl, tvl, niu, dsb, na, ho };
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - U Yáaxalil U K'éexel Áantajilo'ob",
+		"description": "{project} jump'éel peer-to-peer áantajilo'ob k'éexel software, beeta'an yéetel túumben decentralized teknolojía.",
+		"ogTitle": "{project} - Software U K'éexel Áantajilo'ob Yáaxalil",
+		"ogDescription": "Peer-to-peer áantajilo'ob k'éexel beeta'an yéetel túumben decentralized teknolojía. Mina'an centralizado servidor. Mina'an jump'éel ku tu kúuchil tu'ux ku k'astal."
+	},
+	"menu": {
+		"about": "Tu yo'olal",
+		"download": "Ch'aakech",
+		"screenshots": "Oochelo'ob",
+		"comparison": "Ket",
+		"contact": "Mukmul",
+		"toggle": "Je'el menú",
+		"close": "K'al menú",
+		"language": "T'aan",
+		"selectLanguage": "Yéey jump'éel t'aan"
+	},
+	"hero": {
+		"subtitle": "Túumbenil peer-to-peer áantajilo'ob k'éexel",
+		"description": "Beeta'an yéetel túumben decentralized teknolojía. Mina'an centralizado servidor. Mina'an jump'éel ku tu kúuchil tu'ux ku k'astal.",
+		"download": "Ch'aakech"
+	},
+	"about": {
+		"title": "Tu yo'olal",
+		"intro": "{project} jump'éel platapórma túumbenil utia'al peer-to-peer áantajilo'ob k'éexel, beeta'an yéetel túumben decentralized teknolojía. Ku k'eech jump'éel interfaaz ma' ya'ab óol bey decentralized arkitektura ts'o'okol, ku ts'aabal a wojeltik k'éexel áantajilo'ob ma' yéetel ma' k'a'abéet jump'éel centralizado núukbalil. Le proyekto'a' open source, jóok'sa'an yáanal {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ts'o'okol decentralized red",
+				"description": "Mina'an centralizado servidor, mina'an jump'éel ku tu kúuchil tu'ux ku k'astal. U yáaxalilo'ob ku kaxtiko'ob yéetel ku ch'akiko'ob u kuxtalil tu táan láamil tu láaki', ma' yéetel u k'íiwikil yéetel ma' yéetel jump'éel centralizado index, tracker yéetel base de datos."
+			},
+			"accessControl": {
+				"title": "Béeyak ojéetnaj kanantik",
+				"description": "Je'el máax kéen u beet u red yéetel u nu'ukbalo'ob ma'na'an boota'al. Ti' jejeláas red, ku t'a'aba u nu'ukbalo'ob u yáaxalilo'ob: yumil, administrador, jóok'es, moderador yéetel ts'aaykul. Yáan teech béeyak ojéetnaj kanantik tu yo'olal máax je'el u páajtal u jóok'sik, u moderar yéetel u ch'akik u kuxtalil."
+			},
+			"ui": {
+				"title": "Ma'alob u páajtal interfaaz",
+				"description": "Sak yéetel ku núukik mediaarte interfaaz, beeta'an utia'al desktop, televisor yéetel mobile platapórmas. Ma' ya'ab óol u máansa'al yéetel teklado, ratón, gamepad yéetel mando ts'aaykul. U yáaxalil ma' ya'abe'ex je'el u páajtal u meyaj software bey headless ti' base de datos servidor yéetel command-line interfaaz."
+			},
+			"dataFormat": {
+				"title": "Bin u páajtal u xokik máak datos formatos",
+				"description": "Le LISH datos formato beeta'an yéetel JSON, ku beetik ma' ya'ab óol u beel, u xokik yéetel u na'atik. K'éech a kuxtalil yéetel sak yéetel ka'a metadatos, ti' je'el máax ma' ya'ab óol u il."
+			},
+			"security": {
+				"title": "Tukulta'an yéetel kanan",
+				"description": "Tuláakal peer-to-peer mukulil ku encripta'al, ku ts'aabal a wojeltik a datos bin u kuxtal tukulta'an ti' transit. U yáaxalilo'ob je'el u páajtal u kech tu paach VPN utia'al ya'ab anonimato. {project} ku yantal a tukulta'an tumen u beel."
+			},
+			"crossPlatform": {
+				"title": "Tu láakal platapórmas",
+				"description": "Le software ma'na'an utia'al Windows, Linux yéetel macOS. K'éech tu platapórma a yu'ubáan ma' ya'ab óol."
+			}
+		}
+	},
+	"download": {
+		"title": "Ch'aakech",
+		"description": "K'aam {project} utia'al a platapórma. Tuláakal ch'akilo'ob ma'na'an boota'al yéetel open source.",
+		"version": "Beejla'e' versión: {version}",
+		"linkAlt": "Ch'aakech",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalador",
+			"package": "{format} paketb",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Il ti' GitHub"
+		},
+		"macos": {
+			"title": "Nojoch tsolxikin utia'al u yáaxalilo'ob macOS:",
+			"intro": "macOS Gatekeeper ku k'aliko' aplikasyones ma'na'an firmadas/notarizadas ch'akabo'ob ti' internet yéetel {error} k'aas.",
+			"error": "\"k'astaj, ma' tu páajtal u je'el\"",
+			"runCommand": "Le ka tu ch'akaj le DMG wa ZIP, táanil u je'el aplikasyón, beet le komando ti' terminal:",
+			"exampleDmg": "Tu yo'olal je'ela'a, le ka tu instala'al ti' DMG:",
+			"exampleZip": "Wa le ka tu jóok'esabal le ZIP:",
+			"explanation": "Lela'a' ku jóok'esik atributo cuarentena yéetel ku ts'aabal aplikasyón u yáaxalil."
+		}
+	},
+	"screenshots": {
+		"title": "Oochelo'ob",
+		"open": "Je'el oochel {index}",
+		"alt": "Oochel {index}",
+		"close": "K'al galería",
+		"prev": "Áanchaj oochel",
+		"next": "U láaktal oochel"
+	},
+	"comparison": {
+		"title": "Ket",
+		"feature": "Nu'ukbalil",
+		"yes": "Beey",
+		"no": "Ma'",
+		"partialDht": "Tu yantal (DHT)",
+		"rows": {
+			"decentralized": "Decentralized red",
+			"onlineLibrary": "Internet biblioteka",
+			"builtInSearch": "Beeta'an kaxtaj kuxtalil",
+			"decentralizedSearch": "Decentralized kaxtaj",
+			"parallelDownloads": "Ts'o'ok ch'akilo'ob ti' ya'ab kúuchilo'ob",
+			"mediaCenter": "Mediaarte interfaaz",
+			"gamepad": "Gamepad áantajil",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Mukmul",
+		"getInTouch": "Mukmul yéetel to'on",
+		"links": {
+			"telegramChat": "Telegram chat múuch'ulil",
+			"telegramAnnouncements": "Telegram tsolxikino'ob",
+			"facebook": "Facebook múuch'ulil"
+		}
+	},
+	"footer": {
+		"by": "Beeta'an tumen"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Gedecentraliseerd Bestanddele",
+		"description": "{project} is 'n peer-to-peer software veur 't dele van bestanden, gebouwd op moderne gedecentraliseerde technologie.",
+		"ogTitle": "{project} - Software veur Gedecentraliseerd Bestanddele",
+		"ogDescription": "Peer-to-peer bestanddele gebouwd op moderne gedecentraliseerde technologie. Gein centraal server. Gein inkel punt waat kan miswerke."
+	},
+	"menu": {
+		"about": "Euver",
+		"download": "Downloade",
+		"screenshots": "Sjermofdrökke",
+		"comparison": "Vergelieking",
+		"contact": "Kontak",
+		"toggle": "Menu wessele",
+		"close": "Menu sjlute",
+		"language": "Sjpraok",
+		"selectLanguage": "Kees sjpraok"
+	},
+	"hero": {
+		"subtitle": "Volgende generatie peer-to-peer bestanddele",
+		"description": "Gebouwd op moderne gedecentraliseerde technologie. Gein centraal server. Gein inkel punt waat kan miswerke.",
+		"download": "Downloade"
+	},
+	"about": {
+		"title": "Euver",
+		"intro": "{project} is 'n volgende-generatie platform veur peer-to-peer bestanddele, gebouwd op moderne gedecentraliseerde technologie. 't Kombineert 'n gemekkelek te gebroeke koppelvlak mit 'n volledig gedecentraliseerde architektuur, waardoor 't bestanddele zeker en betroubaar is, zonder dat me 'n centraal autoriteit nuudig haet. Dit projek is open source, oetgebrach onger {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Volledig gedecentraliseerd netwerk",
+				"description": "Gein centraal server, gein inkel punt waat kan miswerke. Gebroekers vinge en downloade inhaud direk van mekare, zonder daoste verlate op 'n centraal index, tracker of databank."
+			},
+			"accessControl": {
+				"title": "Fienkerrelige toegangskontrole",
+				"description": "Eederein kan zien eige netwerk bouwe mit zien eige regele zonder daat 't get kos. Binne eder netwerk zin gebroekersrolle gedefinieerd: eigenaer, beheerder, oetgaever, moderator en volger. Doe haes fienkerrelige kontrole euver wee inhaud kan publicere, modereren en downloade."
+			},
+			"ui": {
+				"title": "Hoogkwaliteit gebroekerskoppelvlak",
+				"description": "'n Sjun en reagerend mediasentrum-koppelvlak, ontwórpe veur burowerk-, TV- en mobiele platforms. Gemekkelek navigere mit toetseboard, moes, gamepad of aafstandsbedening. Erváre gebroekers kinne de software dreije es heedloze daotaserver via 't kommandoregel-koppelvlak."
+			},
+			"dataFormat": {
+				"title": "Veur de mins lesbaar daotaformaat",
+				"description": "'t LISH-daotaformaat is gebouwd op JSON, waorduuer 't gemekkelek is um te make, te leze en te begriepe. Diel dien inhaud mit duidelike en transparante metadaote dee eederein gemekkelek kan kontrolere."
+			},
+			"security": {
+				"title": "Privacy en zekerheid",
+				"description": "Alle peer-to-peer kommunikatie is versleuteld, zoodat dien daote tiedens 't versjik privé blieve. Gebroekers kinne ziech achter 'n VPN versjuile veur extra anonimiteit. {project} respekteert dien privacy door 't ontwerp."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "De software is besjikbaar veur Windows, Linux en macOS. Gebroek 'm op weeke platform doe leefste haes."
+			}
+		}
+	},
+	"download": {
+		"title": "Downloade",
+		"description": "Krieg {project} veur dien platform. Alle downloads zin gratis en open source.",
+		"version": "Hujige versie: {version}",
+		"linkAlt": "Downloade",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installeerder",
+			"package": "{format} pakket",
+			"portableZip": "Draagbaar ZIP",
+			"viewOnGithub": "Bekieke op GitHub"
+		},
+		"macos": {
+			"title": "Belangrieke informatie veur macOS-gebroekers:",
+			"intro": "macOS Gatekeeper zal niet-getekende/niet-genotariseerde appliKaties dee van 't internet gedownload zin blokkere mit 'n {error}-fout.",
+			"error": "\"is kepot, kan neet weure geopend\"",
+			"runCommand": "Nao 't downloade van de DMG of ZIP, veurdaaste de applikatie eupens, voer dit kommando oet in 't terminal:",
+			"exampleDmg": "Bie veurbeeld, nao installatie van DMG:",
+			"exampleZip": "Of nao 't oetpakke van de ZIP:",
+			"explanation": "Dit verwiedert 't quarantineattribuut en lit de applikatie loope."
+		}
+	},
+	"screenshots": {
+		"title": "Sjermofdrökke",
+		"open": "Sjermofdrök {index} eupene",
+		"alt": "Sjermofdrök {index}",
+		"close": "Galerie sjlute",
+		"prev": "Veurig plaatje",
+		"next": "Volgend plaatje"
+	},
+	"comparison": {
+		"title": "Vergelieking",
+		"feature": "Eigesjap",
+		"yes": "Jao",
+		"no": "Nei",
+		"partialDht": "Gedeeltelek (DHT)",
+		"rows": {
+			"decentralized": "Gedecentraliseerd netwerk",
+			"onlineLibrary": "Online biblioteek",
+			"builtInSearch": "Ingebouwde inhaudzeuk",
+			"decentralizedSearch": "Gedecentraliseerd inhaudzeuk",
+			"parallelDownloads": "Parallelle downloads van mieder bronne",
+			"mediaCenter": "Mediasentrum-koppelvlak",
+			"gamepad": "Gamepad-ongersteuning",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Naem kontak op",
+		"links": {
+			"telegramChat": "Telegram-chatgroep",
+			"telegramAnnouncements": "Telegram-aankundigingen",
+			"facebook": "Facebook-groep"
+		}
+	},
+	"footer": {
+		"by": "Gemaak door"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ka Jingiaisuk ki Fail ba Khlem Khat",
+		"description": "{project} ka long ka software peer-to-peer ka jingiaisuk ki fail kaba la pyndep da ki technology kaba khraw kaba khlem khat.",
+		"ogTitle": "{project} - Software Jingiaisuk Fail Khlem Khat",
+		"ogDescription": "Jingiaisuk fail peer-to-peer kaba la pyndep da ki technology kaba khraw kaba khlem khat. Khlem server ba khat. Khlem ka pud ba kawei ba lah ban duh."
+	},
+	"menu": {
+		"about": "Halor",
+		"download": "Skor noh",
+		"screenshots": "Ki Sla Screen",
+		"comparison": "Ka Jingiakhi",
+		"contact": "Jingitynnad",
+		"toggle": "Pyrshang menu",
+		"close": "Khang menu",
+		"language": "Ka Ktien",
+		"selectLanguage": "Jied ka ktien"
+	},
+	"hero": {
+		"subtitle": "Ka jingiaisuk fail peer-to-peer ka pyrthei ba dei ban wan",
+		"description": "Kaba la pyndep da ki technology kaba khraw kaba khlem khat. Khlem server ba khat. Khlem ka pud ba kawei ba lah ban duh.",
+		"download": "Skor noh"
+	},
+	"about": {
+		"title": "Halor",
+		"intro": "{project} ka long ka platform ba dei ban wan jong ka jingiaisuk fail peer-to-peer, kaba la pyndep da ki technology kaba khraw kaba khlem khat. Ka pyniaroh ka interface kaba sngewthuh suk bad ka architecture kaba khlem khat baroh, ban pynshisha ka jingiaisuk fail kaba akor bad kaba khrum khlem ban donkam ia ka authority ba khat. Kane ka project ka long open source, ka la pynmih ha ka {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Ka network kaba khlem khat baroh",
+				"description": "Khlem server ba khat, khlem ka pud ba kawei ba lah ban duh. Ki user ki shem bad ki skor ki content ka jong ki ha ki tymmen, khlem ban ialaitlur ha ka index ba khat, tracker, lane database."
+			},
+			"accessControl": {
+				"title": "Ka jingsngew khun ki jingrwai",
+				"description": "Lano lano u briew u lah ban pyndep ka jong ka network bad ki jong ki ain khlem siar. Ha kaei kaei ka network, ki jingthung ki user ki la pynbiang: u nongbun, u administrator, u nongpynmih, u moderator, bad u nongiap-noh. Ngi don ka jingsngew khun shaphang u byno u lah ban pynmih, pynkwah bad skor noh ia ka content."
+			},
+			"ui": {
+				"title": "Ka interface user ka jingbha bha",
+				"description": "Ka interface media center kaba thymma bad kaba pynba pat, kaba la design ia ki desktop, TV bad mobile platform. Ka jingiaid suk da ka keyboard, mouse, gamepad, lane remote control. Ki user ba ngeit ki lah ban pynkam ia ka software kum data server kaba khlem khlieh ha ka command-line interface."
+			},
+			"dataFormat": {
+				"title": "Ka jingthung data ba u briew u lah ban pule",
+				"description": "Ka jingthung data LISH ka la pyndep ha ka JSON, kaba pynsuk ban thaw, pule, bad sngewthuh. Ai-iasuk ia ka content jong phi bad ki metadata kiba dap bad kiba shai, kiba uno uno u lah ban shem suk."
+			},
+			"security": {
+				"title": "Ka private bad ka security",
+				"description": "Baroh ki jingitynnad peer-to-peer ki la pynkylla, ban pynshisha ba ki data jong phi ki long private hapoh ka transit. Ki user ki lah ban iadem da ka VPN ban donlong shuh kaba khlem dei. {project} ka pynkyrkhu ia ka private jong phi da ka design."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ka software ka don ia Windows, Linux bad macOS. Pyndonkam ia ka ha kaei kaei ka platform kaba phi sngewdiang."
+			}
+		}
+	},
+	"download": {
+		"title": "Skor noh",
+		"description": "Shem ia {project} ia ka platform jong phi. Baroh ki jingskor-noh ki long khlem siar bad open source.",
+		"version": "Ka version mynta: {version}",
+		"linkAlt": "Skor noh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer {format}",
+			"package": "Package {format}",
+			"portableZip": "ZIP ba lah ban iaid",
+			"viewOnGithub": "Iohi ha GitHub"
+		},
+		"macos": {
+			"title": "Ka jingbatai kaba khraw ia ki user macOS:",
+			"intro": "macOS Gatekeeper ka khang ia ki application kiba khlem sign/notarize kiba la skor-noh na internet da ka error {error}.",
+			"error": "\"ka la duh, kam lah ban iano\"",
+			"runCommand": "Hadien ka jingskor-noh ia ka DMG lane ZIP, mynba kam-jot ban iano ia ka application, pynkam ia kane ka command ha ka terminal:",
+			"exampleDmg": "Kum ka nuksa, hadien ka install na DMG:",
+			"exampleZip": "Lane hadien ka pyrthlur ka ZIP:",
+			"explanation": "Kane kan kawei ia ka quarantine attribute bad pynsngew ia ka application ban kam."
+		}
+	},
+	"screenshots": {
+		"title": "Ki Sla Screen",
+		"open": "Iano ia ka sla screen {index}",
+		"alt": "Ka sla screen {index}",
+		"close": "Khang ka gallery",
+		"prev": "Ka dak hapoh",
+		"next": "Ka dak hadien"
+	},
+	"comparison": {
+		"title": "Ka Jingiakhi",
+		"feature": "Ka Jingthung",
+		"yes": "Hooid",
+		"no": "Em",
+		"partialDht": "Wat shi pud (DHT)",
+		"rows": {
+			"decentralized": "Ka network kaba khlem khat",
+			"onlineLibrary": "Ka pustaki ha ka internet",
+			"builtInSearch": "Ka jingwad ha kaba la pyndep",
+			"decentralizedSearch": "Ka jingwad kaba khlem khat",
+			"parallelDownloads": "Ki jingskor-noh ba la-ai-tang na ki jaka jaka",
+			"mediaCenter": "Ka interface media center",
+			"gamepad": "Ka jingsumar gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Jingitynnad",
+		"getInTouch": "Pynitynnad noh",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram announcement",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Pyndep da"
+	}
+}

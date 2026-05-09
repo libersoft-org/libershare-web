@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ ᒪᓯᓇᐃᑲᓇᐠ",
+		"description": "{project} ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ peer-to-peer software ᒪᓯᓇᐃᑲᓇᐠ ᐅᒋ, ᐅᔥᑭ ᐅᔑᒋᑲᑌᐠ ᑭᐱ ᐅᔑᑖᐠ.",
+		"ogTitle": "{project} - Peer-to-Peer ᒪᓯᓇᐃᑲᓇᐠ Software",
+		"ogDescription": "Peer-to-peer ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ ᒪᓯᓇᐃᑲᓇᐠ ᐅᔥᑭ ᐅᔑᒋᑲᑌᐠ. ᓇᒪᐃᐧᔭ ᐊᐱᑎᓯᐧᐃᓂᑫ server ᐃᐧᔮᑎᐃᐧ. ᓇᒪᐃᐧᔭ ᐯᔭᐠ ᑲ ᐊᓂᒪᓯᐠ."
+	},
+	"menu": {
+		"about": "ᐅᒪ ᐅᒋ",
+		"download": "ᓂᓭᐯᑎᓂᑫ",
+		"screenshots": "ᒪᓯᓇᑌᓯᑲᐧᓇᐠ",
+		"comparison": "ᐊᓂᔥᑭᔮᑫᐃᐧᐣ",
+		"contact": "ᐱᒋᑫᐃᐧᐣ",
+		"toggle": "ᐹᐦᐯᑲᐦᐃᑲᑌᐠ menu",
+		"close": "ᑭᐯᐦᐊᐦᐃᑲᑌᐠ menu",
+		"language": "ᐃᔑᓂᑲᓱᐃᐧᐣ",
+		"selectLanguage": "ᐅᓀᐦᐃᑲᑌᐠ ᐃᔑᓂᑲᓱᐃᐧᐣ"
+	},
+	"hero": {
+		"subtitle": "Wîpac peer-to-peer ᒪᓯᓇᐃᑲᓇᐠ ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ",
+		"description": "ᐅᔥᑭ ᐅᔑᒋᑲᑌᐠ ᑭᐱ ᐅᔑᑖᐠ. ᓇᒪᐃᐧᔭ ᐊᐱᑎᓯᐧᐃᓂᑫ server ᐃᐧᔮᑎᐃᐧ. ᓇᒪᐃᐧᔭ ᐯᔭᐠ ᑲ ᐊᓂᒪᓯᐠ.",
+		"download": "ᓂᓭᐯᑎᓂᑫ"
+	},
+	"about": {
+		"title": "ᐅᒪ ᐅᒋ",
+		"intro": "{project} kâ wîpac platform peer-to-peer ᒪᓯᓇᐃᑲᓇᐠ ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ ᐅᒋ, ᐅᔥᑭ ᐅᔑᒋᑲᑌᐠ ᑭᐱ ᐅᔑᑖᐠ. ᑭᐯᔭᑯᐦᑌᐃᐧᓂᑫ ᐃᐧᔭᓯᐧᐊᐠ interface ᑲᑭᓇᐠ ᑭᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ architecture, ᑭᐧᐃᔭᓯᐧᐊᐠ ᒪᓯᓇᐃᑲᓇᐠ ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ ᓇᒪᐃᐧᔭ ᑫᑯᐣ ᐊᐱᑎᓯᐧᐃᓂᑫ ᐅᑭᒪᐊᐧᐤ ᑎᐦᐃᑌᐠ. ᐅᒪ project open source, {license} ᐃᔑᓂᑲᑌᐠ.",
+		"features": {
+			"decentralized": {
+				"title": "ᑭᑫᔥᐠ ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ network",
+				"description": "ᓇᒪᐃᐧᔭ ᐊᐱᑎᓯᐧᐃᓂᑫ server ᐃᐧᔮᑎᐃᐧ, ᓇᒪᐃᐧᔭ ᐯᔭᐠ ᑲ ᐊᓂᒪᓯᐠ. ᐊᔭᒥᐃᐧ ᒥᑲᐧᐠ ᐊᓄᐦᑫ ᓂᓭᐯᑎᓂᑫᐠ ᐊᐧᔭᐠ, ᓇᒪᐃᐧᔭ ᐊᐱᑎᓯᐧᐃᓂᑫ index, tracker, ᑲᑲᓇᐧᐊᐱᑌᐠ database."
+			},
+			"accessControl": {
+				"title": "ᐱᔥᑭᐠ ᐊᔥᐱᔥᐠ kanawenintamowin",
+				"description": "ᑲᑭᓇᐠ ᑭᐱ ᐅᔑᑖᐠ tipenitamowin network ᐅᔥᐠ ᐅᑎᔑ kanawenintamowin ᐅᒋ ᓇᒪᐃᐧᔭ ᐊᔮᐃᐧᓂᑫ. ᑲᑭᓇᐠ network ᑎᐦᐃᑌᐠ, kanawenintamowin ᐊᔭᒥᐃᐧ ᑲᔥᑭᐦᐤᐠ: tipayichikew, administrator, mâcimâcihîwesowin, moderator, ᑲᔥᑭᓭᐧ. ᑭᐱ ᐱᔥᑭᐠ ᐊᔥᐱᔥᐠ kanawenintamowin ᑫᑯᐣ ᐅᒋ kâ kashkitât mâcimâcihîwesowin, moderate, ᓂᓭᐯᑎᓂᑫᐠ."
+			},
+			"ui": {
+				"title": "ᒥᔪᐦᑌᐠ kanâcâpamiwewin",
+				"description": "ᐧᐊᐱᔮᐠ kâ kîwêwit media center kanâcâpamiwewin, ᑭᐱ ᐅᔑᑖᐠ desktop, TV, mobile platform. ᒥᔪᐦᑌᐠ keyboard, mouse, gamepad, ᑲᑲᓇᐧᐊᐱᑌᐠ remote control ᐅᒋ kakwâ-cikâciwâpamiwewin. Mistahi-itêyihtam ᐅᔑᒋᑲᑌᐠ software ᐊᐧᔭᐠ headless data server command-line interface ᐅᒋ."
+			},
+			"dataFormat": {
+				"title": "ᐃᔑᓂᑲᓱᐃᐧᐣ ᐊᐧᔭᐠ ᑲᔥᑭᐦᐤᐠ kâ ayamicikemâhk format",
+				"description": "LISH data format JSON ᑭᐱ ᐅᔑᑖᐠ, ᒥᔪᐦᑌᐠ ᐅᔑᑖᐠ, ᐊᔭᒥᐦᐃᑲᑌᐠ, ᑲᑭᓇᐠ ᑭᐱ ᓂᓯᑐᐦᑌᐠ. ᐯᔭᑯᐦᑌᐃᐧᓂᑫ kâ kanawenintaman kâ pîkonenamâhk metadata, kâ kashkitât kakawakâpamewin."
+			},
+			"security": {
+				"title": "kâ kîmôtitamowin ᐊᐧᔭᐠ ᒥᓄᐃᐧᐣ",
+				"description": "ᑲᑭᓇᐠ peer-to-peer kakwêcimowin encrypted, ᑭᐱ ᐅᒋ ᐃᔑᓂᑲᓱᐃᐧᐣ ᑭᔮᒥ kâ kîmôtitamowin transit ᐅᒋ. Apacihtâw VPN ᐅᒋ ᒥᓂᑲᐧᐠ kâ kîmôtitamowin. {project} kâ kîmôtitamowin ᐅᔑᒋᑲᑌᐠ."
+			},
+			"crossPlatform": {
+				"title": "Mistahi-platform",
+				"description": "Software ᐊᔭᐃᐧ Windows, Linux, macOS ᐅᒋ. Apacih platform kâ ayamicikemâhk."
+			}
+		}
+	},
+	"download": {
+		"title": "ᓂᓭᐯᑎᓂᑫ",
+		"description": "ᐅᑎᓇ {project} platform ᐅᒋ. ᑲᑭᓇᐠ ᓂᓭᐯᑎᓂᑫᐠ ᓇᒪᐃᐧᔭ tipahikan ᐊᐧᔭᐠ open source.",
+		"version": "Anohc version: {version}",
+		"linkAlt": "ᓂᓭᐯᑎᓂᑫ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "ZIP kâ kashkitât",
+			"viewOnGithub": "GitHub kâ wâpamât"
+		},
+		"macos": {
+			"title": "Mistahi-itêyihtam macOS apacihîwêw ᐅᒋ:",
+			"intro": "macOS Gatekeeper application kâ ayamicikemâhk signed/notarized internet ᐅᒋ ᓂᓭᐯᑎᓂᑫᐠ kâ wanitôtam {error} ᐅᒋ.",
+			"error": "\"pîkopayiw, namôya kashkitâw paskinikan\"",
+			"runCommand": "DMG ZIP ᓂᓭᐯᑎᓂᑫᐠ kayâs, application paskinikan kayâs, omâ command terminal ᐅᒋ:",
+			"exampleDmg": "Anohc, DMG install kayâs:",
+			"exampleZip": "ZIP wîwépihtikan kayâs:",
+			"explanation": "Quarantine attribute ᐅᒋ ᐊᔪᐧᐊᐠ ᐊᐧᔭᐠ application kâ kashkitât."
+		}
+	},
+	"screenshots": {
+		"title": "ᒪᓯᓇᑌᓯᑲᐧᓇᐠ",
+		"open": "ᒪᓯᓇᑌᓯᑲᐧᓇᐠ {index} ᐹᐦᐯᑲᐦᐃᑲᑌᐠ",
+		"alt": "ᒪᓯᓇᑌᓯᑲᐧᓇᐠ {index}",
+		"close": "Gallery ᑭᐯᐦᐊᐦᐃᑲᑌᐠ",
+		"prev": "ᒪᓯᓇᑌᓯᑲᐧᐣ ᓂᑭᑲᓂᔥᑲᐠ",
+		"next": "ᒪᓯᓇᑌᓯᑲᐧᐣ wîpac"
+	},
+	"comparison": {
+		"title": "ᐊᓂᔥᑭᔮᑫᐃᐧᐣ",
+		"feature": "Itâcihowin",
+		"yes": "ᐁᐦᐁ",
+		"no": "ᓇᒪ",
+		"partialDht": "Pîkonenamâhk (DHT)",
+		"rows": {
+			"decentralized": "ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ network",
+			"onlineLibrary": "Internet masinahikanikamik",
+			"builtInSearch": "Built-in nâpâcikemowin",
+			"decentralizedSearch": "ᐯᔭᑯᐃᐧᐊᐊᔪᐃᐧᐃᓂᑫᐃᐧᐣ nâpâcikemowin",
+			"parallelDownloads": "Mâmawi-ᓂᓭᐯᑎᓂᑫᐠ mistahi sources ᐅᒋ",
+			"mediaCenter": "Media center kanâcâpamiwewin",
+			"gamepad": "Gamepad wîcihîwewin",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "ᐱᒋᑫᐃᐧᐣ",
+		"getInTouch": "Pikiskwemowin",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram wihtamowin",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Osihcikew"
+	}
+}

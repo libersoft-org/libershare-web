@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fakalataha he Tau Faila Decentralized",
+		"description": "{project} ko e peer-to-peer software ke fakalataha aki e tau faila, ne taute aki e tekinolosia decentralized fou.",
+		"ogTitle": "{project} - Software ke Fakalataha he Tau Faila Decentralized",
+		"ogDescription": "Fakalataha aki e tau faila peer-to-peer ne taute aki e tekinolosia decentralized fou. Nakai fai server taha. Nakai fai matakavi taha ka mahala."
+	},
+	"menu": {
+		"about": "Hagaaki ke",
+		"download": "Pakipaki hifo",
+		"screenshots": "Tau fakatino he mata",
+		"comparison": "Tau fakatatai",
+		"contact": "Fakatutalaaga",
+		"toggle": "Hafagi e menu",
+		"close": "Pa e menu",
+		"language": "Vagahau",
+		"selectLanguage": "Fifili e vagahau"
+	},
+	"hero": {
+		"subtitle": "Tau fakalataha he tau faila peer-to-peer fou",
+		"description": "Ne taute aki e tekinolosia decentralized fou. Nakai fai server taha. Nakai fai matakavi taha ka mahala.",
+		"download": "Pakipaki hifo"
+	},
+	"about": {
+		"title": "Hagaaki ke",
+		"intro": "{project} ko e platform fou ke fakalataha aki e tau faila peer-to-peer, ne taute aki e tekinolosia decentralized fou. Kua fakalauia e interface mukamuka ke fakaaoga mo e architecture decentralized katoa, ne fakamoli e fakalataha aki e tau faila kua mauoa mo e tonuhia mo e nakai aoga ke fai pule taha. Ko e galue nei ko e open source, ne tukutuku ai he {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Matahau decentralized katoa",
+				"description": "Nakai fai server taha, nakai fai matakavi taha ka mahala. Kua moua mo e pakipaki hifo e tau tagata fakaaoga e tau koloa hagaohi mai he tau tagata, nakai falanaki ke he index taha, tracker, po ke database."
+			},
+			"accessControl": {
+				"title": "Pulega fakaikiiki",
+				"description": "Kua maeke he tau tagata oti ke taute e matahau ha lautolu mo e tau fakatufono ha lautolu noa. Ki loto he tau matahau oti, ko e tau fua he tau tagata fakaaoga ke fakamaama: tagata-eke, administrator, fakapuloa, moderator, mo e mui. Kua ha ha ia koe e pulega fakaikiiki hagaaki ke he hai e maeke ke fakapuloa, moderate, mo e pakipaki hifo e tau koloa."
+			},
+			"ui": {
+				"title": "Interface mitaki ke fakaaoga",
+				"description": "Ko e interface meā mo e tali vave he media center, ne taute ke he desktop, televise, mo e mobile platforms. Kua mukamuka ke fano aki e keyboard, ratoa, gamepad, po ke remote. Ko e tau tagata fakaaoga lahi kua maeke ke fakaaoga e software ko e headless data server ke he interface line command."
+			},
+			"dataFormat": {
+				"title": "Matakupu ka maeke he tagata ke totou",
+				"description": "Ko e matakupu LISH ne taute aki e JSON, ne taute mukamuka e taute, totou, mo e maama. Fakalataha aki e tau koloa hau mo e metadata kotoa mo e maama, ne maeke he tau tagata oti ke kitia mukamuka."
+			},
+			"security": {
+				"title": "Mauoa mo e haohao",
+				"description": "Ko e tau fakafetuiaga peer-to-peer oti kua encrypted, ne fakamoli e tau koloa hau ke tumau ke he mauoa he transit. Kua maeke he tau tagata fakaaoga ke pa fakamua ke he VPN ke he anonymity uho atu. {project} kua tagahau e mauoa hau mai he taute ai."
+			},
+			"crossPlatform": {
+				"title": "Tau platform oti",
+				"description": "Ko e software kua moua ke he Windows, Linux, mo e macOS. Fakaaoga ke he platform ne manako e koe."
+			}
+		}
+	},
+	"download": {
+		"title": "Pakipaki hifo",
+		"description": "Moua e {project} ke he platform haau. Ko e tau pakipaki hifo oti kua nakai fai totoogi mo e open source.",
+		"version": "Version he magaaho nei: {version}",
+		"linkAlt": "Pakipaki hifo",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ke he {format}",
+			"package": "Package ke he {format}",
+			"portableZip": "ZIP maeke ke ave",
+			"viewOnGithub": "Kitia he GitHub"
+		},
+		"macos": {
+			"title": "Fakailoaga aoga ke he tau tagata fakaaoga macOS:",
+			"intro": "macOS Gatekeeper ka pa e tau application nakai signed/notarized ne pakipaki hifo mai he internet aki e mahala {error}.",
+			"error": "\"kua mahala, nakai maeke ke hafagi\"",
+			"runCommand": "He oti e pakipaki hifo e DMG po ke ZIP, fakamua ke hafagi e application, fakaaoga e command nei ke he terminal:",
+			"exampleDmg": "Tuga ne, he oti e install mai he DMG:",
+			"exampleZip": "Po ke he oti e tatala e ZIP:",
+			"explanation": "Ko e mena nei ke uta kehe e attribute he quarantine mo e tuku ke fano e application."
+		}
+	},
+	"screenshots": {
+		"title": "Tau fakatino he mata",
+		"open": "Hafagi e fakatino he mata {index}",
+		"alt": "Fakatino he mata {index}",
+		"close": "Pa e gallery",
+		"prev": "Fakatino mua",
+		"next": "Fakatino ki mui"
+	},
+	"comparison": {
+		"title": "Tau fakatatai",
+		"feature": "Aga",
+		"yes": "E",
+		"no": "Nakai",
+		"partialDht": "Matahaga (DHT)",
+		"rows": {
+			"decentralized": "Matahau decentralized",
+			"onlineLibrary": "Falepuna he internet",
+			"builtInSearch": "Kumikumiaga ne taute",
+			"decentralizedSearch": "Kumikumiaga decentralized",
+			"parallelDownloads": "Tau pakipaki hifo lalahi mai he tau matakavi loga",
+			"mediaCenter": "Interface he media center",
+			"gamepad": "Lagomatai he gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Fakatutalaaga",
+		"getInTouch": "Fakatutala mai",
+		"links": {
+			"telegramChat": "Matakau tutalaaga he Telegram",
+			"telegramAnnouncements": "Tau fakailoaga he Telegram",
+			"facebook": "Matakau he Facebook"
+		}
+	},
+	"footer": {
+		"by": "Ne taute he"
+	}
+}

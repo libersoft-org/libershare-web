@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Malcentralizita Dosierkunhavigo",
+		"description": "{project} estas samtavola dosierkunhaviga programaro konstruita sur moderna malcentralizita teknologio.",
+		"ogTitle": "{project} - Malcentralizita Dosierkunhaviga Programaro",
+		"ogDescription": "Samtavola dosierkunhavigo bazita sur moderna malcentralizita teknologio. Neniu centra servilo. Neniu sola fiaskopunkto."
+	},
+	"menu": {
+		"about": "Pri",
+		"download": "Elŝuti",
+		"screenshots": "Ekrankopioj",
+		"comparison": "Komparo",
+		"contact": "Kontakto",
+		"toggle": "Ŝalti menuon",
+		"close": "Fermi menuon",
+		"language": "Lingvo",
+		"selectLanguage": "Elekti lingvon"
+	},
+	"hero": {
+		"subtitle": "Sekvageneracia samtavola dosierkunhavigo",
+		"description": "Bazita sur moderna malcentralizita teknologio. Neniu centra servilo. Neniu sola fiaskopunkto.",
+		"download": "Elŝuti"
+	},
+	"about": {
+		"title": "Pri",
+		"intro": "{project} estas sekvageneracia platformo por samtavola dosierkunhavigo, konstruita sur moderna malcentralizita teknologio. Ĝi kombinas facile uzeblan interfacon kun plene malcentralizita arkitekturo, certigante sekuran kaj fidindan dosierkunhavigon sen bezono de centra aŭtoritato. Ĉi tiu projekto estas malfermkoda, eldonita sub {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Plene malcentralizita reto",
+				"description": "Neniu centra servilo, neniu sola fiaskopunkto. Uzantoj trovas kaj elŝutas enhavon rekte unu de la alia, sen dependi de iu centra indekso, spurilo aŭ datumbazo."
+			},
+			"accessControl": {
+				"title": "Detala alirkontrolo",
+				"description": "Iu ajn povas konstrui sian propran reton kun siaj propraj reguloj senpage. Ene de ĉiu reto, uzantroloj estas difinitaj: posedanto, administranto, eldonanto, moderiganto kaj sekvanto. Vi havas detalan kontrolon pri kiu povas eldoni, moderigi kaj elŝuti enhavon."
+			},
+			"ui": {
+				"title": "Altkvalita uzantinterfaco",
+				"description": "Pura kaj reaga interfaco de medicentro, dezajnita por labortablaj, televidaj kaj porteblaj platformoj. Facila navigado per klavaro, muso, ludstirilo aŭ teleregilo. Spertaj uzantoj povas funkciigi la programaron kiel sentitran datumservilon per la komandlinia interfaco."
+			},
+			"dataFormat": {
+				"title": "Homlegebla datumformato",
+				"description": "La datumformato LISH estas konstruita sur JSON, kio faciligas krei, legi kaj kompreni ĝin. Kunhavigu vian enhavon kun klaraj kaj travideblaj metadatumoj, kiujn iu ajn povas facile kontroli."
+			},
+			"security": {
+				"title": "Privateco kaj sekureco",
+				"description": "Ĉiuj samtavolaj komunikadoj estas ĉifritaj, certigante ke viaj datumoj restu privataj dum transdono. Uzantoj povas kaŝiĝi malantaŭ VPN por plia anonimeco. {project} respektas vian privatecon laŭ dezajno."
+			},
+			"crossPlatform": {
+				"title": "Multplatforma",
+				"description": "La programaro estas disponebla por Windows, Linukso kaj macOS. Uzu ĝin sur la platformo, kiun vi preferas."
+			}
+		}
+	},
+	"download": {
+		"title": "Elŝuti",
+		"description": "Akiru {project} por via platformo. Ĉiuj elŝutoj estas senpagaj kaj malfermkodaj.",
+		"version": "Aktuala versio: {version}",
+		"linkAlt": "Elŝuti",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalilo {format}",
+			"package": "Pakaĵo {format}",
+			"portableZip": "Portebla ZIP",
+			"viewOnGithub": "Vidi en GitHub"
+		},
+		"macos": {
+			"title": "Grava informo por uzantoj de macOS:",
+			"intro": "macOS Gatekeeper blokos nesubskribitajn/nenotariigitajn aplikaĵojn elŝutitajn de interreto kun eraro {error}.",
+			"error": "\"estas difektita, ne povas esti malfermita\"",
+			"runCommand": "Post elŝuti la DMG aŭ ZIP, antaŭ ol malfermi la aplikaĵon, plenumu ĉi tiun komandon en terminalo:",
+			"exampleDmg": "Ekzemple, post instalado el DMG:",
+			"exampleZip": "Aŭ post elpakigi la ZIP:",
+			"explanation": "Tio forigos la kvarantenan atributon kaj permesos al la aplikaĵo funkcii."
+		}
+	},
+	"screenshots": {
+		"title": "Ekrankopioj",
+		"open": "Malfermi ekrankopion {index}",
+		"alt": "Ekrankopio {index}",
+		"close": "Fermi galerion",
+		"prev": "Antaŭa bildo",
+		"next": "Sekva bildo"
+	},
+	"comparison": {
+		"title": "Komparo",
+		"feature": "Trajto",
+		"yes": "Jes",
+		"no": "Ne",
+		"partialDht": "Parta (DHT)",
+		"rows": {
+			"decentralized": "Malcentralizita reto",
+			"onlineLibrary": "Reta biblioteko",
+			"builtInSearch": "Enkonstruita serĉo de enhavo",
+			"decentralizedSearch": "Malcentralizita serĉo de enhavo",
+			"parallelDownloads": "Paralelaj elŝutoj el pluraj fontoj",
+			"mediaCenter": "Interfaco de medicentro",
+			"gamepad": "Subteno de ludstirilo",
+			"openSource": "Malfermkoda"
+		}
+	},
+	"contact": {
+		"title": "Kontakto",
+		"getInTouch": "Ekkontakti",
+		"links": {
+			"telegramChat": "Babilejo en Telegramo",
+			"telegramAnnouncements": "Anoncoj en Telegramo",
+			"facebook": "Grupo en Facebook"
+		}
+	},
+	"footer": {
+		"by": "Farita de"
+	}
+}

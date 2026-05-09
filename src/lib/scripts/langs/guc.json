@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pülasü Akotchijaa Ekira",
+		"description": "{project} shia wanee software peer-to-peer süpülapünaa pülasü akotchijaa ekira, akumajünaka süka tepichi descentralizada teknolokia.",
+		"ogTitle": "{project} - Software Süpülapünaa Pülasü Akotchijaa Ekira",
+		"ogDescription": "Peer-to-peer pülasü akotchijaa ekira akumajünaka süka tepichi descentralizada teknolokia. Nnojotsü servidor pülasü. Nnojotsü wanee püta süpülapünaa amülouipa."
+	},
+	"menu": {
+		"about": "Süchikijee",
+		"download": "Süloüi",
+		"screenshots": "Sotchijia ayoolojuyaa",
+		"comparison": "Akotchijaa amünaa",
+		"contact": "Aluwataa",
+		"toggle": "Üttüin menü",
+		"close": "Sümaiwa menü",
+		"language": "Anüikii",
+		"selectLanguage": "Süneeküin anüikii"
+	},
+	"hero": {
+		"subtitle": "Sayasajaa peer-to-peer pülasü akotchijaa ekira",
+		"description": "Akumajünaka süka tepichi descentralizada teknolokia. Nnojotsü servidor pülasü. Nnojotsü wanee püta süpülapünaa amülouipa.",
+		"download": "Süloüi"
+	},
+	"about": {
+		"title": "Süchikijee",
+		"intro": "{project} shia wanee plataforma sayasajaa süpülapünaa peer-to-peer pülasü akotchijaa ekira, akumajünaka süka tepichi descentralizada teknolokia. Sülawajüin wanee interfaz tü sülawasükat süka wanee arquitectura jüsmaiwa descentralizada, yapain pülasü akotchijaa ekira yotushiijiraka süpa süpülapünaa wanee autoridad pülasü. Tü proyectokat shia open source, ojuittaka süka {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Sümaiwa descentralizada red",
+				"description": "Nnojotsü servidor pülasü, nnojotsü wanee püta süpülapünaa amülouipa. Akumajüinmüin akotchijaaina aaülaka süpa atünaka süka palainainwoukai, süpa wanee índice pülasü, rastreador o base de datos."
+			},
+			"accessControl": {
+				"title": "Aainjirüin tepichi süpalanak",
+				"description": "Wayuu nainin akümajüin nüikkümajüin red süka nüikkümajüin reglas pansaa. Süpülapünaa kasa red, anainjüin ouulupüinaai akumajüinmüin: nüjadain, administrador, ousajat, moderador, otta atürajüin. Pia kapünaa aainjirüin tepichi süpülapünaa jaralaa süpülaalu ousajüin, moderar, sülouüin akotchijaa."
+			},
+			"ui": {
+				"title": "Anasüilain interfaz akumajüinmüin",
+				"description": "Wanee interfaz medios pülasü, akumajünaka süpülapünaa escritorio, televisor otta dispositivo móviles. Awalanaa anainjirüin süka teclado, ratón, gamepad otta control remoto. Akumajüinmüin atashitaa atunalaakat akumajüinmüin software shia headless servidor süka interfaz línea de comandos."
+			},
+			"dataFormat": {
+				"title": "Anüikii süchikijee aaülaka wayuu",
+				"description": "Tü formato datos LISH akumajünaka süka JSON, awalaain akumajaa, aaülaa otta atijaa. Pülasü püjeketüin süka shawane otta analakat metadatos, jaralaa atunajüin pansaa."
+			},
+			"security": {
+				"title": "Süchikua otta süchikijee",
+				"description": "Süpülapünaa peer-to-peer atunalaakat encriptada, anainjirüin süpülapünaa pidatos shia süchikuain süpülapünaa tránsito. Akumajüinmüin akotchijaaina ataaain VPN süpülapünaa shawane anonimato. {project} ayuujasajaa süpülapünaa süchikuapia süka süakumajaalakat."
+			},
+			"crossPlatform": {
+				"title": "Pülasü plataformas",
+				"description": "Tü softwarekat anaain süpülapünaa Windows, Linux otta macOS. Püjeketüin sukuwapünapa plataforma anasaa pia."
+			}
+		}
+	},
+	"download": {
+		"title": "Süloüi",
+		"description": "Püjüijala {project} süpülapünaa püplataforma. Süpülapünaa süloüikalüirua jiajüin pansaa otta open source.",
+		"version": "Versión süchikijee: {version}",
+		"linkAlt": "Süloüi",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ainstalador",
+			"package": "{format} pakete",
+			"portableZip": "ZIP awatashi",
+			"viewOnGithub": "Aaülaa süpa GitHub"
+		},
+		"macos": {
+			"title": "Süchikuapia jüsalain süpülapünaa akumajüinmüin macOS:",
+			"intro": "macOS Gatekeeper süraain aplicaciones nnojotpülaa süraain/notarizada loüikalüirua süpa internet süka {error} süchikuapia.",
+			"error": "\"oüsalain, awalaain üttüin\"",
+			"runCommand": "Süchikuapünapa pasüloüin DMG o ZIP, süpalashaüinya süpalanaa, püjeketain comando süpa terminal:",
+			"exampleDmg": "Anaain pansaa, süchikuapünapa instalación süchikuapünapa DMG:",
+			"exampleZip": "O süchikuapünapa süloüin ZIP:",
+			"explanation": "Tü taa süchikijee atributo cuarentena otta nnojotsü süpülapünaa aplicación süpalakat."
+		}
+	},
+	"screenshots": {
+		"title": "Sotchijia ayoolojuyaa",
+		"open": "Üttüin sotchijia ayoolojuyaa {index}",
+		"alt": "Sotchijia ayoolojuyaa {index}",
+		"close": "Sümaiwa galería",
+		"prev": "Sotchijia palanaa",
+		"next": "Sotchijia süchikuapia"
+	},
+	"comparison": {
+		"title": "Akotchijaa amünaa",
+		"feature": "Atürajaa",
+		"yes": "Aaja'a",
+		"no": "Nnojo",
+		"partialDht": "Awanaa (DHT)",
+		"rows": {
+			"decentralized": "Descentralizada red",
+			"onlineLibrary": "Biblioteca süpa internet",
+			"builtInSearch": "Achajawaa akumajünaka",
+			"decentralizedSearch": "Descentralizada achajawaa",
+			"parallelDownloads": "Süloüikalüirua süpa süpülapünaa fuentes",
+			"mediaCenter": "Medios pülasü interfaz",
+			"gamepad": "Gamepad asoulajaa",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Aluwataa",
+		"getInTouch": "Aluwataa amünaa",
+		"links": {
+			"telegramChat": "Telegram chat grupo",
+			"telegramAnnouncements": "Telegram anuncios",
+			"facebook": "Facebook grupo"
+		}
+	},
+	"footer": {
+		"by": "Akumajünaka"
+	}
+}

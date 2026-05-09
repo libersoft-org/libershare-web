@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Wěmá mímǎ má nɔ kpɔ́n acɛ ɖó",
+		"description": "{project} nyí peer-to-peer wěmá mímǎ azɔ̌wánú e nɔ wà azɔ̌ kpó zǎn yɔyɔ̌ ɖěɖě má nɔ kpɔ́n acɛ ɖó kpó.",
+		"ogTitle": "{project} - Wěmá mímǎ má nɔ kpɔ́n acɛ ɖó azɔ̌wánú",
+		"ogDescription": "Peer-to-peer wěmá mímǎ ɖǒ zǎn yɔyɔ̌ ɖěɖě má nɔ kpɔ́n acɛ ɖó. Server titɔ́nu ɖě ɖè ǎ. Tɛ́n ɖokpó e na hɛn nyì ǎ ɖè ǎ."
+	},
+	"menu": {
+		"about": "Dò tɔn",
+		"download": "Yí",
+		"screenshots": "Fótò",
+		"comparison": "Sɔ́gbe",
+		"contact": "Sè kpɔ́",
+		"toggle": "Hun menu",
+		"close": "Sú menu",
+		"language": "Gbè",
+		"selectLanguage": "Gbɔ̀n gbè"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer wěmá mímǎ jijɔ yɔyɔ̌",
+		"description": "Ɖǒ zǎn yɔyɔ̌ ɖěɖě má nɔ kpɔ́n acɛ ɖó. Server titɔ́nu ɖě ɖè ǎ. Tɛ́n ɖokpó e na hɛn nyì ǎ ɖè ǎ.",
+		"download": "Yí"
+	},
+	"about": {
+		"title": "Dò tɔn",
+		"intro": "{project} nyí jijɔ yɔyɔ̌ peer-to-peer wěmá mímǎ tɛnmɛ e ɖǒ zǎn yɔyɔ̌ ɖěɖě má nɔ kpɔ́n acɛ ɖó. É na zǎn bɔ̀ɔbɔ̀ kpó ɖoɖo bǐ má nɔ kpɔ́n acɛ ɖó kpó, bo nɔ ná wěmá mímǎ e ɖó akpá kpó e jɛ ji é, sín acɛkpikpa titɔ́nu mahomɛ wú. Azɔ̌ é nyí open source, è ɖe tɔn dó {license} mɛ.",
+		"features": {
+			"decentralized": {
+				"title": "Network bǐ má nɔ kpɔ́n acɛ ɖó",
+				"description": "Server titɔ́nu ɖě ɖè ǎ, tɛ́n ɖokpó e na hɛn nyì ǎ ɖè ǎ. Mɛzanlɛ́ nɔ mɔ azɔ̌ɔ́ bo nɔ yí ì sín mɛɖé gɔ́n, è ka nɔ ganji ɖó index, tracker abí database titɔ́nu ɖé jí ǎ."
+			},
+			"accessControl": {
+				"title": "Acɛkpikpa ɖesun bɔ̀ɔbɔ̀",
+				"description": "Mɛ ɖěbǔ sixú dó éɖesú sín network kpó éɖesú sín sɛ́n kpó vɔ̌nɔ. Ɖò network ɖokpóɖokpó mɛ, è ɖè mɛzanlɛ́ sín azɔ̌xwíxwí: nɔnɔ́, gǎn, èxixwlemɛ̀tɔ́, modérator, kpó xwedɔtɔ́ kpó. A nɔ kpɔ́n acɛ ɖesun ɖò mɛ e na xwíxwlɛ̀mɛ̀, dó nukún kpó yí azɔ̌ kpó ji."
+			},
+			"ui": {
+				"title": "Mɛzanlɛ́sí jijɔ ɖaxó",
+				"description": "Mediakpɔ́n bɔ̀ɔbɔ̀ ɖěɖě nɔ yawu yí gbe e è ɖó dó zinkpó, télévision kpó tɛ́n alɔnu kpó tɛnmɛ jí. È nɔ zán claviá, zinkú, gamepad abí télécommande dó dín ɖò mɛ. Mɛ ɖěɖě tunwun bǐ sín lɛ́ sixú zán azɔ̌wánú ɔ́ headless server lɛ́nlɛ́n vɔ́ ɖò xósɛ́n alɔnu jí."
+			},
+			"dataFormat": {
+				"title": "Données nɔnɔme è gbɛtɔ̀ sixú xà",
+				"description": "LISH données nɔnɔme è dó dó JSON jí, nukún tɔn nɔ na bɔ̀ɔbɔ̀ ɖó dó wà, dó xà kpó dó tunwun. Ma azɔ̌ towe kpó métadonnées zinzɔ́ɛ ɖěɖě mɛ ɖěbǔ sixú kpɔ́n bɔ̀ɔbɔ̀ kpó."
+			},
+			"security": {
+				"title": "Avivɔvi kpó ayìjayì",
+				"description": "Peer-to-peer dòdò bǐ è dò glɔ́, lo ɖè dó akpá ɖɔ́ données towe na cí avivɔvi mɛ ɖò xixwíxwà mɛ. Mɛzanlɛ́ sixú zán VPN dó hwlá ɖó nukɔnyiyi anonymat. {project} ɖǒ acɛ ɖó avivɔvi towe wú sín bǐbɛ̌."
+			},
+			"crossPlatform": {
+				"title": "Tɛ́n ɖěɖě bǐ jí",
+				"description": "Azɔ̌wánú ɔ́ ɖè tɔ́n nú Windows, Linux kpó macOS kpó. Zán ì ɖò tɛ́n ɖěbǔ jí."
+			}
+		}
+	},
+	"download": {
+		"title": "Yí",
+		"description": "Yí {project} nú tɛ́n towe. Yiyi bǐ è vɔ̌nɔ bo nyí open source.",
+		"version": "Vèrsion gbɔn: {version}",
+		"linkAlt": "Yí",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installateur",
+			"package": "{format} paquet",
+			"portableZip": "ZIP è sixú yì kpódó",
+			"viewOnGithub": "Kpɔ́n ɖò GitHub"
+		},
+		"macos": {
+			"title": "Tan taji nú macOS mɛzanlɛ́:",
+			"intro": "macOS Gatekeeper na sú gbe nú azɔ̌wánú ɖěɖě è ma signe bo è ma notarisé è yí sín internet jí kpó {error} kɛ́n.",
+			"error": "\"é gblé, è má sixú hun ǎ\"",
+			"runCommand": "Hwenu è è yí DMG abí ZIP fini, hwɛ̀ è na hun azɔ̌wánú ɔ́, vlán xósɛ́n élɔ́ ɖò terminal mɛ:",
+			"exampleDmg": "Kpɔ́ndéwú, ɖó è ɖǒ ɖò DMG mɛ ɔ:",
+			"exampleZip": "Abí ɖó è ɖè ZIP ɔ tɔ́n:",
+			"explanation": "Èmɔ́ɛ na ɖè quarantine kɛ́n ɔ, bo na zé azɔ̌wánú ɔ na zán."
+		}
+	},
+	"screenshots": {
+		"title": "Fótò",
+		"open": "Hun fótò {index}",
+		"alt": "Fótò {index}",
+		"close": "Sú galerie",
+		"prev": "Fótò nukɔn tɔn",
+		"next": "Fótò gùdo tɔn"
+	},
+	"comparison": {
+		"title": "Sɔ́gbe",
+		"feature": "Jijɔ",
+		"yes": "Ɛ̀ɛn",
+		"no": "Ɛɛo",
+		"partialDht": "Akpá ɖé (DHT)",
+		"rows": {
+			"decentralized": "Network má nɔ kpɔ́n acɛ ɖó",
+			"onlineLibrary": "Wěmaxɔ ɖò ìntɛnɛ́t jí",
+			"builtInSearch": "Tinmɛ ba mlɛ́",
+			"decentralizedSearch": "Tinmɛ ba má nɔ kpɔ́n acɛ ɖó",
+			"parallelDownloads": "Yiyi yiyi ɖò tɛ́n vovo lɛ́ jí",
+			"mediaCenter": "Mediakpɔ́n tɛnmɛ",
+			"gamepad": "Gamepad gɔɖónumɛ",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Sè kpɔ́",
+		"getInTouch": "Sè kpɔ́",
+		"links": {
+			"telegramChat": "Telegram xokɔ́n",
+			"telegramAnnouncements": "Telegram xósúsú",
+			"facebook": "Facebook gbɛ̌"
+		}
+	},
+	"footer": {
+		"by": "È blǒ ɛ́ gbɔn"
+	}
+}

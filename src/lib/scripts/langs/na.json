@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralized Tarakuwet Faila",
+		"description": "{project} eko peer-to-peer software ekat tarakuwet faila, eokwadiyo idu modern decentralized teknolosi.",
+		"ogTitle": "{project} - Software ekat Tarakuwet Faila Decentralized",
+		"ogDescription": "Peer-to-peer tarakuwet faila eokwadiyo idu modern decentralized teknolosi. Anene server emiyu. Anene tongan tongan emoaiyon ka eburu."
+	},
+	"menu": {
+		"about": "Egogedi",
+		"download": "Itubotubot",
+		"screenshots": "Bidubidu mwone",
+		"comparison": "Aetut",
+		"contact": "Atemak",
+		"toggle": "Bukit menu",
+		"close": "Itubok menu",
+		"language": "Dorerin",
+		"selectLanguage": "Bigaringi dorerin"
+	},
+	"hero": {
+		"subtitle": "Idu peer-to-peer tarakuwet faila",
+		"description": "Eokwadiyo idu modern decentralized teknolosi. Anene server emiyu. Anene tongan tongan emoaiyon ka eburu.",
+		"download": "Itubotubot"
+	},
+	"about": {
+		"title": "Egogedi",
+		"intro": "{project} eko platform tongan tongan ekat peer-to-peer tarakuwet faila, eokwadiyo idu modern decentralized teknolosi. Etowoia interface ekewa tarogetagua eowiyowiyo decentralized architecture, eatamogen tarakuwet faila erait ekenowo eareran tongan tongan tarinyamo emiyu emangat. Project ekone open source, eyowiya idu {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network decentralized eareran",
+				"description": "Anene server emiyu, anene tongan tongan emoaiyon ka eburu. Eikwiyo tarbet etarakuwa idu omo tongan emirot, anene emangat idu index emiyu, tracker, ka database."
+			},
+			"accessControl": {
+				"title": "Eowiyo etubok eburu",
+				"description": "Tarbet eareran ekat ngatimangat network eareran rules eareran erait moneda. Idu network eareran, etarbet egogedi: eowoit, administrator, etangari, moderator, eareran etitin. Eitangat eowiyo etubok ekenowo etangari, moderate, eareran tarakuwa tarbet."
+			},
+			"ui": {
+				"title": "Interface ekewa",
+				"description": "Interface emang eareran ka emoaiyon media center, eokwadiyo idu desktop, televise, mobile platforms. Erait ekewa keyboard, mouse, gamepad, remote control. Etarbet ekewa eowoit emoaiyon software headless data server idu command-line interface."
+			},
+			"dataFormat": {
+				"title": "Format etarbet eitedu emoaiyon",
+				"description": "LISH format eokwadiyo JSON, etarogetagua eowiya, eitedu, ngateetad. Tarakuwa tarbet emirot ka emang eareran transparent metadata, tarbet eareran emoaiyon eowoit erait."
+			},
+			"security": {
+				"title": "Atemwet ka eturyon",
+				"description": "Tarbet peer-to-peer komunikatsion encrypted, eatamogen tarbet eowoit emirot privacy idu transit. Etarbet emoaiyon emor idu VPN ekat tongan emang anonymity. {project} eyokitan atemwet idu design."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software eareran Windows, Linux, ka macOS. Eowot idu platform tongan tongan eareran enane."
+			}
+		}
+	},
+	"download": {
+		"title": "Itubotubot",
+		"description": "Imangat {project} ekat platform eowoit. Tarbet itubotubot anene moneda eareran open source.",
+		"version": "Version egea: {version}",
+		"linkAlt": "Itubotubot",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ekat {format}",
+			"package": "Package ekat {format}",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Bidu idu GitHub"
+		},
+		"macos": {
+			"title": "Aetap erait ekat tarbet macOS:",
+			"intro": "macOS Gatekeeper eitubo applications tarogetagua signed/notarized eitubotubot mwone internet idu {error} eburu.",
+			"error": "\"eburu, anene emoaiyon bukit\"",
+			"runCommand": "Idu egamen DMG ka ZIP, ngatibukit application, owiyo command idu terminal:",
+			"exampleDmg": "Mwone, ngategamen install mwone DMG:",
+			"exampleZip": "Ngategamen ZIP:",
+			"explanation": "Eburu attribute quarantine ngateekat application emoaiyon."
+		}
+	},
+	"screenshots": {
+		"title": "Bidubidu mwone",
+		"open": "Bukit bidubidu mwone {index}",
+		"alt": "Bidubidu mwone {index}",
+		"close": "Itubok gallery",
+		"prev": "Bidubidu emang",
+		"next": "Bidubidu eareran"
+	},
+	"comparison": {
+		"title": "Aetut",
+		"feature": "Eitedu",
+		"yes": "Eaa",
+		"no": "Wa",
+		"partialDht": "Tongan emang (DHT)",
+		"rows": {
+			"decentralized": "Network decentralized",
+			"onlineLibrary": "Library idu internet",
+			"builtInSearch": "Eowiyo enange",
+			"decentralizedSearch": "Decentralized enange",
+			"parallelDownloads": "Tarbet itubotubot mwone tarbet sources",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad eareran",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Atemak",
+		"getInTouch": "Atemak mengat",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram announcements",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Eokwadiyo idu"
+	}
+}

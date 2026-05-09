@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tlanāmaquilīztli Āmaxtli Ahmo Tlahtohtli",
+		"description": "{project} ce peer-to-peer tlanāmaquilīztli āmaxtli software tlen mochīhua ipan yāncuīc tlatequipanoāyōtl ahmo tlahtohtli.",
+		"ogTitle": "{project} - Tlanāmaquilīztli Āmaxtli Software Ahmo Tlahtohtli",
+		"ogDescription": "Peer-to-peer tlanāmaquilīztli āmaxtli ipan yāncuīc tlatequipanoāyōtl ahmo tlahtohtli. Ahmo cē tlahtoāni server. Ahmo cē tlamantli tlen huel mocuepa."
+	},
+	"menu": {
+		"about": "Īpan",
+		"download": "Tēmōhua",
+		"screenshots": "Tlachīyaltīcayōtl",
+		"comparison": "Nenehuiliztli",
+		"contact": "Tlanōnōtzaliztli",
+		"toggle": "Tlapoa menu",
+		"close": "Tzacua menu",
+		"language": "Tlahtōlli",
+		"selectLanguage": "Pehpena tlahtōlli"
+	},
+	"hero": {
+		"subtitle": "Yāncuīc peer-to-peer tlanāmaquilīztli āmaxtli",
+		"description": "Ipan yāncuīc tlatequipanoāyōtl ahmo tlahtohtli. Ahmo cē tlahtoāni server. Ahmo cē tlamantli tlen huel mocuepa.",
+		"download": "Tēmōhua"
+	},
+	"about": {
+		"title": "Īpan",
+		"intro": "{project} ce yāncuīc tequiyōtl īpampa peer-to-peer tlanāmaquilīztli āmaxtli, tlen mochīhua ipan yāncuīc tlatequipanoāyōtl ahmo tlahtohtli. Mocentlālia tlachīhualli tlen amo ohuih īhuān cē architectura tlen ahmo tlahtohtli, tlen quichīhua māquimati cualli īhuān melāhuac ahmo monequi cē tlahtoāni. Inīn tequiyōtl ce open source, mochīhua ipan {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Centetl tlatequipanoāyōtl ahmo tlahtohtli",
+				"description": "Ahmo cē tlahtoāni server, ahmo cē tlamantli tlen huel mocuepa. Tlatequipanoānih quihtah īhuān tēmōhuah tlen mocaqui tlatequipanoāncopa, ahmo monequi cē tlahtoāni index, tracker noce database."
+			},
+			"accessControl": {
+				"title": "Cualli tlanāhuatīliztli",
+				"description": "Aquincah huel quichīhua īaxca tlatequipanoāyōtl īca īaxca tlanāhuatīlmeh ayāc tlaxtlāhua. Ipan tlatequipanoāyōtl, mochīhuah tlatequipanoānih īxiptlameh: tlahtoāni, administrator, tlanextiāni, moderator, īhuān tlatocaāni. Ticpia cualli tlanāhuatīliztli aquin huel quinextia, modera, īhuān tēmōhua tlen mocaqui."
+			},
+			"ui": {
+				"title": "Cualli tlatequipanoāni interface",
+				"description": "Chipāhuac īhuān nantihtli media center interface, mochīhua ihuīcpa desktop, televisión, īhuān celular. Ahmo ohuih monemiltīliztli īca teclado, ratón, gamepad, noce remote control. Ohuih tlatequipanoānih huel quichīhuah inīn software queman headless data server īca command-line interface."
+			},
+			"dataFormat": {
+				"title": "Tlacatl-yo tlapōuhqui data format",
+				"description": "LISH data format mochīhua ipan JSON, tlen quichīhua ahmo ohuih monextia, mopōhua, īhuān moixmati. Tla mocentlālih tlen mocaqui īca melāhuac īhuān chipāhuac metadata, tlen aquincah huel quita."
+			},
+			"security": {
+				"title": "Tlapictīliztli īhuān māquimati",
+				"description": "Mochintīn peer-to-peer comunicaciones cifradas, tlen quichīhua moaxca data motlapichilia ipan tlanechicōliztli. Tlatequipanoānih huel motlatiah ihuīcpa VPN ipampa ocachi anonymato. {project} mocahua moaxca tlapictīliztli ipan īchīhuayō."
+			},
+			"crossPlatform": {
+				"title": "Mochintīn plataformameh",
+				"description": "Inīn software ihcatica ihuīcpa Windows, Linux, īhuān macOS. Quitequipanoa ipan tlein plataforma timahuihua."
+			}
+		}
+	},
+	"download": {
+		"title": "Tēmōhua",
+		"description": "Anqui {project} ihuīcpa moaxca plataforma. Mochintīn tēmōhuah ahmo motlaxtlāhua īhuān open source.",
+		"version": "Axcān versión: {version}",
+		"linkAlt": "Tēmōhua",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} paquete",
+			"portableZip": "Cuīcani ZIP",
+			"viewOnGithub": "Quita ipan GitHub"
+		},
+		"macos": {
+			"title": "Hueyi tlanonotzaliztli ihuīcpa macOS tlatequipanoānih:",
+			"intro": "macOS Gatekeeper quitzacualtīz aplicaciones tlen ahmo signed/notarized tēmōhua ipan internet īca {error} ahcualli.",
+			"error": "\"motlapana, ahmo huel motlapoa\"",
+			"runCommand": "Tlachīhualtih DMG noce ZIP, ayamo tictlapoa aplicación, xicchīhua inīn tlanahuatīlli ipan terminal:",
+			"exampleDmg": "Yuhquin, hueyi DMG mochīhua:",
+			"exampleZip": "Noce hueyi mocuepa ZIP:",
+			"explanation": "Inīn quīxtia quarantine attribute īhuān cahua aplicación quitequipanoa."
+		}
+	},
+	"screenshots": {
+		"title": "Tlachīyaltīcayōtl",
+		"open": "Tlapoa tlachīyaltīcayōtl {index}",
+		"alt": "Tlachīyaltīcayōtl {index}",
+		"close": "Tzacua galería",
+		"prev": "Yēhua tlapictli",
+		"next": "Tlapictli tlen huīztoc"
+	},
+	"comparison": {
+		"title": "Nenehuiliztli",
+		"feature": "Tlamantli",
+		"yes": "Quēmah",
+		"no": "Ahmo",
+		"partialDht": "Quezquintīn (DHT)",
+		"rows": {
+			"decentralized": "Tlatequipanoāyōtl ahmo tlahtohtli",
+			"onlineLibrary": "Internet biblioteca",
+			"builtInSearch": "Tlatēmōliztli tlen ahcic",
+			"decentralizedSearch": "Tlatēmōliztli ahmo tlahtohtli",
+			"parallelDownloads": "Miec tēmōhuah ipan miec tlamantli",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad palēhuiliztli",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tlanōnōtzaliztli",
+		"getInTouch": "Xinēchnōnōtza",
+		"links": {
+			"telegramChat": "Telegram tlanōnōtzaliztli",
+			"telegramAnnouncements": "Telegram tlanonōtzaliztli",
+			"facebook": "Facebook centiani"
+		}
+	},
+	"footer": {
+		"by": "Mochīhua ica"
+	}
+}

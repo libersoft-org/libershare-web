@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralized File Sharing",
+		"description": "{project} na peer-to-peer file sharing software wey dem build ontop modern decentralized technology.",
+		"ogTitle": "{project} - Decentralized File Sharing Software",
+		"ogDescription": "Peer-to-peer file sharing wey dem build ontop modern decentralized technology. No central server. No single point wey fit fail."
+	},
+	"menu": {
+		"about": "About am",
+		"download": "Download",
+		"screenshots": "Screenshots",
+		"comparison": "Comparison",
+		"contact": "Contact",
+		"toggle": "Open menu",
+		"close": "Close menu",
+		"language": "Language",
+		"selectLanguage": "Choose language"
+	},
+	"hero": {
+		"subtitle": "Next-generation peer-to-peer file sharing",
+		"description": "Dem build am ontop modern decentralized technology. No central server. No single point wey fit fail.",
+		"download": "Download"
+	},
+	"about": {
+		"title": "About am",
+		"intro": "{project} na next-generation peer-to-peer file sharing platform wey dem build ontop modern decentralized technology. E join easy-to-use interface with full decentralized architecture, dey make sure say file sharing dey safe and dem fit trust am without need for any central authority. Dis project na open source, dem release am under {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Full decentralized network",
+				"description": "No central server, no single point wey fit fail. Users dey find and download content direct from each other, without dey rely on any central index, tracker, or database."
+			},
+			"accessControl": {
+				"title": "Fine-grained access control",
+				"description": "Anybody fit build im own network with im own rules for free. Inside every network, dem don define user roles: owner, administrator, publisher, moderator, and follower. You go get fine control over who fit publish, moderate, and download content."
+			},
+			"ui": {
+				"title": "High-quality user interface",
+				"description": "Clean and responsive media center interface wey dem design for desktop, TV, and mobile platforms. E easy to navigate with keyboard, mouse, gamepad, or remote control. Advanced users fit run di software as headless data server through di command-line interface."
+			},
+			"dataFormat": {
+				"title": "Human-readable data format",
+				"description": "Di LISH data format dem build am ontop JSON, wey make am easy to create, read, and understand. Share your content with metadata wey clear and transparent, wey anybody fit verify easy."
+			},
+			"security": {
+				"title": "Privacy and security",
+				"description": "All peer-to-peer communications dem encrypt am, dey make sure say your data dey private for transit. Users fit hide behind VPN for extra anonymity. {project} dey respect your privacy from di way dem design am."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Di software dey available for Windows, Linux, and macOS. Use am for any platform wey you like."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "Get {project} for your platform. All downloads na free and open source.",
+		"version": "Current version: {version}",
+		"linkAlt": "Download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "View for GitHub"
+		},
+		"macos": {
+			"title": "Important info for macOS users:",
+			"intro": "macOS Gatekeeper go block unsigned/unnotarized applications wey you download from internet with {error} error.",
+			"error": "\"e don spoil, no fit open\"",
+			"runCommand": "After you download di DMG or ZIP, before you open di application, run dis command for terminal:",
+			"exampleDmg": "For example, after you install from DMG:",
+			"exampleZip": "Or after you extract di ZIP:",
+			"explanation": "Dis go remove di quarantine attribute and allow di application to run."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshots",
+		"open": "Open screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Close gallery",
+		"prev": "Previous image",
+		"next": "Next image"
+	},
+	"comparison": {
+		"title": "Comparison",
+		"feature": "Feature",
+		"yes": "Yes",
+		"no": "No",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Decentralized network",
+			"onlineLibrary": "Online library",
+			"builtInSearch": "Built-in content search",
+			"decentralizedSearch": "Decentralized content search",
+			"parallelDownloads": "Parallel downloads from multiple sources",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad support",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Get in touch",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram announcements",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "Made by"
+	}
+}

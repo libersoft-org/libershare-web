@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentraliseert Datendelen",
+		"description": "{project} is een Peer-to-Peer-Datendeelsoftware, de op moderne dezentraliseerte Technologie boot is.",
+		"ogTitle": "{project} - Dezentraliseert Datendeelsoftware",
+		"ogDescription": "Peer-to-Peer-Datendelen op de Grundlaag vun moderner dezentraliseerter Technologie. Keen Zentralserver. Keen enkel Punkt vun Utfall."
+	},
+	"menu": {
+		"about": "Över",
+		"download": "Daalladen",
+		"screenshots": "Schirmbiller",
+		"comparison": "Vergliek",
+		"contact": "Kontakt",
+		"toggle": "Menü ümstellen",
+		"close": "Menü tomaken",
+		"language": "Spraak",
+		"selectLanguage": "Spraak utwählen"
+	},
+	"hero": {
+		"subtitle": "Peer-to-Peer-Datendelen vun de nächsten Generatschoon",
+		"description": "Op de Grundlaag vun moderner dezentraliseerter Technologie. Keen Zentralserver. Keen enkel Punkt vun Utfall.",
+		"download": "Daalladen"
+	},
+	"about": {
+		"title": "Över",
+		"intro": "{project} is en Plattform vun de nächsten Generatschoon för Peer-to-Peer-Datendelen, de op moderne dezentraliseerte Technologie boot is. He verbinnt en eenfach to bruken Böverflach mit en vullstännig dezentraliseerte Architektur un sekert sicker un truhaftig Datendelen ahn Behoov vun en zentraal Autoritäät. Dit Projekt is Open Source un ünner {license} rutgeven.",
+		"features": {
+			"decentralized": {
+				"title": "Vullstännig dezentraliseert Nettwark",
+				"description": "Keen Zentralserver, keen enkel Punkt vun Utfall. Brukers finnt un laadt Inholt direkt vun anner Brukers daal, ahn sik op en zentraal Index, Tracker oder Datenbank to verlaten."
+			},
+			"accessControl": {
+				"title": "Fienkörnige Togangskuntrull",
+				"description": "Jedereen kann sien egen Nettwark mit egene Regeln ümsünst opboon. Binnen jedet Nettwark sünd Brukerrullen defineert: Eegner, Administrator, Verlegger, Moderator un Volger. Du hest fiene Kuntrull doröver, wokeen Inholt verlegen, moderieren un daalladen kann."
+			},
+			"ui": {
+				"title": "Hoochweertige Brukerböverflach",
+				"description": "En reine un reaktionsschnelle Mediencenter-Böverflach, de för Schrievdisch, Feernsehers un Mobielplattformen utleggt is. Lichte Navigatschoon mit Tastatur, Muus, Gamepad oder Feernbedeen. Förtschreden Brukers künnt de Software as headless Datenserver dörch de Befehlsreeg-Böverflach lopen laten."
+			},
+			"dataFormat": {
+				"title": "För Minschen leesbar Datenformaat",
+				"description": "Dat LISH-Datenformaat is op JSON boot, wat dat eenfach maakt to schepen, lesen un verstahn. Deel dien Inholt mit klore un dörsichtige Metadaten, de jedereen lichtafgnogen pröven kann."
+			},
+			"security": {
+				"title": "Privatheit un Sekerheit",
+				"description": "All Peer-to-Peer-Kommunikatschonen sünd verslötelt un sekert, dat dien Daten in'n Överdrag privat blievt. Brukers künnt sik achter en VPN versteken, üm noch mehr anonym to ween. {project} respekteert dien Privatheit vun Anfang an."
+			},
+			"crossPlatform": {
+				"title": "Plattformöverstigend",
+				"description": "De Software is verföögbor för Windows, Linux un macOS. Bruuk se op de Plattform, de du leevst hest."
+			}
+		}
+	},
+	"download": {
+		"title": "Daalladen",
+		"description": "Hool di {project} för dien Plattform. All Daalladen sünd ümsünst un Open Source.",
+		"version": "Aktuelle Verschoon: {version}",
+		"linkAlt": "Daalladen",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-Installeerer",
+			"package": "{format}-Paket",
+			"portableZip": "Dragbor ZIP",
+			"viewOnGithub": "Op GitHub ankieken"
+		},
+		"macos": {
+			"title": "Wichtig Informatschoon för macOS-Brukers:",
+			"intro": "macOS Gatekeeper warrt unsigneerte/unnotariseerte Anwendungen, de ut dat Internet daallaadt sünd, mit en {error}-Fehler blockeren.",
+			"error": "\"is twei un kann nich opmaakt warrn\"",
+			"runCommand": "Nadem du de DMG oder ZIP daallaadt hest, ehrdat du de Anwendung opmaakst, föhr dissen Befehl in't Terminal ut:",
+			"exampleDmg": "To'n Bispeel, na de Installatschoon ut DMG:",
+			"exampleZip": "Oder na't Utpacken vun de ZIP:",
+			"explanation": "Dat haalt dat Quarantäne-Attribut weg un lett de Anwendung lopen."
+		}
+	},
+	"screenshots": {
+		"title": "Schirmbiller",
+		"open": "Schirmbild {index} opmaken",
+		"alt": "Schirmbild {index}",
+		"close": "Galerie tomaken",
+		"prev": "Vörig Bild",
+		"next": "Nächst Bild"
+	},
+	"comparison": {
+		"title": "Vergliek",
+		"feature": "Egenschop",
+		"yes": "Jo",
+		"no": "Nee",
+		"partialDht": "Deelwies (DHT)",
+		"rows": {
+			"decentralized": "Dezentraliseert Nettwark",
+			"onlineLibrary": "Online-Bökeree",
+			"builtInSearch": "Inboot Inholtssöök",
+			"decentralizedSearch": "Dezentraliseert Inholtssöök",
+			"parallelDownloads": "Parallele Daalladen ut mehr Quellen",
+			"mediaCenter": "Mediencenter-Böverflach",
+			"gamepad": "Gamepad-Ünnerstütten",
+			"openSource": "Open Source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "In Kontakt kamen",
+		"links": {
+			"telegramChat": "Telegram-Klönsnack",
+			"telegramAnnouncements": "Telegram-Bekanntmaken",
+			"facebook": "Facebook-Krink"
+		}
+	},
+	"footer": {
+		"by": "Maakt vun"
+	}
+}

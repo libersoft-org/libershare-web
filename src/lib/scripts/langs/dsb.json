@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizěrowane Źělenje Datajow",
+		"description": "{project} jo peer-to-peer-software za źělenje datajow, kótaraž jo na modernej decentralizěrowanej technologiji nawjeźona.",
+		"ogTitle": "{project} - Software za decentralizěrowane źělenje datajow",
+		"ogDescription": "Peer-to-peer-źělenje datajow na zakłaźe modernej decentralizěrowanej technologije. Žeden centralny serwer. Žeden jadnotliwy dypk wupadnjenja."
+	},
+	"menu": {
+		"about": "Wó nim",
+		"download": "Ześěgnuś",
+		"screenshots": "Wobraze wobraze wobrazowki",
+		"comparison": "Pśirownanje",
+		"contact": "Kontakt",
+		"toggle": "Meni pśestajiś",
+		"close": "Meni zacyniś",
+		"language": "Rěc",
+		"selectLanguage": "Rěc wuzwóliś"
+	},
+	"hero": {
+		"subtitle": "Pśichodne pokolenje peer-to-peer-źělenja datajow",
+		"description": "Na zakłaźe modernej decentralizěrowanej technologije. Žeden centralny serwer. Žeden jadnotliwy dypk wupadnjenja.",
+		"download": "Ześěgnuś"
+	},
+	"about": {
+		"title": "Wó nim",
+		"intro": "{project} jo platforma pśichodnego pokolenja za peer-to-peer-źělenje datajow, kótaraž jo na modernej decentralizěrowanej technologiji nawjeźona. Wona zwězujo wužywarski wužywański pówjerch z dopołnje decentralizěrowaneju architekturu, garantěrujo wěste a dowěry-hódne źělenje datajow bźez trjebnosći centralnego awtoriteta. Toś ten projekt jo open source, wudany pód {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Dopołnje decentralizěrowana seś",
+				"description": "Žeden centralny serwer, žeden jadnotliwy dypk wupadnjenja. Wužywarje namakaju a ześěgnu wopśimjeśe direktnje jaden wót drugego, bźez se na centralny indeks, slědowak abo datowu banku spušćaju."
+			},
+			"accessControl": {
+				"title": "Drobnoznata kontrola pśistupa",
+				"description": "Kuždy móžo swóju swójsku seś z swójskimi pšawidłami zacynjowaś darmotnje. Znutśika kuždeje seśi su wužywarske roli definěrowane: wobsejźaŕ, administrator, wozjawjaŕ, moderator a slědowaŕ. Maš drobnoznatu kontrolu, štó móžo wopśimjeśe wozjawiś, moderěrowaś a ześěgnuś."
+			},
+			"ui": {
+				"title": "Wjelgin kwalitatiwny wužywaŕski pówjerch",
+				"description": "Cysty a reagujucy mediumcentrowy pówjerch, koncipěrowany za desktopowe, telewizijne a mobilne platformy. Lekka nawigacija z tastaturu, myšu, gamepadom abo daloko-wótpšawu. Pśez kazne-pšaški pówjerch mógu pśiwucone wužywarje softwaru ako bjezgłowy datowy serwer wuwjeźć."
+			},
+			"dataFormat": {
+				"title": "Cłowjeku-cytajucy datowy format",
+				"description": "Datowy format LISH jo na JSON nawjeźony, kótaryž ten lažko cyni za stworjenje, cytanje a rozměśe. Źělej swójo wopśimjeśe ze jasnymi a transparentnymi metadatami, kótarež móžo kuždy lažko pruwowaś."
+			},
+			"security": {
+				"title": "Priwatnosć a wěstosć",
+				"description": "Wšykne peer-to-peer-komunikacije su zaklucone, garantěrowy, až twóje daty se w pśenose priwatne źaržu. Wužywarje mógu se za VPN schowaś za hyšći wěcej anonymitety. {project} respektěrujo twóju priwatnosć ze swójeju koncipěrowaneju."
+			},
+			"crossPlatform": {
+				"title": "Wjelgi-platformowy",
+				"description": "Software jo k dispoziciji za Windows, Linux a macOS. Wužywaj juju na pak kuždej platformje, kótaruž lubješ."
+			}
+		}
+	},
+	"download": {
+		"title": "Ześěgnuś",
+		"description": "Wzejtej {project} za swóju platformu. Wšykne ześěgnjenja su darmotne a open source.",
+		"version": "Aktualna wersija: {version}",
+		"linkAlt": "Ześěgnuś",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pakeśik {format}",
+			"portableZip": "Pśenosny ZIP",
+			"viewOnGithub": "Hladaś na GitHub"
+		},
+		"macos": {
+			"title": "Wažna informacija za wužywarjow macOS:",
+			"intro": "macOS Gatekeeper buźo njepśechodne/njenotarizěrowane nałožowanja ześěgnjone z interneta z zmólku {error} blokěrowaś.",
+			"error": "\"jo zlamane, njedajo se wótcyniś\"",
+			"runCommand": "Pó ześěgnjenju DMG abo ZIP, pjerwjej hyšći nałožowanje wótcynijoš, wugótuj toś ten kazn w terminalu:",
+			"exampleDmg": "Na pśikład, pó instalaciji z DMG:",
+			"exampleZip": "Abo pó wupakowanju ZIP:",
+			"explanation": "Toś to wótstrónijo karenznu atribucu a dowóla nałožowanju běžaś."
+		}
+	},
+	"screenshots": {
+		"title": "Wobraze wobrazowki",
+		"open": "Wobraz wobrazowki {index} wótcyniś",
+		"alt": "Wobraz wobrazowki {index}",
+		"close": "Galeriju zacyniś",
+		"prev": "Pjerwjejšne wobrazk",
+		"next": "Pśichodne wobrazk"
+	},
+	"comparison": {
+		"title": "Pśirownanje",
+		"feature": "Kakosć",
+		"yes": "Jo",
+		"no": "Nic",
+		"partialDht": "Źělne (DHT)",
+		"rows": {
+			"decentralized": "Decentralizěrowana seś",
+			"onlineLibrary": "Bibliotka online",
+			"builtInSearch": "Zatwarjone pytanje wopśimjeśa",
+			"decentralizedSearch": "Decentralizěrowane pytanje wopśimjeśa",
+			"parallelDownloads": "Paralelne ześěgnjenja z někotarych zdrojow",
+			"mediaCenter": "Pówjerch mediumcentruma",
+			"gamepad": "Pódpěrnjenje gamepada",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Stupiś do kontakta",
+		"links": {
+			"telegramChat": "Telegramowa chatowa kupka",
+			"telegramAnnouncements": "Telegramowe wozjawjenja",
+			"facebook": "Kupka na Facebooku"
+		}
+	},
+	"footer": {
+		"by": "Stworjone wót"
+	}
+}
