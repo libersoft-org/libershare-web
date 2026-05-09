@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '../scripts/language.ts';
 	import Icon from './Icon.svelte';
 	interface Props {
 		images: string[];
@@ -143,17 +144,17 @@
 </style>
 
 <svelte:window onkeydown={handleKey} />
-<div class="backdrop" role="button" tabindex="-1" aria-label="Close gallery" onclick={handleBackdropClick} onkeydown={handleBackdropKey}>
+<div class="backdrop" role="button" tabindex="-1" aria-label={$t('screenshots.close')} onclick={handleBackdropClick} onkeydown={handleBackdropKey}>
 	<div class="image-wrap">
-		<img src={images[index]} alt="Screenshot {index + 1}" />
+		<img src={images[index]} alt={$t('screenshots.alt', { index: String(index + 1) })} />
 	</div>
-	<div class="nav-btn nav-prev" role="button" tabindex="0" aria-label="Previous image" onclick={onPrev} onkeydown={handlePrevKey}>
+	<div class="nav-btn nav-prev" role="button" tabindex="0" aria-label={$t('screenshots.prev')} onclick={onPrev} onkeydown={handlePrevKey}>
 		<Icon img="/icons/chevron-left.svg" alt="" size="28px" colorVariable="--text" />
 	</div>
-	<div class="nav-btn nav-next" role="button" tabindex="0" aria-label="Next image" onclick={onNext} onkeydown={handleNextKey}>
+	<div class="nav-btn nav-next" role="button" tabindex="0" aria-label={$t('screenshots.next')} onclick={onNext} onkeydown={handleNextKey}>
 		<Icon img="/icons/chevron-right.svg" alt="" size="28px" colorVariable="--text" />
 	</div>
-	<div class="close-btn" role="button" tabindex="0" aria-label="Close" onclick={onClose} onkeydown={handleCloseKey}>
+	<div class="close-btn" role="button" tabindex="0" aria-label={$t('screenshots.close')} onclick={onClose} onkeydown={handleCloseKey}>
 		<Icon img="/icons/close.svg" alt="" size="22px" colorVariable="--text" />
 	</div>
 	<div class="counter">{index + 1} / {images.length}</div>

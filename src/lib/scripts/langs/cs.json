@@ -13,6 +13,7 @@
 		"contact": "Kontakt",
 		"toggle": "Přepnout menu",
 		"close": "Zavřít menu",
+		"language": "Jazyk",
 		"selectLanguage": "Vybrat jazyk"
 	},
 	"hero": {
@@ -94,8 +95,6 @@
 	"comparison": {
 		"title": "Srovnání",
 		"feature": "Vlastnost",
-		"bittorrent": "BitTorrent",
-		"dc": "DC++",
 		"yes": "ano",
 		"no": "ne",
 		"partialDht": "Částečně (DHT)",
@@ -117,8 +116,7 @@
 			"telegramChat": "Skupina na Telegramu",
 			"telegramAnnouncements": "Oznámení na Telegramu",
 			"linkedin": "LinkedIn",
-			"facebook": "Skupina na Facebooku",
-			"github": "GitHub"
+			"facebook": "Skupina na Facebooku"
 		}
 	},
 	"footer": {

@@ -147,8 +147,8 @@
 				<Tr>
 					<Th align="left">{$t('comparison.feature')}</Th>
 					<Th highlight>{PROJECT_NAME}</Th>
-					<Th>{$t('comparison.bittorrent')}</Th>
-					<Th>{$t('comparison.dc')}</Th>
+					<Th>BitTorrent</Th>
+					<Th>DC++</Th>
 				</Tr>
 			</Thead>
 			<Tbody>
@@ -178,11 +178,11 @@
 						<ComparisonCell value={resolveCell(row.project, $t)} />
 					</div>
 					<div class="detail-row">
-						<span class="detail-label">{$t('comparison.bittorrent')}</span>
+						<span class="detail-label">BitTorrent</span>
 						<ComparisonCell value={resolveCell(row.torrent, $t)} />
 					</div>
 					<div class="detail-row">
-						<span class="detail-label">{$t('comparison.dc')}</span>
+						<span class="detail-label">DC++</span>
 						<ComparisonCell value={resolveCell(row.dc, $t)} />
 					</div>
 				</div>

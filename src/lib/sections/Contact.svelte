@@ -12,7 +12,7 @@
 	}
 	const contactLinks: ContactLink[] = [
 		{ labelKey: null, label: 'info@libersoft.org', href: 'mailto:info@libersoft.org', icon: '/icons/email.svg' },
-		{ labelKey: 'contact.links.github', label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
+		{ labelKey: null, label: 'GitHub', href: 'https://github.com/libersoft-org', icon: '/icons/github.svg' },
 		{ labelKey: 'contact.links.telegramChat', label: 'Telegram Chat Group', href: 'https://t.me/libersoft', icon: '/icons/telegram.svg' },
 		{ labelKey: 'contact.links.telegramAnnouncements', label: 'Telegram Announcements', href: 'https://t.me/libersoft_ann', icon: '/icons/telegram.svg' },
 		{ labelKey: 'contact.links.linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/libersoft-org/', icon: '/icons/linkedin.svg' },

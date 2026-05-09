@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { t } from '$lib/scripts/language.ts';
+	import { onMount } from 'svelte';
+	import { t, currentLanguage, languages, getFlagURL, openLanguageDialog } from '$lib/scripts/language.ts';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
+	import MenuItem from './MenuItem.svelte';
 	interface NavItem {
 		labelKey: string;
 		href: string;
@@ -13,6 +15,17 @@
 		onClose: () => void;
 	}
 	let { navItems, activeSection, open, onClose }: Props = $props();
+	let mounted = $state(false);
+	let currentLang = $derived(languages.find(l => l.id === $currentLanguage));
+
+	onMount(() => {
+		mounted = true;
+	});
+
+	function handleMobileLangOpen(): void {
+		onClose();
+		openLanguageDialog();
+	}
 </script>
 
 <style>
@@ -27,22 +40,25 @@
 		align-items: center;
 	}
 
-	.nav-link {
-		color: var(--text);
-		font-weight: 500;
-		font-size: 1.1rem;
-		text-transform: none;
-		letter-spacing: 0.5px;
-		transition: color 0.2s;
+	.lang-mobile {
+		display: none;
 	}
 
-	.nav-link:hover {
-		color: var(--foreground);
-		opacity: 1;
+	.flag {
+		width: 28px;
+		height: 20px;
+		border-radius: 3px;
+		overflow: hidden;
+		display: inline-flex;
+		flex: none;
 	}
 
-	.nav-link.active {
-		color: var(--foreground);
+	.flag img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		pointer-events: none;
 	}
 
 	@media (--mobile) {
@@ -68,23 +84,32 @@
 			transform: translateX(0);
 		}
 
-		.nav-link {
-			padding: 1rem 2rem;
-			font-size: 1.1rem;
-			border-bottom: 1px solid var(--border);
+		.lang {
+			display: none;
 		}
 
-		.lang {
+		.lang-mobile {
+			display: block;
 			order: -1;
-			padding: 1rem 2rem;
-			border-bottom: 1px solid var(--border);
 		}
 	}
 </style>
 
 <nav class:open>
+	<div class="lang-mobile">
+		<MenuItem ariaLabel={$t('menu.selectLanguage')} ariaHaspopup="dialog" onActivate={handleMobileLangOpen}>
+			{$t('menu.language')}
+			{#snippet trailing()}
+				{#if mounted && currentLang}
+					<span class="flag"><img src={getFlagURL(currentLang.id)} alt={currentLang.nativeLabel} draggable="false" /></span>
+				{:else}
+					<span class="flag"></span>
+				{/if}
+			{/snippet}
+		</MenuItem>
+	</div>
 	{#each navItems as item}
-		<a href={item.href} class="nav-link" class:active={activeSection === item.id} onclick={onClose}>{$t(item.labelKey)}</a>
+		<MenuItem href={item.href} active={activeSection === item.id} onActivate={onClose}>{$t(item.labelKey)}</MenuItem>
 	{/each}
 	<div class="lang"><LanguageSwitcher onOpen={onClose} /></div>
 </nav>
