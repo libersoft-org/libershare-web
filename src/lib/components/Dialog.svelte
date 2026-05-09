@@ -25,6 +25,20 @@
 		e.preventDefault();
 		onClose();
 	}
+
+	function lockScroll(): { destroy: () => void } {
+		const prevOverflow = document.body.style.overflow;
+		const prevPaddingRight = document.body.style.paddingRight;
+		const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+		document.body.style.overflow = 'hidden';
+		if (scrollbarWidth > 0) document.body.style.paddingRight = `${scrollbarWidth}px`;
+		return {
+			destroy(): void {
+				document.body.style.overflow = prevOverflow;
+				document.body.style.paddingRight = prevPaddingRight;
+			},
+		};
+	}
 </script>
 
 <style>
@@ -101,7 +115,7 @@
 </style>
 
 {#if open}
-	<div class="backdrop" role="button" tabindex="-1" aria-label={title} onclick={handleBackdropClick} onkeydown={handleBackdropKey}>
+	<div class="backdrop" role="button" tabindex="-1" aria-label={title} onclick={handleBackdropClick} onkeydown={handleBackdropKey} use:lockScroll>
 		<div class="dialog" role="dialog" aria-modal="true" aria-label={title}>
 			<div class="dialog-header">
 				<span class="title">{title}</span>
