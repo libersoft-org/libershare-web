@@ -43,11 +43,23 @@
 			active.scrollIntoView({ block: 'center', behavior: 'instant' as ScrollBehavior });
 		});
 	}
+
+	function autofocus(node: HTMLElement): void {
+		requestAnimationFrame(() => {
+			const input = node.querySelector('input') as HTMLInputElement | null;
+			input?.focus();
+		});
+	}
 </script>
 
 <style>
 	.search {
-		padding: 0.5rem 0.5rem 0;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		padding: 0.5rem;
+		background: var(--background);
+		border-bottom: 1px solid var(--border);
 	}
 
 	.list {
@@ -105,7 +117,7 @@
 
 <Dialog open={$languageDialogOpen} title={$t('menu.selectLanguage')} closeLabel={$t('menu.close')} onClose={handleClose}>
 	{#snippet body()}
-		<div class="search">
+		<div class="search" use:autofocus>
 			<Input type="search" bind:value={filter} placeholder={$t('menu.searchLanguage')} ariaLabel={$t('menu.searchLanguage')} />
 		</div>
 		<div class="list" use:scrollToActive>
