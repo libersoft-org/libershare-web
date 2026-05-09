@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Sherem Faea i No Gat Wan Senta",
+		"description": "{project} hemi wan peer-to-peer faea sherem softwea we i bilt long modan teknoloji we i no gat wan senta.",
+		"ogTitle": "{project} - Faea sherem softwea we i no gat wan senta",
+		"ogDescription": "Peer-to-peer faea sherem we i bilt long modan teknoloji we i no gat wan senta. I no gat ol senta seva. I no gat wan ples we i save fol daon."
+	},
+	"menu": {
+		"about": "Long",
+		"download": "Daonlod",
+		"screenshots": "Ol pija blong skrin",
+		"comparison": "Komparesen",
+		"contact": "Kontakt",
+		"toggle": "Jenisim menu",
+		"close": "Klosem menu",
+		"language": "Lanwis",
+		"selectLanguage": "Jusum lanwis"
+	},
+	"hero": {
+		"subtitle": "Niu jenereisen blong peer-to-peer faea sherem",
+		"description": "I bilt long modan teknoloji we i no gat wan senta. I no gat ol senta seva. I no gat wan ples we i save fol daon.",
+		"download": "Daonlod"
+	},
+	"about": {
+		"title": "Long",
+		"intro": "{project} hemi wan niu jenereisen peer-to-peer faea sherem platfom we i bilt long modan teknoloji we i no gat wan senta. Hemi joenem wan ezi yusa interfes mo wan fulwan akitektja we i no gat wan senta, hemi givim wan sef mo trastfulwan rod blong sherem dato we hemi indipenden long evri senta otoriti. Projek ya i open source mo i kasem evriwan andanit long {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fulwan netwak we i no gat wan senta",
+				"description": "I no gat ol senta seva, i no gat wan ples we i save fol daon. Ol yusa oli lukaot mo daonlod ol kontent stret bitwin olgeta nomo, oli no nidim ol senta indekser, traka o database."
+			},
+			"accessControl": {
+				"title": "Smol smol kontrol blong akses",
+				"description": "Evriwan i fri blong statem hem nomo netwak wetem ol loa blong hem nomo. Difaenem ol rol blong yusa long evri netwak: ol ona, ol admin, ol pablisa, ol moderata mo ol daonloda. Kontrolem stret hu i save pablisem, moderatem mo daonlod ol kontent."
+			},
+			"ui": {
+				"title": "Bigwan kwoliti yusa interfes",
+				"description": "Wan klin mo ezi blong yus midia senta interfes we i bin meikim blong desktop, TV mo mobael platfom. Muvmuv smut wetem kibod, maus, gamepad o rimot kontrol. Ol pawa yusa oli save yusum komand laen interfes blong yusum softwea olsem wan hedles faea seva."
+			},
+			"dataFormat": {
+				"title": "Dato fomat we man i save rid",
+				"description": "Dato fomat blong LISH i bilt long JSON, mekem hemi izi blong meikim, ridim mo andastandem. Sherem ol kontent blong yu wetem klia mo opin metadata we evriwan i save jekem izi."
+			},
+			"security": {
+				"title": "Praevet mo sefti",
+				"description": "Evri peer-to-peer komunikesen i enkripted, i mekem sua se dato blong yu i stap praevet long taem blong transfa. Ol yusa oli save haed bihaen long wan VPN blong wan eksra leya blong i no save name. {project} i respektem praeveti blong yu long disaen."
+			},
+			"crossPlatform": {
+				"title": "Kros platfom",
+				"description": "Softwea i avelebol blong Windows, Linux mo macOS platfom. Yusum hem long eni divaes we yu wantem."
+			}
+		}
+	},
+	"download": {
+		"title": "Daonlod",
+		"description": "Kasem {project} blong platfom blong yu. Evri daonlod oli fri mo open source.",
+		"version": "Vesen blong naoia: {version}",
+		"linkAlt": "Daonlod",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} insthola",
+			"package": "{format} pakej",
+			"portableZip": "Potebol ZIP",
+			"viewOnGithub": "Lukluk long GitHub"
+		},
+		"macos": {
+			"title": "Impoten not blong ol macOS yusa:",
+			"intro": "macOS Gatekeeper i blokem ol app we oli no saen / no notarael we i daonlod long intanet wetem wan {error} eror.",
+			"error": "\"i nogud mo i no save open\"",
+			"runCommand": "Afta yu daonlod DMG o ZIP, ronem wan komand long Terminal long fasin ya bifo yu opem app:",
+			"exampleDmg": "Olsem eksampol, afta installesen long DMG:",
+			"exampleZip": "O afta yu ekstraktem ZIP:",
+			"explanation": "Hemia i tekemaot kuarentin atribut mo i letem app i ron."
+		}
+	},
+	"screenshots": {
+		"title": "Ol pija blong skrin",
+		"open": "Open pija blong skrin {index}",
+		"alt": "Pija blong skrin {index}",
+		"close": "Klosem galeri",
+		"prev": "Pija we i bin go",
+		"next": "Nekis pija"
+	},
+	"comparison": {
+		"title": "Komparesen",
+		"feature": "Saed",
+		"yes": "yes",
+		"no": "no",
+		"partialDht": "Hafhaf (DHT)",
+		"rows": {
+			"decentralized": "Netwak we i no gat wan senta",
+			"onlineLibrary": "Onlaen laebreri",
+			"builtInSearch": "Sas blong kontent we i bilt insaed",
+			"decentralizedSearch": "Sas blong kontent we i no gat wan senta",
+			"parallelDownloads": "Multi-sos paralel daonlods",
+			"mediaCenter": "Midia senta interfes",
+			"gamepad": "Gamepad sapot",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Kontaktem mifala",
+		"links": {
+			"telegramChat": "Telegram Jat Grup",
+			"telegramAnnouncements": "Telegram Anaonsmen",
+			"facebook": "Facebook Grup"
+		}
+	},
+	"footer": {
+		"by": "long"
+	}
+}

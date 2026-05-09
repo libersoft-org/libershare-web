@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fayilu Tilali Cɛncɛnbaliya",
+		"description": "{project} ye peer-to-peer fayilu tilali sɔfutiwɛri ye min jɔra bi tɛkɛnɛlɔɲi cɛncɛnbaliw kan.",
+		"ogTitle": "{project} - Fayilu tilali sɔfutiwɛri cɛncɛnbaliya",
+		"ogDescription": "Peer-to-peer fayilu tilali min jɔra bi tɛkɛnɛlɔɲi cɛncɛnbaliw kan. Cɛncɛn sɛrɛwɛri tɛ yen. Yɔrɔ kelen ka bin tɛ yen."
+	},
+	"menu": {
+		"about": "A kan",
+		"download": "Aw ka jigin",
+		"screenshots": "Ekɛrɛn jaaw",
+		"comparison": "Suman",
+		"contact": "Sɔrɔ",
+		"toggle": "Menu yɛlɛma",
+		"close": "Menu datugu",
+		"language": "Kan",
+		"selectLanguage": "Kan sugandi"
+	},
+	"hero": {
+		"subtitle": "Wakatti kura peer-to-peer fayilu tilali",
+		"description": "A jɔra bi tɛkɛnɛlɔɲi cɛncɛnbaliw kan. Cɛncɛn sɛrɛwɛri tɛ yen. Yɔrɔ kelen ka bin tɛ yen.",
+		"download": "Aw ka jigin"
+	},
+	"about": {
+		"title": "A kan",
+		"intro": "{project} ye wakatti kura peer-to-peer fayilu tilali yɔrɔ ye min jɔra bi tɛkɛnɛlɔɲi cɛncɛnbaliw kan. A be baarakɛla nɔgɔnyali ɲɔgɔnyali fara cɛncɛnbaliya labɛn dafalen kan, ka kunnafoni tilali fura lakanalen ni kankari fɔ min tɛ tilen cɛncɛn fanga si la. Poroze ye open source ye ani a bɛ tila {license} kɔrɔ.",
+		"features": {
+			"decentralized": {
+				"title": "Cɛncɛnbaliya rezo dafalen",
+				"description": "Cɛncɛn sɛrɛwɛri tɛ yen, yɔrɔ kelen ka bin tɛ yen. Baarakɛlaw bɛ kunnafoniw ɲini ka jigin u cɛ la, k'a sɔrɔ u tɛ jigi cɛncɛn ɲinimakɛla, tɔginikɛla wala kunnafonimaraso kan."
+			},
+			"accessControl": {
+				"title": "Donni kɔlɔsi ɲɛnafɔ-ɲɛnafɔ",
+				"description": "Bɛɛ ka kan ka u yɛrɛ ka rezo daminɛ ni u yɛrɛ ka sariyaw ye. Baarakɛlaw ka jɔrɔw fɔ rezo bɛɛ kɔnɔ: ti, admin, fɔlikɛla, ɲɛmɔgɔla ni jiginnikɛla. A kɔlɔsi ka ɲɛ jɔn bɛ se ka fɔli kɛ, ka ɲɛmɔgɔ kɛ ani ka kunnafoniw jigin."
+			},
+			"ui": {
+				"title": "Baarakɛla labɛn ka kɔrɔn",
+				"description": "Media center labɛn jɛlen ani nɔgɔnen baarakɛla bolo, min labɛnna desktop, TV ani telefɔni misɛnniw kama. A taa ni gerɛjɔn nɔgɔya, mansa, gamepad wala fɔlɔdɔn kɔlɔsili ye. Baarakɛla cogo dɔnbagaw bɛ se ka fɛrɛli laseli labɛn kɛ ka sɔfutiwɛri kɛ fayilu sɛrɛwɛri ye min kun tɛ."
+			},
+			"dataFormat": {
+				"title": "Kunnafoni cogoya min mɔgɔ bɛ se ka kalan",
+				"description": "LISH kunnafoni cogoya jɔlen JSON kan, o b'a kɛ a ka nɔgɔn ka dabɔ, ka kalan ani k'a faamuya. I ka kunnafoniw tila ni metadata jɛlen, dafalen ye min mɔgɔ o mɔgɔ bɛ se k'a lajɛ nɔgɔya la."
+			},
+			"security": {
+				"title": "Gundo ni lakanali",
+				"description": "Peer-to-peer kuma bɛɛ bɛ kɛ kɛnɛ na ni encryption ye, ka i ka kunnafoniw to gundo na ka taa a fɛ. Baarakɛlaw bɛ se k'u dogo VPN kɔfɛ ka ɲɔgɔnyali wɛrɛ sɔrɔ. {project} bɛ i ka gundo bonya a labɛn la."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Sɔfutiwɛri bɛ Windows, Linux ani macOS yɔrɔw kama. A baara kɛ minan o minan i b'a fɛ."
+			}
+		}
+	},
+	"download": {
+		"title": "Aw ka jigin",
+		"description": "{project} sɔrɔ i ka yɔrɔ kama. Jiginni bɛɛ ye fu ye ani open source.",
+		"version": "Sisan vɛrsiyɔn: {version}",
+		"linkAlt": "Aw ka jigin",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} sigili kɛla",
+			"package": "{format} pakɛti",
+			"portableZip": "ZIP tali",
+			"viewOnGithub": "GitHub kan a lajɛ"
+		},
+		"macos": {
+			"title": "Kunnafoni nafama macOS baarakɛlaw bolo:",
+			"intro": "macOS Gatekeeper bɛ ɛntɛrnɛti la jiginlen apuw min man tɔgɔla / man dafalen bali ni {error} fili ye.",
+			"error": "\"a tinyera, a tɛ se ka da yɛlɛ\"",
+			"runCommand": "Aw ka DMG wala ZIP jigin kɔ, fɔli kɛ Terminal kɔnɔ nin cogo la sani aw ka apu da yɛlɛ:",
+			"exampleDmg": "Misali la, aw ka DMG sigili kɛ kɔ:",
+			"exampleZip": "Wala aw ka ZIP labɔ kɔ:",
+			"explanation": "O bɛ karantɛni tagi bɔ ani ka apu daa ka baara kɛ."
+		}
+	},
+	"screenshots": {
+		"title": "Ekɛrɛn jaaw",
+		"open": "Ekɛrɛn jaa {index} dayɛlɛ",
+		"alt": "Ekɛrɛn jaa {index}",
+		"close": "Galeri datugu",
+		"prev": "Jaa min tɛmɛna",
+		"next": "Jaa nata"
+	},
+	"comparison": {
+		"title": "Suman",
+		"feature": "Cogoya",
+		"yes": "ɔwɔ",
+		"no": "ayi",
+		"partialDht": "Yɔrɔ dɔ (DHT)",
+		"rows": {
+			"decentralized": "Rezo cɛncɛnbaliya",
+			"onlineLibrary": "Ɛntɛrnɛti gafemarayɔrɔ",
+			"builtInSearch": "Kunnafoni ɲinili kɔnɔ jɔlen",
+			"decentralizedSearch": "Cɛncɛnbaliya kunnafoni ɲinili",
+			"parallelDownloads": "Jiginni siyaw caman ɲɔgɔn fɛ",
+			"mediaCenter": "Media center labɛn",
+			"gamepad": "Gamepad dɛmɛni",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Sɔrɔ",
+		"getInTouch": "An sɔrɔ",
+		"links": {
+			"telegramChat": "Telegram Baro Kulu",
+			"telegramAnnouncements": "Telegram Wele",
+			"facebook": "Facebook Kulu"
+		}
+	},
+	"footer": {
+		"by": "fɛ"
+	}
+}

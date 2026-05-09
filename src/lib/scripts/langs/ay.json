@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Taqi Chimpu Lakiña Janiwa Taypichat",
+		"description": "{project} ukax mä peer-to-peer taqi chimpu lakiña software, jichha pacha tecnologianakanjam lurata, janiwa taypichat.",
+		"ogTitle": "{project} - Taqi chimpu lakiña software janiwa taypichat",
+		"ogDescription": "Peer-to-peer taqi chimpu lakiña, jichha pacha tecnologianakanjam lurata, janiwa taypichat. Janiwa taypi servidornakax utji. Janiwa mä cheqaw urmañataki utji."
+	},
+	"menu": {
+		"about": "Tuqit",
+		"download": "Aynacharu apsuña",
+		"screenshots": "Pantalla jamuqanaka",
+		"comparison": "Sasaña",
+		"contact": "Aruntasiña",
+		"toggle": "Mantañ chiqachayaña",
+		"close": "Mantañ jist'antaña",
+		"language": "Aru",
+		"selectLanguage": "Aru ajlliña"
+	},
+	"hero": {
+		"subtitle": "Mä machaq jach'a peer-to-peer taqi chimpu lakiña",
+		"description": "Jichha pacha tecnologianakanjam lurata, janiwa taypichat. Janiwa taypi servidornakax utji. Janiwa mä cheqaw urmañataki utji.",
+		"download": "Aynacharu apsuña"
+	},
+	"about": {
+		"title": "Tuqit",
+		"intro": "{project} ukax mä machaq jach'a peer-to-peer taqi chimpu lakiña plataforma, jichha pacha tecnologianakanjam lurata, janiwa taypichat. Mä apnaqirinakar suma yäqasiri interfaz uka apnaqaña arquitectura janiwa taypichat ukamp mayachthapi, mä k'umara ukamp aljañ utt'aña waki suma luräwiñataki datusanak lakiñataki, janiwa kuna taypir munañ apnaqasit. Aka proyectox open source ukamp utji ukamp {license} manqhanjamax irpata.",
+		"features": {
+			"decentralized": {
+				"title": "Phuqhata janiwa taypichat sayt'añanak",
+				"description": "Janiwa taypi servidornakax utji, janiwa mä cheqaw urmañataki utji. Apnaqirinakax mä ratuw kunjamtix luräwinakar thaqhapxi ukamp aynacharu apsupxi pampaki taypipan, janiwa taypir indexador, tracker jan ukax base de datusanakar amparat'asisin."
+			},
+			"accessControl": {
+				"title": "Sumat sumat mantañ apnaqaña",
+				"description": "Taqpach jaqinakax k'umaraw paypach sayt'añap qalltañataki paypach kamachinakapanjam. Apnaqirinakan apnaqäwinakapax mayni mayni sayt'añanakan amuyawisita: dueñunaka, admin, willjayirinaka, moderator ukamp aynachar apsurinaka. Suma apnaqaña khitis willjayispa, moderar ukamp aynacharu apsuspa luräwinak."
+			},
+			"ui": {
+				"title": "Apnaqirin sumakipanaka interfaz",
+				"description": "Mä q'uma ukamp suma apnaqasiri media center interfaz computadora, TV ukamp celular wakichawi. K'achata sarnaqa teclado, ratón, gamepad jan ukax control remoto ukanakamp. Yatxatat apnaqirinakax línea de comando interfaz apnaqasipxaspa software apnaqaña kunjamtix mä jan p'iqi servidor luräwiñataki."
+			},
+			"dataFormat": {
+				"title": "Jaqit ullasiri formato datus",
+				"description": "LISH datusan formatupax JSON ukan utt'ayata, ukax k'umaraw lurañataki, ullarañataki ukamp amuyañataki. Luräwinaka lakipxam q'uma, qhana metadatamp, kawkin jaqis suma uñakipispa."
+			},
+			"security": {
+				"title": "Imantasiña ukamp k'umara",
+				"description": "Taqpach peer-to-peer aruskipt'awinakax cifrarata, datusan imantat ukar uñacht'ayi apaña pachan. Apnaqirinakax VPN qhipanakar imantasipxaspa mä juk'amp jan uñt'añ ukar. {project} ukax imantasiñam yäqi luräwiparuwa."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software ukax Windows, Linux ukamp macOS plataformanakatakix utji. Apnaqam kunayman munat irnaqäwinakar."
+			}
+		}
+	},
+	"download": {
+		"title": "Aynacharu apsuña",
+		"description": "{project} ukax plataformaman jaq'tasim. Taqpach aynacharu apsuwinakax inaki ukamp open source.",
+		"version": "Jichha versión: {version}",
+		"linkAlt": "Aynacharu apsuña",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalator",
+			"package": "{format} paquete",
+			"portableZip": "Apaña ZIP",
+			"viewOnGithub": "GitHub uñakipam"
+		},
+		"macos": {
+			"title": "Wali wakiskir qillqa macOS apnaqirinakatakixa:",
+			"intro": "macOS Gatekeeper ukax janiwa firmat / janiwa notarizat apps internetat aynacharu apsutanakar jark'i {error} pantjasita.",
+			"error": "\"thuruta jist'arasispatakix janipuniw atkaspat\"",
+			"runCommand": "DMG jan ukax ZIP aynacharu apsutax, app jist'aratasinkam akham mantäwi Terminal ukan irnaqayam:",
+			"exampleDmg": "Sañataki, DMG ukat instalata jiltatatx:",
+			"exampleZip": "Jan ukax ZIP apsutatatx:",
+			"explanation": "Akax cuarentena t'aqa apaqi ukamp app irnaqañar jaq'tayi."
+		}
+	},
+	"screenshots": {
+		"title": "Pantalla jamuqanaka",
+		"open": "Pantalla jamuqa {index} jist'aratam",
+		"alt": "Pantalla jamuqa {index}",
+		"close": "Galería jist'antam",
+		"prev": "Nayrïr jamuqa",
+		"next": "Arkir jamuqa"
+	},
+	"comparison": {
+		"title": "Sasaña",
+		"feature": "Lurawi",
+		"yes": "jïsa",
+		"no": "janiwa",
+		"partialDht": "Mä t'aqa (DHT)",
+		"rows": {
+			"decentralized": "Sayt'añanak janiwa taypichat",
+			"onlineLibrary": "Internet liwru uta",
+			"builtInSearch": "Manqhan luräwi thaqhaña",
+			"decentralizedSearch": "Luräwi thaqhaña janiwa taypichat",
+			"parallelDownloads": "Walja jutiri pampak aynacharu apsuwinaka",
+			"mediaCenter": "Media center interfaz",
+			"gamepad": "Gamepad yanapt'awi",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Aruntasiña",
+		"getInTouch": "Aruntasipxam jiwasarux",
+		"links": {
+			"telegramChat": "Telegram Aruskiptawi Tama",
+			"telegramAnnouncements": "Telegram Yatiyawinaka",
+			"facebook": "Facebook Tama"
+		}
+	},
+	"footer": {
+		"by": "lurata"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Vahevahe Faile Tau'atāina",
+		"description": "{project} ko ha polokalama vahevahe faile peer-to-peer kuo langa 'i he ngaahi tekinolosia fakaonopōnī tau'atāina.",
+		"ogTitle": "{project} - Polokalama vahevahe faile tau'atāina",
+		"ogDescription": "Vahevahe faile peer-to-peer kuo langa 'i he ngaahi tekinolosia fakaonopōnī tau'atāina. 'Oku 'ikai ha ngaahi seva loto. 'Oku 'ikai ha potu pē taha 'e tō atu."
+	},
+	"menu": {
+		"about": "Fekau'aki",
+		"download": "Hifo",
+		"screenshots": "Ngaahi tā 'ata 'o e mata",
+		"comparison": "Fakafehoanaki",
+		"contact": "Fetu'utaki",
+		"toggle": "Liliu menu",
+		"close": "Tāpuni menu",
+		"language": "Lea",
+		"selectLanguage": "Fili lea"
+	},
+	"hero": {
+		"subtitle": "To'utangata fo'ou 'o e vahevahe faile peer-to-peer",
+		"description": "Kuo langa 'i he ngaahi tekinolosia fakaonopōnī tau'atāina. 'Oku 'ikai ha ngaahi seva loto. 'Oku 'ikai ha potu pē taha 'e tō atu.",
+		"download": "Hifo"
+	},
+	"about": {
+		"title": "Fekau'aki",
+		"intro": "{project} ko ha 'ātakai vahevahe faile peer-to-peer 'o e to'utangata fo'ou kuo langa 'i he ngaahi tekinolosia fakaonopōnī tau'atāina. 'Oku ne fakatahatahá ha fakatahataha'anga 'oku faingofua ki he kau ngāue'aki mo ha langa 'oku tau'atāina kakato, 'o foaki ha founga malu mo falala'anga ki he vahevahe 'o e fakamatala 'o tau'atāina mei ha fa'ahinga mafai loto. Ko e ngāue ko ha open source pea 'oku tufaki 'i lalo 'o e {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fetu'utaki tau'atāina kakato",
+				"description": "'Oku 'ikai ha ngaahi seva loto, 'oku 'ikai ha potu pē taha 'e tō atu. 'Oku kumi mo hifo 'e he kau ngāue'aki ha ngaahi me'a hangatonu 'i honau lotolotonga, 'o 'ikai falala ki ha kau fakahaa loto, kau muimui pe ngaahi database."
+			},
+			"accessControl": {
+				"title": "Pule'i kotoa pē 'o e a'usia",
+				"description": "'Oku tau'atāina taki taha ke kamata 'enau fetu'utaki taautaha mo 'enau ngaahi lao taautaha. Faka'uhinga'i 'a e ngaahi ngāue 'a e kau ngāue'aki 'i he fetu'utaki taki taha: kau toka taha, kau pule, kau pulusi, kau moderate mo e kau hifo. Pule'i 'a hai 'e lava ke pulusi, moderate mo hifo 'a e ngaahi me'a."
+			},
+			"ui": {
+				"title": "Fakatahataha kau ngāue'aki lelei taha",
+				"description": "Ko ha fakatahataha media center ma'a mo faingofua ki he kau ngāue'aki kuo fa'u ki he ngaahi 'ātakai desktop, TV mo telefoni to'oto'o. Fononga 'oku 'ikai ha palopalema 'aki ha keyboard, kumā, gamepad pe pule mama'o. Ko e kau ngāue'aki kahaki 'oku lava ke nau ngāue'aki ha fakatahataha command line ki hono ngāue'aki 'a e polokalama 'o hangē ko ha seva faile 'oku 'ikai ha 'ulu."
+			},
+			"dataFormat": {
+				"title": "Founga fakamatala 'oku lautohi 'e he tangata",
+				"description": "Ko e founga fakamatala LISH 'oku makatu'unga 'i he JSON, ko ia 'oku faingofua ai ke fa'u, lautohi mo mahino. Vahevahe ho'o ngaahi me'a mo ha metadata mahino mo 'asi 'a ia 'oku lava ke vakai'i 'e ha taha 'i he founga faingofua."
+			},
+			"security": {
+				"title": "Fakapulipuli mo malu'i",
+				"description": "Ko e fetu'utaki kotoa pē 'a e peer-to-peer kuo encrypt, 'o fakapapau'i 'oku nofo fakapulipuli ho'o fakamatala lolotonga 'a e tā'avale. 'E lava 'a e kau ngāue'aki ke fufū 'i mui 'i ha VPN ki ha lay tāpuni 'oku 'ikai ke 'ilo. 'Oku faka'apa'apa 'a e {project} ki ho'o nofo fakapulipuli 'i he fa'u."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ko e polokalama 'oku ma'u ma'a Windows, Linux mo e ngaahi 'ātakai macOS. Ngāue'aki 'i ha fa'ahinga me'angāue 'oku ke loto ki ai."
+			}
+		}
+	},
+	"download": {
+		"title": "Hifo",
+		"description": "Ma'u 'a e {project} ma'a ho 'ātakai. Ko e ngaahi hifo kotoa pē 'oku ta'etotongi mo open source.",
+		"version": "Fakahokohoko taimini: {version}",
+		"linkAlt": "Hifo",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} fakahū",
+			"package": "{format} faka'apitanga",
+			"portableZip": "ZIP fua'i",
+			"viewOnGithub": "Vakai 'i GitHub"
+		},
+		"macos": {
+			"title": "Fakatokanga mahu'inga ki he kau ngāue'aki macOS:",
+			"intro": "Ko e macOS Gatekeeper 'oku ne tāpuni'i 'a e ngaahi 'app 'oku 'ikai fakamo'oni'i / 'ikai fakamo'oni'i 'a ia kuo hifo mei he 'initaneti mo ha fehālaaki {error}.",
+			"error": "\"kuo maumau pea 'ikai lava ke fakaava\"",
+			"runCommand": "Hili 'a e hifo 'a e DMG pe ZIP, fakalele ha fekau 'i he Terminal 'i he founga ko 'eni 'i mu'a 'i hono fakaava 'a e 'app:",
+			"exampleDmg": "Fakatātā, hili 'a e fakahū mei he DMG:",
+			"exampleZip": "Pe hili 'a hono toho mei he ZIP:",
+			"explanation": "'Oku to'o 'e he me'a ni 'a e fa'unga 'o e quarantine pea fakangofua ai 'a e 'app ke ngāue."
+		}
+	},
+	"screenshots": {
+		"title": "Ngaahi tā 'ata 'o e mata",
+		"open": "Fakaava 'a e tā 'ata {index}",
+		"alt": "Tā 'ata {index}",
+		"close": "Tāpuni gallery",
+		"prev": "Tā ki mu'a",
+		"next": "Tā hoko"
+	},
+	"comparison": {
+		"title": "Fakafehoanaki",
+		"feature": "Anga",
+		"yes": "'io",
+		"no": "'ikai",
+		"partialDht": "Konga (DHT)",
+		"rows": {
+			"decentralized": "Fetu'utaki tau'atāina",
+			"onlineLibrary": "Fale tohi 'i 'initaneti",
+			"builtInSearch": "Kumi me'a 'i loto",
+			"decentralizedSearch": "Kumi me'a tau'atāina",
+			"parallelDownloads": "Hifo fakatahataha mei ha ngaahi matavai",
+			"mediaCenter": "Fakatahataha media center",
+			"gamepad": "Tokoni gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Fetu'utaki",
+		"getInTouch": "Fetu'utaki mai",
+		"links": {
+			"telegramChat": "Kulupu Talanoa Telegram",
+			"telegramAnnouncements": "Fanongonongo Telegram",
+			"facebook": "Kulupu Facebook"
+		}
+	},
+	"footer": {
+		"by": "'e"
+	}
+}

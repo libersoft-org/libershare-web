@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mana Chawpiyuq Willaykunata Rakiy",
+		"description": "{project} kachkan huk peer-to-peer willaykuna rakiy software, kunan pacha mana chawpiyuq teknolojikunapi rurasqa.",
+		"ogTitle": "{project} - Mana chawpiyuq willaykuna rakiy software",
+		"ogDescription": "Peer-to-peer willaykuna rakiy, kunan pacha mana chawpiyuq teknolojikunapi rurasqa. Manan chawpi servidorkuna kanchu. Manan huklaw urmay punto kanchu."
+	},
+	"menu": {
+		"about": "Pi kayninmanta",
+		"download": "Uray-aysay",
+		"screenshots": "Pantalla retratokuna",
+		"comparison": "Tupachiy",
+		"contact": "Tinkuy",
+		"toggle": "Menúta tikray",
+		"close": "Menúta wisq'ay",
+		"language": "Simi",
+		"selectLanguage": "Simita akllay"
+	},
+	"hero": {
+		"subtitle": "Hamuq miray peer-to-peer willaykuna rakiy",
+		"description": "Kunan pacha mana chawpiyuq teknolojikunapi rurasqa. Manan chawpi servidorkuna kanchu. Manan huklaw urmay punto kanchu.",
+		"download": "Uray-aysay"
+	},
+	"about": {
+		"title": "Pi kayninmanta",
+		"intro": "{project} kachkan huk hamuq miray peer-to-peer willaykuna rakiy plataforma, kunan pacha mana chawpiyuq teknolojikunapi rurasqa. Hapallachkan huk facil ruraq interfaz, hinaspa hunt'asqa mana chawpiyuq architectura, qunpa rurarispa huk waqaychasqa kawsay datokunata rakiy mana ima chawpi atiyniyuqmanta. Kay proyekto open source, hinaspa {license} ukhupi mast'arikun.",
+		"features": {
+			"decentralized": {
+				"title": "Hunt'asqa mana chawpiyuq red",
+				"description": "Manan chawpi servidorkuna, manan huklaw urmay punto. Ruraqkuna willaykunata maskanku hinaspa uray-aysanku ñawpaq pakaypi paykunapura, mana chawpi indexadorkunaman, trackerkunaman utaq base de datoskunaman atinakuspa."
+			},
+			"accessControl": {
+				"title": "Sumaq yaykuy kamachiy",
+				"description": "Tukuy runa qispiq kashan paypa kikin redninta paypa kamachikuyninkunawan qallariyta. Sapanka redpi ruraq roleskunata wakichiy: dueñokuna, admins, maqamuqkuna, kamachiqkuna hinaspa uray-aysaqkuna. Allinta kamachiy pi maqamunman, kamachinman, hinaspa uray-aysanman willaykunata."
+			},
+			"ui": {
+				"title": "Aswan allin ruraq interfaz",
+				"description": "Huk ch'uya, ruraqman munay media center interfaz, escritorio, TV hinaspa mobil plataformapaq wakichisqa. Mana sasachakuywan puriy keyboardwan, mousewan, gamepadwan utaq remote controlwan. Yachayniyuq ruraqkuna command line interfazta apaykachayta atinku, software headless willaykuna servidorqina apanapaq."
+			},
+			"dataFormat": {
+				"title": "Runa ñawinchanan willay format",
+				"description": "LISH willay format JSONpi sayasqa kachkan, chayrayku ruray, ñawinchay hinaspa hap'ipuy facil. Willaykunaykita rakiy ch'uya, sut'i metadatawan, mayqinta pipas facilta qhawayta atin."
+			},
+			"security": {
+				"title": "Pakay hinaspa waqaychakuy",
+				"description": "Tukuy peer-to-peer rimanakuy encriptasqa, sutimanta willayniykita pakaypi taqyay apachiy pachapi. Ruraqkuna VPN qhipanpi pakakuyta atinku huk yapasqa mana riqsiy capapaq. {project} pakayniykita yupaychan ruraymanta pacha."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software Windows, Linux hinaspa macOS plataformakunapaq atikuq. Mayqin equipopipas munasqaykipi apaykachay."
+			}
+		}
+	},
+	"download": {
+		"title": "Uray-aysay",
+		"description": "Plataformaykipaq {project} hap'iy. Tukuy uray-aysaykuna mana chaninniyuq hinaspa open source.",
+		"version": "Kunan version: {version}",
+		"linkAlt": "Uray-aysay",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} churaq",
+			"package": "{format} q'ipi",
+			"portableZip": "Apaykachana ZIP",
+			"viewOnGithub": "GitHubpi qhaway"
+		},
+		"macos": {
+			"title": "macOS ruraqkunapaq sumaq nota:",
+			"intro": "macOS Gatekeeper internetmanta uray-aysasqa mana firmasqa / mana notarizasqa apps blokean {error} pantaywan.",
+			"error": "\"waqllichisqa, mana kichakuyta atinchu\"",
+			"runCommand": "DMG utaq ZIP uray-aysasqayki qhipa, app kichanaykipaq qhepa Terminalpi kay rikchaq comandota apachiy:",
+			"exampleDmg": "Rikchaqpaq, DMGmanta churasqayki qhipa:",
+			"exampleZip": "Utaq ZIP urquchasqayki qhipa:",
+			"explanation": "Kay cuarentena característica chinkachin, hinaspa app puriyta saqin."
+		}
+	},
+	"screenshots": {
+		"title": "Pantalla retratokuna",
+		"open": "Pantalla retrato {index} kichay",
+		"alt": "Pantalla retrato {index}",
+		"close": "Galería wisq'ay",
+		"prev": "Ñawpaq retrato",
+		"next": "Hamuq retrato"
+	},
+	"comparison": {
+		"title": "Tupachiy",
+		"feature": "Característica",
+		"yes": "arí",
+		"no": "manan",
+		"partialDht": "Pisi (DHT)",
+		"rows": {
+			"decentralized": "Mana chawpiyuq red",
+			"onlineLibrary": "Online willaywasi",
+			"builtInSearch": "Ukhupi willaykuna maskaq",
+			"decentralizedSearch": "Mana chawpiyuq willaykuna maskaq",
+			"parallelDownloads": "Achkha pukyu kuska uray-aysay",
+			"mediaCenter": "Media center interfaz",
+			"gamepad": "Gamepad yanapay",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tinkuy",
+		"getInTouch": "Tinkuy ñuqaykuwan",
+		"links": {
+			"telegramChat": "Telegram Rimanakuy Wakcha",
+			"telegramAnnouncements": "Telegram Willakuykuna",
+			"facebook": "Facebook Wakcha"
+		}
+	},
+	"footer": {
+		"by": "rurasqa"
+	}
+}

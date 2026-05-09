@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Imminik Avitseqatigiineq Toqqortakkanik Qitiussisimanngitsoq",
+		"description": "{project} tassaavoq peer-to-peer toqqortakkanik avitseqatigiinnermut atortussiaq nutaarsiassanik teknologiit qitiussisimanngitsut tunngavigalugit sananeqarsimasoq.",
+		"ogTitle": "{project} - Toqqortakkanik avitseqatigiinnermut atortussiaq qitiussisimanngitsoq",
+		"ogDescription": "Peer-to-peer toqqortakkanik avitseqatigiineq nutaarsiassanik teknologiit qitiussisimanngitsut tunngavigalugit sananeqarsimasoq. Qitimmilik server-it pinngillat. Ataasiunngitsumik ajunaarutigineqarsinnaasoq pinngilaq."
+	},
+	"menu": {
+		"about": "Pillugu",
+		"download": "Aaqqissunneq",
+		"screenshots": "Skærm-imi assilisat",
+		"comparison": "Naleqqersuussineq",
+		"contact": "Attaveqaqatigiinneq",
+		"toggle": "Menu allanngortikkit",
+		"close": "Menu matussigit",
+		"language": "Oqaatsit",
+		"selectLanguage": "Oqaatsit toqqakkit"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer toqqortakkanik avitseqatigiinnermut kingulleq",
+		"description": "Nutaarsiassanik teknologiit qitiussisimanngitsut tunngavigalugit sananeqarsimasoq. Qitimmilik server-it pinngillat. Ataasiunngitsumik ajunaarutigineqarsinnaasoq pinngilaq.",
+		"download": "Aaqqissunneq"
+	},
+	"about": {
+		"title": "Pillugu",
+		"intro": "{project} tassaavoq kingullertaaq peer-to-peer toqqortakkanik avitseqatigiinnermut platform-i nutaarsiassanik teknologiit qitiussisimanngitsut tunngavigalugit sananeqarsimasoq. Atortoqarnerup interface-iata atornerlualernartuata qitiussisimanngitsumik atortulioqatigiivigutigineqarpoq, paasissutissat avitseqatigiinnerannut isumannaatsumik tatigineqarsinnaasumillu aqqutissioqarpoq qitimmilik atortussamut atassuteqartinnagu. Suliassap ammasumik open source-iuvoq aamma {license} ataani pissarsiarineqarpoq.",
+		"features": {
+			"decentralized": {
+				"title": "Tamakkiisumik qitiussisimanngitsoq attaveqaatit",
+				"description": "Qitimmilik server-it pinngillat, ataasiunngitsumik ajunaarutigineqarsinnaasoq pinngilaq. Atortut imminnut tunuliaqutaminnik tikipput aaqqissunnerlu, qitimmillu indexer-it, tracker-it imaluunniit database-it tatigineqartinnatik."
+			},
+			"accessControl": {
+				"title": "Iserfigineqarnermut nakkutilliisut nalinginnaasut",
+				"description": "Kikkulluunniit imminut nammineq attaveqaatit aallartissinnaavaat nammineq malittarisassani. Atortunut suliassat nalunaarutigineqartut attaveqaatit tamaani: piginnittut, admin-it, saqqummiussisut, moderator-it aamma aaqqissuisut. Aalajangiussimaffigineqarsinnaapput kina saqqummiussisinnaasoq, moderator-eqarsinnaasoq aamma toqqortakkanik aaqqissunneqarsinnaasoq."
+			},
+			"ui": {
+				"title": "Atortup interface-iata pitsaanerpaaq",
+				"description": "Media center interface-i errorsimasoq atortunullu atortulioqatigiivigutaasoq desktop-imut, TV-mut aamma mobile-imut sananeqarsimasoq. Aaqqigissaarmik ingerlanut keyboard-imik, mus-imik, gamepad-imik imaluunniit nakkutilliisumik. Atortut sungiuttut command line interface-imik atorsinnaapput atortussiaq toqqortakkanik server-itut atorlugu."
+			},
+			"dataFormat": {
+				"title": "Inunnit atuarneqarsinnaasoq paasissutissaqarfik",
+				"description": "LISH paasissutissaqarfik JSON-imik tunngaveqarpoq, sananerpassuit atuarnerpassuit paasinerpassuilu pitsaaqaaq. Toqqortakkanik avitseqatigiisigit metadata-mik errorsimasumik, paasissutissamik kikkullu paasinarsiortinnaasaminik."
+			},
+			"security": {
+				"title": "Inuttutsut isumannaalluinnarneq",
+				"description": "Tamarmik peer-to-peer attaveqarnerit encryption-eqarput, paasissutissatit nuussinerannut inuttutsut allanit takunneqarsinnaanngitsut tatigineqarsinnaapput. Atortut VPN-ip tunuani toqqaanneqarsinnaapput kikkulluunniit ilumut takunneqartinnagit. {project} inuttutsut sananerinit ataqqaarpaa."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Atortussiaq Windows-imut, Linux-imut macOS-imullu pissarsiarineqarsinnaavoq. Atortussianik kissaatigisat tamaasa atorlugu."
+			}
+		}
+	},
+	"download": {
+		"title": "Aaqqissunneq",
+		"description": "{project} platform-imut pissarsiarigit. Aaqqissunneqarnerit tamarmik akeqanngillat aamma open source-iupput.",
+		"version": "Maannakkut version-i: {version}",
+		"linkAlt": "Aaqqissunneq",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ikkussuisoq",
+			"package": "{format} package",
+			"portableZip": "Sassartineqarsinnaasoq ZIP",
+			"viewOnGithub": "GitHub-imi takukkit"
+		},
+		"macos": {
+			"title": "Pingaarutilik macOS atortunut:",
+			"intro": "macOS Gatekeeper-ip atsiorneqartinnatik / akuersisinneqartinnatik internetimik aaqqissunneqarsimasut app-it {error} kukkussumik unitsittarpaa.",
+			"error": "\"sequngalersimavoq, ammarneqarsinnaanngilaq\"",
+			"runCommand": "DMG-mik ZIP-imilluunniit aaqqissussereeruit, app-i ammartinnagu Terminal-imi peqqussut una atorlugu suliarisigit:",
+			"exampleDmg": "Assersuutigalugu, DMG-mit ikkussuiffeerukkat:",
+			"exampleZip": "Imaluunniit ZIP-imit aaqqissuukkat:",
+			"explanation": "Tamanna quarantine-imik nalunaarsuiffigineqarsimasoq peerpaa app-illu suliarinerusinnaalersillugu."
+		}
+	},
+	"screenshots": {
+		"title": "Skærm-imi assilisat",
+		"open": "Skærm-imi assiliaq {index} ammarniaruk",
+		"alt": "Skærm-imi assiliaq {index}",
+		"close": "Galleri matuukkit",
+		"prev": "Assiliaq siusinnerusoq",
+		"next": "Assiliaq tulleq"
+	},
+	"comparison": {
+		"title": "Naleqqersuussineq",
+		"feature": "Pissuseq",
+		"yes": "aap",
+		"no": "naamik",
+		"partialDht": "Ilaannakkortumik (DHT)",
+		"rows": {
+			"decentralized": "Qitiussisimanngitsoq attaveqaatit",
+			"onlineLibrary": "Online atuagaateqarfik",
+			"builtInSearch": "Qarasaasiat ilaqarpoq toqqortakkanik ujarlersuineq",
+			"decentralizedSearch": "Qitiussisimanngitsumik toqqortakkanik ujarlersuineq",
+			"parallelDownloads": "Aallartiviit arlaqarsinnaasut aaqqissunnerit",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad ikiorsineq",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Attaveqaqatigiinneq",
+		"getInTouch": "Attavigitsigut",
+		"links": {
+			"telegramChat": "Telegram Oqaloqatigiinnermut Suliaqarfik",
+			"telegramAnnouncements": "Telegram Nalunaarutit",
+			"facebook": "Facebook Suliaqarfik"
+		}
+	},
+	"footer": {
+		"by": "ilanngullugu"
+	}
+}

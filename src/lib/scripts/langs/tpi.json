@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Serim Fail i No Gat Wanpela Senta",
+		"description": "{project} em i wanpela peer-to-peer fail serim sopwea i bin wokim long ol nupela teknoloji i no gat wanpela senta.",
+		"ogTitle": "{project} - Fail serim sopwea i no gat wanpela senta",
+		"ogDescription": "Peer-to-peer fail serim em i bin wokim long ol nupela teknoloji i no gat wanpela senta. I no gat ol senta seva. I no gat wanpela ples we i ken pundaun."
+	},
+	"menu": {
+		"about": "Long",
+		"download": "Daunlot",
+		"screenshots": "Ol piksa bilong skrin",
+		"comparison": "Komparesen",
+		"contact": "Kontak",
+		"toggle": "Senisim menu",
+		"close": "Pasim menu",
+		"language": "Tokples",
+		"selectLanguage": "Makim tokples"
+	},
+	"hero": {
+		"subtitle": "Nupela jenereisen bilong peer-to-peer fail serim",
+		"description": "I bin wokim long ol nupela teknoloji i no gat wanpela senta. I no gat ol senta seva. I no gat wanpela ples we i ken pundaun.",
+		"download": "Daunlot"
+	},
+	"about": {
+		"title": "Long",
+		"intro": "{project} em i wanpela nupela jenereisen peer-to-peer fail serim platpom i bin wokim long ol nupela teknoloji i no gat wanpela senta. Em i bungim wanpela isi yusa interfes wantaim wanpela arkitekja i no gat wanpela senta olgeta, em i givim wanpela sevpela na trastim rot bilong serim dato i no gat sampela senta atoriti. Projek em i open source na em i go aut aninit long {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Netwak i no gat wanpela senta olgeta",
+				"description": "I no gat ol senta seva, i no gat wanpela ples we i ken pundaun. Ol yusa i painim na daunlotim ol samting stret namel long ol yet, i no nidim ol senta indekser, traka o database."
+			},
+			"accessControl": {
+				"title": "Liklik liklik kontrol bilong akses",
+				"description": "Olgeta wanwan i fri long statim em yet netwak wantaim ol lo bilong em yet. Tokaut long ol rol bilong yusa long olgeta wanwan netwak: ol papa, ol admin, ol pablisa, ol moderata na ol daunlota. Kontrolim stret husat i ken pablisim, moderatim na daunlotim ol samting."
+			},
+			"ui": {
+				"title": "Bikpela kwaliti yusa interfes",
+				"description": "Wanpela klin na isi long yusim midia senta interfes em i bin wokim bilong desktop, TV na mobile platpom. Wokabaut isi wantaim kibod, maus, gamepad o rimot kontrol. Ol strongpela yusa i ken yusim komand lain interfes long yusim sopwea olsem wanpela hedles fail seva."
+			},
+			"dataFormat": {
+				"title": "Dato pomet man i ken ridim",
+				"description": "Dato pomet bilong LISH em i sanap long JSON, em i mekim isi long wokim, ridim na undastendim. Serim ol samting bilong yu wantaim klia, opin metadata we olgeta wanwan i ken lukluk isi."
+			},
+			"security": {
+				"title": "Praivet na sekiuriti",
+				"description": "Olgeta peer-to-peer komunikesen em i enkripted, em i mekim sua dato bilong yu i stap praivet long taim bilong transpa. Ol yusa i ken haitim baksait long wanpela VPN bilong wanpela ekstra leia bilong i no save nem. {project} i rispektim praiveti bilong yu long disain."
+			},
+			"crossPlatform": {
+				"title": "Kros platpom",
+				"description": "Sopwea em i avelibol long Windows, Linux na macOS platpom. Yusim long olgeta wanwan tul yu laikim."
+			}
+		}
+	},
+	"download": {
+		"title": "Daunlot",
+		"description": "Kisim {project} bilong platpom bilong yu. Olgeta daunlot em i fri na open source.",
+		"version": "Vesen long nau: {version}",
+		"linkAlt": "Daunlot",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} insthola",
+			"package": "{format} pakej",
+			"portableZip": "Potebol ZIP",
+			"viewOnGithub": "Lukluk long GitHub"
+		},
+		"macos": {
+			"title": "Impoten tok bilong ol macOS yusa:",
+			"intro": "macOS Gatekeeper em i blokim ol app we i no saenim / no notarael we i daunlotim long intanet wantaim wanpela {error} mistake.",
+			"error": "\"i bagarap na em i no ken op\"",
+			"runCommand": "Bihainim daunlot bilong DMG o ZIP, ronim wanpela komand long Terminal long pasin bilong daunbilo bipo yu op long app:",
+			"exampleDmg": "Olsem eksampol, bihainim insthol long DMG:",
+			"exampleZip": "O bihainim yu ekstraktim ZIP:",
+			"explanation": "Em i tekewe kuarentin atribut na em i larim app i ron."
+		}
+	},
+	"screenshots": {
+		"title": "Ol piksa bilong skrin",
+		"open": "Op piksa bilong skrin {index}",
+		"alt": "Piksa bilong skrin {index}",
+		"close": "Pasim galeri",
+		"prev": "Piksa bipo",
+		"next": "Nekis piksa"
+	},
+	"comparison": {
+		"title": "Komparesen",
+		"feature": "Hap",
+		"yes": "yes",
+		"no": "nogat",
+		"partialDht": "Hap tasol (DHT)",
+		"rows": {
+			"decentralized": "Netwak i no gat wanpela senta",
+			"onlineLibrary": "Onlain laibreri",
+			"builtInSearch": "Painim samting i bin wokim insait",
+			"decentralizedSearch": "Painim samting i no gat wanpela senta",
+			"parallelDownloads": "Multi-sos paralel daunlot",
+			"mediaCenter": "Midia senta interfes",
+			"gamepad": "Gamepad sapot",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Kontakim mipela",
+		"links": {
+			"telegramChat": "Telegram Toktok Grup",
+			"telegramAnnouncements": "Telegram Tokaut",
+			"facebook": "Facebook Grup"
+		}
+	},
+	"footer": {
+		"by": "long"
+	}
+}

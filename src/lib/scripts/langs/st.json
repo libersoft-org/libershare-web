@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Karolelano ya Difaele e Sa Bokellweng",
+		"description": "{project} ke software ya karolelano ya difaele ya peer-to-peer e hahuweng ka theknoloji ya morao-rao e sa bokellweng.",
+		"ogTitle": "{project} - Software ya karolelano ya difaele e sa bokellweng",
+		"ogDescription": "Karolelano ya difaele ya peer-to-peer e hahuweng ka theknoloji ya morao-rao e sa bokellweng. Ha ho di-server tse bokellweng. Ha ho ntlha e le 'ngoe ya ho hloleha."
+	},
+	"menu": {
+		"about": "Mabapi",
+		"download": "Theola",
+		"screenshots": "Diswantsho tsa skrine",
+		"comparison": "Papiso",
+		"contact": "Iteanye",
+		"toggle": "Fetola menu",
+		"close": "Kwala menu",
+		"language": "Puo",
+		"selectLanguage": "Kgetha puo"
+	},
+	"hero": {
+		"subtitle": "Moloko o tlang oa karolelano ya difaele ya peer-to-peer",
+		"description": "E hahuweng ka theknoloji ya morao-rao e sa bokellweng. Ha ho di-server tse bokellweng. Ha ho ntlha e le 'ngoe ya ho hloleha.",
+		"download": "Theola"
+	},
+	"about": {
+		"title": "Mabapi",
+		"intro": "{project} ke sethala sa karolelano ya difaele ya peer-to-peer sa moloko o tlang se hahuweng ka theknoloji ya morao-rao e sa bokellweng. E kopanya interface e bonolo ya mosebedisi le moetso o sa bokellweng ka botlalo, e fa tharollo e sireletsehileng le e tshepehang ya karolelano ya datha e ikemetseng ho bolaodi bofe kapa bofe ba bohareng. Morero ona ke open source mme o phatlalatsoa tlas'a {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Marang-rang a sa bokellweng ka botlalo",
+				"description": "Ha ho di-server tse bokellweng, ha ho ntlha e le 'ngoe ya ho hloleha. Basebedisi ba batla le ho theola dikahare ka kotloloho lipakeng tsa bona, ntle le ho itshetleha ho di-indexers tse bokellweng, di-tracker kapa di-database."
+			},
+			"accessControl": {
+				"title": "Taolo ya phihlelo e qaqileng",
+				"description": "Mong le mong o lokolohile ho qala marang-rang a hae a melao ya hae. Hlalosa dikarolo tsa basebedisi marang-rang ka 'ngoe: beng, ba-admin, ba-pubelisi, ba-modereiti le ba-theoli. Laola ka nepo hore na ke mang ya ka phatlalatsang, ya laolang le ho theola dikahare."
+			},
+			"ui": {
+				"title": "Interface e holimo ya mosebedisi",
+				"description": "Interface e hloekileng le e bonolo ya media center e etseditsweng diteng tsa di-desktop, TV le mobile. Tsamaya ho se na bothata ka keyboard, mouse, gamepad kapa lebanto. Basebedisi ba matla ba ka sebedisa interface ya command line ho sebedisa software jwaloka file server e se nang hlooho."
+			},
+			"dataFormat": {
+				"title": "Sebopeho sa datha se balwang ke motho",
+				"description": "Sebopeho sa datha sa LISH se itshetlehile ho JSON, se etsa hore ho be bonolo ho theha, ho bala le ho utlwisisa. Arolelana dikahare tsa hao ka metadata e hlakileng, e bonahalang eo motho mang kapa mang a ka e shebang habonolo."
+			},
+			"security": {
+				"title": "Lekunutu le tshireletso",
+				"description": "Puisano yohle ya peer-to-peer e ngotswe ka khoutu, e netefatsa hore datha ya hao e dula e le lekunutu nakong ya phetisetso. Basebedisi ba ka iphihla ka mor'a VPN bakeng sa lera le eketsehileng la ho se tsejwe. {project} e hlompha lekunutu la hao ka moetso."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software e fumaneha bakeng sa diteng tsa Windows, Linux le macOS. E sebedise sebopehong sefe kapa sefe seo o se ratang."
+			}
+		}
+	},
+	"download": {
+		"title": "Theola",
+		"description": "Fumana {project} bakeng sa setshebeletso sa hao. Theolo tsohle ke mahala mme ke open source.",
+		"version": "Phetolelo ya hajwale: {version}",
+		"linkAlt": "Theola",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Sekenyi sa {format}",
+			"package": "Sephutheloana sa {format}",
+			"portableZip": "ZIP e nkehang",
+			"viewOnGithub": "Sheba ho GitHub"
+		},
+		"macos": {
+			"title": "Tlhokomediso e bohlokwa ho basebedisi ba macOS:",
+			"intro": "macOS Gatekeeper e thibela di-app tse sa saennweng / tse sa netefadiweng tse theotsweng inthaneteng ka phoso ya {error}.",
+			"error": "\"e senyehile mme e ke ke ya bulwa\"",
+			"runCommand": "Kamora ho theola DMG kapa ZIP, sebedisa taelo ho Terminal ka mokgwa o latelang pele o bula app:",
+			"exampleDmg": "Mohlala, kamora ho kenya ho tswa ho DMG:",
+			"exampleZip": "Kapa kamora ho ntsha ZIP:",
+			"explanation": "Sena se tlosa pontsho ya quarantine mme se dumella app ho sebetsa."
+		}
+	},
+	"screenshots": {
+		"title": "Diswantsho tsa skrine",
+		"open": "Bula seswantsho sa skrine {index}",
+		"alt": "Seswantsho sa skrine {index}",
+		"close": "Kwala gallery",
+		"prev": "Seswantsho se fetileng",
+		"next": "Seswantsho se latelang"
+	},
+	"comparison": {
+		"title": "Papiso",
+		"feature": "Tshobotsi",
+		"yes": "ee",
+		"no": "tjhee",
+		"partialDht": "Karolwana (DHT)",
+		"rows": {
+			"decentralized": "Marang-rang a sa bokellweng",
+			"onlineLibrary": "Laeborari ya inthaneteng",
+			"builtInSearch": "Patlo ya dikahare e hahiloeng",
+			"decentralizedSearch": "Patlo ya dikahare e sa bokellweng",
+			"parallelDownloads": "Ditheolo tse tshwanang ho tswa mehloding e mengata",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Tshehetso ya gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Iteanye",
+		"getInTouch": "Iteanye le rona",
+		"links": {
+			"telegramChat": "Sehlopha sa Puisano sa Telegram",
+			"telegramAnnouncements": "Diphatlalatso tsa Telegram",
+			"facebook": "Sehlopha sa Facebook"
+		}
+	},
+	"footer": {
+		"by": "ke"
+	}
+}

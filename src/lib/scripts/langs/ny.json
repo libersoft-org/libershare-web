@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kugawana Mafayilo Mosaaitsogolera",
+		"description": "{project} ndi pulogalamu yogawana mafayilo ya peer-to-peer yomangidwa pa luso lamakono lopanda mfundo yapakati.",
+		"ogTitle": "{project} - Pulogalamu yogawana mafayilo yopanda mfundo yapakati",
+		"ogDescription": "Kugawana mafayilo kwa peer-to-peer komangidwa pa luso lamakono lopanda mfundo yapakati. Palibe ma seva apakati. Palibe malo amodzi olephera."
+	},
+	"menu": {
+		"about": "Zokhudza",
+		"download": "Tsitsa",
+		"screenshots": "Zithunzi za pakompyuta",
+		"comparison": "Kuyerekeza",
+		"contact": "Lumikizanani",
+		"toggle": "Sinthani menyu",
+		"close": "Tsekani menyu",
+		"language": "Chinenero",
+		"selectLanguage": "Sankhani chinenero"
+	},
+	"hero": {
+		"subtitle": "Mtundu watsopano wogawana mafayilo wa peer-to-peer",
+		"description": "Womangidwa pa luso lamakono lopanda mfundo yapakati. Palibe ma seva apakati. Palibe malo amodzi olephera.",
+		"download": "Tsitsa"
+	},
+	"about": {
+		"title": "Zokhudza",
+		"intro": "{project} ndi nsanja yogawana mafayilo ya peer-to-peer ya mtundu watsopano yomangidwa pa luso lamakono lopanda mfundo yapakati. Imaphatikiza kapangidwe kosavuta ka wogwiritsa ntchito ndi kapangidwe kopanda mfundo yapakati, kupereka njira yotetezeka komanso yodalirika yogawana zambiri popanda kudalira ulamuliro uliwonse wapakati. Pulojekitiyi ndi open source ndipo imagawidwa pansi pa {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Maukonde opanda mfundo yapakati kwathunthu",
+				"description": "Palibe ma seva apakati, palibe malo amodzi olephera. Ogwiritsa ntchito amasaka ndi kutsitsa zomwe zili pakati pawo, popanda kudalira zolemba zapakati, otsatira kapena ma database."
+			},
+			"accessControl": {
+				"title": "Kuwongolera kolowamo mwatsatanetsatane",
+				"description": "Aliyense ali ndi ufulu woyambitsa maukonde ake ndi malamulo ake. Tanthauzani maudindo a wogwiritsa ntchito mu maukonde aliwonse: eni, oyang'anira, osindikiza, owongolera ndi otsitsa. Wongolerani ndendende amene angasindikize, awongolere ndi kutsitsa zomwe zili."
+			},
+			"ui": {
+				"title": "Kapangidwe kabwino kwambiri ka wogwiritsa ntchito",
+				"description": "Kapangidwe ka media center koyera komanso kosavuta kogwiritsa ntchito kopangidwa kwa ma desktop, TV ndi mafoni. Yendani mosavuta ndi kibodi, mbewa, gamepad kapena chowongolera chakutali. Ogwiritsa ntchito odziwa angagwiritse ntchito kapangidwe ka mzere wa malamulo kuti agwiritse ntchito pulogalamuyi ngati seva yamafayilo yopanda mutu."
+			},
+			"dataFormat": {
+				"title": "Mawonekedwe a deta omwe munthu angawerenge",
+				"description": "Mawonekedwe a deta a LISH amatengera pa JSON, kupangitsa kuti zikhale zosavuta kupanga, kuwerenga ndi kumvetsa. Gawanani zomwe zili ndi metadata yomveka bwino, yomveka yomwe aliyense angawunike mosavuta."
+			},
+			"security": {
+				"title": "Chinsinsi ndi chitetezo",
+				"description": "Kulumikizana konse kwa peer-to-peer ndi kosindikizidwa, kuwonetsetsa kuti deta yanu imakhalabe yachinsinsi panthawi yotumiza. Ogwiritsa ntchito akhoza kubisala kumbuyo kwa VPN kuti apeze chigawo china chosadziwika. {project} imalemekeza chinsinsi chanu mwa kapangidwe."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Pulogalamuyi imapezeka pa Windows, Linux ndi macOS. Igwiritseni ntchito pa chida chilichonse chomwe mukufuna."
+			}
+		}
+	},
+	"download": {
+		"title": "Tsitsa",
+		"description": "Pezani {project} pa nsanja yanu. Kutsitsa konse ndi kwaulere komanso kwa open source.",
+		"version": "Mtundu wapano: {version}",
+		"linkAlt": "Tsitsa",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Choyikitsa cha {format}",
+			"package": "Phukusi la {format}",
+			"portableZip": "ZIP yonyamulika",
+			"viewOnGithub": "Onani pa GitHub"
+		},
+		"macos": {
+			"title": "Chidziwitso chofunika kwa ogwiritsa ntchito macOS:",
+			"intro": "macOS Gatekeeper imatsekereza ma app osasayinidwa / osatsimikizika otsitsidwa pa intaneti ndi cholakwika cha {error}.",
+			"error": "\"yawonongeka ndipo singathe kutseguka\"",
+			"runCommand": "Mukatsitsa DMG kapena ZIP, yendetsani lamulo mu Terminal mwanjira yotsatirayi musanatsegule app:",
+			"exampleDmg": "Mwachitsanzo, mukayika kuchokera ku DMG:",
+			"exampleZip": "Kapena mukatulutsa ZIP:",
+			"explanation": "Izi zimachotsa chizindikiro cha karenteni ndi kulola app kuyenda."
+		}
+	},
+	"screenshots": {
+		"title": "Zithunzi za pakompyuta",
+		"open": "Tsegulani chithunzi {index}",
+		"alt": "Chithunzi {index}",
+		"close": "Tsekani galeri",
+		"prev": "Chithunzi chapitacho",
+		"next": "Chithunzi chotsatira"
+	},
+	"comparison": {
+		"title": "Kuyerekeza",
+		"feature": "Mawonekedwe",
+		"yes": "inde",
+		"no": "ayi",
+		"partialDht": "Mbali (DHT)",
+		"rows": {
+			"decentralized": "Maukonde opanda mfundo yapakati",
+			"onlineLibrary": "Laibulale ya pa intaneti",
+			"builtInSearch": "Kufufuza zomwe zili",
+			"decentralizedSearch": "Kufufuza zomwe zili kopanda mfundo yapakati",
+			"parallelDownloads": "Kutsitsa kofanana kuchokera kumagwero ambiri",
+			"mediaCenter": "Kapangidwe ka media center",
+			"gamepad": "Chithandizo cha gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Lumikizanani",
+		"getInTouch": "Lumikizanani nafe",
+		"links": {
+			"telegramChat": "Gulu la Macheza la Telegram",
+			"telegramAnnouncements": "Zilengezo za Telegram",
+			"facebook": "Gulu la Facebook"
+		}
+	},
+	"footer": {
+		"by": "wolembedwa ndi"
+	}
+}

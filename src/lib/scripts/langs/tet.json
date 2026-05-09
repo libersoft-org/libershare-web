@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fahe Arkivu Laʼós Sentru",
+		"description": "{project} mak software fahe arkivu peer-to-peer ne'ebé harii iha teknolojia foun laʼós sentru.",
+		"ogTitle": "{project} - Software fahe arkivu laʼós sentru",
+		"ogDescription": "Peer-to-peer fahe arkivu ne'ebé harii iha teknolojia foun laʼós sentru. La iha servidór sentrál. La iha fatin ida deʼit ne'ebé bele monu."
+	},
+	"menu": {
+		"about": "Kona-ba",
+		"download": "Tun",
+		"screenshots": "Imajen ekran",
+		"comparison": "Komparasaun",
+		"contact": "Kontaktu",
+		"toggle": "Troka menu",
+		"close": "Taka menu",
+		"language": "Lian",
+		"selectLanguage": "Hili lian"
+	},
+	"hero": {
+		"subtitle": "Jerasaun foun fahe arkivu peer-to-peer",
+		"description": "Harii iha teknolojia foun laʼós sentru. La iha servidór sentrál. La iha fatin ida deʼit ne'ebé bele monu.",
+		"download": "Tun"
+	},
+	"about": {
+		"title": "Kona-ba",
+		"intro": "{project} mak plataforma fahe arkivu peer-to-peer jerasaun foun ne'ebé harii iha teknolojia foun laʼós sentru. Kombina interfaze utilizadór nia neʼebé fasil ho arkitetura laʼós sentru kompletu, fornese solusaun ne'ebé seguru no fiar nain ba fahe dadus laʼós dependente husi autoridade sentrál ida-idak. Projetu mak open source no fahe iha okos {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rede laʼós sentru kompletu",
+				"description": "La iha servidór sentrál, la iha fatin ida deʼit ne'ebé bele monu. Utilizadór sira buka no tun konteúdu direta entre sira-nia an, sein depende ba indexador, tracker ka base dadus sentrál."
+			},
+			"accessControl": {
+				"title": "Kontrolu asesu detalladu",
+				"description": "Ema ida-idak livre atu hahuʼu nia rede rasik ho nia regras rasik. Defini papél utilizadór iha rede ida-idak: naʼin, admin, publikadór, moderador no sira ne'ebé tun. Kontrola haleʼu se mak bele publika, modera no tun konteúdu."
+			},
+			"ui": {
+				"title": "Interfaze utilizadór nian aas",
+				"description": "Interfaze media center moos no fasil ba utilizadór ne'ebé harii ba plataforma desktop, TV no telemóvel. Halaʼo lao laʼós problema ho keyboard, mouse, gamepad ka kontrolu remota. Utilizadór avansadu bele uza interfaze linha komandu atu lao software hanesan servidór arkivu sein ulun."
+			},
+			"dataFormat": {
+				"title": "Formatu dadus ne'ebé ema bele lee",
+				"description": "Formatu dadus LISH bazeia ba JSON, halo fasil atu kria, lee no komprende. Fahe ita-nia konteúdu ho metadata ne'ebé klaru no transparente ne'ebé ema ida-idak bele verifika ho fasil."
+			},
+			"security": {
+				"title": "Privasidade no seguransa",
+				"description": "Komunikasaun peer-to-peer hotu enkriptu, garante katak ita-nia dadus hela privadu durante transferénsia. Utilizadór sira bele subar iha kotuk VPN ba kamada anonimu adisional. {project} respeita ita-nia privasidade liu husi dezeñu."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software disponivel ba plataforma Windows, Linux no macOS. Uza ho dispozitivu ida deʼit ne'ebé Ita gosta."
+			}
+		}
+	},
+	"download": {
+		"title": "Tun",
+		"description": "Hetan {project} ba ita-nia plataforma. Tun hotu mak gratuita no open source.",
+		"version": "Versaun atuál: {version}",
+		"linkAlt": "Tun",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instaladór {format}",
+			"package": "Pakote {format}",
+			"portableZip": "ZIP portátil",
+			"viewOnGithub": "Haree iha GitHub"
+		},
+		"macos": {
+			"title": "Notisia importante ba utilizadór macOS:",
+			"intro": "macOS Gatekeeper bloka aplikasaun la-asina / la-notarisada ne'ebé tun husi internet ho erru {error}.",
+			"error": "\"sai aat no la bele loke\"",
+			"runCommand": "Hafoin tun DMG ka ZIP, halaʼo komandu iha Terminal ho forma tuirmai antes loke aplikasaun:",
+			"exampleDmg": "Porezemplu, hafoin instala husi DMG:",
+			"exampleZip": "Ka hafoin estrai ZIP:",
+			"explanation": "Ne'e hasai atributu karenténa no fó dalan ba aplikasaun atu lao."
+		}
+	},
+	"screenshots": {
+		"title": "Imajen ekran",
+		"open": "Loke imajen ekran {index}",
+		"alt": "Imajen ekran {index}",
+		"close": "Taka galeria",
+		"prev": "Imajen liubá",
+		"next": "Imajen tuirmai"
+	},
+	"comparison": {
+		"title": "Komparasaun",
+		"feature": "Karaterístika",
+		"yes": "loos",
+		"no": "lae",
+		"partialDht": "Parsiál (DHT)",
+		"rows": {
+			"decentralized": "Rede laʼós sentru",
+			"onlineLibrary": "Biblioteka online",
+			"builtInSearch": "Buka konteúdu integradu",
+			"decentralizedSearch": "Buka konteúdu laʼós sentru",
+			"parallelDownloads": "Tun paralel husi fonte barak",
+			"mediaCenter": "Interfaze media center",
+			"gamepad": "Suporta gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontaktu",
+		"getInTouch": "Hatudu kontaktu",
+		"links": {
+			"telegramChat": "Grupu Konversa Telegram",
+			"telegramAnnouncements": "Anunsiu Telegram",
+			"facebook": "Grupu Facebook"
+		}
+	},
+	"footer": {
+		"by": "husi"
+	}
+}

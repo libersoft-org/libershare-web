@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ukwabelana Ngeefayile Okungenamhlaba",
+		"description": "{project} yisoftware yokwabelana ngeefayile ye-peer-to-peer eyakhiwe kubuchwepheshe banamhlanje obungenamhlaba.",
+		"ogTitle": "{project} - Isoftware yokwabelana ngeefayile engenamhlaba",
+		"ogDescription": "Ukwabelana ngeefayile kwe-peer-to-peer okwakhiwe kubuchwepheshe banamhlanje obungenamhlaba. Akukho ziseva eziphakathi. Akukho ndawo inye yokusilela."
+	},
+	"menu": {
+		"about": "Malunga",
+		"download": "Khuphela",
+		"screenshots": "Iiskrinishothi",
+		"comparison": "Uthelekiso",
+		"contact": "Qhagamshelana",
+		"toggle": "Tshintsha imenyu",
+		"close": "Vala imenyu",
+		"language": "Ulwimi",
+		"selectLanguage": "Khetha ulwimi"
+	},
+	"hero": {
+		"subtitle": "Isizukulwana esilandelayo sokwabelana ngeefayile kwi-peer-to-peer",
+		"description": "Yakhiwe kubuchwepheshe banamhlanje obungenamhlaba. Akukho ziseva eziphakathi. Akukho ndawo inye yokusilela.",
+		"download": "Khuphela"
+	},
+	"about": {
+		"title": "Malunga",
+		"intro": "{project} yiqonga lokwabelana ngeefayile kwi-peer-to-peer lesizukulwana esilandelayo elakhiwe kubuchwepheshe banamhlanje obungenamhlaba. Lihlanganisa ujongano lomsebenzisi olucacileyo nemveliso engenamhlaba ngokupheleleyo, lubonelela ngesisombululo esikhuselekileyo nesithembekileyo sokwabelana ngedatha ngokuzimeleyo kuwo nawuphi na umgaqo ophambili. Iprojekthi yi-open source kwaye isasazwa phantsi {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Uthungelwano olungenamhlaba ngokupheleleyo",
+				"description": "Akukho ziseva eziphakathi, akukho ndawo inye yokusilela. Abasebenzisi bafuna baze bakhuphele umxholo ngqo phakathi kwabo, ngaphandle kokuxhomekeka kwiindawo zokugcina, ababukeli okanye iidatabase eziphakathi."
+			},
+			"accessControl": {
+				"title": "Ulawulo lokufikelela olucacileyo",
+				"description": "Wonke umntu ukhululekile ukuqala uthungelwano lwakhe namalungelo akhe. Chaza iindima zomsebenzisi kuwo wonke uthungelwano: abanini, abalawuli, abapapashi, abalawuli kunye nabakhuphelayo. Lawula ngokuchanekileyo ukuba ngubani onokupapasha, alawule, kwaye akhuphele umxholo."
+			},
+			"ui": {
+				"title": "Ujongano lomsebenzisi olubalaseleyo",
+				"description": "Ujongano lwe-media center olucacileyo nolulula kumsebenzisi olwenzelwe iiplatform zedeskthophu, iTV neemobhayile. Hamba ngokungenazingxaki ngekhibhodi, impuku, igamepad okanye ulawulo olukude. Abasebenzisi abakwaziyo banokusebenzisa ujongano lwe-command line ukuqhuba isoftware njengeseva yefayile engenantloko."
+			},
+			"dataFormat": {
+				"title": "Ifomathi yedatha efundeka ngabantu",
+				"description": "Ifomathi yedatha ye-LISH isekelwe kwi-JSON, ekwenza kube lula ukudala, ukufunda nokuqonda. Yabelana ngomxholo wakho ngemetadata ecacileyo, ekhanyayo enokuphengululwa lula ngubani na."
+			},
+			"security": {
+				"title": "Ubumfihlo nokhuseleko",
+				"description": "Lonke unxibelelwano lwe-peer-to-peer luyabethelwa, luqinisekisa ukuba idatha yakho ihlala iyimfihlo ngexesha lokudluliswa. Abasebenzisi bangabhaca emva kwe-VPN ukufumana umaleko ongezelelweyo wokungaziwa. {project} ihlonipha ubumfihlo bakho ngoyilo."
+			},
+			"crossPlatform": {
+				"title": "Iiplatform ezahlukeneyo",
+				"description": "Isoftware iyafumaneka kwiiplatform ze-Windows, Linux ne-macOS. Yisebenzise kuso nasiphi na isixhobo osikhethileyo."
+			}
+		}
+	},
+	"download": {
+		"title": "Khuphela",
+		"description": "Fumana {project} kwiplatform yakho. Konke ukukhuphela kusimahla kwaye kuyi-open source.",
+		"version": "Uguqulelo lwangoku: {version}",
+		"linkAlt": "Khuphela",
+		"platforms": {
+			"sourceCode": "Ikhowudi yomthombo"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Umfaki we-{format}",
+			"package": "Iphakheji ye-{format}",
+			"portableZip": "I-ZIP ephathekayo",
+			"viewOnGithub": "Jonga kwi-GitHub"
+		},
+		"macos": {
+			"title": "Inqaku elibalulekileyo kubasebenzisi be-macOS:",
+			"intro": "I-macOS Gatekeeper ivimba iiapps ezingatyikitywanga / ezingavakaliswanga ezikhutshelwe kwi-intanethi ngempazamo {error}.",
+			"error": "\"yonakele kwaye ayinakuvulwa\"",
+			"runCommand": "Emva kokukhuphela i-DMG okanye i-ZIP, qhuba umyalelo kwi-Terminal ngolu hlobo lulandelayo phambi kokuvula i-app:",
+			"exampleDmg": "Umzekelo, emva kokufaka kwi-DMG:",
+			"exampleZip": "Okanye emva kokukhupha i-ZIP:",
+			"explanation": "Oku kususa uphawu lwe-quarantine kwaye kuvumela i-app ukuba isebenze."
+		}
+	},
+	"screenshots": {
+		"title": "Iiskrinishothi",
+		"open": "Vula iskrinishothi {index}",
+		"alt": "Iskrinishothi {index}",
+		"close": "Vala igalari",
+		"prev": "Umfanekiso odlulileyo",
+		"next": "Umfanekiso olandelayo"
+	},
+	"comparison": {
+		"title": "Uthelekiso",
+		"feature": "Inkangeleko",
+		"yes": "ewe",
+		"no": "hayi",
+		"partialDht": "Inxalenye (DHT)",
+		"rows": {
+			"decentralized": "Uthungelwano olungenamhlaba",
+			"onlineLibrary": "Ithala leencwadi le-intanethi",
+			"builtInSearch": "Ukhangelo lomxholo olwakhelwe ngaphakathi",
+			"decentralizedSearch": "Ukhangelo lomxholo olungenamhlaba",
+			"parallelDownloads": "Ukukhuphela okufanayo kweemithombo emininzi",
+			"mediaCenter": "Ujongano lwe-media center",
+			"gamepad": "Inkxaso ye-gamepad",
+			"openSource": "Umthombo ovulekileyo"
+		}
+	},
+	"contact": {
+		"title": "Qhagamshelana",
+		"getInTouch": "Qhagamshelana nathi",
+		"links": {
+			"telegramChat": "Iqela Lencoko le-Telegram",
+			"telegramAnnouncements": "Izaziso ze-Telegram",
+			"facebook": "Iqela le-Facebook"
+		}
+	},
+	"footer": {
+		"by": "ngu"
+	}
+}

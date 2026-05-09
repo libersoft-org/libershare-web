@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tuaritanga Kōnae Whakawehe",
+		"description": "{project} he pūmanawa tuaritanga kōnae peer-to-peer i hangaia ki runga i ngā hangarau hou whakawehe.",
+		"ogTitle": "{project} - Pūmanawa tuaritanga kōnae whakawehe",
+		"ogDescription": "Tuaritanga kōnae peer-to-peer i hangaia ki runga i ngā hangarau hou whakawehe. Kāore he tūmau pokapū. Kāore he wāhi kotahi mō te hē."
+	},
+	"menu": {
+		"about": "Mō",
+		"download": "Tikiake",
+		"screenshots": "Hopuātanga mata",
+		"comparison": "Whakatauritenga",
+		"contact": "Whakapā",
+		"toggle": "Whakakā tahua",
+		"close": "Katia te tahua",
+		"language": "Reo",
+		"selectLanguage": "Tīpakohia te reo"
+	},
+	"hero": {
+		"subtitle": "Te whakatupuranga e haere mai ana o te tuaritanga kōnae peer-to-peer",
+		"description": "I hangaia ki runga i ngā hangarau hou whakawehe. Kāore he tūmau pokapū. Kāore he wāhi kotahi mō te hē.",
+		"download": "Tikiake"
+	},
+	"about": {
+		"title": "Mō",
+		"intro": "{project} he pae tuaritanga kōnae peer-to-peer mō te whakatupuranga e haere mai ana, i hangaia ki runga i ngā hangarau hou whakawehe. Ka whakakotahi i te atanga kaiwhakamahi māmā me te hanganga whakawehe katoa, e whakarato ana i te otinga haumaru me te pono mō te tuaritanga raraunga, motuhake i tētahi mana pokapū. He matapuna tuwhera te kaupapa, ka tohaina i raro i te {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Whatunga whakawehe katoa",
+				"description": "Kāore he tūmau pokapū, kāore he wāhi kotahi mō te hē. Ka rapu, ka tikiake ngā kaiwhakamahi i ngā tuhinga tika i waenga i a rātou anō, kāore e whakawhirinaki ki ngā kaiwhakahaere pokapū, kaiaroturuki, papaaweto rānei."
+			},
+			"accessControl": {
+				"title": "Mana whakauru taipitopito",
+				"description": "Kua wātea ia tangata ki te tīmata i tōna ake whatunga me āna ake ture. Tautuhia ngā tūranga kaiwhakamahi i roto i ia whatunga: kaipupuri, kaiwhakahaere, kaiwhakaputa, kaiarataki me ngā kaitikiake. Whakahaerea tika ko wai ka taea te whakaputa, te whakahaere, te tikiake i ngā tuhinga."
+			},
+			"ui": {
+				"title": "Atanga kaiwhakamahi tino pai",
+				"description": "He atanga pokapū pāpāho mā me te ngāwari, i hoahoatia mō ngā pae papamahi, pouaka whakaata me te pūkoro. Whakatere māmā me te papapātuhi, kiore, gamepad, whakahaere mamao rānei. Ka taea e ngā kaiwhakamahi mōhio te whakamahi i te atanga raina whakahau hei whakahaere i te pūmanawa hei tūmau kōnae kāhore he māhunga."
+			},
+			"dataFormat": {
+				"title": "Hōputu raraunga ka taea te pānui e te tangata",
+				"description": "Ko te hōputu raraunga LISH e ahu mai ana i te JSON, e ngāwari ana ki te hanga, ki te pānui me te mārama. Tohaina āu tuhinga me ngā raraunga mata mārama, mārama ka taea e te tangata te tirotiro."
+			},
+			"security": {
+				"title": "Tūmataitinga me te haumarutanga",
+				"description": "Ka whakamuna te whakawhitiwhiti peer-to-peer katoa, e whakaū ana ka noho tūmataiti tāu raraunga i te wā o te whakawhiti. Ka taea e ngā kaiwhakamahi te huna ki muri o te VPN mō tētahi paparanga muna anō. Ka whakamana {project} i tō tūmataitinga mā te hoahoa."
+			},
+			"crossPlatform": {
+				"title": "Whakawhiti pae",
+				"description": "Kei te wātea te pūmanawa mō ngā pae Windows, Linux me macOS. Whakamahia ki tētahi taputapu e hiahia ana koe."
+			}
+		}
+	},
+	"download": {
+		"title": "Tikiake",
+		"description": "Whiwhi ki te {project} mō tō pae. He kore utu, he matapuna tuwhera ngā tikiake katoa.",
+		"version": "Putanga o nāianei: {version}",
+		"linkAlt": "Tikiake",
+		"platforms": {
+			"sourceCode": "Waehere puna"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-pīti",
+			"arm64": "ARM 64-pīti",
+			"universal": "Whaiao (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-pīti (Apple Silicon)",
+			"intel64": "Intel 64-pīti"
+		},
+		"items": {
+			"installer": "Kaiwhakauru {format}",
+			"package": "Kete {format}",
+			"portableZip": "ZIP kawe",
+			"viewOnGithub": "Tirohia ki GitHub"
+		},
+		"macos": {
+			"title": "Pānui nui mō ngā kaiwhakamahi macOS:",
+			"intro": "Ka aukati a macOS Gatekeeper i ngā taupānga kāore i hainatia / kāore i whakamanahia i tikiake mai i te ipurangi me te hapa {error}.",
+			"error": "\"kua pakaru, kāore e taea te whakatuwhera\"",
+			"runCommand": "I muri i te tikiake i te DMG, te ZIP rānei, whakahaerehia he whakahau i te Terminal i te āhua e whai ake nei i mua o te whakatuwhera i te taupānga:",
+			"exampleDmg": "Hei tauira, i muri i te whakauru mai i te DMG:",
+			"exampleZip": "I muri rānei i te tango i te ZIP:",
+			"explanation": "Ka tangohia tēnei i te āhuatanga taratahi, ka tukuna te taupānga kia rere."
+		}
+	},
+	"screenshots": {
+		"title": "Hopuātanga mata",
+		"open": "Whakatuwheratia te hopuātanga {index}",
+		"alt": "Hopuātanga mata {index}",
+		"close": "Katia te whakaaturanga",
+		"prev": "Pikitia o mua",
+		"next": "Pikitia ka whai mai"
+	},
+	"comparison": {
+		"title": "Whakatauritenga",
+		"feature": "Āhuatanga",
+		"yes": "āe",
+		"no": "kāo",
+		"partialDht": "Tētahi wāhanga (DHT)",
+		"rows": {
+			"decentralized": "Whatunga whakawehe",
+			"onlineLibrary": "Whare pukapuka tuihono",
+			"builtInSearch": "Rapu tuhinga i hangaia",
+			"decentralizedSearch": "Rapu tuhinga whakawehe",
+			"parallelDownloads": "Tikiake kōtaha mai i ngā puna maha",
+			"mediaCenter": "Atanga pokapū pāpāho",
+			"gamepad": "Tautoko gamepad",
+			"openSource": "Matapuna tuwhera"
+		}
+	},
+	"contact": {
+		"title": "Whakapā",
+		"getInTouch": "Whakapā mai",
+		"links": {
+			"telegramChat": "Rōpū Kōrero Telegram",
+			"telegramAnnouncements": "Pānui Telegram",
+			"facebook": "Rōpū Facebook"
+		}
+	},
+	"footer": {
+		"by": "nā"
+	}
+}

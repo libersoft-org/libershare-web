@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fefa'asoaina Faila e Lē Tutotonu",
+		"description": "{project} o se polokalama fefa'asoaina faila peer-to-peer ua fausia i tekonolosi fa'aonaponei e lē tutotonu.",
+		"ogTitle": "{project} - Polokalama fefa'asoaina faila e lē tutotonu",
+		"ogDescription": "Fefa'asoaina faila peer-to-peer ua fausia i tekonolosi fa'aonaponei e lē tutotonu. E leai ni 'au'aunaga tutotonu. E leai se nofoaga e tasi e mafai ai ona pa'ū."
+	},
+	"menu": {
+		"about": "E uiga",
+		"download": "Sii",
+		"screenshots": "Ata mata'itusi",
+		"comparison": "Fa'atusatusaga",
+		"contact": "Fa'afeso'ota'i",
+		"toggle": "Suia le lisi",
+		"close": "Tapuni le lisi",
+		"language": "Gagana",
+		"selectLanguage": "Filifili gagana"
+	},
+	"hero": {
+		"subtitle": "Tupulaga fou o le fefa'asoaina faila peer-to-peer",
+		"description": "Ua fausia i tekonolosi fa'aonaponei e lē tutotonu. E leai ni 'au'aunaga tutotonu. E leai se nofoaga e tasi e mafai ai ona pa'ū.",
+		"download": "Sii"
+	},
+	"about": {
+		"title": "E uiga",
+		"intro": "O le {project} o se fa'avae fefa'asoaina faila peer-to-peer mo le tupulaga fou ua fausia i tekonolosi fa'aonaponei e lē tutotonu. E tu'ufa'atasia ai se feso'ota'iga fa'aoga faigofie ma se fausaga e lē tutotonu, e maua ai se fofo saogalemu ma fa'amaonia mo le fefa'asoaina o fa'amatalaga e tuto'atasi mai so'o se pulega tutotonu. O le galuega fa'atinoina e open source ma fa'asalalauina i lalo o le {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Feso'ota'iga e lē tutotonu atoa",
+				"description": "E leai ni 'au'aunaga tutotonu, e leai se nofoaga e tasi e mafai ai ona pa'ū. E sa'ili ma sii e tagata fa'aoga mea ia tonu i le va o i latou lava, e aunoa ma le fa'alagolago i fa'asino tutotonu, sui poʻo fa'amaumauga."
+			},
+			"accessControl": {
+				"title": "Pulega o le avanoa fa'apitoa",
+				"description": "Ua sa'oloto tagata uma e amata a latou lava feso'ota'iga ma a latou lava tulafono. Fa'amalamalama matafaioi a tagata fa'aoga i feso'ota'iga ta'itasi: tagata e ana, pulega, tagata fa'asalalau, tagata pulega ma tagata sii. Pulea sa'o po o ai e mafai ona fa'asalalau, pulea ma sii mea."
+			},
+			"ui": {
+				"title": "Feso'ota'iga sili o tagata fa'aoga",
+				"description": "O se feso'ota'iga ogatotonu fa'asalalauga manino ma faigofie i le tagata fa'aoga ua mamanuina mo komepiuta, TV ma telefoni feavea'i. Femalagaa'i ma le faigofie e fa'aaoga ai le piano taofi, isumu, gamepad, po'o le pule mamao. E mafai e tagata fa'aoga atamai ona fa'aaoga le feso'ota'iga laina poloa'iga e fa'aaoga ai le polokalama o se 'au'aunaga faila e leai se ulu."
+			},
+			"dataFormat": {
+				"title": "Faiga o fa'amaumauga e mafai e le tagata ona faitau",
+				"description": "O le faiga fa'amaumauga LISH e fa'avae i le JSON, e faigofie ai le fausia, faitauina ma le malamalama. Fa'asoa au mea ma fa'amaumauga manino e mafai e so'o se tasi ona iloiloina."
+			},
+			"security": {
+				"title": "Le fa'alilolilo ma le saogalemu",
+				"description": "O fesoʻotaʻiga uma a peer-to-peer ua fa'apipi'iina, e fa'amautinoa ai e tumau au fa'amatalaga i le fa'alilolilo i le taimi o le fesiitaiga. E mafai ona lalafi tagata fa'aoga i tua o se VPN mo se fa'aopopoga fa'aopoopo o le lē iloagofieina. E fa'aaloalogia e le {project} lou fa'alilolilo e ala i le mamanu."
+			},
+			"crossPlatform": {
+				"title": "Fa'asoa-fa'avae",
+				"description": "Ua maua le polokalama mo Windows, Linux ma macOS. Fa'aaoga i so'o se masini e te mana'omia."
+			}
+		}
+	},
+	"download": {
+		"title": "Sii",
+		"description": "Maua le {project} mo lau fa'avae. O sii uma e leai se totogi ma o le open source.",
+		"version": "Lomiga o lo'o iai: {version}",
+		"linkAlt": "Sii",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} fa'apipi'i",
+			"package": "{format} afifi",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Va'ai i GitHub"
+		},
+		"macos": {
+			"title": "Fa'amatalaga taua mo tagata fa'aoga macOS:",
+			"intro": "E poloka e le macOS Gatekeeper polokalama e le'i sainia / e le'i fa'amaonia ua siia mai i le initaneti ma se mea sese {error}.",
+			"error": "\"ua leaga ma e le mafai ona tatala\"",
+			"runCommand": "Pe a uma ona sii le DMG po o le ZIP, fa'aoga se poloa'iga i Terminal i le faiga lea a'o le'i tatalaina le polokalama:",
+			"exampleDmg": "Mo se fa'ata'ita'iga, pe a uma ona fa'apipi'i mai le DMG:",
+			"exampleZip": "Pe a uma ona toso ese le ZIP:",
+			"explanation": "E aveese ai lenei le fa'aaliga karenetina ma fa'ataga ai le polokalama e tamo'e."
+		}
+	},
+	"screenshots": {
+		"title": "Ata mata'itusi",
+		"open": "Tatala le ata mata'itusi {index}",
+		"alt": "Ata mata'itusi {index}",
+		"close": "Tapuni le fale fa'aalia",
+		"prev": "Ata muamua",
+		"next": "Ata sosoo"
+	},
+	"comparison": {
+		"title": "Fa'atusatusaga",
+		"feature": "Vaega",
+		"yes": "ioe",
+		"no": "leai",
+		"partialDht": "Vaega (DHT)",
+		"rows": {
+			"decentralized": "Feso'ota'iga e lē tutotonu",
+			"onlineLibrary": "Fale faitau initaneti",
+			"builtInSearch": "Sa'ili mea i totonu",
+			"decentralizedSearch": "Sa'ili mea e lē tutotonu",
+			"parallelDownloads": "Sii fa'atasi mai pu'ega tele",
+			"mediaCenter": "Feso'ota'iga ogatotonu fa'asalalauga",
+			"gamepad": "Lagolago gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Fa'afeso'ota'i",
+		"getInTouch": "Fa'afeso'ota'i mai",
+		"links": {
+			"telegramChat": "Vaega Tala Telegram",
+			"telegramAnnouncements": "Fa'asalalauga Telegram",
+			"facebook": "Vaega Facebook"
+		}
+	},
+	"footer": {
+		"by": "saunia e"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - ዘይማእከላዊ ምክፍፋል ፋይል",
+		"description": "{project} ኣብ ዘመናዊ ዘይማእከላዊ ቴክኖሎጂታት ዝተሃንፀ ኣብ መንጎ ተጠቐምቲ ዝካፈል ሶፍትዌር እዩ።",
+		"ogTitle": "{project} - ዘይማእከላዊ ሶፍትዌር ምክፍፋል ፋይል",
+		"ogDescription": "ኣብ ዘመናዊ ዘይማእከላዊ ቴክኖሎጂታት ዝተሃንፀ ናይ peer-to-peer ምክፍፋል ፋይል። ዝኾነ ማእከላዊ ሰርቨር የለን። ዝኾነ ሓደ ነጥቢ ውድቀት የለን።"
+	},
+	"menu": {
+		"about": "ብዛዕባ",
+		"download": "ውርዲ",
+		"screenshots": "ቅዳሕ ስክሪን",
+		"comparison": "ምውድዳር",
+		"contact": "ርክብ",
+		"toggle": "ዝርዝር ቀይር",
+		"close": "ዝርዝር ዕጾ",
+		"language": "ቋንቋ",
+		"selectLanguage": "ቋንቋ ምረጽ"
+	},
+	"hero": {
+		"subtitle": "ቀጻሊ ወለዶ ናይ peer-to-peer ምክፍፋል ፋይል",
+		"description": "ኣብ ዘመናዊ ዘይማእከላዊ ቴክኖሎጂታት ዝተሃንፀ። ዝኾነ ማእከላዊ ሰርቨር የለን። ዝኾነ ሓደ ነጥቢ ውድቀት የለን።",
+		"download": "ውርዲ"
+	},
+	"about": {
+		"title": "ብዛዕባ",
+		"intro": "{project} ኣብ ዘመናዊ ዘይማእከላዊ ቴክኖሎጂታት ዝተሃንፀ ቀጻሊ ወለዶ ናይ peer-to-peer ምክፍፋል ፋይል መድረኽ እዩ። ቀሊል ናይ ተጠቃሚ ግምት ምስ ምሉእ ዘይማእከላዊ ኣርክቴክቸር የጣምር፣ ካብ ዝኾነ ማእከላዊ ስልጣን ናጻ ዝኾነ ውሑስን እሙንን ናይ ምክፍፋል መረዳእታ መፍትሒ ይህብ። እቲ ፕሮጀክት open source እዩ ኣብ ትሕቲ {license} ይዝርጋሕ።",
+		"features": {
+			"decentralized": {
+				"title": "ምሉእ ዘይማእከላዊ መርበብ",
+				"description": "ዝኾነ ማእከላዊ ሰርቨር የለን፣ ዝኾነ ሓደ ነጥቢ ውድቀት የለን። ተጠቐምቲ ብቐጥታ ኣብ መንጎኦም ትሕዝቶ ይደልዩን ይውርዱን፣ ኣብ ማእከላዊ ኢንዴክሰራት፣ ትራከራት ወይ ዳታቤዛት ብዘይምትእምማን።"
+			},
+			"accessControl": {
+				"title": "ጥንቑቕ ቁፅፅር መእተዊ",
+				"description": "ኩሉ ሰብ ናይ ገዛእ ርእሱ ሕግታት ዘለዎ ናይ ገዛእ ርእሱ መርበብ ክጅምር ናጻ እዩ። ኣብ ነፍሲ ወከፍ መርበብ ናይ ተጠቓማይ ግደ ይመድብ፡ ወነንቲ፣ ኣመሓደርቲ፣ ኣሕተምቲ፣ ሞዴራተራትን ኣውረድትን። ብልክዕ መን ከም ዝሕትም፣ ዝቆጻጸርን ዘውርድን ይቆጻጸር።"
+			},
+			"ui": {
+				"title": "ኣብ ላዕለዋይ ደረጃ ዝርከብ ናይ ተጠቃሚ ግምት",
+				"description": "ንዴስክቶፕ፣ ቴሌቪዥንን ሞባይል መድረኽ ዝተዳለወ ንፁር ናይ ሚድያ ማእከል ግምት። ብኪቦርድ፣ ማውስ፣ ጌምፓድ ወይ ሪሞት ብዘይ ጸገም ምንቅስቓስ። ሓያላት ተጠቐምቲ ናይ ኮማንድ ላይን ግምት ተጠቒሞም ሶፍትዌር ከም ራስ ኣልባ ናይ ፋይል ሰርቨር ክጥቀምሉ ይኽእሉ።"
+			},
+			"dataFormat": {
+				"title": "ናይ ሰብ ዝንበብ ዳታ ቅርጺ",
+				"description": "ናይ LISH ዳታ ቅርጺ ኣብ JSON ዝተመስረተ እዩ፣ ምፍጣር፣ ምንባብን ምርዳእን ቀሊል ይገብሮ። ትሕዝቶኻ ምስ ንፁር፣ ግልጺ ሜታዳታ ኣካፍል፣ ዝኾነ ሰብ ብቐሊል ክምርምሮ ይኽእል።"
+			},
+			"security": {
+				"title": "ግላዊነትን ጸጥታን",
+				"description": "ኩሉ ናይ peer-to-peer ርክብ ኣንክሪፕት ዝተገብረ እዩ፣ ኣብ ምትሕልላፍ እንከሎ ዳታኻ ግላዊ ምዃኑ የረጋግጽ። ተጠቐምቲ ተወሳኺ ናይ ምንካር ቦታ ንምውሳኽ ድሕሪ VPN ክሕብኡ ይኽእሉ። {project} ብዲዛይን ግላዊነትኻ የኽብር።"
+			},
+			"crossPlatform": {
+				"title": "ብዙሕ መድረኽ",
+				"description": "ሶፍትዌር ንWindows, Linux ን macOS መድረኽ ዝርከብ እዩ። ኣብ ዝኾነ ትፈትዎ መሳርሒ ተጠቐመሉ።"
+			}
+		}
+	},
+	"download": {
+		"title": "ውርዲ",
+		"description": "ን{project} ንመድረኽካ ርኸብ። ኩሉ ውርዲ ብናጻን open source ን እዩ።",
+		"version": "ህልዊ ቅዳሕ: {version}",
+		"linkAlt": "ውርዲ",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ኢንስታለር",
+			"package": "{format} ጥርዚ",
+			"portableZip": "ተጻዋራይ ZIP",
+			"viewOnGithub": "ኣብ GitHub ርአ"
+		},
+		"macos": {
+			"title": "ኣገዳሲ ነጥቢ ንmacOS ተጠቐምቲ:",
+			"intro": "macOS Gatekeeper ካብ ኢንተርነት ዝወረዱ ዘይተፈረሙ / ዘይተሰነዱ ኣፕሊኬሽናት ብ{error} ጌጋ ይዓግት።",
+			"error": "\"ተበላሽዩ ክኽፈት ኣይክእልን\"",
+			"runCommand": "DMG ወይ ZIP ድሕሪ ምውራድ፣ ኣፕ ቅድሚ ምኽፋት ኣብ ቴርሚናል ኣብዚ ቅርጺ ትእዛዝ ኣካይድ:",
+			"exampleDmg": "ንኣብነት፣ ካብ DMG ድሕሪ ምትካል:",
+			"exampleZip": "ወይ ZIP ድሕሪ ምውጻእ:",
+			"explanation": "እዚ ናይ ኳራንቲን ባህሪ የልግስን ኣፕ ክሰርሕ ይፈቅድን።"
+		}
+	},
+	"screenshots": {
+		"title": "ቅዳሕ ስክሪን",
+		"open": "ቅዳሕ ስክሪን {index} ክፈት",
+		"alt": "ቅዳሕ ስክሪን {index}",
+		"close": "ጋለሪ ዕጾ",
+		"prev": "ዝሓለፈ ስእሊ",
+		"next": "ዝመጽእ ስእሊ"
+	},
+	"comparison": {
+		"title": "ምውድዳር",
+		"feature": "ባህሪ",
+		"yes": "እወ",
+		"no": "ኣይኮነን",
+		"partialDht": "ክፍላዊ (DHT)",
+		"rows": {
+			"decentralized": "ዘይማእከላዊ መርበብ",
+			"onlineLibrary": "ናይ ኦንላይን ቤተመጻሕፍቲ",
+			"builtInSearch": "ናይ ውሽጢ ትሕዝቶ ድልያ",
+			"decentralizedSearch": "ዘይማእከላዊ ናይ ትሕዝቶ ድልያ",
+			"parallelDownloads": "ካብ ብዙሕ ምንጭታት ብጎኒ ምውራድ",
+			"mediaCenter": "ናይ ሚድያ ማእከል ግምት",
+			"gamepad": "ናይ ጌምፓድ ድጋፍ",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "ርክብ",
+		"getInTouch": "ምሳና ተራኸብ",
+		"links": {
+			"telegramChat": "ናይ Telegram ናይ ዕላል ጉጅለ",
+			"telegramAnnouncements": "ናይ Telegram ምልዕዓላት",
+			"facebook": "ናይ Facebook ጉጅለ"
+		}
+	},
+	"footer": {
+		"by": "ብ"
+	}
+}

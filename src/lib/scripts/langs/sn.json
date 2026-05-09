@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kugovera Mafaira Kusina Pakati",
+		"description": "{project} isofutiweya yekugovera mafaira ye-peer-to-peer yakavakwa pamatekinoroji emazuva ano asina pakati.",
+		"ogTitle": "{project} - Sofutiweya yekugovera mafaira isina pakati",
+		"ogDescription": "Kugovera mafaira kwe-peer-to-peer kwakavakwa pamatekinoroji emazuva ano asina pakati. Hapana maseva epakati. Hapana nzvimbo imwe yekukundikana."
+	},
+	"menu": {
+		"about": "Nezve",
+		"download": "Dhaunirodha",
+		"screenshots": "Mifananidzo yeskrini",
+		"comparison": "Kuenzanisa",
+		"contact": "Bata",
+		"toggle": "Shandura menyu",
+		"close": "Vhara menyu",
+		"language": "Mutauro",
+		"selectLanguage": "Sarudza mutauro"
+	},
+	"hero": {
+		"subtitle": "Chizvarwa chinotevera chekugovera mafaira kwe-peer-to-peer",
+		"description": "Yakavakwa pamatekinoroji emazuva ano asina pakati. Hapana maseva epakati. Hapana nzvimbo imwe yekukundikana.",
+		"download": "Dhaunirodha"
+	},
+	"about": {
+		"title": "Nezve",
+		"intro": "{project} ipuratifomu yekugovera mafaira ye-peer-to-peer yechizvarwa chinotevera yakavakwa pamatekinoroji emazuva ano asina pakati. Inosanganisa nzira yemushandisi iri nyore neumbo husina pakati zvakakwana, ichipa mhinduro yakachengeteka uye yakavimbika yekugovera data isingadi simba romukati. Chirongwa chiri pachena uye chinopararirwa pasi pe{license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network isina pakati zvachose",
+				"description": "Hapana maseva epakati, hapana nzvimbo imwe yekukundikana. Vashandisi vanotsvaga uye kudhaunirodha zviri mukati zvakananga pakati pavo, vasingavimbi nezvinyorwa zvepakati, vatsvagiri kana mawebhusaiti edhata."
+			},
+			"accessControl": {
+				"title": "Kutonga kupinda kunoongorora",
+				"description": "Munhu wese akasununguka kutanga network yake nemitemo yake. Tsanangura mabasa emushandisi munetwork yega yega: varidzi, maadmin, vaparidzi, vatongi nevanodhaunirodha. Tonga zvachose ndiani anogona kuburitsa, kudzora, uye kudhaunirodha zviri mukati."
+			},
+			"ui": {
+				"title": "Nzira yemushandisi yepamusoro",
+				"description": "Nzira yemedia center yakachena uye iri nyore yakagadzirirwa madhesktopu, maTV nemafoni. Famba pasina dambudziko nekiyibhodhi, mbeva, gamepad kana rimoti. Vashandisi vanoziva vanogona kushandisa command line kushandisa software seseva yefaira isina musoro."
+			},
+			"dataFormat": {
+				"title": "Fomati yedhata inoverengwa nemunhu",
+				"description": "Fomati yedhata yeLISH inotsamira pa-JSON, zvichiita kuti zvive nyore kugadzira, kuverenga uye kunzwisisa. Govera zviri mukati zvako nemetadata yakajeka, yakavhurika inogona kuongororwa zviri nyore neani zvake."
+			},
+			"security": {
+				"title": "Sekuru nekuchengetedzwa",
+				"description": "Kutaurirana kwese kwe-peer-to-peer kwakavharirwa, kuchionesa kuti dhata yako inoramba iri yakavanzika panguva yekutamiswa. Vashandisi vanogona kuhwanda mumashure meVPN kuti vawane chimwe chikoro chekusazivikanwa. {project} inoremekedza yeunyu hwako nekugadzirwa."
+			},
+			"crossPlatform": {
+				"title": "Mapuratifomu akasiyana",
+				"description": "Software inowanikwa pamapuratifomu eWindows, Linux neimacOS. Ishandise pamuchina chero upi waunoda."
+			}
+		}
+	},
+	"download": {
+		"title": "Dhaunirodha",
+		"description": "Wana {project} yepuratifomu yako. Madhaunirodha ese mahara uye open source.",
+		"version": "Vhezheni yemazvino: {version}",
+		"linkAlt": "Dhaunirodha",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mufakidzi we{format}",
+			"package": "Pakeji ye{format}",
+			"portableZip": "ZIP inotakurika",
+			"viewOnGithub": "Ona pa-GitHub"
+		},
+		"macos": {
+			"title": "Cherechedzo yakakosha kuvashandisi vemacOS:",
+			"intro": "macOS Gatekeeper inovharira maapps asina kusainwa / asina kusimbiswa akadhaunirodhwa kubva pa-internet ne{error} ekanganiso.",
+			"error": "\"yakakanganisika uye haigoni kuvhurwa\"",
+			"runCommand": "Pamashure pekudhaunirodha DMG kana ZIP, mhanyisa command muTerminal nemheteero inotevera usati wavhura app:",
+			"exampleDmg": "Semuenzaniso, pamashure pekuiisa kubva muDMG:",
+			"exampleZip": "Kana pamashure pekuburitsa ZIP:",
+			"explanation": "Izvi zvinobvisa chinhu che-quarantine uye zvinobvumira app kuti imhanye."
+		}
+	},
+	"screenshots": {
+		"title": "Mifananidzo yeskrini",
+		"open": "Vhura mufananidzo {index}",
+		"alt": "Mufananidzo {index}",
+		"close": "Vhara gallery",
+		"prev": "Mufananidzo wapfuura",
+		"next": "Mufananidzo unotevera"
+	},
+	"comparison": {
+		"title": "Kuenzanisa",
+		"feature": "Chinhu",
+		"yes": "hongu",
+		"no": "kwete",
+		"partialDht": "Chikamu (DHT)",
+		"rows": {
+			"decentralized": "Network isina pakati",
+			"onlineLibrary": "Raibhurari yepa-internet",
+			"builtInSearch": "Tsvaga zviri mukati zvakavakwa",
+			"decentralizedSearch": "Tsvaga zviri mukati kusina pakati",
+			"parallelDownloads": "Madhaunirodha akafanana e-multi-source",
+			"mediaCenter": "Nzira ye-media center",
+			"gamepad": "Tsigiro yegamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Bata",
+		"getInTouch": "Bata nesu",
+		"links": {
+			"telegramChat": "Boka reKurukurirano reTelegram",
+			"telegramAnnouncements": "Zviziviso zveTelegram",
+			"facebook": "Boka reFacebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

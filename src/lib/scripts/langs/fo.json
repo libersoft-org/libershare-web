@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentraliseraður fíludeiling",
+		"description": "{project} er ein peer-to-peer fíludeilingar-software bygdur á nútíðar desentraliseraðum tøkni.",
+		"ogTitle": "{project} - Desentraliseraður fíludeilingar-software",
+		"ogDescription": "Peer-to-peer fíludeiling bygd á nútíðar desentraliseraðum tøkni. Eingir miðlaðir servarar. Eingin einstakur fall-staður."
+	},
+	"menu": {
+		"about": "Um",
+		"download": "Niðurtak",
+		"screenshots": "Skíggjamyndir",
+		"comparison": "Samanbering",
+		"contact": "Samband",
+		"toggle": "Skifta valmynd",
+		"close": "Lat valmynd aftur",
+		"language": "Mál",
+		"selectLanguage": "Vel mál"
+	},
+	"hero": {
+		"subtitle": "Næsta ætt av peer-to-peer fíludeiling",
+		"description": "Bygt á nútíðar desentraliseraðum tøkni. Eingir miðlaðir servarar. Eingin einstakur fall-staður.",
+		"download": "Niðurtak"
+	},
+	"about": {
+		"title": "Um",
+		"intro": "{project} er ein peer-to-peer fíludeilingar-pallur av næstu ætt, bygdur á nútíðar desentraliseraðum tøkni. Hann sameinir eitt intuitivt brúkaraviðmøti við eini fult desentraliseraðari arkitektur, og veitir eina trygga og álítandi loysn til dátudeiling, óheft av nakrari miðlaðari myndugleika. Verkætlanin er open source og verður útbýtt undir {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Fult desentraliserað net",
+				"description": "Eingir miðlaðir servarar, eingin einstakur fall-staður. Brúkarar leita og niðurtaka innihald beinleiðis ímillum sín, uttan at líta á miðlaðar indeksarar, fylgjarar ella databasar."
+			},
+			"accessControl": {
+				"title": "Fínkorna atgongdarstýring",
+				"description": "Øll hava frítt at byrja síni egnu net við sínum egnu reglum. Skilgreina brúkararollur í hvørjum neti: eigarar, admins, útgevarar, viðgerðarar og niðurtøkarar. Stýr nágreiniliga, hvør kann gera frá sær, viðgera og niðurtaka innihald."
+			},
+			"ui": {
+				"title": "Frámerkismeting brúkaraviðmøti",
+				"description": "Eitt reint og brúkaravinaligt media center viðmøti, hannað til skriviborð, sjónvarp og fartelefón. Stýr glatt við knappaborði, mús, gamepad ella fjarstýring. Royndir brúkarar kunnu nýta kommandulinju-viðmøti til at koyra software sum ein hovuðleysan fílu-server."
+			},
+			"dataFormat": {
+				"title": "Mannalisin dátaformat",
+				"description": "LISH dátaformatið er bygt á JSON, og ger tað lætt at gera, lesa og skilja. Deila títt innihald við greiðari, gjøgnumskygnari metadata, sum kvør og ein lætt kann gjøgnumlesa."
+			},
+			"security": {
+				"title": "Privatlív og trygd",
+				"description": "Allar peer-to-peer samskifti eru krypteraðar, og tryggja at títt dátur verður privatt undir flutningi. Brúkarar kunnu fjala seg aftan fyri ein VPN fyri eyka lag av nafnleysni. {project} virðir títt privatlív frá hannan av."
+			},
+			"crossPlatform": {
+				"title": "Krossplatform",
+				"description": "Software er tøk fyri Windows, Linux og macOS pallar. Brúka tað á nakrari eind, sum tú heldur frá."
+			}
+		}
+	},
+	"download": {
+		"title": "Niðurtak",
+		"description": "Fá {project} til tín pall. Allar niðurtøkur eru ókeypis og open source.",
+		"version": "Núverandi útgáva: {version}",
+		"linkAlt": "Niðurtak",
+		"platforms": {
+			"sourceCode": "Kildukoda"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} innleggjari",
+			"package": "{format} pakki",
+			"portableZip": "Berbarur ZIP",
+			"viewOnGithub": "Síggja á GitHub"
+		},
+		"macos": {
+			"title": "Týdningarmikil viðmerking til macOS-brúkarar:",
+			"intro": "macOS Gatekeeper steðgar ósignaðum / óstadfestum app, sum eru niðurtikin frá internetinum, við feilinum {error}.",
+			"error": "\"er skemd og kann ikki opnast\"",
+			"runCommand": "Eftir at niðurtikið DMG ella ZIP, koyr eina kommandu í Terminal í hesari mynd, áðrenn appurin verður opnaður:",
+			"exampleDmg": "Til dømis, eftir innlegging frá DMG:",
+			"exampleZip": "Ella eftir at hava útbýtt ZIP:",
+			"explanation": "Hetta tekur burtur karantenu-eginleikan og letur appin koyra."
+		}
+	},
+	"screenshots": {
+		"title": "Skíggjamyndir",
+		"open": "Opna skíggjamynd {index}",
+		"alt": "Skíggjamynd {index}",
+		"close": "Lat galleri aftur",
+		"prev": "Fyrri mynd",
+		"next": "Næsta mynd"
+	},
+	"comparison": {
+		"title": "Samanbering",
+		"feature": "Eginleiki",
+		"yes": "ja",
+		"no": "nei",
+		"partialDht": "Lutvíst (DHT)",
+		"rows": {
+			"decentralized": "Desentraliserað net",
+			"onlineLibrary": "Online bókasavn",
+			"builtInSearch": "Innbygt innihaldsleit",
+			"decentralizedSearch": "Desentraliserað innihaldsleit",
+			"parallelDownloads": "Fjølkilduligir parallelir niðurtøkur",
+			"mediaCenter": "Media center viðmøti",
+			"gamepad": "Gamepad stuðul",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Samband",
+		"getInTouch": "Set teg í samband",
+		"links": {
+			"telegramChat": "Telegram prátbólkur",
+			"telegramAnnouncements": "Telegram tilkynningar",
+			"facebook": "Facebook bólkur"
+		}
+	},
+	"footer": {
+		"by": "av"
+	}
+}

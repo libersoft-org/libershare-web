@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Bokabwani ya Bafiye Ezanga Centre",
+		"description": "{project} ezali software ya bokabwani bafiye peer-to-peer etongami na technologie ya sika oyo ezanga centre.",
+		"ogTitle": "{project} - Software ya bokabwani bafiye ezanga centre",
+		"ogDescription": "Bokabwani bafiye peer-to-peer etongami na technologie ya sika oyo ezanga centre. Eza na serveurs ya katikati te. Eza na esika moko te ya kokweya."
+	},
+	"menu": {
+		"about": "Mpo na",
+		"download": "Telecharger",
+		"screenshots": "Bilili ya écran",
+		"comparison": "Bokokanisi",
+		"contact": "Kosolola",
+		"toggle": "Balola menu",
+		"close": "Kanga menu",
+		"language": "Lokota",
+		"selectLanguage": "Pona lokota"
+	},
+	"hero": {
+		"subtitle": "Eleko ya sika ya bokabwani bafiye peer-to-peer",
+		"description": "Etongami na technologie ya sika oyo ezanga centre. Eza na serveurs ya katikati te. Eza na esika moko te ya kokweya.",
+		"download": "Telecharger"
+	},
+	"about": {
+		"title": "Mpo na",
+		"intro": "{project} ezali plateforme ya bokabwani bafiye peer-to-peer ya eleko ya sika etongami na technologie ya sika oyo ezanga centre. Esangisi interface ya bopete ya mosaleli na architecture oyo ezanga centre mobimba, epesi solution ya kokengama mpe ya kondima mpo na bokabwani ya données ezanga bokonzi nyonso ya katikati. Projet ezali open source mpe ekabwani na nse ya {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Réseau ezanga centre mobimba",
+				"description": "Eza na serveurs ya katikati te, eza na esika moko te ya kokweya. Basaleli baluki mpe batelechargi makambo direct kati na bango, kozanga kotalela indexeurs, trackers to databases ya katikati."
+			},
+			"accessControl": {
+				"title": "Bokonzi ya kokota ya malamu",
+				"description": "Moto nyonso azali na bonsomi ya kobanda réseau na ye moko na mibeko na ye moko. Vandisa ba rôles ya basaleli na réseau moko na moko: bankolo, ba admin, ba publishers, ba modérateurs mpe ba telechargeurs. Tia bokonzi malamu na mokomoko oyo akoki kobimisa, ko-modérer mpe kotelecharger makambo."
+			},
+			"ui": {
+				"title": "Interface ya mosaleli ya likolo",
+				"description": "Interface ya media center ya peto mpe ya bopete ya mosaleli oyo esalemi mpo na bureau, télévision mpe ba mobiles. Tambola na bopete na clavier, souris, gamepad to télécommande. Basaleli ya makasi bakoki kosalela interface ya ligne ya commande mpo na kosalela software lokola serveur ya bafiye ezanga moto."
+			},
+			"dataFormat": {
+				"title": "Format ya données ya kotanga na moto",
+				"description": "Format ya données LISH ezali na JSON, esali ete ezala pete mpo na kosala, kotanga mpe koyeba. Kabola makambo na yo na metadata ya polele, ya komonana oyo moto nyonso akoki kotala pete pete."
+			},
+			"security": {
+				"title": "Bonkutu mpe libateli",
+				"description": "Bokomi nyonso ya peer-to-peer ekomami na crypte, kondimisaka ete données na yo etikali bonkutu na ntango ya kotinda. Basaleli bakoki kobombama nsima ya VPN mpo na liteya ya kobakisama ya koyebana te. {project} ezali kotosa bonkutu na yo na conception."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software ezali mpo na ba plateforme Windows, Linux mpe macOS. Salela yango na esaleli nyonso oyo olingi."
+			}
+		}
+	},
+	"download": {
+		"title": "Telecharger",
+		"description": "Zwa {project} mpo na plateforme na yo. Ba telecharger nyonso ezali ya ofele mpe open source.",
+		"version": "Version ya sika: {version}",
+		"linkAlt": "Telecharger",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installeur ya {format}",
+			"package": "Paquet ya {format}",
+			"portableZip": "ZIP ya kotambolisa",
+			"viewOnGithub": "Tala na GitHub"
+		},
+		"macos": {
+			"title": "Likebisi ya ntina mingi mpo na basaleli ya macOS:",
+			"intro": "macOS Gatekeeper epekisaka apps oyo basinyé te / batalami te oyo batelechargami na internet na erreur ya {error}.",
+			"error": "\"ebebi mpe ekoki kofungwama te\"",
+			"runCommand": "Sima ya kotelecharger DMG to ZIP, salela commande na Terminal na lolenge oyo liboso ya kofungola app:",
+			"exampleDmg": "Na ndakisa, sima ya installation longwa na DMG:",
+			"exampleZip": "To sima ya kobimisa ZIP:",
+			"explanation": "Yango elongolaka attribut ya quarantaine mpe epesi nzela na app esala mosala."
+		}
+	},
+	"screenshots": {
+		"title": "Bilili ya écran",
+		"open": "Fungola elilingi {index}",
+		"alt": "Elilingi {index}",
+		"close": "Kanga galerie",
+		"prev": "Elilingi ya liboso",
+		"next": "Elilingi ya nsima"
+	},
+	"comparison": {
+		"title": "Bokokanisi",
+		"feature": "Eloko",
+		"yes": "ee",
+		"no": "te",
+		"partialDht": "Eteni (DHT)",
+		"rows": {
+			"decentralized": "Réseau ezanga centre",
+			"onlineLibrary": "Bibliothèque ya online",
+			"builtInSearch": "Boluki ya makambo oyo etongami",
+			"decentralizedSearch": "Boluki ya makambo ezanga centre",
+			"parallelDownloads": "Ba telechargements ya parallèle uta na bisika ebele",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Lisalisi ya gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kosolola",
+		"getInTouch": "Solola na biso",
+		"links": {
+			"telegramChat": "Lisanga ya Masolo ya Telegram",
+			"telegramAnnouncements": "Sango ya Telegram",
+			"facebook": "Lisanga ya Facebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

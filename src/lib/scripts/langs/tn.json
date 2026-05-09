@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Tlhakanelo ya Difaele e e Sa Kgobaganngweng",
+		"description": "{project} ke software ya tlhakanelo ya difaele ya peer-to-peer e e agilweng ka thekenoloji ya sešeng e e sa kgobaganngweng.",
+		"ogTitle": "{project} - Software ya tlhakanelo ya difaele e e sa kgobaganngweng",
+		"ogDescription": "Tlhakanelo ya difaele ya peer-to-peer e e agilweng ka thekenoloji ya sešeng e e sa kgobaganngweng. Ga go na diserver tsa magareng. Ga go na lefelo le le lengwe la go retelelwa."
+	},
+	"menu": {
+		"about": "Ka",
+		"download": "Lokolola",
+		"screenshots": "Ditshwantsho tsa skerine",
+		"comparison": "Tshwantshanyo",
+		"contact": "Ikgolaganye",
+		"toggle": "Fetola menu",
+		"close": "Tswala menu",
+		"language": "Puo",
+		"selectLanguage": "Tlhopha puo"
+	},
+	"hero": {
+		"subtitle": "Lotso lo lo tlang la tlhakanelo ya difaele ya peer-to-peer",
+		"description": "E e agilweng ka thekenoloji ya sešeng e e sa kgobaganngweng. Ga go na diserver tsa magareng. Ga go na lefelo le le lengwe la go retelelwa.",
+		"download": "Lokolola"
+	},
+	"about": {
+		"title": "Ka",
+		"intro": "{project} ke sebopego sa tlhakanelo ya difaele ya peer-to-peer sa lotso lo lo tlang se se agilweng ka thekenoloji ya sešeng e e sa kgobaganngweng. E kopanya interface e e bonolo ya modirisi le mokgwa o o sa kgobaganngweng ka botlalo, e neela tharabololo e e sireletsegileng le e e ikanyegang ya tlhakanelo ya datha e e ikemetseng go bolaodi bongwe le bongwe jwa magareng. Porojeke ke open source mme e abegwa fa tlase ga {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Marang-rang a a sa kgobaganngweng ka botlalo",
+				"description": "Ga go na diserver tsa magareng, ga go na lefelo le le lengwe la go retelelwa. Badirisi ba batla le go lokolola diteng ka tlhamalalo magareng a bone, kwa ntle ga go ikaega ka di-indexer tsa magareng, di-tracker kgotsa di-database."
+			},
+			"accessControl": {
+				"title": "Taolo ya tsenyo e e tlhomameng",
+				"description": "Mongwe le mongwe o gololesegile go simolola marang-rang a gagwe ka melao ya gagwe. Tlhalosa dikarolo tsa modirisi mo go marang-rang mongwe le mongwe: beng, ba-admin, ba-phasaladi, ba-mmoderate le ba-lokoloolodi. Laola sentle gore ke mang yo o ka phasalatsang, a laolang le go lokolola diteng."
+			},
+			"ui": {
+				"title": "Interface ya modirisi e e kwa godimo",
+				"description": "Interface ya media center e e phepa le e e bonolo go modirisi e e diretsweng ditebego tsa desktop, TV le mobile. Tsamaya ka bonolo ka keyboard, mouse, gamepad kgotsa remote. Badirisi ba ba maatla ba ka dirisa interface ya command line go dirisa software jaaka server ya difaele e e senang tlhogo."
+			},
+			"dataFormat": {
+				"title": "Sebopego sa datha se motho a se balang",
+				"description": "Sebopego sa datha sa LISH se theilwe mo go JSON, se dira gore go nne motlhofo go bopa, go bala le go tlhaloganya. Abelana diteng tsa gago ka metadata e e phepa, e e bonalang fa motho mongwe le mongwe a ka e sekasekang ka bonolo."
+			},
+			"security": {
+				"title": "Sephiri le pabalesego",
+				"description": "Tlhaeletsano yotlhe ya peer-to-peer e kwadilwe ka encryption, e netefatsa gore datha ya gago e nna sephiri ka nako ya phetisetso. Badirisi ba ka iphitlha kwa morago ga VPN bakeng sa lera le le oketsegileng la go sa itsiweng. {project} e tlotla sephiri sa gago ka go dirwa."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software e teng go ditebego tsa Windows, Linux le macOS. E dirise mo sediring sengwe le sengwe se o se ratang."
+			}
+		}
+	},
+	"download": {
+		"title": "Lokolola",
+		"description": "Bona {project} mo platforming ya gago. Tlokolo tsotlhe di mahala le open source.",
+		"version": "Tirišo ya gone jaanong: {version}",
+		"linkAlt": "Lokolola",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Setsenyi sa {format}",
+			"package": "Sephuthelo sa {format}",
+			"portableZip": "ZIP e e tsamayang",
+			"viewOnGithub": "Lebelela mo GitHub"
+		},
+		"macos": {
+			"title": "Tlhokomediso e e botlhokwa go badirisi ba macOS:",
+			"intro": "macOS Gatekeeper e thibela di-app tse di sa sainwang / tse di sa netefadiweng tse di lokololotsweng go tswa mo inthaneteng ka phoso ya {error}.",
+			"error": "\"e senyegile e ka se bulwe\"",
+			"runCommand": "Morago ga go lokolola DMG kgotsa ZIP, dirisa taelo mo Terminal ka mokgwa o o latelang pele o bula app:",
+			"exampleDmg": "Sekai, morago ga go tsenya go tswa go DMG:",
+			"exampleZip": "Kgotsa morago ga go ntsha ZIP:",
+			"explanation": "Se se tlosa thaetlele ya quarantine mme se dumelela app go dira."
+		}
+	},
+	"screenshots": {
+		"title": "Ditshwantsho tsa skerine",
+		"open": "Bula setshwantsho sa skerine {index}",
+		"alt": "Setshwantsho sa skerine {index}",
+		"close": "Tswala gallery",
+		"prev": "Setshwantsho se se fetileng",
+		"next": "Setshwantsho se se latelang"
+	},
+	"comparison": {
+		"title": "Tshwantshanyo",
+		"feature": "Tshobokanyo",
+		"yes": "ee",
+		"no": "nnyaa",
+		"partialDht": "Karolwana (DHT)",
+		"rows": {
+			"decentralized": "Marang-rang a a sa kgobaganngweng",
+			"onlineLibrary": "Laeborari ya inthanete",
+			"builtInSearch": "Tlhotlhomiso ya diteng e e agilweng",
+			"decentralizedSearch": "Tlhotlhomiso ya diteng e e sa kgobaganngweng",
+			"parallelDownloads": "Tlokolo tse di tshwanang go tswa metsweding e mentsi",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Tshegetso ya gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Ikgolaganye",
+		"getInTouch": "Ikgolaganye le rona",
+		"links": {
+			"telegramChat": "Setlhopha sa Puisano sa Telegram",
+			"telegramAnnouncements": "Diphasalatso tsa Telegram",
+			"facebook": "Setlhopha sa Facebook"
+		}
+	},
+	"footer": {
+		"by": "ka"
+	}
+}

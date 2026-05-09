@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Veiwasei ni iVola e Sega ni Tu Vakatiko",
+		"description": "{project} e dua na softiweva ni veiwasei ni iVola peer-to-peer e tara ena teknolosi ni gauna oqo e sega ni tu vakatiko.",
+		"ogTitle": "{project} - Softiweva ni veiwasei iVola e sega ni tu vakatiko",
+		"ogDescription": "Veiwasei ni iVola peer-to-peer e tara ena teknolosi ni gauna oqo e sega ni tu vakatiko. Sega ni dua na sevaa e tu vakatiko. Sega ni dua na vanua e rawa ni cala kina."
+	},
+	"menu": {
+		"about": "Me baleta",
+		"download": "Lavaki",
+		"screenshots": "Iyaloyalo ni mata",
+		"comparison": "Veivakatautauvatataki",
+		"contact": "Veitaratara",
+		"toggle": "Veisautaka na menu",
+		"close": "Sogo na menu",
+		"language": "Vosa",
+		"selectLanguage": "Digitaka na vosa"
+	},
+	"hero": {
+		"subtitle": "Itabagone vou ni veiwasei iVola peer-to-peer",
+		"description": "E tara ena teknolosi ni gauna oqo e sega ni tu vakatiko. Sega ni dua na sevaa e tu vakatiko. Sega ni dua na vanua e rawa ni cala kina.",
+		"download": "Lavaki"
+	},
+	"about": {
+		"title": "Me baleta",
+		"intro": "{project} e dua na vanua veiwasei ni iVola peer-to-peer ni itabagone vou e tara ena teknolosi ni gauna oqo e sega ni tu vakatiko. E vakaduavataka e dua na interface ni dauvakayagataka rawarawa kei na taratara e sega ni tu vakatiko vakauasivi, e solia e dua na inakinaki taqomaki ka vakanuinui ni veiwasei kena ka sega ni vakararavi ena dua na lewa ni tu vakatiko. Na palotiki sa open source ka tu na inakinaki ni vakatakilakili ena {license}.",
+		"features": {
+			"decentralized": {
+				"title": "iVakawaqa e sega vakaukauwa ni tu vakatiko",
+				"description": "Sega ni dua na sevaa e tu vakatiko, sega ni dua na vanua e rawa ni cala kina. Era qara ka lavaka na ka era vinakata na dauvakayagataka, era sega ni vakararavi ena duatani vei ira na dau-tukuna, dau-vakaqarea se database."
+				},
+			"accessControl": {
+				"title": "iLawa veisaqasaqa ni curu",
+				"description": "E galala na tamata yadua me tekivuna nona ivakawaqa ena nona lawa. Vakamatatataka na itavi vei ira na dauvakayagataka ena dua na ivakawaqa: itaukei, dau-vakatulewa, dau-vakatabakidua, dau-veitalei kei na dau-lavaka. Vakatulewataka vakavinaka se cei e rawa ni vakatabakidua, vakatulewa kei na lavaka na ka."
+			},
+			"ui": {
+				"title": "iVeisautaki dauvakayagataka totoka cake",
+				"description": "Dua na interface vakatabakidua e savasava ka rawarawa kina dauvakayagataka era buli kina na imatamatakidesktop, TV kei na talevoni. Veitosoyaki vakarawarawa ena keyboard, gata, gamepad se irokoroko ni veivakatulewataki yawa. Dauvakayagataka kaukauwa era rawa ni vakayagataka na interface ni laini ni ivakaro me vakayagataki kina na softiwea me vaka e dua na sevaa ni iVola sega ni iulu."
+			},
+			"dataFormat": {
+				"title": "iVakaiyaragi ni data e wilika rawa na tamata",
+				"description": "Na ivakaiyaragi ni data ni LISH e tara ena JSON, e rawarawa kina me bulia, wilika ka kila. Veiwasei na nomu ka kei na metadata savasava, rairai e rawa kina e dua tamata me dikeva vakavakarau."
+			},
+			"security": {
+				"title": "Vakavuni kei na taqomaki",
+				"description": "Na nodra veitaratara taucoko na peer-to-peer e vakavunitaka, vakadeitaka me tu vakavuni na nomu data ena gauna ni veicobocobo. Na dauvakayagataka era rawa ni vunitaki ena daku ni VPN me kena dua tale na ivakavuni ni sega ni kilai. {project} e dokai na nomu vakavuni ena buli."
+			},
+			"crossPlatform": {
+				"title": "Veitatabani sevaa",
+				"description": "Na softiwea e tu vei na Windows, Linux kei na macOS. Vakayagataka ena dua na iyaragi o vinakata."
+			}
+		}
+	},
+	"download": {
+		"title": "Lavaki",
+		"description": "Taukena na {project} ena nomu vanua. Na lavaki kecega e sega ni saumi ka open source.",
+		"version": "Tabaki ni gauna oqo: {version}",
+		"linkAlt": "Lavaki",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Idauvakatucake {format}",
+			"package": "Kete {format}",
+			"portableZip": "ZIP rawa ni colati",
+			"viewOnGithub": "Raica ena GitHub"
+		},
+		"macos": {
+			"title": "iTukutuku bibi vei ira na dauvakayagataki macOS:",
+			"intro": "Na macOS Gatekeeper e tarova na app sega ni saini / sega ni vakadinadinataki e lavaki mai na initaneti ena cala {error}.",
+			"error": "\"sa cakacakataki ka sega ni rawa ni dolavi\"",
+			"runCommand": "Ni o sa lavaka oti na DMG se ZIP, ivakaro ena Terminal ena ituvatuva oqo ni bera ni o dolava na app:",
+			"exampleDmg": "Mevaka, ni o sa vakatucaketaki oti mai na DMG:",
+			"exampleZip": "Se ni o sa kauta laivi oti na ZIP:",
+			"explanation": "Sa kauta laivi oqo na ivakatakilakili ni quarantine ka vakadonuya na app me cakacaka."
+		}
+	},
+	"screenshots": {
+		"title": "Iyaloyalo ni mata",
+		"open": "Dolava na iyaloyalo {index}",
+		"alt": "iYaloyalo {index}",
+		"close": "Sogo na vavatu",
+		"prev": "Iyaloyalo ni gauna sa oti",
+		"next": "Iyaloyalo tarava"
+	},
+	"comparison": {
+		"title": "Veivakatautauvatataki",
+		"feature": "iTuvaki",
+		"yes": "io",
+		"no": "sega",
+		"partialDht": "Wasewase (DHT)",
+		"rows": {
+			"decentralized": "iVakawaqa sega ni tu vakatiko",
+			"onlineLibrary": "Bulebule ni initaneti",
+			"builtInSearch": "Vakasaqara ka tu kina e loma",
+			"decentralizedSearch": "Vakasaqara sega ni tu vakatiko",
+			"parallelDownloads": "Veitabani vu ni lavaki vata",
+			"mediaCenter": "Interface ni media center",
+			"gamepad": "Veitokoni gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Veitaratara",
+		"getInTouch": "Veitaratara mai",
+		"links": {
+			"telegramChat": "iSoqosoqo Veitalanoa Telegram",
+			"telegramAnnouncements": "iTukutuku Telegram",
+			"facebook": "iSoqosoqo Facebook"
+		}
+	},
+	"footer": {
+		"by": "vakai"
+	}
+}

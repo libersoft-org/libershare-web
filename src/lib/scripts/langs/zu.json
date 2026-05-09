@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ukwabelana Ngamafayela Okuhlukanisiwe",
+		"description": "{project} iyisofthiwe yokwabelana ngamafayela ye-peer-to-peer eyakhelwe phezu kobuchwepheshe besimanje obuhlukanisiwe.",
+		"ogTitle": "{project} - Isofthiwe yokwabelana ngamafayela ehlukanisiwe",
+		"ogDescription": "Ukwabelana ngamafayela kwe-peer-to-peer okwakhelwe phezu kobuchwepheshe besimanje obuhlukanisiwe. Akukho amaseva amaphakathi. Akukho phuzu elilodwa lokwehluleka."
+	},
+	"menu": {
+		"about": "Mayelana",
+		"download": "Landa",
+		"screenshots": "Izithombe-skrini",
+		"comparison": "Ukuqhathanisa",
+		"contact": "Xhumana",
+		"toggle": "Vula imenyu",
+		"close": "Vala imenyu",
+		"language": "Ulimi",
+		"selectLanguage": "Khetha ulimi"
+	},
+	"hero": {
+		"subtitle": "Isizukulwane esilandelayo sokwabelana ngamafayela ku-peer-to-peer",
+		"description": "Yakhelwe phezu kobuchwepheshe besimanje obuhlukanisiwe. Akukho amaseva amaphakathi. Akukho phuzu elilodwa lokwehluleka.",
+		"download": "Landa"
+	},
+	"about": {
+		"title": "Mayelana",
+		"intro": "{project} iyiplathifomu yokwabelana ngamafayela ye-peer-to-peer yesizukulwane esilandelayo eyakhelwe phezu kobuchwepheshe besimanje obuhlukanisiwe. Ihlanganisa isixhumi sezisebenzisi esilula nokwakhiwa okuhlukanisiwe ngokuphelele, inikeza isixazululo esiphephile nesithembekile sokwabelana ngedatha esimele kuwo wonke umthetho omkhulu. Iphrojekthi i-open source futhi isatshalaliswa ngaphansi {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Inethiwekhi ehlukanisiwe ngokuphelele",
+				"description": "Akukho amaseva amaphakathi, akukho phuzu elilodwa lokwehluleka. Abasebenzisi bafuna futhi balanda okuqukethwe ngqo phakathi kwabo, ngaphandle kokuncika kwizikhomba, abalandeli noma izisekelo zedatha eziphakathi."
+			},
+			"accessControl": {
+				"title": "Ukulawula ukufinyelela okucacile",
+				"description": "Wonke umuntu ukhululekile ukuqala inethiwekhi yakhe nemithetho yakhe. Chaza izindima zomsebenzisi kuyo yonke inethiwekhi: abanikazi, abalawuli, abashicileli, abalawuli kanye nabalandayo. Lawula ngokunembile ukuthi ngubani ongashicilela, alawule, futhi alande okuqukethwe."
+			},
+			"ui": {
+				"title": "Isixhumi sabasebenzisi esivelele",
+				"description": "Isixhumi se-media center esicacile nesilula sokusebenzisa esiklanyelwe amaplathifomu we-desktop, TV ne-mobile. Hamba ngaphandle kwezinkinga ngekhibhodi, igundane, igamepad noma ikhomba. Abasebenzisi abahlangene bangasebenzisa isixhumi se-command line ukuqalisa isofthiwe njengeseva yefayela ye-headless."
+			},
+			"dataFormat": {
+				"title": "Ifomethi yedatha efundwa ngumuntu",
+				"description": "Ifomethi yedatha ye-LISH isekelwe ku-JSON, eyenza kube lula ukudala, ukufunda nokuqonda. Yabelana ngokuqukethwe kwakho ngedatha emeta ecacile, esobala engahlolwa kalula nginoma ngubani."
+			},
+			"security": {
+				"title": "Ubumfihlo nezokuphepha",
+				"description": "Konke ukuxhumana kwe-peer-to-peer kuyabethelwa, kuqinisekisa ukuthi idatha yakho ihlala iyimfihlo phakathi nokudluliselwa. Abasebenzisi bangacasha ngemuva kwe-VPN ukuze bathole ungqimba olwengeziwe lokungaziwa. {project} ihlonipha ubumfihlo bakho ngokwakheka."
+			},
+			"crossPlatform": {
+				"title": "Amaplathifomu ahlukene",
+				"description": "Isofthiwe iyatholakala kumaplathifomu we-Windows, Linux ne-macOS. Yisebenzise kunoma yiliphi idivayisi oyithandayo."
+			}
+		}
+	},
+	"download": {
+		"title": "Landa",
+		"description": "Thola {project} ngeplathifomu yakho. Konke ukulanda kumahhala futhi i-open source.",
+		"version": "Inguqulo yamanje: {version}",
+		"linkAlt": "Landa",
+		"platforms": {
+			"sourceCode": "Ikhodi yomthombo"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Isifaki se-{format}",
+			"package": "Iphakheji ye-{format}",
+			"portableZip": "I-ZIP ephathekayo",
+			"viewOnGithub": "Buka ku-GitHub"
+		},
+		"macos": {
+			"title": "Inothi elibalulekile kubasebenzisi be-macOS:",
+			"intro": "I-macOS Gatekeeper ivimba izinhlelo zokusebenza ezingasayiniwe / ezingaqinisekisiwe ezilandwe ku-inthanethi nephutha le-{error}.",
+			"error": "\"yonakele futhi ayikwazi ukuvulwa\"",
+			"runCommand": "Ngemuva kokulanda i-DMG noma i-ZIP, sebenzisa umyalo ku-Terminal ngendlela elandelayo ngaphambi kokuvula uhlelo lokusebenza:",
+			"exampleDmg": "Isibonelo, ngemuva kokufaka ku-DMG:",
+			"exampleZip": "Noma ngemuva kokukhipha i-ZIP:",
+			"explanation": "Lokhu kususa isici se-quarantine futhi sivumela uhlelo lokusebenza ukuthi lusebenze."
+		}
+	},
+	"screenshots": {
+		"title": "Izithombe-skrini",
+		"open": "Vula isithombe-skrini {index}",
+		"alt": "Isithombe-skrini {index}",
+		"close": "Vala igalari",
+		"prev": "Isithombe esidlule",
+		"next": "Isithombe esilandelayo"
+	},
+	"comparison": {
+		"title": "Ukuqhathanisa",
+		"feature": "Isici",
+		"yes": "yebo",
+		"no": "cha",
+		"partialDht": "Ngokwengxenye (DHT)",
+		"rows": {
+			"decentralized": "Inethiwekhi ehlukanisiwe",
+			"onlineLibrary": "Umtapo wolwazi we-inthanethi",
+			"builtInSearch": "Usesho lokuqukethwe olwakhelwe ngaphakathi",
+			"decentralizedSearch": "Usesho lokuqukethwe oluhlukanisiwe",
+			"parallelDownloads": "Ukulanda okufanayo kwemithombo eminingi",
+			"mediaCenter": "Isixhumi se-media center",
+			"gamepad": "Ukusekelwa kwe-gamepad",
+			"openSource": "Umthombo ovulekile"
+		}
+	},
+	"contact": {
+		"title": "Xhumana",
+		"getInTouch": "Xhumana nathi",
+		"links": {
+			"telegramChat": "Iqembu Lengxoxo le-Telegram",
+			"telegramAnnouncements": "Izimemezelo ze-Telegram",
+			"facebook": "Iqembu le-Facebook"
+		}
+	},
+	"footer": {
+		"by": "ngu"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Séddale ay dosyee bu amul digg",
+		"description": "{project} mooy ab logiciel ngir séddale dosyee peer-to-peer bu ñu defar ci teknolosi yi yees yu amul digg.",
+		"ogTitle": "{project} - Logiciel séddale dosyee bu amul digg",
+		"ogDescription": "Séddale dosyee peer-to-peer bu ñu defar ci teknolosi yi yees yu amul digg. Amul ab seerwer ci diggu. Amul benn bérab boo xam ne dafa mën a daanu."
+	},
+	"menu": {
+		"about": "Ci ëttu",
+		"download": "Yebbi",
+		"screenshots": "Ay nataal yu ekraan",
+		"comparison": "Mengaale",
+		"contact": "Jokk",
+		"toggle": "Soppi menu",
+		"close": "Tëj menu",
+		"language": "Làkk",
+		"selectLanguage": "Tànn làkk"
+	},
+	"hero": {
+		"subtitle": "Jamono ju yees ji séddale dosyee peer-to-peer",
+		"description": "Bu ñu defar ci teknolosi yi yees yu amul digg. Amul ab seerwer ci diggu. Amul benn bérab boo xam ne dafa mën a daanu.",
+		"download": "Yebbi"
+	},
+	"about": {
+		"title": "Ci ëttu",
+		"intro": "{project} mooy ab platform séddale dosyee peer-to-peer bu jamono ju yees bu ñu defar ci teknolosi yi yees yu amul digg. Day boole interface jëfandikoo bu yomb ak benn arsiektir bu amul digg ba mu mat sëkk, dafay sëggal benn solusion bu wóor ak bu jub ngir séddale donneey, sa kanam la, du jub ci benn àndandoo ci diggu. Projet bi mooy open source te ñu mu yebbiil ca ron {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Resoo bu amul digg ba mu mat sëkk",
+				"description": "Amul ab seerwer ci diggu, amul benn bérab boo xam ne dafa mën a daanu. Jëfandikukat yi dañuy seet ak yebbi ay xët-xëtu njariñ ci seen biir, du wóor ci ay dénkukat ci diggu, ay tracker walla ay base donneey."
+			},
+			"accessControl": {
+				"title": "Tëralin tëraloo dugg bu jaadu",
+				"description": "Ku ne, mën nga tàmbalee sa bopp resoo ak sa bopp àpp. Tudd ay rol jëfandikukat ci benn-benn resoo: ay borom, ay admin, ay siiwalkat, ay moderator ak ay yebbikat. Tëralin nooy ki mën a siiwal, modere walla yebbi xët-xëtu njariñ."
+			},
+			"ui": {
+				"title": "Interface jëfandikoo bu kawe",
+				"description": "Benn interface center medias bu set te yomb ngir jëfandikukat bi, bu ñu defar ngir ay seetukaayi desktop, télé ak portable. Wàcc nag jaaxle ak klabye, sourix, gamepad walla télékomaand. Jëfandikukat yu am dòole mën nañu jëfandikoo interface ligne kommande ngir jëfandikoo logiciel bi nag ab seerwer dosyee bu amul bopp."
+			},
+			"dataFormat": {
+				"title": "Format donneey bu nit dañ koy jàng",
+				"description": "Format donneey LISH dafa joge ci JSON, dafay yombal sos, jàng ak xam. Séddale ay xët-xëtu njariñ yi ñu am ak ay metadata yu leer, yu ñu xam ku ne mën leen seetlu ci yomb."
+			},
+			"security": {
+				"title": "Sutura ak kaaraange",
+				"description": "Komunikasion peer-to-peer yépp dañ leen di kriypte, di tee donneey yi nga am ñu nekk ci sutura ci waxtu wo nga koy yónnee. Jëfandikukat yi mën nañu nëbb ginnaaw VPN ngir benn bér di yokk bu ñu xamul. {project} dafa fonk sa sutura ci sa nataal."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Logiciel bi am na ci platform Windows, Linux ak macOS. Jëfandikoo ko ci dëkkale joo bëgg."
+			}
+		}
+	},
+	"download": {
+		"title": "Yebbi",
+		"description": "Am {project} ngir sa platform. Yebbi yépp dañu fi neex te open source.",
+		"version": "Versioon bu léegi: {version}",
+		"linkAlt": "Yebbi",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Paket ya {format}",
+			"portableZip": "ZIP ju yor",
+			"viewOnGithub": "Seet ci GitHub"
+		},
+		"macos": {
+			"title": "Bataaxal bu am solo ngir jëfandikukat macOS:",
+			"intro": "macOS Gatekeeper dafay tëgg ay app yu ñu siñ-eul / yu ñu fas-eul yu ñu yebbi ci internet ak benn njuumte {error}.",
+			"error": "\"yàqu na te mënul ubbeeku\"",
+			"runCommand": "Bu nga yebbi ba paree DMG walla ZIP, jëfandikoo benn ndigël ci Terminal ci anam moo dem laata nga ubbi app bi:",
+			"exampleDmg": "Misaal, bu nga yebbi ba paree ci DMG:",
+			"exampleZip": "Walla bu nga genne ZIP bi:",
+			"explanation": "Bii dafay dindi tëralin karantin ak nangu app bi ngir mu dox."
+		}
+	},
+	"screenshots": {
+		"title": "Ay nataal yu ekraan",
+		"open": "Ubbi nataal {index}",
+		"alt": "Nataal {index}",
+		"close": "Tëj galeri",
+		"prev": "Nataal bi weesoo",
+		"next": "Nataal bi ñu di topp"
+	},
+	"comparison": {
+		"title": "Mengaale",
+		"feature": "Mëlin",
+		"yes": "waaw",
+		"no": "déedéet",
+		"partialDht": "Bu jeexul (DHT)",
+		"rows": {
+			"decentralized": "Resoo bu amul digg",
+			"onlineLibrary": "Biblotek bu internet",
+			"builtInSearch": "Seet xët-xëtu njariñ bu ñu defar ci biir",
+			"decentralizedSearch": "Seet xët-xëtu njariñ bu amul digg",
+			"parallelDownloads": "Yebbi ñoom ñépp ci ay sukkandiku yu bari",
+			"mediaCenter": "Interface center medias",
+			"gamepad": "Tabax gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Jokk",
+		"getInTouch": "Jokkal ak nun",
+		"links": {
+			"telegramChat": "Mboolo Wax Telegram",
+			"telegramAnnouncements": "Yenent Telegram",
+			"facebook": "Mboolo Facebook"
+		}
+	},
+	"footer": {
+		"by": "bu"
+	}
+}

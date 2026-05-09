@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mboʼehao reheguáva ñemboheʼa",
+		"description": "{project} haʼe peteĩ peer-to-peer software mboʼehao oikóva tekno moderno omboheʼaʼỹva tenondegua rehe.",
+		"ogTitle": "{project} - Mboʼehao software omboheʼaʼỹva tenondegua",
+		"ogDescription": "Peer-to-peer mboʼehao ñemboheʼa, ojejapóva tekno moderno omboheʼaʼỹva tenondegua rehe. Ndaipóri servidores tenondegua. Ndaipóri peteĩnte tenda iñañáva."
+	},
+	"menu": {
+		"about": "Mbaʼépa",
+		"download": "Emongueve",
+		"screenshots": "Pantalla taʼanga",
+		"comparison": "Ñembojojaha",
+		"contact": "Eñemoirũ",
+		"toggle": "Embojere menú",
+		"close": "Embotyma menú",
+		"language": "Ñeʼẽ",
+		"selectLanguage": "Eiporavo ñeʼẽ"
+	},
+	"hero": {
+		"subtitle": "Ñemoñareʼa pyahu peer-to-peer mboʼehao ñemboheʼarã",
+		"description": "Ojejapo tekno moderno omboheʼaʼỹva tenondegua rehe. Ndaipóri servidores tenondegua. Ndaipóri peteĩnte tenda iñañáva.",
+		"download": "Emongueve"
+	},
+	"about": {
+		"title": "Mbaʼépa",
+		"intro": "{project} haʼe peteĩ ñemoñareʼa pyahu peer-to-peer mboʼehao ñemboheʼarã plataforma ojejapóva tekno moderno omboheʼaʼỹva tenondegua rehe. Omboheʼa interfaz hiʼoga sãsõva ha arquitectura omboheʼaʼỹva tenondegua, omeʼẽ peteĩ ñemboʼepyrũ oñemoʼã ha ojeguerovia oimeraẽva mbaʼe puʼaka tenondegua reheʼỹva ñemboheʼa rehe. Pe proyecto haʼe open source ha oñembosaraitéma {license} guive.",
+		"features": {
+			"decentralized": {
+				"title": "Red omboheʼaʼỹva tenondegua opaichagua",
+				"description": "Ndaipóri servidores tenondegua, ndaipóri peteĩnte tenda iñañáva. Mboʼeharakuéra oheka ha omongueve mboʼehao ojupe direkto, oikoʼỹre indexadores tenondegua, trackers terã databases rehe."
+			},
+			"accessControl": {
+				"title": "Ñembohape jeike ojehegui",
+				"description": "Opavavévape ikatu oñepyrũ ipy ñoʼẽ red ipy léinema. Embohape mboʼehára apóstoles peteĩteĩva red-pe: jararakuéra, admins, mbohatakuéra, moderadores ha mongueveha. Embohape mavavépa ikatu omongueve, omoderar ha omongueve mboʼehao."
+			},
+			"ui": {
+				"title": "Interfaz mboʼehára iporãvéva",
+				"description": "Peteĩ media center interfaz potĩva ha sãsõva mboʼehára peguarã, ojejapóva escritorios, TV ha pumbyry pegua. Eikuaa sasõme keyboard, mbusã, gamepad terã puʼaka kaʼaru rupive. Mboʼehára kuaapyhupy ikatu oiporu command line interfaz oiporu hag̃ua mboʼehao servidor de mboʼehao iñakã reheʼỹva ramo."
+			},
+			"dataFormat": {
+				"title": "Mboʼehao formato yvypóra ikatúva omoñeʼẽ",
+				"description": "Pe LISH formato oñemboheʼa JSON rehe, ohejátava sãsõ ojejapo, ojeleʼe ha oñembyaty hag̃ua. Embohape ne mboʼehao metadata potĩva, hesakã reheve oimeraẽva ikatu ohecha sãsõme."
+			},
+			"security": {
+				"title": "Ñemoʼã ha tekorosã",
+				"description": "Opa peer-to-peer ñemongetákuéra haʼe ojeñoñembyaity, omombaʼeguasu ne mboʼehao opyta hag̃ua ñemoʼãme oñemyasãi aja. Mboʼehára ikatu okañy peteĩ VPN kupépe oguerekoʼávo ñemboye ñemyatỹrõme. {project} oñongatu ne ñemoʼã ojejapópe."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Pe software ojetopa Windows, Linux ha macOS plataforma peguarã. Eiporu oimeraẽva mbaʼeʼoka eipotávape."
+			}
+		}
+	},
+	"download": {
+		"title": "Emongueve",
+		"description": "Erekova {project} ne plataforma peguarã. Opa mongueveha haʼe rei ha open source.",
+		"version": "Versión koʼág̃agua: {version}",
+		"linkAlt": "Emongueve",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} ñemoĩha",
+			"package": "{format} hyru",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Ehecha GitHub-pe"
+		},
+		"macos": {
+			"title": "Mboʼekuaa tuicháva macOS mboʼehára peguarã:",
+			"intro": "macOS Gatekeeper omboty oñemboheraiʼỹva / oñemboʼekoʼỹva apps oñemongueva internet-gui {error} jejavy reheve.",
+			"error": "\"hovái ha ndaikatúi ojepeʼa\"",
+			"runCommand": "DMG terã ZIP rire emongueve, eiporu peteĩ tembiapo Terminal-pe ko'ãichagua eipeʼa mboyve app:",
+			"exampleDmg": "Téchaukapyrã, DMG-gui ñemoĩ rire:",
+			"exampleZip": "Terã ZIP-gui ñesẽ rire:",
+			"explanation": "Kóva omboguete cuarentena teko ha oheja app omombaʼeapo."
+		}
+	},
+	"screenshots": {
+		"title": "Pantalla taʼanga",
+		"open": "Eipeʼa pantalla taʼanga {index}",
+		"alt": "Pantalla taʼanga {index}",
+		"close": "Embotyma galería",
+		"prev": "Taʼanga ohasáva",
+		"next": "Taʼanga oúva"
+	},
+	"comparison": {
+		"title": "Ñembojojaha",
+		"feature": "Mbaʼeguigua",
+		"yes": "heẽ",
+		"no": "nahániri",
+		"partialDht": "Sapyʼa (DHT)",
+		"rows": {
+			"decentralized": "Red omboheʼaʼỹva tenondegua",
+			"onlineLibrary": "Online aranduka koty",
+			"builtInSearch": "Pype mboʼehao jeheka",
+			"decentralizedSearch": "Mboʼehao jeheka omboheʼaʼỹva tenondegua",
+			"parallelDownloads": "Heta tendaguigua mongueve oñondivepa",
+			"mediaCenter": "Media center interfaz",
+			"gamepad": "Gamepad pytyvõ",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Eñemoirũ",
+		"getInTouch": "Eñemoirũ orendive",
+		"links": {
+			"telegramChat": "Telegram Ñemongeta Atyguasu",
+			"telegramAnnouncements": "Telegram Marandukuéra",
+			"facebook": "Facebook Atyguasu"
+		}
+	},
+	"footer": {
+		"by": "ojejapo"
+	}
+}

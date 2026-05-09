@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Gusangiza Amadosiye Ata Kibanza Cyo Hagati",
+		"description": "{project} ni porogarama yo gusangiza amadosiye ya peer-to-peer yubatswe ku ikoranabuhanga rishasha ridafise ikibanza co hagati.",
+		"ogTitle": "{project} - Porogarama yo gusangiza amadosiye idafise ikibanza co hagati",
+		"ogDescription": "Gusangiza amadosiye ya peer-to-peer kwubatswe ku ikoranabuhanga rishasha ridafise ikibanza co hagati. Nta serveri zo hagati. Nta hantu hamwe ho gukubita."
+	},
+	"menu": {
+		"about": "Ibijanye",
+		"download": "Kuramo",
+		"screenshots": "Amashusho ya ekrani",
+		"comparison": "Kugereranya",
+		"contact": "Tuvugishe",
+		"toggle": "Hindura urutonde",
+		"close": "Ugarira urutonde",
+		"language": "Ururimi",
+		"selectLanguage": "Hitamwo ururimi"
+	},
+	"hero": {
+		"subtitle": "Iruhuko ryikuriraga ryo gusangiza amadosiye ya peer-to-peer",
+		"description": "Yubatswe ku ikoranabuhanga rishasha ridafise ikibanza co hagati. Nta serveri zo hagati. Nta hantu hamwe ho gukubita.",
+		"download": "Kuramo"
+	},
+	"about": {
+		"title": "Ibijanye",
+		"intro": "{project} ni urubuga rwo gusangiza amadosiye ya peer-to-peer rwo mu ruhuko rwikuriraga rwubatswe ku ikoranabuhanga rishasha ridafise ikibanza co hagati. Iboneka interface y'umukoresha yoroshe hamwe n'iyubakwa ridafise ikibanza co hagati ryuzuye, itanga umuti urinze kandi wizigiwe wo gusangiza amakuru utisuganira mu nyungu zo hagati izo ari zo zose. Umugambi ni open source kandi ukwiragizwa hashingiwe kuri {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Urusobe ruzuye rudafise ikibanza co hagati",
+				"description": "Nta serveri zo hagati, nta hantu hamwe ho gukubita. Abakoresha barashakisha kandi bakuramo ibirimwo bafise n'umutima ku giti cabo, batisuganira mu basinya bo hagati, abazikurikirana canke za database."
+			},
+			"accessControl": {
+				"title": "Igenzura ryeranda ryo kwinjira",
+				"description": "Umuntu wose afise uburenganzira bwo gutangiza urusobe rwiwe afise amategeko yiwe. Donsa amabuye y'umukoresha muri buri rusobe: abanyenezo, abayobozi, abasohora, abagenzura n'abakuramo. Genzura neza uwurusobe ushobora gusohora, kugenzura no kuramo ibirimwo."
+			},
+			"ui": {
+				"title": "Interface y'umukoresha y'urwego rwo hejuru",
+				"description": "Interface y'ikibanza c'ibimenyeshamakuru ihagaze neza kandi yoroshe ku mukoresha yatanguzwa kuri madesktop, televiziyo n'amatelefone agendanwa. Nyabuna nta nkomyi ukoresheje keyboard, imbeba, gamepad canke uburyo bwo kuyobora bwa kure. Abakoresha b'inkomezi barashobora gukoresha interface y'umurongo w'amabwirizwa kugira bakoreshe porogarama nka serveri y'amadosiye idafise umutwe."
+			},
+			"dataFormat": {
+				"title": "Imiterere y'amakuru isomwa n'umuntu",
+				"description": "Imiterere y'amakuru ya LISH ishingiye kuri JSON, igatuma bituma byoroshe gukora, gusoma no gutahura. Sangiza ibirimwo vyawe na metadata zihagaze neza, zibonekana umuntu wose ashobora kurabira yitonze."
+			},
+			"security": {
+				"title": "Ibanga n'umutekano",
+				"description": "Itumanaho ryose rya peer-to-peer ryasubirwamwo na encrypt, kugira ngo amakuru yawe abandanye kuba ibanga mu gihe yarungikwa. Abakoresha barashobora kwihisha inyuma ya VPN ku rwego rwiyongera rwo kutamenyekana. {project} yubahiriza ibanga ryawe muburyo bwo gukora."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Porogarama iraboneka kuri Windows, Linux na macOS. Ikoreshe kuri buri gikoresho ushaka."
+			}
+		}
+	},
+	"download": {
+		"title": "Kuramo",
+		"description": "Bona {project} kuri platform yawe. Bose bakuramo ku buntu kandi ni open source.",
+		"version": "Verisiyo iriho ubu: {version}",
+		"linkAlt": "Kuramo",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mushyiraho {format}",
+			"package": "Pake {format}",
+			"portableZip": "ZIP itwarwa",
+			"viewOnGithub": "Raba kuri GitHub"
+		},
+		"macos": {
+			"title": "Inyandiko nyamukuru ku bakoresha macOS:",
+			"intro": "macOS Gatekeeper ihagarika porogarama zitashizweho umukono / zitemewe zikuwe kuri internet hamwe n'ikosa {error}.",
+			"error": "\"yangiritse kandi ntishobora gufungurwa\"",
+			"runCommand": "Inyuma yo kuramo DMG canke ZIP, kora itegeko muri Terminal mu buryo bukurikira imbere yo gufungura porogarama:",
+			"exampleDmg": "Akarorero, inyuma yo kushira mu DMG:",
+			"exampleZip": "Canke inyuma yo gukura ZIP:",
+			"explanation": "Ibi bikuraho ikiranga karenteni kandi bireka porogarama ko ikora."
+		}
+	},
+	"screenshots": {
+		"title": "Amashusho ya ekrani",
+		"open": "Ugurura ishusho ya ekrani {index}",
+		"alt": "Ishusho ya ekrani {index}",
+		"close": "Ugarira galerie",
+		"prev": "Ishusho ya kera",
+		"next": "Ishusho ikurikira"
+	},
+	"comparison": {
+		"title": "Kugereranya",
+		"feature": "Ikiranga",
+		"yes": "ego",
+		"no": "oya",
+		"partialDht": "Igice (DHT)",
+		"rows": {
+			"decentralized": "Urusobe rudafise ikibanza co hagati",
+			"onlineLibrary": "Bibliyoteke ya internet",
+			"builtInSearch": "Ugushaka ibirimwo byubatswe",
+			"decentralizedSearch": "Ugushaka ibirimwo bidafise ikibanza co hagati",
+			"parallelDownloads": "Kuramo ahantu hamwe muri inkomoko nyinshi",
+			"mediaCenter": "Interface y'ikibanza c'ibimenyeshamakuru",
+			"gamepad": "Inkunga ya gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tuvugishe",
+		"getInTouch": "Twandikire",
+		"links": {
+			"telegramChat": "Umugwi w'ibiganiro wa Telegram",
+			"telegramAnnouncements": "Amatangazo ya Telegram",
+			"facebook": "Umugwi wa Facebook"
+		}
+	},
+	"footer": {
+		"by": "na"
+	}
+}

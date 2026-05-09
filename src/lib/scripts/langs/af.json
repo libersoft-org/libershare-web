@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Gedesentraliseerde lêerdeling",
+		"description": "{project} is 'n eweknie-tot-eweknie lêerdelingsagteware gebou op moderne gedesentraliseerde tegnologieë.",
+		"ogTitle": "{project} - Gedesentraliseerde lêerdelingsagteware",
+		"ogDescription": "Eweknie-tot-eweknie lêerdeling gebou op moderne gedesentraliseerde tegnologieë. Geen sentrale bedieners nie. Geen enkele punt van mislukking nie."
+	},
+	"menu": {
+		"about": "Oor",
+		"download": "Aflaai",
+		"screenshots": "Skermkiekies",
+		"comparison": "Vergelyking",
+		"contact": "Kontak",
+		"toggle": "Wissel kieslys",
+		"close": "Sluit kieslys",
+		"language": "Taal",
+		"selectLanguage": "Kies taal"
+	},
+	"hero": {
+		"subtitle": "Volgende generasie eweknie-tot-eweknie lêerdeling",
+		"description": "Gebou op moderne gedesentraliseerde tegnologieë. Geen sentrale bedieners nie. Geen enkele punt van mislukking nie.",
+		"download": "Aflaai"
+	},
+	"about": {
+		"title": "Oor",
+		"intro": "{project} is 'n volgende generasie eweknie-tot-eweknie lêerdelingsplatform gebou op moderne gedesentraliseerde tegnologieë. Dit kombineer 'n intuïtiewe gebruikerskoppelvlak met 'n volkome gedesentraliseerde argitektuur en bied 'n veilige en betroubare oplossing vir datadeling onafhanklik van enige sentrale gesag. Die projek is oopbron en versprei onder die {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Volkome gedesentraliseerde netwerk",
+				"description": "Geen sentrale bedieners, geen enkele punt van mislukking nie. Gebruikers soek en laai inhoud direk tussen mekaar af, sonder om op gesentraliseerde indeksers, trackers of databasisse staat te maak."
+			},
+			"accessControl": {
+				"title": "Fyngranulêre toegangsbeheer",
+				"description": "Almal is vry om hul eie netwerk met hul eie reëls te begin. Definieer gebruikersrolle binne elke netwerk: eienaars, administrateurs, uitgewers, moderators en aflaaiers. Beheer presies wie inhoud kan publiseer, modereer en aflaai."
+			},
+			"ui": {
+				"title": "Uitstekende gebruikerskoppelvlak",
+				"description": "'n Skoon en gebruikersvriendelike mediasentrum-koppelvlak ontwerp vir rekenaar-, TV- en mobiele platforms. Navigeer naatloos met sleutelbord, muis, speletjieskontroleerder of afstandsbeheer. Gevorderde gebruikers kan 'n opdragreëlkoppelvlak benut om die sagteware as 'n koplose lêerbediener te laat loop."
+			},
+			"dataFormat": {
+				"title": "Mensleesbare dataformaat",
+				"description": "Die LISH-dataformaat is op JSON gebaseer, wat dit maklik maak om te skep, lees en verstaan. Deel jou inhoud met duidelike, deursigtige metadata wat enigeen maklik kan ondersoek."
+			},
+			"security": {
+				"title": "Privaatheid en sekuriteit",
+				"description": "Alle eweknie-tot-eweknie kommunikasie is geënkripteer en verseker dat jou data privaat bly tydens oordrag. Gebruikers kan agter 'n VPN wegkruip vir 'n bykomende laag van anonimiteit. {project} respekteer jou privaatheid van ontwerp."
+			},
+			"crossPlatform": {
+				"title": "Kruisplatform",
+				"description": "Die sagteware is beskikbaar vir Windows-, Linux- en macOS-platforms. Gebruik dit op enige toestel wat jy verkies."
+			}
+		}
+	},
+	"download": {
+		"title": "Aflaai",
+		"description": "Kry {project} vir jou platform. Alle aflaaie is gratis en oopbron.",
+		"version": "Huidige weergawe: {version}",
+		"linkAlt": "Aflaai",
+		"platforms": {
+			"sourceCode": "Bronkode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bis",
+			"arm64": "ARM 64-bis",
+			"universal": "Universeel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bis (Apple Silicon)",
+			"intel64": "Intel 64-bis"
+		},
+		"items": {
+			"installer": "{format} installeerder",
+			"package": "{format} pakket",
+			"portableZip": "Draagbare ZIP",
+			"viewOnGithub": "Bekyk op GitHub"
+		},
+		"macos": {
+			"title": "Belangrike nota vir macOS-gebruikers:",
+			"intro": "macOS Gatekeeper blokkeer ongetekende / nie-genotariseerde toepassings wat van die internet afgelaai is met 'n {error} fout.",
+			"error": "\"is beskadig en kan nie oopgemaak word nie\"",
+			"runCommand": "Na die aflaai van die DMG of ZIP, voer 'n opdrag in Terminal in die volgende vorm uit voordat jy die toepassing oopmaak:",
+			"exampleDmg": "Byvoorbeeld, na installasie vanaf DMG:",
+			"exampleZip": "Of na die uitpak van die ZIP:",
+			"explanation": "Dit verwyder die kwarantyn-attribuut en laat die toepassing toe om te loop."
+		}
+	},
+	"screenshots": {
+		"title": "Skermkiekies",
+		"open": "Maak skermkiekie {index} oop",
+		"alt": "Skermkiekie {index}",
+		"close": "Sluit galery",
+		"prev": "Vorige beeld",
+		"next": "Volgende beeld"
+	},
+	"comparison": {
+		"title": "Vergelyking",
+		"feature": "Kenmerk",
+		"yes": "ja",
+		"no": "nee",
+		"partialDht": "Gedeeltelik (DHT)",
+		"rows": {
+			"decentralized": "Gedesentraliseerde netwerk",
+			"onlineLibrary": "Aanlyn biblioteek",
+			"builtInSearch": "Ingeboude inhoudsoektog",
+			"decentralizedSearch": "Gedesentraliseerde inhoudsoektog",
+			"parallelDownloads": "Multi-bron parallelle aflaaie",
+			"mediaCenter": "Mediasentrum-koppelvlak",
+			"gamepad": "Speletjieskontroleerder-ondersteuning",
+			"openSource": "Oopbron"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Kom in kontak",
+		"links": {
+			"telegramChat": "Telegram-kletsgroep",
+			"telegramAnnouncements": "Telegram-aankondigings",
+			"facebook": "Facebook-groep"
+		}
+	},
+	"footer": {
+		"by": "deur"
+	}
+}

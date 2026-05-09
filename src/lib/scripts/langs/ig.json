@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ịkesa Faịlụ na-enweghị Etiti",
+		"description": "{project} bụ sọftụwia ịkesa faịlụ peer-to-peer e wuru na teknụzụ ọgbara ọhụrụ na-enweghị etiti.",
+		"ogTitle": "{project} - Sọftụwia ịkesa faịlụ na-enweghị etiti",
+		"ogDescription": "Ịkesa faịlụ peer-to-peer e wuru na teknụzụ ọgbara ọhụrụ na-enweghị etiti. Ọ dịghị nkesa etiti. Ọ dịghị otu ebe nke ịda."
+	},
+	"menu": {
+		"about": "Banyere",
+		"download": "Budata",
+		"screenshots": "Foto Ihuenyo",
+		"comparison": "Ntụnyere",
+		"contact": "Kpọtụrụ",
+		"toggle": "Gbanwee menu",
+		"close": "Mechie menu",
+		"language": "Asụsụ",
+		"selectLanguage": "Họrọ asụsụ"
+	},
+	"hero": {
+		"subtitle": "Ọgbọ na-esote nke ịkesa faịlụ peer-to-peer",
+		"description": "E wuru na teknụzụ ọgbara ọhụrụ na-enweghị etiti. Ọ dịghị nkesa etiti. Ọ dịghị otu ebe nke ịda.",
+		"download": "Budata"
+	},
+	"about": {
+		"title": "Banyere",
+		"intro": "{project} bụ ikpo okwu ịkesa faịlụ peer-to-peer nke ọgbọ na-esote e wuru na teknụzụ ọgbara ọhụrụ na-enweghị etiti. Ọ na-ejikọta interface onye ọrụ dị mfe na nhazi na-enweghị etiti zuru oke, na-enye ngwọta nchekwa na nke a pụrụ ịdabere na ya maka ịkesa data na-adabereghị na ikike ọ bụla etiti. Ọrụ a bụ nke mepere emepe ma kesara ya n'okpuru {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Netwọkụ na-enweghị etiti zuru oke",
+				"description": "Ọ dịghị nkesa etiti, ọ dịghị otu ebe nke ịda. Ndị ọrụ na-achọ ma na-ebudata ọdịnaya ozugbo n'etiti onwe ha, na-adabereghị na ndị nchịkọta etiti, ndị nleba anya ma ọ bụ ụlọ nchekwa data."
+			},
+			"accessControl": {
+				"title": "Njikwa ohere zuru ezu",
+				"description": "Onye ọ bụla nwere onwe ya ịmalite netwọkụ nke aka ya na iwu nke aka ya. Kọwaa ọrụ ndị ọrụ na netwọkụ ọ bụla: ndị nwe, ndị nchịkwa, ndị mbipụta, ndị nlekọta na ndị na-ebudata. Chịkwaa nke ọma onye nwere ike bipụta, lekwasị anya ma budata ọdịnaya."
+			},
+			"ui": {
+				"title": "Interface onye ọrụ kacha mma",
+				"description": "Interface ebe ihe ngosi dị ọcha ma dị mfe e mere maka ikpo okwu desktop, TV na mobile. Gagharịa n'enweghị nsogbu site na keyboard, mouse, gamepad, ma ọ bụ remote control. Ndị ọrụ ike nwere ike ịnweta interface ahịrị iwu iji jiri sọftụwia ahụ dị ka nkesa faịlụ enweghị isi."
+			},
+			"dataFormat": {
+				"title": "Usoro data nke mmadụ na-agụ",
+				"description": "Usoro data LISH dabere na JSON, na-eme ka ọ dị mfe ịmepụta, ịgụ na ịghọta. Kesaa ọdịnaya gị na metadata doro anya, nke ọ bụla nwere ike nyochaa nke ọma."
+			},
+			"security": {
+				"title": "Nzuzo na nchekwa",
+				"description": "A na-ezo nzuzo nkwurịta okwu peer-to-peer niile, na-ahụ na data gị nọgidere nzuzo n'oge nnyefe. Ndị ọrụ nwere ike izo n'azụ VPN maka akwa ọzọ nke amaghị aha. {project} na-akwanyere nzuzo gị ụgwụ site na nhazi."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Sọftụwia dị maka ikpo okwu Windows, Linux na macOS. Jiri ya na ngwaọrụ ọ bụla ị chọrọ."
+			}
+		}
+	},
+	"download": {
+		"title": "Budata",
+		"description": "Nweta {project} maka ikpo okwu gị. Mbudata niile bụ n'efu na nke mepere emepe.",
+		"version": "Ụdị ugbu a: {version}",
+		"linkAlt": "Budata",
+		"platforms": {
+			"sourceCode": "Koodu isi mmalite"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Onye nwụnye {format}",
+			"package": "Ngwugwu {format}",
+			"portableZip": "ZIP ebughachi",
+			"viewOnGithub": "Lee na GitHub"
+		},
+		"macos": {
+			"title": "Ihe ndekọ dị mkpa maka ndị ọrụ macOS:",
+			"intro": "macOS Gatekeeper na-egbochi ngwa a na-abịaghị / na-akwadoghị ebudatara site na ịntanetị site na njehie {error}.",
+			"error": "\"emebiela ma enweghị ike imepe ya\"",
+			"runCommand": "Mgbe ị budachara DMG ma ọ bụ ZIP, gbaa iwu na Terminal n'ụdị a tupu imepe ngwa ahụ:",
+			"exampleDmg": "Dịka ọmụmaatụ, mgbe i wụnyechara site na DMG:",
+			"exampleZip": "Ma ọ bụ mgbe i wepụchara ZIP:",
+			"explanation": "Nke a na-ewepụ njirimara nọchibido ma kwe ka ngwa ahụ rụọ ọrụ."
+		}
+	},
+	"screenshots": {
+		"title": "Foto Ihuenyo",
+		"open": "Mepee foto ihuenyo {index}",
+		"alt": "Foto ihuenyo {index}",
+		"close": "Mechie ihe ngosi",
+		"prev": "Onyonyo gara aga",
+		"next": "Onyonyo na-esote"
+	},
+	"comparison": {
+		"title": "Ntụnyere",
+		"feature": "Atụmatụ",
+		"yes": "ee",
+		"no": "mba",
+		"partialDht": "Ụfọdụ (DHT)",
+		"rows": {
+			"decentralized": "Netwọkụ na-enweghị etiti",
+			"onlineLibrary": "Ọbá akwụkwọ ịntanetị",
+			"builtInSearch": "Nchọ ọdịnaya nke e wuru na ya",
+			"decentralizedSearch": "Nchọ ọdịnaya na-enweghị etiti",
+			"parallelDownloads": "Mbudata yiri nke isi iyi dị iche iche",
+			"mediaCenter": "Interface ebe ihe ngosi",
+			"gamepad": "Nkwado gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kpọtụrụ",
+		"getInTouch": "Kpọtụrụ anyị",
+		"links": {
+			"telegramChat": "Otu Nkata Telegram",
+			"telegramAnnouncements": "Ọkwa Telegram",
+			"facebook": "Otu Facebook"
+		}
+	},
+	"footer": {
+		"by": "site na"
+	}
+}
