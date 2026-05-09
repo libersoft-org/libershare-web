@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Zdecentralizowane udostępnianie plików",
+		"description": "{project} to oprogramowanie peer-to-peer do udostępniania plików zbudowane na nowoczesnych technologiach zdecentralizowanych.",
+		"ogTitle": "{project} - Zdecentralizowane oprogramowanie do udostępniania plików",
+		"ogDescription": "Udostępnianie plików peer-to-peer zbudowane na nowoczesnych technologiach zdecentralizowanych. Brak centralnych serwerów. Nic, co mogłoby położyć całą sieć."
+	},
+	"menu": {
+		"about": "O projekcie",
+		"download": "Pobierz",
+		"screenshots": "Zrzuty ekranu",
+		"comparison": "Porównanie",
+		"contact": "Kontakt",
+		"toggle": "Przełącz menu",
+		"close": "Zamknij menu",
+		"language": "Język",
+		"selectLanguage": "Wybierz język"
+	},
+	"hero": {
+		"subtitle": "Udostępnianie plików peer-to-peer nowej generacji",
+		"description": "Zbudowane na nowoczesnych technologiach zdecentralizowanych. Brak centralnych serwerów. Nic, co mogłoby położyć całą sieć.",
+		"download": "Pobierz"
+	},
+	"about": {
+		"title": "O projekcie",
+		"intro": "{project} to platforma peer-to-peer nowej generacji do udostępniania plików, zbudowana na nowoczesnych technologiach zdecentralizowanych. Łączy intuicyjny interfejs użytkownika z w pełni zdecentralizowaną architekturą, zapewniając bezpieczne i niezawodne rozwiązanie do udostępniania danych niezależne od jakiejkolwiek centralnej władzy. Projekt jest open source i jest rozpowszechniany na licencji {license}.",
+		"features": {
+			"decentralized": {
+				"title": "W pełni zdecentralizowana sieć",
+				"description": "Brak centralnych serwerów, brak pojedynczego punktu awarii. Użytkownicy wyszukują i pobierają treści bezpośrednio od siebie, bez polegania na scentralizowanych indekserach, trackerach lub bazach danych."
+			},
+			"accessControl": {
+				"title": "Szczegółowa kontrola dostępu",
+				"description": "Każdy może utworzyć własną sieć z własnymi zasadami. Zdefiniuj role użytkowników w każdej sieci: właścicieli, administratorów, publikujących, moderatorów i pobierających. Kontroluj dokładnie, kto może publikować, moderować i pobierać treści."
+			},
+			"ui": {
+				"title": "Najwyższej klasy interfejs użytkownika",
+				"description": "Przejrzysty i przyjazny dla użytkownika interfejs centrum multimediów zaprojektowany dla platform desktopowych, TV i mobilnych. Bezproblemowo nawiguj za pomocą klawiatury, myszy, kontrolera gier lub pilota. Zaawansowani użytkownicy mogą wykorzystać interfejs wiersza poleceń do uruchomienia oprogramowania jako serwer plików bez interfejsu graficznego."
+			},
+			"dataFormat": {
+				"title": "Format danych czytelny dla człowieka",
+				"description": "Format danych LISH oparty jest na JSON, dzięki czemu jest łatwy do tworzenia, czytania i zrozumienia. Udostępniaj swoje treści z czytelnymi, przejrzystymi metadanymi, które każdy może łatwo sprawdzić."
+			},
+			"security": {
+				"title": "Prywatność i bezpieczeństwo",
+				"description": "Cała komunikacja peer-to-peer jest zaszyfrowana, dzięki czemu Twoje dane pozostają prywatne podczas transferu. Użytkownicy mogą ukryć się za VPN, aby uzyskać dodatkową warstwę anonimowości. {project} szanuje Twoją prywatność z założenia."
+			},
+			"crossPlatform": {
+				"title": "Wieloplatformowy",
+				"description": "Oprogramowanie jest dostępne dla platform Windows, Linux i macOS. Używaj go na dowolnym urządzeniu."
+			}
+		}
+	},
+	"download": {
+		"title": "Pobierz",
+		"description": "Pobierz {project} dla swojej platformy. Wszystkie pobierania są bezpłatne i open source.",
+		"version": "Aktualna wersja: {version}",
+		"linkAlt": "Pobierz",
+		"platforms": {
+			"sourceCode": "Kod źródłowy"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Uniwersalny (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pakiet {format}",
+			"portableZip": "Przenośny ZIP",
+			"viewOnGithub": "Zobacz na GitHubie"
+		},
+		"macos": {
+			"title": "Ważna uwaga dla użytkowników macOS:",
+			"intro": "macOS Gatekeeper blokuje niepodpisane / niezweryfikowane aplikacje pobrane z internetu błędem {error}.",
+			"error": "\"jest uszkodzony i nie można go otworzyć\"",
+			"runCommand": "Po pobraniu DMG lub ZIP, przed otwarciem aplikacji uruchom w Terminalu polecenie w następującej formie:",
+			"exampleDmg": "Na przykład po instalacji z DMG:",
+			"exampleZip": "Lub po rozpakowaniu ZIP:",
+			"explanation": "To polecenie usuwa atrybut kwarantanny i umożliwia uruchomienie aplikacji."
+		}
+	},
+	"screenshots": {
+		"title": "Zrzuty ekranu",
+		"open": "Otwórz zrzut {index}",
+		"alt": "Zrzut ekranu {index}",
+		"close": "Zamknij galerię",
+		"prev": "Poprzedni obraz",
+		"next": "Następny obraz"
+	},
+	"comparison": {
+		"title": "Porównanie",
+		"feature": "Funkcja",
+		"yes": "tak",
+		"no": "nie",
+		"partialDht": "Częściowo (DHT)",
+		"rows": {
+			"decentralized": "Zdecentralizowana sieć",
+			"onlineLibrary": "Biblioteka online",
+			"builtInSearch": "Wbudowane wyszukiwanie treści",
+			"decentralizedSearch": "Zdecentralizowane wyszukiwanie treści",
+			"parallelDownloads": "Równoległe pobieranie z wielu źródeł",
+			"mediaCenter": "Interfejs centrum multimediów",
+			"gamepad": "Obsługa kontrolera gier",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Skontaktuj się",
+		"links": {
+			"telegramChat": "Grupa czatu Telegram",
+			"telegramAnnouncements": "Ogłoszenia Telegram",
+			"facebook": "Grupa Facebook"
+		}
+	},
+	"footer": {
+		"by": "od"
+	}
+}

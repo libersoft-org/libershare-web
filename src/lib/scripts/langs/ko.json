@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - 분산형 파일 공유",
+		"description": "{project}는 최신 분산 기술을 기반으로 구축된 P2P 파일 공유 소프트웨어입니다.",
+		"ogTitle": "{project} - 분산형 파일 공유 소프트웨어",
+		"ogDescription": "최신 분산 기술을 기반으로 구축된 P2P 파일 공유. 중앙 서버가 없습니다. 전체 네트워크를 다운시킬 수 있는 것이 아무것도 없습니다."
+	},
+	"menu": {
+		"about": "소개",
+		"download": "다운로드",
+		"screenshots": "스크린샷",
+		"comparison": "비교",
+		"contact": "연락처",
+		"toggle": "메뉴 전환",
+		"close": "메뉴 닫기",
+		"language": "언어",
+		"selectLanguage": "언어 선택"
+	},
+	"hero": {
+		"subtitle": "차세대 P2P 파일 공유",
+		"description": "최신 분산 기술을 기반으로 구축되었습니다. 중앙 서버가 없습니다. 전체 네트워크를 다운시킬 수 있는 것이 아무것도 없습니다.",
+		"download": "다운로드"
+	},
+	"about": {
+		"title": "소개",
+		"intro": "{project}는 최신 분산 기술을 기반으로 구축된 차세대 P2P 파일 공유 플랫폼입니다. 직관적인 사용자 인터페이스를 완전히 분산된 아키텍처와 결합하여 어떠한 중앙 권한에도 의존하지 않는 안전하고 신뢰할 수 있는 데이터 공유 솔루션을 제공합니다. 이 프로젝트는 오픈 소스이며 {license} 라이선스에 따라 배포됩니다.",
+		"features": {
+			"decentralized": {
+				"title": "완전히 분산된 네트워크",
+				"description": "중앙 서버가 없고 단일 장애 지점도 없습니다. 사용자는 중앙 집중식 인덱서, 트래커 또는 데이터베이스에 의존하지 않고 서로에게서 직접 콘텐츠를 검색하고 다운로드합니다."
+			},
+			"accessControl": {
+				"title": "세분화된 액세스 제어",
+				"description": "누구나 자신의 규칙으로 자신만의 네트워크를 자유롭게 시작할 수 있습니다. 각 네트워크 내에서 사용자 역할을 정의하세요: 소유자, 관리자, 게시자, 중재자, 다운로더. 누가 콘텐츠를 게시, 중재 및 다운로드할 수 있는지 정확하게 제어합니다."
+			},
+			"ui": {
+				"title": "최고 수준의 사용자 인터페이스",
+				"description": "데스크톱, TV, 모바일 플랫폼용으로 설계된 깔끔하고 사용자 친화적인 미디어 센터 인터페이스. 키보드, 마우스, 게임패드 또는 리모컨으로 원활하게 탐색하세요. 고급 사용자는 명령줄 인터페이스를 활용하여 그래픽 인터페이스 없이 파일 서버로 소프트웨어를 실행할 수 있습니다."
+			},
+			"dataFormat": {
+				"title": "사람이 읽을 수 있는 데이터 형식",
+				"description": "LISH 데이터 형식은 JSON을 기반으로 하므로 생성, 읽기 및 이해가 쉽습니다. 누구나 쉽게 검사할 수 있는 명확하고 투명한 메타데이터로 콘텐츠를 공유하세요."
+			},
+			"security": {
+				"title": "개인정보 보호 및 보안",
+				"description": "모든 P2P 통신은 암호화되어 있어 전송 중에 데이터가 비공개로 유지됩니다. 사용자는 추가적인 익명성 계층을 위해 VPN 뒤에 숨을 수 있습니다. {project}는 설계상 귀하의 개인정보를 존중합니다."
+			},
+			"crossPlatform": {
+				"title": "크로스 플랫폼",
+				"description": "이 소프트웨어는 Windows, Linux 및 macOS 플랫폼에서 사용할 수 있습니다. 원하는 어떤 장치에서도 사용하세요."
+			}
+		}
+	},
+	"download": {
+		"title": "다운로드",
+		"description": "귀하의 플랫폼용 {project}를 받으세요. 모든 다운로드는 무료이며 오픈 소스입니다.",
+		"version": "현재 버전: {version}",
+		"linkAlt": "다운로드",
+		"platforms": {
+			"sourceCode": "소스 코드"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64비트",
+			"arm64": "ARM 64비트",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64비트 (Apple Silicon)",
+			"intel64": "Intel 64비트"
+		},
+		"items": {
+			"installer": "{format} 설치 프로그램",
+			"package": "{format} 패키지",
+			"portableZip": "휴대용 ZIP",
+			"viewOnGithub": "GitHub에서 보기"
+		},
+		"macos": {
+			"title": "macOS 사용자를 위한 중요 안내:",
+			"intro": "macOS Gatekeeper는 인터넷에서 다운로드한 서명되지 않은 / 인증되지 않은 앱을 {error} 오류로 차단합니다.",
+			"error": "\"손상되어 열 수 없습니다\"",
+			"runCommand": "DMG 또는 ZIP을 다운로드한 후, 앱을 열기 전에 Terminal에서 다음과 같은 형식의 명령을 실행하세요:",
+			"exampleDmg": "예를 들어 DMG에서 설치한 후:",
+			"exampleZip": "또는 ZIP을 압축 해제한 후:",
+			"explanation": "이 명령은 격리 속성을 제거하고 앱이 실행되도록 허용합니다."
+		}
+	},
+	"screenshots": {
+		"title": "스크린샷",
+		"open": "스크린샷 {index} 열기",
+		"alt": "스크린샷 {index}",
+		"close": "갤러리 닫기",
+		"prev": "이전 이미지",
+		"next": "다음 이미지"
+	},
+	"comparison": {
+		"title": "비교",
+		"feature": "기능",
+		"yes": "예",
+		"no": "아니오",
+		"partialDht": "부분적 (DHT)",
+		"rows": {
+			"decentralized": "분산 네트워크",
+			"onlineLibrary": "온라인 라이브러리",
+			"builtInSearch": "내장 콘텐츠 검색",
+			"decentralizedSearch": "분산 콘텐츠 검색",
+			"parallelDownloads": "여러 소스에서 병렬 다운로드",
+			"mediaCenter": "미디어 센터 인터페이스",
+			"gamepad": "게임패드 지원",
+			"openSource": "오픈 소스"
+		}
+	},
+	"contact": {
+		"title": "연락처",
+		"getInTouch": "문의하기",
+		"links": {
+			"telegramChat": "Telegram 채팅 그룹",
+			"telegramAnnouncements": "Telegram 공지사항",
+			"facebook": "Facebook 그룹"
+		}
+	},
+	"footer": {
+		"by": "제작:"
+	}
+}

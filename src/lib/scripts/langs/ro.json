@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partajare descentralizată de fișiere",
+		"description": "{project} este un software de partajare de fișiere peer-to-peer construit pe tehnologii descentralizate moderne.",
+		"ogTitle": "{project} - Software de partajare de fișiere descentralizat",
+		"ogDescription": "Partajare de fișiere peer-to-peer construită pe tehnologii descentralizate moderne. Fără servere centrale. Nimic care să poată doborî întreaga rețea."
+	},
+	"menu": {
+		"about": "Despre",
+		"download": "Descărcare",
+		"screenshots": "Capturi de ecran",
+		"comparison": "Comparație",
+		"contact": "Contact",
+		"toggle": "Comută meniul",
+		"close": "Închide meniul",
+		"language": "Limbă",
+		"selectLanguage": "Selectează limba"
+	},
+	"hero": {
+		"subtitle": "Partajare de fișiere peer-to-peer de nouă generație",
+		"description": "Construit pe tehnologii descentralizate moderne. Fără servere centrale. Nimic care să poată doborî întreaga rețea.",
+		"download": "Descarcă"
+	},
+	"about": {
+		"title": "Despre",
+		"intro": "{project} este o platformă de partajare de fișiere peer-to-peer de nouă generație, construită pe tehnologii descentralizate moderne. Combină o interfață de utilizator intuitivă cu o arhitectură complet descentralizată, oferind o soluție sigură și fiabilă pentru partajarea datelor, independentă de orice autoritate centrală. Proiectul este open source și este distribuit sub licența {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rețea complet descentralizată",
+				"description": "Fără servere centrale, fără un singur punct de eșec. Utilizatorii caută și descarcă conținut direct între ei, fără a depinde de indexatori, trackere sau baze de date centralizate."
+			},
+			"accessControl": {
+				"title": "Control granular al accesului",
+				"description": "Oricine este liber să își înceapă propria rețea cu propriile reguli. Definește roluri de utilizator în fiecare rețea: proprietari, administratori, publicatori, moderatori și descărcători. Controlează exact cine poate publica, modera și descărca conținut."
+			},
+			"ui": {
+				"title": "Interfață de utilizator de top",
+				"description": "O interfață de centru multimedia curată și ușor de utilizat, concepută pentru platformele desktop, TV și mobile. Navighează fără probleme cu tastatura, mouse-ul, gamepad-ul sau telecomanda. Utilizatorii avansați pot folosi interfața liniei de comandă pentru a rula software-ul ca server de fișiere fără interfață grafică."
+			},
+			"dataFormat": {
+				"title": "Format de date lizibil pentru oameni",
+				"description": "Formatul de date LISH se bazează pe JSON, ceea ce îl face ușor de creat, citit și înțeles. Partajează-ți conținutul cu metadate clare și transparente pe care oricine le poate inspecta cu ușurință."
+			},
+			"security": {
+				"title": "Confidențialitate și securitate",
+				"description": "Toată comunicarea peer-to-peer este criptată, asigurându-se că datele tale rămân private în timpul transferului. Utilizatorii se pot ascunde în spatele unui VPN pentru un strat suplimentar de anonimat. {project} respectă confidențialitatea ta prin proiectare."
+			},
+			"crossPlatform": {
+				"title": "Multi-platformă",
+				"description": "Software-ul este disponibil pentru platformele Windows, Linux și macOS. Folosește-l pe orice dispozitiv preferi."
+			}
+		}
+	},
+	"download": {
+		"title": "Descărcare",
+		"description": "Obține {project} pentru platforma ta. Toate descărcările sunt gratuite și open source.",
+		"version": "Versiunea curentă: {version}",
+		"linkAlt": "Descarcă",
+		"platforms": {
+			"sourceCode": "Cod sursă"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 biți",
+			"arm64": "ARM 64 biți",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 biți (Apple Silicon)",
+			"intel64": "Intel 64 biți"
+		},
+		"items": {
+			"installer": "Instalator {format}",
+			"package": "Pachet {format}",
+			"portableZip": "ZIP portabil",
+			"viewOnGithub": "Vezi pe GitHub"
+		},
+		"macos": {
+			"title": "Notă importantă pentru utilizatorii macOS:",
+			"intro": "macOS Gatekeeper blochează aplicațiile nesemnate / neautentificate descărcate de pe internet cu o eroare {error}.",
+			"error": "\"este deteriorat și nu poate fi deschis\"",
+			"runCommand": "După descărcarea DMG-ului sau ZIP-ului, înainte de a deschide aplicația, rulează în Terminal o comandă în următoarea formă:",
+			"exampleDmg": "De exemplu, după instalarea din DMG:",
+			"exampleZip": "Sau după extragerea ZIP-ului:",
+			"explanation": "Această comandă elimină atributul de carantină și permite rularea aplicației."
+		}
+	},
+	"screenshots": {
+		"title": "Capturi de ecran",
+		"open": "Deschide captura {index}",
+		"alt": "Captură de ecran {index}",
+		"close": "Închide galeria",
+		"prev": "Imaginea anterioară",
+		"next": "Imaginea următoare"
+	},
+	"comparison": {
+		"title": "Comparație",
+		"feature": "Caracteristică",
+		"yes": "da",
+		"no": "nu",
+		"partialDht": "Parțial (DHT)",
+		"rows": {
+			"decentralized": "Rețea descentralizată",
+			"onlineLibrary": "Bibliotecă online",
+			"builtInSearch": "Căutare de conținut încorporată",
+			"decentralizedSearch": "Căutare de conținut descentralizată",
+			"parallelDownloads": "Descărcări paralele din mai multe surse",
+			"mediaCenter": "Interfață de centru multimedia",
+			"gamepad": "Suport pentru gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Ia legătura",
+		"links": {
+			"telegramChat": "Grup de chat Telegram",
+			"telegramAnnouncements": "Anunțuri Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "de"
+	}
+}

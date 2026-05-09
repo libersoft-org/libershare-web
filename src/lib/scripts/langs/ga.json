@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Comhroinnt comhad dílárnaithe",
+		"description": "Is bogearra comhroinnte comhad piaraí-go-piaraí é {project} atá tógtha ar theicneolaíochtaí dílárnaithe nua-aimseartha.",
+		"ogTitle": "{project} - Bogearra comhroinnte comhad dílárnaithe",
+		"ogDescription": "Comhroinnt comhad piaraí-go-piaraí tógtha ar theicneolaíochtaí dílárnaithe nua-aimseartha. Gan freastalaithe lárnacha. Gan rud ar bith a d'fhéadfadh an líonra ar fad a leagan."
+	},
+	"menu": {
+		"about": "Maidir le",
+		"download": "Íoslódáil",
+		"screenshots": "Scáileáin",
+		"comparison": "Comparáid",
+		"contact": "Teagmháil",
+		"toggle": "Athraigh roghchlár",
+		"close": "Dún roghchlár",
+		"language": "Teanga",
+		"selectLanguage": "Roghnaigh teanga"
+	},
+	"hero": {
+		"subtitle": "Comhroinnt comhad piaraí-go-piaraí na chéad ghlúine eile",
+		"description": "Tógtha ar theicneolaíochtaí dílárnaithe nua-aimseartha. Gan freastalaithe lárnacha. Gan rud ar bith a d'fhéadfadh an líonra ar fad a leagan.",
+		"download": "Íoslódáil"
+	},
+	"about": {
+		"title": "Maidir le",
+		"intro": "Is ardán comhroinnte comhad piaraí-go-piaraí na chéad ghlúine eile é {project}, atá tógtha ar theicneolaíochtaí dílárnaithe nua-aimseartha. Comhcheanglaíonn sé comhéadan úsáideora iomasach le hailtireacht atá go hiomlán dílárnaithe, ag soláthar réiteach slán agus iontaofa do chomhroinnt sonraí, atá neamhspleách ar aon údarás lárnach. Is foinse oscailte é an tionscadal agus déantar é a dháileadh faoin gceadúnas {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Líonra go hiomlán dílárnaithe",
+				"description": "Gan freastalaithe lárnacha, gan aon phointe teipe amháin. Lorgaíonn agus íoslódálann úsáideoirí ábhar go díreach óna chéile, gan brath ar innéacsóirí, lorgairí nó bunachair shonraí láraithe."
+			},
+			"accessControl": {
+				"title": "Rialú rochtana mionsonraithe",
+				"description": "Tá saoirse ag aon duine a líonra féin a thosú lena rialacha féin. Sainmhínigh róil úsáideoirí laistigh de gach líonra: úinéirí, riarthóirí, foilsitheoirí, modhnóirí agus íoslódálaithe. Rialaigh go cruinn cé atá in ann ábhar a fhoilsiú, a mhodhnú agus a íoslódáil."
+			},
+			"ui": {
+				"title": "Comhéadan úsáideora den scoth",
+				"description": "Comhéadan ionad meán glan agus éasca le húsáid atá deartha le haghaidh deisce, teilifíse agus ardán soghluaiste. Loingseoireacht gan uaim le méarchlár, luch, gamepad nó cianrialtán. Is féidir le húsáideoirí breise leas a bhaint as an gcomhéadan líne ordaithe chun an bogearra a rith mar fhreastalaí comhad gan comhéadan grafach."
+			},
+			"dataFormat": {
+				"title": "Formáid sonraí inléite ag an duine",
+				"description": "Tá an fhormáid sonraí LISH bunaithe ar JSON, rud a fhágann go bhfuil sé éasca a chruthú, a léamh agus a thuiscint. Comhroinn d'ábhar le meiteashonraí soiléire, trédhearcacha is féidir le héinne a iniúchadh go héasca."
+			},
+			"security": {
+				"title": "Príobháideacht agus slándáil",
+				"description": "Tá gach cumarsáid piaraí-go-piaraí criptithe, ag cinntiú go bhfanann do shonraí príobháideach le linn aistrithe. Is féidir le húsáideoirí dul i bhfolach taobh thiar de VPN le haghaidh sraith bhreise gan ainm. Urramaíonn {project} do phríobháideacht trí dhearadh."
+			},
+			"crossPlatform": {
+				"title": "Trasardán",
+				"description": "Tá an bogearra ar fáil do na hardáin Windows, Linux agus macOS. Bain úsáid as ar aon ghléas is rogha leat."
+			}
+		}
+	},
+	"download": {
+		"title": "Íoslódáil",
+		"description": "Faigh {project} le haghaidh d'ardáin. Tá gach íoslódáil saor in aisce agus foinse oscailte.",
+		"version": "Leagan reatha: {version}",
+		"linkAlt": "Íoslódáil",
+		"platforms": {
+			"sourceCode": "Cód foinseach"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-giotán",
+			"arm64": "ARM 64-giotán",
+			"universal": "Uilíoch (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-giotán (Apple Silicon)",
+			"intel64": "Intel 64-giotán"
+		},
+		"items": {
+			"installer": "Suiteálaí {format}",
+			"package": "Pacáiste {format}",
+			"portableZip": "ZIP iniompartha",
+			"viewOnGithub": "Féach ar GitHub"
+		},
+		"macos": {
+			"title": "Nóta tábhachtach d'úsáideoirí macOS:",
+			"intro": "Cuireann macOS Gatekeeper bac ar fheidhmchláir neamhshínithe / neamhfhíordheimhnithe a íoslódáiltear ón idirlíon le hearráid {error}.",
+			"error": "\"tá sé damáistithe agus ní féidir é a oscailt\"",
+			"runCommand": "Tar éis duit an DMG nó ZIP a íoslódáil, sula n-osclaíonn tú an fheidhmchlár, rith sa Terminal ordú den fhoirm seo a leanas:",
+			"exampleDmg": "Mar shampla tar éis suiteáil ó DMG:",
+			"exampleZip": "Nó tar éis an ZIP a bhaint amach:",
+			"explanation": "Baineann an t-ordú seo an aitreabúid choraintín agus ceadaíonn sé an fheidhmchlár a rith."
+		}
+	},
+	"screenshots": {
+		"title": "Scáileáin",
+		"open": "Oscail scáileán {index}",
+		"alt": "Scáileán {index}",
+		"close": "Dún an gailearaí",
+		"prev": "Íomhá roimhe seo",
+		"next": "An chéad íomhá eile"
+	},
+	"comparison": {
+		"title": "Comparáid",
+		"feature": "Gné",
+		"yes": "tá",
+		"no": "níl",
+		"partialDht": "Páirteach (DHT)",
+		"rows": {
+			"decentralized": "Líonra dílárnaithe",
+			"onlineLibrary": "Leabharlann ar líne",
+			"builtInSearch": "Cuardach ábhair ionsuite",
+			"decentralizedSearch": "Cuardach ábhair dílárnaithe",
+			"parallelDownloads": "Íoslódálacha comhthreomhara ó fhoinsí iomadúla",
+			"mediaCenter": "Comhéadan ionad meán",
+			"gamepad": "Tacaíocht do gamepad",
+			"openSource": "Foinse oscailte"
+		}
+	},
+	"contact": {
+		"title": "Teagmháil",
+		"getInTouch": "Déan teagmháil",
+		"links": {
+			"telegramChat": "Grúpa comhrá Telegram",
+			"telegramAnnouncements": "Fógraí Telegram",
+			"facebook": "Grúpa Facebook"
+		}
+	},
+	"footer": {
+		"by": "le"
+	}
+}

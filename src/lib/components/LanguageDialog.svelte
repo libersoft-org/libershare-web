@@ -76,7 +76,7 @@
 			{#each languages as lang}
 				<div class="item" class:active={$currentLanguage === lang.id} role="button" tabindex="0" data-lang={lang.id} aria-pressed={$currentLanguage === lang.id} onclick={handleItemClick} onkeydown={handleItemKey}>
 					<span class="flag"><img src={getFlagURL(lang.id)} alt={lang.nativeLabel} draggable="false" /></span>
-					<span class="name">{lang.nativeLabel}</span>
+					<span class="name">{lang.label} ({lang.nativeLabel})</span>
 				</div>
 			{/each}
 		</div>

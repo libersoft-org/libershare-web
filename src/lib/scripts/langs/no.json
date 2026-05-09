@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentralisert fildeling",
+		"description": "{project} er en peer-to-peer fildelingsprogramvare bygget på moderne desentraliserte teknologier.",
+		"ogTitle": "{project} - Desentralisert fildelingsprogramvare",
+		"ogDescription": "Peer-to-peer fildeling bygget på moderne desentraliserte teknologier. Ingen sentrale servere. Ingenting som kan slå ut hele nettverket."
+	},
+	"menu": {
+		"about": "Om",
+		"download": "Last ned",
+		"screenshots": "Skjermbilder",
+		"comparison": "Sammenligning",
+		"contact": "Kontakt",
+		"toggle": "Veksle meny",
+		"close": "Lukk meny",
+		"language": "Språk",
+		"selectLanguage": "Velg språk"
+	},
+	"hero": {
+		"subtitle": "Neste generasjons peer-to-peer fildeling",
+		"description": "Bygget på moderne desentraliserte teknologier. Ingen sentrale servere. Ingenting som kan slå ut hele nettverket.",
+		"download": "Last ned"
+	},
+	"about": {
+		"title": "Om",
+		"intro": "{project} er en neste generasjons peer-to-peer fildelingsplattform bygget på moderne desentraliserte teknologier. Den kombinerer et intuitivt brukergrensesnitt med en helt desentralisert arkitektur, og gir en sikker og pålitelig løsning for datadeling som er uavhengig av enhver sentral myndighet. Prosjektet er åpen kildekode og distribueres under {license}-lisensen.",
+		"features": {
+			"decentralized": {
+				"title": "Helt desentralisert nettverk",
+				"description": "Ingen sentrale servere, ingen enkel feilkilde. Brukere søker og laster ned innhold direkte fra hverandre, uten å være avhengig av sentraliserte indeksere, trackere eller databaser."
+			},
+			"accessControl": {
+				"title": "Detaljert tilgangskontroll",
+				"description": "Hvem som helst står fritt til å starte sitt eget nettverk med sine egne regler. Definer brukerroller i hvert nettverk: eiere, administratorer, utgivere, moderatorer og nedlastere. Kontroller nøyaktig hvem som kan publisere, moderere og laste ned innhold."
+			},
+			"ui": {
+				"title": "Førsteklasses brukergrensesnitt",
+				"description": "Et rent og brukervennlig mediasenter-grensesnitt designet for stasjonære, TV- og mobile plattformer. Naviger sømløst med tastatur, mus, spillkontroll eller fjernkontroll. Avanserte brukere kan utnytte kommandolinjegrensesnittet for å kjøre programvaren som en filserver uten grafisk grensesnitt."
+			},
+			"dataFormat": {
+				"title": "Menneskelesbart dataformat",
+				"description": "LISH-dataformatet er basert på JSON, noe som gjør det enkelt å lage, lese og forstå. Del innholdet ditt med tydelige, gjennomsiktige metadata som hvem som helst enkelt kan inspisere."
+			},
+			"security": {
+				"title": "Personvern og sikkerhet",
+				"description": "All peer-to-peer-kommunikasjon er kryptert, noe som sikrer at dataene dine forblir private under overføring. Brukere kan gjemme seg bak en VPN for et ekstra lag med anonymitet. {project} respekterer personvernet ditt fra bunnen av."
+			},
+			"crossPlatform": {
+				"title": "Plattformuavhengig",
+				"description": "Programvaren er tilgjengelig for plattformene Windows, Linux og macOS. Bruk den på hvilken som helst enhet du foretrekker."
+			}
+		}
+	},
+	"download": {
+		"title": "Last ned",
+		"description": "Få {project} for plattformen din. Alle nedlastinger er gratis og åpen kildekode.",
+		"version": "Nåværende versjon: {version}",
+		"linkAlt": "Last ned",
+		"platforms": {
+			"sourceCode": "Kildekode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-installasjonsprogram",
+			"package": "{format}-pakke",
+			"portableZip": "Bærbar ZIP",
+			"viewOnGithub": "Se på GitHub"
+		},
+		"macos": {
+			"title": "Viktig merknad for macOS-brukere:",
+			"intro": "macOS Gatekeeper blokkerer usignerte / ikke autentiserte apper lastet ned fra internett med en {error}-feil.",
+			"error": "\"er skadet og kan ikke åpnes\"",
+			"runCommand": "Etter at du har lastet ned DMG eller ZIP, før du åpner appen, kjør i Terminal en kommando i følgende form:",
+			"exampleDmg": "For eksempel etter installasjon fra DMG:",
+			"exampleZip": "Eller etter å ha pakket ut ZIP:",
+			"explanation": "Denne kommandoen fjerner karanteneattributtet og tillater at appen kjøres."
+		}
+	},
+	"screenshots": {
+		"title": "Skjermbilder",
+		"open": "Åpne skjermbilde {index}",
+		"alt": "Skjermbilde {index}",
+		"close": "Lukk galleri",
+		"prev": "Forrige bilde",
+		"next": "Neste bilde"
+	},
+	"comparison": {
+		"title": "Sammenligning",
+		"feature": "Funksjon",
+		"yes": "ja",
+		"no": "nei",
+		"partialDht": "Delvis (DHT)",
+		"rows": {
+			"decentralized": "Desentralisert nettverk",
+			"onlineLibrary": "Nettbibliotek",
+			"builtInSearch": "Innebygd innholdssøk",
+			"decentralizedSearch": "Desentralisert innholdssøk",
+			"parallelDownloads": "Parallelle nedlastinger fra flere kilder",
+			"mediaCenter": "Mediasenter-grensesnitt",
+			"gamepad": "Spillkontrollstøtte",
+			"openSource": "Åpen kildekode"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Ta kontakt",
+		"links": {
+			"telegramChat": "Telegram-chattegruppe",
+			"telegramAnnouncements": "Telegram-kunngjøringer",
+			"facebook": "Facebook-gruppe"
+		}
+	},
+	"footer": {
+		"by": "av"
+	}
+}

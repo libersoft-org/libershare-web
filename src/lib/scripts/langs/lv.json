@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizēta failu koplietošana",
+		"description": "{project} ir peer-to-peer failu koplietošanas programmatūra, kas balstīta uz mūsdienu decentralizētām tehnoloģijām.",
+		"ogTitle": "{project} - Decentralizēta failu koplietošanas programmatūra",
+		"ogDescription": "Peer-to-peer failu koplietošana, kas balstīta uz mūsdienu decentralizētām tehnoloģijām. Bez centrālajiem serveriem. Nekas, kas varētu nogāzt visu tīklu."
+	},
+	"menu": {
+		"about": "Par",
+		"download": "Lejupielāde",
+		"screenshots": "Ekrānuzņēmumi",
+		"comparison": "Salīdzinājums",
+		"contact": "Kontakti",
+		"toggle": "Pārslēgt izvēlni",
+		"close": "Aizvērt izvēlni",
+		"language": "Valoda",
+		"selectLanguage": "Izvēlieties valodu"
+	},
+	"hero": {
+		"subtitle": "Jaunās paaudzes peer-to-peer failu koplietošana",
+		"description": "Balstīta uz mūsdienu decentralizētām tehnoloģijām. Bez centrālajiem serveriem. Nekas, kas varētu nogāzt visu tīklu.",
+		"download": "Lejupielādēt"
+	},
+	"about": {
+		"title": "Par",
+		"intro": "{project} ir jaunās paaudzes peer-to-peer failu koplietošanas platforma, kas balstīta uz mūsdienu decentralizētām tehnoloģijām. Tā apvieno intuitīvu lietotāja saskarni ar pilnībā decentralizētu arhitektūru, nodrošinot drošu un uzticamu risinājumu datu koplietošanai, kas nav atkarīgs no jebkādas centrālas iestādes. Projekts ir atvērtā koda un tiek izplatīts saskaņā ar {license} licenci.",
+		"features": {
+			"decentralized": {
+				"title": "Pilnībā decentralizēts tīkls",
+				"description": "Bez centrālajiem serveriem, bez vienota atteices punkta. Lietotāji meklē un lejupielādē saturu tieši viens no otra, neizmantojot centralizētus indeksētājus, izsekotājus vai datu bāzes."
+			},
+			"accessControl": {
+				"title": "Detalizēta piekļuves kontrole",
+				"description": "Ikviens var brīvi izveidot savu tīklu ar saviem noteikumiem. Definējiet lietotāju lomas katrā tīklā: īpašniekus, administratorus, izdevējus, moderatorus un lejupielādētājus. Precīzi kontrolējiet, kas var publicēt, moderēt un lejupielādēt saturu."
+			},
+			"ui": {
+				"title": "Augstākās klases lietotāja saskarne",
+				"description": "Tīra un lietotājam draudzīga multimediju centra saskarne, kas paredzēta galddatoru, TV un mobilajām platformām. Naviģējiet bez problēmām ar tastatūru, peli, spēļu pulti vai tālvadības pulti. Pieredzējuši lietotāji var izmantot komandrindas saskarni, lai palaistu programmatūru kā failu serveri bez grafiskās saskarnes."
+			},
+			"dataFormat": {
+				"title": "Cilvēkam saprotams datu formāts",
+				"description": "LISH datu formāts ir balstīts uz JSON, tāpēc to ir viegli izveidot, lasīt un saprast. Dalieties ar savu saturu ar skaidriem, caurskatāmiem metadatiem, ko ikviens var viegli pārbaudīt."
+			},
+			"security": {
+				"title": "Privātums un drošība",
+				"description": "Visa peer-to-peer komunikācija ir šifrēta, nodrošinot, ka jūsu dati paliek privāti pārsūtīšanas laikā. Lietotāji var paslēpties aiz VPN papildu anonimitātes slānim. {project} ievēro jūsu privātumu pēc dizaina."
+			},
+			"crossPlatform": {
+				"title": "Daudzplatformu",
+				"description": "Programmatūra ir pieejama Windows, Linux un macOS platformām. Izmantojiet to jebkurā jums vēlamā ierīcē."
+			}
+		}
+	},
+	"download": {
+		"title": "Lejupielāde",
+		"description": "Iegūstiet {project} savai platformai. Visas lejupielādes ir bezmaksas un atvērtā koda.",
+		"version": "Pašreizējā versija: {version}",
+		"linkAlt": "Lejupielādēt",
+		"platforms": {
+			"sourceCode": "Pirmkods"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bitu",
+			"arm64": "ARM 64 bitu",
+			"universal": "Universāls (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bitu (Apple Silicon)",
+			"intel64": "Intel 64 bitu"
+		},
+		"items": {
+			"installer": "{format} instalators",
+			"package": "{format} pakotne",
+			"portableZip": "Pārnēsājams ZIP",
+			"viewOnGithub": "Skatīt GitHub"
+		},
+		"macos": {
+			"title": "Svarīgs paziņojums macOS lietotājiem:",
+			"intro": "macOS Gatekeeper bloķē no interneta lejupielādētas neparakstītas / neapstiprinātas lietotnes ar kļūdu {error}.",
+			"error": "\"ir bojāts un to nevar atvērt\"",
+			"runCommand": "Pēc DMG vai ZIP lejupielādes, pirms lietotnes atvēršanas, palaidiet Terminālā komandu šādā formā:",
+			"exampleDmg": "Piemēram, pēc instalēšanas no DMG:",
+			"exampleZip": "Vai pēc ZIP izvilkšanas:",
+			"explanation": "Šī komanda noņem karantīnas atribūtu un ļauj lietotnei darboties."
+		}
+	},
+	"screenshots": {
+		"title": "Ekrānuzņēmumi",
+		"open": "Atvērt uzņēmumu {index}",
+		"alt": "Ekrānuzņēmums {index}",
+		"close": "Aizvērt galeriju",
+		"prev": "Iepriekšējais attēls",
+		"next": "Nākamais attēls"
+	},
+	"comparison": {
+		"title": "Salīdzinājums",
+		"feature": "Funkcija",
+		"yes": "jā",
+		"no": "nē",
+		"partialDht": "Daļēji (DHT)",
+		"rows": {
+			"decentralized": "Decentralizēts tīkls",
+			"onlineLibrary": "Tiešsaistes bibliotēka",
+			"builtInSearch": "Iebūvēta satura meklēšana",
+			"decentralizedSearch": "Decentralizēta satura meklēšana",
+			"parallelDownloads": "Paralēlas lejupielādes no vairākiem avotiem",
+			"mediaCenter": "Multimediju centra saskarne",
+			"gamepad": "Spēļu pults atbalsts",
+			"openSource": "Atvērtā koda"
+		}
+	},
+	"contact": {
+		"title": "Kontakti",
+		"getInTouch": "Sazinieties",
+		"links": {
+			"telegramChat": "Telegram tērzēšanas grupa",
+			"telegramAnnouncements": "Telegram paziņojumi",
+			"facebook": "Facebook grupa"
+		}
+	},
+	"footer": {
+		"by": "no"
+	}
+}

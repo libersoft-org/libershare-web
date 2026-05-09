@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Gedecentraliseerd bestanden delen",
+		"description": "{project} is peer-to-peer software voor het delen van bestanden, gebouwd op moderne gedecentraliseerde technologieën.",
+		"ogTitle": "{project} - Gedecentraliseerde software voor het delen van bestanden",
+		"ogDescription": "Peer-to-peer bestandsdeling gebouwd op moderne gedecentraliseerde technologieën. Geen centrale servers. Niets dat het hele netwerk kan platleggen."
+	},
+	"menu": {
+		"about": "Over",
+		"download": "Downloaden",
+		"screenshots": "Schermafbeeldingen",
+		"comparison": "Vergelijking",
+		"contact": "Contact",
+		"toggle": "Menu omschakelen",
+		"close": "Menu sluiten",
+		"language": "Taal",
+		"selectLanguage": "Taal selecteren"
+	},
+	"hero": {
+		"subtitle": "Volgende generatie peer-to-peer bestandsdeling",
+		"description": "Gebouwd op moderne gedecentraliseerde technologieën. Geen centrale servers. Niets dat het hele netwerk kan platleggen.",
+		"download": "Downloaden"
+	},
+	"about": {
+		"title": "Over",
+		"intro": "{project} is een peer-to-peer platform van de volgende generatie voor het delen van bestanden, gebouwd op moderne gedecentraliseerde technologieën. Het combineert een intuïtieve gebruikersinterface met een volledig gedecentraliseerde architectuur en biedt een veilige en betrouwbare oplossing voor het delen van data, onafhankelijk van enige centrale autoriteit. Het project is open source en wordt gedistribueerd onder de {license}-licentie.",
+		"features": {
+			"decentralized": {
+				"title": "Volledig gedecentraliseerd netwerk",
+				"description": "Geen centrale servers, geen single point of failure. Gebruikers zoeken en downloaden inhoud rechtstreeks bij elkaar, zonder afhankelijk te zijn van gecentraliseerde indexeerders, trackers of databases."
+			},
+			"accessControl": {
+				"title": "Gedetailleerde toegangscontrole",
+				"description": "Iedereen kan vrij zijn eigen netwerk starten met eigen regels. Definieer gebruikersrollen binnen elk netwerk: eigenaren, beheerders, uitgevers, moderators en downloaders. Bepaal precies wie inhoud mag publiceren, modereren en downloaden."
+			},
+			"ui": {
+				"title": "Topklasse gebruikersinterface",
+				"description": "Een schone en gebruiksvriendelijke mediacenter-interface ontworpen voor desktop-, tv- en mobiele platforms. Navigeer naadloos met toetsenbord, muis, gamepad of afstandsbediening. Gevorderde gebruikers kunnen de opdrachtregelinterface gebruiken om de software als bestandsserver zonder grafische interface uit te voeren."
+			},
+			"dataFormat": {
+				"title": "Door mensen leesbaar gegevensformaat",
+				"description": "Het LISH-gegevensformaat is gebaseerd op JSON, waardoor het eenvoudig is om te maken, te lezen en te begrijpen. Deel je inhoud met duidelijke, transparante metadata die iedereen gemakkelijk kan inspecteren."
+			},
+			"security": {
+				"title": "Privacy en beveiliging",
+				"description": "Alle peer-to-peer-communicatie is versleuteld, zodat je gegevens privé blijven tijdens de overdracht. Gebruikers kunnen zich verbergen achter een VPN voor een extra laag van anonimiteit. {project} respecteert je privacy door ontwerp."
+			},
+			"crossPlatform": {
+				"title": "Platformonafhankelijk",
+				"description": "De software is beschikbaar voor de platforms Windows, Linux en macOS. Gebruik het op elk apparaat dat je verkiest."
+			}
+		}
+	},
+	"download": {
+		"title": "Downloaden",
+		"description": "Verkrijg {project} voor jouw platform. Alle downloads zijn gratis en open source.",
+		"version": "Huidige versie: {version}",
+		"linkAlt": "Downloaden",
+		"platforms": {
+			"sourceCode": "Broncode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universeel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-installatieprogramma",
+			"package": "{format}-pakket",
+			"portableZip": "Draagbare ZIP",
+			"viewOnGithub": "Bekijk op GitHub"
+		},
+		"macos": {
+			"title": "Belangrijke opmerking voor macOS-gebruikers:",
+			"intro": "macOS Gatekeeper blokkeert niet-ondertekende / niet-geverifieerde apps die van internet zijn gedownload met een {error}-fout.",
+			"error": "\"is beschadigd en kan niet worden geopend\"",
+			"runCommand": "Voer na het downloaden van de DMG of ZIP, voordat je de app opent, in Terminal een commando uit in de volgende vorm:",
+			"exampleDmg": "Bijvoorbeeld na installatie vanuit DMG:",
+			"exampleZip": "Of na het uitpakken van de ZIP:",
+			"explanation": "Dit commando verwijdert het quarantaine-attribuut en staat de app toe om te draaien."
+		}
+	},
+	"screenshots": {
+		"title": "Schermafbeeldingen",
+		"open": "Open schermafbeelding {index}",
+		"alt": "Schermafbeelding {index}",
+		"close": "Galerij sluiten",
+		"prev": "Vorige afbeelding",
+		"next": "Volgende afbeelding"
+	},
+	"comparison": {
+		"title": "Vergelijking",
+		"feature": "Functie",
+		"yes": "ja",
+		"no": "nee",
+		"partialDht": "Gedeeltelijk (DHT)",
+		"rows": {
+			"decentralized": "Gedecentraliseerd netwerk",
+			"onlineLibrary": "Online bibliotheek",
+			"builtInSearch": "Ingebouwd inhoud zoeken",
+			"decentralizedSearch": "Gedecentraliseerd inhoud zoeken",
+			"parallelDownloads": "Parallelle downloads van meerdere bronnen",
+			"mediaCenter": "Mediacenter-interface",
+			"gamepad": "Gamepad-ondersteuning",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Neem contact op",
+		"links": {
+			"telegramChat": "Telegram-chatgroep",
+			"telegramAnnouncements": "Telegram-aankondigingen",
+			"facebook": "Facebook-groep"
+		}
+	},
+	"footer": {
+		"by": "door"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ndarja e decentralizuar e skedarëve",
+		"description": "{project} është software peer-to-peer për ndarjen e skedarëve, ndërtuar mbi teknologji moderne të decentralizuara.",
+		"ogTitle": "{project} - Software i decentralizuar për ndarjen e skedarëve",
+		"ogDescription": "Ndarje e skedarëve peer-to-peer ndërtuar mbi teknologji moderne të decentralizuara. Pa serverë qendrorë. Asgjë që mund të rrëzojë të gjithë rrjetin."
+	},
+	"menu": {
+		"about": "Rreth",
+		"download": "Shkarko",
+		"screenshots": "Pamje ekrani",
+		"comparison": "Krahasim",
+		"contact": "Kontakt",
+		"toggle": "Ndërro menynë",
+		"close": "Mbyll menynë",
+		"language": "Gjuha",
+		"selectLanguage": "Zgjidh gjuhën"
+	},
+	"hero": {
+		"subtitle": "Ndarje e skedarëve peer-to-peer e gjeneratës së ardhshme",
+		"description": "Ndërtuar mbi teknologji moderne të decentralizuara. Pa serverë qendrorë. Asgjë që mund të rrëzojë të gjithë rrjetin.",
+		"download": "Shkarko"
+	},
+	"about": {
+		"title": "Rreth",
+		"intro": "{project} është një platformë peer-to-peer e gjeneratës së ardhshme për ndarjen e skedarëve, e ndërtuar mbi teknologji moderne të decentralizuara. Kombinon një ndërfaqe intuitive përdoruesi me një arkitekturë plotësisht të decentralizuar, duke ofruar një zgjidhje të sigurt dhe të besueshme për ndarjen e të dhënave, e pavarur nga çdo autoritet qendror. Projekti është me kod të hapur dhe shpërndahet nën licencën {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rrjet plotësisht i decentralizuar",
+				"description": "Pa serverë qendrorë, pa pikë të vetme dështimi. Përdoruesit kërkojnë dhe shkarkojnë përmbajtje drejtpërdrejt nga njëri-tjetri, pa u mbështetur në indeksues, gjurmues ose baza të dhënash të centralizuara."
+			},
+			"accessControl": {
+				"title": "Kontroll i detajuar i aksesit",
+				"description": "Kushdo mund të nisë lirisht rrjetin e tij me rregullat e veta. Përcaktoni rolet e përdoruesve brenda çdo rrjeti: pronarë, administratorë, botues, moderatorë dhe shkarkues. Kontrolloni saktësisht se kush mund të botojë, moderojë dhe shkarkojë përmbajtje."
+			},
+			"ui": {
+				"title": "Ndërfaqe përdoruesi e klasës së parë",
+				"description": "Një ndërfaqe e pastër dhe miqësore për përdoruesin e qendrës mediatike, e dizajnuar për platforma desktop, TV dhe celulare. Lundroni pa probleme me tastierë, maus, gamepad ose telekomandë. Përdoruesit e avancuar mund të shfrytëzojnë ndërfaqen e linjës së komandës për ta ekzekutuar softuerin si server skedarësh pa ndërfaqe grafike."
+			},
+			"dataFormat": {
+				"title": "Format i të dhënave i lexueshëm nga njerëzit",
+				"description": "Formati i të dhënave LISH bazohet në JSON, duke e bërë të lehtë për t'u krijuar, lexuar dhe kuptuar. Ndani përmbajtjen tuaj me metadata të qarta dhe transparente që kushdo mund t'i inspektojë lehtësisht."
+			},
+			"security": {
+				"title": "Privatësia dhe siguria",
+				"description": "I gjithë komunikimi peer-to-peer është i enkriptuar, duke siguruar që të dhënat tuaja të mbeten private gjatë transferimit. Përdoruesit mund të fshihen pas një VPN për një shtresë shtesë anonimiteti. {project} respekton privatësinë tuaj nga dizajni."
+			},
+			"crossPlatform": {
+				"title": "Ndërplatformësh",
+				"description": "Softueri është i disponueshëm për platformat Windows, Linux dhe macOS. Përdoreni në çdo pajisje që preferoni."
+			}
+		}
+	},
+	"download": {
+		"title": "Shkarko",
+		"description": "Merrni {project} për platformën tuaj. Të gjitha shkarkimet janë falas dhe me kod të hapur.",
+		"version": "Versioni aktual: {version}",
+		"linkAlt": "Shkarko",
+		"platforms": {
+			"sourceCode": "Kodi burimor"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Instalues {format}",
+			"package": "Pako {format}",
+			"portableZip": "ZIP portativ",
+			"viewOnGithub": "Shihe në GitHub"
+		},
+		"macos": {
+			"title": "Shënim i rëndësishëm për përdoruesit e macOS:",
+			"intro": "macOS Gatekeeper bllokon aplikacionet e panënshkruara / të paverifikuara të shkarkuara nga interneti me një gabim {error}.",
+			"error": "\"është dëmtuar dhe nuk mund të hapet\"",
+			"runCommand": "Pasi të shkarkoni DMG ose ZIP, përpara se të hapni aplikacionin, ekzekutoni në Terminal një komandë të formës së mëposhtme:",
+			"exampleDmg": "Për shembull pas instalimit nga DMG:",
+			"exampleZip": "Ose pas nxjerrjes së ZIP:",
+			"explanation": "Kjo komandë heq atributin e karantinës dhe lejon ekzekutimin e aplikacionit."
+		}
+	},
+	"screenshots": {
+		"title": "Pamje ekrani",
+		"open": "Hap pamjen {index}",
+		"alt": "Pamje ekrani {index}",
+		"close": "Mbyll galerinë",
+		"prev": "Imazhi i mëparshëm",
+		"next": "Imazhi tjetër"
+	},
+	"comparison": {
+		"title": "Krahasim",
+		"feature": "Veçori",
+		"yes": "po",
+		"no": "jo",
+		"partialDht": "Pjesërisht (DHT)",
+		"rows": {
+			"decentralized": "Rrjet i decentralizuar",
+			"onlineLibrary": "Biblioteka online",
+			"builtInSearch": "Kërkim i integruar i përmbajtjes",
+			"decentralizedSearch": "Kërkim i decentralizuar i përmbajtjes",
+			"parallelDownloads": "Shkarkime paralele nga burime të shumta",
+			"mediaCenter": "Ndërfaqe e qendrës mediatike",
+			"gamepad": "Mbështetje për gamepad",
+			"openSource": "Kod i hapur"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Lidhuni",
+		"links": {
+			"telegramChat": "Grup chat-i Telegram",
+			"telegramAnnouncements": "Njoftime në Telegram",
+			"facebook": "Grup në Facebook"
+		}
+	},
+	"footer": {
+		"by": "nga"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Merkezi olmayan dosya paylaşımı",
+		"description": "{project}, modern merkezi olmayan teknolojiler üzerine inşa edilmiş bir eşler arası dosya paylaşım yazılımıdır.",
+		"ogTitle": "{project} - Merkezi olmayan dosya paylaşım yazılımı",
+		"ogDescription": "Modern merkezi olmayan teknolojiler üzerine inşa edilmiş eşler arası dosya paylaşımı. Merkezi sunucu yok. Tüm ağı çökertebilecek hiçbir şey yok."
+	},
+	"menu": {
+		"about": "Hakkında",
+		"download": "İndir",
+		"screenshots": "Ekran görüntüleri",
+		"comparison": "Karşılaştırma",
+		"contact": "İletişim",
+		"toggle": "Menüyü aç/kapat",
+		"close": "Menüyü kapat",
+		"language": "Dil",
+		"selectLanguage": "Dil seç"
+	},
+	"hero": {
+		"subtitle": "Yeni nesil eşler arası dosya paylaşımı",
+		"description": "Modern merkezi olmayan teknolojiler üzerine inşa edildi. Merkezi sunucu yok. Tüm ağı çökertebilecek hiçbir şey yok.",
+		"download": "İndir"
+	},
+	"about": {
+		"title": "Hakkında",
+		"intro": "{project}, modern merkezi olmayan teknolojiler üzerine inşa edilmiş yeni nesil bir eşler arası dosya paylaşım platformudur. Sezgisel bir kullanıcı arayüzünü tamamen merkezi olmayan bir mimariyle birleştirerek, herhangi bir merkezi otoriteden bağımsız, güvenli ve güvenilir bir veri paylaşım çözümü sunar. Proje açık kaynaklıdır ve {license} lisansı altında dağıtılır.",
+		"features": {
+			"decentralized": {
+				"title": "Tamamen merkezi olmayan ağ",
+				"description": "Merkezi sunucu yok, tek bir hata noktası yok. Kullanıcılar, merkezi indeksleyicilere, izleyicilere veya veritabanlarına bağımlı olmadan içeriği doğrudan birbirlerinden arar ve indirir."
+			},
+			"accessControl": {
+				"title": "Ayrıntılı erişim kontrolü",
+				"description": "Herkes kendi kurallarıyla kendi ağını kurmakta özgürdür. Her ağda kullanıcı rollerini tanımlayın: sahipler, yöneticiler, yayıncılar, moderatörler ve indirenler. İçeriği kimin yayınlayabileceğini, denetleyebileceğini ve indirebileceğini tam olarak kontrol edin."
+			},
+			"ui": {
+				"title": "Birinci sınıf kullanıcı arayüzü",
+				"description": "Masaüstü, TV ve mobil platformlar için tasarlanmış temiz ve kullanıcı dostu bir medya merkezi arayüzü. Klavye, fare, oyun kumandası veya uzaktan kumanda ile sorunsuz bir şekilde gezinin. Gelişmiş kullanıcılar, yazılımı grafik arayüz olmadan bir dosya sunucusu olarak çalıştırmak için komut satırı arayüzünden yararlanabilir."
+			},
+			"dataFormat": {
+				"title": "İnsan tarafından okunabilir veri formatı",
+				"description": "LISH veri formatı JSON'a dayanır, bu da onu oluşturmayı, okumayı ve anlamayı kolaylaştırır. İçeriğinizi, herkesin kolayca inceleyebileceği net ve şeffaf meta verilerle paylaşın."
+			},
+			"security": {
+				"title": "Gizlilik ve güvenlik",
+				"description": "Tüm eşler arası iletişim şifrelenir ve verilerinizin aktarım sırasında özel kalmasını sağlar. Kullanıcılar ek bir anonimlik katmanı için VPN'in arkasına saklanabilir. {project}, gizliliğinize tasarım gereği saygı duyar."
+			},
+			"crossPlatform": {
+				"title": "Çapraz platform",
+				"description": "Yazılım Windows, Linux ve macOS platformları için kullanılabilir. Tercih ettiğiniz herhangi bir cihazda kullanın."
+			}
+		}
+	},
+	"download": {
+		"title": "İndir",
+		"description": "Platformunuz için {project} alın. Tüm indirmeler ücretsiz ve açık kaynak kodludur.",
+		"version": "Geçerli sürüm: {version}",
+		"linkAlt": "İndir",
+		"platforms": {
+			"sourceCode": "Kaynak kodu"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bit",
+			"arm64": "ARM 64 bit",
+			"universal": "Evrensel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bit (Apple Silicon)",
+			"intel64": "Intel 64 bit"
+		},
+		"items": {
+			"installer": "{format} yükleyici",
+			"package": "{format} paketi",
+			"portableZip": "Taşınabilir ZIP",
+			"viewOnGithub": "GitHub'da görüntüle"
+		},
+		"macos": {
+			"title": "macOS kullanıcıları için önemli not:",
+			"intro": "macOS Gatekeeper, internetten indirilen imzasız / kimliği doğrulanmamış uygulamaları {error} hatasıyla engeller.",
+			"error": "\"hasarlı ve açılamaz\"",
+			"runCommand": "DMG veya ZIP'i indirdikten sonra, uygulamayı açmadan önce, Terminal'de aşağıdaki biçimde bir komut çalıştırın:",
+			"exampleDmg": "Örneğin DMG'den kurulumdan sonra:",
+			"exampleZip": "Veya ZIP'i çıkardıktan sonra:",
+			"explanation": "Bu komut karantina özelliğini kaldırır ve uygulamanın çalışmasına izin verir."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran görüntüleri",
+		"open": "Görüntü {index} aç",
+		"alt": "Ekran görüntüsü {index}",
+		"close": "Galeriyi kapat",
+		"prev": "Önceki görüntü",
+		"next": "Sonraki görüntü"
+	},
+	"comparison": {
+		"title": "Karşılaştırma",
+		"feature": "Özellik",
+		"yes": "evet",
+		"no": "hayır",
+		"partialDht": "Kısmen (DHT)",
+		"rows": {
+			"decentralized": "Merkezi olmayan ağ",
+			"onlineLibrary": "Çevrimiçi kütüphane",
+			"builtInSearch": "Yerleşik içerik arama",
+			"decentralizedSearch": "Merkezi olmayan içerik arama",
+			"parallelDownloads": "Birden çok kaynaktan paralel indirme",
+			"mediaCenter": "Medya merkezi arayüzü",
+			"gamepad": "Oyun kumandası desteği",
+			"openSource": "Açık kaynak"
+		}
+	},
+	"contact": {
+		"title": "İletişim",
+		"getInTouch": "İletişime geçin",
+		"links": {
+			"telegramChat": "Telegram sohbet grubu",
+			"telegramAnnouncements": "Telegram duyuruları",
+			"facebook": "Facebook grubu"
+		}
+	},
+	"footer": {
+		"by": "geliştiren:"
+	}
+}

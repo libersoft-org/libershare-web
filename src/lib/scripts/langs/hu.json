@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizált fájlmegosztás",
+		"description": "{project} egy peer-to-peer fájlmegosztó szoftver, amely modern decentralizált technológiákra épül.",
+		"ogTitle": "{project} - Decentralizált fájlmegosztó szoftver",
+		"ogDescription": "Modern decentralizált technológiákra épülő peer-to-peer fájlmegosztás. Nincsenek központi szerverek. Semmi, ami az egész hálózatot megbéníthatná."
+	},
+	"menu": {
+		"about": "Bemutatkozás",
+		"download": "Letöltés",
+		"screenshots": "Képernyőképek",
+		"comparison": "Összehasonlítás",
+		"contact": "Kapcsolat",
+		"toggle": "Menü ki/be",
+		"close": "Menü bezárása",
+		"language": "Nyelv",
+		"selectLanguage": "Nyelv kiválasztása"
+	},
+	"hero": {
+		"subtitle": "Új generációs peer-to-peer fájlmegosztás",
+		"description": "Modern decentralizált technológiákra épülve. Nincsenek központi szerverek. Semmi, ami az egész hálózatot megbéníthatná.",
+		"download": "Letöltés"
+	},
+	"about": {
+		"title": "Bemutatkozás",
+		"intro": "{project} egy új generációs peer-to-peer fájlmegosztó platform, amely modern decentralizált technológiákra épül. Egyesíti az intuitív felhasználói felületet a teljesen decentralizált architektúrával, biztonságos és megbízható megoldást nyújtva az adatmegosztáshoz, függetlenül bármilyen központi hatóságtól. A projekt nyílt forráskódú, és a {license} licenc alatt kerül terjesztésre.",
+		"features": {
+			"decentralized": {
+				"title": "Teljesen decentralizált hálózat",
+				"description": "Nincsenek központi szerverek, nincs egyetlen meghibásodási pont. A felhasználók közvetlenül egymás között keresnek és töltenek le tartalmat, anélkül, hogy központi indexelőkre, trackerekre vagy adatbázisokra támaszkodnának."
+			},
+			"accessControl": {
+				"title": "Részletes hozzáférés-vezérlés",
+				"description": "Bárki szabadon indíthatja saját hálózatát saját szabályokkal. Definiáljon felhasználói szerepköröket minden hálózaton belül: tulajdonosokat, adminisztrátorokat, közzétevőket, moderátorokat és letöltőket. Pontosan szabályozhatja, ki tehet közzé, moderálhat és tölthet le tartalmat."
+			},
+			"ui": {
+				"title": "Csúcsminőségű felhasználói felület",
+				"description": "Tiszta és felhasználóbarát médiaközpont-felület asztali, TV- és mobilplatformokra tervezve. Navigáljon zökkenőmentesen billentyűzettel, egérrel, gamepaddel vagy távirányítóval. A profi felhasználók kihasználhatják a parancssori felületet, hogy a szoftvert grafikus felület nélküli fájlszerverként futtassák."
+			},
+			"dataFormat": {
+				"title": "Ember által olvasható adatformátum",
+				"description": "A LISH adatformátum JSON alapú, így könnyen létrehozható, olvasható és érthető. Ossza meg tartalmait világos, átlátható metaadatokkal, amelyeket bárki könnyen ellenőrizhet."
+			},
+			"security": {
+				"title": "Adatvédelem és biztonság",
+				"description": "A teljes peer-to-peer kommunikáció titkosított, így az adatai privátak maradnak az átvitel során. A felhasználók VPN mögé bújhatnak további anonimitásért. A {project} már tervezésénél fogva tiszteletben tartja az Ön adatvédelmét."
+			},
+			"crossPlatform": {
+				"title": "Többplatformos",
+				"description": "A szoftver elérhető Windows, Linux és macOS platformokra. Használja bármilyen készüléken."
+			}
+		}
+	},
+	"download": {
+		"title": "Letöltés",
+		"description": "Töltse le a {project} alkalmazást a platformjához. Minden letöltés ingyenes és nyílt forráskódú.",
+		"version": "Aktuális verzió: {version}",
+		"linkAlt": "Letöltés",
+		"platforms": {
+			"sourceCode": "Forráskód"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bit",
+			"arm64": "ARM 64 bit",
+			"universal": "Univerzális (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bit (Apple Silicon)",
+			"intel64": "Intel 64 bit"
+		},
+		"items": {
+			"installer": "{format} telepítő",
+			"package": "{format} csomag",
+			"portableZip": "Hordozható ZIP",
+			"viewOnGithub": "Megtekintés a GitHubon"
+		},
+		"macos": {
+			"title": "Fontos megjegyzés macOS felhasználók számára:",
+			"intro": "A macOS Gatekeeper blokkolja az internetről letöltött, alá nem írt / nem hitelesített alkalmazásokat egy {error} hibával.",
+			"error": "\"sérült és nem nyitható meg\"",
+			"runCommand": "A DMG vagy ZIP letöltése után, az alkalmazás megnyitása előtt futtassa a Terminálban a következő formájú parancsot:",
+			"exampleDmg": "Például DMG-ből történő telepítés után:",
+			"exampleZip": "Vagy a ZIP kicsomagolása után:",
+			"explanation": "Ez a parancs eltávolítja a karantén attribútumot, és lehetővé teszi az alkalmazás futtatását."
+		}
+	},
+	"screenshots": {
+		"title": "Képernyőképek",
+		"open": "{index}. képernyőkép megnyitása",
+		"alt": "{index}. képernyőkép",
+		"close": "Galéria bezárása",
+		"prev": "Előző kép",
+		"next": "Következő kép"
+	},
+	"comparison": {
+		"title": "Összehasonlítás",
+		"feature": "Jellemző",
+		"yes": "igen",
+		"no": "nem",
+		"partialDht": "Részben (DHT)",
+		"rows": {
+			"decentralized": "Decentralizált hálózat",
+			"onlineLibrary": "Online könyvtár",
+			"builtInSearch": "Beépített tartalomkeresés",
+			"decentralizedSearch": "Decentralizált tartalomkeresés",
+			"parallelDownloads": "Párhuzamos többforrású letöltés",
+			"mediaCenter": "Médiaközpont-felület",
+			"gamepad": "Gamepad támogatás",
+			"openSource": "Nyílt forráskódú"
+		}
+	},
+	"contact": {
+		"title": "Kapcsolat",
+		"getInTouch": "Lépjen kapcsolatba",
+		"links": {
+			"telegramChat": "Telegram beszélgető csoport",
+			"telegramAnnouncements": "Telegram közlemények",
+			"facebook": "Facebook csoport"
+		}
+	},
+	"footer": {
+		"by": "készítette:"
+	}
+}

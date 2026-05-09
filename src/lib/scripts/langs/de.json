@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentrales Filesharing",
+		"description": "{project} ist eine Peer-to-Peer-Filesharing-Software, die auf modernen dezentralen Technologien basiert.",
+		"ogTitle": "{project} - Dezentrale Filesharing-Software",
+		"ogDescription": "Peer-to-Peer-Filesharing auf Basis moderner dezentraler Technologien. Keine zentralen Server. Nichts, was das gesamte Netzwerk lahmlegen könnte."
+	},
+	"menu": {
+		"about": "Über",
+		"download": "Download",
+		"screenshots": "Screenshots",
+		"comparison": "Vergleich",
+		"contact": "Kontakt",
+		"toggle": "Menü umschalten",
+		"close": "Menü schließen",
+		"language": "Sprache",
+		"selectLanguage": "Sprache auswählen"
+	},
+	"hero": {
+		"subtitle": "Peer-to-Peer-Filesharing der nächsten Generation",
+		"description": "Auf Basis moderner dezentraler Technologien. Keine zentralen Server. Nichts, was das gesamte Netzwerk lahmlegen könnte.",
+		"download": "Herunterladen"
+	},
+	"about": {
+		"title": "Über",
+		"intro": "{project} ist eine Peer-to-Peer-Filesharing-Plattform der nächsten Generation, die auf modernen dezentralen Technologien basiert. Sie kombiniert eine intuitive Benutzeroberfläche mit einer vollständig dezentralen Architektur und bietet eine sichere und zuverlässige Lösung für das Teilen von Daten, unabhängig von jeder zentralen Autorität. Das Projekt ist Open Source und wird unter der {license}-Lizenz vertrieben.",
+		"features": {
+			"decentralized": {
+				"title": "Vollständig dezentrales Netzwerk",
+				"description": "Keine zentralen Server, kein Single Point of Failure. Benutzer suchen und laden Inhalte direkt untereinander herunter, ohne auf zentrale Indexer, Tracker oder Datenbanken angewiesen zu sein."
+			},
+			"accessControl": {
+				"title": "Detaillierte Zugriffskontrolle",
+				"description": "Jeder kann sein eigenes Netzwerk mit eigenen Regeln aufbauen. Definieren Sie Benutzerrollen in jedem Netzwerk: Eigentümer, Administratoren, Publisher, Moderatoren und Downloader. Legen Sie genau fest, wer Inhalte veröffentlichen, moderieren und herunterladen darf."
+			},
+			"ui": {
+				"title": "Erstklassige Benutzeroberfläche",
+				"description": "Eine übersichtliche und benutzerfreundliche Media-Center-Oberfläche, entwickelt für Desktop-, TV- und Mobilplattformen. Steuern Sie nahtlos mit Tastatur, Maus, Gamepad oder Fernbedienung. Power-User können die Befehlszeilenschnittstelle nutzen, um die Software als Headless-Dateiserver zu betreiben."
+			},
+			"dataFormat": {
+				"title": "Menschenlesbares Datenformat",
+				"description": "Das LISH-Datenformat basiert auf JSON und ist daher einfach zu erstellen, zu lesen und zu verstehen. Teilen Sie Ihre Inhalte mit klaren, transparenten Metadaten, die jeder mühelos prüfen kann."
+			},
+			"security": {
+				"title": "Privatsphäre & Sicherheit",
+				"description": "Die gesamte Peer-to-Peer-Kommunikation ist verschlüsselt, sodass Ihre Daten während der Übertragung privat bleiben. Benutzer können sich hinter einem VPN verstecken, um eine zusätzliche Anonymitätsschicht zu erhalten. {project} respektiert Ihre Privatsphäre von Grund auf."
+			},
+			"crossPlatform": {
+				"title": "Plattformübergreifend",
+				"description": "Die Software ist für die Plattformen Windows, Linux und macOS verfügbar. Verwenden Sie sie auf jedem beliebigen Gerät."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "Holen Sie sich {project} für Ihre Plattform. Alle Downloads sind kostenlos und Open Source.",
+		"version": "Aktuelle Version: {version}",
+		"linkAlt": "Herunterladen",
+		"platforms": {
+			"sourceCode": "Quellcode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-Bit",
+			"arm64": "ARM 64-Bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-Bit (Apple Silicon)",
+			"intel64": "Intel 64-Bit"
+		},
+		"items": {
+			"installer": "{format}-Installer",
+			"package": "{format}-Paket",
+			"portableZip": "Portables ZIP",
+			"viewOnGithub": "Auf GitHub ansehen"
+		},
+		"macos": {
+			"title": "Wichtiger Hinweis für macOS-Benutzer:",
+			"intro": "macOS Gatekeeper blockiert unsignierte / nicht notarisierte Apps, die aus dem Internet heruntergeladen wurden, mit dem Fehler {error}.",
+			"error": "\"ist beschädigt und kann nicht geöffnet werden\"",
+			"runCommand": "Führen Sie nach dem Herunterladen des DMG oder ZIP vor dem Öffnen der App im Terminal einen Befehl in folgender Form aus:",
+			"exampleDmg": "Zum Beispiel nach der Installation aus DMG:",
+			"exampleZip": "Oder nach dem Entpacken des ZIP:",
+			"explanation": "Dieser Befehl entfernt das Quarantäne-Attribut und ermöglicht die Ausführung der App."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshots",
+		"open": "Screenshot {index} öffnen",
+		"alt": "Screenshot {index}",
+		"close": "Galerie schließen",
+		"prev": "Vorheriges Bild",
+		"next": "Nächstes Bild"
+	},
+	"comparison": {
+		"title": "Vergleich",
+		"feature": "Funktion",
+		"yes": "ja",
+		"no": "nein",
+		"partialDht": "Teilweise (DHT)",
+		"rows": {
+			"decentralized": "Dezentrales Netzwerk",
+			"onlineLibrary": "Online-Bibliothek",
+			"builtInSearch": "Integrierte Inhaltssuche",
+			"decentralizedSearch": "Dezentrale Inhaltssuche",
+			"parallelDownloads": "Paralleles Herunterladen aus mehreren Quellen",
+			"mediaCenter": "Media-Center-Oberfläche",
+			"gamepad": "Gamepad-Unterstützung",
+			"openSource": "Open Source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Kontakt aufnehmen",
+		"links": {
+			"telegramChat": "Telegram-Chatgruppe",
+			"telegramAnnouncements": "Telegram-Ankündigungen",
+			"facebook": "Facebook-Gruppe"
+		}
+	},
+	"footer": {
+		"by": "von"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Detsentraliseeritud failijagamine",
+		"description": "{project} on peer-to-peer failijagamise tarkvara, mis on üles ehitatud kaasaegsetele detsentraliseeritud tehnoloogiatele.",
+		"ogTitle": "{project} - Detsentraliseeritud failijagamise tarkvara",
+		"ogDescription": "Peer-to-peer failijagamine, mis on üles ehitatud kaasaegsetele detsentraliseeritud tehnoloogiatele. Ei mingeid keskservereid. Mitte midagi, mis võiks kogu võrgu maha tõmmata."
+	},
+	"menu": {
+		"about": "Teave",
+		"download": "Allalaadimine",
+		"screenshots": "Ekraanipildid",
+		"comparison": "Võrdlus",
+		"contact": "Kontakt",
+		"toggle": "Lülita menüü",
+		"close": "Sulge menüü",
+		"language": "Keel",
+		"selectLanguage": "Vali keel"
+	},
+	"hero": {
+		"subtitle": "Uue põlvkonna peer-to-peer failijagamine",
+		"description": "Üles ehitatud kaasaegsetele detsentraliseeritud tehnoloogiatele. Ei mingeid keskservereid. Mitte midagi, mis võiks kogu võrgu maha tõmmata.",
+		"download": "Lae alla"
+	},
+	"about": {
+		"title": "Teave",
+		"intro": "{project} on uue põlvkonna peer-to-peer failijagamise platvorm, mis on üles ehitatud kaasaegsetele detsentraliseeritud tehnoloogiatele. See ühendab intuitiivse kasutajaliidese täielikult detsentraliseeritud arhitektuuriga, pakkudes turvalist ja usaldusväärset lahendust andmete jagamiseks, mis on sõltumatu igasugusest keskvõimust. Projekt on avatud lähtekoodiga ja seda levitatakse {license} litsentsi alusel.",
+		"features": {
+			"decentralized": {
+				"title": "Täielikult detsentraliseeritud võrk",
+				"description": "Ei mingeid keskservereid, ei mingit ühtset rikkepunkti. Kasutajad otsivad ja laadivad sisu alla otse üksteise käest, ilma et toetuks tsentraliseeritud indekseerijatele, jälgijatele või andmebaasidele."
+			},
+			"accessControl": {
+				"title": "Detailne juurdepääsu kontroll",
+				"description": "Igaüks võib vabalt alustada oma võrku oma reeglitega. Defineerige kasutajarollid igas võrgus: omanikud, administraatorid, avaldajad, moderaatorid ja allalaadijad. Kontrollige täpselt, kes võib avaldada, modereerida ja sisu alla laadida."
+			},
+			"ui": {
+				"title": "Tippklassi kasutajaliides",
+				"description": "Puhas ja kasutajasõbralik meediakeskuse liides, mis on loodud lauaarvuti, TV ja mobiilsete platvormide jaoks. Navigeerige sujuvalt klaviatuuri, hiire, mängupuldi või kaugjuhtimispuldiga. Edasijõudnud kasutajad saavad kasutada käsurea liidest tarkvara käivitamiseks failiserverina ilma graafilise liideseta."
+			},
+			"dataFormat": {
+				"title": "Inimloetav andmevorming",
+				"description": "LISH andmevorming põhineb JSON-il, mis muudab selle loomise, lugemise ja mõistmise lihtsaks. Jagage oma sisu selgete, läbipaistvate metaandmetega, mida igaüks saab hõlpsalt kontrollida."
+			},
+			"security": {
+				"title": "Privaatsus ja turvalisus",
+				"description": "Kogu peer-to-peer suhtlus on krüpteeritud, tagades, et teie andmed jäävad ülekande ajal privaatseks. Kasutajad saavad lisaanonüümsuse kihiks peita end VPN-i taha. {project} austab teie privaatsust juba algusest peale."
+			},
+			"crossPlatform": {
+				"title": "Mitmeplatvormiline",
+				"description": "Tarkvara on saadaval Windowsi, Linuxi ja macOS-i platvormidele. Kasutage seda mis tahes seadmes."
+			}
+		}
+	},
+	"download": {
+		"title": "Allalaadimine",
+		"description": "Hankige {project} oma platvormile. Kõik allalaadimised on tasuta ja avatud lähtekoodiga.",
+		"version": "Praegune versioon: {version}",
+		"linkAlt": "Lae alla",
+		"platforms": {
+			"sourceCode": "Lähtekood"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universaalne (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installija",
+			"package": "{format} pakk",
+			"portableZip": "Kaasaskantav ZIP",
+			"viewOnGithub": "Vaata GitHubis"
+		},
+		"macos": {
+			"title": "Oluline märkus macOS-i kasutajatele:",
+			"intro": "macOS Gatekeeper blokeerib internetist alla laaditud allkirjastamata / kinnitamata rakendused veaga {error}.",
+			"error": "\"on rikutud ja seda ei saa avada\"",
+			"runCommand": "Pärast DMG või ZIP-i allalaadimist, enne rakenduse avamist, käivitage Terminalis järgmise kujuga käsk:",
+			"exampleDmg": "Näiteks pärast DMG-st installimist:",
+			"exampleZip": "Või pärast ZIP-i lahti pakkimist:",
+			"explanation": "See käsk eemaldab karantiini atribuudi ja võimaldab rakenduse käivitada."
+		}
+	},
+	"screenshots": {
+		"title": "Ekraanipildid",
+		"open": "Ava ekraanipilt {index}",
+		"alt": "Ekraanipilt {index}",
+		"close": "Sulge galerii",
+		"prev": "Eelmine pilt",
+		"next": "Järgmine pilt"
+	},
+	"comparison": {
+		"title": "Võrdlus",
+		"feature": "Funktsioon",
+		"yes": "jah",
+		"no": "ei",
+		"partialDht": "Osaliselt (DHT)",
+		"rows": {
+			"decentralized": "Detsentraliseeritud võrk",
+			"onlineLibrary": "Veebiraamatukogu",
+			"builtInSearch": "Sisseehitatud sisuotsing",
+			"decentralizedSearch": "Detsentraliseeritud sisuotsing",
+			"parallelDownloads": "Paralleelsed allalaadimised mitmest allikast",
+			"mediaCenter": "Meediakeskuse liides",
+			"gamepad": "Mängupuldi tugi",
+			"openSource": "Avatud lähtekoodiga"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Võtke ühendust",
+		"links": {
+			"telegramChat": "Telegrami vestlusgrupp",
+			"telegramAnnouncements": "Telegrami teadaanded",
+			"facebook": "Facebooki grupp"
+		}
+	},
+	"footer": {
+		"by": "autor"
+	}
+}

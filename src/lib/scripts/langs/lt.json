@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizuotas failų dalijimasis",
+		"description": "{project} yra peer-to-peer failų dalijimosi programinė įranga, sukurta naudojant šiuolaikines decentralizuotas technologijas.",
+		"ogTitle": "{project} - Decentralizuota failų dalijimosi programinė įranga",
+		"ogDescription": "Peer-to-peer failų dalijimasis, sukurtas naudojant šiuolaikines decentralizuotas technologijas. Jokių centrinių serverių. Nieko, kas galėtų sustabdyti visą tinklą."
+	},
+	"menu": {
+		"about": "Apie",
+		"download": "Atsisiuntimas",
+		"screenshots": "Ekrano nuotraukos",
+		"comparison": "Palyginimas",
+		"contact": "Kontaktai",
+		"toggle": "Perjungti meniu",
+		"close": "Uždaryti meniu",
+		"language": "Kalba",
+		"selectLanguage": "Pasirinkti kalbą"
+	},
+	"hero": {
+		"subtitle": "Naujos kartos peer-to-peer failų dalijimasis",
+		"description": "Sukurta naudojant šiuolaikines decentralizuotas technologijas. Jokių centrinių serverių. Nieko, kas galėtų sustabdyti visą tinklą.",
+		"download": "Atsisiųsti"
+	},
+	"about": {
+		"title": "Apie",
+		"intro": "{project} yra naujos kartos peer-to-peer failų dalijimosi platforma, sukurta naudojant šiuolaikines decentralizuotas technologijas. Ji sujungia intuityvią vartotojo sąsają su visiškai decentralizuota architektūra, suteikdama saugų ir patikimą sprendimą duomenų dalijimuisi, nepriklausomą nuo jokios centrinės valdžios. Projektas yra atviro kodo ir platinamas pagal {license} licenciją.",
+		"features": {
+			"decentralized": {
+				"title": "Visiškai decentralizuotas tinklas",
+				"description": "Jokių centrinių serverių, jokio vienintelio gedimo taško. Vartotojai ieško ir atsisiunčia turinį tiesiogiai vieni iš kitų, nepasikliaudami centralizuotais indeksuotojais, sekikliais ar duomenų bazėmis."
+			},
+			"accessControl": {
+				"title": "Detali prieigos kontrolė",
+				"description": "Kiekvienas gali laisvai sukurti savo tinklą su savo taisyklėmis. Apibrėžkite vartotojų roles kiekviename tinkle: savininkus, administratorius, leidėjus, moderatorius ir atsisiuntėjus. Tiksliai kontroliuokite, kas gali skelbti, moderuoti ir atsisiųsti turinį."
+			},
+			"ui": {
+				"title": "Aukščiausios klasės vartotojo sąsaja",
+				"description": "Švari ir patogi medijos centro sąsaja, sukurta darbo stalo, TV ir mobiliosioms platformoms. Naršykite sklandžiai naudodami klaviatūrą, pelę, žaidimų valdiklį ar nuotolinio valdymo pultą. Pažengę vartotojai gali naudoti komandų eilutės sąsają programos paleidimui kaip failų serverio be grafinės sąsajos."
+			},
+			"dataFormat": {
+				"title": "Žmogui suprantamas duomenų formatas",
+				"description": "LISH duomenų formatas pagrįstas JSON, todėl jį lengva sukurti, skaityti ir suprasti. Dalykitės savo turiniu su aiškiais, skaidriais metaduomenimis, kuriuos kiekvienas gali lengvai patikrinti."
+			},
+			"security": {
+				"title": "Privatumas ir saugumas",
+				"description": "Visa peer-to-peer komunikacija yra užšifruota, užtikrinant, kad jūsų duomenys liktų privatūs perdavimo metu. Vartotojai gali pasislėpti už VPN papildomam anonimiškumo lygiui. {project} gerbia jūsų privatumą iš dizaino."
+			},
+			"crossPlatform": {
+				"title": "Daugiaplatformiškumas",
+				"description": "Programinė įranga prieinama Windows, Linux ir macOS platformoms. Naudokite ją bet kuriame jums patinkančiame įrenginyje."
+			}
+		}
+	},
+	"download": {
+		"title": "Atsisiuntimas",
+		"description": "Gaukite {project} savo platformai. Visi atsisiuntimai yra nemokami ir atviro kodo.",
+		"version": "Dabartinė versija: {version}",
+		"linkAlt": "Atsisiųsti",
+		"platforms": {
+			"sourceCode": "Šaltinio kodas"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bitų",
+			"arm64": "ARM 64 bitų",
+			"universal": "Universalus (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bitų (Apple Silicon)",
+			"intel64": "Intel 64 bitų"
+		},
+		"items": {
+			"installer": "{format} diegimo programa",
+			"package": "{format} paketas",
+			"portableZip": "Nešiojamas ZIP",
+			"viewOnGithub": "Peržiūrėti GitHub'e"
+		},
+		"macos": {
+			"title": "Svarbi pastaba macOS vartotojams:",
+			"intro": "macOS Gatekeeper blokuoja iš interneto atsisiųstas nepasirašytas / nepatvirtintas programas su klaida {error}.",
+			"error": "\"yra sugadinta ir negali būti atidaryta\"",
+			"runCommand": "Atsisiuntę DMG ar ZIP, prieš atidarydami programą, vykdykite Terminale komandą tokios formos:",
+			"exampleDmg": "Pavyzdžiui, įdiegus iš DMG:",
+			"exampleZip": "Arba išskleidę ZIP:",
+			"explanation": "Ši komanda pašalina karantino atributą ir leidžia paleisti programą."
+		}
+	},
+	"screenshots": {
+		"title": "Ekrano nuotraukos",
+		"open": "Atidaryti nuotrauką {index}",
+		"alt": "Ekrano nuotrauka {index}",
+		"close": "Uždaryti galeriją",
+		"prev": "Ankstesnis vaizdas",
+		"next": "Kitas vaizdas"
+	},
+	"comparison": {
+		"title": "Palyginimas",
+		"feature": "Funkcija",
+		"yes": "taip",
+		"no": "ne",
+		"partialDht": "Iš dalies (DHT)",
+		"rows": {
+			"decentralized": "Decentralizuotas tinklas",
+			"onlineLibrary": "Internetinė biblioteka",
+			"builtInSearch": "Įmontuota turinio paieška",
+			"decentralizedSearch": "Decentralizuota turinio paieška",
+			"parallelDownloads": "Lygiagretūs atsisiuntimai iš kelių šaltinių",
+			"mediaCenter": "Medijos centro sąsaja",
+			"gamepad": "Žaidimų valdiklio palaikymas",
+			"openSource": "Atviras kodas"
+		}
+	},
+	"contact": {
+		"title": "Kontaktai",
+		"getInTouch": "Susisiekite",
+		"links": {
+			"telegramChat": "Telegram pokalbių grupė",
+			"telegramAnnouncements": "Telegram pranešimai",
+			"facebook": "Facebook grupė"
+		}
+	},
+	"footer": {
+		"by": "sukūrė"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizirana izmenjava datotek",
+		"description": "{project} je programska oprema za izmenjavo datotek peer-to-peer, zgrajena na sodobnih decentraliziranih tehnologijah.",
+		"ogTitle": "{project} - Decentralizirana programska oprema za izmenjavo datotek",
+		"ogDescription": "Izmenjava datotek peer-to-peer, zgrajena na sodobnih decentraliziranih tehnologijah. Brez centralnih strežnikov. Nič, kar bi lahko sesulo celotno omrežje."
+	},
+	"menu": {
+		"about": "O programu",
+		"download": "Prenesi",
+		"screenshots": "Posnetki zaslona",
+		"comparison": "Primerjava",
+		"contact": "Kontakt",
+		"toggle": "Preklopi meni",
+		"close": "Zapri meni",
+		"language": "Jezik",
+		"selectLanguage": "Izberi jezik"
+	},
+	"hero": {
+		"subtitle": "Izmenjava datotek peer-to-peer naslednje generacije",
+		"description": "Zgrajena na sodobnih decentraliziranih tehnologijah. Brez centralnih strežnikov. Nič, kar bi lahko sesulo celotno omrežje.",
+		"download": "Prenesi"
+	},
+	"about": {
+		"title": "O programu",
+		"intro": "{project} je platforma za izmenjavo datotek peer-to-peer naslednje generacije, zgrajena na sodobnih decentraliziranih tehnologijah. Združuje intuitiven uporabniški vmesnik z popolnoma decentralizirano arhitekturo in nudi varno ter zanesljivo rešitev za izmenjavo podatkov, neodvisno od kakršne koli centralne avtoritete. Projekt je odprtokoden in se distribuira pod licenco {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Popolnoma decentralizirano omrežje",
+				"description": "Brez centralnih strežnikov, brez ene same točke odpovedi. Uporabniki iščejo in prenašajo vsebine neposredno drug od drugega, brez odvisnosti od centraliziranih indekserjev, sledilnikov ali podatkovnih baz."
+			},
+			"accessControl": {
+				"title": "Podroben nadzor dostopa",
+				"description": "Vsakdo lahko prosto začne svoje omrežje s svojimi pravili. Določite uporabniške vloge znotraj vsakega omrežja: lastnike, administratorje, objavljavce, moderatorje in prenašalce. Natančno nadzorujte, kdo lahko objavlja, modelira in prenaša vsebine."
+			},
+			"ui": {
+				"title": "Vrhunski uporabniški vmesnik",
+				"description": "Čist in uporabniku prijazen vmesnik medijskega centra, zasnovan za namizne, TV in mobilne platforme. Brezhibno se premikajte s tipkovnico, miško, igralnim ploščkom ali daljinskim upravljalnikom. Napredni uporabniki lahko izkoristijo vmesnik ukazne vrstice za zagon programske opreme kot strežnika datotek brez grafičnega vmesnika."
+			},
+			"dataFormat": {
+				"title": "Človeku berljiv format podatkov",
+				"description": "Format podatkov LISH temelji na JSON, kar omogoča enostavno ustvarjanje, branje in razumevanje. Delite svoje vsebine z jasnimi, preglednimi metapodatki, ki jih vsakdo zlahka pregleda."
+			},
+			"security": {
+				"title": "Zasebnost in varnost",
+				"description": "Vsa peer-to-peer komunikacija je šifrirana, kar zagotavlja, da vaši podatki med prenosom ostanejo zasebni. Uporabniki se lahko skrijejo za VPN za dodatno raven anonimnosti. {project} spoštuje vašo zasebnost po načrtu."
+			},
+			"crossPlatform": {
+				"title": "Večplatformno",
+				"description": "Programska oprema je na voljo za platforme Windows, Linux in macOS. Uporabljajte jo na kateri koli napravi, ki vam ustreza."
+			}
+		}
+	},
+	"download": {
+		"title": "Prenesi",
+		"description": "Pridobite {project} za svojo platformo. Vsi prenosi so brezplačni in odprtokodni.",
+		"version": "Trenutna različica: {version}",
+		"linkAlt": "Prenesi",
+		"platforms": {
+			"sourceCode": "Izvorna koda"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Univerzalno (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Namestitveni program {format}",
+			"package": "Paket {format}",
+			"portableZip": "Prenosni ZIP",
+			"viewOnGithub": "Oglejte si na GitHubu"
+		},
+		"macos": {
+			"title": "Pomembna opomba za uporabnike macOS:",
+			"intro": "macOS Gatekeeper blokira nepodpisane / nepreverjene aplikacije, prenesene iz interneta z napako {error}.",
+			"error": "\"je poškodovan in ga ni mogoče odpreti\"",
+			"runCommand": "Po prenosu DMG ali ZIP, preden odprete aplikacijo, v Terminalu izvedite ukaz v naslednji obliki:",
+			"exampleDmg": "Na primer po namestitvi iz DMG:",
+			"exampleZip": "Ali po razširitvi ZIP:",
+			"explanation": "Ta ukaz odstrani atribut karantene in omogoči zagon aplikacije."
+		}
+	},
+	"screenshots": {
+		"title": "Posnetki zaslona",
+		"open": "Odpri posnetek {index}",
+		"alt": "Posnetek zaslona {index}",
+		"close": "Zapri galerijo",
+		"prev": "Prejšnja slika",
+		"next": "Naslednja slika"
+	},
+	"comparison": {
+		"title": "Primerjava",
+		"feature": "Funkcija",
+		"yes": "da",
+		"no": "ne",
+		"partialDht": "Delno (DHT)",
+		"rows": {
+			"decentralized": "Decentralizirano omrežje",
+			"onlineLibrary": "Spletna knjižnica",
+			"builtInSearch": "Vgrajeno iskanje vsebine",
+			"decentralizedSearch": "Decentralizirano iskanje vsebine",
+			"parallelDownloads": "Vzporedni prenosi iz več virov",
+			"mediaCenter": "Vmesnik medijskega centra",
+			"gamepad": "Podpora za igralni plošček",
+			"openSource": "Odprta koda"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Stopite v stik",
+		"links": {
+			"telegramChat": "Klepetalna skupina Telegram",
+			"telegramAnnouncements": "Obvestila Telegram",
+			"facebook": "Facebook skupina"
+		}
+	},
+	"footer": {
+		"by": "od"
+	}
+}

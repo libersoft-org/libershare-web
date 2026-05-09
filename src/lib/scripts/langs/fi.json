@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Hajautettu tiedostonjako",
+		"description": "{project} on vertaisverkkoon perustuva tiedostonjako-ohjelmisto, joka on rakennettu nykyaikaisten hajautettujen teknologioiden päälle.",
+		"ogTitle": "{project} - Hajautettu tiedostonjako-ohjelmisto",
+		"ogDescription": "Vertaisverkkoon perustuva tiedostonjako, joka on rakennettu nykyaikaisten hajautettujen teknologioiden päälle. Ei keskitettyjä palvelimia. Ei mitään, mikä voisi kaataa koko verkon."
+	},
+	"menu": {
+		"about": "Tietoja",
+		"download": "Lataa",
+		"screenshots": "Kuvakaappaukset",
+		"comparison": "Vertailu",
+		"contact": "Yhteystiedot",
+		"toggle": "Vaihda valikko",
+		"close": "Sulje valikko",
+		"language": "Kieli",
+		"selectLanguage": "Valitse kieli"
+	},
+	"hero": {
+		"subtitle": "Uuden sukupolven vertaisverkon tiedostonjako",
+		"description": "Rakennettu nykyaikaisten hajautettujen teknologioiden päälle. Ei keskitettyjä palvelimia. Ei mitään, mikä voisi kaataa koko verkon.",
+		"download": "Lataa"
+	},
+	"about": {
+		"title": "Tietoja",
+		"intro": "{project} on uuden sukupolven vertaisverkkoon perustuva tiedostonjakoalusta, joka on rakennettu nykyaikaisten hajautettujen teknologioiden päälle. Se yhdistää intuitiivisen käyttöliittymän täysin hajautettuun arkkitehtuuriin tarjoten turvallisen ja luotettavan ratkaisun tiedonjakoon, joka on riippumaton kaikista keskitetyistä viranomaisista. Projekti on avoimen lähdekoodin ja sitä jaetaan {license}-lisenssillä.",
+		"features": {
+			"decentralized": {
+				"title": "Täysin hajautettu verkko",
+				"description": "Ei keskitettyjä palvelimia, ei yhtä vikaantumiskohtaa. Käyttäjät hakevat ja lataavat sisältöä suoraan toisiltaan, ilman riippuvuutta keskitetyistä indeksoijista, seurantapalvelimista tai tietokannoista."
+			},
+			"accessControl": {
+				"title": "Yksityiskohtainen pääsynhallinta",
+				"description": "Kuka tahansa voi vapaasti aloittaa oman verkkonsa omilla säännöillään. Määrittele käyttäjäroolit jokaisessa verkossa: omistajat, ylläpitäjät, julkaisijat, moderaattorit ja lataajat. Hallitse tarkalleen, kuka voi julkaista, valvoa ja ladata sisältöä."
+			},
+			"ui": {
+				"title": "Huippuluokan käyttöliittymä",
+				"description": "Selkeä ja käyttäjäystävällinen mediakeskuksen käyttöliittymä, joka on suunniteltu pöytäkoneille, televisioille ja mobiilialustoille. Navigoi saumattomasti näppäimistöllä, hiirellä, peliohjaimella tai kaukosäätimellä. Kokeneemmat käyttäjät voivat hyödyntää komentoriviliittymää suorittaakseen ohjelmiston tiedostopalvelimena ilman graafista käyttöliittymää."
+			},
+			"dataFormat": {
+				"title": "Ihmislutettava tietomuoto",
+				"description": "LISH-tietomuoto perustuu JSON:iin, mikä tekee siitä helpon luoda, lukea ja ymmärtää. Jaa sisältösi selkeillä, läpinäkyvillä metatiedoilla, joita kuka tahansa voi helposti tarkastella."
+			},
+			"security": {
+				"title": "Yksityisyys ja turvallisuus",
+				"description": "Kaikki vertaisverkon viestintä on salattu, mikä varmistaa, että tietosi pysyvät yksityisinä siirron aikana. Käyttäjät voivat piiloutua VPN:n taakse lisätakseen anonymiteettiä. {project} kunnioittaa yksityisyyttäsi suunnittelusta lähtien."
+			},
+			"crossPlatform": {
+				"title": "Monialustainen",
+				"description": "Ohjelmisto on saatavilla Windows-, Linux- ja macOS-alustoille. Käytä sitä millä tahansa haluamallasi laitteella."
+			}
+		}
+	},
+	"download": {
+		"title": "Lataa",
+		"description": "Hanki {project} alustallesi. Kaikki lataukset ovat ilmaisia ja avoimen lähdekoodin.",
+		"version": "Nykyinen versio: {version}",
+		"linkAlt": "Lataa",
+		"platforms": {
+			"sourceCode": "Lähdekoodi"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bittinen",
+			"arm64": "ARM 64-bittinen",
+			"universal": "Universaali (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bittinen (Apple Silicon)",
+			"intel64": "Intel 64-bittinen"
+		},
+		"items": {
+			"installer": "{format}-asennusohjelma",
+			"package": "{format}-paketti",
+			"portableZip": "Kannettava ZIP",
+			"viewOnGithub": "Näytä GitHubissa"
+		},
+		"macos": {
+			"title": "Tärkeä huomautus macOS-käyttäjille:",
+			"intro": "macOS Gatekeeper estää internetistä ladatut allekirjoittamattomat / vahvistamattomat sovellukset virheellä {error}.",
+			"error": "\"on vioittunut eikä sitä voi avata\"",
+			"runCommand": "DMG- tai ZIP-tiedoston lataamisen jälkeen, ennen sovelluksen avaamista, suorita Terminaalissa komento seuraavassa muodossa:",
+			"exampleDmg": "Esimerkiksi DMG:stä asennuksen jälkeen:",
+			"exampleZip": "Tai ZIP:n purkamisen jälkeen:",
+			"explanation": "Tämä komento poistaa karanteeniattribuutin ja sallii sovelluksen suorittamisen."
+		}
+	},
+	"screenshots": {
+		"title": "Kuvakaappaukset",
+		"open": "Avaa kuvakaappaus {index}",
+		"alt": "Kuvakaappaus {index}",
+		"close": "Sulje galleria",
+		"prev": "Edellinen kuva",
+		"next": "Seuraava kuva"
+	},
+	"comparison": {
+		"title": "Vertailu",
+		"feature": "Ominaisuus",
+		"yes": "kyllä",
+		"no": "ei",
+		"partialDht": "Osittain (DHT)",
+		"rows": {
+			"decentralized": "Hajautettu verkko",
+			"onlineLibrary": "Verkkokirjasto",
+			"builtInSearch": "Sisäänrakennettu sisältöhaku",
+			"decentralizedSearch": "Hajautettu sisältöhaku",
+			"parallelDownloads": "Rinnakkaiset lataukset useista lähteistä",
+			"mediaCenter": "Mediakeskuksen käyttöliittymä",
+			"gamepad": "Peliohjaintuki",
+			"openSource": "Avoin lähdekoodi"
+		}
+	},
+	"contact": {
+		"title": "Yhteystiedot",
+		"getInTouch": "Ota yhteyttä",
+		"links": {
+			"telegramChat": "Telegram-keskusteluryhmä",
+			"telegramAnnouncements": "Telegram-ilmoitukset",
+			"facebook": "Facebook-ryhmä"
+		}
+	},
+	"footer": {
+		"by": "tekijä"
+	}
+}

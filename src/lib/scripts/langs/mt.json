@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Qsim ta' fajls deċentralizzat",
+		"description": "{project} hu softwer ta' qsim ta' fajls peer-to-peer mibni fuq teknoloġiji deċentralizzati moderni.",
+		"ogTitle": "{project} - Softwer ta' qsim ta' fajls deċentralizzat",
+		"ogDescription": "Qsim ta' fajls peer-to-peer mibni fuq teknoloġiji deċentralizzati moderni. L-ebda servers ċentrali. Xejn li jista' jwaqqa' n-network kollu."
+	},
+	"menu": {
+		"about": "Dwar",
+		"download": "Niżżel",
+		"screenshots": "Skrinxots",
+		"comparison": "Tqabbil",
+		"contact": "Kuntatt",
+		"toggle": "Aqleb il-menu",
+		"close": "Agħlaq il-menu",
+		"language": "Lingwa",
+		"selectLanguage": "Agħżel lingwa"
+	},
+	"hero": {
+		"subtitle": "Qsim ta' fajls peer-to-peer tal-ġenerazzjoni li jmiss",
+		"description": "Mibni fuq teknoloġiji deċentralizzati moderni. L-ebda servers ċentrali. Xejn li jista' jwaqqa' n-network kollu.",
+		"download": "Niżżel"
+	},
+	"about": {
+		"title": "Dwar",
+		"intro": "{project} hu pjattaforma ta' qsim ta' fajls peer-to-peer tal-ġenerazzjoni li jmiss, mibnija fuq teknoloġiji deċentralizzati moderni. Tgħaqqad interfaċċa intuwittiva ma' arkitettura kompletament deċentralizzata, u tipprovdi soluzzjoni sikura u affidabbli għall-qsim tad-data, indipendenti minn kwalunkwe awtorità ċentrali. Il-proġett hu open source u jiġi distribwit taħt il-liċenzja {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network kompletament deċentralizzat",
+				"description": "L-ebda servers ċentrali, l-ebda punt wieħed ta' falliment. L-utenti jfittxu u jniżżlu kontenut direttament minn xulxin, mingħajr ma jiddependu fuq indiċijiet, trackers jew databases ċentralizzati."
+			},
+			"accessControl": {
+				"title": "Kontroll dettaljat tal-aċċess",
+				"description": "Kulħadd hu liberu li jibda n-network tiegħu stess bir-regoli tiegħu stess. Iddefinixxi rwoli tal-utenti f'kull network: sidien, amministraturi, pubblikaturi, moderaturi u dawk li jniżżlu. Ikkontrolla eżattament min jista' jippubblika, jimmodera u jniżżel kontenut."
+			},
+			"ui": {
+				"title": "Interfaċċa tal-utent ta' livell għoli",
+				"description": "Interfaċċa nadifa u faċli għall-utent ta' ċentru tal-midja maħsuba għal pjattaformi desktop, TV u mowbajl. Innaviga b'mod bla xkiel bil-kibord, maws, gamepad jew telekontroll. Utenti avvanzati jistgħu jużaw l-interfaċċa tal-linja tal-kmand biex iħaddmu s-softwer bħala server tal-fajls mingħajr interfaċċa grafika."
+			},
+			"dataFormat": {
+				"title": "Format tad-data leġġibbli mill-bniedem",
+				"description": "Il-format tad-data LISH hu bbażat fuq JSON, li jagħmel li jkun faċli li tinħoloq, tinqara u tinftiehem. Aqsam il-kontenut tiegħek b'metadata ċari u trasparenti li kulħadd jista' jeżamina faċilment."
+			},
+			"security": {
+				"title": "Privatezza u sigurtà",
+				"description": "Il-komunikazzjoni peer-to-peer kollha hi kriptata, biex tiżgura li d-data tiegħek tibqa' privata waqt it-trasferiment. L-utenti jistgħu jinħbew wara VPN għal saff addizzjonali ta' anonimità. {project} jirrispetta l-privatezza tiegħek mid-disinn."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Is-softwer hu disponibbli għall-pjattaformi Windows, Linux u macOS. Użah fuq kwalunkwe apparat li tippreferi."
+			}
+		}
+	},
+	"download": {
+		"title": "Niżżel",
+		"description": "Akkwista {project} għall-pjattaforma tiegħek. It-tniżżil kollu hu bla ħlas u open source.",
+		"version": "Verżjoni attwali: {version}",
+		"linkAlt": "Niżżel",
+		"platforms": {
+			"sourceCode": "Kodiċi sors"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universali (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer {format}",
+			"package": "Pakkett {format}",
+			"portableZip": "ZIP portatil",
+			"viewOnGithub": "Ara fuq GitHub"
+		},
+		"macos": {
+			"title": "Nota importanti għall-utenti tal-macOS:",
+			"intro": "macOS Gatekeeper jimblokka applikazzjonijiet mhux iffirmati / mhux awtentikati mniżżla mill-internet b'żball {error}.",
+			"error": "\"hu mħassar u ma jistax jinfetaħ\"",
+			"runCommand": "Wara li tniżżel id-DMG jew iż-ZIP, qabel ma tiftaħ l-applikazzjoni, ħaddem fit-Terminal kmand fil-forma li ġejja:",
+			"exampleDmg": "Per eżempju wara l-installazzjoni mid-DMG:",
+			"exampleZip": "Jew wara li testratta ż-ZIP:",
+			"explanation": "Dan il-kmand ineħħi l-attribut tal-kwarantina u jippermetti li l-applikazzjoni titħaddem."
+		}
+	},
+	"screenshots": {
+		"title": "Skrinxots",
+		"open": "Iftaħ skrinxot {index}",
+		"alt": "Skrinxot {index}",
+		"close": "Agħlaq il-gallerija",
+		"prev": "Stampa preċedenti",
+		"next": "Stampa li jmiss"
+	},
+	"comparison": {
+		"title": "Tqabbil",
+		"feature": "Karatteristika",
+		"yes": "iva",
+		"no": "le",
+		"partialDht": "Parzjali (DHT)",
+		"rows": {
+			"decentralized": "Network deċentralizzat",
+			"onlineLibrary": "Librerija onlajn",
+			"builtInSearch": "Tfittxija ta' kontenut integrata",
+			"decentralizedSearch": "Tfittxija ta' kontenut deċentralizzata",
+			"parallelDownloads": "Tniżżil parallel minn diversi sorsi",
+			"mediaCenter": "Interfaċċa ta' ċentru tal-midja",
+			"gamepad": "Sapport għal gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kuntatt",
+		"getInTouch": "Ikkuntattjana",
+		"links": {
+			"telegramChat": "Grupp tal-chat ta' Telegram",
+			"telegramAnnouncements": "Avviżi ta' Telegram",
+			"facebook": "Grupp ta' Facebook"
+		}
+	},
+	"footer": {
+		"by": "minn"
+	}
+}

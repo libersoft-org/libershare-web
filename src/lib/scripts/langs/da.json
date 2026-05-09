@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentraliseret fildeling",
+		"description": "{project} er peer-to-peer software til fildeling, bygget på moderne decentraliserede teknologier.",
+		"ogTitle": "{project} - Decentraliseret fildelingssoftware",
+		"ogDescription": "Peer-to-peer fildeling bygget på moderne decentraliserede teknologier. Ingen centrale servere. Intet, der kan bringe hele netværket ned."
+	},
+	"menu": {
+		"about": "Om",
+		"download": "Download",
+		"screenshots": "Skærmbilleder",
+		"comparison": "Sammenligning",
+		"contact": "Kontakt",
+		"toggle": "Skift menu",
+		"close": "Luk menu",
+		"language": "Sprog",
+		"selectLanguage": "Vælg sprog"
+	},
+	"hero": {
+		"subtitle": "Næste generations peer-to-peer fildeling",
+		"description": "Bygget på moderne decentraliserede teknologier. Ingen centrale servere. Intet, der kan bringe hele netværket ned.",
+		"download": "Download"
+	},
+	"about": {
+		"title": "Om",
+		"intro": "{project} er en næste generations peer-to-peer fildelingsplatform, bygget på moderne decentraliserede teknologier. Den kombinerer en intuitiv brugergrænseflade med en fuldt decentraliseret arkitektur og leverer en sikker og pålidelig løsning til datadeling, uafhængig af enhver central autoritet. Projektet er open source og distribueres under {license}-licensen.",
+		"features": {
+			"decentralized": {
+				"title": "Fuldt decentraliseret netværk",
+				"description": "Ingen centrale servere, intet enkelt fejlpunkt. Brugere søger og downloader indhold direkte fra hinanden uden at være afhængige af centraliserede indeksører, trackere eller databaser."
+			},
+			"accessControl": {
+				"title": "Granuleret adgangskontrol",
+				"description": "Enhver kan frit starte sit eget netværk med sine egne regler. Definer brugerroller inden for hvert netværk: ejere, administratorer, udgivere, moderatorer og downloadere. Bestem præcist, hvem der kan udgive, moderere og downloade indhold."
+			},
+			"ui": {
+				"title": "Førsteklasses brugergrænseflade",
+				"description": "En ren og brugervenlig mediecentergrænseflade designet til desktop, TV og mobile platforme. Naviger problemfrit med tastatur, mus, gamepad eller fjernbetjening. Avancerede brugere kan udnytte kommandolinjegrænsefladen til at køre softwaren som en filserver uden grafisk grænseflade."
+			},
+			"dataFormat": {
+				"title": "Menneskelæsbart dataformat",
+				"description": "LISH-dataformatet er baseret på JSON, hvilket gør det nemt at oprette, læse og forstå. Del dit indhold med klare, gennemsigtige metadata, som alle nemt kan inspicere."
+			},
+			"security": {
+				"title": "Privatliv og sikkerhed",
+				"description": "Al peer-to-peer-kommunikation er krypteret, hvilket sikrer, at dine data forbliver private under overførslen. Brugere kan skjule sig bag en VPN for et ekstra lag af anonymitet. {project} respekterer dit privatliv ved design."
+			},
+			"crossPlatform": {
+				"title": "På tværs af platforme",
+				"description": "Softwaren er tilgængelig til Windows-, Linux- og macOS-platforme. Brug den på enhver enhed, du foretrækker."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "Hent {project} til din platform. Alle downloads er gratis og open source.",
+		"version": "Aktuel version: {version}",
+		"linkAlt": "Download",
+		"platforms": {
+			"sourceCode": "Kildekode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format}-installationsprogram",
+			"package": "{format}-pakke",
+			"portableZip": "Bærbar ZIP",
+			"viewOnGithub": "Se på GitHub"
+		},
+		"macos": {
+			"title": "Vigtig note til macOS-brugere:",
+			"intro": "macOS Gatekeeper blokerer usignerede / ikke-autentificerede apps downloadet fra internettet med en {error}-fejl.",
+			"error": "\"er beskadiget og kan ikke åbnes\"",
+			"runCommand": "Efter download af DMG eller ZIP, før du åbner appen, skal du i Terminal køre en kommando af følgende form:",
+			"exampleDmg": "For eksempel efter installation fra DMG:",
+			"exampleZip": "Eller efter udpakning af ZIP:",
+			"explanation": "Denne kommando fjerner karantæne-attributten og tillader appen at køre."
+		}
+	},
+	"screenshots": {
+		"title": "Skærmbilleder",
+		"open": "Åbn skærmbillede {index}",
+		"alt": "Skærmbillede {index}",
+		"close": "Luk galleri",
+		"prev": "Forrige billede",
+		"next": "Næste billede"
+	},
+	"comparison": {
+		"title": "Sammenligning",
+		"feature": "Funktion",
+		"yes": "ja",
+		"no": "nej",
+		"partialDht": "Delvis (DHT)",
+		"rows": {
+			"decentralized": "Decentraliseret netværk",
+			"onlineLibrary": "Onlinebibliotek",
+			"builtInSearch": "Indbygget indholdssøgning",
+			"decentralizedSearch": "Decentraliseret indholdssøgning",
+			"parallelDownloads": "Parallelle downloads fra flere kilder",
+			"mediaCenter": "Mediecentergrænseflade",
+			"gamepad": "Gamepad-understøttelse",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Kom i kontakt",
+		"links": {
+			"telegramChat": "Telegram-chatgruppe",
+			"telegramAnnouncements": "Telegram-meddelelser",
+			"facebook": "Facebook-gruppe"
+		}
+	},
+	"footer": {
+		"by": "af"
+	}
+}

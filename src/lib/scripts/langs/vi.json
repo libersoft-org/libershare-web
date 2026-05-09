@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Chia sẻ tệp phi tập trung",
+		"description": "{project} là phần mềm chia sẻ tệp ngang hàng được xây dựng trên các công nghệ phi tập trung hiện đại.",
+		"ogTitle": "{project} - Phần mềm chia sẻ tệp phi tập trung",
+		"ogDescription": "Chia sẻ tệp ngang hàng được xây dựng trên các công nghệ phi tập trung hiện đại. Không có máy chủ trung tâm. Không có gì có thể đánh sập toàn bộ mạng."
+	},
+	"menu": {
+		"about": "Giới thiệu",
+		"download": "Tải xuống",
+		"screenshots": "Ảnh chụp màn hình",
+		"comparison": "So sánh",
+		"contact": "Liên hệ",
+		"toggle": "Chuyển đổi menu",
+		"close": "Đóng menu",
+		"language": "Ngôn ngữ",
+		"selectLanguage": "Chọn ngôn ngữ"
+	},
+	"hero": {
+		"subtitle": "Chia sẻ tệp ngang hàng thế hệ mới",
+		"description": "Được xây dựng trên các công nghệ phi tập trung hiện đại. Không có máy chủ trung tâm. Không có gì có thể đánh sập toàn bộ mạng.",
+		"download": "Tải xuống"
+	},
+	"about": {
+		"title": "Giới thiệu",
+		"intro": "{project} là một nền tảng chia sẻ tệp ngang hàng thế hệ mới, được xây dựng trên các công nghệ phi tập trung hiện đại. Nó kết hợp giao diện người dùng trực quan với kiến trúc hoàn toàn phi tập trung, cung cấp giải pháp chia sẻ dữ liệu an toàn và đáng tin cậy, độc lập với mọi cơ quan trung tâm. Dự án là mã nguồn mở và được phân phối theo giấy phép {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Mạng hoàn toàn phi tập trung",
+				"description": "Không có máy chủ trung tâm, không có điểm lỗi đơn lẻ. Người dùng tìm kiếm và tải xuống nội dung trực tiếp từ nhau, mà không phụ thuộc vào các bộ lập chỉ mục, trình theo dõi hoặc cơ sở dữ liệu tập trung."
+			},
+			"accessControl": {
+				"title": "Kiểm soát truy cập chi tiết",
+				"description": "Bất kỳ ai cũng có thể tự do bắt đầu mạng riêng với các quy tắc riêng. Xác định vai trò người dùng trong mỗi mạng: chủ sở hữu, quản trị viên, nhà xuất bản, người kiểm duyệt và người tải xuống. Kiểm soát chính xác ai có thể xuất bản, kiểm duyệt và tải xuống nội dung."
+			},
+			"ui": {
+				"title": "Giao diện người dùng hàng đầu",
+				"description": "Giao diện trung tâm đa phương tiện sạch và thân thiện với người dùng được thiết kế cho các nền tảng máy tính để bàn, TV và di động. Điều hướng liền mạch bằng bàn phím, chuột, tay cầm chơi game hoặc điều khiển từ xa. Người dùng cao cấp có thể tận dụng giao diện dòng lệnh để chạy phần mềm như một máy chủ tệp không có giao diện đồ họa."
+			},
+			"dataFormat": {
+				"title": "Định dạng dữ liệu mà con người có thể đọc",
+				"description": "Định dạng dữ liệu LISH dựa trên JSON, giúp dễ dàng tạo, đọc và hiểu. Chia sẻ nội dung của bạn với siêu dữ liệu rõ ràng, minh bạch mà bất kỳ ai cũng có thể dễ dàng kiểm tra."
+			},
+			"security": {
+				"title": "Quyền riêng tư và bảo mật",
+				"description": "Tất cả giao tiếp ngang hàng đều được mã hóa, đảm bảo dữ liệu của bạn vẫn riêng tư trong quá trình truyền. Người dùng có thể ẩn sau VPN để có thêm một lớp ẩn danh. {project} tôn trọng quyền riêng tư của bạn theo thiết kế."
+			},
+			"crossPlatform": {
+				"title": "Đa nền tảng",
+				"description": "Phần mềm có sẵn cho các nền tảng Windows, Linux và macOS. Sử dụng nó trên bất kỳ thiết bị nào bạn muốn."
+			}
+		}
+	},
+	"download": {
+		"title": "Tải xuống",
+		"description": "Nhận {project} cho nền tảng của bạn. Tất cả các bản tải xuống đều miễn phí và mã nguồn mở.",
+		"version": "Phiên bản hiện tại: {version}",
+		"linkAlt": "Tải xuống",
+		"platforms": {
+			"sourceCode": "Mã nguồn"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Trình cài đặt {format}",
+			"package": "Gói {format}",
+			"portableZip": "ZIP di động",
+			"viewOnGithub": "Xem trên GitHub"
+		},
+		"macos": {
+			"title": "Lưu ý quan trọng cho người dùng macOS:",
+			"intro": "macOS Gatekeeper chặn các ứng dụng chưa ký / chưa được xác thực được tải xuống từ internet với lỗi {error}.",
+			"error": "\"bị hỏng và không thể mở được\"",
+			"runCommand": "Sau khi tải xuống DMG hoặc ZIP, trước khi mở ứng dụng, hãy chạy trong Terminal một lệnh có dạng sau:",
+			"exampleDmg": "Ví dụ sau khi cài đặt từ DMG:",
+			"exampleZip": "Hoặc sau khi giải nén ZIP:",
+			"explanation": "Lệnh này xóa thuộc tính kiểm dịch và cho phép ứng dụng chạy."
+		}
+	},
+	"screenshots": {
+		"title": "Ảnh chụp màn hình",
+		"open": "Mở ảnh chụp {index}",
+		"alt": "Ảnh chụp màn hình {index}",
+		"close": "Đóng thư viện",
+		"prev": "Ảnh trước",
+		"next": "Ảnh tiếp theo"
+	},
+	"comparison": {
+		"title": "So sánh",
+		"feature": "Tính năng",
+		"yes": "có",
+		"no": "không",
+		"partialDht": "Một phần (DHT)",
+		"rows": {
+			"decentralized": "Mạng phi tập trung",
+			"onlineLibrary": "Thư viện trực tuyến",
+			"builtInSearch": "Tìm kiếm nội dung tích hợp",
+			"decentralizedSearch": "Tìm kiếm nội dung phi tập trung",
+			"parallelDownloads": "Tải xuống song song từ nhiều nguồn",
+			"mediaCenter": "Giao diện trung tâm đa phương tiện",
+			"gamepad": "Hỗ trợ tay cầm chơi game",
+			"openSource": "Mã nguồn mở"
+		}
+	},
+	"contact": {
+		"title": "Liên hệ",
+		"getInTouch": "Liên hệ với chúng tôi",
+		"links": {
+			"telegramChat": "Nhóm trò chuyện Telegram",
+			"telegramAnnouncements": "Thông báo Telegram",
+			"facebook": "Nhóm Facebook"
+		}
+	},
+	"footer": {
+		"by": "bởi"
+	}
+}

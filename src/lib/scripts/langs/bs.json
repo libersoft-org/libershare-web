@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizovano dijeljenje datoteka",
+		"description": "{project} je peer-to-peer softver za dijeljenje datoteka izgrađen na modernim decentralizovanim tehnologijama.",
+		"ogTitle": "{project} - Decentralizovani softver za dijeljenje datoteka",
+		"ogDescription": "Peer-to-peer dijeljenje datoteka izgrađeno na modernim decentralizovanim tehnologijama. Bez centralnih servera. Ništa što bi moglo srušiti cijelu mrežu."
+	},
+	"menu": {
+		"about": "O programu",
+		"download": "Preuzmi",
+		"screenshots": "Snimci ekrana",
+		"comparison": "Poređenje",
+		"contact": "Kontakt",
+		"toggle": "Prebaci meni",
+		"close": "Zatvori meni",
+		"language": "Jezik",
+		"selectLanguage": "Odaberi jezik"
+	},
+	"hero": {
+		"subtitle": "Peer-to-peer dijeljenje datoteka nove generacije",
+		"description": "Izgrađeno na modernim decentralizovanim tehnologijama. Bez centralnih servera. Ništa što bi moglo srušiti cijelu mrežu.",
+		"download": "Preuzmi"
+	},
+	"about": {
+		"title": "O programu",
+		"intro": "{project} je peer-to-peer platforma za dijeljenje datoteka nove generacije, izgrađena na modernim decentralizovanim tehnologijama. Kombinuje intuitivni korisnički interfejs sa potpuno decentralizovanom arhitekturom, pružajući siguran i pouzdan način za dijeljenje podataka, nezavisno od bilo kojeg centralnog autoriteta. Projekat je otvorenog koda i distribuira se pod licencom {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Potpuno decentralizovana mreža",
+				"description": "Bez centralnih servera, bez jedinstvene tačke kvara. Korisnici pretražuju i preuzimaju sadržaj direktno jedni od drugih, bez oslanjanja na centralizovane indeksere, trackere ili baze podataka."
+			},
+			"accessControl": {
+				"title": "Detaljna kontrola pristupa",
+				"description": "Svako može slobodno pokrenuti vlastitu mrežu sa vlastitim pravilima. Definišite korisničke uloge unutar svake mreže: vlasnici, administratori, izdavači, moderatori i preuzimatelji. Tačno kontrolišite ko može objavljivati, moderirati i preuzimati sadržaj."
+			},
+			"ui": {
+				"title": "Vrhunski korisnički interfejs",
+				"description": "Čist i jednostavan interfejs medijskog centra dizajniran za desktop, TV i mobilne platforme. Besprijekorno navigirajte tastaturom, mišem, gamepadom ili daljinskim upravljačem. Napredni korisnici mogu iskoristiti interfejs komandne linije za pokretanje softvera kao servera datoteka bez grafičkog interfejsa."
+			},
+			"dataFormat": {
+				"title": "Format podataka čitljiv ljudima",
+				"description": "Format podataka LISH zasnovan je na JSON-u, što ga čini lakim za stvaranje, čitanje i razumijevanje. Dijelite svoj sadržaj sa jasnim, transparentnim metapodacima koje svako može lako pregledati."
+			},
+			"security": {
+				"title": "Privatnost i sigurnost",
+				"description": "Sva peer-to-peer komunikacija je šifrovana, osiguravajući da vaši podaci ostaju privatni tokom prenosa. Korisnici se mogu sakriti iza VPN-a za dodatni sloj anonimnosti. {project} poštuje vašu privatnost po dizajnu."
+			},
+			"crossPlatform": {
+				"title": "Višeplatformsko",
+				"description": "Softver je dostupan za platforme Windows, Linux i macOS. Koristite ga na bilo kojem uređaju koji preferirate."
+			}
+		}
+	},
+	"download": {
+		"title": "Preuzmi",
+		"description": "Nabavite {project} za svoju platformu. Sva preuzimanja su besplatna i otvorenog koda.",
+		"version": "Trenutna verzija: {version}",
+		"linkAlt": "Preuzmi",
+		"platforms": {
+			"sourceCode": "Izvorni kod"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Univerzalno (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalacioni program",
+			"package": "{format} paket",
+			"portableZip": "Prenosivi ZIP",
+			"viewOnGithub": "Pogledajte na GitHubu"
+		},
+		"macos": {
+			"title": "Važna napomena za korisnike macOS-a:",
+			"intro": "macOS Gatekeeper blokira nepotpisane / neautentifikovane aplikacije preuzete sa interneta sa greškom {error}.",
+			"error": "\"oštećena je i ne može se otvoriti\"",
+			"runCommand": "Nakon preuzimanja DMG-a ili ZIP-a, prije otvaranja aplikacije, u Terminalu pokrenite naredbu sljedećeg oblika:",
+			"exampleDmg": "Na primjer nakon instalacije sa DMG-a:",
+			"exampleZip": "Ili nakon raspakivanja ZIP-a:",
+			"explanation": "Ova naredba uklanja atribut karantene i dopušta pokretanje aplikacije."
+		}
+	},
+	"screenshots": {
+		"title": "Snimci ekrana",
+		"open": "Otvori snimak {index}",
+		"alt": "Snimak ekrana {index}",
+		"close": "Zatvori galeriju",
+		"prev": "Prethodna slika",
+		"next": "Sljedeća slika"
+	},
+	"comparison": {
+		"title": "Poređenje",
+		"feature": "Karakteristika",
+		"yes": "da",
+		"no": "ne",
+		"partialDht": "Djelimično (DHT)",
+		"rows": {
+			"decentralized": "Decentralizovana mreža",
+			"onlineLibrary": "Online biblioteka",
+			"builtInSearch": "Ugrađeno pretraživanje sadržaja",
+			"decentralizedSearch": "Decentralizovano pretraživanje sadržaja",
+			"parallelDownloads": "Paralelna preuzimanja iz više izvora",
+			"mediaCenter": "Interfejs medijskog centra",
+			"gamepad": "Podrška za gamepad",
+			"openSource": "Otvoreni kod"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Stupite u kontakt",
+		"links": {
+			"telegramChat": "Telegram chat grupa",
+			"telegramAnnouncements": "Telegram obavještenja",
+			"facebook": "Facebook grupa"
+		}
+	},
+	"footer": {
+		"by": "od"
+	}
+}

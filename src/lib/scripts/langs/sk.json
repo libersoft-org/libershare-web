@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Decentralizované zdieľanie súborov",
+		"description": "{project} je softvér na peer-to-peer zdieľanie súborov postavený na moderných decentralizovaných technológiách.",
+		"ogTitle": "{project} - Decentralizovaný softvér na zdieľanie súborov",
+		"ogDescription": "Peer-to-peer zdieľanie súborov postavené na moderných decentralizovaných technológiách. Žiadne centrálne servery. Nič, čo by mohlo položiť celú sieť."
+	},
+	"menu": {
+		"about": "O projekte",
+		"download": "Na stiahnutie",
+		"screenshots": "Snímky obrazovky",
+		"comparison": "Porovnanie",
+		"contact": "Kontakt",
+		"toggle": "Prepnúť menu",
+		"close": "Zavrieť menu",
+		"language": "Jazyk",
+		"selectLanguage": "Vybrať jazyk"
+	},
+	"hero": {
+		"subtitle": "Nová generácia peer-to-peer zdieľania súborov",
+		"description": "Postavené na moderných decentralizovaných technológiách. Žiadne centrálne servery. Nič, čo by mohlo položiť celú sieť.",
+		"download": "Stiahnuť"
+	},
+	"about": {
+		"title": "O projekte",
+		"intro": "{project} je peer-to-peer platforma novej generácie na zdieľanie súborov, postavená na moderných decentralizovaných technológiách. Kombinuje intuitívne používateľské rozhranie s plne decentralizovanou architektúrou a poskytuje bezpečné a spoľahlivé riešenie pre zdieľanie dát nezávislé od akejkoľvek centrálnej autority. Projekt je open source a je distribuovaný pod licenciou {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Plne decentralizovaná sieť",
+				"description": "Žiadne centrálne servery, žiadne slabé miesto, ktoré by mohlo položiť celú sieť. Používatelia vyhľadávajú a sťahujú obsah priamo medzi sebou, bez závislosti od centralizovaných indexerov, trackerov alebo databáz."
+			},
+			"accessControl": {
+				"title": "Detailné riadenie prístupu",
+				"description": "Každý si môže vytvoriť vlastnú sieť s vlastnými pravidlami. V každej sieti definujte používateľské roly: vlastníkov, administrátorov, publisherov, moderátorov a sťahovačov. Presne určite, kto môže publikovať, moderovať a sťahovať obsah."
+			},
+			"ui": {
+				"title": "Špičkové používateľské rozhranie",
+				"description": "Prehľadné a používateľsky príjemné rozhranie mediálneho centra navrhnuté pre desktop, TV aj mobilné platformy. Bezproblémovo ovládajte klávesnicou, myšou, gamepadom alebo diaľkovým ovládačom. Pokročilí používatelia môžu využiť rozhranie príkazového riadka a softvér prevádzkovať ako súborový server bez grafického rozhrania."
+			},
+			"dataFormat": {
+				"title": "Dátový formát čitateľný pre človeka",
+				"description": "Dátový formát LISH je založený na JSON, takže je jednoduché ho vytvárať, čítať a porozumieť mu. Zdieľajte svoj obsah s jasnými, transparentnými metadátami, ktoré si môže každý jednoducho prezrieť."
+			},
+			"security": {
+				"title": "Súkromie a bezpečnosť",
+				"description": "Všetka peer-to-peer komunikácia je šifrovaná, takže vaše dáta zostávajú pri prenose súkromné. Používatelia sa môžu skryť za VPN pre dodatočnú vrstvu anonymity. {project} rešpektuje vaše súkromie už zo svojej podstaty."
+			},
+			"crossPlatform": {
+				"title": "Multiplatformový",
+				"description": "Softvér je k dispozícii pre platformy Windows, Linux aj macOS. Používajte ho na ľubovoľnom zariadení."
+			}
+		}
+	},
+	"download": {
+		"title": "Na stiahnutie",
+		"description": "Získajte {project} pre svoju platformu. Všetky súbory sú zadarmo a open source.",
+		"version": "Aktuálna verzia: {version}",
+		"linkAlt": "Stiahnuť",
+		"platforms": {
+			"sourceCode": "Zdrojový kód"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64bit",
+			"arm64": "ARM 64bit",
+			"universal": "Univerzálny (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64bit (Apple Silicon)",
+			"intel64": "Intel 64bit"
+		},
+		"items": {
+			"installer": "{format} inštalátor",
+			"package": "{format} balík",
+			"portableZip": "Prenosný ZIP",
+			"viewOnGithub": "Zobraziť na GitHube"
+		},
+		"macos": {
+			"title": "Dôležitá poznámka pre používateľov macOS:",
+			"intro": "macOS Gatekeeper blokuje nepodpísané / neoverené aplikácie stiahnuté z internetu chybou {error}.",
+			"error": "\"je poškodený a nemožno ho otvoriť\"",
+			"runCommand": "Po stiahnutí DMG alebo ZIP spustite v Termináli pred otvorením aplikácie príkaz v tomto tvare:",
+			"exampleDmg": "Napríklad po inštalácii z DMG:",
+			"exampleZip": "Alebo po rozbalení ZIPu:",
+			"explanation": "Tento príkaz odstráni karanténny atribút a umožní spustenie aplikácie."
+		}
+	},
+	"screenshots": {
+		"title": "Snímky obrazovky",
+		"open": "Otvoriť snímku {index}",
+		"alt": "Snímka obrazovky {index}",
+		"close": "Zavrieť galériu",
+		"prev": "Predchádzajúci obrázok",
+		"next": "Ďalší obrázok"
+	},
+	"comparison": {
+		"title": "Porovnanie",
+		"feature": "Vlastnosť",
+		"yes": "áno",
+		"no": "nie",
+		"partialDht": "Čiastočne (DHT)",
+		"rows": {
+			"decentralized": "Decentralizovaná sieť",
+			"onlineLibrary": "Online knižnica",
+			"builtInSearch": "Vstavané vyhľadávanie obsahu",
+			"decentralizedSearch": "Decentralizované vyhľadávanie obsahu",
+			"parallelDownloads": "Paralelné sťahovanie z viacerých zdrojov",
+			"mediaCenter": "Rozhranie mediálneho centra",
+			"gamepad": "Podpora gamepadu",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Kontaktujte nás",
+		"links": {
+			"telegramChat": "Skupina na Telegrame",
+			"telegramAnnouncements": "Oznámenia na Telegrame",
+			"facebook": "Skupina na Facebooku"
+		}
+	},
+	"footer": {
+		"by": "od"
+	}
+}

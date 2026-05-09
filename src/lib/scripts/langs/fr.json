@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Partage de fichiers décentralisé",
+		"description": "{project} est un logiciel de partage de fichiers peer-to-peer construit sur des technologies décentralisées modernes.",
+		"ogTitle": "{project} - Logiciel de partage de fichiers décentralisé",
+		"ogDescription": "Partage de fichiers peer-to-peer construit sur des technologies décentralisées modernes. Aucun serveur central. Rien qui puisse mettre tout le réseau hors service."
+	},
+	"menu": {
+		"about": "À propos",
+		"download": "Téléchargement",
+		"screenshots": "Captures d'écran",
+		"comparison": "Comparaison",
+		"contact": "Contact",
+		"toggle": "Basculer le menu",
+		"close": "Fermer le menu",
+		"language": "Langue",
+		"selectLanguage": "Sélectionner la langue"
+	},
+	"hero": {
+		"subtitle": "Partage de fichiers peer-to-peer de nouvelle génération",
+		"description": "Construit sur des technologies décentralisées modernes. Aucun serveur central. Rien qui puisse mettre tout le réseau hors service.",
+		"download": "Télécharger"
+	},
+	"about": {
+		"title": "À propos",
+		"intro": "{project} est une plateforme de partage de fichiers peer-to-peer de nouvelle génération, construite sur des technologies décentralisées modernes. Elle combine une interface utilisateur intuitive avec une architecture entièrement décentralisée, offrant une solution sécurisée et fiable pour le partage de données indépendante de toute autorité centrale. Le projet est open source et distribué sous la licence {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Réseau entièrement décentralisé",
+				"description": "Aucun serveur central, aucun point unique de défaillance. Les utilisateurs recherchent et téléchargent du contenu directement entre eux, sans dépendre d'indexeurs, trackers ou bases de données centralisés."
+			},
+			"accessControl": {
+				"title": "Contrôle d'accès granulaire",
+				"description": "Chacun est libre de créer son propre réseau avec ses propres règles. Définissez les rôles utilisateur dans chaque réseau : propriétaires, administrateurs, éditeurs, modérateurs et téléchargeurs. Contrôlez précisément qui peut publier, modérer et télécharger du contenu."
+			},
+			"ui": {
+				"title": "Interface utilisateur de premier ordre",
+				"description": "Une interface de centre multimédia claire et conviviale conçue pour les plateformes de bureau, TV et mobiles. Naviguez de manière fluide avec le clavier, la souris, la manette ou la télécommande. Les utilisateurs avancés peuvent tirer parti de l'interface en ligne de commande pour exécuter le logiciel en tant que serveur de fichiers sans interface graphique."
+			},
+			"dataFormat": {
+				"title": "Format de données lisible par l'humain",
+				"description": "Le format de données LISH est basé sur JSON, ce qui le rend facile à créer, à lire et à comprendre. Partagez votre contenu avec des métadonnées claires et transparentes que tout le monde peut facilement inspecter."
+			},
+			"security": {
+				"title": "Confidentialité et sécurité",
+				"description": "Toute la communication peer-to-peer est chiffrée, garantissant que vos données restent privées pendant le transfert. Les utilisateurs peuvent se cacher derrière un VPN pour une couche d'anonymat supplémentaire. {project} respecte votre vie privée par conception."
+			},
+			"crossPlatform": {
+				"title": "Multiplateforme",
+				"description": "Le logiciel est disponible pour les plateformes Windows, Linux et macOS. Utilisez-le sur l'appareil de votre choix."
+			}
+		}
+	},
+	"download": {
+		"title": "Téléchargement",
+		"description": "Obtenez {project} pour votre plateforme. Tous les téléchargements sont gratuits et open source.",
+		"version": "Version actuelle : {version}",
+		"linkAlt": "Télécharger",
+		"platforms": {
+			"sourceCode": "Code source"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bits",
+			"arm64": "ARM 64 bits",
+			"universal": "Universel (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bits (Apple Silicon)",
+			"intel64": "Intel 64 bits"
+		},
+		"items": {
+			"installer": "Installateur {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP portable",
+			"viewOnGithub": "Voir sur GitHub"
+		},
+		"macos": {
+			"title": "Note importante pour les utilisateurs macOS :",
+			"intro": "macOS Gatekeeper bloque les applications non signées / non notariées téléchargées depuis Internet avec une erreur {error}.",
+			"error": "« est endommagé et ne peut pas être ouvert »",
+			"runCommand": "Après avoir téléchargé le DMG ou le ZIP, exécutez dans le Terminal une commande de la forme suivante avant d'ouvrir l'application :",
+			"exampleDmg": "Par exemple, après installation depuis le DMG :",
+			"exampleZip": "Ou après extraction du ZIP :",
+			"explanation": "Cette commande supprime l'attribut de quarantaine et permet à l'application de s'exécuter."
+		}
+	},
+	"screenshots": {
+		"title": "Captures d'écran",
+		"open": "Ouvrir la capture {index}",
+		"alt": "Capture d'écran {index}",
+		"close": "Fermer la galerie",
+		"prev": "Image précédente",
+		"next": "Image suivante"
+	},
+	"comparison": {
+		"title": "Comparaison",
+		"feature": "Fonctionnalité",
+		"yes": "oui",
+		"no": "non",
+		"partialDht": "Partiel (DHT)",
+		"rows": {
+			"decentralized": "Réseau décentralisé",
+			"onlineLibrary": "Bibliothèque en ligne",
+			"builtInSearch": "Recherche de contenu intégrée",
+			"decentralizedSearch": "Recherche de contenu décentralisée",
+			"parallelDownloads": "Téléchargements parallèles multi-sources",
+			"mediaCenter": "Interface de centre multimédia",
+			"gamepad": "Prise en charge des manettes",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"getInTouch": "Nous contacter",
+		"links": {
+			"telegramChat": "Groupe de discussion Telegram",
+			"telegramAnnouncements": "Annonces Telegram",
+			"facebook": "Groupe Facebook"
+		}
+	},
+	"footer": {
+		"by": "par"
+	}
+}

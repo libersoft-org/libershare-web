@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Berbagi file terdesentralisasi",
+		"description": "{project} adalah perangkat lunak berbagi file peer-to-peer yang dibangun di atas teknologi terdesentralisasi modern.",
+		"ogTitle": "{project} - Perangkat lunak berbagi file terdesentralisasi",
+		"ogDescription": "Berbagi file peer-to-peer yang dibangun di atas teknologi terdesentralisasi modern. Tidak ada server pusat. Tidak ada yang dapat menjatuhkan seluruh jaringan."
+	},
+	"menu": {
+		"about": "Tentang",
+		"download": "Unduh",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Perbandingan",
+		"contact": "Kontak",
+		"toggle": "Alihkan menu",
+		"close": "Tutup menu",
+		"language": "Bahasa",
+		"selectLanguage": "Pilih bahasa"
+	},
+	"hero": {
+		"subtitle": "Berbagi file peer-to-peer generasi berikutnya",
+		"description": "Dibangun di atas teknologi terdesentralisasi modern. Tidak ada server pusat. Tidak ada yang dapat menjatuhkan seluruh jaringan.",
+		"download": "Unduh"
+	},
+	"about": {
+		"title": "Tentang",
+		"intro": "{project} adalah platform berbagi file peer-to-peer generasi berikutnya, yang dibangun di atas teknologi terdesentralisasi modern. Ini menggabungkan antarmuka pengguna yang intuitif dengan arsitektur yang sepenuhnya terdesentralisasi, memberikan solusi yang aman dan andal untuk berbagi data yang independen dari otoritas pusat manapun. Proyek ini bersifat sumber terbuka dan didistribusikan di bawah lisensi {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan yang sepenuhnya terdesentralisasi",
+				"description": "Tidak ada server pusat, tidak ada titik kegagalan tunggal. Pengguna mencari dan mengunduh konten langsung satu sama lain, tanpa mengandalkan pengindeks, pelacak, atau database terpusat."
+			},
+			"accessControl": {
+				"title": "Kontrol akses terperinci",
+				"description": "Siapa pun bebas memulai jaringan mereka sendiri dengan aturan mereka sendiri. Tentukan peran pengguna dalam setiap jaringan: pemilik, administrator, penerbit, moderator, dan pengunduh. Kontrol dengan tepat siapa yang dapat menerbitkan, memoderasi, dan mengunduh konten."
+			},
+			"ui": {
+				"title": "Antarmuka pengguna kelas atas",
+				"description": "Antarmuka pusat media yang bersih dan ramah pengguna yang dirancang untuk platform desktop, TV, dan seluler. Navigasi dengan mulus menggunakan keyboard, mouse, gamepad, atau remote control. Pengguna tingkat lanjut dapat memanfaatkan antarmuka baris perintah untuk menjalankan perangkat lunak sebagai server file tanpa antarmuka grafis."
+			},
+			"dataFormat": {
+				"title": "Format data yang dapat dibaca manusia",
+				"description": "Format data LISH didasarkan pada JSON, sehingga mudah dibuat, dibaca, dan dipahami. Bagikan konten Anda dengan metadata yang jelas dan transparan yang dapat diperiksa siapa saja dengan mudah."
+			},
+			"security": {
+				"title": "Privasi dan keamanan",
+				"description": "Semua komunikasi peer-to-peer dienkripsi, memastikan bahwa data Anda tetap pribadi selama transfer. Pengguna dapat bersembunyi di balik VPN untuk lapisan anonimitas tambahan. {project} menghormati privasi Anda berdasarkan desain."
+			},
+			"crossPlatform": {
+				"title": "Lintas platform",
+				"description": "Perangkat lunak ini tersedia untuk platform Windows, Linux, dan macOS. Gunakan pada perangkat apa pun yang Anda sukai."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduh",
+		"description": "Dapatkan {project} untuk platform Anda. Semua unduhan gratis dan sumber terbuka.",
+		"version": "Versi saat ini: {version}",
+		"linkAlt": "Unduh",
+		"platforms": {
+			"sourceCode": "Kode sumber"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Lihat di GitHub"
+		},
+		"macos": {
+			"title": "Catatan penting untuk pengguna macOS:",
+			"intro": "macOS Gatekeeper memblokir aplikasi yang tidak ditandatangani / tidak diautentikasi yang diunduh dari internet dengan kesalahan {error}.",
+			"error": "\"rusak dan tidak dapat dibuka\"",
+			"runCommand": "Setelah mengunduh DMG atau ZIP, sebelum membuka aplikasi, jalankan di Terminal perintah dalam bentuk berikut:",
+			"exampleDmg": "Misalnya setelah menginstal dari DMG:",
+			"exampleZip": "Atau setelah mengekstrak ZIP:",
+			"explanation": "Perintah ini menghapus atribut karantina dan mengizinkan aplikasi berjalan."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Buka tangkapan {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Tutup galeri",
+		"prev": "Gambar sebelumnya",
+		"next": "Gambar berikutnya"
+	},
+	"comparison": {
+		"title": "Perbandingan",
+		"feature": "Fitur",
+		"yes": "ya",
+		"no": "tidak",
+		"partialDht": "Sebagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan terdesentralisasi",
+			"onlineLibrary": "Perpustakaan online",
+			"builtInSearch": "Pencarian konten bawaan",
+			"decentralizedSearch": "Pencarian konten terdesentralisasi",
+			"parallelDownloads": "Unduhan paralel dari banyak sumber",
+			"mediaCenter": "Antarmuka pusat media",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Sumber terbuka"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Hubungi kami",
+		"links": {
+			"telegramChat": "Grup obrolan Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "oleh"
+	}
+}

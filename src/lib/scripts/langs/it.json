@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Condivisione di file decentralizzata",
+		"description": "{project} è un software di condivisione di file peer-to-peer costruito su moderne tecnologie decentralizzate.",
+		"ogTitle": "{project} - Software di condivisione file decentralizzato",
+		"ogDescription": "Condivisione di file peer-to-peer costruita su moderne tecnologie decentralizzate. Nessun server centrale. Nulla che possa abbattere l'intera rete."
+	},
+	"menu": {
+		"about": "Informazioni",
+		"download": "Download",
+		"screenshots": "Screenshot",
+		"comparison": "Confronto",
+		"contact": "Contatto",
+		"toggle": "Apri/chiudi menu",
+		"close": "Chiudi menu",
+		"language": "Lingua",
+		"selectLanguage": "Seleziona lingua"
+	},
+	"hero": {
+		"subtitle": "Condivisione di file peer-to-peer di nuova generazione",
+		"description": "Costruito su moderne tecnologie decentralizzate. Nessun server centrale. Nulla che possa abbattere l'intera rete.",
+		"download": "Scarica"
+	},
+	"about": {
+		"title": "Informazioni",
+		"intro": "{project} è una piattaforma di condivisione di file peer-to-peer di nuova generazione, costruita su moderne tecnologie decentralizzate. Combina un'interfaccia utente intuitiva con un'architettura completamente decentralizzata, fornendo una soluzione sicura e affidabile per la condivisione dei dati indipendente da qualsiasi autorità centrale. Il progetto è open source e distribuito sotto la licenza {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete completamente decentralizzata",
+				"description": "Nessun server centrale, nessun singolo punto di guasto. Gli utenti cercano e scaricano contenuti direttamente tra di loro, senza fare affidamento su indicizzatori, tracker o database centralizzati."
+			},
+			"accessControl": {
+				"title": "Controllo degli accessi granulare",
+				"description": "Chiunque è libero di avviare la propria rete con le proprie regole. Definisci ruoli utente all'interno di ogni rete: proprietari, amministratori, editori, moderatori e downloader. Controlla esattamente chi può pubblicare, moderare e scaricare contenuti."
+			},
+			"ui": {
+				"title": "Interfaccia utente di prima classe",
+				"description": "Un'interfaccia media center pulita e intuitiva progettata per piattaforme desktop, TV e mobili. Naviga senza problemi con tastiera, mouse, gamepad o telecomando. Gli utenti esperti possono sfruttare l'interfaccia a riga di comando per eseguire il software come server di file senza interfaccia grafica."
+			},
+			"dataFormat": {
+				"title": "Formato dati leggibile dall'uomo",
+				"description": "Il formato dati LISH è basato su JSON, il che lo rende facile da creare, leggere e comprendere. Condividi i tuoi contenuti con metadati chiari e trasparenti che chiunque può ispezionare facilmente."
+			},
+			"security": {
+				"title": "Privacy e sicurezza",
+				"description": "Tutta la comunicazione peer-to-peer è crittografata, garantendo che i tuoi dati rimangano privati durante il trasferimento. Gli utenti possono nascondersi dietro una VPN per un ulteriore livello di anonimato. {project} rispetta la tua privacy per progettazione."
+			},
+			"crossPlatform": {
+				"title": "Multipiattaforma",
+				"description": "Il software è disponibile per le piattaforme Windows, Linux e macOS. Usalo su qualsiasi dispositivo tu preferisca."
+			}
+		}
+	},
+	"download": {
+		"title": "Download",
+		"description": "Ottieni {project} per la tua piattaforma. Tutti i download sono gratuiti e open source.",
+		"version": "Versione attuale: {version}",
+		"linkAlt": "Scarica",
+		"platforms": {
+			"sourceCode": "Codice sorgente"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bit",
+			"arm64": "ARM 64 bit",
+			"universal": "Universale (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bit (Apple Silicon)",
+			"intel64": "Intel 64 bit"
+		},
+		"items": {
+			"installer": "Installer {format}",
+			"package": "Pacchetto {format}",
+			"portableZip": "ZIP portatile",
+			"viewOnGithub": "Visualizza su GitHub"
+		},
+		"macos": {
+			"title": "Nota importante per gli utenti macOS:",
+			"intro": "macOS Gatekeeper blocca le app non firmate / non notarizzate scaricate da Internet con un errore {error}.",
+			"error": "\"è danneggiato e non può essere aperto\"",
+			"runCommand": "Dopo aver scaricato il DMG o lo ZIP, esegui nel Terminale un comando della seguente forma prima di aprire l'app:",
+			"exampleDmg": "Ad esempio, dopo l'installazione dal DMG:",
+			"exampleZip": "Oppure dopo aver estratto lo ZIP:",
+			"explanation": "Questo comando rimuove l'attributo di quarantena e consente l'esecuzione dell'app."
+		}
+	},
+	"screenshots": {
+		"title": "Screenshot",
+		"open": "Apri screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Chiudi galleria",
+		"prev": "Immagine precedente",
+		"next": "Immagine successiva"
+	},
+	"comparison": {
+		"title": "Confronto",
+		"feature": "Funzionalità",
+		"yes": "sì",
+		"no": "no",
+		"partialDht": "Parziale (DHT)",
+		"rows": {
+			"decentralized": "Rete decentralizzata",
+			"onlineLibrary": "Libreria online",
+			"builtInSearch": "Ricerca contenuti integrata",
+			"decentralizedSearch": "Ricerca contenuti decentralizzata",
+			"parallelDownloads": "Download paralleli da più sorgenti",
+			"mediaCenter": "Interfaccia media center",
+			"gamepad": "Supporto gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Contatto",
+		"getInTouch": "Mettiti in contatto",
+		"links": {
+			"telegramChat": "Gruppo Chat Telegram",
+			"telegramAnnouncements": "Annunci Telegram",
+			"facebook": "Gruppo Facebook"
+		}
+	},
+	"footer": {
+		"by": "di"
+	}
+}

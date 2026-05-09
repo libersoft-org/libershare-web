@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Compartició descentralitzada de fitxers",
+		"description": "{project} és un programari de compartició de fitxers entre iguals construït sobre tecnologies descentralitzades modernes.",
+		"ogTitle": "{project} - Programari de compartició descentralitzada de fitxers",
+		"ogDescription": "Compartició de fitxers entre iguals construïda sobre tecnologies descentralitzades modernes. Sense servidors centrals. Res que pugui fer caure tota la xarxa."
+	},
+	"menu": {
+		"about": "Sobre",
+		"download": "Baixada",
+		"screenshots": "Captures de pantalla",
+		"comparison": "Comparació",
+		"contact": "Contacte",
+		"toggle": "Commuta el menú",
+		"close": "Tanca el menú",
+		"language": "Idioma",
+		"selectLanguage": "Selecciona l'idioma"
+	},
+	"hero": {
+		"subtitle": "Compartició de fitxers entre iguals de nova generació",
+		"description": "Construïda sobre tecnologies descentralitzades modernes. Sense servidors centrals. Res que pugui fer caure tota la xarxa.",
+		"download": "Baixa"
+	},
+	"about": {
+		"title": "Sobre",
+		"intro": "{project} és una plataforma de compartició de fitxers entre iguals de nova generació, construïda sobre tecnologies descentralitzades modernes. Combina una interfície d'usuari intuïtiva amb una arquitectura completament descentralitzada, oferint una solució segura i fiable per a la compartició de dades, independent de qualsevol autoritat central. El projecte és de codi obert i es distribueix sota la llicència {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Xarxa completament descentralitzada",
+				"description": "Sense servidors centrals, sense un únic punt de fallada. Els usuaris cerquen i baixen contingut directament entre ells, sense dependre d'indexadors, traçadors o bases de dades centralitzades."
+			},
+			"accessControl": {
+				"title": "Control d'accés granular",
+				"description": "Qualsevol pot iniciar lliurement la seva pròpia xarxa amb les seves pròpies regles. Definiu rols d'usuari dins de cada xarxa: propietaris, administradors, publicadors, moderadors i baixadors. Controleu exactament qui pot publicar, moderar i baixar contingut."
+			},
+			"ui": {
+				"title": "Interfície d'usuari de primer nivell",
+				"description": "Una interfície de centre multimèdia neta i fàcil d'usar dissenyada per a plataformes d'escriptori, TV i mòbils. Navegueu sense problemes amb teclat, ratolí, comandament o control remot. Els usuaris avançats poden aprofitar la interfície de línia d'ordres per executar el programari com a servidor de fitxers sense interfície gràfica."
+			},
+			"dataFormat": {
+				"title": "Format de dades llegible per humans",
+				"description": "El format de dades LISH es basa en JSON, cosa que el fa fàcil de crear, llegir i entendre. Compartiu el vostre contingut amb metadades clares i transparents que qualsevol pot inspeccionar fàcilment."
+			},
+			"security": {
+				"title": "Privadesa i seguretat",
+				"description": "Tota la comunicació entre iguals està xifrada, garantint que les vostres dades romanen privades durant la transferència. Els usuaris poden amagar-se darrere d'una VPN per a una capa addicional d'anonimat. {project} respecta la vostra privadesa per disseny."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "El programari està disponible per a les plataformes Windows, Linux i macOS. Useu-lo en qualsevol dispositiu que prefereixi."
+			}
+		}
+	},
+	"download": {
+		"title": "Baixada",
+		"description": "Obteniu {project} per a la vostra plataforma. Totes les baixades són gratuïtes i de codi obert.",
+		"version": "Versió actual: {version}",
+		"linkAlt": "Baixa",
+		"platforms": {
+			"sourceCode": "Codi font"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 bits",
+			"arm64": "ARM 64 bits",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 bits (Apple Silicon)",
+			"intel64": "Intel 64 bits"
+		},
+		"items": {
+			"installer": "Instal·lador {format}",
+			"package": "Paquet {format}",
+			"portableZip": "ZIP portàtil",
+			"viewOnGithub": "Mira a GitHub"
+		},
+		"macos": {
+			"title": "Nota important per a usuaris de macOS:",
+			"intro": "macOS Gatekeeper bloqueja les aplicacions no signades / no autenticades baixades d'internet amb un error {error}.",
+			"error": "\"està malmès i no es pot obrir\"",
+			"runCommand": "Després de baixar el DMG o ZIP, abans d'obrir l'aplicació, executeu al Terminal una ordre amb la forma següent:",
+			"exampleDmg": "Per exemple després d'instal·lar des del DMG:",
+			"exampleZip": "O després d'extreure el ZIP:",
+			"explanation": "Aquesta ordre elimina l'atribut de quarantena i permet que l'aplicació s'executi."
+		}
+	},
+	"screenshots": {
+		"title": "Captures de pantalla",
+		"open": "Obre la captura {index}",
+		"alt": "Captura de pantalla {index}",
+		"close": "Tanca la galeria",
+		"prev": "Imatge anterior",
+		"next": "Imatge següent"
+	},
+	"comparison": {
+		"title": "Comparació",
+		"feature": "Característica",
+		"yes": "sí",
+		"no": "no",
+		"partialDht": "Parcial (DHT)",
+		"rows": {
+			"decentralized": "Xarxa descentralitzada",
+			"onlineLibrary": "Biblioteca en línia",
+			"builtInSearch": "Cerca de contingut integrada",
+			"decentralizedSearch": "Cerca de contingut descentralitzada",
+			"parallelDownloads": "Baixades paral·leles de múltiples fonts",
+			"mediaCenter": "Interfície de centre multimèdia",
+			"gamepad": "Suport per a comandament",
+			"openSource": "Codi obert"
+		}
+	},
+	"contact": {
+		"title": "Contacte",
+		"getInTouch": "Poseu-vos en contacte",
+		"links": {
+			"telegramChat": "Grup de xat de Telegram",
+			"telegramAnnouncements": "Anuncis de Telegram",
+			"facebook": "Grup de Facebook"
+		}
+	},
+	"footer": {
+		"by": "per"
+	}
+}

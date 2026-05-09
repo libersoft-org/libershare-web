@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - 分散型ファイル共有",
+		"description": "{project} は最新の分散型技術を基盤に構築されたピアツーピアのファイル共有ソフトウェアです。",
+		"ogTitle": "{project} - 分散型ファイル共有ソフトウェア",
+		"ogDescription": "最新の分散型技術を基盤に構築されたピアツーピアのファイル共有。中央サーバーは存在しません。ネットワーク全体をダウンさせるものは何もありません。"
+	},
+	"menu": {
+		"about": "概要",
+		"download": "ダウンロード",
+		"screenshots": "スクリーンショット",
+		"comparison": "比較",
+		"contact": "お問い合わせ",
+		"toggle": "メニューの切り替え",
+		"close": "メニューを閉じる",
+		"language": "言語",
+		"selectLanguage": "言語を選択"
+	},
+	"hero": {
+		"subtitle": "次世代のピアツーピアファイル共有",
+		"description": "最新の分散型技術を基盤に構築されています。中央サーバーは存在しません。ネットワーク全体をダウンさせるものは何もありません。",
+		"download": "ダウンロード"
+	},
+	"about": {
+		"title": "概要",
+		"intro": "{project} は、最新の分散型技術を基盤に構築された次世代のピアツーピアファイル共有プラットフォームです。直感的なユーザーインターフェースと完全に分散化されたアーキテクチャを組み合わせ、いかなる中央機関にも依存しない、安全で信頼性の高いデータ共有ソリューションを提供します。このプロジェクトはオープンソースであり、{license} ライセンスの下で配布されています。",
+		"features": {
+			"decentralized": {
+				"title": "完全に分散化されたネットワーク",
+				"description": "中央サーバーや単一障害点がありません。ユーザーは集中型のインデクサー、トラッカー、データベースに依存することなく、互いに直接コンテンツを検索しダウンロードします。"
+			},
+			"accessControl": {
+				"title": "きめ細かいアクセス制御",
+				"description": "誰でも自分のルールで自分のネットワークを自由に開始できます。各ネットワーク内でユーザーの役割を定義します:所有者、管理者、発行者、モデレーター、ダウンローダー。誰がコンテンツを公開、モデレート、ダウンロードできるかを正確に制御できます。"
+			},
+			"ui": {
+				"title": "最高水準のユーザーインターフェース",
+				"description": "デスクトップ、TV、モバイルプラットフォーム向けに設計された、清潔でユーザーフレンドリーなメディアセンターインターフェース。キーボード、マウス、ゲームパッド、リモコンでシームレスに操作できます。上級ユーザーはコマンドラインインターフェースを利用して、グラフィカルインターフェースなしのファイルサーバーとしてソフトウェアを実行できます。"
+			},
+			"dataFormat": {
+				"title": "人間が読めるデータ形式",
+				"description": "LISH データ形式は JSON ベースで、作成、読み取り、理解が容易です。誰もが簡単に検査できる明確で透明性の高いメタデータでコンテンツを共有しましょう。"
+			},
+			"security": {
+				"title": "プライバシーとセキュリティ",
+				"description": "すべてのピアツーピア通信は暗号化されており、転送中のデータが確実にプライベートに保たれます。ユーザーは追加の匿名層として VPN の背後に隠れることができます。{project} は設計上、あなたのプライバシーを尊重します。"
+			},
+			"crossPlatform": {
+				"title": "クロスプラットフォーム",
+				"description": "ソフトウェアは Windows、Linux、macOS プラットフォームで利用可能です。お好みのデバイスでご使用ください。"
+			}
+		}
+	},
+	"download": {
+		"title": "ダウンロード",
+		"description": "お使いのプラットフォーム用の {project} を入手してください。すべてのダウンロードは無料でオープンソースです。",
+		"version": "現在のバージョン:{version}",
+		"linkAlt": "ダウンロード",
+		"platforms": {
+			"sourceCode": "ソースコード"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64 ビット",
+			"arm64": "ARM 64 ビット",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64 ビット (Apple Silicon)",
+			"intel64": "Intel 64 ビット"
+		},
+		"items": {
+			"installer": "{format} インストーラー",
+			"package": "{format} パッケージ",
+			"portableZip": "ポータブル ZIP",
+			"viewOnGithub": "GitHub で見る"
+		},
+		"macos": {
+			"title": "macOS ユーザーへの重要なお知らせ:",
+			"intro": "macOS Gatekeeper は、インターネットからダウンロードされた署名なし / 認証されていないアプリを {error} エラーでブロックします。",
+			"error": "\"破損していて開けません\"",
+			"runCommand": "DMG または ZIP をダウンロードした後、アプリを開く前に、Terminal で次の形式のコマンドを実行してください:",
+			"exampleDmg": "例えば、DMG からインストールした後:",
+			"exampleZip": "または ZIP を解凍した後:",
+			"explanation": "このコマンドは隔離属性を削除し、アプリの実行を許可します。"
+		}
+	},
+	"screenshots": {
+		"title": "スクリーンショット",
+		"open": "スクリーンショット {index} を開く",
+		"alt": "スクリーンショット {index}",
+		"close": "ギャラリーを閉じる",
+		"prev": "前の画像",
+		"next": "次の画像"
+	},
+	"comparison": {
+		"title": "比較",
+		"feature": "機能",
+		"yes": "はい",
+		"no": "いいえ",
+		"partialDht": "部分的 (DHT)",
+		"rows": {
+			"decentralized": "分散型ネットワーク",
+			"onlineLibrary": "オンラインライブラリ",
+			"builtInSearch": "組み込みのコンテンツ検索",
+			"decentralizedSearch": "分散型コンテンツ検索",
+			"parallelDownloads": "複数ソースからの並列ダウンロード",
+			"mediaCenter": "メディアセンターインターフェース",
+			"gamepad": "ゲームパッドサポート",
+			"openSource": "オープンソース"
+		}
+	},
+	"contact": {
+		"title": "お問い合わせ",
+		"getInTouch": "お問い合わせ",
+		"links": {
+			"telegramChat": "Telegram チャットグループ",
+			"telegramAnnouncements": "Telegram お知らせ",
+			"facebook": "Facebook グループ"
+		}
+	},
+	"footer": {
+		"by": "作:"
+	}
+}

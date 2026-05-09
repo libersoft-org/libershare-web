@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dezentralisierter Dateiaustausch",
+		"description": "{project} ass eng Peer-to-Peer Software fir den Dateienaustausch, déi op modernen dezentraliséierten Technologien opbaut.",
+		"ogTitle": "{project} - Dezentraliséiert Software fir den Dateienaustausch",
+		"ogDescription": "Peer-to-Peer Dateienaustausch op modernen dezentraliséierten Technologien opgebaut. Keng zentral Server. Näischt, wat dat ganzt Netz kéint zerstéieren."
+	},
+	"menu": {
+		"about": "Iwwer",
+		"download": "Eroflueden",
+		"screenshots": "Bildschirmfotoen",
+		"comparison": "Verglach",
+		"contact": "Kontakt",
+		"toggle": "Menü ëmschalten",
+		"close": "Menü zoumaachen",
+		"language": "Sprooch",
+		"selectLanguage": "Sprooch auswielen"
+	},
+	"hero": {
+		"subtitle": "Peer-to-Peer Dateienaustausch vun der nächster Generatioun",
+		"description": "Op modernen dezentraliséierten Technologien opgebaut. Keng zentral Server. Näischt, wat dat ganzt Netz kéint zerstéieren.",
+		"download": "Eroflueden"
+	},
+	"about": {
+		"title": "Iwwer",
+		"intro": "{project} ass eng Peer-to-Peer Plattform fir den Dateienaustausch vun der nächster Generatioun, déi op modernen dezentraliséierten Technologien opbaut. Et kombinéiert eng intuitiv Benotzeruewerfläch mat enger komplett dezentraliséierter Architektur a bitt eng sécher an zouverlässeg Léisung fir den Dateenaustausch, onofhängeg vun all zentraler Autoritéit. D'Projet ass Open Source a gëtt ënner der {license}-Lizenz verdeelt.",
+		"features": {
+			"decentralized": {
+				"title": "Komplett dezentraliséiert Netz",
+				"description": "Keng zentral Server, keng eenzeg Schwachstell. Benotzer sichen a lueden Inhalter direkt vunenee, ouni op zentraliséiert Indexeren, Tracker oder Datebanken zréckzegräifen."
+			},
+			"accessControl": {
+				"title": "Detailléiert Zougangskontroll",
+				"description": "All Mënsch ka säin eegent Netz mat eegene Reegelen ufänken. Definéiert Benotzerrollen an all Netz: Besëtzer, Administrateuren, Verëffentlecher, Moderateuren an Erofluedener. Kontrolléiert genau, wien Inhalt verëffentlechen, moderéieren an erofluede kann."
+			},
+			"ui": {
+				"title": "Spëtzeklasse Benotzeruewerfläch",
+				"description": "Eng propper a benotzerfrëndlech Mediencenter-Uewerfläch entworf fir Desktop-, TV- a Mobilplattformen. Navigéiert ouni Probleem mat Tastatur, Maus, Gamepad oder Fernsteierung. Erfueren Benotzer kënnen d'Kommandozeil-Uewerfläch benotzen, fir d'Software als Datenserver ouni grafesch Uewerfläch lafen ze loossen."
+			},
+			"dataFormat": {
+				"title": "Mënschelliesbart Datenformat",
+				"description": "D'LISH-Datenformat baséiert op JSON, wat et einfach mécht et ze erstellen, ze liesen an ze verstoen. Deelt Ären Inhalt mat klore, transparente Metadaten, déi jiddereen einfach iwwerpréiwe kann."
+			},
+			"security": {
+				"title": "Privatsphär a Sécherheet",
+				"description": "All Peer-to-Peer Kommunikatioun ass verschlësselt, fir sécherzestellen, datt Är Daten wärend dem Transfert privat bleiwen. Benotzer kënne sech hannert engem VPN verstoppen, fir eng zousätzlech Schicht vun Anonymitéit. {project} respektéiert Är Privatsphär duerch d'Konzeptioun."
+			},
+			"crossPlatform": {
+				"title": "Plattform-iwwergräifend",
+				"description": "D'Software ass disponibel fir Windows-, Linux- a macOS-Plattformen. Benotzt se op all Apparat, deen Iech gefält."
+			}
+		}
+	},
+	"download": {
+		"title": "Eroflueden",
+		"description": "Kritt {project} fir Är Plattform. All Downloads sinn gratis an Open Source.",
+		"version": "Aktuell Versioun: {version}",
+		"linkAlt": "Eroflueden",
+		"platforms": {
+			"sourceCode": "Quellcode"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-Bit",
+			"arm64": "ARM 64-Bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-Bit (Apple Silicon)",
+			"intel64": "Intel 64-Bit"
+		},
+		"items": {
+			"installer": "{format}-Installateur",
+			"package": "{format}-Package",
+			"portableZip": "Portabel ZIP",
+			"viewOnGithub": "Op GitHub kucken"
+		},
+		"macos": {
+			"title": "Wichteg Notiz fir macOS-Benotzer:",
+			"intro": "macOS Gatekeeper blockéiert net ënnerschriwwen / net authentifizéiert Apps déi vum Internet erofgelueden goufen mat enger {error}-Feeler.",
+			"error": "\"ass beschiedegt a kann net opgemaach ginn\"",
+			"runCommand": "Nodeems Dir d'DMG oder ZIP erofgelueden hutt, ier Dir d'App opmaacht, fuert am Terminal e Kommando vun der folgender Form aus:",
+			"exampleDmg": "Zum Beispill no der Installatioun vum DMG:",
+			"exampleZip": "Oder no dem Auspacken vum ZIP:",
+			"explanation": "Dëse Kommando läscht d'Quarantän-Attribut an erlaabt der App ze lafen."
+		}
+	},
+	"screenshots": {
+		"title": "Bildschirmfotoen",
+		"open": "Bildschirmfoto {index} opmaachen",
+		"alt": "Bildschirmfoto {index}",
+		"close": "Galerie zoumaachen",
+		"prev": "Viregt Bild",
+		"next": "Nächst Bild"
+	},
+	"comparison": {
+		"title": "Verglach",
+		"feature": "Funktioun",
+		"yes": "jo",
+		"no": "nee",
+		"partialDht": "Deelweis (DHT)",
+		"rows": {
+			"decentralized": "Dezentraliséiert Netz",
+			"onlineLibrary": "Online Bibliothéik",
+			"builtInSearch": "Agebauten Inhaltssich",
+			"decentralizedSearch": "Dezentraliséiert Inhaltssich",
+			"parallelDownloads": "Parallel Downloads aus méi Quellen",
+			"mediaCenter": "Mediencenter-Uewerfläch",
+			"gamepad": "Gamepad-Ënnerstëtzung",
+			"openSource": "Open Source"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"getInTouch": "Hëlt Kontakt op",
+		"links": {
+			"telegramChat": "Telegram Chat-Grupp",
+			"telegramAnnouncements": "Telegram Annoncen",
+			"facebook": "Facebook-Grupp"
+		}
+	},
+	"footer": {
+		"by": "vun"
+	}
+}

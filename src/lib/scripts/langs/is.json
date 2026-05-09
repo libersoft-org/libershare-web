@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dreifð skráadeiling",
+		"description": "{project} er hugbúnaður fyrir jafningja-til-jafningja skráadeilingu byggður á nútíma dreifðri tækni.",
+		"ogTitle": "{project} - Dreifður hugbúnaður fyrir skráadeilingu",
+		"ogDescription": "Jafningja-til-jafningja skráadeiling byggð á nútíma dreifðri tækni. Engir miðlægir miðlarar. Ekkert sem getur fellt allt netið."
+	},
+	"menu": {
+		"about": "Um",
+		"download": "Niðurhal",
+		"screenshots": "Skjámyndir",
+		"comparison": "Samanburður",
+		"contact": "Hafa samband",
+		"toggle": "Skipta um valmynd",
+		"close": "Loka valmynd",
+		"language": "Tungumál",
+		"selectLanguage": "Veldu tungumál"
+	},
+	"hero": {
+		"subtitle": "Næstu kynslóð jafningja-til-jafningja skráadeiling",
+		"description": "Byggt á nútíma dreifðri tækni. Engir miðlægir miðlarar. Ekkert sem getur fellt allt netið.",
+		"download": "Niðurhala"
+	},
+	"about": {
+		"title": "Um",
+		"intro": "{project} er næstu kynslóðar jafningja-til-jafningja skráadeilingarvettvangur, byggður á nútíma dreifðri tækni. Hann sameinar leiðandi notendaviðmót við algjörlega dreifðan arkitektúr og veitir örugga og áreiðanlega lausn fyrir gagnadeilingu, óháð öllum miðlægum yfirvöldum. Verkefnið er opinn hugbúnaður og dreift undir {license} leyfinu.",
+		"features": {
+			"decentralized": {
+				"title": "Algjörlega dreift net",
+				"description": "Engir miðlægir miðlarar, enginn einn bilanapunktur. Notendur leita og hala niður efni beint hver frá öðrum, án þess að reiða sig á miðlæga skráarvísa, rekjara eða gagnagrunna."
+			},
+			"accessControl": {
+				"title": "Nákvæm aðgangsstýring",
+				"description": "Allir geta frjálslega sett upp sitt eigið net með eigin reglum. Skilgreindu notendahlutverk innan hvers nets: eigendur, kerfisstjóra, útgefendur, ritstjóra og niðurhalara. Stjórnaðu nákvæmlega hver getur birt, ritstýrt og hala niður efni."
+			},
+			"ui": {
+				"title": "Notendaviðmót á heimsmælikvarða",
+				"description": "Hreint og notendavænt miðjuviðmót hannað fyrir borð-, sjónvarps- og farsímavettvanga. Vafraðu vandræðalaust með lyklaborði, mús, leikjastýringu eða fjarstýringu. Lengra komnir notendur geta nýtt sér skipanalínuviðmótið til að keyra hugbúnaðinn sem skráarmiðlara án myndræns viðmóts."
+			},
+			"dataFormat": {
+				"title": "Mannlæsilegt gagnasnið",
+				"description": "LISH gagnasniðið er byggt á JSON, sem gerir það auðvelt að búa til, lesa og skilja. Deildu efni þínu með skýrum, gegnsæjum lýsigögnum sem hver sem er getur auðveldlega skoðað."
+			},
+			"security": {
+				"title": "Friðhelgi einkalífs og öryggi",
+				"description": "Öll jafningja-til-jafningja samskipti eru dulkóðuð, sem tryggir að gögnin þín haldist einkamál meðan á flutningi stendur. Notendur geta falið sig á bak við VPN fyrir auka lag af nafnleysi. {project} virðir friðhelgi þína samkvæmt hönnun."
+			},
+			"crossPlatform": {
+				"title": "Þvert á vettvanga",
+				"description": "Hugbúnaðurinn er fáanlegur fyrir Windows, Linux og macOS vettvanga. Notaðu hann á hvaða tæki sem þú vilt."
+			}
+		}
+	},
+	"download": {
+		"title": "Niðurhal",
+		"description": "Sæktu {project} fyrir vettvanginn þinn. Allt niðurhal er ókeypis og opinn hugbúnaður.",
+		"version": "Núverandi útgáfa: {version}",
+		"linkAlt": "Niðurhala",
+		"platforms": {
+			"sourceCode": "Frumkóði"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bita",
+			"arm64": "ARM 64-bita",
+			"universal": "Algilt (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bita (Apple Silicon)",
+			"intel64": "Intel 64-bita"
+		},
+		"items": {
+			"installer": "{format} uppsetningarforrit",
+			"package": "{format} pakki",
+			"portableZip": "Færanleg ZIP",
+			"viewOnGithub": "Skoða á GitHub"
+		},
+		"macos": {
+			"title": "Mikilvæg athugasemd fyrir macOS notendur:",
+			"intro": "macOS Gatekeeper hindrar óundirritaðar / óstaðfestar forrit sem sótt eru af internetinu með {error} villu.",
+			"error": "\"er skemmd og er ekki hægt að opna\"",
+			"runCommand": "Eftir niðurhal á DMG eða ZIP, áður en þú opnar forritið, keyrðu í Terminal skipun á eftirfarandi formi:",
+			"exampleDmg": "Til dæmis eftir uppsetningu úr DMG:",
+			"exampleZip": "Eða eftir að ZIP er flett upp:",
+			"explanation": "Þessi skipun fjarlægir sóttkvíarbreytuna og leyfir forritinu að keyra."
+		}
+	},
+	"screenshots": {
+		"title": "Skjámyndir",
+		"open": "Opna skjámynd {index}",
+		"alt": "Skjámynd {index}",
+		"close": "Loka galleríi",
+		"prev": "Fyrri mynd",
+		"next": "Næsta mynd"
+	},
+	"comparison": {
+		"title": "Samanburður",
+		"feature": "Eiginleiki",
+		"yes": "já",
+		"no": "nei",
+		"partialDht": "Að hluta (DHT)",
+		"rows": {
+			"decentralized": "Dreift net",
+			"onlineLibrary": "Netbókasafn",
+			"builtInSearch": "Innbyggð efnisleit",
+			"decentralizedSearch": "Dreifð efnisleit",
+			"parallelDownloads": "Samhliða niðurhal frá mörgum heimildum",
+			"mediaCenter": "Miðjuviðmót",
+			"gamepad": "Stuðningur við leikjastýringu",
+			"openSource": "Opinn hugbúnaður"
+		}
+	},
+	"contact": {
+		"title": "Hafa samband",
+		"getInTouch": "Hafðu samband",
+		"links": {
+			"telegramChat": "Telegram spjallhópur",
+			"telegramAnnouncements": "Telegram tilkynningar",
+			"facebook": "Facebook hópur"
+		}
+	},
+	"footer": {
+		"by": "eftir"
+	}
+}

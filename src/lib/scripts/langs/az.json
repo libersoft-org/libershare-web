@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Mərkəzləşdirilməmiş fayl paylaşımı",
+		"description": "{project} müasir mərkəzləşdirilməmiş texnologiyalar üzərində qurulmuş peer-to-peer fayl paylaşma proqramıdır.",
+		"ogTitle": "{project} - Mərkəzləşdirilməmiş fayl paylaşma proqramı",
+		"ogDescription": "Müasir mərkəzləşdirilməmiş texnologiyalar üzərində qurulmuş peer-to-peer fayl paylaşımı. Mərkəzi serverlər yoxdur. Bütün şəbəkəni yıxa biləcək heç nə yoxdur."
+	},
+	"menu": {
+		"about": "Haqqında",
+		"download": "Yükləmə",
+		"screenshots": "Ekran görüntüləri",
+		"comparison": "Müqayisə",
+		"contact": "Əlaqə",
+		"toggle": "Menyunu dəyiş",
+		"close": "Menyunu bağla",
+		"language": "Dil",
+		"selectLanguage": "Dili seçin"
+	},
+	"hero": {
+		"subtitle": "Yeni nəsil peer-to-peer fayl paylaşımı",
+		"description": "Müasir mərkəzləşdirilməmiş texnologiyalar üzərində qurulmuşdur. Mərkəzi serverlər yoxdur. Bütün şəbəkəni yıxa biləcək heç nə yoxdur.",
+		"download": "Yüklə"
+	},
+	"about": {
+		"title": "Haqqında",
+		"intro": "{project} müasir mərkəzləşdirilməmiş texnologiyalar üzərində qurulmuş yeni nəsil peer-to-peer fayl paylaşma platformasıdır. O, intuitiv istifadəçi interfeysini tamamilə mərkəzləşdirilməmiş arxitektura ilə birləşdirərək, hər hansı bir mərkəzi orqandan asılı olmayan, məlumat paylaşımı üçün təhlükəsiz və etibarlı həll təqdim edir. Layihə açıq mənbəlidir və {license} lisenziyası altında paylanır.",
+		"features": {
+			"decentralized": {
+				"title": "Tamamilə mərkəzləşdirilməmiş şəbəkə",
+				"description": "Mərkəzi serverlər yoxdur, vahid uğursuzluq nöqtəsi yoxdur. İstifadəçilər mərkəzləşdirilmiş indeksatorlara, izləyicilərə və ya verilənlər bazalarına etibar etmədən birbaşa bir-birindən məzmun axtarır və yükləyirlər."
+			},
+			"accessControl": {
+				"title": "Ətraflı giriş nəzarəti",
+				"description": "Hər kəs öz qaydaları ilə öz şəbəkəsini sərbəst şəkildə başlada bilər. Hər şəbəkə daxilində istifadəçi rollarını təyin edin: sahiblər, administratorlar, naşirlər, moderatorlar və yükləyicilər. Məzmunu kimin dərc edə, moderasiya edə və yükləyə biləcəyini dəqiq idarə edin."
+			},
+			"ui": {
+				"title": "Birinci dərəcəli istifadəçi interfeysi",
+				"description": "Masaüstü, TV və mobil platformalar üçün hazırlanmış təmiz və istifadəçi dostu media mərkəzi interfeysi. Klaviatura, siçan, gamepad və ya uzaqdan idarəetmə pultu ilə qüsursuz şəkildə naviqasiya edin. Təcrübəli istifadəçilər proqramı qrafik interfeyssiz fayl serveri kimi işlətmək üçün əmr sətri interfeysindən istifadə edə bilərlər."
+			},
+			"dataFormat": {
+				"title": "İnsan tərəfindən oxuna bilən məlumat formatı",
+				"description": "LISH məlumat formatı JSON-a əsaslanır, bu da onu yaratmaq, oxumaq və başa düşmək üçün asanlaşdırır. Məzmununuzu hər kəsin asanlıqla nəzərdən keçirə biləcəyi aydın, şəffaf metadatalarla paylaşın."
+			},
+			"security": {
+				"title": "Məxfilik və təhlükəsizlik",
+				"description": "Bütün peer-to-peer rabitə şifrələnir, məlumatlarınızın ötürülmə zamanı məxfi qalmasını təmin edir. İstifadəçilər əlavə anonimlik təbəqəsi üçün VPN arxasında gizlənə bilərlər. {project} dizayn etibarilə məxfiliyinizə hörmət edir."
+			},
+			"crossPlatform": {
+				"title": "Çarpaz platforma",
+				"description": "Proqram Windows, Linux və macOS platformaları üçün mövcuddur. İstədiyiniz hər hansı bir cihazda istifadə edin."
+			}
+		}
+	},
+	"download": {
+		"title": "Yükləmə",
+		"description": "Platformanız üçün {project} əldə edin. Bütün yükləmələr pulsuzdur və açıq mənbəlidir.",
+		"version": "Cari versiya: {version}",
+		"linkAlt": "Yüklə",
+		"platforms": {
+			"sourceCode": "Mənbə kodu"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} quraşdırıcısı",
+			"package": "{format} paketi",
+			"portableZip": "Daşına bilən ZIP",
+			"viewOnGithub": "GitHub-da bax"
+		},
+		"macos": {
+			"title": "macOS istifadəçiləri üçün vacib qeyd:",
+			"intro": "macOS Gatekeeper internetdən yüklənmiş imzasız / autentifikasiya olunmamış proqramları {error} xətası ilə bloklayır.",
+			"error": "\"zədələnib və açıla bilməz\"",
+			"runCommand": "DMG və ya ZIP-i yüklədikdən sonra, proqramı açmazdan əvvəl, Terminal-da aşağıdakı formada əmr işlədin:",
+			"exampleDmg": "Məsələn, DMG-dən quraşdırdıqdan sonra:",
+			"exampleZip": "Və ya ZIP-i çıxardıqdan sonra:",
+			"explanation": "Bu əmr karantin atributunu silir və proqramın işləməsinə icazə verir."
+		}
+	},
+	"screenshots": {
+		"title": "Ekran görüntüləri",
+		"open": "{index} ekran görüntüsünü aç",
+		"alt": "Ekran görüntüsü {index}",
+		"close": "Qalereyanı bağla",
+		"prev": "Əvvəlki şəkil",
+		"next": "Növbəti şəkil"
+	},
+	"comparison": {
+		"title": "Müqayisə",
+		"feature": "Xüsusiyyət",
+		"yes": "bəli",
+		"no": "xeyr",
+		"partialDht": "Qismən (DHT)",
+		"rows": {
+			"decentralized": "Mərkəzləşdirilməmiş şəbəkə",
+			"onlineLibrary": "Onlayn kitabxana",
+			"builtInSearch": "Daxili məzmun axtarışı",
+			"decentralizedSearch": "Mərkəzləşdirilməmiş məzmun axtarışı",
+			"parallelDownloads": "Çoxlu mənbədən paralel yükləmələr",
+			"mediaCenter": "Media mərkəzi interfeysi",
+			"gamepad": "Gamepad dəstəyi",
+			"openSource": "Açıq mənbə"
+		}
+	},
+	"contact": {
+		"title": "Əlaqə",
+		"getInTouch": "Əlaqə saxlayın",
+		"links": {
+			"telegramChat": "Telegram söhbət qrupu",
+			"telegramAnnouncements": "Telegram elanları",
+			"facebook": "Facebook qrupu"
+		}
+	},
+	"footer": {
+		"by": "tərəfindən"
+	}
+}
