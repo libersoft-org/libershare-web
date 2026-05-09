@@ -34,6 +34,15 @@
 		filter = '';
 		closeLanguageDialog();
 	}
+
+	function scrollToActive(node: HTMLElement): void {
+		const active = node.querySelector('.item.active') as HTMLElement | null;
+		if (!active) return;
+		// Wait for layout, then center the active item within its scroll container
+		requestAnimationFrame(() => {
+			active.scrollIntoView({ block: 'center', behavior: 'instant' as ScrollBehavior });
+		});
+	}
 </script>
 
 <style>
@@ -99,7 +108,7 @@
 		<div class="search">
 			<Input type="search" bind:value={filter} placeholder={$t('menu.searchLanguage')} ariaLabel={$t('menu.searchLanguage')} />
 		</div>
-		<div class="list">
+		<div class="list" use:scrollToActive>
 			{#each filteredLanguages as lang (lang.id)}
 				<div class="item" class:active={$currentLanguage === lang.id} role="button" tabindex="0" data-lang={lang.id} aria-pressed={$currentLanguage === lang.id} onclick={handleItemClick} onkeydown={handleItemKey}>
 					<span class="flag"><img src={getFlagURL(lang.id)} alt={lang.nativeLabel} draggable="false" /></span>
