@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Bḍu n ifuyla war ammas",
+		"description": "{project} d aseɣẓan n bḍu n ifuyla peer-to-peer ibedden ɣef tetiknulujiyin timaynutin war ammas.",
+		"ogTitle": "{project} - Aseɣẓan n bḍu n ifuyla war ammas",
+		"ogDescription": "Bḍu n ifuyla peer-to-peer ibedden ɣef tetiknulujiyin timaynutin war ammas. Ulac aqeddac alemmas. Ulac yiwet n tezwit n turdit."
+	},
+	"menu": {
+		"about": "Ɣef",
+		"download": "Sader",
+		"screenshots": "Tugniwin n ugdil",
+		"comparison": "Asnemhel",
+		"contact": "Anermis",
+		"toggle": "Sleɣmes umuɣ",
+		"close": "Mdel umuɣ",
+		"language": "Tutlayt",
+		"selectLanguage": "Fren tutlayt"
+	},
+	"hero": {
+		"subtitle": "Tasuta tamaynut n bḍu n ifuyla peer-to-peer",
+		"description": "Ibedden ɣef tetiknulujiyin timaynutin war ammas. Ulac aqeddac alemmas. Ulac yiwet n tezwit n turdit.",
+		"download": "Sader"
+	},
+	"about": {
+		"title": "Ɣef",
+		"intro": "{project} d tafelwit n bḍu n ifuyla peer-to-peer n tsuta tamaynut ibedden ɣef tetiknulujiyin timaynutin war ammas. Yesdukkul agrudem n useqdac fessusen d tunigit war ammas timmident, yefka tifrat taɣellsant d tuɣdimt i ubḍu n yisefka war asṛas ɣef tezmert tagejdant. Asenfar d ilelli (open source) yettwafrurex seddaw n {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Azeṭṭa war ammas timmidnit",
+				"description": "Ulac aqeddac alemmas, ulac yiwet n tezwit n turdit. Iseqdacen ttnadin u sserden agbur srid gar-asen, war asṛas ɣef yiseɣẓanen alemmasen, ineḍfaren neɣ tasenfawt n yisefka."
+			},
+			"accessControl": {
+				"title": "Asenqed n unekcum n leqdic",
+				"description": "Yal yiwen yella d ilelli ad yebdu azeṭṭa-s s yilugan-is. Sbadu tiwuriwin n yiseqdacen di yal azeṭṭa: bab, anedbal, ameswagam, amsenkad d uneddar. Senqed s leqdic anwa yezmer ad iswagam, ad isnekkad u ad yesder agbur."
+			},
+			"ui": {
+				"title": "Agrudem n useqdac n uswir afellay",
+				"description": "Agrudem n wammas n uẓawan zeddiɣen u yelhan i useqdac yebnan i tfelwiyin n udlif, n tilizyu d ubeḍḍal. Inig war uguren s tnasaft, n tɣerdayt, n gamepad neɣ n usenqed mebɛid. Iseqdacen leqqayen zemren ad seqdcen agrudem n yizirig n tladna i useqdec n useɣẓan am uqeddac n ifuyla war aqerruy."
+			},
+			"dataFormat": {
+				"title": "Amasal n yisefka iqqaren n umdan",
+				"description": "Amasal n yisefka LISH yebḍa ɣef JSON, ay yettarran ad yifsus axlaq, taɣuri d ufham. Bḍu agbur-ik s tsefranin ifrawan, izeddɣen, ay yezmer yal yiwen ad iẓer s leqdic."
+			},
+			"security": {
+				"title": "Tudert tabaḍnit d tɣellist",
+				"description": "Akk timyalsiwin n peer-to-peer ttwawagant, ay isgemmaɣen belli isefka-k ad qqimen n tbaḍnit deg unekcum. Iseqdacen zemren ad ffren deffir VPN i tsekka tarrayt n war isem. {project} yettqadar tudert-ik tabaḍnit s usuneɣ."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Aseɣẓan illa i tfelwiyin Windows, Linux d macOS. Seqdec di yal allal i tebɣiḍ."
+			}
+		}
+	},
+	"download": {
+		"title": "Sader",
+		"description": "Awi {project} i tfelwit-ik. Akk asider d ilelli u d open source.",
+		"version": "Lqem amiran: {version}",
+		"linkAlt": "Sader",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Asebded {format}",
+			"package": "Akemmus {format}",
+			"portableZip": "ZIP yuɣalen",
+			"viewOnGithub": "Wali ɣef GitHub"
+		},
+		"macos": {
+			"title": "Tazmilt taxatart i yiseqdacen n macOS:",
+			"intro": "macOS Gatekeeper isekkar isnasen war azamul / war notarised i d-yettwasdaren si Internet s tuccḍa {error}.",
+			"error": "\"yefsi u ur izmir ara ad yeldi\"",
+			"runCommand": "Mi tesderḍ DMG neɣ ZIP, suger taladna deg Terminal s tarrayt-agi send ad teldiḍ asnas:",
+			"exampleDmg": "Amedya, mi tesbaddeḍ si DMG:",
+			"exampleZip": "Neɣ mi d-tessufɣeḍ ZIP:",
+			"explanation": "Ayagi ikkes iferdisen n karantina u isireg asnas ad iddu."
+		}
+	},
+	"screenshots": {
+		"title": "Tugniwin n ugdil",
+		"open": "Ldi tugna n ugdil {index}",
+		"alt": "Tugna n ugdil {index}",
+		"close": "Mdel tagalleryt",
+		"prev": "Tugna yezrin",
+		"next": "Tugna d-iteddun"
+	},
+	"comparison": {
+		"title": "Asnemhel",
+		"feature": "Tamahla",
+		"yes": "ih",
+		"no": "uhu",
+		"partialDht": "Aḥric (DHT)",
+		"rows": {
+			"decentralized": "Azeṭṭa war ammas",
+			"onlineLibrary": "Tasdawit srid",
+			"builtInSearch": "Anadi n ugbur ibna deg",
+			"decentralizedSearch": "Anadi n ugbur war ammas",
+			"parallelDownloads": "Asider yefkan-d si waṭas n yiɣbula",
+			"mediaCenter": "Agrudem n wammas n uẓawan",
+			"gamepad": "Asefrek n gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Anermis",
+		"getInTouch": "Nermes-aɣ-d",
+		"links": {
+			"telegramChat": "Tagrawt n udiwenni Telegram",
+			"telegramAnnouncements": "Ileɣman Telegram",
+			"facebook": "Tagrawt Facebook"
+		}
+	},
+	"footer": {
+		"by": "sɣur"
+	}
+}

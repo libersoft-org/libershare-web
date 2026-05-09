@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Lonndital fiilji ko aldaa e teddungal hakkunde",
+		"description": "{project} ko softiweer lonndital fiilji peer-to-peer ngal mahaa e dow ñeeñal hesêre laaɓe.",
+		"ogTitle": "{project} - Softiweer lonndital fiilji ko aldaa e teddungal hakkunde",
+		"ogDescription": "Lonndital fiilji peer-to-peer ngal mahaa e dow ñeeñal hesêre laaɓe. Alaa serweer hakkundal. Alaa noddi gootiri tampere."
+	},
+	"menu": {
+		"about": "Faade",
+		"download": "Aawtaade",
+		"screenshots": "Natal ekraan",
+		"comparison": "Sappitagol",
+		"contact": "Jokondiral",
+		"toggle": "Wattindiraade menu",
+		"close": "Uddude menu",
+		"language": "Ɗemngal",
+		"selectLanguage": "Suɓo ɗemngal"
+	},
+	"hero": {
+		"subtitle": "Jamaanu hesu lonndital fiilji peer-to-peer",
+		"description": "Mahaa e dow ñeeñal hesêre laaɓe. Alaa serweer hakkundal. Alaa noddi gootiri tampere.",
+		"download": "Aawtaade"
+	},
+	"about": {
+		"title": "Faade",
+		"intro": "{project} ko platform lonndital fiilji peer-to-peer jamaanu hesu mo mahaa e dow ñeeñal hesêre laaɓe. O denndinii interface huutorɗo newiiɗo e arkitektir laaɓe timmuɗe, hokkit safara hisuɗo e gomɗinaaɗo ngam lonndital data ko nge ndeɓɓa-ki dow nokkuure hakkunde fof. Projet on ko open source kadi o saakaa e ley {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Reso laaɓe timmuɗe",
+				"description": "Alaa serweer hakkundal, alaa noddi gootiri tampere. Huutorɓe ngheɓa kuule ɗen e aawta ɗum'en hakkunde maɓɓe tigi, ɗum nde ndeɓɓa-ki dow eɓɓinooji hakkundal, raddooji walla baasi data."
+			},
+			"accessControl": {
+				"title": "Kontoroolol naatirde laaɓɗol",
+				"description": "Kala neɗɗo o joom-fitam ngam fuɗɗude reso muuɗum bana laawi muuɗum. Ñeeño dewwa huutorɓe e nder kala reso: jeyɗum, admin, jaltinooɗo, mooderateer e jaawtinɗo. Hawre laaɓɗol mo wawi jaltinde, mooderate e jaawtude kuule."
+			},
+			"ui": {
+				"title": "Interface huutorɗo daraja toowɗo",
+				"description": "Interface naɓdi diftaareeji laaɓɗo e newɗo huutorɓe mo mahaa ngam platforms desktop, TV e portable. Yaha e laawol-laawol e klaviyer, kuusu, gamepad walla kontoroolol cuuɗiingu. Huutorɓe yawti baawɗi tafa interface gollirgal ngam yahnirde softiweer bana serweer fiilji aldaa hoore."
+			},
+			"dataFormat": {
+				"title": "Mbaadi data njanngotaaɗi e neɗɗo",
+				"description": "Mbaadi data LISH ko mahaa e dow JSON, ɗum waɗi nde no newii sosude, taro e faamde. Lonndoɗii kuule maa e meta-data laaɓɗum e cuwlam, mo kala neɗɗo wawa lewɓinde e newɗam."
+			},
+			"security": {
+				"title": "Sirru e kisal",
+				"description": "Kala jokondire peer-to-peer ko cuusiraaɗe, ɗum hawre wonde data maa wona e sirru e nder ndegoye. Huutorɓe e mbaawi suuɗaade caggal VPN ngam tappire ɓesngu nokkuwol kadi nde ngu nokku ɓe wawee. {project} hettira sirru maa e nder maaɗagol."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Softiweer no woodi e platforms Windows, Linux e macOS. Huutoro e kala kaɓirgol mo njiɗ ɗaa."
+			}
+		}
+	},
+	"download": {
+		"title": "Aawtaade",
+		"description": "Hebu {project} ngam platform maa. Kala kaawtaaɗi ko meeɗen e open source.",
+		"version": "Sippere jonni: {version}",
+		"linkAlt": "Aawtaade",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Saalniroowo {format}",
+			"package": "Pakke {format}",
+			"portableZip": "ZIP roondotooɗo",
+			"viewOnGithub": "Ndaaru e GitHub"
+		},
+		"macos": {
+			"title": "Notari teddunde ngam huutorɓe macOS:",
+			"intro": "macOS Gatekeeper haɗay app'iiji ɗi seŋŋittaa / ɗi notarisaaka aawtaaɗi e enternet e juumre {error}.",
+			"error": "\"bonii kadi waawaa udditeede\"",
+			"runCommand": "Yawtugol aawtaade DMG walla ZIP, yahnir kuugal e Terminal e mbaadi mo ndaa hade udditangol app:",
+			"exampleDmg": "Misalu, yawtugol saalnaade ko iwi e DMG:",
+			"exampleZip": "Walla yawtugol yaltinde ZIP:",
+			"explanation": "Ɗum'on yaltina taƴal kuwarantinngo kadi haɗa app on yahnirde."
+		}
+	},
+	"screenshots": {
+		"title": "Natal ekraan",
+		"open": "Uddiit natal ekraan {index}",
+		"alt": "Natal ekraan {index}",
+		"close": "Uddu galeri",
+		"prev": "Natal yawti",
+		"next": "Natal jokku"
+	},
+	"comparison": {
+		"title": "Sappitagol",
+		"feature": "Mbayka",
+		"yes": "eey",
+		"no": "alaa",
+		"partialDht": "Saraan (DHT)",
+		"rows": {
+			"decentralized": "Reso laaɓɗo",
+			"onlineLibrary": "Ñalnde defte enternet",
+			"builtInSearch": "Yiitugol kuule mahateengo",
+			"decentralizedSearch": "Yiitugol kuule laaɓɗo",
+			"parallelDownloads": "Aawtaade jaaynde immorde e ɗufɗe keewɗe",
+			"mediaCenter": "Interface naɓdi diftaareeji",
+			"gamepad": "Walliyam gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Jokondiral",
+		"getInTouch": "Jokkondir e amen",
+		"links": {
+			"telegramChat": "Fedde Yeewtere Telegram",
+			"telegramAnnouncements": "Habarooji Telegram",
+			"facebook": "Fedde Facebook"
+		}
+	},
+	"footer": {
+		"by": "fii"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Parvekirina Pelan a Bênavendî",
+		"description": "{project} nermalavek parvekirina pelan a peer-to-peer e ku li ser teknolojiyên nûjen ên bênavendî hatiye avakirin.",
+		"ogTitle": "{project} - Nermalava parvekirina pelan a bênavendî",
+		"ogDescription": "Parvekirina pelan a peer-to-peer ku li ser teknolojiyên nûjen ên bênavendî hatiye avakirin. Tu serverê navendî tune. Tu xala têkçûnê ya yekane tune."
+	},
+	"menu": {
+		"about": "Derbarê",
+		"download": "Dakêşandin",
+		"screenshots": "Wêneyên ekranê",
+		"comparison": "Berhevdan",
+		"contact": "Têkilî",
+		"toggle": "Menuyê veguhêze",
+		"close": "Menuyê bigire",
+		"language": "Ziman",
+		"selectLanguage": "Ziman hilbijêre"
+	},
+	"hero": {
+		"subtitle": "Nifşê nû yê parvekirina pelan a peer-to-peer",
+		"description": "Li ser teknolojiyên nûjen ên bênavendî hatiye avakirin. Tu serverê navendî tune. Tu xala têkçûnê ya yekane tune.",
+		"download": "Dakêşandin"
+	},
+	"about": {
+		"title": "Derbarê",
+		"intro": "{project} platformeke parvekirina pelan a peer-to-peer ya nifşê nû ye ku li ser teknolojiyên nûjen ên bênavendî hatiye avakirin. Ew rûyê bikarhêneriyê yê hêsan û avahiyeke bi tevahî bênavendî bi hev re digihîne, çareseriyeke ewle û pêbawer ji bo parvekirina daneyan pêşkêş dike ku ne girêdayê tu desthilatdariya navendî ye. Proje çavkaniya vekirî ye û di bin {license} de tê belavkirin.",
+		"features": {
+			"decentralized": {
+				"title": "Tora bi tevahî bênavendî",
+				"description": "Tu serverê navendî tune, tu xala têkçûnê ya yekane tune. Bikarhêner naverokê rasterast di nav xwe de digerin û dakêşin, bê girêdayîbûna li indeksker, şopîner an databasên navendî."
+			},
+			"accessControl": {
+				"title": "Kontrola gihîştinê ya hûr",
+				"description": "Her kes serbest e ku tora xwe bi qeydeyên xwe dest pê bike. Rolên bikarhêneran di her torê de pênase bike: xwedî, admin, weşanger, moderator û dakêşker. Bi hûrgilî kontrol bike ka kî dikare naverokê biweşîne, moderate bike û dakêşe."
+			},
+			"ui": {
+				"title": "Rûyê bikarhêneriyê yê pola jorîn",
+				"description": "Rûyê navenda medyayê yê paqij û dostane ji bo platformên sermaseyê, TV û mobîl hatiye avakirin. Bê pirsgirêk bi klavye, mişk, gamepad an kontrola dûr navîger bike. Bikarhênerên pêşkeftî dikarin rûyê rêza fermanê bikar bînin da ku nermalavê wek serverê pelan ê bê serî bixebitînin."
+			},
+			"dataFormat": {
+				"title": "Formata daneyan a ku mirov dikare bixwîne",
+				"description": "Formata daneyan a LISH li ser JSON ye, ku afirandin, xwendin û têgihîştina wê hêsan dike. Naveroka xwe bi metadeyeyên zelal û şefaf parve bike, ku her kes dikare bi hêsanî kontrol bike."
+			},
+			"security": {
+				"title": "Nepenî û ewlehî",
+				"description": "Hemû ragihandinên peer-to-peer şîfrekirî ne, ku piştrast dikin daneyên we di dema veguhastinê de nepenî dimînin. Bikarhêner dikarin li paş VPNê veşêrin ji bo qatek nasnenasiyê ya zêde. {project} bi sêwiranê rêzê li nepeniya we digire."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Nermalav ji bo platformên Windows, Linux û macOS heye. Li her cîhazê ku tu dixwazî ​​bikar bîne."
+			}
+		}
+	},
+	"download": {
+		"title": "Dakêşandin",
+		"description": "{project} ji bo platforma xwe bistîne. Hemû dakêşan belaş in û çavkaniya vekirî ne.",
+		"version": "Guherbara heyî: {version}",
+		"linkAlt": "Dakêşandin",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Saziya {format}",
+			"package": "Pakêta {format}",
+			"portableZip": "ZIP-a portatîf",
+			"viewOnGithub": "Li GitHub binêre"
+		},
+		"macos": {
+			"title": "Nota girîng ji bo bikarhênerên macOS:",
+			"intro": "macOS Gatekeeper sepanên bê îmze / bê notarîze yên ku ji înternetê hatine dakêşandin bi xeletiya {error} asteng dike.",
+			"error": "\"xera bûye û nayê vekirin\"",
+			"runCommand": "Piştî dakêşandina DMG an ZIP, fermanê di Terminal de bi vî awayî bidomîne berî vekirina sepanê:",
+			"exampleDmg": "Mînak, piştî saz kirina ji DMG:",
+			"exampleZip": "An piştî derxistina ZIP:",
+			"explanation": "Ev taybetiya karantînê radike û destûr dide ku sepan bixebite."
+		}
+	},
+	"screenshots": {
+		"title": "Wêneyên ekranê",
+		"open": "Wêneyê ekranê {index} veke",
+		"alt": "Wêneyê ekranê {index}",
+		"close": "Galeriyê bigire",
+		"prev": "Wêneyê berê",
+		"next": "Wêneyê paşê"
+	},
+	"comparison": {
+		"title": "Berhevdan",
+		"feature": "Taybetî",
+		"yes": "erê",
+		"no": "na",
+		"partialDht": "Beşek (DHT)",
+		"rows": {
+			"decentralized": "Tora bênavendî",
+			"onlineLibrary": "Pirtûkxaneya serhêl",
+			"builtInSearch": "Lêgerîna naverokê ya çêkirî",
+			"decentralizedSearch": "Lêgerîna naverokê ya bênavendî",
+			"parallelDownloads": "Dakêşandina paralel ji çend çavkaniyan",
+			"mediaCenter": "Rûyê navenda medyayê",
+			"gamepad": "Piştgiriya gamepad",
+			"openSource": "Çavkaniya vekirî"
+		}
+	},
+	"contact": {
+		"title": "Têkilî",
+		"getInTouch": "Bi me re têkilî daynin",
+		"links": {
+			"telegramChat": "Koma Sohbetê ya Telegram",
+			"telegramAnnouncements": "Daxuyaniyên Telegram",
+			"facebook": "Koma Facebook"
+		}
+	},
+	"footer": {
+		"by": "ji aliyê"
+	}
+}

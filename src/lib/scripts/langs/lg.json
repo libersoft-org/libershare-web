@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Okugabana Fayiro Awatali Kifo Eky'amaanyi",
+		"description": "{project} kya software ya peer-to-peer ey'okugabana fayiro ekoleddwa ku tekinologiya ezisaba ssaako kifo eky'amaanyi.",
+		"ogTitle": "{project} - Software ey'okugabana fayiro awatali kifo eky'amaanyi",
+		"ogDescription": "Peer-to-peer okugabana fayiro ekoleddwa ku tekinologiya ezisaba ssaako kifo eky'amaanyi. Tewali server ow'amaanyi. Tewali kifo kimu mwekiyinza okugwa."
+	},
+	"menu": {
+		"about": "Ku",
+		"download": "Tikkula",
+		"screenshots": "Ebifaananyi by'eskirini",
+		"comparison": "Okugeraageranya",
+		"contact": "Tukwatagane",
+		"toggle": "Kyusa menu",
+		"close": "Ggalawo menu",
+		"language": "Olulimi",
+		"selectLanguage": "Londa olulimi"
+	},
+	"hero": {
+		"subtitle": "Omulembe omuggya ogw'okugabana fayiro mu peer-to-peer",
+		"description": "Ekoleddwa ku tekinologiya ezisaba ssaako kifo eky'amaanyi. Tewali server ow'amaanyi. Tewali kifo kimu mwekiyinza okugwa.",
+		"download": "Tikkula"
+	},
+	"about": {
+		"title": "Ku",
+		"intro": "{project} kya peer-to-peer okugabana fayiro pulatifoomu ey'omulembe omuggya ekoleddwa ku tekinologiya ezisaba ssaako kifo eky'amaanyi. Egatta interface ey'abakozesa ennyangu ne arkiteekiseti etali ey'amaanyi mu bujjuvu, era ekola engeri ey'obukuumi era esiimibwa ey'okugabana data nga tesinziira ku kifo kyonna eky'amaanyi. Pulojekiti yatuva era egabwa wansi wa {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Nettiwoluki etali ey'amaanyi mu bujjuvu",
+				"description": "Tewali server ow'amaanyi, tewali kifo kimu mwekiyinza okugwa. Abakozesa banoonya era batikkula ebintu butereevu wakati waabwe, awatali okusinziira ku indexer ow'amaanyi, tracker oba data base."
+			},
+			"accessControl": {
+				"title": "Okufuga okuggula okutongole",
+				"description": "Buli muntu mwetwala okutandika nettiwoluki ye n'amateeka ge. Lambika ebifo by'abakozesa mu buli nettiwoluki: nyini, admin, omufulumya, omufulumi w'amawulire era omutikulazi. Fuga obutuufu ani asobola okufulumya, okufulumya era okutikkula ebintu."
+			},
+			"ui": {
+				"title": "Interface ey'abakozesa ey'omutindo ogwa waggulu",
+				"description": "Interface ya media center enyangu era nnungi eri abakozesa ekoleddwa olwa pulatifoomu z'amazaala, TV ne ssimu. Tambula awatali bizibu na keyboard, embeba, gamepad oba kkontolola eya wala. Abakozesa ab'omutwe mwogu basobola okukozesa interface ya command line okuwawaabira software ng'esinziira ku server wa fayiro awatali mutwe."
+			},
+			"dataFormat": {
+				"title": "Endeeya y'ebintu eyalibwa omuntu",
+				"description": "Endeeya ya LISH esinziira ku JSON, ekikifuula okukola, okusoma n'okutegeera ennyangu. Gabana ebintu byo wamu ne metadata enyiriri, etangaalifu, abantu bonna gye basobola okukebera mu bwangu."
+			},
+			"security": {
+				"title": "Okukuumirira n'obukuumi",
+				"description": "Buli mukutu gwa peer-to-peer guzziddwa mu bukuumi, ekikakasa nti data yo eba ya kyama ng'eweereddwa. Abakozesa basobola okwekweka emabega wa VPN olw'ekifo ekirala eky'okutamanyibwa. {project} essa essira ku kukuumirira kwo mu nteekateeka."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software esangibwa olwa Windows, Linux ne macOS pulatifoomu. Gikozese ku ekikola kyonna ky'oyagala."
+			}
+		}
+	},
+	"download": {
+		"title": "Tikkula",
+		"description": "Funa {project} olwa pulatifoomu yo. Buli kitikulwa kya bwereere era kya open source.",
+		"version": "Endagiriro ennanikifu: {version}",
+		"linkAlt": "Tikkula",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Laba ku GitHub"
+		},
+		"macos": {
+			"title": "Obwetwale obukulu eri abakozesa ba macOS:",
+			"intro": "macOS Gatekeeper eziyiza apps ezitateekedwako mukono / ezitateekedwako notari ezitikuddwa okuva ku internet n'ensobi {error}.",
+			"error": "\"yonoonese era teyinza kuggulwa\"",
+			"runCommand": "Bw'omala okutikkula DMG oba ZIP, kola ekiragiro mu Terminal mu ngeri eyo nga tonalannyiwa app:",
+			"exampleDmg": "Ng'ekyokulabirako, oluvannyuma lw'okutaako okuva mu DMG:",
+			"exampleZip": "Oba oluvannyuma lw'okuggya ZIP:",
+			"explanation": "Ekikolwa kino kiggyawo akakwatampaali aka quarantine era kikkiriza app okukola."
+		}
+	},
+	"screenshots": {
+		"title": "Ebifaananyi by'eskirini",
+		"open": "Ggulawo ekifaananyi ky'eskirini {index}",
+		"alt": "Ekifaananyi ky'eskirini {index}",
+		"close": "Ggalawo gallery",
+		"prev": "Ekifaananyi ekyayita",
+		"next": "Ekifaananyi ekiriddako"
+	},
+	"comparison": {
+		"title": "Okugeraageranya",
+		"feature": "Engeri",
+		"yes": "yee",
+		"no": "nedda",
+		"partialDht": "Ekitundu (DHT)",
+		"rows": {
+			"decentralized": "Nettiwoluki etali ey'amaanyi",
+			"onlineLibrary": "Etterekero lya online",
+			"builtInSearch": "Okunoonya ebintu okuteekemu",
+			"decentralizedSearch": "Okunoonya ebintu okutali okwa amaanyi",
+			"parallelDownloads": "Okutikkula okumu okuva ku nsibuko ennyingi",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Obuwagizi bwa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tukwatagane",
+		"getInTouch": "Tukwatagane",
+		"links": {
+			"telegramChat": "Telegram Akakuŋŋaano",
+			"telegramAnnouncements": "Telegram Amalango",
+			"facebook": "Facebook Akakuŋŋaano"
+		}
+	},
+	"footer": {
+		"by": "okuva"
+	}
+}

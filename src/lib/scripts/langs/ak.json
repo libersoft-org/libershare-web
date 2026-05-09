@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Faele a Ɛnam Mfinimfini Kyɛ",
+		"description": "{project} yɛ peer-to-peer faele kyɛ software a wɔde nnɛ mmere mu mfiridwuma a ɛnam mfinimfini ano abesi.",
+		"ogTitle": "{project} - Faele kyɛ software a ɛnam mfinimfini",
+		"ogDescription": "Peer-to-peer faele kyɛ a wɔde nnɛ mmere mu mfiridwuma a ɛnam mfinimfini ano abesi. Mfinimfini server biara nni hɔ. Beae biako a ebetumi adi nkogu nni hɔ."
+	},
+	"menu": {
+		"about": "Ho asɛm",
+		"download": "Twe twe",
+		"screenshots": "Mfonini",
+		"comparison": "Ntotoho",
+		"contact": "Nkitahodi",
+		"toggle": "Sesa menu",
+		"close": "To menu mu",
+		"language": "Kasa",
+		"selectLanguage": "Yi kasa"
+	},
+	"hero": {
+		"subtitle": "Awo ntoatoaso foforo a peer-to-peer faele kyɛ",
+		"description": "Wɔde nnɛ mmere mu mfiridwuma a ɛnam mfinimfini ano abesi. Mfinimfini server biara nni hɔ. Beae biako a ebetumi adi nkogu nni hɔ.",
+		"download": "Twe twe"
+	},
+	"about": {
+		"title": "Ho asɛm",
+		"intro": "{project} yɛ awo ntoatoaso foforo peer-to-peer faele kyɛ platform a wɔde nnɛ mmere mu mfiridwuma a ɛnam mfinimfini ano abesi. Ɛkeka di a ɛyɛ mmerɛw user interface ne arkitɛkture a ɛnam mfinimfini, ɛma sekuw ne nokware nyiyiɛm a ɛkyerɛ data kyɛ a ennyɛ adwuma wɔ mfinimfini tumi biara so. Adwuma yi yɛ open source na wɔkyɛ wɔ {license} ase.",
+		"features": {
+			"decentralized": {
+				"title": "Atumitumi network a ɛnam mfinimfini koraa",
+				"description": "Mfinimfini server biara nni hɔ, beae biako a ebetumi adi nkogu nni hɔ. Adwumayɛfo hwehwɛ na wɔtwe twe nneɛma tee wɔn ntam, a wɔnnyɛ adwuma wɔ mfinimfini indexer, tracker anaa database biara so."
+			},
+			"accessControl": {
+				"title": "Nsam-keka kɔketere",
+				"description": "Obiara wɔ ahofadi sɛ ɔde n'ankasa mmara befi n'ankasa network ase. Hyehyɛ adwumayɛfo dwumadie wɔ network biara mu: oyɛ, admin, kasamafo, moderator ne twe twefo. Hwɛ kɔketere obi a obetumi atintim, moderator ne twe twe nneɛma."
+			},
+			"ui": {
+				"title": "Adwumayɛfo interface a ɛkorɔn",
+				"description": "Media center interface a ɛyɛ kronkron na ɛyɛ mmerɛw a wɔde adwumayɛfo ano abesi ma desktop, TV ne mobile platforms. Nantew a ɛnyɛ den wɔ keyboard, mouse, gamepad anaa remote control so. Adwumayɛfo a wɔakɔ akyiri betumi de command line interface adi dwuma de software ayɛ headless faele server."
+			},
+			"dataFormat": {
+				"title": "Onipa tumi kenkan data format",
+				"description": "LISH data format gyina JSON so, na ɛma ɛyɛ mmerɛw sɛ wɔbɛyɛ, akenkan na wɔate ase. Kyɛ wo nneɛma ne metadata pefee, ɛyɛ pue a obiara betumi ahwɛ mu mmerɛw."
+			},
+			"security": {
+				"title": "Kokoamsɛm ne ahobammɔ",
+				"description": "Peer-to-peer nkitahodi nyinaa yɛ encrypted, na ɛma wo data kɔ so yɛ kokoamsɛm wɔ transmission mu. Adwumayɛfo betumi ahintaw VPN akyi de aka anonymity layer foforo. {project} bu wo kokoamsɛm wɔ design mu."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software wɔ hɔ ma Windows, Linux ne macOS platforms. Fa di dwuma wɔ device biara a wopɛ so."
+			}
+		}
+	},
+	"download": {
+		"title": "Twe twe",
+		"description": "Nya {project} ma wo platform. Twe twe nyinaa yɛ ɔkwan na ɛyɛ open source.",
+		"version": "Mprempren version: {version}",
+		"linkAlt": "Twe twe",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Hwɛ wɔ GitHub so"
+		},
+		"macos": {
+			"title": "Asɛm a ɛho hia ma macOS adwumayɛfo:",
+			"intro": "macOS Gatekeeper sĩw apps a wɔnsie / wɔnnotaraisi a wɔatwetwe wɔ intanɛt so kwan ne {error} mfomso.",
+			"error": "\"asɛe na ɛrentumi mmue\"",
+			"runCommand": "Sɛ wotwe twe DMG anaa ZIP wie a, di command wɔ Terminal mu wɔ ɛkwan a edidi soɔ yi so ansa na woabue app no:",
+			"exampleDmg": "Sɛ nhwɛso, sɛ woasi fi DMG mu wie a:",
+			"exampleZip": "Anaa sɛ woayi ZIP no fi mu wie a:",
+			"explanation": "Eyi yi quarantine attribute kɔ na ɛma app no kwan sɛ ɛbɛyɛ adwuma."
+		}
+	},
+	"screenshots": {
+		"title": "Mfonini",
+		"open": "Bue mfonini {index}",
+		"alt": "Mfonini {index}",
+		"close": "To gallery mu",
+		"prev": "Mfonini a etwaa mu",
+		"next": "Mfonini a edi hɔ"
+	},
+	"comparison": {
+		"title": "Ntotoho",
+		"feature": "Adwumayɛ",
+		"yes": "aane",
+		"no": "daabi",
+		"partialDht": "Fa (DHT)",
+		"rows": {
+			"decentralized": "Network a ɛnam mfinimfini",
+			"onlineLibrary": "Online library",
+			"builtInSearch": "Built-in nneɛma hwehwɛ",
+			"decentralizedSearch": "Nneɛma hwehwɛ a ɛnam mfinimfini",
+			"parallelDownloads": "Parallel twe twe firi nneɛma pii so",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Gamepad mmoa",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Nkitahodi",
+		"getInTouch": "Frɛ yɛn",
+		"links": {
+			"telegramChat": "Telegram Nkɔmmɔbɔ Kuw",
+			"telegramAnnouncements": "Telegram Amaneɛ",
+			"facebook": "Facebook Kuw"
+		}
+	},
+	"footer": {
+		"by": "firi"
+	}
+}

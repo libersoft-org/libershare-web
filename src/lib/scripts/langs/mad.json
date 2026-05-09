@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Babagi Berkas Tadak Sentral",
+		"description": "{project} ènggi panika software babagi berkas peer-to-peer se eyaduwagi èpon teknologi tadak sentral modern.",
+		"ogTitle": "{project} - Software babagi berkas tadak sentral",
+		"ogDescription": "Peer-to-peer babagi berkas se eyaduwagi èpon teknologi tadak sentral modern. Tadak server sentral. Tadak settong titik gagal."
+	},
+	"menu": {
+		"about": "Parkara",
+		"download": "Onduh",
+		"screenshots": "Gambar layar",
+		"comparison": "Bandhingan",
+		"contact": "Kontak",
+		"toggle": "Toggle menu",
+		"close": "Totop menu",
+		"language": "Basa",
+		"selectLanguage": "Pèlè basa"
+	},
+	"hero": {
+		"subtitle": "Generasi anyar babagi berkas peer-to-peer",
+		"description": "Eyaduwagi èpon teknologi tadak sentral modern. Tadak server sentral. Tadak settong titik gagal.",
+		"download": "Onduh"
+	},
+	"about": {
+		"title": "Parkara",
+		"intro": "{project} ènggi panika platform babagi berkas peer-to-peer generasi anyar se eyaduwagi èpon teknologi tadak sentral modern. Macampor antarmuka pengguna se ghampang sareng arsitektur tadak sentral salèngka, ngerènga solusi se aman sareng terpercaya kaangghuy babagi data tanpa gumantung dha' otoritas sentral apa-apa. Proyek panika open source sareng eyebbar ngabaktoaghi {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan tadak sentral salèngka",
+				"description": "Tadak server sentral, tadak settong titik gagal. Pengguna nyarè sareng ngonduh konten lasung èantarana, tadak gumantung dha' indeksa sentral, pelacak otabe database."
+			},
+			"accessControl": {
+				"title": "Kontrol akses se rinci",
+				"description": "Sadhajana bebas amiyaagi jaringan dhibi' sareng atoran dhibi'. Tantowaghi peran pengguna è dhalem saban jaringan: se andhi', admin, penerbit, moderator sareng pengonduh. Kontrol sajati saponapa kerrabe nerbitaghi, moderasi sareng ngonduh konten."
+			},
+			"ui": {
+				"title": "Antarmuka pengguna kelas tinggi",
+				"description": "Antarmuka media center se beresè sareng ramah pengguna se eyaduwagi kaangghuy platform desktop, TV sareng sélulér. Navigasi tanpa repot sareng keyboard, mouse, gamepad otabe pangendali jhau. Pengguna level tinggi bisa ngangghuy antarmuka garis paréntah kaangghuy ajalanaghi software ka'dhinto server berkas tanpa cella'."
+			},
+			"dataFormat": {
+				"title": "Format data se ekabace manossa",
+				"description": "Format data LISH abasis JSON, madhuwagi gampang kaangghuy abadhe, mace sareng ngartèyaghi. Bagiyaghi konten sampèyan sareng metadata se jhellas, transparan, se kerrabe sa apa bisa parèksa kalaban gampang."
+			},
+			"security": {
+				"title": "Privasi sareng keamanan",
+				"description": "Sadhajana komunikasi peer-to-peer eyenkripsi, mastiyaghi data sampèyan tetep pribadi è dhalem transmisi. Pengguna bisa nyebbun è budina VPN kaangghuy lapisan anonimitas tambahan. {project} ngajeni privasi sampèyan kalaban desain."
+			},
+			"crossPlatform": {
+				"title": "Lintas-platform",
+				"description": "Software bedha kaangghuy platform Windows, Linux sareng macOS. Angghuy è alat napa bhei se sampèyan kasokane."
+			}
+		}
+	},
+	"download": {
+		"title": "Onduh",
+		"description": "Olle {project} kaangghuy platform sampèyan. Sadhajana onduhan gratis sareng open source.",
+		"version": "Versi sateya: {version}",
+		"linkAlt": "Onduh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pamasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Tengale è GitHub"
+		},
+		"macos": {
+			"title": "Catatan penting kaangghuy pengguna macOS:",
+			"intro": "macOS Gatekeeper ngalangè aplikasi se ta' tantatangan / ta' notaris se eonduh dhari internet kalaban kasalaan {error}.",
+			"error": "\"rosak ta' bisa ebukka'\"",
+			"runCommand": "Saamponna ngonduh DMG otabe ZIP, jalanaghi paréntah è dhalem Terminal kalaban cara è bebana sabhellumna abukka' aplikasi:",
+			"exampleDmg": "Contona, saamponna masang dhari DMG:",
+			"exampleZip": "Otabe saamponna ngékstrak ZIP:",
+			"explanation": "Panika ngahapus atribut karantina sareng matetap aplikasi kaangghuy ajalan."
+		}
+	},
+	"screenshots": {
+		"title": "Gambar layar",
+		"open": "Bukka' gambar layar {index}",
+		"alt": "Gambar layar {index}",
+		"close": "Totop galeri",
+		"prev": "Gambar lambhe'na",
+		"next": "Gambar saamponna"
+	},
+	"comparison": {
+		"title": "Bandhingan",
+		"feature": "Fitur",
+		"yes": "èngghi",
+		"no": "ta'",
+		"partialDht": "Sabagèyan (DHT)",
+		"rows": {
+			"decentralized": "Jaringan tadak sentral",
+			"onlineLibrary": "Perpustakaan online",
+			"builtInSearch": "Panyarèyan konten kaduwagi",
+			"decentralizedSearch": "Panyarèyan konten tadak sentral",
+			"parallelDownloads": "Onduh paralel dhari abedda sumber",
+			"mediaCenter": "Antarmuka media center",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Ahubungi kaule",
+		"links": {
+			"telegramChat": "Grup Cangkrok Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "èpon"
+	}
+}

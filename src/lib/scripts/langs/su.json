@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Babagi Berkas Terdesentralisasi",
+		"description": "{project} nyaéta software babagi berkas peer-to-peer anu diwangun dina téknologi terdesentralisasi modéren.",
+		"ogTitle": "{project} - Software babagi berkas terdesentralisasi",
+		"ogDescription": "Babagi berkas peer-to-peer anu diwangun dina téknologi terdesentralisasi modéren. Teu aya server pusat. Teu aya hiji titik gagal."
+	},
+	"menu": {
+		"about": "Ngeunaan",
+		"download": "Unduh",
+		"screenshots": "Cinten layar",
+		"comparison": "Babandingan",
+		"contact": "Kontak",
+		"toggle": "Toggle menu",
+		"close": "Tutup menu",
+		"language": "Basa",
+		"selectLanguage": "Pilih basa"
+	},
+	"hero": {
+		"subtitle": "Generasi anyar babagi berkas peer-to-peer",
+		"description": "Diwangun dina téknologi terdesentralisasi modéren. Teu aya server pusat. Teu aya hiji titik gagal.",
+		"download": "Unduh"
+	},
+	"about": {
+		"title": "Ngeunaan",
+		"intro": "{project} nyaéta platform babagi berkas peer-to-peer generasi anyar anu diwangun dina téknologi terdesentralisasi modéren. Ngagabungkeun antarbeungeut pamaké anu gampang sareng arsitéktur terdesentralisasi pinuh, méré solusi anu aman sareng tiasa dipercaya pikeun babagi data tanpa gumantung kana otoritas pusat naon ogé. Proyék ieu open source sareng disebarkeun dina {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan terdesentralisasi pinuh",
+				"description": "Teu aya server pusat, teu aya hiji titik gagal. Pamaké milarian sareng ngaunduh kontén langsung di antara aranjeunna sorangan, tanpa gumantung kana indekser pusat, pelacak atanapi pangkalan data."
+			},
+			"accessControl": {
+				"title": "Kontrol aksés anu rinci",
+				"description": "Sadayana bébas ngamimitian jaringan sorangan kalawan aturan sorangan. Tangtukeun peran pamaké dina unggal jaringan: nu boga, admin, panerbit, moderator sareng pangundeur. Kontrol kalawan rinci saha anu tiasa nerbitkeun, moderasi sareng ngaunduh kontén."
+			},
+			"ui": {
+				"title": "Antarbeungeut pamaké kelas luhur",
+				"description": "Antarbeungeut media center anu beresih sareng ramah pamaké anu diwangun pikeun platform desktop, TV sareng sélulér. Navigasi tanpa hésé sareng kibor, mouse, gamepad atanapi pangadalian jauh. Pamaké tingkat luhur tiasa ngagunakeun antarbeungeut garis paréntah pikeun ngajalankeun software salaku server berkas tanpa sirah."
+			},
+			"dataFormat": {
+				"title": "Format data anu kabaca ku manusa",
+				"description": "Format data LISH dumasar kana JSON, ngajadikeun éta gampang pikeun ngadamel, maca sareng ngartos. Bagikeun kontén anjeun kalawan métadata anu jelas sareng transparan, anu saha ogé tiasa mariksa kalawan gampang."
+			},
+			"security": {
+				"title": "Privasi sareng kaamanan",
+				"description": "Sadaya komunikasi peer-to-peer dienkripsi, ngajamin yén data anjeun tetep pribadi nalika transmisi. Pamaké tiasa nyumput di tukangeun VPN pikeun lapisan anonimitas tambahan. {project} ngahormatan privasi anjeun ku desain."
+			},
+			"crossPlatform": {
+				"title": "Lintas-platform",
+				"description": "Software sayogi pikeun platform Windows, Linux sareng macOS. Anggo dina alat naon waé anu anjeun pikahoyong."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduh",
+		"description": "Kéngingkeun {project} pikeun platform anjeun. Sadaya unduhan gratis sareng open source.",
+		"version": "Vérsi ayeuna: {version}",
+		"linkAlt": "Unduh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pamasang {format}",
+			"package": "Pakét {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Tingali dina GitHub"
+		},
+		"macos": {
+			"title": "Catetan penting pikeun pamaké macOS:",
+			"intro": "macOS Gatekeeper ngahalangan aplikasi anu teu ditandatanganan / teu dinotaris anu diunduh tina internét kalawan kasalahan {error}.",
+			"error": "\"ruksak sareng teu tiasa dibuka\"",
+			"runCommand": "Saatos ngaunduh DMG atanapi ZIP, jalankeun paréntah dina Terminal ku cara ieu sateuacan muka aplikasi:",
+			"exampleDmg": "Contona, saatos masang ti DMG:",
+			"exampleZip": "Atanapi saatos ngaékstrak ZIP:",
+			"explanation": "Ieu ngahapus atribut karantina sareng ngamungkinkeun aplikasi pikeun ngajalankeun."
+		}
+	},
+	"screenshots": {
+		"title": "Cinten layar",
+		"open": "Buka cinten layar {index}",
+		"alt": "Cinten layar {index}",
+		"close": "Tutup galeri",
+		"prev": "Gambar saméméhna",
+		"next": "Gambar salajengna"
+	},
+	"comparison": {
+		"title": "Babandingan",
+		"feature": "Fitur",
+		"yes": "leres",
+		"no": "henteu",
+		"partialDht": "Sabagéan (DHT)",
+		"rows": {
+			"decentralized": "Jaringan terdesentralisasi",
+			"onlineLibrary": "Perpustakaan online",
+			"builtInSearch": "Panéangan kontén anu dipasang",
+			"decentralizedSearch": "Panéangan kontén terdesentralisasi",
+			"parallelDownloads": "Unduh paralel ti sababaraha sumber",
+			"mediaCenter": "Antarbeungeut media center",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Hubungi kami",
+		"links": {
+			"telegramChat": "Grup Obrolan Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "ku"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - 去中心化檔案分享",
+		"description": "{project} 是一个基於現代去中心化技術个 peer-to-peer 檔案分享軟體。",
+		"ogTitle": "{project} - 去中心化檔案分享軟體",
+		"ogDescription": "基於現代去中心化技術个 peer-to-peer 檔案分享。無中心伺服器。無單點故障。"
+	},
+	"menu": {
+		"about": "關於",
+		"download": "下載",
+		"screenshots": "螢幕截圖",
+		"comparison": "比較",
+		"contact": "聯絡",
+		"toggle": "切換選單",
+		"close": "關起來選單",
+		"language": "語言",
+		"selectLanguage": "選擇語言"
+	},
+	"hero": {
+		"subtitle": "新世代 peer-to-peer 檔案分享",
+		"description": "基於現代去中心化技術。無中心伺服器。無單點故障。",
+		"download": "下載"
+	},
+	"about": {
+		"title": "關於",
+		"intro": "{project} 是一个新世代个 peer-to-peer 檔案分享平台,建立佇現代去中心化技術之上。伊將簡單个使用者介面佮完全去中心化个架構結合,提供安全閣可靠个資料分享解決方案,呣免依靠任何中心权威。這个專案是開放原始碼,佇 {license} 之下散布。",
+		"features": {
+			"decentralized": {
+				"title": "完全去中心化網路",
+				"description": "無中心伺服器,無單點故障。使用者之間直接搜尋佮下載內容,呣免依靠任何中心索引器、追蹤器抑是資料庫。"
+			},
+			"accessControl": {
+				"title": "細緻个存取控制",
+				"description": "逐个攏自由地用家己个規則開始家己个網路。佇逐个網路中定義使用者角色:擁有者、管理員、發布者、版主佮下載者。細緻地控制啥人會使發布、審核佮下載內容。"
+			},
+			"ui": {
+				"title": "高水準个使用者介面",
+				"description": "為桌上型、電視佮行動平台設計个清氣佮友善个媒體中心介面。鍵盤、滑鼠、遊戲手柄抑是遙控器攏會使順順仔導航。進階使用者會使用命令列介面將軟體當作無頭檔案伺服器運行。"
+			},
+			"dataFormat": {
+				"title": "人類會曉讀个資料格式",
+				"description": "LISH 資料格式以 JSON 為基礎,予建立、閱讀佮理解變得簡單。用清楚、透明个元資料分享你个內容,任何人攏會使輕鬆檢查。"
+			},
+			"security": {
+				"title": "私穩佮安全",
+				"description": "所有 peer-to-peer 通訊攏是加密个,確保你个資料佇傳輸過程中保持隱密。使用者會使匿佇 VPN 後壁來加額外个匿名層。{project} 透過設計尊重你个私穩。"
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "軟體適用佇 Windows、Linux 佮 macOS 平台。佇你愛个任何裝置上使用。"
+			}
+		}
+	},
+	"download": {
+		"title": "下載",
+		"description": "為你个平台取得 {project}。所有下載攏是免費佮開放原始碼。",
+		"version": "目前版本: {version}",
+		"linkAlt": "下載",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} 安裝程式",
+			"package": "{format} 套件",
+			"portableZip": "可攜式 ZIP",
+			"viewOnGithub": "佇 GitHub 觀看"
+		},
+		"macos": {
+			"title": "macOS 使用者重要注意事項:",
+			"intro": "macOS Gatekeeper 會擋從網路下載个未簽署/未公證个應用程式,出現 {error} 錯誤。",
+			"error": "\"已損毀,無法打開\"",
+			"runCommand": "下載 DMG 抑是 ZIP 之後,佇打開應用程式進前佇 Terminal 中用下底个方式執行命令:",
+			"exampleDmg": "比論講,從 DMG 安裝後:",
+			"exampleZip": "抑是解壓 ZIP 後:",
+			"explanation": "這會去除隔離屬性,准予應用程式執行。"
+		}
+	},
+	"screenshots": {
+		"title": "螢幕截圖",
+		"open": "打開螢幕截圖 {index}",
+		"alt": "螢幕截圖 {index}",
+		"close": "關起來圖庫",
+		"prev": "頂一張圖",
+		"next": "後一張圖"
+	},
+	"comparison": {
+		"title": "比較",
+		"feature": "特色",
+		"yes": "有",
+		"no": "無",
+		"partialDht": "部分 (DHT)",
+		"rows": {
+			"decentralized": "去中心化網路",
+			"onlineLibrary": "線頂圖書館",
+			"builtInSearch": "內建內容搜尋",
+			"decentralizedSearch": "去中心化內容搜尋",
+			"parallelDownloads": "從多个來源平行下載",
+			"mediaCenter": "媒體中心介面",
+			"gamepad": "遊戲手柄支援",
+			"openSource": "開放原始碼"
+		}
+	},
+	"contact": {
+		"title": "聯絡",
+		"getInTouch": "佮阮聯絡",
+		"links": {
+			"telegramChat": "Telegram 聊天群",
+			"telegramAnnouncements": "Telegram 公告",
+			"facebook": "Facebook 社團"
+		}
+	},
+	"footer": {
+		"by": "由"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentralisado nga Pag-ambit sang File",
+		"description": "{project} isa ka peer-to-peer file sharing software nga ginpatindog sa moderno nga desentralisado nga teknolohiya.",
+		"ogTitle": "{project} - Desentralisado nga file sharing software",
+		"ogDescription": "Peer-to-peer file sharing nga ginpatindog sa moderno nga desentralisado nga teknolohiya. Wala sing sentral nga server. Wala sing isa ka punto nga puwede mapaslawan."
+	},
+	"menu": {
+		"about": "Parte",
+		"download": "I-download",
+		"screenshots": "Mga screenshot",
+		"comparison": "Pag-comparar",
+		"contact": "Kontak",
+		"toggle": "I-toggle ang menu",
+		"close": "Sirahi ang menu",
+		"language": "Hambal",
+		"selectLanguage": "Pilia ang hambal"
+	},
+	"hero": {
+		"subtitle": "Bag-o nga henerasyon sang peer-to-peer file sharing",
+		"description": "Ginpatindog sa moderno nga desentralisado nga teknolohiya. Wala sing sentral nga server. Wala sing isa ka punto nga puwede mapaslawan.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Parte",
+		"intro": "Ang {project} isa ka bag-o nga henerasyon nga peer-to-peer file sharing platform nga ginpatindog sa moderno nga desentralisado nga teknolohiya. Ginatipon sini ang mahapos nga user interface kag ang kompleto nga desentralisado nga arkitektura, nagahatag sing ligtas kag masaligan nga solusyon para sa pag-ambit sang datos nga indi nagasalig sa bisan ano nga sentral nga awtoridad. Ang proyekto open source kag ginapanagtag sa idalom sang {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Bug-os nga desentralisado nga network",
+				"description": "Wala sing sentral nga server, wala sing isa ka punto nga puwede mapaslawan. Ang mga gumalamit direkta nga nagapangita kag nagadownload sang mga unod sa tunga nila mismo, indi nagasalig sa sentral nga mga indexer, tracker ukon database."
+			},
+			"accessControl": {
+				"title": "Detalyado nga pagkontrol sang access",
+				"description": "Ang tagsa-tagsa hilway nga mag-umpisa sang iya kaugalingon nga network nga may iya kaugalingon nga mga pagsulundan. I-define ang mga papel sang user sa kada network: tag-iya, admin, publisher, moderator kag downloader. Detalyado nga kontrola kon sin-o ang puwede mag-publish, mag-moderate kag mag-download sang mga unod."
+			},
+			"ui": {
+				"title": "Mataas nga klase nga user interface",
+				"description": "Limpyo kag user-friendly nga media center interface nga ginpatindog para sa desktop, TV kag mobile nga platform. Mag-navigate nga wala problema gamit ang keyboard, mouse, gamepad ukon remote control. Ang mga abante nga gumalamit puwede maggamit sang command line interface para padalaganon ang software bilang headless file server."
+			},
+			"dataFormat": {
+				"title": "Mabasa sang tawo nga porma sang datos",
+				"description": "Ang LISH data format ginabasi sa JSON, ginahimo ini nga mahapos nga himuon, basahon kag mahangpan. Ipaambit ang imo unod nga may klaro, transparent nga metadata nga mahapos nga ma-tan-aw sang bisan sin-o."
+			},
+			"security": {
+				"title": "Pagkapribado kag seguridad",
+				"description": "Tanan nga peer-to-peer nga komunikasyon naka-encrypt, ginasiguro nga ang imo datos magapabilin nga pribado samtang ginapadala. Ang mga gumalamit puwede magpanago sa likod sang VPN para sa dugang nga layer sang anonymity. Ginakilala sang {project} ang imo pagkapribado paagi sa disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ang software available para sa Windows, Linux kag macOS nga platform. Gamita sa bisan ano nga device nga gusto mo."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Kuhaa ang {project} para sa imo platform. Tanan nga download libre kag open source.",
+		"version": "Karon nga bersyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Tan-awa sa GitHub"
+		},
+		"macos": {
+			"title": "Importante nga nota para sa mga gumalamit sang macOS:",
+			"intro": "Ang macOS Gatekeeper nagablock sang unsigned / unnotarized nga mga app nga gindownload halin sa internet upod ang sayop nga {error}.",
+			"error": "\"nadaot kag indi mabuksan\"",
+			"runCommand": "Pagkatapos ma-download ang DMG ukon ZIP, padalagana ang command sa Terminal sa masunod nga paagi antes buksan ang app:",
+			"exampleDmg": "Halimbawa, pagkatapos i-install halin sa DMG:",
+			"exampleZip": "Ukon pagkatapos i-extract ang ZIP:",
+			"explanation": "Ini ginakuha ang quarantine attribute kag ginatugutan ang app nga modagan."
+		}
+	},
+	"screenshots": {
+		"title": "Mga screenshot",
+		"open": "Buksan ang screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Sirahi ang gallery",
+		"prev": "Antes nga larawan",
+		"next": "Sunod nga larawan"
+	},
+	"comparison": {
+		"title": "Pag-comparar",
+		"feature": "Tampok",
+		"yes": "huo",
+		"no": "indi",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Desentralisado nga network",
+			"onlineLibrary": "Online nga library",
+			"builtInSearch": "Built-in nga pagpangita sang unod",
+			"decentralizedSearch": "Desentralisado nga pagpangita sang unod",
+			"parallelDownloads": "Parallel nga download halin sa madamo nga ginhalinan",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Suporta sa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Kontaka kami",
+		"links": {
+			"telegramChat": "Telegram Chat Group",
+			"telegramAnnouncements": "Telegram Announcements",
+			"facebook": "Facebook Group"
+		}
+	},
+	"footer": {
+		"by": "ni"
+	}
+}

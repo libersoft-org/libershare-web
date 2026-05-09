@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentralisado a Panagbingay ti File",
+		"description": "{project} ket maysa a peer-to-peer file sharing software a naipatakder iti moderno a desentralisado a teknolohiya.",
+		"ogTitle": "{project} - Desentralisado a file sharing software",
+		"ogDescription": "Peer-to-peer file sharing a naipatakder iti moderno a desentralisado a teknolohiya. Awan sentral a server. Awan maymaysa a punto a mabalin a mapaay."
+	},
+	"menu": {
+		"about": "Maipanggep",
+		"download": "I-download",
+		"screenshots": "Dagiti screenshot",
+		"comparison": "Panangidiligpat",
+		"contact": "Kontak",
+		"toggle": "I-toggle ti menu",
+		"close": "Iserra ti menu",
+		"language": "Pagsasao",
+		"selectLanguage": "Pilien ti pagsasao"
+	},
+	"hero": {
+		"subtitle": "Baro a henerasion ti peer-to-peer file sharing",
+		"description": "Naipatakder iti moderno a desentralisado a teknolohiya. Awan sentral a server. Awan maymaysa a punto a mabalin a mapaay.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Maipanggep",
+		"intro": "Ti {project} ket baro a henerasion a peer-to-peer file sharing platform a naipatakder iti moderno a desentralisado a teknolohiya. Pagtitiponenna ti nalaka a user interface ken ti naan-anay a desentralisado a arkitektura, mangipaay iti natalged ken mapagtalkan a solusion para iti panagbingay ti datos a saan a nakadepende iti aniaman a sentral a autoridad. Ti proyekto ket open source ken naidistribuir iti sidong ti {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Naan-anay a desentralisado a network",
+				"description": "Awan sentral a server, awan maymaysa a punto a mabalin a mapaay. Dagiti agar-aramat ket direkta nga agbiroken ken mangidownload kadagiti linaon iti baetda a mismo, saan a nakadepende kadagiti sentral nga indexer, tracker wenno database."
+			},
+			"accessControl": {
+				"title": "Detalyado a panangkontrol ti panakistrek",
+				"description": "Tunggal maysa ket nawaya nga agrugi iti bukodna a network nga addaan kadagiti bukodna a paglintegan. Idefiner dagiti rol ti agar-aramat iti tunggal network: makinkukua, admin, agipablaak, moderator ken agdownload. Detalyado a kontrolen no asino ti makaipablaak, makamoderar ken makadownload kadagiti linaon."
+			},
+			"ui": {
+				"title": "Nangangato a kalidad ti user interface",
+				"description": "Nadalus ken user-friendly a media center interface a naipatakder para iti desktop, TV ken mobile a platform. Aginnaw nga awan rikut babaen ti keyboard, mouse, gamepad wenno remote control. Dagiti nasulin a nausto ket mabalinda nga aramaten ti command line interface tapno patarayen ti software a kasla headless file server."
+			},
+			"dataFormat": {
+				"title": "Mabasa ti tao a porma ti datos",
+				"description": "Ti porma ti datos ti LISH ket naibatay iti JSON, mangaramid daytoy a nalaka a partuaten, basaen ken maawatan. Ibingayyo ti linaonyo nga addaan kadagiti nalawag, transparente a metadata a mabalin ti siasinoman a kitaen a sililistay."
+			},
+			"security": {
+				"title": "Panagasenso ken seguridad",
+				"description": "Amin a peer-to-peer a komunikasion ket naka-encrypt, mangsigurado a ti datosyo ket agtalinaed a pribado bayat ti panagilukat. Mabalin nga aglemmeng dagiti agar-aramat iti likudan ti VPN para iti kanayonan a layer ti anonimidad. Raraemen ti {project} ti panagasensoyo babaen ti disenio."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Ti software ket adda para iti Windows, Linux ken macOS a platform. Aramaten iti aniaman a device a kayatyo."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Alaen ti {project} para iti platformyo. Amin a download ket libre ken open source.",
+		"version": "Agdama a bersion: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Kitaen iti GitHub"
+		},
+		"macos": {
+			"title": "Napateg a nota para kadagiti agar-aramat ti macOS:",
+			"intro": "Ti macOS Gatekeeper ket babbaknangenna dagiti unsigned / unnotarized nga app a nadownload manipud iti internet a mabuyabuya iti biddut a {error}.",
+			"error": "\"nadadael ken saan a mabalin a maluktan\"",
+			"runCommand": "Kalpasan ti panangidownload iti DMG wenno ZIP, patarayen ti bilin iti Terminal iti sumaganad a wagas sakbay a luktan ti app:",
+			"exampleDmg": "Kas pagarigan, kalpasan ti panagi-install manipud iti DMG:",
+			"exampleZip": "Wenno kalpasan ti panagaramat iti ZIP:",
+			"explanation": "Daytoy ket ikkaten ti quarantine attribute ken palubosanna ti app nga agtaray."
+		}
+	},
+	"screenshots": {
+		"title": "Dagiti screenshot",
+		"open": "Luktan ti screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Iserra ti gallery",
+		"prev": "Napalabas a ladawan",
+		"next": "Sumaruno a ladawan"
+	},
+	"comparison": {
+		"title": "Panangidiligpat",
+		"feature": "Tampok",
+		"yes": "wen",
+		"no": "saan",
+		"partialDht": "Partial (DHT)",
+		"rows": {
+			"decentralized": "Desentralisado a network",
+			"onlineLibrary": "Online a library",
+			"builtInSearch": "Naibukel a panagbiruk ti linaon",
+			"decentralizedSearch": "Desentralisado a panagbiruk ti linaon",
+			"parallelDownloads": "Parallel a download manipud iti adu a gubuayan",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Suporta ti gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Kontaken kami",
+		"links": {
+			"telegramChat": "Telegram Chat Group",
+			"telegramAnnouncements": "Telegram Announcements",
+			"facebook": "Facebook Group"
+		}
+	},
+	"footer": {
+		"by": "babaen ken"
+	}
+}
