@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Perkongsian fail terdesentralisasi",
+		"description": "{project} ialah perisian perkongsian fail rakan-ke-rakan, dibina di atas teknologi terdesentralisasi moden.",
+		"ogTitle": "{project} - Perisian perkongsian fail terdesentralisasi",
+		"ogDescription": "Perkongsian fail rakan-ke-rakan dibina di atas teknologi terdesentralisasi moden. Tiada pelayan pusat. Tiada apa-apa yang boleh menjatuhkan keseluruhan rangkaian."
+	},
+	"menu": {
+		"about": "Tentang",
+		"download": "Muat turun",
+		"screenshots": "Tangkapan skrin",
+		"comparison": "Perbandingan",
+		"contact": "Hubungi",
+		"toggle": "Togol menu",
+		"close": "Tutup menu",
+		"language": "Bahasa",
+		"selectLanguage": "Pilih bahasa"
+	},
+	"hero": {
+		"subtitle": "Perkongsian fail rakan-ke-rakan generasi seterusnya",
+		"description": "Dibina di atas teknologi terdesentralisasi moden. Tiada pelayan pusat. Tiada apa-apa yang boleh menjatuhkan keseluruhan rangkaian.",
+		"download": "Muat turun"
+	},
+	"about": {
+		"title": "Tentang",
+		"intro": "{project} ialah platform perkongsian fail rakan-ke-rakan generasi seterusnya, dibina di atas teknologi terdesentralisasi moden. Ia menggabungkan antara muka pengguna intuitif dengan seni bina yang sepenuhnya terdesentralisasi, menyediakan penyelesaian selamat dan boleh dipercayai untuk perkongsian data, bebas daripada mana-mana pihak berkuasa pusat. Projek ini adalah sumber terbuka dan diedarkan di bawah lesen {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rangkaian sepenuhnya terdesentralisasi",
+				"description": "Tiada pelayan pusat, tiada titik kegagalan tunggal. Pengguna mencari dan memuat turun kandungan secara langsung antara satu sama lain, tanpa bergantung pada pengindeks, penjejak atau pangkalan data berpusat."
+			},
+			"accessControl": {
+				"title": "Kawalan akses terperinci",
+				"description": "Sesiapa sahaja boleh secara bebas memulakan rangkaian sendiri dengan peraturan sendiri. Takrifkan peranan pengguna dalam setiap rangkaian: pemilik, pentadbir, penerbit, moderator dan pemuat turun. Kawal dengan tepat siapa yang boleh menerbitkan, menyederhanakan dan memuat turun kandungan."
+			},
+			"ui": {
+				"title": "Antara muka pengguna kelas pertama",
+				"description": "Antara muka pusat media yang bersih dan mesra pengguna direka untuk platform desktop, TV dan mudah alih. Navigasi dengan lancar menggunakan papan kekunci, tetikus, gamepad atau alat kawalan jauh. Pengguna lanjutan boleh memanfaatkan antara muka baris arahan untuk menjalankan perisian sebagai pelayan fail tanpa antara muka grafik."
+			},
+			"dataFormat": {
+				"title": "Format data yang boleh dibaca manusia",
+				"description": "Format data LISH berasaskan JSON, menjadikannya mudah untuk dicipta, dibaca dan difahami. Kongsi kandungan anda dengan metadata yang jelas dan telus yang boleh diperiksa dengan mudah oleh sesiapa sahaja."
+			},
+			"security": {
+				"title": "Privasi dan keselamatan",
+				"description": "Semua komunikasi rakan-ke-rakan disulitkan, memastikan data anda kekal peribadi semasa pemindahan. Pengguna boleh bersembunyi di sebalik VPN untuk lapisan tambahan kerahsiaan. {project} menghormati privasi anda secara reka bentuk."
+			},
+			"crossPlatform": {
+				"title": "Merentas platform",
+				"description": "Perisian tersedia untuk platform Windows, Linux dan macOS. Gunakannya pada mana-mana peranti yang anda suka."
+			}
+		}
+	},
+	"download": {
+		"title": "Muat turun",
+		"description": "Dapatkan {project} untuk platform anda. Semua muat turun adalah percuma dan sumber terbuka.",
+		"version": "Versi semasa: {version}",
+		"linkAlt": "Muat turun",
+		"platforms": {
+			"sourceCode": "Kod sumber"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Pakej {format}",
+			"portableZip": "ZIP mudah alih",
+			"viewOnGithub": "Lihat di GitHub"
+		},
+		"macos": {
+			"title": "Nota penting untuk pengguna macOS:",
+			"intro": "macOS Gatekeeper menyekat aplikasi tidak ditandatangani / tidak disahkan yang dimuat turun dari internet dengan ralat {error}.",
+			"error": "\"rosak dan tidak boleh dibuka\"",
+			"runCommand": "Selepas memuat turun DMG atau ZIP, sebelum membuka aplikasi, jalankan dalam Terminal arahan dalam bentuk berikut:",
+			"exampleDmg": "Sebagai contoh selepas memasang dari DMG:",
+			"exampleZip": "Atau selepas mengekstrak ZIP:",
+			"explanation": "Arahan ini mengeluarkan atribut kuarantin dan membenarkan aplikasi berjalan."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan skrin",
+		"open": "Buka tangkapan skrin {index}",
+		"alt": "Tangkapan skrin {index}",
+		"close": "Tutup galeri",
+		"prev": "Imej sebelumnya",
+		"next": "Imej seterusnya"
+	},
+	"comparison": {
+		"title": "Perbandingan",
+		"feature": "Ciri",
+		"yes": "ya",
+		"no": "tidak",
+		"partialDht": "Separa (DHT)",
+		"rows": {
+			"decentralized": "Rangkaian terdesentralisasi",
+			"onlineLibrary": "Perpustakaan dalam talian",
+			"builtInSearch": "Carian kandungan terbina dalam",
+			"decentralizedSearch": "Carian kandungan terdesentralisasi",
+			"parallelDownloads": "Muat turun selari daripada pelbagai sumber",
+			"mediaCenter": "Antara muka pusat media",
+			"gamepad": "Sokongan gamepad",
+			"openSource": "Sumber terbuka"
+		}
+	},
+	"contact": {
+		"title": "Hubungi",
+		"getInTouch": "Hubungi kami",
+		"links": {
+			"telegramChat": "Kumpulan sembang Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Kumpulan Facebook"
+		}
+	},
+	"footer": {
+		"by": "oleh"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Hirmaata faayilii kan giddu-galeessa hin qabne",
+		"description": "{project} sooftiweerii hirmaata faayilii peer-to-peer kan teknooloojii ammayyaa giddu-galeessa hin qabne irratti ijaarame dha.",
+		"ogTitle": "{project} - Sooftiweerii hirmaata faayilii kan giddu-galeessa hin qabne",
+		"ogDescription": "Hirmaata faayilii peer-to-peer kan teknooloojii ammayyaa giddu-galeessa hin qabne irratti ijaarame. Saarvaroonni giddu-galeessaa hin jiran. Wantii network guutuu kuffisuu danda'u tokko illee hin jiru."
+	},
+	"menu": {
+		"about": "Waa'ee",
+		"download": "Buusi",
+		"screenshots": "Suuraawwan moonitiraa",
+		"comparison": "Wal-bira qabuu",
+		"contact": "Quunnamtii",
+		"toggle": "Menuu jijjiiri",
+		"close": "Menuu cufi",
+		"language": "Afaan",
+		"selectLanguage": "Afaan filadhu"
+	},
+	"hero": {
+		"subtitle": "Hirmaata faayilii peer-to-peer dhaloota itti aanu",
+		"description": "Teknooloojii ammayyaa giddu-galeessa hin qabne irratti ijaarame. Saarvaroonni giddu-galeessaa hin jiran. Wantii network guutuu kuffisuu danda'u tokko illee hin jiru.",
+		"download": "Buusi"
+	},
+	"about": {
+		"title": "Waa'ee",
+		"intro": "{project} pilaatformii hirmaata faayilii peer-to-peer dhaloota itti aanu kan teknooloojii ammayyaa giddu-galeessa hin qabne irratti ijaarame dha. Inni interfeesii fayyadamaa salphaa ta'e ijaarsa guutummaatti giddu-galeessa hin qabne wajjin walitti makee, hirmaata daataa kan abbaa taayitaa giddu-galeessa kamiyyuu irraa walaba ta'e furmaata nageenya qabuu fi amanamaa kenna. Pirojektichi open source dha; eeyyama {license} jalatti raabsama.",
+		"features": {
+			"decentralized": {
+				"title": "Network guutummaatti giddu-galeessa hin qabne",
+				"description": "Saarvaroonni giddu-galeessaa hin jiran, qabxiin kuufamuu tokkichi hin jiru. Fayyadamtoonni indekserootta, traakeroottaa fi kuusaa daataa giddu-galeessaa irratti hin hirkatan, qooda kanaa kallattii waliin qabiyyee barbaadanii buusu."
+			},
+			"accessControl": {
+				"title": "To'annoo seensaa bal'aa",
+				"description": "Namni kamiyyuu seerota mataa isaatiin network mataa isaa walaba ta'ee jalqabuu danda'a. Network hundaa keessatti gahee fayyadamtootaa hiiki: abbootii, bulchitoota, maxxansitoota, moderator-fi buustoota. Eenyu qabiyyee maxxansuu, moderate-fi buusuu akka danda'u sirriitti to'achi."
+			},
+			"ui": {
+				"title": "Interfeesii fayyadamaa sadarkaa olaanaa",
+				"description": "Interfeesii giddu-gala miidiyaa qulqulluu fi fayyadamaaf mijaa'aa kan deeskitooppii, TV-fi mobaayilaaf qophaa'e. Kiiboordi, hantuuta, gamepad ykn riimoot kontroolaan utuu hin dhibamne sosso'i. Fayyadamtoonni guddifaman interfeesii ajaja sararaa fayyadamuun sooftiweericha akka saarvarii faayilii interfeesii grafiikaa malee fayyadamuu danda'u."
+			},
+			"dataFormat": {
+				"title": "Foormaata daataa namni dubbisuu danda'u",
+				"description": "Foormaatni daataa LISH JSON irratti hundaa'a, kunis uumuu, dubbisuu fi hubachuu salphaa godha. Qabiyyee kee meta-data ifaa, iftoominaa kan namni kamiyyuu salphaatti qoruu danda'uun hir'ina."
+			},
+			"security": {
+				"title": "Iccitii fi nageenya",
+				"description": "Quunnamtiin peer-to-peer hundi koodii godhamee, daataan kee yeroo dabarsuu keessatti dhuunfaa akka ta'u mirkaneessa. Fayyadamtoonni sadarkaa hin beekamne dabalataaf duuba VPN dhokachuu danda'u. {project} dizaayinaan iccitii kee kabaja."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Sooftiweerichi pilaatformii Windows, Linux fi macOS-f argama. Meeshaa filattu kamiyyuu irratti fayyadami."
+			}
+		}
+	},
+	"download": {
+		"title": "Buusi",
+		"description": "Pilaatformii keetif {project} argadhu. Buufamoonni hundi kaffaltii malee fi open source dha.",
+		"version": "Vershinii ammaa: {version}",
+		"linkAlt": "Buusi",
+		"platforms": {
+			"sourceCode": "Koodii madda"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Waliigalaa (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Buusaa {format}",
+			"package": "Paakeejii {format}",
+			"portableZip": "ZIP fudhatamuu danda'u",
+			"viewOnGithub": "GitHub irratti ilaali"
+		},
+		"macos": {
+			"title": "Yaadannoo barbaachisaa fayyadamtoota macOS-f:",
+			"intro": "macOS Gatekeeper appilikeeshinii internetii irraa buufaman kan mallattoo hin qabne / hin mirkanaa'in dogoggora {error} fida.",
+			"error": "\"manca'eera kanaaf banamuu hin danda'u\"",
+			"runCommand": "DMG ykn ZIP buusu booda, appilikeeshinicha banuun dura, Terminal keessatti ajaja unka armaan gadii fakkaatu fayyadami:",
+			"exampleDmg": "Fakkeenyaaf DMG irraa erga buustee booda:",
+			"exampleZip": "Ykn ZIP erga baasitee booda:",
+			"explanation": "Ajajni kun amala quarantine balleessee appilikeeshinichi akka fayyadamuuf eeyyama."
+		}
+	},
+	"screenshots": {
+		"title": "Suuraawwan moonitiraa",
+		"open": "Suuraa moonitiraa {index} bani",
+		"alt": "Suuraa moonitiraa {index}",
+		"close": "Galarii cufi",
+		"prev": "Suuraa duraanii",
+		"next": "Suuraa itti aanu"
+	},
+	"comparison": {
+		"title": "Wal-bira qabuu",
+		"feature": "Amala",
+		"yes": "eeyyee",
+		"no": "lakki",
+		"partialDht": "Gartokkee (DHT)",
+		"rows": {
+			"decentralized": "Network giddu-galeessa hin qabne",
+			"onlineLibrary": "Mana kitaabaa onlaayinii",
+			"builtInSearch": "Barbaacha qabiyyee walitti makame",
+			"decentralizedSearch": "Barbaacha qabiyyee giddu-galeessa hin qabne",
+			"parallelDownloads": "Buufamoota walqixaa madda hedduu irraa",
+			"mediaCenter": "Interfeesii giddu-gala miidiyaa",
+			"gamepad": "Deeggarsa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Quunnamtii",
+		"getInTouch": "Nu quunnami",
+		"links": {
+			"telegramChat": "Garee haasawaa Telegram",
+			"telegramAnnouncements": "Beeksisaalee Telegram",
+			"facebook": "Garee Facebook"
+		}
+	},
+	"footer": {
+		"by": "kanaan"
+	}
+}

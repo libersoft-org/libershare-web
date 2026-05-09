@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pípín fáìlì tí kò sí ààrín",
+		"description": "{project} jẹ́ ọ̀nà fún pínpín fáìlì láàárín ẹlẹgbẹ́ kan sí ẹlẹgbẹ́ míràn, tí a kọ́ lórí àwọn ìmọ̀-ẹ̀rọ òde òní tí kò sí ààrín.",
+		"ogTitle": "{project} - Sọ́fítìwérì pípín fáìlì tí kò sí ààrín",
+		"ogDescription": "Pípín fáìlì láàárín ẹlẹgbẹ́ kan sí ẹlẹgbẹ́ míràn tí a kọ́ lórí àwọn ìmọ̀-ẹ̀rọ òde òní tí kò sí ààrín. Kò sí àwọn olùpèsè ààrín. Kò sí ohun tí ó lè bà gbogbo nẹ́tíwọ́kì jẹ́."
+	},
+	"menu": {
+		"about": "Nípa",
+		"download": "Gba sílẹ̀",
+		"screenshots": "Àwòrán ojú-ìwòran",
+		"comparison": "Ìfiwéra",
+		"contact": "Olùbàdíálọ́gù",
+		"toggle": "Yí àkójọ padà",
+		"close": "Pa àkójọ",
+		"language": "Èdè",
+		"selectLanguage": "Yan èdè"
+	},
+	"hero": {
+		"subtitle": "Pípín fáìlì láàárín ẹlẹgbẹ́ kan sí ẹlẹgbẹ́ míràn ti ìran tó ń bọ̀",
+		"description": "A kọ́ lórí àwọn ìmọ̀-ẹ̀rọ òde òní tí kò sí ààrín. Kò sí àwọn olùpèsè ààrín. Kò sí ohun tí ó lè bà gbogbo nẹ́tíwọ́kì jẹ́.",
+		"download": "Gba sílẹ̀"
+	},
+	"about": {
+		"title": "Nípa",
+		"intro": "{project} jẹ́ pẹpẹ pípín fáìlì láàárín ẹlẹgbẹ́ kan sí ẹlẹgbẹ́ míràn ti ìran tó ń bọ̀, tí a kọ́ lórí àwọn ìmọ̀-ẹ̀rọ òde òní tí kò sí ààrín. Ó so àlà ìfọ̀rọ̀wánilẹ́nuwò olùmúlò pọ̀ pẹ̀lú àkànṣe tí kò sí ààrín pátápátá, ó pèsè ojútùú aláìléwu àti ti ìgbẹ́kẹ̀lé fún pípín ìsọfúnni, tí ó dúró lójú ara rẹ̀ sí àwọn aláṣẹ ààrín èyíkéyìí. Iṣẹ́-akanṣe yìí jẹ́ orísun-ṣíṣí ó sì pín kálẹ̀ lábẹ́ ìwé àṣẹ {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Nẹ́tíwọ́kì tí kò sí ààrín pátápátá",
+				"description": "Kò sí àwọn olùpèsè ààrín, kò sí ààyè ìkùnà kan ṣoṣo. Àwọn olùmúlò ń wá àti gba àwọn àkóónú sílẹ̀ tààràtà láti ọ̀dọ̀ ara wọn, láìsí gbígbé ara lé àwọn olùṣàfihàn ààrín, olùtọ́jú tàbí àwọn dátábáàsì."
+			},
+			"accessControl": {
+				"title": "Ìṣàkóso wíwọlé tí ó dájú",
+				"description": "Ẹnikẹ́ni lè bẹ̀rẹ̀ nẹ́tíwọ́kì tirẹ̀ pẹ̀lú àwọn òfin tirẹ̀ ní òmìnira. Sàlàyé àwọn ipa olùmúlò nínú nẹ́tíwọ́kì kọ̀ọ̀kan: àwọn onílé, àwọn alámòójútó, àwọn olùtàjáde, àwọn olùdánwò àti àwọn olùgbasílẹ̀. Ṣàkóso ní pàtó ẹni tí ó lè tàjáde, dánwò àti gba àkóónú sílẹ̀."
+			},
+			"ui": {
+				"title": "Àlà ìfọ̀rọ̀wánilẹ́nuwò olùmúlò ti kíláàsì àkọ́kọ́",
+				"description": "Àlà ìfọ̀rọ̀wánilẹ́nuwò ti ibùdó mídíà tí ó mọ́ tónítóní àti ọ̀rẹ́ olùmúlò tí a ṣe fún àwọn pẹpẹ deskitóòpù, telifíṣọ̀n àti móbáìlì. Tọ́ka láìsí ìṣòro pẹ̀lú àwọn báàlì tẹ́lẹ̀, eku, ohun-ìṣeré tàbí ohun-èlò ìdarí. Àwọn olùmúlò amọṣẹ́dunmọ́ lè jàǹfààní láti inú àlà ìfọ̀rọ̀wánilẹ́nuwò ti laini-àṣẹ láti ṣàkóso sọ́fítìwérì gẹ́gẹ́ bí olùpèsè fáìlì láìsí àlà ìfọ̀rọ̀wánilẹ́nuwò ìyàwòrán."
+			},
+			"dataFormat": {
+				"title": "Ọ̀nà ìsọfúnni tí ènìyàn lè kà",
+				"description": "Ọ̀nà ìsọfúnni LISH dá lórí JSON, èyí tí ó mú u rọrùn láti ṣe, kà àti lóye. Pín àkóónú rẹ pẹ̀lú metadata tí ó hàn gbangba àti tí ó hàn kedere tí ẹnikẹ́ni lè ṣàyẹ̀wò ní rọ̀rùn."
+			},
+			"security": {
+				"title": "Àṣírí àti ààbò",
+				"description": "Gbogbo ìbárasọ̀rọ̀ láàárín ẹlẹgbẹ́ kan sí ẹlẹgbẹ́ míràn ni ó ti pamọ́, ó rí i dájú pé ìsọfúnni rẹ wà ní àṣírí nígbà tí a bá ń gbé e. Àwọn olùmúlò lè fara pamọ́ sí ẹ̀yìn VPN fún àfikún ipele àìmọ̀. {project} bọ̀wọ̀ fún àṣírí rẹ nípasẹ̀ àkànṣe."
+			},
+			"crossPlatform": {
+				"title": "Olúkúlùkù-pẹpẹ",
+				"description": "Sọ́fítìwérì wà fún àwọn pẹpẹ Windows, Linux àti macOS. Lo lórí ohun-èlò èyíkéyìí tí o fẹ́."
+			}
+		}
+	},
+	"download": {
+		"title": "Gba sílẹ̀",
+		"description": "Gba {project} fún pẹpẹ rẹ. Gbogbo àwọn ìgbasílẹ̀ jẹ́ ọ̀fẹ́ àti orísun-ṣíṣí.",
+		"version": "Ẹ̀dà tó wà nísinsìnyí: {version}",
+		"linkAlt": "Gba sílẹ̀",
+		"platforms": {
+			"sourceCode": "Kóòdù orísun"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Àgbáyé (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Olùfìsínú {format}",
+			"package": "Pákéjì {format}",
+			"portableZip": "ZIP tí a lè gbé",
+			"viewOnGithub": "Wo ní GitHub"
+		},
+		"macos": {
+			"title": "Àkíyèsí pàtàkì fún àwọn olùmúlò macOS:",
+			"intro": "macOS Gatekeeper ń dí àwọn àpótí tí kò ní ìbúwọlú / tí a kò fọwọ́ sí tí a gbà sílẹ̀ láti orí ayélujára pẹ̀lú àṣìṣe {error}.",
+			"error": "\"ti bàjẹ́, kò sì lè ṣí\"",
+			"runCommand": "Lẹ́yìn gbígba DMG tàbí ZIP sílẹ̀, ṣáájú kí o tó ṣí àpótí, ṣe àṣẹ ní Terminal ní ọ̀nà tó tẹ̀lé yìí:",
+			"exampleDmg": "Bí àpẹẹrẹ lẹ́yìn fífi ìsínú láti DMG:",
+			"exampleZip": "Tàbí lẹ́yìn yíyọ ZIP:",
+			"explanation": "Àṣẹ yìí ń mú àbùdá ìpàṣípààrọ̀ kúrò ó sì ń jẹ́ kí àpótí náà ṣiṣẹ́."
+		}
+	},
+	"screenshots": {
+		"title": "Àwòrán ojú-ìwòran",
+		"open": "Ṣí àwòrán ojú-ìwòran {index}",
+		"alt": "Àwòrán ojú-ìwòran {index}",
+		"close": "Pa gallery",
+		"prev": "Àwòrán tó ṣáájú",
+		"next": "Àwòrán tó tẹ̀lé"
+	},
+	"comparison": {
+		"title": "Ìfiwéra",
+		"feature": "Ẹ̀yà",
+		"yes": "bẹ́ẹ̀ni",
+		"no": "rárá",
+		"partialDht": "Apá kan (DHT)",
+		"rows": {
+			"decentralized": "Nẹ́tíwọ́kì tí kò sí ààrín",
+			"onlineLibrary": "Ilé-ìkẹ́kọ̀ọ́ orí ayélujára",
+			"builtInSearch": "Wíwá àkóónú tí a kọ́ síbẹ̀",
+			"decentralizedSearch": "Wíwá àkóónú tí kò sí ààrín",
+			"parallelDownloads": "Àwọn ìgbasílẹ̀ tó ń lọ pa pọ̀ láti àwọn orísun pẹlẹpẹlẹ",
+			"mediaCenter": "Àlà ìfọ̀rọ̀wánilẹ́nuwò ibùdó mídíà",
+			"gamepad": "Àtìlẹ́yìn ohun-ìṣeré",
+			"openSource": "Orísun-ṣíṣí"
+		}
+	},
+	"contact": {
+		"title": "Olùbàdíálọ́gù",
+		"getInTouch": "Bá wa sọ̀rọ̀",
+		"links": {
+			"telegramChat": "Ẹgbẹ́ ìbánisọ̀rọ̀ Telegram",
+			"telegramAnnouncements": "Ìkéde Telegram",
+			"facebook": "Ẹgbẹ́ Facebook"
+		}
+	},
+	"footer": {
+		"by": "látọwọ́"
+	}
+}

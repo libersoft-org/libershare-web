@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Raba fayil ba tare da tsakiya ba",
+		"description": "{project} shi ne software na raba fayil tsakanin abokan tarayya, wanda aka gina a kan fasahohin zamani na ba tare da tsakiya ba.",
+		"ogTitle": "{project} - Software na raba fayil ba tare da tsakiya ba",
+		"ogDescription": "Raba fayil tsakanin abokan tarayya wanda aka gina a kan fasahohin zamani na ba tare da tsakiya ba. Babu sabar tsakiya. Babu wani abu da zai iya kawar da dukkan hanyar sadarwar."
+	},
+	"menu": {
+		"about": "Game da",
+		"download": "Sauke",
+		"screenshots": "Hotuna na allo",
+		"comparison": "Kwatance",
+		"contact": "Tuntuɓa",
+		"toggle": "Canza menu",
+		"close": "Rufe menu",
+		"language": "Harshe",
+		"selectLanguage": "Zaɓi harshe"
+	},
+	"hero": {
+		"subtitle": "Raba fayil tsakanin abokan tarayya na zamani mai zuwa",
+		"description": "An gina shi a kan fasahohin zamani na ba tare da tsakiya ba. Babu sabar tsakiya. Babu wani abu da zai iya kawar da dukkan hanyar sadarwar.",
+		"download": "Sauke"
+	},
+	"about": {
+		"title": "Game da",
+		"intro": "{project} dandali ne na raba fayil tsakanin abokan tarayya na zamani mai zuwa, wanda aka gina a kan fasahohin zamani na ba tare da tsakiya ba. Yana haɗa madafan amfani mai sauƙi tare da tsarin gini wanda baki ɗaya yake ba tare da tsakiya ba, yana ba da mafita mai aminci da abin dogaro don raba bayanai, mai zaman kanta daga kowace hukuma ta tsakiya. Aikin yana buɗewa kuma ana rarraba shi ƙarƙashin lasisin {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Hanyar sadarwa wadda baki ɗaya take ba tare da tsakiya ba",
+				"description": "Babu sabar tsakiya, babu wuri ɗaya na rashin nasara. Masu amfani suna nema da saukar da abubuwan ciki kai tsaye daga juna, ba tare da dogaro a kan masu tsara, masu bibiya ko bayanai na tsakiya ba."
+			},
+			"accessControl": {
+				"title": "Daidaitaccen sarrafawar shiga",
+				"description": "Kowa zai iya farawa da hanyar sadarwarsa cikin 'yanci da ƙa'idodinsa. Bayyana ayyukan masu amfani a cikin kowace hanyar sadarwa: masu mallaka, masu gudanarwa, masu wallafa, masu daidaitawa da masu saukewa. Sarrafa daidai wanda zai iya wallafa, daidaita da saukar da abubuwan ciki."
+			},
+			"ui": {
+				"title": "Madafan amfani na aji na farko",
+				"description": "Madafan tsakiyar kafofin watsa labarai mai tsabta da sauƙin amfani wanda aka tsara don dandalin tebur, TV da na hannu. Tafiya cikin sauki tare da maɓallin maɓalli, linzami, mai sarrafa wasa ko mai sarrafa nesa. Masu amfani na ci gaba za su iya amfani da madafan layin umurni don gudanar da software a matsayin sabar fayil ba tare da madafan zane ba."
+			},
+			"dataFormat": {
+				"title": "Tsarin bayanai da mutum zai iya karantawa",
+				"description": "Tsarin bayanai na LISH ya dogara ne akan JSON, wanda yake sauƙaƙa ƙirƙira, karantawa da fahimta. Raba abun cikin ku tare da metadata mai bayyana da gaskiya wanda kowa zai iya bincika cikin sauƙi."
+			},
+			"security": {
+				"title": "Sirri da tsaro",
+				"description": "Duk sadarwa tsakanin abokan tarayya an ɓoye, yana tabbatar da bayanan ku zama na sirri yayin canjawa. Masu amfani za su iya ɓoyewa a bayan VPN don ƙarin matakin rashin sani. {project} yana mutunta sirrin ku ta hanyar ƙira."
+			},
+			"crossPlatform": {
+				"title": "Yawan dandali",
+				"description": "Software yana samuwa don dandalin Windows, Linux da macOS. Yi amfani da shi a kan kowace na'ura da kuke so."
+			}
+		}
+	},
+	"download": {
+		"title": "Sauke",
+		"description": "Samu {project} don dandalin ku. Duk saukewa kyauta ne kuma buɗaɗɗiya.",
+		"version": "Sigar yanzu: {version}",
+		"linkAlt": "Sauke",
+		"platforms": {
+			"sourceCode": "Lambar tushe"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Mai amfani gabaɗaya (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Mai shigarwa na {format}",
+			"package": "Fakitin {format}",
+			"portableZip": "ZIP mai ɗaukuwa",
+			"viewOnGithub": "Duba akan GitHub"
+		},
+		"macos": {
+			"title": "Bayanin mahimmanci ga masu amfani da macOS:",
+			"intro": "macOS Gatekeeper yana toshe shirye-shiryen da ba a sa hannu / ba a tabbatar da su daga Intanet tare da kuskuren {error}.",
+			"error": "\"yana lalace kuma ba zai iya buɗewa ba\"",
+			"runCommand": "Bayan saukar da DMG ko ZIP, kafin buɗe shirin, gudanar a Terminal umurnin a cikin tsarin masu zuwa:",
+			"exampleDmg": "Misali bayan shigar daga DMG:",
+			"exampleZip": "Ko bayan fitar da ZIP:",
+			"explanation": "Wannan umurni yana cire halin keɓancewa kuma yana ba da damar shirin ya gudana."
+		}
+	},
+	"screenshots": {
+		"title": "Hotuna na allo",
+		"open": "Buɗe hoton allo {index}",
+		"alt": "Hoton allo {index}",
+		"close": "Rufe gallery",
+		"prev": "Hoton da ya gabata",
+		"next": "Hoton mai zuwa"
+	},
+	"comparison": {
+		"title": "Kwatance",
+		"feature": "Fasali",
+		"yes": "ee",
+		"no": "a'a",
+		"partialDht": "Sashi (DHT)",
+		"rows": {
+			"decentralized": "Hanyar sadarwa ba tare da tsakiya ba",
+			"onlineLibrary": "Laburaren kan layi",
+			"builtInSearch": "Bincike na ciki da aka haɗa",
+			"decentralizedSearch": "Bincike na ciki ba tare da tsakiya ba",
+			"parallelDownloads": "Saukewa a layi daya daga maɓuɓɓuga da yawa",
+			"mediaCenter": "Madafan tsakiyar kafofin watsa labarai",
+			"gamepad": "Tallafin gamepad",
+			"openSource": "Buɗaɗɗen tushe"
+		}
+	},
+	"contact": {
+		"title": "Tuntuɓa",
+		"getInTouch": "Tuntuɓi mu",
+		"links": {
+			"telegramChat": "Ƙungiyar tattaunawa ta Telegram",
+			"telegramAnnouncements": "Sanarwar Telegram",
+			"facebook": "Ƙungiyar Facebook"
+		}
+	},
+	"footer": {
+		"by": "ta"
+	}
+}

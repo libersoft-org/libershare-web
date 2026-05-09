@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Desentralisadong pagbabahagi ng file",
+		"description": "Ang {project} ay isang peer-to-peer file sharing software, na ginawa sa modernong desentralisadong teknolohiya.",
+		"ogTitle": "{project} - Desentralisadong file sharing software",
+		"ogDescription": "Peer-to-peer file sharing na ginawa sa modernong desentralisadong teknolohiya. Walang sentral na server. Walang anumang makakapagpabagsak sa buong network."
+	},
+	"menu": {
+		"about": "Tungkol sa",
+		"download": "I-download",
+		"screenshots": "Mga screenshot",
+		"comparison": "Paghahambing",
+		"contact": "Makipag-ugnayan",
+		"toggle": "I-toggle ang menu",
+		"close": "Isara ang menu",
+		"language": "Wika",
+		"selectLanguage": "Pumili ng wika"
+	},
+	"hero": {
+		"subtitle": "Susunod na henerasyong peer-to-peer file sharing",
+		"description": "Ginawa sa modernong desentralisadong teknolohiya. Walang sentral na server. Walang anumang makakapagpabagsak sa buong network.",
+		"download": "I-download"
+	},
+	"about": {
+		"title": "Tungkol sa",
+		"intro": "Ang {project} ay isang susunod na henerasyong peer-to-peer file sharing platform, na ginawa sa modernong desentralisadong teknolohiya. Pinagsasama nito ang isang madaling-gamiting user interface na may ganap na desentralisadong arkitektura, na nagbibigay ng ligtas at maaasahang solusyon para sa pagbabahagi ng data, na hindi nakadepende sa anumang sentral na awtoridad. Ang proyekto ay open source at ipinamamahagi sa ilalim ng {license} lisensya.",
+		"features": {
+			"decentralized": {
+				"title": "Ganap na desentralisadong network",
+				"description": "Walang sentral na server, walang single point of failure. Direktang naghahanap at nagda-download ang mga user ng nilalaman mula sa isa't isa, nang hindi umaasa sa mga sentralisadong indexer, tracker o database."
+			},
+			"accessControl": {
+				"title": "Detalyadong kontrol sa pag-access",
+				"description": "Maaaring malayang simulan ng sinuman ang sariling network na may sariling mga panuntunan. Tukuyin ang mga tungkulin ng user sa loob ng bawat network: mga may-ari, administrator, publisher, moderator at downloader. Kontrolin nang eksakto kung sino ang maaaring mag-publish, mag-moderate at mag-download ng nilalaman."
+			},
+			"ui": {
+				"title": "First-class user interface",
+				"description": "Isang malinis at madaling-gamiting media center interface na idinisenyo para sa desktop, TV at mobile na platform. Mag-navigate nang walang abala gamit ang keyboard, mouse, gamepad o remote control. Maaaring samantalahin ng mga advanced na user ang command-line interface upang patakbuhin ang software bilang file server nang walang graphical interface."
+			},
+			"dataFormat": {
+				"title": "Format ng data na nababasa ng tao",
+				"description": "Ang format ng data na LISH ay batay sa JSON, na ginagawang madali itong likhain, basahin at maunawaan. Ibahagi ang iyong nilalaman na may malinaw, transparent na metadata na madaling masuri ng sinuman."
+			},
+			"security": {
+				"title": "Privacy at seguridad",
+				"description": "Ang lahat ng peer-to-peer na komunikasyon ay naka-encrypt, na tinitiyak na ang iyong data ay nananatiling pribado sa panahon ng paglilipat. Maaaring magtago ang mga user sa likod ng VPN para sa karagdagang layer ng anonymity. Iginagalang ng {project} ang iyong privacy ayon sa disenyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Available ang software para sa Windows, Linux at macOS na platform. Gamitin ito sa anumang device na gusto mo."
+			}
+		}
+	},
+	"download": {
+		"title": "I-download",
+		"description": "Kunin ang {project} para sa iyong platform. Lahat ng download ay libre at open source.",
+		"version": "Kasalukuyang bersyon: {version}",
+		"linkAlt": "I-download",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "{format} package",
+			"portableZip": "Portable ZIP",
+			"viewOnGithub": "Tingnan sa GitHub"
+		},
+		"macos": {
+			"title": "Mahalagang paalala para sa mga gumagamit ng macOS:",
+			"intro": "Hinaharangan ng macOS Gatekeeper ang mga unsigned / unauthenticated app na na-download mula sa internet na may error na {error}.",
+			"error": "\"sira at hindi mabuksan\"",
+			"runCommand": "Pagkatapos i-download ang DMG o ZIP, bago buksan ang app, magpatakbo sa Terminal ng utos sa sumusunod na anyo:",
+			"exampleDmg": "Halimbawa pagkatapos mag-install mula sa DMG:",
+			"exampleZip": "O pagkatapos i-extract ang ZIP:",
+			"explanation": "Inaalis ng utos na ito ang quarantine attribute at pinapayagang tumakbo ang app."
+		}
+	},
+	"screenshots": {
+		"title": "Mga screenshot",
+		"open": "Buksan ang screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Isara ang gallery",
+		"prev": "Nakaraang larawan",
+		"next": "Susunod na larawan"
+	},
+	"comparison": {
+		"title": "Paghahambing",
+		"feature": "Tampok",
+		"yes": "oo",
+		"no": "hindi",
+		"partialDht": "Bahagyang (DHT)",
+		"rows": {
+			"decentralized": "Desentralisadong network",
+			"onlineLibrary": "Online na library",
+			"builtInSearch": "Built-in na paghahanap ng nilalaman",
+			"decentralizedSearch": "Desentralisadong paghahanap ng nilalaman",
+			"parallelDownloads": "Paralelong download mula sa maraming pinagmumulan",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Suporta sa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Makipag-ugnayan",
+		"getInTouch": "Makipag-ugnayan",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Mga anunsyo sa Telegram",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "ni"
+	}
+}

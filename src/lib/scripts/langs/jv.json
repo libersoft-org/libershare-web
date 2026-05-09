@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pambagi file desentralisasi",
+		"description": "{project} yaiku piranti lunak pambagi file peer-to-peer, sing dibangun ing teknologi desentralisasi modern.",
+		"ogTitle": "{project} - Piranti lunak pambagi file desentralisasi",
+		"ogDescription": "Pambagi file peer-to-peer sing dibangun ing teknologi desentralisasi modern. Tanpa server pusat. Ora ana sing bisa ngrubuhake kabeh jaringan."
+	},
+	"menu": {
+		"about": "Babagan",
+		"download": "Undhuh",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Pambandhing",
+		"contact": "Kontak",
+		"toggle": "Ngalih menu",
+		"close": "Nutup menu",
+		"language": "Basa",
+		"selectLanguage": "Pilih basa"
+	},
+	"hero": {
+		"subtitle": "Pambagi file peer-to-peer generasi sabanjure",
+		"description": "Dibangun ing teknologi desentralisasi modern. Tanpa server pusat. Ora ana sing bisa ngrubuhake kabeh jaringan.",
+		"download": "Undhuh"
+	},
+	"about": {
+		"title": "Babagan",
+		"intro": "{project} yaiku platform pambagi file peer-to-peer generasi sabanjure, sing dibangun ing teknologi desentralisasi modern. Iki nggabungake antarmuka panganggo intuisi karo arsitektur kanthi desentralisasi sapenuhe, nyedhiyakake solusi sing aman lan dipercaya kanggo pambagi data, ora gumantung saka panguwasa pusat apa wae. Proyek iki minangka sumber terbuka lan disebarake ing lisensi {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan kanthi desentralisasi sapenuhe",
+				"description": "Tanpa server pusat, tanpa titik gagal tunggal. Pangguna nggoleki lan ngundhuh konten langsung saka siji liyane, tanpa gumantung ing pengindeks, pelacak utawa basis data terpusat."
+			},
+			"accessControl": {
+				"title": "Kontrol akses sing rinci",
+				"description": "Sapa wae bisa kanthi bebas miwiti jaringan dhewe karo aturan dhewe. Tetepake peran panganggo ing saben jaringan: pamilik, administrator, penerbit, moderator lan pangundhuh. Kontrol kanthi tepat sapa sing bisa nerbitake, ngarahake lan ngundhuh konten."
+			},
+			"ui": {
+				"title": "Antarmuka panganggo kelas pisanan",
+				"description": "Antarmuka media center sing resik lan ramah panganggo sing dirancang kanggo platform desktop, TV lan seluler. Navigasi kanthi lancar nganggo keyboard, mouse, gamepad utawa kontrol jarak jauh. Pangguna lanjut bisa nggunakake antarmuka baris perintah kanggo nglakokake piranti lunak minangka server file tanpa antarmuka grafis."
+			},
+			"dataFormat": {
+				"title": "Format data sing bisa diwaca manungsa",
+				"description": "Format data LISH adhedhasar JSON, sing nggampangake digawe, diwaca lan dimangerteni. Bagi konten sampeyan kanthi metadata sing jelas lan transparan sing bisa diteliti kanthi gampang dening sapa wae."
+			},
+			"security": {
+				"title": "Privasi lan keamanan",
+				"description": "Kabeh komunikasi peer-to-peer dienkripsi, mesthekake data sampeyan tetep pribadi sajrone transfer. Pangguna bisa ndhelik ing mburi VPN kanggo lapisan anonimitas tambahan. {project} ngajeni privasi sampeyan miturut desain."
+			},
+			"crossPlatform": {
+				"title": "Lintas platform",
+				"description": "Piranti lunak kasedhiya kanggo platform Windows, Linux lan macOS. Gunakake ing piranti apa wae sing sampeyan pilih."
+			}
+		}
+	},
+	"download": {
+		"title": "Undhuh",
+		"description": "Entuk {project} kanggo platform sampeyan. Kabeh undhuhan gratis lan sumber terbuka.",
+		"version": "Versi saiki: {version}",
+		"linkAlt": "Undhuh",
+		"platforms": {
+			"sourceCode": "Kode sumber"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Penginstal {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Deleng ing GitHub"
+		},
+		"macos": {
+			"title": "Cathetan penting kanggo pangguna macOS:",
+			"intro": "macOS Gatekeeper mblokir aplikasi sing ora ditandatangani / ora diotentikasi sing diundhuh saka internet kanthi kesalahan {error}.",
+			"error": "\"rusak lan ora bisa dibukak\"",
+			"runCommand": "Sawise ngundhuh DMG utawa ZIP, sadurunge mbukak aplikasi, jalanake ing Terminal printah ing wangun ing ngisor iki:",
+			"exampleDmg": "Contone sawise nginstal saka DMG:",
+			"exampleZip": "Utawa sawise ngekstrak ZIP:",
+			"explanation": "Printah iki mbusak atribut karantina lan ngidini aplikasi mlaku."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Bukak tangkapan layar {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Nutup galeri",
+		"prev": "Gambar sadurunge",
+		"next": "Gambar sabanjure"
+	},
+	"comparison": {
+		"title": "Pambandhing",
+		"feature": "Fitur",
+		"yes": "ya",
+		"no": "ora",
+		"partialDht": "Sebagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan desentralisasi",
+			"onlineLibrary": "Perpustakaan online",
+			"builtInSearch": "Panelusuran konten bawaan",
+			"decentralizedSearch": "Panelusuran konten desentralisasi",
+			"parallelDownloads": "Undhuhan paralel saka pirang-pirang sumber",
+			"mediaCenter": "Antarmuka media center",
+			"gamepad": "Dhukungan gamepad",
+			"openSource": "Sumber terbuka"
+		}
+	},
+	"contact": {
+		"title": "Kontak",
+		"getInTouch": "Hubungi",
+		"links": {
+			"telegramChat": "Grup obrolan Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "dening"
+	}
+}
