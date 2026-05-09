@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kukabula Mafayilo Kwa Kuteti Kwa Kati",
+		"description": "{project} i software ya peer-to-peer ya kukabula mafayilo, ya tungwa va zulu kwa teknolojia ya yandala yina kayi na kati ko.",
+		"ogTitle": "{project} - Software ya Kukabula Mafayilo Kwa Kuteti Kwa Kati",
+		"ogDescription": "Kukabula mafayilo kwa peer-to-peer kuna teknolojia ya yandala yina kayi na kati ko. Kuna nge ma server ya kati. Kuna nge kima mosi ya kufwa."
+	},
+	"menu": {
+		"about": "Mu yina",
+		"download": "Lulula",
+		"screenshots": "Bifwanisu bya ekrane",
+		"comparison": "Mufwananuwu",
+		"contact": "Sonika",
+		"toggle": "Soba menyu",
+		"close": "Kanga menyu",
+		"language": "Ndinga",
+		"selectLanguage": "Sola ndinga"
+	},
+	"hero": {
+		"subtitle": "Kukabula mafayilo kwa peer-to-peer kwa nkanu ya mpa",
+		"description": "Va zulu kwa teknolojia ya yandala yina kayi na kati ko. Kuna nge ma server ya kati. Kuna nge kima mosi ya kufwa.",
+		"download": "Lulula"
+	},
+	"about": {
+		"title": "Mu yina",
+		"intro": "{project} i platform ya nkanu ya mpa ya kukabula mafayilo kwa peer-to-peer ya tungwa va zulu kwa teknolojia ya yandala yina kayi na kati ko. Yo kebweni interface ya mbote ya muvwiji ti arkitektura yina kayi na kati ko mvimba, mu kupesa mukabu wa data wa lukulu mpe wa kwikidisa kondwa kutsindila va wisa konso ya kati. Projet yayi i open source, kabulwa va nsi ya {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Lutangu lwa kukondwa kati mvimba",
+				"description": "Kuna nge ma server ya kati, kuna nge kima mosi ya kufwa. Bavwiji bekutombolaka mpe kululaka makomo na mosi ti yandi yankaka, kondwa kutsindila va indexer, tracker to database konso ya kati."
+			},
+			"accessControl": {
+				"title": "Kuyala kuna fyoti fyoti",
+				"description": "Konso muntu lenda kubadika lutangu lwandi mosi va mfundu kondwa ndalu ti minsiku miandi mosi. Mu konso lutangu, kuyidika ndinda za bavwiji: muvwila, admin, mukabuludi, moderator ti mululudi. Kuyala fyoti fyoti nani lenda kabula, moderate ti lulula makomo."
+			},
+			"ui": {
+				"title": "Interface ya muvwiji ya kuluta",
+				"description": "Interface ya media center ya mpetolo ti ya bumvwama, ya yidikwa sambu na desktop, TV ti ma platform ya simu. Kutambula kwa pete na keyboard, mouse, gamepad to remote. Bavwiji ya makulu balenda sadila software bonso file server ya kondwa wisi va command-line interface."
+			},
+			"dataFormat": {
+				"title": "Ngenzo ya data ya kutangwa kwa bantu",
+				"description": "Ngenzo ya data ya LISH yi va zulu kwa JSON, mu kuvanda kuyivwila, kutanga ti kuwila ya pete. Kabula makomo maku ti metadata ya pwelele ti ya bukabu, konso muntu lenda kutala kwa pete."
+			},
+			"security": {
+				"title": "Bumosi ti lukulu",
+				"description": "Mungana yonso ya peer-to-peer i ya kosolo (encrypted), mu kupesa data yaku kuvwanda mu bumosi ntangu yo kekwendaka. Bavwiji balenda kufianana ku nima ya VPN sambu na kubakisa mfunda ya nkaka ya bumosi. {project} ke peseaka bumosi bwaku va luzitusu va nzeti yandi."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software yi yifulwa va Windows, Linux ti macOS. Sadila va konso kima ya kazu yina ke zola."
+			}
+		}
+	},
+	"download": {
+		"title": "Lulula",
+		"description": "Baka {project} ya platform yaku. Lululu yonso i ya mfundu mpe open source.",
+		"version": "Version ya bubu: {version}",
+		"linkAlt": "Lulula",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Pake ya {format}",
+			"portableZip": "ZIP ya kunata",
+			"viewOnGithub": "Tala va GitHub"
+		},
+		"macos": {
+			"title": "Mambu ya nene sambu na bavwiji ya macOS:",
+			"intro": "macOS Gatekeeper ke kanganaka ma app ya kukondwa signed/notarized ya lululwa va internet, ti mpitumuna ya {error}.",
+			"error": "\"yifwidi, kayikangulwanga ko\"",
+			"runCommand": "Na manima ya kulula DMG to ZIP, vana ntu ya kukangula app, sadila command yayi va Terminal:",
+			"exampleDmg": "Mbangu, na manima ya kuinstalwa tuka DMG:",
+			"exampleZip": "To na manima ya kufungula ZIP:",
+			"explanation": "Yayi yikatula quarantine attribute mpe yipesa nzila app yatambula."
+		}
+	},
+	"screenshots": {
+		"title": "Bifwanisu bya ekrane",
+		"open": "Kangula screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Kanga gallery",
+		"prev": "Kifwanisu kya nima",
+		"next": "Kifwanisu kya ntwala"
+	},
+	"comparison": {
+		"title": "Mufwananuwu",
+		"feature": "Kima",
+		"yes": "Inga",
+		"no": "Ve",
+		"partialDht": "Mwana mosi (DHT)",
+		"rows": {
+			"decentralized": "Lutangu lwa kondwa kati",
+			"onlineLibrary": "Laibulali ya online",
+			"builtInSearch": "Mutombolwa ya makomo ya nzila-mu",
+			"decentralizedSearch": "Mutombolwa ya makomo ya kondwa kati",
+			"parallelDownloads": "Lululu ya pamosi tuka kisina kingi",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Lusadisu lwa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Sonika",
+		"getInTouch": "Sonika kwa beto",
+		"links": {
+			"telegramChat": "Kibuka kya Telegram",
+			"telegramAnnouncements": "Bansangu ya Telegram",
+			"facebook": "Kibuka kya Facebook"
+		}
+	},
+	"footer": {
+		"by": "kwa"
+	}
+}

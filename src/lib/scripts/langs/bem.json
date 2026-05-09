@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ukugabana Amafayilo Okutali Kuyendelele",
+		"description": "{project} ni software ya peer-to-peer ya ukugabana amafayilo, yashintwe pa ma teknologia ya kale ayashili kuyendelele.",
+		"ogTitle": "{project} - Software ya Ukugabana Amafayilo Okutali Kuyendelele",
+		"ogDescription": "Ukugabana amafayilo kwa peer-to-peer kushintwe pa ma teknologia ya kale ayashili kuyendelele. Tapaba ma server ayendelelelwa. Tapaba icingi cimo ica kupwilisha."
+	},
+	"menu": {
+		"about": "Pa lwa",
+		"download": "Kupokelela",
+		"screenshots": "Amapikicha ya Sikilini",
+		"comparison": "Ukulinganya",
+		"contact": "Tulembeleni",
+		"toggle": "Alula Menyu",
+		"close": "Isalapo Menyu",
+		"language": "Ululimi",
+		"selectLanguage": "Salapo Ululimi"
+	},
+	"hero": {
+		"subtitle": "Ukugabana amafayilo kwa peer-to-peer kwa nshita imo",
+		"description": "Kushintwe pa ma teknologia ya kale ayashili kuyendelele. Tapaba ma server ayendelelelwa. Tapaba icingi cimo ica kupwilisha.",
+		"download": "Kupokelela"
+	},
+	"about": {
+		"title": "Pa lwa",
+		"intro": "{project} ni platifomu ya nshita imo iya ukugabana amafayilo kwa peer-to-peer iyaakulwa pa ma teknologia ya kale ayashili kuyendelele. Iyalanga interface yasuma iya umubomfi pamo na ubumi bwa lyonse ubushili kuyendelele, iyapeela ukugabana ubufyashi ubushinguluka kabili ubwa kucetekelwa kwabula ukushintilila pa bukulu bonse ubwa kuyendelele. Pulojekiti yene ni open source, ileyatwa pansi pa {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network ya lyonse iyashili kuyendelele",
+				"description": "Tapaba ma server ayendelelelwa, tapaba icingi cimo ica kupwilisha. Abakubomfya bafwaya na ukupokelela ifyebo ku numa ku banabo, ukwabula ukushintilila pa indexer, tracker nangu database iyendelelelwa iili yonse."
+			},
+			"accessControl": {
+				"title": "Ukutungulula ukwa kufika kwa makosa",
+				"description": "Onse engatampe network yakwe wine ukwabula ukulipila kabili na amafunde yakwe wine. Mu network onse, longanya imisango ya bakubomfya: umwine, admin, kashishimika, moderator na kashipikifya. Tungulula icine cine ni nani engashishimika, moderate na kushipikifya ifyebo."
+			},
+			"ui": {
+				"title": "Interface ya umubomfi iyabuubama",
+				"description": "Interface ya media center iyasuma kabili iya cibusa, iyalengwa pa desktop, TV na ma platifomu ya selifoni. Ukutambala kwasuma ne keyboard, mouse, gamepad nangu remote. Abakubomfya abakulu bengabomfya software pamo nge file server ukwabula ukutambika ukubomfya command-line interface."
+			},
+			"dataFormat": {
+				"title": "Ifimo fya ifyebo ifyabelengwa nabantu",
+				"description": "Icimo ca ifyebo ica LISH cashintwe pa JSON, ukulenga ukulemba, ukubelenga na ukumfwa ukwa kuyangufyanya. Gabana ifyebo fyobe ne metadata iyaonekana kabili iyamoneka, onse engalola panshipa."
+			},
+			"security": {
+				"title": "Ubuteyu na ubuteyanyo",
+				"description": "Ukulanshanya konse ukwa peer-to-peer kwakwatwa encryption, ukulenga ifyebo fyobe ukushala mu mfimba ilyo fileenda. Abakubomfya bengafisama mu numa ya VPN ukukushishanya icipingo cimbi ica kushilamo. {project} ifyula ubuteyu bobe pa cilengelwa cakwe."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software yapezewa pa Windows, Linux na macOS. Ibomfye pa cikwama conse ico ulefwaya."
+			}
+		}
+	},
+	"download": {
+		"title": "Kupokelela",
+		"description": "Pokelela {project} ya platifomu yobe. Ukupokelela konse ni ukwa fwaka kabili open source.",
+		"version": "Verishoni ya nomba: {version}",
+		"linkAlt": "Kupokelela",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Pakeji ya {format}",
+			"portableZip": "ZIP iya kusenda",
+			"viewOnGithub": "Tamba pa GitHub"
+		},
+		"macos": {
+			"title": "Ifyebo ifya bukulu kubakubomfya ba macOS:",
+			"intro": "macOS Gatekeeper ikalesha ma app ayashili saininwa/notarized ayapokelelwa ku internet, ne mulandu wa {error}.",
+			"error": "\"caonaika, tacingaisulwa\"",
+			"runCommand": "Pa kupokelela DMG nangu ZIP, ilyo tamulaisule app, bomfya command iyi pa Terminal:",
+			"exampleDmg": "Mu cipasho, pa kuibika kufuma ku DMG:",
+			"exampleZip": "Nangu pa kufumya ZIP:",
+			"explanation": "Ici cikafumya quarantine attribute kabili cikalekelesha app yendele."
+		}
+	},
+	"screenshots": {
+		"title": "Amapikicha ya Sikilini",
+		"open": "Isulapo screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Isalapo gallery",
+		"prev": "Cipasho ica ku numa",
+		"next": "Cipasho ica ku ntanshi"
+	},
+	"comparison": {
+		"title": "Ukulinganya",
+		"feature": "Icaibela",
+		"yes": "Ee",
+		"no": "Iyo",
+		"partialDht": "Lubali (DHT)",
+		"rows": {
+			"decentralized": "Network ishili kuyendelele",
+			"onlineLibrary": "Laibulali ya online",
+			"builtInSearch": "Ukufwaya ifyebo ifyaikele mukati",
+			"decentralizedSearch": "Ukufwaya ifyebo ukushili kuyendelele",
+			"parallelDownloads": "Ukupokelela kwa pamo ku makonde ayengi",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Ukwafwilisha gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tulembeleni",
+		"getInTouch": "Lemba kuli ifwe",
+		"links": {
+			"telegramChat": "Bumba bwa Telegram chat",
+			"telegramAnnouncements": "Ifyebo fya Telegram",
+			"facebook": "Bumba bwa Facebook"
+		}
+	},
+	"footer": {
+		"by": "ku"
+	}
+}

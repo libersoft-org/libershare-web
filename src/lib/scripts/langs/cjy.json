@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - 去中心化文件共享",
+		"description": "{project} 是基于现代去中心化技术嘞 peer-to-peer 文件共享软件。",
+		"ogTitle": "{project} - 去中心化文件共享软件",
+		"ogDescription": "基于现代去中心化技术嘞 peer-to-peer 文件共享。冇中心服务器。冇单点故障。"
+	},
+	"menu": {
+		"about": "关于",
+		"download": "下载",
+		"screenshots": "截图",
+		"comparison": "对比",
+		"contact": "联系",
+		"toggle": "切换菜单",
+		"close": "关菜单",
+		"language": "语言",
+		"selectLanguage": "选语言"
+	},
+	"hero": {
+		"subtitle": "新一代 peer-to-peer 文件共享",
+		"description": "基于现代去中心化技术。冇中心服务器。冇单点故障。",
+		"download": "下载"
+	},
+	"about": {
+		"title": "关于",
+		"intro": "{project} 是建立在现代去中心化技术上嘞新一代 peer-to-peer 文件共享平台。咾把好用嘞用户界面摆全去中心化嘞架构合在一搭，给个安全可靠嘞数据共享办法，不靠任何中央权威。这个项目是开放源码嘞，按 {license} 分发。",
+		"features": {
+			"decentralized": {
+				"title": "完全去中心化网络",
+				"description": "冇中心服务器，冇单点故障。用户互相直接搜索摆下载内容，不靠任何中央索引器、追踪器或者数据库。"
+			},
+			"accessControl": {
+				"title": "细致嘞访问控制",
+				"description": "任何人都可以按自己嘞规则免费起自己嘞网络。每个网络里头定义用户角色：所有者、管理员、发布者、版主摆下载者。细致地控制谁能发布、审核摆下载内容。"
+			},
+			"ui": {
+				"title": "高水平嘞用户界面",
+				"description": "为桌面、电视摆移动平台设计嘞清爽友好嘞媒体中心界面。键盘、鼠标、游戏手柄或者遥控器都可以顺畅导航。高级用户可以通过命令行界面把软件当无头文件服务器来用。"
+			},
+			"dataFormat": {
+				"title": "人能看得懂嘞数据格式",
+				"description": "LISH 数据格式基于 JSON，让创建、阅读摆理解都方便。用清楚透明嘞元数据共享你嘞内容，谁都能轻松检查。"
+			},
+			"security": {
+				"title": "隐私摆安全",
+				"description": "所有 peer-to-peer 通信都加密嘞，保证你嘞数据传输时保持私密。用户可以躲在 VPN 后头加多一层匿名。{project} 设计上就尊重你嘞隐私。"
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "软件支持 Windows、Linux 摆 macOS 平台。在你喜欢嘞任何设备上用。"
+			}
+		}
+	},
+	"download": {
+		"title": "下载",
+		"description": "拿到适合你平台嘞 {project}。所有下载都是免费摆开放源码嘞。",
+		"version": "当前版本：{version}",
+		"linkAlt": "下载",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} 安装器",
+			"package": "{format} 包",
+			"portableZip": "便携 ZIP",
+			"viewOnGithub": "在 GitHub 上看"
+		},
+		"macos": {
+			"title": "macOS 用户重要提示：",
+			"intro": "macOS Gatekeeper 会拦从网上下载嘞未签名/未公证嘞应用，报 {error} 错误。",
+			"error": "\"已损坏，打不开\"",
+			"runCommand": "下载 DMG 或者 ZIP 之后，打开应用前在 Terminal 里头运行下面嘞命令：",
+			"exampleDmg": "比如，从 DMG 安装后：",
+			"exampleZip": "或者解压 ZIP 后：",
+			"explanation": "这会去掉隔离属性，让应用能跑。"
+		}
+	},
+	"screenshots": {
+		"title": "截图",
+		"open": "打开截图 {index}",
+		"alt": "截图 {index}",
+		"close": "关图库",
+		"prev": "前一张图",
+		"next": "下一张图"
+	},
+	"comparison": {
+		"title": "对比",
+		"feature": "特性",
+		"yes": "有",
+		"no": "冇",
+		"partialDht": "部分（DHT）",
+		"rows": {
+			"decentralized": "去中心化网络",
+			"onlineLibrary": "在线图书馆",
+			"builtInSearch": "内置内容搜索",
+			"decentralizedSearch": "去中心化内容搜索",
+			"parallelDownloads": "从多源并行下载",
+			"mediaCenter": "媒体中心界面",
+			"gamepad": "游戏手柄支持",
+			"openSource": "开放源码"
+		}
+	},
+	"contact": {
+		"title": "联系",
+		"getInTouch": "联系我们",
+		"links": {
+			"telegramChat": "Telegram 聊天群",
+			"telegramAnnouncements": "Telegram 公告",
+			"facebook": "Facebook 群组"
+		}
+	},
+	"footer": {
+		"by": "由"
+	}
+}

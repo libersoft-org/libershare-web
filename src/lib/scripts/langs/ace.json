@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pembagian File nyang Hana Pusat",
+		"description": "{project] na keuh peuralatan lunak peer-to-peer keu pembagian file, geu peudong di ateuh teknologi modern nyang hana pusat.",
+		"ogTitle": "{project} - Peuralatan Lunak Pembagian File nyang Hana Pusat",
+		"ogDescription": "Pembagian file peer-to-peer di ateuh teknologi modern nyang hana pusat. Hana le server pusat. Hana le titek tunggal nyang ka rusak."
+	},
+	"menu": {
+		"about": "Keubit",
+		"download": "Tarek",
+		"screenshots": "Tangkap layar",
+		"comparison": "Peubandeng",
+		"contact": "Peuhubong",
+		"toggle": "Ubah menu",
+		"close": "Tutop menu",
+		"language": "Bahsa",
+		"selectLanguage": "Pileh bahsa"
+	},
+	"hero": {
+		"subtitle": "Pembagian file peer-to-peer ngon ganerasi nyang baro",
+		"description": "Di ateuh teknologi modern nyang hana pusat. Hana le server pusat. Hana le titek tunggal nyang ka rusak.",
+		"download": "Tarek"
+	},
+	"about": {
+		"title": "Keubit",
+		"intro": "{project} na keuh platform ganerasi nyang baro keu pembagian file peer-to-peer nyang geu peudong di ateuh teknologi modern nyang hana pusat. Jih meusahbat antarmuka mudah ngon arsitektur nyang sigeunap hana pusat, jih bri pembagian data nyang aman ngon meujroh tanpa bergantong bak otoritas pusat manapun. Proyek nyoe na keuh open source, geu agih bak yub {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan nyang sigeunap hana pusat",
+				"description": "Hana le server pusat, hana le titek tunggal nyang ka rusak. Awak pengguna mita ngon tarek konten meusapat antara droe-droe, tanpa bergantong bak indeks, pelacak, atawa pangkalan data pusat manapun."
+			},
+			"accessControl": {
+				"title": "Kontrol akses nyang halus",
+				"description": "Soe-soe mantong mantong jeut peumulai jaringan droe ngon gratis ngon aturan droe. Bak tiap jaringan, peujroh peran pengguna: pemilek, admin, peunerbit, moderator ngon peunarek. Kontrol meu halus soe nyang jeut peunerbit, moderasi ngon tarek konten."
+			},
+			"ui": {
+				"title": "Antarmuka pengguna nyang berkualitas tinggi",
+				"description": "Antarmuka pusat media nyang gleh ngon ramah, geu rancang keu desktop, TV ngon platform seululer. Navigasi nyang mudah ngon keyboard, mouse, gamepad atawa remote. Pengguna nyang mahir jeut peuhane peuralatan lunak nyoe sebagai server file tanpa kepala melalui antarmuka baris perintah."
+			},
+			"dataFormat": {
+				"title": "Format data nyang jeut geu baca le manusia",
+				"description": "Format data LISH geu peudasar bak JSON, jih mudah peudong, peubaca ngon peuphom. Bagi konten gata ngon metadata nyang jelas ngon transparan, soe-soe mantong jeut peuriksa ngon mudah."
+			},
+			"security": {
+				"title": "Privasi ngon keamanan",
+				"description": "Bandum komunikasi peer-to-peer geu enkripsi, peumastikan data gata teutap pribadi watee geu kirim. Awak pengguna jeut peusom di likot VPN keu lapisan anonimitas tamboh. {project} hormat privasi gata sejak rancangan jih."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Peuralatan lunak nyoe na bak Windows, Linux ngon macOS. Peuguna bak peuralatan manapun nyang gata galak."
+			}
+		}
+	},
+	"download": {
+		"title": "Tarek",
+		"description": "Mita {project} keu platform gata. Bandum tarek na keuh gratis ngon open source.",
+		"version": "Versi nyang sekarang: {version}",
+		"linkAlt": "Tarek",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Eu bak GitHub"
+		},
+		"macos": {
+			"title": "Catatan peunteng keu pengguna macOS:",
+			"intro": "macOS Gatekeeper akan blokir aplikasi nyang hana ditandatangani/notarisasi nyang ka geu tarek dari internet, ngon kesalahan {error}.",
+			"error": "\"ka rusak, hana jeut geu peuhane\"",
+			"runCommand": "Lheueh tarek DMG atawa ZIP, sigohlom peuhane aplikasi, jalan perintah nyoe bak Terminal:",
+			"exampleDmg": "Misalkan, lheueh peudong dari DMG:",
+			"exampleZip": "Atawa lheueh ekstrak ZIP:",
+			"explanation": "Nyoe peurusyok atribut karantina ngon peulheueh aplikasi keu jalan."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkap layar",
+		"open": "Peuhane tangkap layar {index}",
+		"alt": "Tangkap layar {index}",
+		"close": "Tutop galeri",
+		"prev": "Gamba sigohlom",
+		"next": "Gamba seulanjut"
+	},
+	"comparison": {
+		"title": "Peubandeng",
+		"feature": "Fitur",
+		"yes": "Beuna",
+		"no": "Hana",
+		"partialDht": "Sebagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan hana pusat",
+			"onlineLibrary": "Pustaka daring",
+			"builtInSearch": "Pencarian konten bawaan",
+			"decentralizedSearch": "Pencarian konten hana pusat",
+			"parallelDownloads": "Tarek paralel dari le sumber",
+			"mediaCenter": "Antarmuka pusat media",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Peuhubong",
+		"getInTouch": "Peuhubong ngon kamoe",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Peungumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "le"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pamolihang Berkas sane Tan Mapusat",
+		"description": "{project} inggih punika piranti lunak peer-to-peer pacang pamolihang berkas, kawangun ring duur teknologi modern sane tan mapusat.",
+		"ogTitle": "{project} - Piranti Lunak Pamolihang Berkas sane Tan Mapusat",
+		"ogDescription": "Pamolihang berkas peer-to-peer ring duur teknologi modern sane tan mapusat. Nenten wenten server pusat. Nenten wenten titik tunggal sane prasida usak."
+	},
+	"menu": {
+		"about": "Indik",
+		"download": "Unduh",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Pamatehang",
+		"contact": "Hubungin",
+		"toggle": "Ubah menu",
+		"close": "Tutup menu",
+		"language": "Basa",
+		"selectLanguage": "Pilih basa"
+	},
+	"hero": {
+		"subtitle": "Pamolihang berkas peer-to-peer generasi sane jagi rauh",
+		"description": "Ring duur teknologi modern sane tan mapusat. Nenten wenten server pusat. Nenten wenten titik tunggal sane prasida usak.",
+		"download": "Unduh"
+	},
+	"about": {
+		"title": "Indik",
+		"intro": "{project} inggih punika platform generasi sane jagi rauh pacang pamolihang berkas peer-to-peer sane kawangun ring duur teknologi modern sane tan mapusat. Ipun ngiket antarmuka sane dangan ring panganggo sareng arsitektur sane tan mapusat sami, nyiagayang pamolihang data sane aman tur prasida kapracaya tan magantung ring otoritas pusat punapi malih. Proyek puniki inggih punika open source, kapebag ring sor {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan sane tan mapusat sami",
+				"description": "Nenten wenten server pusat, nenten wenten titik tunggal sane prasida usak. Pangguna ngrereh tur ngunduh konten langsung saking siki sareng siki, tan magantung ring indekser, pelacak, utawi pangkalan data pusat punapi malih."
+			},
+			"accessControl": {
+				"title": "Kontrol akses sane saksama",
+				"description": "Sira ja prasida ngawitin jaringanipun antuk gratis ngangge aturan ipun pedidi. Ring suang-suang jaringan, jelaskan peran pangguna: pamilik, admin, panerbit, moderator sareng pangunduh. Kontrol saksama sira sane prasida nerbitang, ngamoderasi tur ngunduh konten."
+			},
+			"ui": {
+				"title": "Antarmuka pangguna sane berkualitas tinggi",
+				"description": "Antarmuka pusat media sane bersih tur dangan, karancang pacang desktop, TV sareng platform genggam. Navigasi sane dangan ngangge keyboard, mouse, gamepad utawi remote. Pangguna mahir prasida ngajalanang piranti lunak puniki minakadi server berkas tan mapurusa nglarang antarmuka baris perintah."
+			},
+			"dataFormat": {
+				"title": "Format data sane prasida kawacen olih manusa",
+				"description": "Format data LISH kapanjak ring JSON, ndados dangan kakaryanin, kawacen tur kacaraan. Magin konten ragane sareng metadata sane galang tur transparan, sira ja prasida mariksa antuk dangan."
+			},
+			"security": {
+				"title": "Privasi sareng kaamanan",
+				"description": "Sami komunikasi peer-to-peer kaenkripsi, mastiang data ragane tetep pribadi sajeroning transmisi. Pangguna prasida masilib ring durin VPN pacang lapisan anonimitas tambahan. {project} ngajiang privasi ragane saking rancanganipun."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Piranti lunak punika wenten ring Windows, Linux sareng macOS. Anggen ring piranti punapi malih sane ragane demen."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduh",
+		"description": "Polih {project} pacang platform ragane. Sami unduhan inggih punika gratis tur open source.",
+		"version": "Versi mangkin: {version}",
+		"linkAlt": "Unduh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Cingakin ring GitHub"
+		},
+		"macos": {
+			"title": "Catatan penting pacang pangguna macOS:",
+			"intro": "macOS Gatekeeper jagi mblokir aplikasi sane tan katandatangani/notarisasi sane kaunduh saking internet, antuk kasalahan {error}.",
+			"error": "\"sampun usak, tan prasida kabukak\"",
+			"runCommand": "Sasampun ngunduh DMG utawi ZIP, sadurung mbukak aplikasi, jalaning perintah ring sor ring Terminal:",
+			"exampleDmg": "Contoh, sasampun kapasang saking DMG:",
+			"exampleZip": "Utawi sasampun ngekstrak ZIP:",
+			"explanation": "Puniki jagi ngapus atribut karantina tur mbangkang aplikasi mlampah."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Bukak tangkapan layar {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Tutup galeri",
+		"prev": "Gambar sadurungnyane",
+		"next": "Gambar selanturnyane"
+	},
+	"comparison": {
+		"title": "Pamatehang",
+		"feature": "Fitur",
+		"yes": "Inggih",
+		"no": "Nenten",
+		"partialDht": "Sabagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan tan mapusat",
+			"onlineLibrary": "Perpustakaan daring",
+			"builtInSearch": "Pencarian konten bawaan",
+			"decentralizedSearch": "Pencarian konten tan mapusat",
+			"parallelDownloads": "Unduhan paralel saking akeh sumber",
+			"mediaCenter": "Antarmuka pusat media",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hubungin",
+		"getInTouch": "Hubungin titiang",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Pengumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "antuk"
+	}
+}

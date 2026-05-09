@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Babagi Berkas nang Tadasantralisasi",
+		"description": "{project} adalah pirinti lunak peer-to-peer gasan babagi berkas, dibangun di atas teknologi modern nang tadasantralisasi.",
+		"ogTitle": "{project} - Pirinti Lunak Babagi Berkas nang Tadasantralisasi",
+		"ogDescription": "Babagi berkas peer-to-peer di atas teknologi modern nang tadasantralisasi. Kada ada server pusat. Kada ada titik kagagalan tunggal."
+	},
+	"menu": {
+		"about": "Tantang",
+		"download": "Unduh",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Pambandingan",
+		"contact": "Hubungi",
+		"toggle": "Ubah menu",
+		"close": "Tutup menu",
+		"language": "Bahasa",
+		"selectLanguage": "Pilih bahasa"
+	},
+	"hero": {
+		"subtitle": "Babagi berkas peer-to-peer ganarasi panayuhan",
+		"description": "Di atas teknologi modern nang tadasantralisasi. Kada ada server pusat. Kada ada titik kagagalan tunggal.",
+		"download": "Unduh"
+	},
+	"about": {
+		"title": "Tantang",
+		"intro": "{project} adalah platform ganarasi panayuhan gasan babagi berkas peer-to-peer nang dibangun di atas teknologi modern nang tadasantralisasi. Inya manggabungakan antarmuka nang ramah lawan arsitektur nang sapanuhnya tadasantralisasi, manyadiakan babagi data nang aman lawan dapat dipicaya tanpa bagantung lawan otoritas pusat. Proyek ini open source, didistribusiakan di bawah {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan nang sapanuhnya tadasantralisasi",
+				"description": "Kada ada server pusat, kada ada titik kagagalan tunggal. Pangguna mancari lawan mangunduh konten langsung antara inya, tanpa bagantung lawan indeker, palacak, atawa pangkalan data pusat manapun."
+			},
+			"accessControl": {
+				"title": "Kontrol akses nang tarinci",
+				"description": "Siapa haja bisa mamulai jaringan dirinya saurang gratis lawan aturan dirinya saurang. Di satiap jaringan, jalasakan paran pangguna: pamilik, admin, panabit, moderator lawan pangunduh. Kontrol sacara tarinci siapa nang bisa manabit, mamoderasi lawan mangunduh konten."
+			},
+			"ui": {
+				"title": "Antarmuka pangguna nang barkualitas tinggi",
+				"description": "Antarmuka pusat media nang barasih lawan ramah, dirancang gasan desktop, TV lawan platform sayulur. Navigasi nang gampang lawan keyboard, mouse, gamepad atawa remote. Pangguna mahir bisa manjalanakan pirinti lunak ini saparti server berkas tanpa kapala malalui antarmuka baris parintah."
+			},
+			"dataFormat": {
+				"title": "Format data nang dapat dibaca manusia",
+				"description": "Format data LISH didasarakan lawan JSON, jadinya gampang dibuat, dibaca lawan dipahami. Babagiakan konten kawan-kawan lawan metadata nang jalas lawan transparan, siapa haja bisa mamariksa lawan gampang."
+			},
+			"security": {
+				"title": "Privasi lawan kaamanan",
+				"description": "Samua komunikasi peer-to-peer dienkripsi, mamastiakan data kawan tatap pribadi salama transmisi. Pangguna bisa basambunyi di balik VPN gasan lapisan anonimitas tambahan. {project} mahormati privasi kawan lihat dari rancangannya."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Pirinti lunak tasadia di Windows, Linux lawan macOS. Pakai di pirinti manapun nang kawan sukai."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduh",
+		"description": "Dapatakan {project} gasan platform kawan. Samua unduhan adalah gratis lawan open source.",
+		"version": "Versi wayah ini: {version}",
+		"linkAlt": "Unduh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pamasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Lihat di GitHub"
+		},
+		"macos": {
+			"title": "Catatan panting gasan pangguna macOS:",
+			"intro": "macOS Gatekeeper akan mamblokir aplikasi nang kada ditandatangani/dinotarisasi nang diunduh matan internet, lawan kasalahan {error}.",
+			"error": "\"rusak, kada bisa dibuka\"",
+			"runCommand": "Imbah mangunduh DMG atawa ZIP, sabalum mambuka aplikasi, jalanakan parintah panayuhan ngini di Terminal:",
+			"exampleDmg": "Misalakan, imbah dipasang matan DMG:",
+			"exampleZip": "Atawa imbah maaktrak ZIP:",
+			"explanation": "Ngini akan mahapus atribut karantina lawan mambolehakan aplikasi bajalan."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Buka tangkapan layar {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Tutup galeri",
+		"prev": "Gambar sabalumnya",
+		"next": "Gambar panayuhannya"
+	},
+	"comparison": {
+		"title": "Pambandingan",
+		"feature": "Fitur",
+		"yes": "Iya",
+		"no": "Kada",
+		"partialDht": "Sabagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan tadasantralisasi",
+			"onlineLibrary": "Pustaka daring",
+			"builtInSearch": "Pancarian konten bawaan",
+			"decentralizedSearch": "Pancarian konten tadasantralisasi",
+			"parallelDownloads": "Unduhan paralel matan barbagai sumber",
+			"mediaCenter": "Antarmuka pusat media",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hubungi",
+		"getInTouch": "Hubungi kami",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Pangumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "ulih"
+	}
+}

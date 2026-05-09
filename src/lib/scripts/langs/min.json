@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Babagi Berkas nan Tadasentralisasi",
+		"description": "{project} adolah parangkat lunak peer-to-peer untuak babagi berkas, dibangun di ateh teknologi modern nan tadasentralisasi.",
+		"ogTitle": "{project} - Parangkat Lunak Babagi Berkas nan Tadasentralisasi",
+		"ogDescription": "Babagi berkas peer-to-peer di ateh teknologi modern nan tadasentralisasi. Indak ado server pusek. Indak ado titik kagagalan tunggal."
+	},
+	"menu": {
+		"about": "Tantang",
+		"download": "Unduah",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Pabandiangan",
+		"contact": "Hubuangi",
+		"toggle": "Ubah menu",
+		"close": "Tutuik menu",
+		"language": "Bahaso",
+		"selectLanguage": "Piliah bahaso"
+	},
+	"hero": {
+		"subtitle": "Babagi berkas peer-to-peer ganerasi bisuak",
+		"description": "Di ateh teknologi modern nan tadasentralisasi. Indak ado server pusek. Indak ado titik kagagalan tunggal.",
+		"download": "Unduah"
+	},
+	"about": {
+		"title": "Tantang",
+		"intro": "{project} adolah platform ganerasi bisuak untuak babagi berkas peer-to-peer nan dibangun di ateh teknologi modern nan tadasentralisasi. Inyo manggabuangkan antarmuko nan ramah jo arsitektur nan sapanuahnyo tadasentralisasi, manyadiokan babagi data nan aman jo dapek dipicayoi tanpo bagantuang ka otoritas pusek. Proyek ko open source, didistribusikan di bawah {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jariangan nan sapanuahnyo tadasentralisasi",
+				"description": "Indak ado server pusek, indak ado titik kagagalan tunggal. Pangguno mancari jo manguduah konten langsuang antaro mereka, tanpo bagantuang ka indekser, pelacak, atau pangkalan data pusek manapun."
+			},
+			"accessControl": {
+				"title": "Kontrol akses nan tarinci",
+				"description": "Sia sajo bisa mamulai jaringan surang sacaro graik jo aturan surang. Di satiok jariangan, definisikan peran pangguno: pamilik, admin, panerbit, moderator jo pangunduah. Kontrol sacaro tarinci sia nan bisa manabik, mamoderasi jo manguduah konten."
+			},
+			"ui": {
+				"title": "Antarmuko pangguno nan barkualitas tinggi",
+				"description": "Antarmuko pusek media nan barasiah jo ramah, dirancang untuak desktop, TV jo platform sayuluah. Navigasi nan mudah jo keyboard, mouse, gamepad atau remote. Pangguno mahir bisa manjalan parangkat lunak ko sabagai server berkas tanpo kapalo malalui antarmuko baris perintah."
+			},
+			"dataFormat": {
+				"title": "Format data nan dapek dibaco manusia",
+				"description": "Format data LISH didasarkan ka JSON, sahingga sanang dibuek, dibaco jo dipahami. Babagi konten kalian jo metadata nan jaleh jo transparan, sia sajo bisa mamariso dengan mudah."
+			},
+			"security": {
+				"title": "Privasi jo keamanan",
+				"description": "Sadonyo komunikasi peer-to-peer dienkripsi, mamastikan data kalian tatap pribadi salamo transmisi. Pangguno bisa basambunyi di balik VPN untuak lapisan anonimitas tambahan. {project} mahormati privasi kalian sajak rancangannyo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Parangkat lunak tasadio di Windows, Linux jo macOS. Pakailah di parangkat manapun nan kalian sukoi."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduah",
+		"description": "Dapekan {project} untuak platform kalian. Sadonyo unduahan adolah graik jo open source.",
+		"version": "Versi kini: {version}",
+		"linkAlt": "Unduah",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pamasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Liek di GitHub"
+		},
+		"macos": {
+			"title": "Catatan paniang untuak pangguno macOS:",
+			"intro": "macOS Gatekeeper akan mamblokir aplikasi nan indak ditandatangani/dinotarisasi nan diunduah dari internet, jo galek {error}.",
+			"error": "\"rusak, indak bisa dibukak\"",
+			"runCommand": "Sasudah manguduah DMG atau ZIP, sabalum mambukak aplikasi, jalankan parintah barikuik di Terminal:",
+			"exampleDmg": "Misalnyo, sasudah dipasang dari DMG:",
+			"exampleZip": "Atau sasudah maukstrak ZIP:",
+			"explanation": "Iko ka manggak atribut karantina jo mambolehkan aplikasi balari."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Bukak tangkapan layar {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Tutuik galeri",
+		"prev": "Gambar sabalumnyo",
+		"next": "Gambar salanjuiknyo"
+	},
+	"comparison": {
+		"title": "Pabandiangan",
+		"feature": "Fitur",
+		"yes": "Iyo",
+		"no": "Indak",
+		"partialDht": "Sabagian (DHT)",
+		"rows": {
+			"decentralized": "Jariangan tadasentralisasi",
+			"onlineLibrary": "Pustako daring",
+			"builtInSearch": "Pancarian konten bawaan",
+			"decentralizedSearch": "Pancarian konten tadasentralisasi",
+			"parallelDownloads": "Unduahan paralel dari babagai sumber",
+			"mediaCenter": "Antarmuko pusek media",
+			"gamepad": "Dukuangan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hubuangi",
+		"getInTouch": "Hubuangi kami",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Pangumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "dek"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Bagasunga bwa Mafayi mu Tshilubilu tshia Bantu",
+		"description": "{project] mmushindu wa software wa peer-to-peer wa bagasunga bwa mafayi, mwakeshibwe pa mishindu ya teknolojiya ya makelela idi kayi ne tshikoso tshia pankatshi.",
+		"ogTitle": "{project} - Software wa Bagasunga bwa Mafayi mu Tshilubilu tshia Bantu",
+		"ogDescription": "Bagasunga bwa mafayi bwa peer-to-peer pa mishindu ya teknolojiya ya makelela. Ki mvuluila tshikoso tshia pankatshi to. Ki mvuluila tshintu tshimwe tshia kupwa to."
+	},
+	"menu": {
+		"about": "Bua",
+		"download": "Senda mu",
+		"screenshots": "Bifuanyikiji bia ekrane",
+		"comparison": "Difuanyangana",
+		"contact": "Tuombelelangane",
+		"toggle": "Shintulula menyu",
+		"close": "Imika menyu",
+		"language": "Mwakulu",
+		"selectLanguage": "Sungula mwakulu"
+	},
+	"hero": {
+		"subtitle": "Bagasunga bwa mafayi bwa peer-to-peer bwa tshikondo tshikuabu",
+		"description": "Pa mishindu ya teknolojiya ya makelela idi kayi ne tshikoso tshia pankatshi. Ki mvuluila tshikoso tshia pankatshi to. Ki mvuluila tshintu tshimwe tshia kupwa to.",
+		"download": "Senda mu"
+	},
+	"about": {
+		"title": "Bua",
+		"intro": "{project} mmupampa wa tshikondo tshikuabu wa bagasunga bwa mafayi bwa peer-to-peer mwakeshibwe pa mishindu ya teknolojiya ya makelela idi kayi ne tshikoso tshia pankatshi. Wakanga interface mupepele wa muenzeji ne dilonga dia kayi ne tshikoso tshia pankatshi to, wakangidisha bagasunga bwa data bua kulamuna ne bua kueyemeneka kayi mukalu wa tshilumbuluwa to wa pankatshi. Pulojekiti eu mmu open source, ugabandidibwa muomba mua {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Mukandu wa kayi ne tshikoso tshia pankatshi to",
+				"description": "Ki mvuluila tshikoso tshia pankatshi to, ki mvuluila tshintu tshimwe tshia kupwa to. Bena kuenza badi bakeba ne bantulula bilumbu ku bena kabidi, kabayi mvuluila ku indexer, tracker peshi database to wa pankatshi."
+			},
+			"accessControl": {
+				"title": "Bukokeshi bua kuangatabu pankenyi",
+				"description": "Muntu yonso udi mua kutua mukandu wende ku tshianganji ne mikenji yende. Mu mukandu wonso, fundakaja mishindu ya bena kuenza: muena, admin, mukandidiji, mukolosheji ne musendishi. Kokesha pankenyi ngaye udi mua kukandika, kukolosha ne kusendisha bilumbu."
+			},
+			"ui": {
+				"title": "Interface wa muenzeji wa mvulu",
+				"description": "Interface wa media center mupepele ne wa bulunda wakeshibwe bua mishindu ya desktop, TV ne sambidi. Bagatuluka bipepele ne keyboard, mouse, gamepad peshi telekomonando. Bena kuenza ba lubukidi badi mua kufukila software bu file server kayi ne mpaa to ku command-line interface."
+			},
+			"dataFormat": {
+				"title": "Mushindu wa data udi mubantu mua kubala",
+				"description": "Mushindu wa data wa LISH wakeshibwe pa JSON, ufundakaja kubikenza, kubabala ne kubumvwa. Sambakaja bilumbu biebe ne metadata mukenkemejii ne ya pankenyi, muntu yonso udi mua kuyitangila pankenyi."
+			},
+			"security": {
+				"title": "Bujidipi ne bumvulu",
+				"description": "Mibikilangu yonso ya peer-to-peer idi muenkripte, bua data wamene kushala mu bujidipi pakuendaye. Bena kuenza badi mua kufiama panyima pa VPN bua kuongesha tshipwilu tshikuabu tshia bujimanya. {project} udi musangiluwila bujidipi buebe pakulamukidibwa kuende."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software udi pa Windows, Linux ne macOS. Wukenze pa tshintu tshionso tshiudi musue."
+			}
+		}
+	},
+	"download": {
+		"title": "Senda mu",
+		"description": "Mvuwatu {project} wa mukandu webe. Misendulu yonso mmua tshianganji ne open source.",
+		"version": "Vhezheni wa mpindiewu: {version}",
+		"linkAlt": "Senda mu",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer wa {format}",
+			"package": "Pake wa {format}",
+			"portableZip": "ZIP wa kuenda nawu",
+			"viewOnGithub": "Tangila ku GitHub"
+		},
+		"macos": {
+			"title": "Lubikilu lunene ku bena kuenza ba macOS:",
+			"intro": "macOS Gatekeeper udi ukandika ma app idi kayi ne tshibwa/notarized idi misendula ku internet, ne dilenga dia {error}.",
+			"error": "\"diashinga, kadiyi mua kubuluka to\"",
+			"runCommand": "Panyima pa kusendula DMG peshi ZIP, kumpala kua kubuluka app, fukila command eu mu Terminal:",
+			"exampleDmg": "Tshilesha, panyima pa kuinstalwa ku DMG:",
+			"exampleZip": "Peshi panyima pa kupatula ZIP:",
+			"explanation": "Eu wamuangata quarantine attribute ne wamulekela app yenze."
+		}
+	},
+	"screenshots": {
+		"title": "Bifuanyikiji bia ekrane",
+		"open": "Buluka screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Imika gallery",
+		"prev": "Tshifuanyikiji tshia kale",
+		"next": "Tshifuanyikiji tshikuabu"
+	},
+	"comparison": {
+		"title": "Difuanyangana",
+		"feature": "Tshintu",
+		"yes": "Eyowa",
+		"no": "Tepu",
+		"partialDht": "Tshipidie (DHT)",
+		"rows": {
+			"decentralized": "Mukandu wa kayi ne pankatshi",
+			"onlineLibrary": "Laibulali wa online",
+			"builtInSearch": "Bagakeba bia bilumbu munda",
+			"decentralizedSearch": "Bagakeba bia bilumbu kayi ne pankatshi",
+			"parallelDownloads": "Misendulu ya pamwe ku miswelu mivule",
+			"mediaCenter": "Interface wa media center",
+			"gamepad": "Bukwashi bwa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tuombelelangane",
+		"getInTouch": "Tuombelelangane netu",
+		"links": {
+			"telegramChat": "Tshipangu tshia Telegram",
+			"telegramAnnouncements": "Bilumbu bia Telegram",
+			"facebook": "Tshipangu tshia Facebook"
+		}
+	},
+	"footer": {
+		"by": "kudi"
+	}
+}

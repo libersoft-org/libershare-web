@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ku Avelana ka Tifayili leyi nga Lawuriwiki Hi Xikungu",
+		"description": "{project} i software ya peer-to-peer ya ku avelana ka tifayili, leyi yakiweke ehenhleni ka thekinoloji ya manguva lawa ku nga riki na xikungu.",
+		"ogTitle": "{project} - Software ya Ku Avelana ka Tifayili leyi nga Lawuriwiki Hi Xikungu",
+		"ogDescription": "Ku avelana ka tifayili ka peer-to-peer ehenhleni ka thekinoloji ya manguva ya ku pfumala xikungu. A ku na tiserver ta xikungu. A ku na nchumu wun'we wo tsandzeka."
+	},
+	"menu": {
+		"about": "Hi ta",
+		"download": "Hisa",
+		"screenshots": "Swifaniso swa xilima",
+		"comparison": "Mpimanyiso",
+		"contact": "Tihlanganisi",
+		"toggle": "Cinca menyu",
+		"close": "Pfala menyu",
+		"language": "Ririmi",
+		"selectLanguage": "Hlawula ririmi"
+	},
+	"hero": {
+		"subtitle": "Ku avelana ka tifayili ka peer-to-peer ka xitukulwana lexi landzelaka",
+		"description": "Ehenhleni ka thekinoloji ya manguva ya ku pfumala xikungu. A ku na tiserver ta xikungu. A ku na nchumu wun'we wo tsandzeka.",
+		"download": "Hisa"
+	},
+	"about": {
+		"title": "Hi ta",
+		"intro": "{project} i phlatifomu ya xitukulwana lexi landzelaka ya ku avelana ka tifayili ka peer-to-peer leyi yakiweke ehenhleni ka thekinoloji ya manguva ya ku pfumala xikungu. Yi hlanganisa interface yo olova ya mutirhisi ni xivumbeko xa ku pfumala xikungu hi ku helela, yi nyika ku avelana ka data loku sirheleriweke na ku tshembheka handle ku titshega hi vufumi byihi na byihi bya xikungu. Phurojeke leyi i open source, yi avelaniwa ehansi ka {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Networke ya ku pfumala xikungu hi ku helela",
+				"description": "A ku na tiserver ta xikungu, a ku na nchumu wun'we wo tsandzeka. Vatirhisi va lava ni ku hisa swilo hi ku ya emahlweni exikarhi ka vona, handle ku titshega hi indexer, tracker kumbe database yihi na yihi ya xikungu."
+			},
+			"accessControl": {
+				"title": "Vulawuri bya ku nghena byo nyatlamela",
+				"description": "Munhu wun'wana ni wun'wana a nga sungula networke yakwe hi ku hawula hi milawu yakwe yi nga voniwiki. Eka networke yin'wana ni yin'wana, hlamusela tindzeti ta vatirhisi: n'wini, admin, muhangalasi, moderator na muhisi. Lawula hi ku nyatlamela leswaku hi mani la nga hangalasaka, ku moderate ni ku hisa swilo."
+			},
+			"ui": {
+				"title": "Interface ya mutirhisi ya xiyimo lexikulu",
+				"description": "Interface ya senta ya media yo basa na yo va ni vunghana, yi endliwe hi ku ya emahlweni ka phlatifomu ta desktop, TV na mobail. Ku famba-famba loku olovaka hi keyboard, mouse, gamepad kumbe taolo ya kule. Vatirhisi vo tlhariha va nga tirhisa software ku fana na file server ya ku pfumala xikongomelo hi command-line interface."
+			},
+			"dataFormat": {
+				"title": "Xivumbeko xa data lexi vanhu va kotaka ku xi hlaya",
+				"description": "Xivumbeko xa data xa LISH xi simekiwile ehenhleni ka JSON, xi endla ku endliwa, ku hlayeka na ku twisiseka swi olove. Avelana switirhisiwa swa wena hi metadata yo basa ni ya ku voneka, munhu wun'wana ni wun'wana a kota ku kambela hi ku olova."
+			},
+			"security": {
+				"title": "Xihundla na ku sirheleriwa",
+				"description": "Vuxavisi hinkwabyo bya peer-to-peer byi pwitisiwile, ku endlela leswaku data ya wena yi tshama yi ri xihundla loko yi famba. Vatirhisi va nga tifihla endzhaku ka VPN ku engetela layala wo engetela wa ku nga tiviwi. {project} yi xixima xihundla xa wena hi ku endliwa kakwe."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software yi kumeka eka Windows, Linux na macOS. Yi tirhise eka xitirhisiwa xihi na xihi lexi u xi rhandzaka."
+			}
+		}
+	},
+	"download": {
+		"title": "Hisa",
+		"description": "Kuma {project} ya phlatifomu ya wena. Ku hisa hinkwako i ka mahala na open source.",
+		"version": "Vhezheni ya sweswi: {version}",
+		"linkAlt": "Hisa",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Pakhethe ya {format}",
+			"portableZip": "ZIP yo rhwala",
+			"viewOnGithub": "Languta eka GitHub"
+		},
+		"macos": {
+			"title": "Xivutiso xa nkoka eka vatirhisi va macOS:",
+			"intro": "macOS Gatekeeper yi pfala ti-app leti nga sayiniwiki/leti nga notarised leti hisiweke eka internet, hi xihoxo xa {error}.",
+			"error": "\"yi onhakile, a yi koti ku pfuriwa\"",
+			"runCommand": "Endzhaku ko hisa DMG kumbe ZIP, ku nga si u pfula app, tirhisa command leyi landzelaka eka Terminal:",
+			"exampleDmg": "Xikombiso, endzhaku ko installa hi ku huma DMG:",
+			"exampleZip": "Kumbe endzhaku ko huma ZIP:",
+			"explanation": "Leswi swi ta susa quarantine attribute na ku pfumelela app ku tirha."
+		}
+	},
+	"screenshots": {
+		"title": "Swifaniso swa xilima",
+		"open": "Pfula screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Pfala gallery",
+		"prev": "Xifaniso lexi rhungelaka",
+		"next": "Xifaniso lexi landzelaka"
+	},
+	"comparison": {
+		"title": "Mpimanyiso",
+		"feature": "Xilo",
+		"yes": "Ina",
+		"no": "Ee-e",
+		"partialDht": "Xiphemu (DHT)",
+		"rows": {
+			"decentralized": "Networke ya ku pfumala xikungu",
+			"onlineLibrary": "Laybrari ya online",
+			"builtInSearch": "Ku lava swilo loku akiweke endzeni",
+			"decentralizedSearch": "Ku lava swilo loku nga riki na xikungu",
+			"parallelDownloads": "Ku hisa hi ku fana hi ku huma eka swirhumelo swo tala",
+			"mediaCenter": "Interface ya senta ya media",
+			"gamepad": "Mpfuneto wa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tihlanganisi",
+		"getInTouch": "Hi tihlanganisi na hina",
+		"links": {
+			"telegramChat": "Ntlawa wa Telegram chat",
+			"telegramAnnouncements": "Switivisiwa swa Telegram",
+			"facebook": "Ntlawa wa Facebook"
+		}
+	},
+	"footer": {
+		"by": "hi"
+	}
+}

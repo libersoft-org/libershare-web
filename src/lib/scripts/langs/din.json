@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Atɛɛm Mat Faili ke Cïn Akut",
+		"description": "{project] ee software peer-to-peer ne atɛɛm mat faili, kɔ cak nhom teknolojia ne nyɛn ne cïn akut.",
+		"ogTitle": "{project} - Software ne Atɛɛm Mat Faili ke Cïn Akut",
+		"ogDescription": "Atɛɛm mat faili peer-to-peer nhom teknolojia ne nyɛn ne cïn akut. Acïn server akut. Acïn ke tök ke ben rëëc."
+	},
+	"menu": {
+		"about": "Yic",
+		"download": "Lɔr piny",
+		"screenshots": "Cïëŋ ɣar",
+		"comparison": "Tɛɛr",
+		"contact": "Tɔɔŋ wo",
+		"toggle": "Wëër menu",
+		"close": "Thiook menu",
+		"language": "Thoŋ",
+		"selectLanguage": "Cuɔt thoŋ"
+	},
+	"hero": {
+		"subtitle": "Atɛɛm mat faili peer-to-peer ke amääth",
+		"description": "Nhom teknolojia ne nyɛn ne cïn akut. Acïn server akut. Acïn ke tök ke ben rëëc.",
+		"download": "Lɔr piny"
+	},
+	"about": {
+		"title": "Yic",
+		"intro": "{project} ee platifɔɔm ke amääth ne atɛɛm mat faili peer-to-peer kɔ cak nhom teknolojia ne nyɛn ne cïn akut. Een mat interface yic ke pël ne raan ago këëkic ke cïn akut tɛɛn, ke gam atɛɛm mat data ne malëu ku ne ŋɔt ke ke cïn ke tëër ne mën akut tök. Projek kuɛŋ ee open source, ke gɛm tɛn yï {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Netwak ke cïn akut tɛɛn",
+				"description": "Acïn server akut, acïn ke tök ke ben rëëc. Kɔc ke yithic ku lɔr piny gam ne ke kɔŋ rot, ke cïn ŋic indekser, tracker, walaa database akut tök."
+			},
+			"accessControl": {
+				"title": "Wëëŋ atɛɛk yic",
+				"description": "Raan ɣɔɔt acuk gɔɔk netwak de gup ne mëdɛn ne lëkic de gup. Ne netwak ɣɔɔt, lɔɔk ke yik kɔc: muur, admin, raan jam, moderator ku raan lɔr piny. Wëëŋ yic ne raan kee jam, moderate ku lɔr piny ke."
+			},
+			"ui": {
+				"title": "Interface raan ke nhom",
+				"description": "Interface media center ne path ku ne mat, kɔ cak ne desktop, TV ku platifɔɔm telepɔn. Ŋet ke pël ne keyboard, mouse, gamepad walaa kontrol mac. Kɔc ke ŋic apɛi acuk lɔɔr software keic file server ke cïn nhom ne command-line interface."
+			},
+			"dataFormat": {
+				"title": "Bën data ne kuɛŋ ee raan",
+				"description": "Bën data LISH ee gɔɔk nhom JSON, ke yï pël ne gɔɔk, kuɛŋ ku ŋic. Mat ke yï ne metadata yic ku diɛr, raan ɣɔɔt acuk tëëm pël."
+			},
+			"security": {
+				"title": "Pɛr ku malëu",
+				"description": "Wën peer-to-peer ɣɔɔt ee enkrypted, ago data du ee tɔɔŋ pɛr nyin lɔɔŋ. Kɔc acuk thiɛɛŋ ne thïï VPN ne dɛ thar pɛr piɔlic. {project} ee tëëm pɛr du nhom ye cak."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software ee tɔɔŋ ne Windows, Linux ku macOS. Lɔɔr ne ke ɣɔɔt ne nyɛɛr."
+			}
+		}
+	},
+	"download": {
+		"title": "Lɔr piny",
+		"description": "Yök {project} de platifɔɔm du. Lɔr piny ɣɔɔt ee free ku open source.",
+		"version": "Vethïn ke ne tɛnë: {version}",
+		"linkAlt": "Lɔr piny",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ne {format}",
+			"package": "Paket ne {format}",
+			"portableZip": "ZIP ne mucwol",
+			"viewOnGithub": "Daai nhom GitHub"
+		},
+		"macos": {
+			"title": "Lëk yic ne kɔc ke macOS:",
+			"intro": "macOS Gatekeeper aci kuɛr aplikasi ke cïn ke gɔɔk/notarized ke kɔ lɔr piny ne internet, ke wac {error}.",
+			"error": "\"ke rëëc, acuk thiook\"",
+			"runCommand": "Më cïn lɔr piny DMG walaa ZIP, kɔŋ thiook aplikasi, lɔɔr command kuɛŋ ne Terminal:",
+			"exampleDmg": "Tɛnnë, më cïn lɔɔk ne DMG:",
+			"exampleZip": "Walaa më cïn cak ZIP:",
+			"explanation": "Kuɛŋ aci jɔŋ wuɔm karantina ku gam aplikasi lɔɔr."
+		}
+	},
+	"screenshots": {
+		"title": "Cïëŋ ɣar",
+		"open": "Thiook screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Thiook gallery",
+		"prev": "Cïëŋ ke kɔŋ",
+		"next": "Cïëŋ ke ben"
+	},
+	"comparison": {
+		"title": "Tɛɛr",
+		"feature": "Ke",
+		"yes": "Yïïk",
+		"no": "Acïn",
+		"partialDht": "Lɔk (DHT)",
+		"rows": {
+			"decentralized": "Netwak ke cïn akut",
+			"onlineLibrary": "Laibreri online",
+			"builtInSearch": "Yithic ke kɔ cak yic",
+			"decentralizedSearch": "Yithic ke cïn akut",
+			"parallelDownloads": "Lɔr piny ne dɛ ne thar juɛc",
+			"mediaCenter": "Interface media center",
+			"gamepad": "Tëër gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tɔɔŋ wo",
+		"getInTouch": "Tɔɔŋ wo",
+		"links": {
+			"telegramChat": "Lɔk Telegram chat",
+			"telegramAnnouncements": "Lëk Telegram",
+			"facebook": "Lɔk Facebook"
+		}
+	},
+	"footer": {
+		"by": "ne"
+	}
+}

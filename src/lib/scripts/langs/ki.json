@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Ũgayanĩri wa Faele Ũtarĩ na Kĩguũrĩ",
+		"description": "{project] nĩ software ya peer-to-peer ya ũgayanĩri wa faele ĩthondeketwo igũrũ rĩa technologia cia kĩũmbe iria itarĩ na kĩguũrĩ.",
+		"ogTitle": "{project} - Software ya Ũgayanĩri wa Faele Ũtarĩ na Kĩguũrĩ",
+		"ogDescription": "Ũgayanĩri wa faele wa peer-to-peer ũtarĩ na kĩguũrĩ ũigĩte igũrũ rĩa technologia cia kĩũmbe. Hatirĩ servers cia kĩguũrĩ. Hatirĩ kĩndũ kĩa ũmwe kĩa gũthũkia."
+	},
+	"menu": {
+		"about": "Ũhoro",
+		"download": "Hatũria",
+		"screenshots": "Mbica cia Skrini",
+		"comparison": "Ũgereranio",
+		"contact": "Twandĩke",
+		"toggle": "Garũra Menyu",
+		"close": "Hinga Menyu",
+		"language": "Rũthiomi",
+		"selectLanguage": "Thuura Rũthiomi"
+	},
+	"hero": {
+		"subtitle": "Ũgayanĩri wa peer-to-peer wa rũciaro rwa rũgendi",
+		"description": "Ũigĩte igũrũ rĩa technologia cia kĩũmbe itarĩ na kĩguũrĩ. Hatirĩ servers cia kĩguũrĩ. Hatirĩ kĩndũ kĩa ũmwe kĩa gũthũkia.",
+		"download": "Hatũria"
+	},
+	"about": {
+		"title": "Ũhoro",
+		"intro": "{project} nĩ platform ya rũciaro rwa rũgendi ya ũgayanĩri wa faele ya peer-to-peer ĩakĩtwo igũrũ rĩa technologia cia kĩũmbe itarĩ na kĩguũrĩ. Ĩgwatanĩtie interface njega ya mũhũthĩri na ũthondeki ũtarĩ na kĩguũrĩ kabisa, ĩkĩheana ũgayanĩri wa data wa ũgitĩri na wa kwĩhokeka hatarĩ na kwĩhoka harĩ wathani o wothe wa kĩguũrĩ. Project ĩno nĩ open source, ĩgayanĩtio harĩ {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Mũtaratara ũtarĩ na kĩguũrĩ kabisa",
+				"description": "Hatirĩ servers cia kĩguũrĩ, hatirĩ kĩndũ kĩa ũmwe kĩa gũthũkia. Ahũthĩri macaragia na kũhatũria mathĩna mwena na mwena, hatarĩ na kwĩhoka harĩ indexer, tracker kana database o yothe ya kĩguũrĩ."
+			},
+			"accessControl": {
+				"title": "Wathani wa kũhuthĩra wa ũũgĩ",
+				"description": "Mũndũ o wothe nĩagwĩra kwambĩrĩria mũtaratara wake we mwene tũtarĩ na ũtuumi na watho wake mwene. Thĩinĩ wa o mũtaratara, taũra mawĩra ma ahũthĩri: mwene, admin, mũmũrĩkithia, moderator na mũhatũri. Tongoria na ũũgĩ nĩ ũũ ũrĩkũrĩa kũmũrĩkithia, moderate na kũhatũria mathĩna."
+			},
+			"ui": {
+				"title": "Interface ya mũhũthĩri ya gĩthemba kĩega",
+				"description": "Interface ya media center ĩtheru na ya ũrata ĩthondeketwo nĩ ũndũ wa desktop, TV na platforms cia simu. Mucemanio mũhũthũ na keyboard, mouse, gamepad kana remote. Ahũthĩri ari na ũmenyo nĩmoĩa kũrũtithia software ĩno ta server ya faele ĩtarĩ na kĩonekano harĩ command-line interface."
+			},
+			"dataFormat": {
+				"title": "Mũtĩrĩro wa data ũmenyekaga nĩ andũ",
+				"description": "Mũtĩrĩro wa data wa LISH ũigĩte igũrũ rĩa JSON, ũkahũthahũtha kũũmba, gũthoma na kũmenya. Gayania mathĩna maku na metadata ya wega na ya gũtuĩka, mũndũ o wothe ahote kũrora ũhũthũ."
+			},
+			"security": {
+				"title": "Ũtoria na ũgitĩri",
+				"description": "Mathugumano mothe ma peer-to-peer mahuthĩte na encryption, gũtigĩrĩra atĩ data yaku ĩtũũraga thiritũ rĩrĩa ĩthamĩtio. Ahũthĩri nĩmehithaga thuutha wa VPN nĩ ũndũ wa kongerera ũtukio. {project} ĩtĩaga ũtoria waku rĩu ĩthondekagwo."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software ĩrĩ kuo Windows, Linux na macOS. Ĩhũthĩra harĩ kĩndũ kĩothe ũkwendete."
+			}
+		}
+	},
+	"download": {
+		"title": "Hatũria",
+		"description": "Onia {project} ya platform yaku. Mahatũrio mothe nĩ ma tũtarĩ na ũtuumi na open source.",
+		"version": "Version ya rĩu: {version}",
+		"linkAlt": "Hatũria",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Pakeji ya {format}",
+			"portableZip": "ZIP ya gũkua",
+			"viewOnGithub": "Rora harĩ GitHub"
+		},
+		"macos": {
+			"title": "Ndũmĩrĩri ya bata ya ahũthĩri a macOS:",
+			"intro": "macOS Gatekeeper ĩkahingĩra apps itarĩ signed/notarized iria ihatũrĩtwo kuuma intaneti, na ĩkonania ihĩtia rĩa {error}.",
+			"error": "\"nĩ rĩthũkĩte, gũtirĩ ũndũ rĩngĩhota kũhingũka\"",
+			"runCommand": "Thuutha wa kũhatũria DMG kana ZIP, mbere ya kũhingũra app, hũthĩra command ĩno harĩ Terminal:",
+			"exampleDmg": "Kwa muhianano, thuutha wa kwĩkĩra kuuma DMG:",
+			"exampleZip": "Kana thuutha wa kũtũnga ZIP:",
+			"explanation": "Ũũ ũgateheria quarantine attribute na ũkareka app ĩrũtithio."
+		}
+	},
+	"screenshots": {
+		"title": "Mbica cia Skrini",
+		"open": "Hingũra screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Hinga gallery",
+		"prev": "Mbica ya mbere",
+		"next": "Mbica ya thuutha"
+	},
+	"comparison": {
+		"title": "Ũgereranio",
+		"feature": "Kĩndũ",
+		"yes": "Ĩĩ",
+		"no": "Aca",
+		"partialDht": "Ya gĩcunjĩ (DHT)",
+		"rows": {
+			"decentralized": "Mũtaratara ũtarĩ na kĩguũrĩ",
+			"onlineLibrary": "Library ya online",
+			"builtInSearch": "Macaragia ma mathĩna ma njĩra-thĩinĩ",
+			"decentralizedSearch": "Macaragia ma mathĩna matarĩ na kĩguũrĩ",
+			"parallelDownloads": "Mahatũrio ma hamwe kuuma kũndũ kũingĩ",
+			"mediaCenter": "Interface ya media center",
+			"gamepad": "Ũteithia wa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Twandĩke",
+		"getInTouch": "Tũũkĩrie",
+		"links": {
+			"telegramChat": "Gĩkundi gĩa thugumana cia Telegram",
+			"telegramAnnouncements": "Matangazo ma Telegram",
+			"facebook": "Gĩkundi gĩa Facebook"
+		}
+	},
+	"footer": {
+		"by": "nĩ"
+	}
+}

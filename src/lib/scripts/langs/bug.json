@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Appabageang Berkas tena Mappusa'",
+		"description": "{project} iyanaritu peuralatan lunak peer-to-peer untu' appabageang berkas, ripare' rilangi'na teknologi modern tena mappusa'.",
+		"ogTitle": "{project} - Peuralatan Lunak Appabageang Berkas tena Mappusa'",
+		"ogDescription": "Appabageang berkas peer-to-peer rilangi'na teknologi modern tena mappusa'. Tena server pusat. Tena tetti' tunggal nasolang."
+	},
+	"menu": {
+		"about": "Pasala",
+		"download": "Unduh",
+		"screenshots": "Tangkapan layar",
+		"comparison": "Apparuwagang",
+		"contact": "Hubungi",
+		"toggle": "Ubah menu",
+		"close": "Tutu' menu",
+		"language": "Basa",
+		"selectLanguage": "Pile' basa"
+	},
+	"hero": {
+		"subtitle": "Appabageang berkas peer-to-peer generasi baru",
+		"description": "Rilangi'na teknologi modern tena mappusa'. Tena server pusat. Tena tetti' tunggal nasolang.",
+		"download": "Unduh"
+	},
+	"about": {
+		"title": "Pasala",
+		"intro": "{project} iyanaritu platform generasi baru untu' appabageang berkas peer-to-peer ripare' rilangi'na teknologi modern tena mappusa'. Iyya napparuru antarmuka magampang ri pangguna naia arsitektur tena mappusa' sininna, nappalele appabageang data masaga'na siaga' nasannak tena nappalele ri otoritas pusat agi-agi. Proyek iyye iyanaritu open source, ripabage rilalanna {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Jaringan tena mappusa' sininna",
+				"description": "Tena server pusat, tena tetti' tunggal nasolang. Pangguna nasappa naia naunduh konten langsung antara mennang, tena nappalele ri indeker, pelacak, atau pangkalan data pusat agi-agi."
+			},
+			"accessControl": {
+				"title": "Kontrol akses tarinci",
+				"description": "Niga-niga wedding mappamula jaringan kalena gratis sibawa aturan kalena. Ri tia-tia jaringan, pannessa peran pangguna: punna, admin, pannerbi', moderator sibawa pangunduh. Kontrol tarinci niga wedding mannerbi', mamoderasi naia naunduh konten."
+			},
+			"ui": {
+				"title": "Antarmuka pangguna magalung",
+				"description": "Antarmuka pusat media mapaccing siaga' magampang, ripare' untu' desktop, TV sibawa platform mobail. Navigasi magampang sibawa keyboard, mouse, gamepad atau remote. Pangguna mahir wedding napalalo peuralatan lunak iyye selaku server berkas tena ulu lalanna antarmuka baris parinta."
+			},
+			"dataFormat": {
+				"title": "Format data wedding ribaca ri tau",
+				"description": "Format data LISH ripare' rilangi'na JSON, napparingang ripare', ribaca naia ripaha. Pabage konten anrekko sibawa metadata mapaccing siaga' transparan, niga-niga wedding nasiri'i magampang."
+			},
+			"security": {
+				"title": "Privasi sibawa kasalamatang",
+				"description": "Sininna komunikasi peer-to-peer rienkripsi, napassu data anrekko tette' pribadi watunna ripakkita. Pangguna wedding cokkong rilainna VPN untu' lapisan anonimitas tambahan. {project} mappakalebbi privasi anrekko polo' rancanganna."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Peuralatan lunak iyye engka ri Windows, Linux sibawa macOS. Pakei ri peralatan agi-agi nuelori."
+			}
+		}
+	},
+	"download": {
+		"title": "Unduh",
+		"description": "Lolongeng {project} untu' platform anrekko. Sininna unduhan iyanaritu gratis sibawa open source.",
+		"version": "Versi makkukkuwae: {version}",
+		"linkAlt": "Unduh",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Pemasang {format}",
+			"package": "Paket {format}",
+			"portableZip": "ZIP portabel",
+			"viewOnGithub": "Tiro ri GitHub"
+		},
+		"macos": {
+			"title": "Catatan penting untu' pangguna macOS:",
+			"intro": "macOS Gatekeeper kuwammenangi mappamblokir aplikasi tena natandatangani/notarisasi naunduh polo' internet, sibawa kasalan {error}.",
+			"error": "\"masolang, tena wedding ribuka'\"",
+			"runCommand": "Pura unduh DMG atau ZIP, ri olo' mubuka' aplikasi, palalo parinta iyye ri Terminal:",
+			"exampleDmg": "Conto, pura ripasang polo' DMG:",
+			"exampleZip": "Atau pura ekstrak ZIP:",
+			"explanation": "Iyya iyye lapaiwi atribut karantina sibawa naelorri aplikasi malalo."
+		}
+	},
+	"screenshots": {
+		"title": "Tangkapan layar",
+		"open": "Buka' tangkapan layar {index}",
+		"alt": "Tangkapan layar {index}",
+		"close": "Tutu' galeri",
+		"prev": "Gambara' riolo'",
+		"next": "Gambara' rimunri"
+	},
+	"comparison": {
+		"title": "Apparuwagang",
+		"feature": "Fitur",
+		"yes": "Iyye",
+		"no": "Tania",
+		"partialDht": "Sabagian (DHT)",
+		"rows": {
+			"decentralized": "Jaringan tena mappusa'",
+			"onlineLibrary": "Perpustakaan daring",
+			"builtInSearch": "Pencarian konten bawaan",
+			"decentralizedSearch": "Pencarian konten tena mappusa'",
+			"parallelDownloads": "Unduhan paralel polo' macan-macan sumber",
+			"mediaCenter": "Antarmuka pusat media",
+			"gamepad": "Dukungan gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hubungi",
+		"getInTouch": "Hubungi idi'",
+		"links": {
+			"telegramChat": "Grup chat Telegram",
+			"telegramAnnouncements": "Pangumuman Telegram",
+			"facebook": "Grup Facebook"
+		}
+	},
+	"footer": {
+		"by": "ri"
+	}
+}

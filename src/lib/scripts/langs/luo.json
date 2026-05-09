@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Pomo mar Faili ma onge Pinywa",
+		"description": "{project] en software mar peer-to-peer mar pomo mar faili, mogerie kuom teknolojia manyien ma onge pinywa.",
+		"ogTitle": "{project} - Software mar Pomo mar Faili ma onge Pinywa",
+		"ogDescription": "Pomo mar faili mar peer-to-peer kuom teknolojia manyien ma onge pinywa. Onge ma server mar pinywa. Onge gimoro achiel ma rwenyo gik."
+	},
+	"menu": {
+		"about": "Kuom",
+		"download": "Yik piny",
+		"screenshots": "Picha mag screen",
+		"comparison": "Pim",
+		"contact": "Kel kanyo",
+		"toggle": "Loko menu",
+		"close": "Lor menu",
+		"language": "Dhok",
+		"selectLanguage": "Yier dhok"
+	},
+	"hero": {
+		"subtitle": "Pomo mar faili mar peer-to-peer mar tieng' manyien",
+		"description": "Kuom teknolojia manyien ma onge pinywa. Onge ma server mar pinywa. Onge gimoro achiel ma rwenyo gik.",
+		"download": "Yik piny"
+	},
+	"about": {
+		"title": "Kuom",
+		"intro": "{project} en plaftaform mar tieng' manyien mar pomo mar faili mar peer-to-peer mogerie kuom teknolojia manyien ma onge pinywa. Oriwo interface mayot mar jatich gi gima ger ma onge pinywa duto, kendo ochiwo pomo mar data mar ritruok kendo mar geno ma ok jiwore kuom loch moro amora mar pinywa. Projekti ni en open source, igolore e bwo {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Netwak ma onge pinywa duto",
+				"description": "Onge ma server mar pinywa, onge gimoro achiel ma rwenyo gik. Jotich manyo kendo yiko gik kuomgi giwegi, ma ok jiwore kuom indexer, tracker kata database moro amora mar pinywa."
+			},
+			"accessControl": {
+				"title": "Telo mar donjo matin matin",
+				"description": "Ng'ato ang'ata nyalo chako netwak mare gi chike mage owuon nono. E netwak ka netwak, lero migepe mag jotich: wuon, admin, jagoyo nono, moderator kod jayiko. Tel matin matin kuom ng'ama nyalo goyo, moderate kendo yiko gik."
+			},
+			"ui": {
+				"title": "Interface mar jatich mar duong'",
+				"description": "Interface mar media center maler kendo mariek, moger ne desktop, TV kod plaftaform mag simu. Wuoth mayot gi keyboard, mouse, gamepad kata kontrolu mar bor. Jotich mariek nyalo tiyo gi software kaka file server ma onge wang' kuom command-line interface."
+			},
+			"dataFormat": {
+				"title": "Kit data ma dhano nyalo somo",
+				"description": "Kit data mar LISH ogerie kuom JSON, gi mor ma yot loso, somo kendo winjo. Pog gigi gi metadata maler kendo manyikalore, ng'ato ang'ata nyalo nono mayot."
+			},
+			"security": {
+				"title": "Limbe kod ritruok",
+				"description": "Wuoyo duto mar peer-to-peer oketie e enkripshon, kendo mondo data mari osik kuom limbe sa ma odhi. Jotich nyalo pondo e bwo VPN mondo gimed lath mar lim. {project} luoro limbe magi kuom kaka ogeri."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software ni iyud kuom Windows, Linux kod macOS. Tiye kuom gima ihero ang'ata."
+			}
+		}
+	},
+	"download": {
+		"title": "Yik piny",
+		"description": "Yud {project} mar plaftaform mari. Yik piny duto en mar nono kendo open source.",
+		"version": "Verseni mar sani: {version}",
+		"linkAlt": "Yik piny",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer mar {format}",
+			"package": "Pake mar {format}",
+			"portableZip": "ZIP minyalo kelo",
+			"viewOnGithub": "Ne kuom GitHub"
+		},
+		"macos": {
+			"title": "Wach maduong' ne jotich mag macOS:",
+			"intro": "macOS Gatekeeper yieyo ma-app maok osigne/notarized ma oyik piny kuom internet, gi kosa mar {error}.",
+			"error": "\"okethore, ok nyal yawo\"",
+			"runCommand": "Bang' yik piny mar DMG kata ZIP, kapok iyaw app, ti gi command e Terminal:",
+			"exampleDmg": "Kuom ranyisi, bang' kete kuom DMG:",
+			"exampleZip": "Kata bang' golo ZIP:",
+			"explanation": "Mae golo quarantine attribute kendo yieyo app mondo otimre."
+		}
+	},
+	"screenshots": {
+		"title": "Picha mag screen",
+		"open": "Yaw screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Lor gallery",
+		"prev": "Picha motelo",
+		"next": "Picha maluwo"
+	},
+	"comparison": {
+		"title": "Pim",
+		"feature": "Gima",
+		"yes": "Ee",
+		"no": "Ooyo",
+		"partialDht": "Bath (DHT)",
+		"rows": {
+			"decentralized": "Netwak ma onge pinywa",
+			"onlineLibrary": "Laibreri mar online",
+			"builtInSearch": "Manyo gik moger e iye",
+			"decentralizedSearch": "Manyo gik ma onge pinywa",
+			"parallelDownloads": "Yik piny achiel achiel kuom thuolo mang'eny",
+			"mediaCenter": "Interface mar media center",
+			"gamepad": "Kony mar gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Kel kanyo",
+		"getInTouch": "Kelnwa kanyo",
+		"links": {
+			"telegramChat": "Grup mar Telegram chat",
+			"telegramAnnouncements": "Lendo mar Telegram",
+			"facebook": "Grup mar Facebook"
+		}
+	},
+	"footer": {
+		"by": "gi"
+	}
+}

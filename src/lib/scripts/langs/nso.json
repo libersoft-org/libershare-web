@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Dipatulanyo tsa Mafayele tse di sa Laolweng ke Setlhopha",
+		"description": "{project} ke software ya peer-to-peer ya dipatulanyo tsa mafayele, e agilwe mo godimo ga ditegeniki tsa segompieno tse di sa laolweng ke setlhopha.",
+		"ogTitle": "{project} - Software ya Dipatulanyo tsa Mafayele tse di sa Laolweng ke Setlhopha",
+		"ogDescription": "Dipatulanyo tsa mafayele tsa peer-to-peer mo godimo ga ditegeniki tsa segompieno. Ga go na diserver tsa setlhogo. Ga go na ntlha e le nngwe ya go palelwa."
+	},
+	"menu": {
+		"about": "Ka ga",
+		"download": "Lokolola",
+		"screenshots": "Diswantšho tša sekirini",
+		"comparison": "Papetšo",
+		"contact": "Ikgokaganye",
+		"toggle": "Fetolanya menyu",
+		"close": "Tswalela menyu",
+		"language": "Polelo",
+		"selectLanguage": "Kgetha polelo"
+	},
+	"hero": {
+		"subtitle": "Dipatulanyo tsa mafayele tsa peer-to-peer tsa molokollo wa go latela",
+		"description": "Mo godimo ga ditegeniki tsa segompieno tse di sa laolweng ke setlhopha. Ga go na diserver tsa setlhogo. Ga go na ntlha e le nngwe ya go palelwa.",
+		"download": "Lokolola"
+	},
+	"about": {
+		"title": "Ka ga",
+		"intro": "{project} ke phlatefomo ya molokollo wa go latela ya dipatulanyo tsa mafayele tsa peer-to-peer e agilwego mo ditegeniking tsa segompieno tse di sa laolweng ke setlhopha. E kopanya interface ya bonolo ya modiriši le moago wo o sa laolweng ke setlhopha ka botlalo, e neelana ka dipatulanyo tša data tše di šireletšegilego le tše di tšhepagalago ntle le go ithekga ka molaodi le ge e le ofe wa setlhogo. Projeke ye ke open source, e abjwa ka tlasa {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Neteweke e e sa laolweng ke setlhopha ka botlalo",
+				"description": "Ga go na diserver tsa setlhogo, ga go na ntlha e le nngwe ya go palelwa. Badiriši ba nyaka le go lokolola diteng go thwii go tšwa go yo mongwe go ya go yo mongwe, ntle le go ithekga ka indexer, tracker goba database le ge e le efe ya setlhogo."
+			},
+			"accessControl": {
+				"title": "Taolo ya phihlelelo e e nepilego",
+				"description": "Mang le mang a ka thoma neteweke ya gagwe ka mahala ka melao ya gagwe ye e ikgethilego. Mo go neteweke nngwe le nngwe, hlalosa dikarolo tša modiriši: mong, admin, mophasalatši, moemedi le molokolodi. Laola ka go nepa gore ke mang yo a ka phasalatšago, a emelago le go lokolola diteng."
+			},
+			"ui": {
+				"title": "Interface ya modiriši ya boemo bja godimo",
+				"description": "Interface ya senthara ya bopapadi e e hlwekilego le ya botswalano e dirilwego bakeng sa diphlatefomo tša desktop, TV le mobail. Tselatšhomo ya bonolo ka keyboard, mouse, gamepad goba taolo ya kgole. Badiriši ba ba nago le tsebo ba ka diriša software bjalo ka file server ya go se na sefahlogo ka command-line interface."
+			},
+			"dataFormat": {
+				"title": "Sebopego sa data se motho a ka se balago",
+				"description": "Sebopego sa data sa LISH se theilwego godimo ga JSON, se dira go bopiwa, go balwa le go kwešišwa go be bonolo. Patulanya diteng tša gago ka metadata e e hlakilego le e e bonalago, mang le mang a ka hlahloba ka bonolo."
+			},
+			"security": {
+				"title": "Sephiri le tšhireletšo",
+				"description": "Khomanyikešene ka moka ya peer-to-peer e dirile encryption, go netefatša gore data ya gago e dula e le sephiri ge e tloga. Badiriši ba ka ipata ka morago ga VPN go oketša lera la go tloga la go se tsebje. {project} e hlompa sephiri sa gago ka moago wa yona."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software e hwetšagala go Windows, Linux le macOS. E diriše mo go sedirišweng le ge e le sefe se o se ratago."
+			}
+		}
+	},
+	"download": {
+		"title": "Lokolola",
+		"description": "Hwetša {project} ya phlatefomo ya gago. Dilokollo ka moka ke tša mahala le open source.",
+		"version": "Phetolelo ya gona bjale: {version}",
+		"linkAlt": "Lokolola",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer ya {format}",
+			"package": "Sephuthelwana sa {format}",
+			"portableZip": "ZIP ye e tsamaego",
+			"viewOnGithub": "Lebelela go GitHub"
+		},
+		"macos": {
+			"title": "Tsebišo ye bohlokwa go badiriši ba macOS:",
+			"intro": "macOS Gatekeeper e thibela diapp tše di sa saenwago/tše di sa go notarisha tšeo di lokolotšwego go internet, ka phošo ya {error}.",
+			"error": "\"e senyegile, e ka se bulwe\"",
+			"runCommand": "Ka morago ga go lokolola DMG goba ZIP, pele o bula app, šomiša command e e latelago go Terminal:",
+			"exampleDmg": "Mohlala, ka morago ga go installa go tšwa go DMG:",
+			"exampleZip": "Goba ka morago ga go ntšha ZIP:",
+			"explanation": "Se se tla tloša quarantine attribute le go dumelela app go šoma."
+		}
+	},
+	"screenshots": {
+		"title": "Diswantšho tša sekirini",
+		"open": "Bula screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Tswalela gallery",
+		"prev": "Setšwantšho sa pejana",
+		"next": "Setšwantšho se se latelago"
+	},
+	"comparison": {
+		"title": "Papetšo",
+		"feature": "Setlogo",
+		"yes": "Ee",
+		"no": "Aowa",
+		"partialDht": "Sekarolo (DHT)",
+		"rows": {
+			"decentralized": "Neteweke e e sa laolweng ke setlhopha",
+			"onlineLibrary": "Laeboraring ya online",
+			"builtInSearch": "Tlhaloso ya diteng e e agilwego ka gare",
+			"decentralizedSearch": "Tlhaloso ya diteng e e sa laolweng ke setlhopha",
+			"parallelDownloads": "Dilokollo tše di tsamaišanago go tšwa methopong ye mentši",
+			"mediaCenter": "Interface ya senthara ya bopapadi",
+			"gamepad": "Thekgo ya gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Ikgokaganye",
+		"getInTouch": "Re ikgokaganye le rena",
+		"links": {
+			"telegramChat": "Sehlopha sa poledišano sa Telegram",
+			"telegramAnnouncements": "Ditsebišo tša Telegram",
+			"facebook": "Sehlopha sa Facebook"
+		}
+	},
+	"footer": {
+		"by": "ka"
+	}
+}

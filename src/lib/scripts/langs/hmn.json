@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Kev Sib Faib Cov Ntaub Ntawv Tsis Muaj Chaw Tswj",
+		"description": "{project} yog ib qho peer-to-peer software siv los sib faib ntaub ntawv, raws li cov technology tshiab uas tsis muaj chaw tswj.",
+		"ogTitle": "{project} - Software Sib Faib Ntaub Ntawv Tsis Muaj Chaw Tswj",
+		"ogDescription": "Peer-to-peer kev sib faib ntaub ntawv raws li cov technology tshiab tsis muaj chaw tswj. Tsis muaj central server. Tsis muaj single point of failure."
+	},
+	"menu": {
+		"about": "Txog",
+		"download": "Rub Tawm",
+		"screenshots": "Cov Duab Screenshot",
+		"comparison": "Sib Piv",
+		"contact": "Hu Rau",
+		"toggle": "Hloov Menu",
+		"close": "Kaw Menu",
+		"language": "Hom Lus",
+		"selectLanguage": "Xaiv Hom Lus"
+	},
+	"hero": {
+		"subtitle": "Tiam tshiab peer-to-peer kev sib faib ntaub ntawv",
+		"description": "Raws li cov technology tshiab tsis muaj chaw tswj. Tsis muaj central server. Tsis muaj single point of failure.",
+		"download": "Rub Tawm"
+	},
+	"about": {
+		"title": "Txog",
+		"intro": "{project} yog ib lub platform tiam tshiab uas siv peer-to-peer los sib faib ntaub ntawv, tsim los ntawm cov technology tshiab uas tsis muaj chaw tswj. Nws muab cov user interface yooj yim koom nrog cov architecture uas tsis muaj chaw tswj kiag, kom muaj kev sib faib ntaub ntawv ruaj khov thiab tso siab tau yam tsis cia siab rau ib lub central authority twg. Qhov project yog open source, faib raws {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Network uas tsis muaj chaw tswj kiag",
+				"description": "Tsis muaj central server, tsis muaj single point of failure. Cov user nrhiav thiab rub cov ntaub ntawv ncaj qha ntawm ib leeg rau ib leeg, tsis cia siab rau ib qho central indexer, tracker los yog database twg."
+			},
+			"accessControl": {
+				"title": "Kev tswj access ntsiab nrhiab",
+				"description": "Txhua tus tuaj yeem pib nws tus kheej network dawb raws nws tus kheej cov cai. Hauv txhua lub network, txhais cov user roles: tus tswv, admin, tus tshaj tawm, tus moderator thiab tus rub. Tswj kom ntsiab tus twg muaj cuab kav tshaj tawm, moderate thiab rub cov ntaub ntawv."
+			},
+			"ui": {
+				"title": "User interface zoo siab",
+				"description": "Lub media center interface huv si thiab phooj ywg, tsim los rau desktop, TV thiab cov platform mobile. Yooj yim navigate nrog keyboard, mouse, gamepad los yog remote control. Cov advanced users tuaj yeem siv command-line interface los khiav software ua headless file server."
+			},
+			"dataFormat": {
+				"title": "Tib neeg nyeem tau cov data format",
+				"description": "LISH data format raws li JSON, ua kom yooj yim tsim, nyeem thiab nkag siab. Sib faib koj cov ntsiab lus nrog cov metadata meej thiab pom kev, kom txhua tus tuaj yeem tshuaj xyuas tau yooj yim."
+			},
+			"security": {
+				"title": "Privacy thiab kev nyab xeeb",
+				"description": "Tag nrho cov peer-to-peer kev sib txuas lus tau encrypt, kom koj cov ntaub ntawv nyob ntiag tug thaum xa mus. Cov user tuaj yeem nkaum tom qab VPN kom muaj ib txheej anonymity ntxiv. {project} hwm koj cov privacy raws nws cov design."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software muaj rau Windows, Linux thiab macOS platforms. Siv ntawm txhua lub cuab yeej koj nyiam."
+			}
+		}
+	},
+	"download": {
+		"title": "Rub Tawm",
+		"description": "Tau {project} rau koj lub platform. Txhua qhov rub tawm yog dawb thiab open source.",
+		"version": "Version tam sim no: {version}",
+		"linkAlt": "Rub Tawm",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} installer",
+			"package": "Pob {format}",
+			"portableZip": "ZIP nqa tau",
+			"viewOnGithub": "Saib hauv GitHub"
+		},
+		"macos": {
+			"title": "Lus tseem ceeb rau cov user macOS:",
+			"intro": "macOS Gatekeeper yuav txwv cov apps tsis kos npe / tsis notarized uas rub los ntawm internet, nrog qhov yuam kev {error}.",
+			"error": "\"puas lawm, qhib tsis tau\"",
+			"runCommand": "Tom qab rub DMG los yog ZIP, ua ntej koj qhib qhov app, khiav cov hais kom ua hauv qab no hauv Terminal:",
+			"exampleDmg": "Piv txwv li, tom qab installs los ntawm DMG:",
+			"exampleZip": "Los yog tom qab extract ZIP:",
+			"explanation": "Qhov no yuav tshem cov quarantine attribute thiab tso cai rau qhov app khiav."
+		}
+	},
+	"screenshots": {
+		"title": "Cov Duab Screenshot",
+		"open": "Qhib screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Kaw gallery",
+		"prev": "Daim duab dhau los",
+		"next": "Daim duab tom ntej"
+	},
+	"comparison": {
+		"title": "Sib Piv",
+		"feature": "Yam tshwj xeeb",
+		"yes": "Muaj",
+		"no": "Tsis muaj",
+		"partialDht": "Ib feem (DHT)",
+		"rows": {
+			"decentralized": "Network tsis muaj chaw tswj",
+			"onlineLibrary": "Tsev qiv ntawv online",
+			"builtInSearch": "Kev nrhiav ntsiab lus tsim rau hauv",
+			"decentralizedSearch": "Kev nrhiav ntsiab lus tsis muaj chaw tswj",
+			"parallelDownloads": "Rub ua ke ntawm ntau qhov chaw",
+			"mediaCenter": "Media center interface",
+			"gamepad": "Txhawb gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Hu Rau",
+		"getInTouch": "Hu rau peb",
+		"links": {
+			"telegramChat": "Telegram chat group",
+			"telegramAnnouncements": "Telegram cov tshaj tawm",
+			"facebook": "Facebook group"
+		}
+	},
+	"footer": {
+		"by": "los ntawm"
+	}
+}

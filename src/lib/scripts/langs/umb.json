@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Okuyovola Olombongo Ka Vakavi",
+		"description": "{project] osi software ya peer-to-peer yokuyovola olombongo, yatungiwa pa otekinolojia yokwenjuhuka yokuhayambela.",
+		"ogTitle": "{project} - Software Yokuyovola Olombongo Ka Vakavi",
+		"ogDescription": "Okuyovola olombongo kuna peer-to-peer ku otekinolojia yokwenjuhuka. Ka kuli olosaliva vyokuyambela. Ka kuli ocina cimosi cokuvota."
+	},
+	"menu": {
+		"about": "Pa",
+		"download": "Tambula",
+		"screenshots": "Olongwaiya viosokulu",
+		"comparison": "Etepiso",
+		"contact": "Tu sindikiwiseni",
+		"toggle": "Pongoluela menyu",
+		"close": "Yikila menyu",
+		"language": "Elimi",
+		"selectLanguage": "Nola elimi"
+	},
+	"hero": {
+		"subtitle": "Okuyovola olombongo ka peer-to-peer kepola lyokwenda",
+		"description": "Pa otekinolojia yokwenjuhuka yokuhayambela. Ka kuli olosaliva vyokuyambela. Ka kuli ocina cimosi cokuvota.",
+		"download": "Tambula"
+	},
+	"about": {
+		"title": "Pa",
+		"intro": "{project} oyo plataforma yepola lyokwenda yokuyovola olombongo ka peer-to-peer yatungiwa pa otekinolojia yokwenjuhuka yokuhayambela. Yi kuongela interface yapelela yomulingisi vamwe lokwenjuhuka kuosi, yi eca okuyovola olombongo kuanyala kwenda kuayalelisa kuli oyenjikilo yikuavo yokuyambela. Oprojeti yi osi open source, yi yovoliwa kepwakelo lya {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Onetewoki yokwenjuhuka kuosi",
+				"description": "Ka kuli olosaliva vyokuyambela, ka kuli ocina cimosi cokuvota. Olombongi olo vasanga lokuyovola olombongo pakati kavo, kuyalelisa kuli indexer, tracker yenda database yokuyambela ya yiyukile."
+			},
+			"accessControl": {
+				"title": "Olondunge vyokupita ka cimosi",
+				"description": "Omunu wosi olo wokupanga onetewoki yaye yikola onayepa kuli ovihandeleko vyaye. Ko netewoki yiyukile, kapula olondunge violombongi: cuma, admin, ovesi okusangelela, moderator lokutambula. Yala ka cimosi nye omunu olo wapanga, modera lokutambula olombongo."
+			},
+			"ui": {
+				"title": "Interface yomulingisi yikuanetela",
+				"description": "Interface yo media center yapelela yokupelela yatungiwa pa desktop, TV lo platafoma vyo simu. Okwenda kupelela kuli keyboard, mouse, gamepad yenda kontrolu yokule. Olombongi vakuli olondunge vapondola okukungulula osoftware ndo ofile server yokuhamisi pa command-line interface."
+			},
+			"dataFormat": {
+				"title": "Olonjila vya data omanu vapondola okuvitanga",
+				"description": "Olonjila vya data ya LISH yatungiwa pa JSON, yi pelela okupanga, okutanga lokuvelela. Yovola olombongo vyove lo metadata yacalata yi monekele, omunu wosi vapondola okuvelela ka cimosi."
+			},
+			"security": {
+				"title": "Okuholama lokuyukila",
+				"description": "Olonjila viosi vyo peer-to-peer vi kuendisivila lo encryption, okuyalelisa data yove yi sale yokuholama yokwenda. Olombongi vapondola okuyikilila kuli kunyima yo VPN, okwendisila kuli oholo yokuhayikiwa. {project} yi sumbila okuholama kwove pa otungo lyaye."
+			},
+			"crossPlatform": {
+				"title": "Cross-platform",
+				"description": "Software yi sangiwa ko Windows, Linux lo macOS. Yi yendisile ko cina cina cosi co kanyini."
+			}
+		}
+	},
+	"download": {
+		"title": "Tambula",
+		"description": "Tambula {project} yo plataforma yove. Olovotelo viosi vi osi vyokwenjuhuka lo open source.",
+		"version": "Vhezheni yotempo lyo: {version}",
+		"linkAlt": "Tambula",
+		"platforms": {
+			"sourceCode": "Source code"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universal (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installer yo {format}",
+			"package": "Opake yo {format}",
+			"portableZip": "ZIP yokwendisa",
+			"viewOnGithub": "Vela ko GitHub"
+		},
+		"macos": {
+			"title": "Esapulo lyimwe lyikuanetela koviumbi vyo macOS:",
+			"intro": "macOS Gatekeeper yi tepa ovi-app vyokuhasoneka/notarized vyatambuliwa ko internet, lo nepoluelo lyo {error}.",
+			"error": "\"yapwa, ka yi pondola okuyikulwa\"",
+			"runCommand": "Konjila yo kutambula DMG yenda ZIP, oloñu okuyikula app, kungulula command yi konjila yo Terminal:",
+			"exampleDmg": "Ohaño, konjila yo kupanga kufuma DMG:",
+			"exampleZip": "Yenda konjila yo kufumisa ZIP:",
+			"explanation": "Eyi yi tunda quarantine attribute lokuyeha app yikungulule."
+		}
+	},
+	"screenshots": {
+		"title": "Olongwaiya viosokulu",
+		"open": "Yikulula screenshot {index}",
+		"alt": "Screenshot {index}",
+		"close": "Yikila gallery",
+		"prev": "Ongwaiya yotempo lyokwenda",
+		"next": "Ongwaiya yotempo lyokwenda kovala"
+	},
+	"comparison": {
+		"title": "Etepiso",
+		"feature": "Ocina",
+		"yes": "Eyo",
+		"no": "Hau-a",
+		"partialDht": "Ohata (DHT)",
+		"rows": {
+			"decentralized": "Onetewoki yokwenjuhuka",
+			"onlineLibrary": "Olibrari yo online",
+			"builtInSearch": "Okusanga olombongo komunda",
+			"decentralizedSearch": "Okusanga olombongo kokwenjuhuka",
+			"parallelDownloads": "Olovotelo viatusanga ko olovava vyalwa",
+			"mediaCenter": "Interface yo media center",
+			"gamepad": "Okukwatisa gamepad",
+			"openSource": "Open source"
+		}
+	},
+	"contact": {
+		"title": "Tu sindikiwiseni",
+		"getInTouch": "Sindika kuetu",
+		"links": {
+			"telegramChat": "Ocikola co Telegram chat",
+			"telegramAnnouncements": "Olosapulo vyo Telegram",
+			"facebook": "Ocikola co Facebook"
+		}
+	},
+	"footer": {
+		"by": "ku"
+	}
+}
