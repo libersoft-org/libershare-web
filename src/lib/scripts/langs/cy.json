@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Rhannu ffeiliau datganoledig",
+		"description": "{project} yw meddalwedd rhannu ffeiliau cymar-i-gymar sydd wedi'i hadeiladu ar dechnolegau datganoledig modern.",
+		"ogTitle": "{project} - Meddalwedd rhannu ffeiliau datganoledig",
+		"ogDescription": "Rhannu ffeiliau cymar-i-gymar wedi'i hadeiladu ar dechnolegau datganoledig modern. Dim gweinyddion canolog. Dim byd a all chwalu'r rhwydwaith cyfan."
+	},
+	"menu": {
+		"about": "Amdano",
+		"download": "Lawrlwytho",
+		"screenshots": "Sgrinluniau",
+		"comparison": "Cymhariaeth",
+		"contact": "Cyswllt",
+		"toggle": "Toglu'r ddewislen",
+		"close": "Cau'r ddewislen",
+		"language": "Iaith",
+		"selectLanguage": "Dewis iaith"
+	},
+	"hero": {
+		"subtitle": "Rhannu ffeiliau cymar-i-gymar y genhedlaeth nesaf",
+		"description": "Wedi'i hadeiladu ar dechnolegau datganoledig modern. Dim gweinyddion canolog. Dim byd a all chwalu'r rhwydwaith cyfan.",
+		"download": "Lawrlwytho"
+	},
+	"about": {
+		"title": "Amdano",
+		"intro": "Mae {project} yn blatfform rhannu ffeiliau cymar-i-gymar y genhedlaeth nesaf, wedi'i adeiladu ar dechnolegau datganoledig modern. Mae'n cyfuno rhyngwyneb defnyddiwr greddfol gyda phensaernïaeth gwbl ddatganoledig, gan ddarparu ateb diogel a dibynadwy ar gyfer rhannu data, sy'n annibynnol o unrhyw awdurdod canolog. Mae'r prosiect yn ffynhonnell agored ac yn cael ei ddosbarthu o dan drwydded {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rhwydwaith gwbl ddatganoledig",
+				"description": "Dim gweinyddion canolog, dim un pwynt methiant. Mae defnyddwyr yn chwilio ac yn lawrlwytho cynnwys yn uniongyrchol oddi wrth ei gilydd, heb ddibynnu ar fynegeion, traciwyr na chronfeydd data canoledig."
+			},
+			"accessControl": {
+				"title": "Rheolaeth mynediad fanwl",
+				"description": "Gall unrhyw un ddechrau ei rwydwaith ei hun gyda'i reolau ei hun. Diffiniwch rolau defnyddwyr o fewn pob rhwydwaith: perchnogion, gweinyddwyr, cyhoeddwyr, cymedrolwyr a lawrlwythwyr. Rheolwch yn union pwy all gyhoeddi, cymedroli a lawrlwytho cynnwys."
+			},
+			"ui": {
+				"title": "Rhyngwyneb defnyddiwr o'r radd flaenaf",
+				"description": "Rhyngwyneb canolfan gyfryngau glân a hawdd ei ddefnyddio wedi'i ddylunio ar gyfer llwyfannau bwrdd gwaith, teledu a symudol. Symudwch yn ddi-dor gyda bysellfwrdd, llygoden, gamepad neu reolwr pell. Gall defnyddwyr uwch ddefnyddio'r rhyngwyneb llinell orchymyn i redeg y meddalwedd fel gweinydd ffeiliau heb ryngwyneb graffigol."
+			},
+			"dataFormat": {
+				"title": "Fformat data y gellir ei ddarllen gan bobl",
+				"description": "Mae fformat data LISH wedi'i seilio ar JSON, sy'n ei wneud yn hawdd ei greu, ei ddarllen a'i ddeall. Rhannwch eich cynnwys gyda metadata clir, tryloyw y gall unrhyw un eu harchwilio'n hawdd."
+			},
+			"security": {
+				"title": "Preifatrwydd a diogelwch",
+				"description": "Mae pob cyfathrebu cymar-i-gymar wedi'i amgryptio, gan sicrhau bod eich data'n aros yn breifat yn ystod trosglwyddiad. Gall defnyddwyr guddio y tu ôl i VPN am haen ychwanegol o anhysbysrwydd. Mae {project} yn parchu eich preifatrwydd trwy gynllun."
+			},
+			"crossPlatform": {
+				"title": "Traws-lwyfan",
+				"description": "Mae'r meddalwedd ar gael ar gyfer llwyfannau Windows, Linux a macOS. Defnyddiwch ef ar unrhyw ddyfais a ddewiswch."
+			}
+		}
+	},
+	"download": {
+		"title": "Lawrlwytho",
+		"description": "Cael {project} ar gyfer eich llwyfan. Mae pob lawrlwythiad yn rhad ac am ddim ac yn ffynhonnell agored.",
+		"version": "Fersiwn cyfredol: {version}",
+		"linkAlt": "Lawrlwytho",
+		"platforms": {
+			"sourceCode": "Cod ffynhonnell"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-did",
+			"arm64": "ARM 64-did",
+			"universal": "Cyffredinol (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-did (Apple Silicon)",
+			"intel64": "Intel 64-did"
+		},
+		"items": {
+			"installer": "Gosodwr {format}",
+			"package": "Pecyn {format}",
+			"portableZip": "ZIP cludadwy",
+			"viewOnGithub": "Gweld ar GitHub"
+		},
+		"macos": {
+			"title": "Nodyn pwysig i ddefnyddwyr macOS:",
+			"intro": "Mae macOS Gatekeeper yn rhwystro apiau heb eu llofnodi / heb eu dilysu sydd wedi'u lawrlwytho o'r rhyngrwyd gyda gwall {error}.",
+			"error": "\"wedi'i ddifrodi ac ni ellir ei agor\"",
+			"runCommand": "Ar ôl lawrlwytho'r DMG neu ZIP, cyn agor yr ap, rhedwch yn y Terminal orchymyn o'r ffurf ganlynol:",
+			"exampleDmg": "Er enghraifft ar ôl gosod o'r DMG:",
+			"exampleZip": "Neu ar ôl tynnu'r ZIP:",
+			"explanation": "Mae'r gorchymyn hwn yn dileu'r briodwedd cwarantîn ac yn caniatáu i'r ap redeg."
+		}
+	},
+	"screenshots": {
+		"title": "Sgrinluniau",
+		"open": "Agor sgrinlun {index}",
+		"alt": "Sgrinlun {index}",
+		"close": "Cau'r oriel",
+		"prev": "Llun blaenorol",
+		"next": "Llun nesaf"
+	},
+	"comparison": {
+		"title": "Cymhariaeth",
+		"feature": "Nodwedd",
+		"yes": "ie",
+		"no": "na",
+		"partialDht": "Rhannol (DHT)",
+		"rows": {
+			"decentralized": "Rhwydwaith datganoledig",
+			"onlineLibrary": "Llyfrgell ar-lein",
+			"builtInSearch": "Chwiliad cynnwys integredig",
+			"decentralizedSearch": "Chwiliad cynnwys datganoledig",
+			"parallelDownloads": "Lawrlwythiadau paralel o ffynonellau lluosog",
+			"mediaCenter": "Rhyngwyneb canolfan gyfryngau",
+			"gamepad": "Cefnogaeth gamepad",
+			"openSource": "Cod agored"
+		}
+	},
+	"contact": {
+		"title": "Cyswllt",
+		"getInTouch": "Cysylltwch â ni",
+		"links": {
+			"telegramChat": "Grŵp sgwrs Telegram",
+			"telegramAnnouncements": "Cyhoeddiadau Telegram",
+			"facebook": "Grŵp Facebook"
+		}
+	},
+	"footer": {
+		"by": "gan"
+	}
+}

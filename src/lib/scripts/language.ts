@@ -46,6 +46,12 @@ import is from './langs/is.json';
 import az from './langs/az.json';
 import ka from './langs/ka.json';
 import hy from './langs/hy.json';
+import gl from './langs/gl.json';
+import sc from './langs/sc.json';
+import cy from './langs/cy.json';
+import eu from './langs/eu.json';
+import yi from './langs/yi.json';
+import he from './langs/he.json';
 export interface Language {
 	id: string;
 	label: string;
@@ -57,6 +63,7 @@ export const languages: Language[] = [
 	{ id: 'ar', label: 'Arabic', nativeLabel: 'العربية', flag: 'sa' },
 	{ id: 'hy', label: 'Armenian', nativeLabel: 'Հայերեն', flag: 'am' },
 	{ id: 'az', label: 'Azerbaijani', nativeLabel: 'Azərbaycanca', flag: 'az' },
+	{ id: 'eu', label: 'Basque', nativeLabel: 'Euskara', flag: 'es' },
 	{ id: 'be', label: 'Belarusian', nativeLabel: 'Беларуская', flag: 'by' },
 	{ id: 'bs', label: 'Bosnian', nativeLabel: 'Bosanski', flag: 'ba' },
 	{ id: 'bg', label: 'Bulgarian', nativeLabel: 'Български', flag: 'bg' },
@@ -70,9 +77,11 @@ export const languages: Language[] = [
 	{ id: 'et', label: 'Estonian', nativeLabel: 'Eesti', flag: 'ee' },
 	{ id: 'fi', label: 'Finnish', nativeLabel: 'Suomi', flag: 'fi' },
 	{ id: 'fr', label: 'French', nativeLabel: 'Français', flag: 'fr' },
+	{ id: 'gl', label: 'Galician', nativeLabel: 'Galego', flag: 'es' },
 	{ id: 'ka', label: 'Georgian', nativeLabel: 'ქართული', flag: 'ge' },
 	{ id: 'de', label: 'German', nativeLabel: 'Deutsch', flag: 'de' },
 	{ id: 'el', label: 'Greek', nativeLabel: 'Ελληνικά', flag: 'gr' },
+	{ id: 'he', label: 'Hebrew', nativeLabel: 'עברית', flag: 'il' },
 	{ id: 'hi', label: 'Hindi', nativeLabel: 'हिन्दी', flag: 'in' },
 	{ id: 'hu', label: 'Hungarian', nativeLabel: 'Magyar', flag: 'hu' },
 	{ id: 'is', label: 'Icelandic', nativeLabel: 'Íslenska', flag: 'is' },
@@ -91,6 +100,7 @@ export const languages: Language[] = [
 	{ id: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: 'pt' },
 	{ id: 'ro', label: 'Romanian', nativeLabel: 'Română', flag: 'ro' },
 	{ id: 'ru', label: 'Russian', nativeLabel: 'Русский', flag: 'ru' },
+	{ id: 'sc', label: 'Sardinian', nativeLabel: 'Sardu', flag: 'it' },
 	{ id: 'sr', label: 'Serbian', nativeLabel: 'Српски', flag: 'rs' },
 	{ id: 'sk', label: 'Slovak', nativeLabel: 'Slovenčina', flag: 'sk' },
 	{ id: 'sl', label: 'Slovenian', nativeLabel: 'Slovenščina', flag: 'si' },
@@ -100,12 +110,14 @@ export const languages: Language[] = [
 	{ id: 'tr', label: 'Turkish', nativeLabel: 'Türkçe', flag: 'tr' },
 	{ id: 'uk', label: 'Ukrainian', nativeLabel: 'Українська', flag: 'ua' },
 	{ id: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', flag: 'vn' },
+	{ id: 'cy', label: 'Welsh', nativeLabel: 'Cymraeg', flag: 'gb' },
+	{ id: 'yi', label: 'Yiddish', nativeLabel: 'ייִדיש', flag: 'il' },
 ];
 const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Bundled translation maps (statically imported so first render has data)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko };
+const langCache: Record<string, any> = { en, ga, cs, sk, de, nl, lb, fr, es, ca, it, mt, pt, pl, hu, ro, sl, hr, bs, sr, mk, sq, bg, el, uk, be, ru, lt, lv, et, fi, sv, no, da, is, tr, az, ka, hy, ar, hi, th, vi, id, zh, ja, ko, gl, sc, cy, eu, yi, he };
 
 // Pick the initial language synchronously so SSR/CSR first paint uses the right one.
 function pickInitialLanguage(): string {

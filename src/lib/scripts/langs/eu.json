@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Fitxategi partekatze deszentralizatua",
+		"description": "{project} fitxategi partekatzeko peer-to-peer software bat da, teknologia deszentralizatu modernoen gainean eraikia.",
+		"ogTitle": "{project} - Fitxategi partekatzeko software deszentralizatua",
+		"ogDescription": "Peer-to-peer fitxategi partekatzea teknologia deszentralizatu modernoen gainean eraikia. Zerbitzari zentralik gabe. Sare osoa eror dezakeen ezer ez."
+	},
+	"menu": {
+		"about": "Honi buruz",
+		"download": "Deskargatu",
+		"screenshots": "Pantaila-argazkiak",
+		"comparison": "Konparazioa",
+		"contact": "Kontaktua",
+		"toggle": "Aldatu menua",
+		"close": "Itxi menua",
+		"language": "Hizkuntza",
+		"selectLanguage": "Hautatu hizkuntza"
+	},
+	"hero": {
+		"subtitle": "Hurrengo belaunaldiko peer-to-peer fitxategi partekatzea",
+		"description": "Teknologia deszentralizatu modernoen gainean eraikia. Zerbitzari zentralik gabe. Sare osoa eror dezakeen ezer ez.",
+		"download": "Deskargatu"
+	},
+	"about": {
+		"title": "Honi buruz",
+		"intro": "{project} hurrengo belaunaldiko peer-to-peer fitxategi partekatzeko plataforma bat da, teknologia deszentralizatu modernoen gainean eraikia. Erabiltzaile-interfaze intuitiboa erabat deszentralizatutako arkitekturarekin konbinatzen du, datuak partekatzeko irtenbide segurua eta fidagarria eskainiz, edozein agintaritza zentraletatik independentea. Proiektua kode irekikoa da eta {license} lizentziapean banatzen da.",
+		"features": {
+			"decentralized": {
+				"title": "Erabat deszentralizatutako sarea",
+				"description": "Zerbitzari zentralik gabe, hutsegite-puntu bakarrik gabe. Erabiltzaileek edukia bilatzen eta deskargatzen dute zuzenean elkarrengandik, indexatzaile, jarraipen-tresna edo datu-base zentralizatuetan oinarritu gabe."
+			},
+			"accessControl": {
+				"title": "Sarbide-kontrol zehatza",
+				"description": "Edonork hasi dezake askatasunez bere sare propioa bere arauekin. Definitu erabiltzaile-rolak sare bakoitzaren barruan: jabeak, administratzaileak, argitaratzaileak, moderatzaileak eta deskargatzaileak. Kontrolatu zehazki nork argitara, moderatu eta deskargatu dezakeen edukia."
+			},
+			"ui": {
+				"title": "Lehen mailako erabiltzaile-interfazea",
+				"description": "Mahaigaineko, telebistako eta gailu mugikorretako plataformetarako diseinatutako multimedia-zentroaren interfaze garbia eta erabilerraza. Nabigatu arazorik gabe teklatu, sagu, gamepad edo urruneko kontrolarekin. Erabiltzaile aurreratuek komando-lerroko interfazea aprobetxa dezakete softwarea fitxategi-zerbitzari gisa exekutatzeko interfaze grafikorik gabe."
+			},
+			"dataFormat": {
+				"title": "Gizakiak irakurtzeko moduko datu-formatua",
+				"description": "LISH datu-formatua JSON-en oinarritzen da, sortzeko, irakurtzeko eta ulertzeko erraza eginez. Partekatu zure edukia metadatu argi eta gardenekin, edonork erraz azter ditzakeenak."
+			},
+			"security": {
+				"title": "Pribatutasuna eta segurtasuna",
+				"description": "Peer-to-peer komunikazio guztia zifratuta dago, zure datuak transferentzian zehar pribatuak izaten jarraitzen dutela ziurtatuz. Erabiltzaileak VPN baten atzean ezkutatu daitezke anonimotasun-geruza gehigarri baterako. {project} zure pribatutasuna errespetatzen du diseinuz."
+			},
+			"crossPlatform": {
+				"title": "Plataforma anitzekoa",
+				"description": "Softwarea Windows, Linux eta macOS plataformetarako eskuragarri dago. Erabili nahi duzun edozein gailuan."
+			}
+		}
+	},
+	"download": {
+		"title": "Deskargatu",
+		"description": "Lortu {project} zure plataformarako. Deskarga guztiak doakoak eta kode irekikoak dira.",
+		"version": "Uneko bertsioa: {version}",
+		"linkAlt": "Deskargatu",
+		"platforms": {
+			"sourceCode": "Iturburu-kodea"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Unibertsala (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "{format} instalatzailea",
+			"package": "{format} paketea",
+			"portableZip": "ZIP eramangarria",
+			"viewOnGithub": "Ikusi GitHub-en"
+		},
+		"macos": {
+			"title": "Ohar garrantzitsua macOS erabiltzaileentzat:",
+			"intro": "macOS Gatekeeper-ek internetetik deskargatutako sinatu gabeko / autentifikatu gabeko aplikazioak blokeatzen ditu {error} errorearekin.",
+			"error": "\"hondatuta dago eta ezin da ireki\"",
+			"runCommand": "DMG edo ZIP deskargatu ondoren, aplikazioa ireki aurretik, exekutatu Terminal-ean ondoko formako komandoa:",
+			"exampleDmg": "Adibidez DMG-tik instalatu ondoren:",
+			"exampleZip": "Edo ZIP atera ondoren:",
+			"explanation": "Komando honek koarentena-atributua kentzen du eta aplikazioari exekutatzea baimentzen dio."
+		}
+	},
+	"screenshots": {
+		"title": "Pantaila-argazkiak",
+		"open": "Ireki {index} pantaila-argazkia",
+		"alt": "Pantaila-argazkia {index}",
+		"close": "Itxi galeria",
+		"prev": "Aurreko irudia",
+		"next": "Hurrengo irudia"
+	},
+	"comparison": {
+		"title": "Konparazioa",
+		"feature": "Ezaugarria",
+		"yes": "bai",
+		"no": "ez",
+		"partialDht": "Partziala (DHT)",
+		"rows": {
+			"decentralized": "Sare deszentralizatua",
+			"onlineLibrary": "Lineako liburutegia",
+			"builtInSearch": "Edukien bilaketa integratua",
+			"decentralizedSearch": "Edukien bilaketa deszentralizatua",
+			"parallelDownloads": "Iturri anitzetatik deskarga paraleloak",
+			"mediaCenter": "Multimedia-zentroaren interfazea",
+			"gamepad": "Gamepad euskarria",
+			"openSource": "Kode irekia"
+		}
+	},
+	"contact": {
+		"title": "Kontaktua",
+		"getInTouch": "Jarri harremanetan",
+		"links": {
+			"telegramChat": "Telegram txat-taldea",
+			"telegramAnnouncements": "Telegram iragarpenak",
+			"facebook": "Facebook taldea"
+		}
+	},
+	"footer": {
+		"by": "egilea"
+	}
+}

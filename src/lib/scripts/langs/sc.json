@@ -1,0 +1,122 @@
+{
+	"site": {
+		"title": "{project} - Cumpartzidura de archìvios decentralizada",
+		"description": "{project} est unu software peer-to-peer pro sa cumpartzidura de archìvios, fraigadu subra de tecnologias decentralizadas modernas.",
+		"ogTitle": "{project} - Software decentralizadu pro sa cumpartzidura de archìvios",
+		"ogDescription": "Cumpartzidura de archìvios peer-to-peer fraigada subra de tecnologias decentralizadas modernas. Chentza serbidores tzentrales. Nudda chi potzat fàghere ruere totu sa rete."
+	},
+	"menu": {
+		"about": "Subra",
+		"download": "Iscarrigamentu",
+		"screenshots": "Immàgines de pantalla",
+		"comparison": "Cunfrontu",
+		"contact": "Cuntatu",
+		"toggle": "Càmbia menù",
+		"close": "Serra menù",
+		"language": "Limba",
+		"selectLanguage": "Seletziona limba"
+	},
+	"hero": {
+		"subtitle": "Cumpartzidura de archìvios peer-to-peer de noa generatzione",
+		"description": "Fraigada subra de tecnologias decentralizadas modernas. Chentza serbidores tzentrales. Nudda chi potzat fàghere ruere totu sa rete.",
+		"download": "Iscàrriga"
+	},
+	"about": {
+		"title": "Subra",
+		"intro": "{project} est una piataforma peer-to-peer de noa generatzione pro sa cumpartzidura de archìvios, fraigada subra de tecnologias decentralizadas modernas. Cumbinat un'interfache de impreadore intuitiva cun un'architetura cumpletamente decentralizada, ofrende una solutzione segura e fidada pro sa cumpartzidura de datos, indipendente dae cale si siat autoridade tzentrale. Su progetu est a còdighe abertu e si distribuit sutta sa litzèntzia {license}.",
+		"features": {
+			"decentralized": {
+				"title": "Rete cumpletamente decentralizada",
+				"description": "Chentza serbidores tzentrales, chentza unu puntu ùnicu de faddina. Sos impreadores chircant e iscàrrigant cuntenutos deretamente s'unu dae s'àteru, chentza dipèndere dae indicadores, trackers o basi de datos tzentralizadas."
+			},
+			"accessControl": {
+				"title": "Controllu de atzessu detalladu",
+				"description": "Calesisiat podet incumintzare lìberamente sa rete sua cun sas regulas suas. Definit ruoli de impreadore intro de onni rete: propietàrios, amministradores, publitzadores, moderadores e iscarrigadores. Controlla pretzisamente chie podet publicare, moderare e iscarrigare cuntenutos."
+			},
+			"ui": {
+				"title": "Interfache de impreadore de primu livellu",
+				"description": "Un'interfache limpa e fàtzile de impreare de tzentru multimediale progetada pro piataformas desktop, TV e mòbiles. Navega chentza problemas cun tastiera, sòrighe, gamepad o telecumandu. Sos impreadores avantzados podent impreare s'interfache de lìnia de cumandu pro fàghere girare su software comente serbidore de archìvios chentza interfache gràfica."
+			},
+			"dataFormat": {
+				"title": "Formadu de datos legìbile dae sos òmines",
+				"description": "Su formadu de datos LISH si fundat subra de JSON, su chi lu faghet fàtzile a creare, lèghere e cumprèndere. Cumpartzi su cuntenutu tuo cun metadatos craros e transparentes chi calesisiat podet ispetzionare cun lestresa."
+			},
+			"security": {
+				"title": "Privatesa e seguràntzia",
+				"description": "Totu sa comunicatzione peer-to-peer est tzifrada, assegurende chi sos datos tuos abarrent privados durante su trasferimentu. Sos impreadores podent si cuare in segus de una VPN pro un'istratu agiuntivu de anonimadu. {project} rispetat sa privatesa tua pro progetu."
+			},
+			"crossPlatform": {
+				"title": "Multipiataforma",
+				"description": "Su software est a disponimentu pro sas piataformas Windows, Linux e macOS. Imprea·lu in cale si siat aparàtu chi prefereres."
+			}
+		}
+	},
+	"download": {
+		"title": "Iscarrigamentu",
+		"description": "Otene {project} pro sa piataforma tua. Totu sos iscarrigamentos sunt gratuitos e a còdighe abertu.",
+		"version": "Versione atuale: {version}",
+		"linkAlt": "Iscàrriga",
+		"platforms": {
+			"sourceCode": "Còdighe fonte"
+		},
+		"archs": {
+			"intelAmd64": "Intel/AMD 64-bit",
+			"arm64": "ARM 64-bit",
+			"universal": "Universale (Apple Silicon + Intel)",
+			"appleSilicon": "ARM 64-bit (Apple Silicon)",
+			"intel64": "Intel 64-bit"
+		},
+		"items": {
+			"installer": "Installadore {format}",
+			"package": "Pachete {format}",
+			"portableZip": "ZIP portàbile",
+			"viewOnGithub": "Càstia in GitHub"
+		},
+		"macos": {
+			"title": "Nota importante pro impreadores macOS:",
+			"intro": "macOS Gatekeeper blocat sas aplicatziones non firmadas / non autenticadas iscarrigadas dae internet cun un'errore {error}.",
+			"error": "\"est dannada e non si podet abèrrere\"",
+			"runCommand": "A pustis de iscarrigare su DMG o ZIP, in antis de abèrrere s'aplicatzione, faghe girare in su Terminal unu cumandu de sa forma sighente:",
+			"exampleDmg": "Pro esèmpiu a pustis de installare dae su DMG:",
+			"exampleZip": "O a pustis de istratzare su ZIP:",
+			"explanation": "Custu cumandu eliminat s'atributu de cuarantena e permitit a s'aplicatzione de girare."
+		}
+	},
+	"screenshots": {
+		"title": "Immàgines de pantalla",
+		"open": "Aberi immàgine {index}",
+		"alt": "Immàgine de pantalla {index}",
+		"close": "Serra galleria",
+		"prev": "Immàgine pretzedente",
+		"next": "Immàgine sighente"
+	},
+	"comparison": {
+		"title": "Cunfrontu",
+		"feature": "Caraterìstica",
+		"yes": "eja",
+		"no": "no",
+		"partialDht": "Partziale (DHT)",
+		"rows": {
+			"decentralized": "Rete decentralizada",
+			"onlineLibrary": "Biblioteca online",
+			"builtInSearch": "Chirca de cuntenutos integrada",
+			"decentralizedSearch": "Chirca de cuntenutos decentralizada",
+			"parallelDownloads": "Iscarrigamentos paralelos dae prus fontes",
+			"mediaCenter": "Interfache de tzentru multimediale",
+			"gamepad": "Suportu pro gamepad",
+			"openSource": "Còdighe abertu"
+		}
+	},
+	"contact": {
+		"title": "Cuntatu",
+		"getInTouch": "Pone·ti in cuntatu",
+		"links": {
+			"telegramChat": "Grupu de chat de Telegram",
+			"telegramAnnouncements": "Annùntzios de Telegram",
+			"facebook": "Grupu de Facebook"
+		}
+	},
+	"footer": {
+		"by": "dae"
+	}
+}
