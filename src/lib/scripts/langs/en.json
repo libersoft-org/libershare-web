@@ -1,8 +1,8 @@
 {
 	"site": {
-		"title": "{project} — Decentralized File Sharing",
+		"title": "{project} - Decentralized File Sharing",
 		"description": "{project} is a peer-to-peer file sharing software built on modern decentralized technologies.",
-		"ogTitle": "{project} — Decentralized file sharing software",
+		"ogTitle": "{project} - Decentralized file sharing software",
 		"ogDescription": "Peer-to-peer file sharing built on modern decentralized technologies. No central servers. No single point of failure."
 	},
 	"menu": {
@@ -28,7 +28,7 @@
 		"features": {
 			"decentralized": {
 				"title": "Fully decentralized network",
-				"description": "No central servers, no single point of failure. Each network maintains its own decentralized database of shared content. Users automatically update and store the latest version and replicate it among themselves. Browse and discover content within your network without relying on centralized indexers or trackers."
+				"description": "No central servers, no single point of failure. Users search for and download content directly between themselves, without relying on centralized indexers, trackers, or databases."
 			},
 			"accessControl": {
 				"title": "Fine-grained access control",
@@ -36,7 +36,7 @@
 			},
 			"ui": {
 				"title": "Top-notch user interface",
-				"description": "A stunning media center user interface designed for desktop, TV and mobile platforms. Navigate seamlessly with keyboard, mouse, gamepad, or remote control. Power users can leverage a command line interface for running the software as a headless file server."
+				"description": "A clean and user-friendly media center user interface designed for desktop, TV and mobile platforms. Navigate seamlessly with keyboard, mouse, gamepad, or remote control. Power users can leverage a command line interface for running the software as a headless file server."
 			},
 			"dataFormat": {
 				"title": "Human-readable data format",
@@ -48,7 +48,7 @@
 			},
 			"crossPlatform": {
 				"title": "Cross-platform",
-				"description": "Available for Windows, Linux and macOS. Use it on any device you prefer."
+				"description": "The software is available for Windows, Linux and macOS platforms. Use it on any device you prefer."
 			}
 		}
 	},
@@ -78,7 +78,7 @@
 			"title": "Important note for macOS users:",
 			"intro": "macOS Gatekeeper blocks unsigned / non-notarized apps downloaded from the internet with a {error} error.",
 			"error": "\"is damaged and can't be opened\"",
-			"runCommand": "After downloading the DMG or ZIP, run this command in Terminal before opening the app:",
+			"runCommand": "After downloading the DMG or ZIP, run a command in Terminal in the following form before opening the app:",
 			"exampleDmg": "For example, after installing from DMG:",
 			"exampleZip": "Or after extracting the ZIP:",
 			"explanation": "This removes the quarantine attribute and allows the app to run."

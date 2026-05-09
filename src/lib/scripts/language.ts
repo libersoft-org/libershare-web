@@ -24,7 +24,7 @@ function pickInitialLanguage(): string {
 		const saved = window.localStorage.getItem(STORAGE_KEY);
 		if (saved && languages.some(l => l.id === saved)) return saved;
 	} catch {
-		// localStorage may be unavailable (private mode, etc.) — fall through.
+		// localStorage may be unavailable (private mode, etc.) - fall through.
 	}
 	const nav = window.navigator?.language?.toLowerCase() ?? '';
 	const code = nav.split('-')[0];
@@ -44,7 +44,7 @@ function getNestedValue(obj: any, path: string): string | undefined {
 	return typeof result === 'string' ? result : undefined;
 }
 
-// Reactive translation function — use as $t('common.back') or $t('key', { name: 'foo' }) in components.
+// Reactive translation function - use as $t('common.back') or $t('key', { name: 'foo' }) in components.
 // Returns the translation value or '{key}' fallback if missing.
 // When vars are provided, replaces {placeholder} tokens with values.
 export const t: Readable<(key: string, vars?: Record<string, string>) => string> = derived(translations, $translations => {
@@ -54,7 +54,7 @@ export const t: Readable<(key: string, vars?: Record<string, string>) => string>
 	};
 });
 
-// Function for translations outside components — use as tt('common.back') or tt('key', { name: 'foo' })
+// Function for translations outside components - use as tt('common.back') or tt('key', { name: 'foo' })
 export function tt(key: string, vars?: Record<string, string>): string {
 	const current = get(translations);
 	const text = getNestedValue(current, key) ?? `{${key}}`;

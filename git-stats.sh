@@ -1,5 +1,5 @@
 #!/bin/bash
-# Git daily stats — lines added / removed / net per day + total summary
+# Git daily stats - lines added / removed / net per day + total summary
 
 echo ""
 echo "=== Git Daily Stats ==="

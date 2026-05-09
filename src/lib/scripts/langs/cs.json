@@ -1,9 +1,9 @@
 {
 	"site": {
-		"title": "{project} — Decentralizované sdílení souborů",
+		"title": "{project} - Decentralizované sdílení souborů",
 		"description": "{project} je software pro peer-to-peer sdílení souborů postavený na moderních decentralizovaných technologiích.",
-		"ogTitle": "{project} — Decentralizovaný software pro sdílení souborů",
-		"ogDescription": "Peer-to-peer sdílení souborů postavené na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání."
+		"ogTitle": "{project} - Decentralizovaný software pro sdílení souborů",
+		"ogDescription": "Peer-to-peer sdílení souborů postavené na moderních decentralizovaných technologiích. Žádné centrální servery. Nic, co by mohlo položit celou síť."
 	},
 	"menu": {
 		"about": "O projektu",
@@ -18,7 +18,7 @@
 	},
 	"hero": {
 		"subtitle": "Nová generace peer-to-peer sdílení souborů",
-		"description": "Postaveno na moderních decentralizovaných technologiích. Žádné centrální servery. Žádný jediný bod selhání.",
+		"description": "Postaveno na moderních decentralizovaných technologiích. Žádné centrální servery. Nic, co by mohlo položit celou síť.",
 		"download": "Stáhnout"
 	},
 	"about": {
@@ -28,7 +28,7 @@
 		"features": {
 			"decentralized": {
 				"title": "Plně decentralizovaná síť",
-				"description": "Žádné centrální servery, žádný jediný bod selhání. Každá síť spravuje vlastní decentralizovanou databázi sdíleného obsahu. Uživatelé automaticky stahují a uchovávají nejnovější verzi a replikují ji mezi sebou. Procházejte a objevujte obsah ve své síti bez závislosti na centralizovaných indexerech nebo trackerech."
+				"description": "Žádné centrální servery, žádné slabé místo, které by mohlo položit celou síť. Uživatelé vyhledávají a stahují obsah přímo mezi sebou, bez závislosti na centralizovaných indexerech, trackerech nebo databázích."
 			},
 			"accessControl": {
 				"title": "Detailní řízení přístupu",
@@ -36,7 +36,7 @@
 			},
 			"ui": {
 				"title": "Špičkové uživatelské rozhraní",
-				"description": "Úchvatné rozhraní mediálního centra navržené pro desktop, TV i mobilní platformy. Bezproblémově ovládejte klávesnicí, myší, gamepadem nebo dálkovým ovladačem. Pokročilí uživatelé mohou využít rozhraní příkazové řádky a software provozovat jako bezhlavý souborový server."
+				"description": "Přehledné a uživatelsky přívětivé rozhraní mediálního centra navržené pro desktop, TV i mobilní platformy. Bezproblémově ovládejte klávesnicí, myší, gamepadem nebo dálkovým ovladačem. Pokročilí uživatelé mohou využít rozhraní příkazové řádky a software provozovat jako souborový server bez grafického rozhraní."
 			},
 			"dataFormat": {
 				"title": "Datový formát čitelný pro člověka",
@@ -48,7 +48,7 @@
 			},
 			"crossPlatform": {
 				"title": "Multiplatformní",
-				"description": "K dispozici pro Windows, Linux a macOS. Používejte na libovolném zařízení."
+				"description": "Software je k dispozici pro platformy Windows, Linux i macOS. Používejte jej na libovolném zařízení."
 			}
 		}
 	},
@@ -78,7 +78,7 @@
 			"title": "Důležitá poznámka pro uživatele macOS:",
 			"intro": "macOS Gatekeeper blokuje nepodepsané / neověřené aplikace stažené z internetu chybou {error}.",
 			"error": "\"je poškozen a nelze jej otevřít\"",
-			"runCommand": "Po stažení DMG nebo ZIP spusťte před otevřením aplikace v Terminálu tento příkaz:",
+			"runCommand": "Po stažení DMG nebo ZIP spusťte před otevřením aplikace v Terminálu příkaz ve tvaru:",
 			"exampleDmg": "Například po instalaci z DMG:",
 			"exampleZip": "Nebo po rozbalení ZIPu:",
 			"explanation": "Tento příkaz odstraní karanténní atribut a umožní spuštění aplikace."
