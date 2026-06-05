@@ -1,4 +1,9 @@
 import { writable, derived, get, type Readable } from 'svelte/store';
+// Default-language translations bundled statically so they are available during
+// prerender/SSR (the runtime fetch in loadLanguage() only runs in the browser).
+// Without this the prerendered <head> meta tags emit literal '{site.*}' fallbacks,
+// which crawlers (e.g. Facebook OG) then scrape verbatim.
+import enTranslations from '../../../static/langs/en.json';
 
 export interface Language {
 	id: string;
@@ -280,8 +285,9 @@ export const languages: Language[] = [
 const STORAGE_KEY = 'language';
 const DEFAULT_LANGUAGE = 'en';
 // Translations are fetched at runtime from /langs/<id>.json and memoized here.
+// The default language is seeded so it is available synchronously (prerender + fallback).
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const langCache: Record<string, any> = {};
+const langCache: Record<string, any> = { [DEFAULT_LANGUAGE]: enTranslations };
 // Tracks in-flight requests so concurrent calls share one promise.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const langPromises: Record<string, Promise<any>> = {};
@@ -326,10 +332,11 @@ function pickInitialLanguage(): string {
 
 export const currentLanguage = writable<string>(pickInitialLanguage());
 
-// Translations start empty and are populated by initLanguages() / setLanguage().
-// Until then, t() returns '{key}' placeholders (the splash screen covers this phase).
+// Seeded with the default language so the first render (and prerender) resolves real
+// strings instead of '{key}' placeholders; initLanguages()/setLanguage() swap in the
+// user's target language on the client.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const translations = writable<any>({});
+export const translations = writable<any>(enTranslations);
 
 // Helper function to get nested value from object by path
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
