@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { t } from '$lib/scripts/language.ts';
 	import { PROJECT_NAME, PROJECT_URL } from '$lib/scripts/project.ts';
+	import { structuredDataScript } from '$lib/scripts/structuredData.ts';
 	import Hero from '$lib/sections/Hero.svelte';
 	import About from '$lib/sections/About.svelte';
 	import Screenshots from '$lib/sections/Screenshots.svelte';
@@ -24,6 +25,8 @@
 	<meta name="twitter:title" content={$t('site.ogTitle', { project: PROJECT_NAME })} />
 	<meta name="twitter:description" content={$t('site.ogDescription')} />
 	<meta name="twitter:image" content="{PROJECT_URL}/favicon.svg" />
+	<!-- Structured data (schema.org JSON-LD) -->
+	{@html structuredDataScript}
 </svelte:head>
 <!-- Toplist -->
 <a href="https://www.toplist.cz/stat/1841253/" id="toplistcz1841253" title="TOPlist">
